@@ -1,2 +1,2 @@
 # SigiDoc_Latest
-Latest SigiDoc Stylesheet AS - MF - MC
+Latest SigiDoc Source Code AS - MF
