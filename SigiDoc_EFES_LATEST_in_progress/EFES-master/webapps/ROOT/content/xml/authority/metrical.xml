@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-09 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of metrical legends in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="metrical">
+                <item xml:id="dodecasyllabicTrue">
+                    <term xml:lang="grc">Dodecasyllable (real)</term>
+                    <term xml:lang="en">Dodecasyllable (real)</term>
+                    <term xml:lang="fr">Dodécasyllabe (réel)</term>
+                    <term xml:lang="it">Dodecasillabo (vero)</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="dodecasyllabicFalse">
+                    <term xml:lang="grc">Dodecasyllable (false)</term>
+                    <term xml:lang="en">Dodecasyllable (false)</term>
+                    <term xml:lang="fr">Dodécasyllabe (faux)</term>
+                    <term xml:lang="it">Dodecasillabo (falso)</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="">
+                    <term xml:lang="grc"></term>
+                    <term xml:lang="en"></term>
+                    <term xml:lang="fr"></term>
+                    <term xml:lang="it"></term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

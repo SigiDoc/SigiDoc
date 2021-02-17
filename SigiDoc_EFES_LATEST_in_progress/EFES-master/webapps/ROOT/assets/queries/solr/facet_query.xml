@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query q_fields="document_type" range_fields="origin_date">
+  <df default="true">text</df>
+  <q default="true">*</q>
+  <document_type>(tei or epidoc)</document_type>
+  <facet>true</facet>
+  <!-- <facet.field>found_provenance</facet.field>
+  <facet.field>origin_place</facet.field>
+  <facet.field>source_repository</facet.field>
+  <facet.field>support_material</facet.field>
+  <facet.field>support_object_type</facet.field>
+  <facet.field>origin_date_evidence</facet.field> -->
+  <!--<facet.field>sigidoc_id_number</facet.field>-->
+  <facet.field>personal_names</facet.field>
+  <facet.field>place_names</facet.field>
+  <facet.field>dignities</facet.field>
+  <facet.field>civil_offices</facet.field>
+  <facet.field>ecclesiastical_offices</facet.field>
+  <facet.field>military_offices</facet.field>
+  <facet.field>titles</facet.field>
+  <facet.field>marian_terms</facet.field>
+  <facet.field>christ-related_terms</facet.field>
+  <facet.field>saints-related_terms</facet.field>
+  <facet.field>iconography</facet.field>
+  <facet.limit>-1</facet.limit>
+  <facet.mincount>1</facet.mincount>
+  <!-- facet.sort's value may be either "index" (alphabetic order of
+       value) or "count" (numeric order of count). -->
+  <facet.sort>index</facet.sort>
+  <!-- The number of rows returned by Solr at once (that is the number
+       displayed per page of results). -->
+  <rows default="true">20</rows>
+</query>

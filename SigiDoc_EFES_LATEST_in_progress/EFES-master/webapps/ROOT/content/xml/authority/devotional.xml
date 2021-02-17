@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 20-11-2018 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of devotional terms in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="devotional">
+        <item xml:id="δοῦλος">
+            <term xml:lang="grc">δοῦλος</term>
+            <term xml:lang="en">servant</term>
+            <term xml:lang="fr">serviteur</term>
+            <term xml:lang="it">servitore</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="ἐλάχιστος">
+            <term xml:lang="grc">ἐλάχιστος</term>
+            <term xml:lang="en">the least</term><!-- ??????????????????????????? -->
+            <term xml:lang="fr">le minime</term>
+            <term xml:lang="it">il minimo</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>

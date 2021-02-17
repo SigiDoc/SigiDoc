@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-09 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of divinities in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="divinities">
+        <item xml:id="Θεός">
+            <term xml:lang="grc">Θεός</term>
+            <term xml:lang="en">Θεός</term>
+            <!--<term xml:lang="en">God</term>-->
+            <term xml:lang="fr">Dieu</term>
+            <term xml:lang="it">Dio</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="Κύριος">
+            <term xml:lang="grc">Κύριος</term>
+            <term xml:lang="en">Κύριος</term>
+            <!--<term xml:lang="en">Lord</term>-->
+            <term xml:lang="fr">Seigneur</term>
+            <term xml:lang="it">Signore</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="Σωτήρ">
+            <term xml:lang="grc">Σωτήρ</term>
+            <term xml:lang="en">Σωτήρ</term>
+            <!--<term xml:lang="en">Saviour</term>-->
+            <term xml:lang="fr">Sauveur</term>
+            <term xml:lang="it">Salvatore</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>

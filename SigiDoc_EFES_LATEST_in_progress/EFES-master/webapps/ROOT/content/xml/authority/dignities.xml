@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-08 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of dignities in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="dignities">
+        <item xml:id="ἀνθύπατος">
+            <term xml:lang="grc">ἀνθύπατος</term>
+            <term xml:lang="en">ἀνθύπατος</term>
+            <!--<term xml:lang="en">anthypatos</term>-->
+            <term xml:lang="fr">anthypatos</term>
+            <term xml:lang="it">anthypatos</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="βεστάρχης">
+            <term xml:lang="grc">βεστάρχης</term>
+            <term xml:lang="en">βεστάρχης</term>
+            <!--<term xml:lang="en">vestarches</term>-->
+            <term xml:lang="fr">vestarque</term>
+            <term xml:lang="it">vestarca</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="βέστης">
+            <term xml:lang="grc">βέστης</term>
+            <term xml:lang="en">βέστης</term>
+            <!--<term xml:lang="en">vestes</term>-->
+            <term xml:lang="fr">vestès</term>
+            <term xml:lang="it"></term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="ἰλλούστριος">
+            <term xml:lang="grc">ἰλλούστριος</term>
+            <term xml:lang="en">ἰλλούστριος</term>
+            <!--<term xml:lang="en">illoustrios</term>-->
+            <term xml:lang="fr">illoustrios</term>
+            <term xml:lang="it">illustre</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="κόμης">
+            <term xml:lang="grc">κόμης</term>
+            <term xml:lang="en">κόμης</term>
+            <!--<term xml:lang="en">komes</term>-->
+            <term xml:lang="fr">komès</term>
+            <term xml:lang="it"></term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="κουροπαλάτισσα">
+            <term xml:lang="grc">κουροπαλάτισσα</term>
+            <term xml:lang="en">κουροπαλάτισσα</term>
+            <!--<term xml:lang="en">kouropalatissa</term>-->
+            <term xml:lang="fr">kouropalatissa</term>
+            <term xml:lang="it">curopalatissa</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="μάγιστρος">
+            <term xml:lang="grc">μάγιστρος</term>
+            <term xml:lang="en">μάγιστρος</term>
+            <!--<term xml:lang="en">magistros</term>-->
+            <term xml:lang="fr">magistre</term>
+            <term xml:lang="it">magistro</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="ὀστιάριος_β">
+            <term xml:lang="grc">ὀστιάριος, βασιλικός</term>
+            <term xml:lang="en">ὀστιάριος, βασιλικός</term>
+            <!--<term xml:lang="en">ostiarios, imperial</term>-->
+            <term xml:lang="fr">ostiaire impérial</term>
+            <term xml:lang="it">ostiario imperiale</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πατρίκιος">
+            <term xml:lang="grc">πατρίκιος </term>
+            <term xml:lang="en">πατρίκιος </term>
+            <!--<term xml:lang="en">patrikios</term>-->
+            <term xml:lang="fr">patrice</term>
+            <term xml:lang="it">patrizio</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πρόεδρος">
+            <term xml:lang="grc">πρόεδρος</term>
+            <term xml:lang="en">πρόεδρος</term>
+            <!--<term xml:lang="en">proedros</term>-->
+            <term xml:lang="fr">proèdre</term>
+            <term xml:lang="it">proedro</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πρωτοβέστης">
+            <term xml:lang="grc">πρωτοβέστης</term>
+            <term xml:lang="en">πρωτοβέστης</term>
+            <!--<term xml:lang="en">protovestes</term>-->
+            <term xml:lang="fr">protovestès</term>
+            <term xml:lang="it"></term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πρωτονωβελίσσιμος">
+            <term xml:lang="grc">πρωτονωβελίσσιμος</term>
+            <term xml:lang="en">πρωτονωβελίσσιμος</term>
+            <!--<term xml:lang="en">protonobelissimos</term>-->
+            <term xml:lang="fr">protonobélissime</term>
+            <term xml:lang="it">protonobilissimo</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="protonobilissimus_imperialis">
+            <term xml:lang="grc">protonobilissimus, imperialis</term>
+            <term xml:lang="en">protonobilissimus, imperialis</term>
+            <term xml:lang="la">protonobilissimus, imperialis</term>
+            <!--<term xml:lang="en">protonobelissimos, imperial</term>-->
+            <term xml:lang="fr">protonobélissime impérial</term>
+            <term xml:lang="it">protonobilissimo imperiale</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πρωτοπρόεδρος">
+            <term xml:lang="grc">πρωτοπρόεδρος</term>
+            <term xml:lang="en">πρωτοπρόεδρος</term>
+            <!--<term xml:lang="en">protoproedros</term>-->
+            <term xml:lang="fr">protoproèdre</term>
+            <term xml:lang="it">protoproedro</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πρωτοσπαθάριος">
+            <term xml:lang="grc">πρωτοσπαθάριος</term>
+            <term xml:lang="en">πρωτοσπαθάριος</term>
+            <!--<term xml:lang="en">protospatharios</term>-->
+            <term xml:lang="fr">protospathaire</term>
+            <term xml:lang="it">protospatario</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="πρωτοσπαθάριος_β">
+            <term xml:lang="grc">πρωτοσπαθάριος, βασιλικός</term>
+            <term xml:lang="en">πρωτοσπαθάριος, βασιλικός</term>
+            <!--<term xml:lang="en">protospatharios, imperial</term>-->
+            <term xml:lang="fr">protospathaire impérial</term>
+            <term xml:lang="it">protospatario imperiale</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="σπαθαροκανδιδᾶτος_β">
+            <term xml:lang="grc">σπαθαροκανδιδᾶτος, βασιλικός</term>
+            <term xml:lang="en">σπαθαροκανδιδᾶτος, βασιλικός</term>
+            <!--<term xml:lang="en">spatharokandidatos, imperial</term>-->
+            <term xml:lang="fr">spatharocandidat impérial</term>
+            <term xml:lang="it">spatarocandidato imperiale</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="σεβαστός">
+            <term xml:lang="grc">σεβαστός</term>
+            <term xml:lang="en">σεβαστός</term>
+            <!--<term xml:lang="en">sebastos</term>-->
+            <term xml:lang="fr">sébaste</term>
+            <term xml:lang="it">sebaste</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="ὕπατος">
+            <term xml:lang="grc">ὕπατος</term>
+            <term xml:lang="en">ὕπατος</term>
+            <!--<term xml:lang="en">hypatos</term>-->
+            <term xml:lang="fr">hypatos</term>
+            <term xml:lang="it">ipato</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>

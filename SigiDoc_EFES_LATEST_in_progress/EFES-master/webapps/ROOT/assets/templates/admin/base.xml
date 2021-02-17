@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- Imports the default variables. -->
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/defaults.xsl" />
+
+  <!-- Imports the menu stylesheet -->
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/menu/menu.xsl" />
+
+  <xsl:import href="cocoon://_internal/url/reverse.xsl" />
+
+  <kiln:block name="html">
+    <html class="no-js">
+      <kiln:block name="head">
+        <head>
+          <meta name="viewport" content="width=device-width" />
+          <title><kiln:block name="title">EFES admin: </kiln:block></title>
+          <kiln:block name="js">
+            <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
+            <script src="{$kiln:assets-path}/scripts/admin.js">&#160;</script>
+          </kiln:block>
+          <kiln:block name="css">
+            <link href="{$kiln:assets-path}/foundation/css/normalize.css"
+                  rel="stylesheet" />
+            <link href="{$kiln:assets-path}/foundation/css/foundation.min.css"
+                  rel="stylesheet" />
+            <link href="{$kiln:assets-path}/styles/admin.css"
+                  rel="stylesheet" />
+          </kiln:block>
+          <kiln:block name="head-extra"></kiln:block>
+        </head>
+      </kiln:block>
+      <kiln:block name="body">
+        <body>
+          <kiln:block name="top-bar">
+            <nav class="top-bar">
+              <ul class="title-area">
+                <li class="name">
+                  <h1><a href="{kiln:url-for-match('local-admin-home-page', (), 0)}">EFES Admin</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon">
+                  <a href="#"><span>Menu</span></a>
+                </li>
+              </ul>
+              <section class="top-bar-section">
+                <ul class="left">
+                  <xsl:apply-templates mode="main-menu"
+                                       select="/aggregation/kiln:nav" />
+                </ul>
+                <ul class="right">
+                  <li><a href="{kiln:url-for-match('local-home-page', (), 0)}">Site Home</a></li>
+                </ul>
+              </section>
+            </nav>
+          </kiln:block>
+          <header class="row">
+            <div class="large-12 columns">
+              <kiln:block name="header"></kiln:block>
+            </div>
+          </header>
+          <main>
+            <kiln:block name="content"></kiln:block>
+          </main>
+          <footer>
+            <kiln:block name="footer">
+              <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a></p>
+              <p>Theme by <a href="http://foundation.zurb.com/">Foundation</a></p>
+            </kiln:block>
+          </footer>
+          <kiln:block name="end-js">
+            <!-- Since we make use of jQuery for other purposes, there
+                 is no reason to use Foundation's check whether to use
+                 jQuery or Zepto. -->
+            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" />
+            <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" />
+            <script>$(document).foundation();</script>
+          </kiln:block>
+        </body>
+      </kiln:block>
+    </html>
+  </kiln:block>
+
+</kiln:root>

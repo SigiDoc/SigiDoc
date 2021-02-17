@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+  <!-- Local sitemap for Solr indexing. -->
+
+  <map:pipelines>
+    <map:pipeline id="local-solr">
+      <!-- List links to all index URLs for the site. Note that the
+           URL matched here is referenced by the Ant build task used
+           for performing the recursive crawl to actual perform the
+           indexing, so do not change it! -->
+      <map:match id="local-solr-site-list"
+                 pattern="index/site-list.html">
+        <map:generate src="cocoon://_internal/dirlist/content/xml.xml" />
+        <map:transform src="../stylesheets/admin/xml-dirs-to-index-list-html.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Indexing. -->
+
+      <!-- Index all TEI/EpiDoc content in a single (user) request.
+
+           For efficiency reasons, delete the whole index first
+           (obviously a bad idea if the index also contains material
+           harvested from non-TEI sources!), then add each document
+           via an XInclude. -->
+      <map:match id="local-solr-index-all" pattern="index/all.html">
+        <map:aggregate element="aggregation">
+          <map:part element="delete"
+                    src="cocoon://_internal/solr/delete-all" />
+          <map:part element="insert" src="cocoon:/add/tei/" />
+          <map:part element="insert" src="cocoon:/add/epidoc/" />
+          <map:part element="insert" src="cocoon:/add/indices/" />
+          <map:part element="insert" src="cocoon:/add/concordance/authority/bibliography.xml" />
+          <map:part element="optimize"
+                    src="cocoon://_internal/solr/optimize" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/index/all.html" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/solr-index-all.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Index all of the user-indices specified in an index file. -->
+      <map:match id="local-solr-index-indices" pattern="index/indices/*.html">
+        <map:aggregate element="aggregation" label="content">
+          <map:part element="delete" src="cocoon://_internal/solr/delete-by-file-path/indices/{1}.xml" />
+          <map:part src="cocoon:/add/indices/{1}.xml" />
+          <map:part element="optimize"
+                    src="cocoon://_internal/solr/optimize" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/index/indices" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/solr-index-indices.xsl">
+          <map:parameter name="file" value="{1}.xml" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+
+      <!-- Index an individual document or
+           collection-as-a-single-whole. -->
+      <map:match id="local-solr-index" pattern="index/*/**.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/solr/index/{1}/{2}.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/solr-index.xsl">
+          <map:parameter name="file" value="{2}.xml" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+
+      <!-- Adding all TEI/EpiDoc indices. -->
+      <map:match id="local-solr-add-all-indices" pattern="add/indices/">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/indices.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://admin/solr/add/indices/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:transform src="../stylesheets/solr/simplify-all-indices-structure.xsl" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding all TEI/EpiDoc documents as XIncludes. -->
+      <map:match id="local-solr-add-all" pattern="add/*/">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://admin/solr/add/tei/{1}/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI with EATS. -->
+      <map:match id="local-solr-add-tei-eats" pattern="add/tei-eats/**.xml">
+        <map:aggregate element="aggregation">
+          <map:part element="tei"
+                      src="cocoon:/preprocess/tei-eats/{1}.xml" />
+          <map:part element="eats"
+                    src="cocoon:/preprocess/eatsml/entities.xml" />
+        </map:aggregate>
+        <map:transform src="../stylesheets/solr/tei-eats-to-solr.xsl">
+          <map:parameter name="file-path" value="{1}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI with EATS specifying the authority. The first
+           parameter is the authority id. -->
+      <map:match id="local-solr-add-tei-eats-authority"
+                 pattern="add/tei-eats-authority/*/**.xml">
+        <map:aggregate element="aggregation">
+          <map:part element="tei"
+                    src="cocoon:/preprocess/tei-eats/{2}.xml" />
+          <map:part element="eats"
+                    src="cocoon:/preprocess/eatsml/{1}/entities.xml" />
+        </map:aggregate>
+        <map:transform src="../stylesheets/solr/tei-eats-to-solr.xsl">
+          <map:parameter name="file-path" value="{2}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI/EpiDoc indices from a single specified index
+           file. -->
+      <map:match id="local-solr-add-indices" pattern="add/indices/*.xml">
+        <map:aggregate element="insert">
+          <map:part src="../content/xml/indices/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="../stylesheets/solr/index-file-to-xincludes.xsl">
+          <map:parameter name="subdirectory" value="{1}" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI/EpiDoc index. The first parameter is the
+           subdirectory of content/xml (tei, epidoc, etc) whose files
+           are indexed. The second parameter is the index name. -->
+      <map:match id="local-solr-add-index" pattern="add/indices/*/*.xml">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://internal/{1}/preprocess/no-language/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:transform src="../stylesheets/solr/{1}-{2}-index-to-solr.xsl">
+          <map:parameter name="base-uri" value="{global:rdf-base-uri}" />
+          <map:parameter name="index_type" value="{2}" />
+          <map:parameter name="subdirectory" value="{1}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding EpiDoc bibliographic concordance. -->
+      <map:match id="local-solr-add-bibliographic-concordance"
+                 pattern="add/concordance/authority/bibliography.xml">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/epidoc.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://internal/epidoc/preprocess/no-language/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:transform src="../stylesheets/solr/concordance-bibliography-to-solr.xsl">
+          <map:parameter name="file-path" value="authority/{global:concordance-bibliography-file}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI only. The first parameter is the file type (tei,
+           epidoc, etc). -->
+      <map:match id="local-solr-add" pattern="add/*/**.xml">
+        <map:generate src="cocoon:/preprocess/{1}/{2}.xml" />
+        <map:transform src="../stylesheets/solr/{1}-to-solr.xsl">
+          <map:parameter name="file-path" value="{2}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Preprocessing of material before indexing. -->
+
+      <!-- TEI preprocessed for use with EATS data. -->
+      <map:match id="local-solr-preprocess-tei-eats" pattern="preprocess/tei-eats/**.xml">
+        <map:generate src="../content/xml/{1}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- EATSML, all entities. -->
+      <map:match id="local-solr-preprocess-eatsml" pattern="preprocess/eatsml/entities.xml">
+        <map:generate src="cocoon://_internal/eats/entities.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- EATSML, entities associated with a single authority. -->
+      <map:match id="local-solr-preprocess-eatsml-authority"
+                 pattern="preprocess/eatsml/*/entities.xml">
+        <map:generate src="cocoon://_internal/eats/{1}/entities.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- The general case of preprocessing some type of TEI. -->
+      <map:match id="local-solr-preprocess" pattern="preprocess/*/**.xml">
+        <map:generate src="../content/xml/{2}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+    </map:pipeline>
+  </map:pipelines>
+</map:sitemap>

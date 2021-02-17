@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+           xmlns:tei="http://www.tei-c.org/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/schematron/svrl_to_html.xsl" />
+
+  <kiln:parent>
+    <xi:include href="base.xml" />
+  </kiln:parent>
+
+  <kiln:child>
+    <kiln:block name="title"><kiln:super />Schematron validation results for <xsl:value-of select="$file" /></kiln:block>
+
+    <kiln:block name="css">
+      <kiln:super />
+      <link href="{$kiln:assets-path}/styles/schematron.css" rel="stylesheet"
+            type="text/css" />
+    </kiln:block>
+
+    <kiln:block name="header">
+      <h1>Schematron validaton results for <xsl:value-of select="$file" /></h1>
+    </kiln:block>
+
+    <kiln:block name="content">
+      <div class="row">
+        <div class="large-12 columns">
+          <xsl:apply-templates select="/aggregation/svrl:schematron-output" />
+        </div>
+      </div>
+    </kiln:block>
+  </kiln:child>
+
+</kiln:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-09 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of titles (incertainty between dignity and office) in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+        <item xml:id="dominus">
+            <term xml:lang="la">dominus</term>
+            <term xml:lang="grc">dominus</term>
+            <term xml:lang="en">dominus</term>
+            <term xml:lang="fr">dominus</term>
+            <term xml:lang="it">dominus</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="augustus">
+            <term xml:lang="la">augustus</term>
+            <term xml:lang="grc">augustus</term>
+            <term xml:lang="en">augustus</term>
+            <term xml:lang="fr">auguste</term>
+            <term xml:lang="it">augusto</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="βασιλεύς">
+            <term xml:lang="grc">βασιλεύς</term>
+            <term xml:lang="en">βασιλεύς</term>
+            <!--<term xml:lang="en">basileus</term>-->
+            <term xml:lang="fr">basileus</term>
+            <term xml:lang="it">basileus</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="αὐγούστα">
+            <term xml:lang="grc">αὐγούστα</term>
+            <term xml:lang="en">αὐγούστα</term>
+            <!--<term xml:lang="en">augusta</term>-->
+            <term xml:lang="fr">augusta</term>
+            <term xml:lang="it">augusta</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>
+

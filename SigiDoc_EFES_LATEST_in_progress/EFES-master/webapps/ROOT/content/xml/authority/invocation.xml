@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-09 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of invocative expressions in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="invocation">
+                <item xml:id="Θεοτόκε">
+                    <term xml:lang="grc">Θεοτόκε</term>
+                    <term xml:lang="en">Θεοτόκε</term>
+                    <!--<term xml:lang="en">Theotokos</term>-->
+                    <term xml:lang="fr">Théotokos</term>
+                    <term xml:lang="it">Theotokos</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="Κύριε">
+                    <term xml:lang="grc">Κύριε</term>
+                    <term xml:lang="en">Κύριε</term>
+                    <!--<term xml:lang="en">Lord</term>-->
+                    <term xml:lang="fr">Seigneur</term>
+                    <term xml:lang="it">Signore</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="Σωτήρ">
+                    <term xml:lang="grc">Σωτήρ</term>
+                    <term xml:lang="en">Σωτήρ</term>
+                    <!--<term xml:lang="en">Saviour</term>-->
+                    <term xml:lang="fr">Sauveur</term>
+                    <term xml:lang="it">Salvatore</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="undetermined">
+                    <term xml:lang="grc">undetermined</term>
+                    <term xml:lang="en">undetermined</term>
+                    <!--<term xml:lang="en">undetermined</term>-->
+                    <term xml:lang="fr">indéterminé</term>
+                    <term xml:lang="it">indeterminato</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="">
+                    <term xml:lang="grc"></term>
+                    <term xml:lang="en"></term>
+                    <term xml:lang="fr"></term>
+                    <term xml:lang="it"></term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+    </list>
+        </body>
+    </text>
+</TEI>

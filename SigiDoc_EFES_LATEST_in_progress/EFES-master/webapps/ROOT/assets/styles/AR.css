@@ -1,0 +1,9 @@
+@font-face {
+    font-family: athenaruby;
+    src: url('../fonts/AthenaRuby_b018.ttf') format('truetype')
+}
+
+tbody tr {
+    height: 30px;
+    font-family: 'athenaruby';
+}

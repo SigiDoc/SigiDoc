@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+  <!-- Local sitemap for RDF generation and querying. -->
+
+  <map:pipelines>
+    <!-- Pipeline for performing RDF harvesting and querying. -->
+    <map:pipeline id="local-rdf-harvest-query">
+      <!-- These matches call the built-in Kiln pipelines for
+           harvesting and querying that communcate with the RDF
+           server. In turn, they call the generate and construct
+           pipelines defined below to create the RDF or query that is
+           sent to the server. -->
+
+      <!-- Bulk harvest of RDF/XML into the server. -->
+      <map:match id="local-rdf-harvest-all-display" pattern="harvest/all.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/harvest/all.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/rdf/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/rdf-harvest-all.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <map:match id="local-rdf-harvest-all" pattern="harvest/all.xml">
+        <map:generate src="cocoon://_internal/dirlist/content/xml.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://admin/rdf/harvest/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Harvest RDF/XML into the server. -->
+      <map:match id="local-rdf-harvest-display" pattern="harvest/**.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/harvest/{1}.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/rdf/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/rdf-harvest.xsl">
+          <map:parameter name="file" value="{1}.xml" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+
+      <map:match id="local-rdf-harvest" pattern="harvest/**.xml">
+        <!-- This will call rdf/generate/{1}.xml below. -->
+        <map:generate src="cocoon://_internal/sesame/harvest/{1}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Query the server, returning RDF/XML. -->
+      <map:match id="local-rdf-query" pattern="query/graph/**.xml">
+        <!-- This will call rdf/construct/graph/{1}.xml below. -->
+        <map:generate src="cocoon://_internal/sesame/query/graph/{1}.xml" />
+        <map:serialize type="rdf-xml" />
+      </map:match>
+    </map:pipeline>
+
+    <!-- Pipeline for constructing an RDF/XML document. -->
+    <map:pipeline id="local-rdf-generate">
+      <!-- QAZ: If I had a good ID for a combined map:match, I'd have
+           these as a single map:match with a parameter for the
+           directory/type. -->
+      <!-- Authority file. -->
+      <map:match id="local-rdf-generate-authority"
+                 pattern="generate/authority/**.xml">
+        <map:generate src="../content/xml/authority/{1}.xml" />
+        <map:transform src="../stylesheets/rdf/authority-to-rdf.xsl">
+          <map:parameter name="base_uri" value="{global:rdf-base-uri}" />
+          <map:parameter name="filename" value="{1}.xml" />
+        </map:transform>
+        <map:serialize type="rdf-xml" />
+      </map:match>
+
+      <!-- EpiDoc file. -->
+      <map:match id="local-rdf-generate-epidoc"
+                 pattern="generate/epidoc/**.xml">
+        <map:generate src="../content/xml/epidoc/{1}.xml" />
+        <map:transform src="../stylesheets/rdf/tei-to-rdf.xsl">
+          <map:parameter name="base_uri" value="{global:rdf-base-uri}" />
+        </map:transform>
+        <map:serialize type="rdf-xml" />
+      </map:match>
+
+      <!-- Index file. -->
+      <map:match id="local-rdf-generate-index"
+                 pattern="generate/indices/**.xml">
+        <map:generate src="empty:empty" />
+        <map:serialize type="rdf-xml" />
+      </map:match>
+
+      <!-- TEI file. -->
+      <map:match id="local-rdf-generate-tei" pattern="generate/tei/**.xml">
+        <map:generate src="../content/xml/tei/{1}.xml" />
+        <map:transform src="../stylesheets/rdf/tei-to-rdf.xsl">
+          <map:parameter name="base_uri" value="{global:rdf-base-uri}" />
+        </map:transform>
+        <map:serialize type="rdf-xml" />
+      </map:match>
+
+      <!-- Static RDF/XML file. -->
+      <map:match id="local-rdf-generate-static" pattern="generate/rdf/**.xml">
+        <map:generate src="../content/xml/rdf/{1}.xml" />
+        <map:serialize type="rdf-xml" />
+      </map:match>
+    </map:pipeline>
+
+    <!-- Pipeline for constructing an XML document containing a SPARQL
+         query for the RDF server. This document must consist of a
+         "query" root element containing only text. -->
+    <map:pipeline id="local-rdf-query">
+      <!-- Construct a graph query document from a SPARQL query in a
+           file. This is an example only. -->
+      <map:match id="local-rdf-query-from-file" pattern="construct/graph/**.xml">
+        <map:generate src="../assets/queries/sparql/{1}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+    </map:pipeline>
+
+    <!-- Handle known errors for which we can provide more helpful
+         error messages. -->
+    <map:handle-errors>
+      <map:generate type="exception" />
+      <map:select type="exception">
+        <map:when test="illegal-argument">
+          <map:transform src="../stylesheets/error/add-rdf-messages.xsl">
+            <map:parameter name="base-uri" value="{global:rdf-base-uri}" />
+            <map:parameter name="repository"
+                           value="{global:sesame-server-repository}" />
+            <map:parameter name="server" value="{global:sesame-server}" />
+          </map:transform>
+          <map:transform src="cocoon://_internal/template/error.xsl" />
+          <map:serialize />
+        </map:when>
+      </map:select>
+    </map:handle-errors>
+
+  </map:pipelines>
+</map:sitemap>

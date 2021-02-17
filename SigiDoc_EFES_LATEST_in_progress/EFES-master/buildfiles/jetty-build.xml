@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../" default="runserver" name="jetty:run">
+
+  <description>Loads Jetty Antlibs and runs the Jetty server</description>
+
+  <target name="init.jetty">
+    <!-- Jetty home directory -->
+    <property location="${basedir}/sw/jetty" name="jetty.home" />
+
+    <!-- Jetty classpath -->
+    <path id="jetty.path">
+      <fileset dir="${jetty.home}/lib" includes="*.jar" />
+    </path>
+
+    <!-- Loads Jetty into Ant -->
+    <taskdef classpathref="jetty.path" loaderref="jetty.loader"
+             resource="tasks.properties" />
+
+    <typedef classname="org.eclipse.jetty.ant.types.Connector"
+             classpathref="jetty.path" loaderref="jetty.loader"
+             name="connector" />
+  </target>
+
+  <target depends="init, init.jetty" description="Runs the Jetty webserver"
+    name="runserver">
+    <mkdir dir="${jetty.home}/logs"/>
+    <echo>Development server is running at http://127.0.0.1:${jetty.port}</echo>
+    <echo>Quit the server with CONTROL-C.</echo>
+    <jetty.run jettyXml="${jetty.home}/etc/jetty.xml"
+               tempDirectory="${jetty.home}/temp">
+      <systemProperties>
+        <systemProperty name="jetty.home" value="${jetty.home}" />
+        <systemProperty name="jetty.logs" value="${jetty.home}/logs" />
+      </systemProperties>
+
+      <connectors>
+        <connector port="${jetty.port}" />
+      </connectors>
+
+      <webApp contextPath="/" war="${basedir}/webapps/ROOT" />
+      <webApp contextPath="/openrdf-sesame"
+              war="${basedir}/webapps/openrdf-sesame" />
+      <webApp contextPath="/openrdf-workbench"
+              war="${basedir}/webapps/openrdf-workbench" />
+      <webApp contextPath="/solr"
+              jettyEnvXml="${basedir}/webapps/solr/conf/jetty-env.xml"
+              war="${basedir}/webapps/solr" />
+    </jetty.run>
+  </target>
+</project>

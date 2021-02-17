@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 31-12-2018 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of monograms in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="monogram">
+                <item xml:id="mg1">
+                    <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ (Zacos 46)</term>
+                    <term xml:lang="en">Theotokos aid your servant (Zacos 46)</term>
+                    <term xml:lang="fr">Théotokos aide ton serviteur (Zacos 46)</term>
+                    <term xml:lang="it">Theotokos aiuta il tuo servitore (Zacos 46)</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="mg2">
+                    <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ (undetermined)</term>
+                    <term xml:lang="en">Theotokos aid your servant (undetermined)</term>
+                    <term xml:lang="fr">Théotokos aide ton serviteur (undetermined)</term>
+                    <term xml:lang="it">Theotokos aiuta il tuo servitore (undetermined)</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="mg3"><!-- image or something to be added --><!-- unclassified???????????????? -->
+                    <term xml:lang="grc">Θεοτόκε βοήθει (unclassified)</term>
+                    <term xml:lang="en">Theotokos aid (unclassified)</term>
+                    <term xml:lang="fr">Théotokos aide (non répertorié)</term>
+                    <term xml:lang="it">Theotokos aiuta (non catalogato)</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="mg4">
+                    <term xml:lang="grc">Ἀθανασίου</term>
+                    <term xml:lang="en">Athanasios</term>
+                    <term xml:lang="fr">Athanase</term>
+                    <term xml:lang="it">Atanasio</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="">
+                    <term xml:lang="grc"></term>
+                    <term xml:lang="en"></term>
+                    <term xml:lang="fr"></term>
+                    <term xml:lang="it"></term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

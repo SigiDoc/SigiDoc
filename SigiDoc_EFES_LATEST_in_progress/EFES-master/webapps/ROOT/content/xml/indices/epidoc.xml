@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SigiDoc Indices</title>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital document.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div>
+        <p>These indices are based on those included in the IOSPE project.</p>
+      </div>
+    </front>
+    <body>
+      
+      <div xml:id="abbreviation">
+        <head>Abbreviations</head>
+        
+        <div type="headings">
+          <list>
+            <item>Abbreviation</item>
+            <item>Expansion</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="monogram">
+        <head>Monograms</head>
+        
+        <div type="headings">
+          <list>
+            <item>Monogram</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <!--<div xml:id="symbol">
+        <head>Symbols</head>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+
+      <!--<div xml:id="fragment">
+        <head>Fragments</head>
+
+        <div type="headings">
+          <list>
+            <item>Fragment</item>
+            <item>Language code</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+
+      <!-- <div xml:id="numeral">
+        <head>Numerals</head>
+
+        <div type="headings">
+          <list>
+            <item>Numeral</item>
+            <item>Value</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div> -->
+
+      <!--<div xml:id="word">
+        <head>Words</head>
+
+        <div type="headings">
+          <list>
+            <item>Word</item>
+            <item>Language code</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+
+      <div xml:id="glyphs">
+        <head>Glyphs</head>
+        
+        <div type="headings">
+          <list>
+            <item>Glyph</item>
+            <item>Glyph type</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="lemma">
+        <head>Lemmata</head>
+
+        <div type="headings">
+          <list>
+            <item>Lemma</item>
+            <item>Language code</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+
+      <div xml:id="prosopography">
+        <head>Personal Names</head>
+
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="genealogical">
+        <head>Genealogical terms</head>
+        
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="ecclesiastical">
+        <head>Ecclesiastical terms</head><!-- title to be changed!!?? -->
+        
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="titles">
+        <head>Titles</head>
+        
+        <div type="headings">
+          <list>
+            <item>Title</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="dignities">
+        <head>Dignities</head>
+        
+        <div type="headings">
+          <list>
+            <item>Dignity</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <!--<div xml:id="divinities">
+        <head>Divinities</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+      
+      <div xml:id="officeCivil">
+        <head>Civil offices</head>
+        
+        <div type="headings">
+          <list>
+            <item>Office</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="officeMilitary">
+        <head>Military offices</head>
+        
+        <div type="headings">
+          <list>
+            <item>Office</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="officeEcclesiastical">
+        <head>Ecclesiastical offices</head>
+        
+        <div type="headings">
+          <list>
+            <item>Office</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="placenames">
+        <head>Place names</head>
+        
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <!--<div xml:id="institutions">
+        <head>Institutions</head>
+        
+        <div type="headings">
+          <list>
+            <item>Institution</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+      
+      <!--<div xml:id="legalEntities">
+        <head>Legal entities</head>
+        
+        <div type="headings">
+          <list>
+            <item>Entity</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+      
+      <!--<div xml:id="militaryUnits">
+        <head>Military units</head>
+        
+        <div type="headings">
+          <list>
+            <item>Unit</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+      
+      <div xml:id="devotional">
+        <head>Devotional terms</head>
+        
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="legendsCases">
+        <head>Legends' cases</head>
+        
+        <div type="headings">
+          <list>
+            <item>Cases</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="metrical">
+        <head>Metrical legends</head>
+        
+        <div type="headings">
+          <list>
+            <item>Metre</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="invocation">
+        <head>Invocations</head>
+        
+        <div type="headings">
+          <list>
+            <item>Types</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>This index is limited to the adressees of the invocation.</p>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="marianTerms">
+        <head>Marian terms</head>
+        
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="christTerms">
+        <head>Christ-related terms</head>
+        
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="saintsTerms">
+        <head>Saints-related terms</head>
+        
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="iconography">
+        <head>Iconography</head>
+        
+        <div type="headings">
+          <list>
+            <item>Subject</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+              <p>This index is limited to the subjects of the iconography, without any further detail.</p>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

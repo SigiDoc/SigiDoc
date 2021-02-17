@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-08 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of genealogical terms in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="genealogical">
+        <item xml:id="αὐτάδελφος">
+            <term xml:lang="grc">αὐτάδελφος</term>
+            <term xml:lang="en">αὐτάδελφος</term>
+            <!--<term xml:lang="en">brother's</term>-->
+            <term xml:lang="fr"></term>
+            <term xml:lang="it"></term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>
+<!-- seal nr. 25, Alexios Komnenos??????????????????? -->

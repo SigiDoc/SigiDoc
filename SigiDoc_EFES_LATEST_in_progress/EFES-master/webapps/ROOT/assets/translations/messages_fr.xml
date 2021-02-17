@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- LAST MODIFIED: 28-09-2019 -->
+
+<!-- Visualisation problems: alignements of columns (not only because of the names' length -->
+<!-- in order to get all the elements' contents, be sure the xml:lang attribute has the right attribute: en, fr, it, de, ... -->
+
+<catalogue xml:lang="fr" xml:space="preserve">
+    <message key="epidoc-xslt-sigidoc-artifact">Artéfact</message>
+    <message key="epidoc-xslt-sigidoc-type">Type d'objet</message><!-- Catégorie??????? -->
+    <message key="epidoc-xslt-sigidoc-seal">Sceau</message>
+    <message key="epidoc-xslt-sigidoc-not-specified">Non précisé(e)</message><!-- ajouter d'autres façons d'indiquer cela -->
+    <message key="epidoc-xslt-sigidoc-not-available">Non disponible</message>
+    <message key="epidoc-xslt-sigidoc-undetermined">Indéterminé(e)</message>
+    <message key="epidoc-xslt-sigidoc-not-applicable">Sans objet</message>
+    <message key="epidoc-xslt-sigidoc-general-layout">Aspect général</message>
+    <message key="epidoc-xslt-sigidoc-matrix">Matrice</message>
+    <message key="epidoc-xslt-sigidoc-physical-description">Description physique</message>
+    <message key="epidoc-xslt-sigidoc-work-type">Type de travail</message>
+    <message key="epidoc-xslt-sigidoc-original-impression">Empreinte originale</message>
+    <message key="epidoc-xslt-sigidoc-material">Matériau</message>
+    <message key="epidoc-xslt-sigidoc-lead">Lead</message>
+    <message key="epidoc-xslt-sigidoc-dimensions">Dimensions (mm)</message>
+    <message key="epidoc-xslt-sigidoc-diameter">Diam. </message>
+    <message key="epidoc-xslt-sigidoc-height">H. </message>
+    <message key="epidoc-xslt-sigidoc-width">L. </message>
+    <message key="epidoc-xslt-sigidoc-thickness">É. </message>
+    <message key="epidoc-xslt-sigidoc-unknown">Inconnu</message><!-- pluriel+féminin?????? -->
+    <message key="epidoc-xslt-sigidoc-weight">Poids (gr)</message>
+    <message key="epidoc-xslt-sigidoc-axis">Axe (montre)</message><!-- montre????????? -->
+    <message key="epidoc-xslt-sigidoc-overstrike-orientation">Orient. de la surfrappe (montre)</message>
+    <message key="epidoc-xslt-sigidoc-channel-orientation">Orient. du canal (montre)</message>
+    <message key="epidoc-xslt-sigidoc-execution">Exécution</message>
+    <message key="epidoc-xslt-sigidoc-struck">Frappé</message>
+    <message key="epidoc-xslt-sigidoc-countermark">Contremarque</message>
+    <message key="epidoc-xslt-sigidoc-lettering">Épigraphie</message>
+    <message key="epidoc-xslt-sigidoc-shape">Forme</message>
+    <message key="epidoc-xslt-sigidoc-round">Ronde</message>
+    <message key="epidoc-xslt-sigidoc-condition">Conservation</message>
+    <message key="epidoc-xslt-sigidoc-dating">Datation</message>
+    <message key="epidoc-xslt-sigidoc-date">Date</message>
+    <message key="epidoc-xslt-sigidoc-internal-date">Date interne</message>
+    <message key="epidoc-xslt-sigidoc-dating-criteria">Critères de datation</message>
+    <message key="epidoc-xslt-sigidoc-alternative-dating">Date alternative</message>
+    <message key="epidoc-xslt-sigidoc-history">Historique</message>
+    <message key="epidoc-xslt-sigidoc-seal-context">Catégorie</message>
+    <message key="epidoc-xslt-sigidoc-issuer">Émetteur</message>
+    <message key="epidoc-xslt-sigidoc-issuer-milieu">Milieu de l'émetteur</message>
+    <message key="epidoc-xslt-sigidoc-place-origin">Lieu d'origine</message>
+    <message key="epidoc-xslt-sigidoc-find-place">Lieu de découverte</message>
+    <message key="epidoc-xslt-sigidoc-find-context">Contexte de découverte</message>
+    <message key="epidoc-xslt-sigidoc-find-circumstances">Circonstances de découverte</message>
+    <message key="epidoc-xslt-sigidoc-find-date">Date de découverte</message>
+    <message key="epidoc-xslt-sigidoc-discoverers">Auteur(s) de la découverte</message>
+    <message key="epidoc-xslt-sigidoc-modern-location">Localisation actuelle</message>
+    <message key="epidoc-xslt-sigidoc-institution-repository">Institution et département</message>
+    <message key="epidoc-xslt-sigidoc-collection-inventory">Collection et inventaire</message>
+    <message key="epidoc-xslt-sigidoc-acquisition">Acquisition</message>
+    <message key="epidoc-xslt-sigidoc-previous-locations">Localisations précédentes</message>
+    <message key="epidoc-xslt-sigidoc-field-obverse">Champ - Avers</message>
+    <message key="epidoc-xslt-sigidoc-layout-field">Aspect du champ</message>
+    <message key="epidoc-xslt-sigidoc-field-dimensions">Dimensions du champ</message>
+    <message key="epidoc-xslt-sigidoc-iconography">Iconographie</message>
+    <message key="epidoc-xslt-sigidoc-decoration">Décoration</message>
+    <message key="epidoc-xslt-sigidoc-field-reverse">Champ - Revers</message>
+    <message key="epidoc-xslt-sigidoc-text">Texte</message>
+    <message key="epidoc-xslt-sigidoc-languages">Langues</message>
+    <message key="epidoc-xslt-sigidoc-editions">Éditions</message>
+    <message key="epidoc-xslt-sigidoc-unpublished">Inédit</message>
+    <message key="epidoc-xslt-sigidoc-commentary-edition">Commentaire aux éditions</message>
+    <message key="epidoc-xslt-sigidoc-none">Aucun</message>
+    <message key="epidoc-xslt-sigidoc-parallels">Parallèles</message>
+    <message key="epidoc-xslt-sigidoc-no-parallels-known">Aucun parallèle connu</message>
+    <message key="epidoc-xslt-sigidoc-commentary-parallels">Commentaire aux parallèles</message>
+    <message key="epidoc-xslt-sigidoc-images">Images</message>
+    <message key="epidoc-xslt-sigidoc-editions">Editions</message>
+    <message key="epidoc-xslt-sigidoc-interpretive">Interprétative</message>
+    <message key="epidoc-xslt-sigidoc-diplomatic">Diplomatique</message>
+    <message key="epidoc-xslt-sigidoc-legend-translation">Légende et Traduction</message>
+    <message key="epidoc-xslt-sigidoc-commentary">Commentaire</message>
+    <message key="epidoc-xslt-sigidoc-apparatus">Apparat</message>
+    <message key="epidoc-xslt-sigidoc-footnotes">Notes</message>
+    <message key="menu-seals">Sceaux</message>
+    <message key="menu-indices">Indices</message>
+    <message key="menu-search">Rechercher</message>
+    <message key="menu-admin">Admin</message>
+    <message key="home-title">SigiDoc version <i>β</i></message>
+    <message key="epidoc-xslt-sigidoc-in">dans</message>
+    <message key="epidoc-xslt-sigidoc-ed">éd.</message>
+    <message key=""></message>
+</catalogue>

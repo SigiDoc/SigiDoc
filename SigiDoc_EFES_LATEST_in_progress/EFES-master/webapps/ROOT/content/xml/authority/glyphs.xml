@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="AR.css"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of military units in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+                <list type="glyphs">
+    
+    
+    <!-- ABBREVIATIONS -->
+    <item xml:id="AbbrMark.1"><!-- no AR postname -->
+        <gloss>Lower abbreviation mark</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i602</idno><!-- in AR this is a comma -->
+    </item>
+    <item xml:id="AbbrMark.2"><!-- no AR postname -->
+        <gloss>Lower wave abbreviation mark</gloss><!-- change description????????????? -->
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i578</idno>
+    </item>
+    <item xml:id="AbbrMark.3"><!-- no AR postname -->
+        <gloss>Overline straight abbreviation mark</gloss><!-- change description????????????? -->
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i581</idno>
+    </item>
+    <item xml:id="AbbrMark.4"><!-- no AR postname -->
+        <gloss>Vertical squiggle</gloss><!-- change description????????????? -->
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i563</idno><!-- or 561????????????????????????????? -->
+    </item>
+    <item xml:id="AbbrMark.5"><!-- no AR postname -->
+        <gloss>Curved slash, climbing to right</gloss><!-- change description????????????? -->
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i572</idno>
+    </item>
+    <item xml:id="AbbrMark.6"><!-- no AR postname --><!-- circumflex in AR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+        <gloss>Overline curved abbreviation mark</gloss><!-- change description????????????? -->
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i333</idno>
+    </item>
+    
+    
+    <!-- SYMBOLS -->
+    <item xml:id="Omicron_Alpha.4"><!-- UNDER SYMBOLS?????????? --><!-- change id??????????? -->
+        <gloss>Omicron_Alpha.4, variant no. 4 (ho hagios)</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i249</idno>
+    </item>
+    <item xml:id="Kai"><!-- no AR postname -->
+        <gloss>Kai symbol, variant no. 0 (S)</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i448</idno>
+    </item>
+    
+    
+    
+    <!-- LIGATURES -->
+    <item xml:id="Omicron_Upsilon">
+        <gloss>Omicron_Upsilon, variant no. 0 (small omicron topped by V)</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i252</idno>
+    </item>
+    <item xml:id="Omicron_Upsilon.1">
+        <gloss>Omicron_Upsilon.1, variant no. 1 (horseshoe ligature)</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i253</idno>
+    </item>
+    
+    
+    
+    <!-- LETTERS -->
+    <item xml:id="Alpha.2">
+        <term xml:lang="grc"></term>
+        <gloss>Alpha.2, variant no. 2</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i6</idno>
+    </item>
+    <item xml:id="Beta">
+        <gloss>Beta, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i32</idno>
+    </item>
+    <item xml:id="Beta.1">
+        <term xml:lang="grc"></term>
+        <gloss>Beta.1, variant no. 1</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i33</idno>
+    </item>
+    <item xml:id="Delta">
+        <gloss>Delta, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i47</idno>
+    </item>
+    <item xml:id="Delta.1">
+        <gloss>Delta.1, variant no. 1 (extended base)</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i48</idno>
+    </item>
+    <item xml:id="Epsilon">
+        <term xml:lang="grc">Ε</term>
+        <gloss>Epsilon, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i61</idno>
+    </item>
+    <item xml:id="Theta">
+        <term xml:lang="grc">Θ</term>
+        <gloss>Theta, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i74</idno>
+    </item>
+    <item xml:id="Kappa">
+        <gloss>Kappa, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i81</idno>
+    </item>
+    <item xml:id="Kappa.1">
+        <term xml:lang="grc"></term>
+        <gloss>Kappa.1, variant no. 1</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i82</idno>
+    </item>
+    <item xml:id="Mu">
+        <gloss>Mu, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i92</idno>
+    </item>
+    <item xml:id="Mu.1">
+        <term xml:lang="grc"></term>
+        <gloss>Mu.1, variant no. 1</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i93</idno>
+    </item>
+    <item xml:id="Xi.8">
+        <gloss>Xi.8, variant no. 8</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i114</idno>
+    </item>
+    <item xml:id="Sigma">
+        <term xml:lang="grc">Σ</term>
+        <gloss>Sigma, variant no. 0</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i125</idno>
+    </item>
+    <item xml:id="Omega.1">
+        <gloss>Omega.1, variant no. 1</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i144</idno>
+    </item>
+    <item xml:id="Omega.3">
+        <gloss>Omega.3, variant no. 3</gloss>
+        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i146</idno>
+    </item>
+                </list>
+        </body>
+    </text>
+</TEI>

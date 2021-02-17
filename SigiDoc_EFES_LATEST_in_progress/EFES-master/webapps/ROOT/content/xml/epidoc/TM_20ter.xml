@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Seal of Zacharias Phrangos, vestarches and strategos of Seleukeia</seg>
+                    <seg xml:lang="fr">Sceau de Zacharie Phrangos, vestarque et stratège de Séleucie</seg>
+                </title>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg>Digital conversion</seg>
+                </edition>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+                <idno type="SigiDocID">44</idno>
+                <date when="2016-02-24"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">??????</seg>
+                            <seg xml:lang="fr">??????</seg>
+                        </country>
+                        <settlement>
+                            <seg></seg>
+                        </settlement>
+                        <institution></institution>
+                        <repository></repository>
+                        <collection xml:lang="en">Savvas Kofopoulos collection</collection>
+                        <collection xml:lang="fr">Collection Savvas Kofopoulos</collection>
+                        <idno></idno>
+                        <altIdentifier xml:lang="en">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Byzantine greek</seg>
+                            <seg xml:lang="fr">Grec byzantin</seg>
+                        </textLang>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="military">
+                                    <seg xml:lang="grc">Ζαχαρίας Φράγγος</seg>
+                                    <seg xml:lang="en">Zacharias Phrangos</seg>
+                                    <seg xml:lang="fr">Zacharie Phrangos</seg>
+                                    <interp type="milieu" xml:lang="en">military</interp>
+                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter"/>
+                                    </dimensions>
+                                    <measure type="weight" unit="gr"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                </support>
+                                <condition>
+                                    <p>Very good</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Iconography and legend</seg>
+                                        <seg xml:lang="fr">Iconographie et légende</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="en">Round</seg>
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">32</idno>
+                                    </rs>                                  
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="whole">
+                                <seg>Gravure finement exécutée</seg>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Blachernitissa" xml:lang="en">Bust of the Virgin Blachernitissa</figDesc>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg></seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1060" notAfter="1080" evidence="prosopography lettering titulature" cert="high" resp="#AS #VP">
+                                <seg xml:lang="en">1060-1080</seg>
+                                <seg xml:lang="fr">1060-1080</seg>
+                                <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
+                            </origDate>
+                        </origin>
+                        <provenance type="found"/>
+                        
+                        <provenance type="observed"/>
+                        
+                        <provenance type="not-observed"/>
+                        <provenance type="transferred" subtype="auctioned"/>
+                        
+                        
+                        <provenance type="transferred" subtype="donated"/>
+                        
+                        <acquisition>
+                            <p xml:lang="en">Numismatik Lanz, Sale 74, <date when="1993-06-07">7th of June 1993</date>, lot no. 1016</p>
+                            <p xml:lang="fr">Numismatik Lanz, Vente 74, <date when="1993-06-07">7 juin 1993</date>, lot no. 1016</p>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography</seg>
+                                            <seg xml:lang="fr">Iconographie</seg>
+                                        </rs>
+                                        <p xml:lang="en">Iconography</p>
+                                        <p xml:lang="fr">Iconographie</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r">Buste finement gravé de la Théotokos Blachernitissa,
+                                            flanqué du sigle habituel</figDesc>
+                                        <figDesc n="decoR">Bordure de grènetis</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Legend on 7 lines</seg>
+                                            <seg xml:lang="fr">Légende sur 7 lignes</seg>
+                                        </rs>
+                                        <p xml:lang="en">Legend on 7 lines</p>
+                                        <p xml:lang="fr">Légende sur 7 lignes</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v"/>
+                                        <figDesc n="decoV">Bordure de grènetis; ligne décorative de trois tirets précédant la légende, le premier servant également de signe d’abréviation
+                                            pour le premier mot</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <listPrefixDef>
+                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+            </listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
+            <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
+            <change when="2018-08-18" who="AS">First version of the record</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+              <surface type="obverse">
+                  <desc>Obverse</desc>
+                  <graphic url="Kofopoulos.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the obverse.</desc><!-- more information needed -->
+                      <desc xml:lang="fr">Reproduction numérique de l'avers.</desc>
+                  </graphic>
+              </surface>
+              <surface type="reverse">
+                  <desc>Reverse</desc>
+                  <graphic url="Kofopoulos_b.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the reverse.</desc>
+                      <desc xml:lang="fr">Reproduction numérique de l'avers.</desc>
+                  </graphic>
+              </surface>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
+                  <div type="textpart" subtype="sigla" n="obv" rend="linear"><!-- sigla -->
+                      <ab>
+                          <cb n="a"/>
+                          <rs type="marianTerm" subtype="sigla" ref="marianTerms.xml#Μήτηρ_Θεοῦ">
+                              <w lemma="μήτηρ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=mhthr&amp;la=greek">
+                                  <expan><abbr>Μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan>
+                              </w>
+                          <cb n="b"/>
+                              <w lemma="θεός" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=*qeou=&amp;la=greek">
+                                  <expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+                              </w>
+                          </rs>
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
+                              <l>
+                                  <lb n="1"/>
+                                  +
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε">
+                                      <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
+                                          <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan>
+                                      </rs> 
+                                      <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
+                                          <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
+                                      </w>
+                                  </rs>
+                                  <lb n="2"/>
+                                  <persName type="attested" ref="prosopography.xml#Φράγγος_Ζαχαρίας">
+                                      <name type="forename">
+                                          Ζαχαρίᾳ
+                                      </name>
+                                  <lb n="3"/>
+                                      <rs type="dignity" ref="dignities.xml#βεστάρχης">
+                                          βεστάρχῃ
+                                      </rs>
+                                  <lb n="4"/>
+                                      <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
+                                          <expan><ex>καὶ</ex></expan>
+                                      </w> 
+                                      <rs type="officeMilitary" ref="officeMilitary.xml#στρατηγὸς_τῆς_Σελευκίας">
+                                          <expan><abbr>στρατιγ</abbr><ex>ῷ</ex></expan> 
+                                          <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=ths&amp;la=greek">
+                                              <expan><abbr>τ</abbr><ex>ῆς</ex></expan>
+                                          </w>
+                                  <lb n="5"/>
+                                          <placeName ref="geography.xml#Σελεύκεια">
+                                                  <expan><abbr>Σελευκ</abbr><ex>ί</ex><abbr>ας</abbr></expan>
+                                          </placeName>
+                                      </rs>
+                                  <lb n="6"/>
+                                      <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
+                                          τῷ
+                                      </w> 
+                                      <name type="surname">
+                                          Φράγ
+                                  <lb n="7" break="no"/>
+                                          γῳ
+                                      </name>
+                                  </persName>
+                              </l>
+                          </lg>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
+                  <div type="textpart" subtype="sigla" n="obv" rend="linear">
+                      <ab>
+                          <cb n="a"/>̅<!-- abbrev. sign not well placed: AR problem -->
+                          <cb n="b"/>Θ̅Υ̅
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <lb n="1"/>+ΘΚ̅ε̅͵θ͵
+                          <lb n="2"/>Ζαχαρια
+                          <lb n="3"/>εςταρχη
+                          <lb n="4"/>ςτρατιγ͵ṭ
+                          <lb n="5"/>ςελευκ͵ας̣
+                          <lb n="6"/>τφραγ
+                          <lb n="7"/>γ
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                      <listApp>
+                          <app>
+                              <note xml:lang="en">None.</note>
+                              <note xml:lang="fr">Aucun.</note>
+                          </app>
+                      </listApp>
+              </div>
+              <div type="translation" xml:lang="en">
+                      <p></p>
+              </div>
+              <div type="commentary" subtype="edition">
+                      <p>Le prénom étant très rare [1], le possesseur de cette pièce peut raisonnablement, en
+                              vertu de sa date, être identifié avec l’un des officiers d’Alexis Comnène qui trouva la
+                              mort face aux Normands de Robert Guiscard à Dyrrachion en 1081 [2].</p>
+                          <p>La dignité de vestarque de Zacharie incite à admettre qu’il ait occupé le commandement du thème
+                              de Séleucie peu après le prestigieux rejeton des Pahlawouni, Apnelgarib Arsakidès, qui
+                              exerça cette fonction avec les dignités d’anthypatos, patrice et vestès. Ce dernier ayant
+                              reçu de Michel VII un grand commandement sur les marches du Taurus, centré sur la
+                              Cilicie, après l’élimination de Romain Diogène, on placerait idéalement le mandat de
+                              Zacharie au lendemain du transfert d’Apnelgarib, vers 1072-1073 [3]. La reconquête de
+                              la zone contre le vaincu de Mantzikert devait d’ailleurs beaucoup aux troupes franques
+                              de Robert Crispin, dont Roussel de Bailleul avait commandé la garde rapprochée [4].
+                              Zacharie eut en outre très probablement comme successeur direct un autre Franc, le
+                              magistre Guillaume [5]. Cette succession d’Arménien à Francs est fort intéressante au vu
+                              des alliances passées peu après entre Arméniens et croisés en Cilicie [6].</p>
+              </div>
+              <div type="commentary" subtype="translation">
+                  <p></p>
+              </div>
+              <div type="footnotes">
+                  <p>
+                      1. Seulement sept attestations dans la <bibl sameAs="bib:PBW"/> sous<ref target="https://pbw2016.kdl.kcl.ac.uk/browse/?name=%22Zacharias%22"><biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#PBW"/>
+                          <citedRange unit="entry">Zacharias</citedRange>
+                      </biblStruct></ref>
+                  </p>
+                  <p>
+                      2. <bibl sameAs="bib:Alexias2001"/><biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#Alexias2001"/>
+                          <citedRange>p. 135, l. 62-63</citedRange>
+                      </biblStruct>; 
+                      <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/"><biblStruct>
+                              <monogr>
+                                  <imprint><biblScope/></imprint>
+                              </monogr><ptr target="bibliography.xml#PBW"/>
+                              <citedRange unit="entry">Zacharias 15001</citedRange>
+                          </biblStruct></ref>.
+                  </p>
+                  <p>
+                      3. <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
+                          <citedRange unit="page">p. 660, 675</citedRange>
+                      </biblStruct>.
+                  </p>
+                  <p>
+                      4. Sur Robert Crispin, <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Robert/101/"><biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#PBW"/>
+                          <citedRange unit="entry">Robert 101</citedRange>
+                      </biblStruct></ref>. Lorsqu’il mourut, Roussel hérita du commandement sur les Francs, et
+                          Bryennios précise qu’il appartenait auparavant à son « hétairie » : Οὐρσέλιος, τῆς ἑταιρέιας ὢν τοῦ
+                          Κρισπίνου καὶ τῆς ἐκείνου κατάρχων φάλαγγος (<bibl sameAs="bib:BryenniosHistoire1975"/>,<biblStruct>
+                              <monogr>
+                                  <imprint><biblScope/></imprint>
+                              </monogr><ptr target="bibliography.xml#BryenniosHistoire1975"/>
+                              <citedRange>p. 147, l. 24 – p. 149, l. 1</citedRange>
+                          </biblStruct>). On
+                          pourrait également comprendre que Crispin commandait une hétairie, au sens d’un régiment de la
+                          garde du palais, mais la formule semble plutôt impliquer deux échelons, la « phalange » de Crispin,
+                          qui serait le régiment franc, et son hétairie, au sens de garde personnelle.
+                  </p>
+                  <p>
+                      5. Connu par un sceau à la légende Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Γηληέλμῳ μαγίστρῳ στρατηγῷ
+                      Σελευκείας καὶ ἀνθρώπῳ τοῦ βασιλέως ἡμῶν τοῦ ἁγίου : <bibl sameAs="bib:Seibt1997"/>,<biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#Seibt1997"/>
+                          <citedRange unit="entry">no. 2.3.2</citedRange>
+                      </biblStruct>.
+                  </p>
+                  <p>
+                      6. On rappellera également qu’après que Romain IV a démis de ses fonctions Robert Crispin
+                          pour sédition, les hommes de ce dernier s’attaquèrent un temps à la Mésopotamie. On ignore ce qu’il
+                          advint d’eux finalement mais il n’est peut-être pas incident que la Mésopotamie ait été le bastion de
+                          la famille d’Apnelgarib Arsakidès depuis que Grigor magistros y avait reçu d’immenses domaines de
+                          l’empereur Constantin IX Monomaque (<bibl sameAs="bib:AristakèsRécit1973"/>,<biblStruct>
+                              <monogr>
+                                  <imprint><biblScope/></imprint>
+                              </monogr><ptr target="bibliography.xml#AristakèsRécit1973"/>
+                              <citedRange>62.17, p. 51</citedRange>
+                          </biblStruct> : « Grigor reçut la dignité de
+                          magistros, des villages et des villes dans le territoire de la Mésopotamie à titre de lieux de résidence et
+                          le droit de les transmettre à perpétuité de génération en génération, qui lui fut confirmé par une bulle
+                          à sceau d’or »). Si les rebelles rentrèrent dans le rang, ce qui semble probable, ils auraient pu servir déjà
+                          sous le chef Arsakidès et l’accompagner dans le thème de Séleucie.
+                  </p>
+              </div>
+              <div type="bibliography">
+                  <listBibl type="editions">
+                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
+                          <citedRange>, ici no. 20ter, p. 718-719</citedRange>
+                      </biblStruct>
+                  </listBibl>
+                  <listBibl type="parallels">
+                      <bibl/>
+                  </listBibl>
+                  <listBibl type="discussionOnly" subtype="current">
+                      <bibl sameAs="bib:SBSauctions"/><biblStruct><!-- va bene qui??????????????? chiedere a Vivien da dove viene la foto -->
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="bibliography.xml#SBSauctions"/>
+                          <citedRange>6, 1999, p. 141;</citedRange>
+                      </biblStruct>
+                      <bibl sameAs="bib:Nikolau2012"/><biblStruct>
+                          <monogr>
+                              <imprint><biblScope/></imprint>
+                          </monogr><ptr target="biblio:Nikolau2012"/>
+                          <citedRange unit="page">, ici p. 122</citedRange>
+                      </biblStruct>
+                  </listBibl>
+                  <listBibl type="discussionOnly" subtype="parallels">
+                      <bibl/>
+                  </listBibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

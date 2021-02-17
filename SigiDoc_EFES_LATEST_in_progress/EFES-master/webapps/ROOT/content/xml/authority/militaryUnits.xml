@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 20-11-2018 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of military units in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="militaryUnits">
+        <item xml:id="Ἀριθμός">
+            <term xml:lang="grc">Ἀριθμός</term>
+            <term xml:lang="en">Arithmos</term>
+            <term xml:lang="fr">Arithmos</term>
+            <term xml:lang="it">Arithmos</term>
+        </item>
+        <item xml:id="Ἐξκούβιτοι">
+            <term xml:lang="grc">Ἐξκούβιτοι</term>
+            <term xml:lang="en">Exkoubitoi</term>
+            <term xml:lang="fr">Excubites</term>
+            <term xml:lang="it">Escubiti</term>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>

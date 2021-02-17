@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-08 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of legends'cases in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="legendsCases">
+                <item xml:id="Nom">
+                    <term xml:lang="grc">Nominative</term>
+                    <term xml:lang="en">Nominative</term>
+                    <term xml:lang="fr">Nominatif</term>
+                    <term xml:lang="it">Nominativo</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="Gen">
+                    <term xml:lang="grc">Genitive</term>
+                    <term xml:lang="en">Genitive</term>
+                    <term xml:lang="fr">Génitif</term>
+                    <term xml:lang="it">Genitivo</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="Dat">
+                    <term xml:lang="grc">Dative</term>
+                    <term xml:lang="en">Dative</term>
+                    <term xml:lang="fr">Datif</term>
+                    <term xml:lang="it">Dativo</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="Acc">
+                    <term xml:lang="grc">Accusative</term>
+                    <term xml:lang="en">Accusative</term>
+                    <term xml:lang="fr">Accusatif</term>
+                    <term xml:lang="it">Accusativo</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="DatGen">
+                    <term xml:lang="grc">Dative-Genitive</term>
+                    <term xml:lang="en">Dative-Genitive</term>
+                    <term xml:lang="fr">Datif-Génitif</term>
+                    <term xml:lang="it">Dativo-Genitivo</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="DatNom">
+                    <term xml:lang="grc">Dative-Nominative</term>
+                    <term xml:lang="en">Dative-Nominative</term>
+                    <term xml:lang="fr">Datif-Nominatif</term>
+                    <term xml:lang="it">Dativo-Nominativo</term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
+    </list>
+        </body>
+    </text>
+</TEI>

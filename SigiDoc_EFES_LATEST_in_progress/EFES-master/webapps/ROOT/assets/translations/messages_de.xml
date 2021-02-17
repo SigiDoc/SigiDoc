@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xml:lang="de">
+    <message key="epidoc-xslt-sigidoc-artifact">Objekt</message>
+    <message key="epidoc-xslt-sigidoc-type">Typ</message>
+    <message key="epidoc-xslt-sigidoc-not-specified">Unbekannt</message>
+    <message key="epidoc-xslt-sigidoc-general-layout">Layout</message>
+    <message key="epidoc-xslt-sigidoc-matrix">Matrix</message>
+    <message key="epidoc-xslt-sigidoc-physical-description">Äußere Beschreibung</message>
+    <message key="epidoc-xslt-sigidoc-work-type">Format</message>
+    <message key="epidoc-xslt-sigidoc-material">Material</message>
+    <message key="epidoc-xslt-sigidoc-diameter">Durchmesser (mm)</message>
+    <message key="epidoc-xslt-sigidoc-weight">Gewicht (gr)</message>
+    <message key="epidoc-xslt-sigidoc-axis">Achse (Uhr)</message> <!-- corretto? -->
+    <message key="epidoc-xslt-sigidoc-overstrike">Ausricht. Overstrike</message>
+    <message key="epidoc-xslt-sigidoc-channel">Fadenkanal (Uhr)</message>
+    <message key="epidoc-xslt-sigidoc-execution">Ausführung</message> <!-- chiedere a Claudia -->
+    <message key="epidoc-xslt-sigidoc-shape">Form</message>
+    <message key="epidoc-xslt-sigidoc-round">Rund</message>
+    <message key="epidoc-xslt-sigidoc-condition">Zustand</message>
+    <message key="epidoc-xslt-sigidoc-dating">Datierung</message>
+    <message key="epidoc-xslt-sigidoc-date">Date</message>
+    <message key="epidoc-xslt-sigidoc-dating-criteria">Datierungskriterien</message>
+    <message key="epidoc-xslt-sigidoc-history">Historie</message> <!-- rivedere -->
+    <message key="epidoc-xslt-sigidoc-seal-context">Grundinformationen</message> <!-- rivedere -->
+    <message key="epidoc-xslt-sigidoc-seal-issuer">Siegelinhaber</message>
+    <message key="epidoc-xslt-sigidoc-issuer's-milieu">Info über Siegelinhaber</message> <!-- rivedere -->
+    <message key="epidoc-xslt-sigidoc- place-of-origin">Ursprungsort</message> <!-- rivedere -->
+    <message key="epidoc-xslt-sigidoc-find-circumstances"></message>
+    <message key="epidoc-xslt-sigidoc-find-datum">Funddatum</message>
+    <message key="epidoc-xslt-sigidoc-find-discoverers">Entdecker</message>
+    
+    
+    
+    
+</catalogue>

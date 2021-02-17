@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+
+  <!-- Project sitemap for admin URLs, such as editorial processes
+       like Schematron validation. -->
+
+  <map:pipelines>
+    <!-- Mount sub-sitemaps. -->
+    <map:pipeline id="local-admin-mount">
+      <!-- Mount a sitemap for fetching resources from a Fedora
+           repository. -->
+      <map:match pattern="fedora/**">
+        <map:mount check-reload="yes" src="fedora.xmap"
+                   uri-prefix="fedora" />
+      </map:match>
+      <!-- Mount a sitemap for generating and querying RDF. -->
+      <map:match pattern="rdf/**">
+        <map:mount check-reload="yes" src="rdf.xmap" uri-prefix="rdf/" />
+      </map:match>
+      <!-- Mount a sitemap for Solr indexing. -->
+      <map:match pattern="solr/**">
+        <map:mount check-reload="yes" src="solr.xmap"
+                   uri-prefix="solr/" />
+      </map:match>
+    </map:pipeline>
+
+    <map:pipeline>
+      <map:match id="local-admin-home-page" pattern="">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/dirlist/content/xml.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/index.xsl">
+          <map:parameter name="language"
+                         value="{global:default-display-language}" />
+          <map:parameter name="concordance-bibliography-file"
+                         value="{global:concordance-bibliography-file}" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+
+      <!-- Show Cocoon's system status. -->
+      <map:match id="local-admin-system-status" pattern="system-status.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/system-status.html" />
+          <map:part src="cocoon://_internal/system-status.xml" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/system-status.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Index of introspections. -->
+      <map:match id="local-admin-introspection-index" pattern="introspection/">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/introspection/pipelines.xml" />
+          <map:part src="cocoon://_internal/dirlist/assets/templates.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/introspection/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/introspection.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Show an expanded view of a map:match. -->
+      <map:match id="local-admin-introspection-match"
+                 pattern="introspection/match/*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/introspection/match/{1}.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/introspection/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/introspection-match.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Show a template as rendered against an empty document. -->
+      <map:match id="local-admin-introspection-template-empty"
+                 pattern="introspection/template/**.html">
+        <map:aggregate element="aggregation">
+          <map:part src="empty:index" />
+          <map:part src="cocoon://_internal/menu/main.xml" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/{1}.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Show an expanded form of the specified template XSLT. -->
+      <map:match id="local-admin-introspection-template-xslt"
+                 pattern="introspection/template/**.xsl">
+        <map:generate src="cocoon://_internal/introspection/template-xslt/{1}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Show an expanded form of the specified XSLT. -->
+      <map:match id="local-admin-introspection-xslt"
+                 pattern="introspection/xslt/**.xsl">
+        <map:generate src="cocoon://_internal/introspection/xslt/{1}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Show the expanded map:match that matches the supplied
+           URL. -->
+      <map:match id="local-admin-introspection-match-url"
+                 pattern="introspection/url/">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/request.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/introspection/" />
+        </map:aggregate>
+        <map:transform src="../stylesheets/introspection/url-request-to-xinclude.xsl" />
+        <map:transform type="xinclude" />
+        <map:transform src="cocoon://_internal/template/admin/introspection-url-match.xsl" />
+        <map:serialize />
+      </map:match>
+   </map:pipeline>
+
+    <map:pipeline id="local-schematron">
+      <!-- Schematron validation. This is the project-specific
+           interface to Kiln's Schematron handling.
+
+           In the following example, simplified URLs are made
+           available, where the generator supplies the majority of the
+           details.
+
+           Other matches with fully parameterised patterns can equally
+           map to Kiln's internal pipelines for greater control. -->
+      <map:match id="local-admin-schematron-validation"
+                 pattern="schematron/**.html">
+        <map:aggregate element="aggregation">
+          <!-- #tei_all_doc means that the schema used is extracted
+               from the ODD file at
+               assets/schema/tei/tei_all_doc.xml. #ALL means that all
+               phases specified in the schema are used. -->
+          <map:part src="cocoon://_internal/schematron/validate/#tei_all_doc/#ALL/{1}.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/schematron/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/schematron.xsl">
+          <map:parameter name="file" value="{1}.xml" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+    </map:pipeline>
+
+    <!-- Pipeline for displaying reports of checking that linked local
+         resource exist. -->
+    <map:pipeline id="local-resource-check">
+      <map:match id="local-admin-resource-check"
+                 pattern="resource-check/images/**.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/resource-check/images/{1}.xml" />
+          <map:part src="cocoon://_internal/menu/admin.xml?url=admin/resource-check/" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/resource_check.xsl">
+          <map:parameter name="file" value="{1}.xml" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+    </map:pipeline>
+
+    <!-- Internal pipeline for checking that linked local resources
+         exist - for example, that all of the images referenced in a
+         TEI document are present in the correct place on the
+         filesystem. -->
+    <map:pipeline id="local-internal-resource-check" internal-only="true">
+      <map:match id="local-admin-image-resource-check"
+                 pattern="resource-check/images/tei/**.xml">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/resource-check/image-refs/{1}.xml" />
+          <map:part src="cocoon:/resource-check/image-files.xml" />
+        </map:aggregate>
+        <map:transform src="../kiln/stylesheets/resource-check/check-missing-resources.xsl" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Generate a list of image references from the XML
+           documents. This is based on the Kiln metadata listing, but
+           allows for the strict list of image references to be
+           expanded to accommodate multiple derivatives (eg,
+           thumbnails) of each image. -->
+      <map:match id="local-admin-image-reference-check"
+                 pattern="resource-check/image-refs/**.xml">
+        <map:generate src="cocoon://internal/metadata/images/{1}.xml" />
+        <map:transform src="../stylesheets/admin/expand-image-refs.xsl" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Generate a list of image files from the filesystem. -->
+      <map:match id="local-admin-image-file-check"
+                 pattern="resource-check/image-files.xml">
+        <map:generate src="../content/images" type="imagedirectory">
+          <map:parameter name="depth" value="99" />
+          <map:parameter name="exclude" value="^\..*" />
+        </map:generate>
+        <map:transform src="../kiln/stylesheets/resource-check/flatten-dir-list.xsl" />
+        <map:serialize type="xml" />
+      </map:match>
+    </map:pipeline>
+  </map:pipelines>
+</map:sitemap>

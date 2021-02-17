@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- LAST MODIFIED: 2020-06-09 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of office's names in SIGIDOC</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+        <item xml:id="ἀρχιεπίσκοπος_Ἐφέσου">
+            <term xml:lang="grc">ἀρχιεπίσκοπος Ἐφέσου</term>
+            <term xml:lang="en">ἀρχιεπίσκοπος Ἐφέσου</term>
+            <!--<term xml:lang="en">archbishop of Ephesos</term>-->
+            <term xml:lang="fr">archevêque d’Éphèse</term>
+            <term xml:lang="it">arcivescovo di Efeso</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="σύγκελλος">
+            <term xml:lang="grc">σύγκελλος</term>
+            <term xml:lang="en">σύγκελλος</term>
+            <!--<term xml:lang="en">synkellos</term>-->
+            <term xml:lang="fr">syncelle</term>
+            <term xml:lang="it">sincello</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="ἐπίσκοπος_Σάμου">
+            <term xml:lang="grc">ἐπίσκοπος Σάμου</term>
+            <term xml:lang="en">ἐπίσκοπος Σάμου</term>
+            <!--<term xml:lang="en">bishop of Samos</term>-->
+            <term xml:lang="fr">évêque de Samos</term>
+            <term xml:lang="it">vescovo di Samo</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="μοναχός">
+            <term xml:lang="grc">μοναχός</term>
+            <term xml:lang="en">μοναχός</term>
+            <!--<term xml:lang="en">monk</term>-->
+            <term xml:lang="fr">moine</term>
+            <term xml:lang="it">monaco</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="ποιμὴν_Σεβαστῆς">
+            <term xml:lang="grc">ποιμὴν Σεβαστῆς</term>
+            <term xml:lang="en">ποιμὴν Σεβαστῆς</term>
+            <!--<term xml:lang="en">bishop of Sebaste</term>-->
+            <term xml:lang="fr">évêque de Sébastè</term>
+            <term xml:lang="it">vescovo di Sebaste</term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+        <item xml:id="καθηγητής">
+            <term xml:lang="grc">καθηγητής</term>
+            <term xml:lang="en">καθηγητής</term>
+            <!--<term xml:lang="en">kathegetes</term>-->
+            <term xml:lang="fr">kathègètès</term>
+            <term xml:lang="it"></term>
+            <gloss xml:lang="en"></gloss>
+        </item>
+    </list>
+        </body>
+    </text>
+</TEI>
