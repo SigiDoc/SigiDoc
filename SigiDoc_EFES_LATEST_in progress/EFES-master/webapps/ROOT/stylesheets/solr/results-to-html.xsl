@@ -57,13 +57,17 @@
 
   <xsl:template match="lst[@name='facet_fields']/lst"
                 mode="search-results">
+    <xsl:variable name="toggle_facet_items"><xsl:text>toggle_visibility('</xsl:text><xsl:value-of select="@name"/><xsl:text>');</xsl:text></xsl:variable>
     <section>
       <p class="title" data-section-title="">
         <a href="#">
+          <xsl:attribute name="onclick"><xsl:value-of select="$toggle_facet_items"/></xsl:attribute>
           <xsl:apply-templates mode="search-results" select="@name" />
         </a>
       </p>
       <div class="content" data-section-content="">
+        <xsl:attribute name="id"><xsl:value-of select="@name"/></xsl:attribute>
+        <xsl:attribute name="style"><xsl:text>display:none;</xsl:text></xsl:attribute>
         <ul class="no-bullet">
           <xsl:apply-templates mode="search-results" />
         </ul>

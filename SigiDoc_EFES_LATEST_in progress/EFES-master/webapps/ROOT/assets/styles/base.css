@@ -19,6 +19,45 @@ footer {
 }
 */
 
+/*Keyboard*/
+
+@font-face {
+    font-family: athenaruby;
+    src: url('../fonts/AthenaRuby_b018.ttf') format('truetype')
+} /* for Athena Ruby in keyboard! */
+
+#keyboard_box {
+    display:none;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em;
+    float: none;
+    width: 300px;
+    height: 300px;
+}
+#keyboard li {
+    font-size: 18px;
+    list-style: none;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 22px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    background: #F0F0F0;
+    border-radius: 5px;
+}
+
+#keyboard li.letter {
+        font-family: athenaruby;
+}  /* for Athena Ruby in keyboard! */
+
+#keyboard li:hover {
+    border: none;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
 ul.index-instances {
 font-weight:normal;
 }
