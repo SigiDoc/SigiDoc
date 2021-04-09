@@ -16,5 +16,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository:  devofcode123/SigiDoc_Latest/sigidoc
-          tag_with_ref: false
+          tag_with_ref: true
           dockerfile: SigiDoc_EFES_LATEST_in progress/EFES-master/Dockerfile
