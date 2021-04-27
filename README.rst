@@ -49,3 +49,10 @@ Kiln code and documentation
 EFES is licensed under the Apache 2.0 open software license,
 and is copyright the University of London, King's College London,
 and all listed individual contributors.
+
+Start with Docker:
+    1. Navigate to the project folder For Windows:
+        2. run "bash docker.sh"
+    For Linux:
+        2. run "sh docker.sh"
+
