@@ -1,8 +1,7 @@
 name: Publish Docker image
 on:
   workflow_dispatch:
-    inputs:
-      msg:
+  
 jobs:
   push_to_registry:
     name: Push Docker image to GitHub Packages
