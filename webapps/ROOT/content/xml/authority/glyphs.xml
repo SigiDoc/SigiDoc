@@ -1,142 +1,3130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="AR.css"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!--<?xml-stylesheet type="text/css" href="../../../assets/styles/AR.css"?>-->
+
+<!-- Table of contents:
+abbreviations: l. 43
+Greek numeral signs: l. 171
+ligatures: l. 189
+	Greek ligatures: l. 191
+	Latin ligatures: . 889
+letters: l. 922
+	Greek letters: l. 924
+	superscript Greek letters: l. 1829
+	Latin letters: l. 1962
+decoration elements: l. 2475
+editorial interventions: l. 3118
+-->
+
+<!-- NEW VARIANTS WITH 2021 AR FONT VERSION START WITH GLYPH 731 to 754: to be added -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of military units in SIGIDOC</title>
+                <title>Authority list of Athena Ruby characters in SIGIDOC</title>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
-            <sourceDesc><ab/></sourceDesc>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
-    
+
     <text>
         <body>
-                <list type="glyphs">
-    
-    
-    <!-- ABBREVIATIONS -->
-    <item xml:id="AbbrMark.1"><!-- no AR postname -->
-        <gloss>Lower abbreviation mark</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i602</idno><!-- in AR this is a comma -->
-    </item>
-    <item xml:id="AbbrMark.2"><!-- no AR postname -->
-        <gloss>Lower wave abbreviation mark</gloss><!-- change description????????????? -->
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i578</idno>
-    </item>
-    <item xml:id="AbbrMark.3"><!-- no AR postname -->
-        <gloss>Overline straight abbreviation mark</gloss><!-- change description????????????? -->
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i581</idno>
-    </item>
-    <item xml:id="AbbrMark.4"><!-- no AR postname -->
-        <gloss>Vertical squiggle</gloss><!-- change description????????????? -->
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i563</idno><!-- or 561????????????????????????????? -->
-    </item>
-    <item xml:id="AbbrMark.5"><!-- no AR postname -->
-        <gloss>Curved slash, climbing to right</gloss><!-- change description????????????? -->
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i572</idno>
-    </item>
-    <item xml:id="AbbrMark.6"><!-- no AR postname --><!-- circumflex in AR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <gloss>Overline curved abbreviation mark</gloss><!-- change description????????????? -->
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i333</idno>
-    </item>
-    
-    
-    <!-- SYMBOLS -->
-    <item xml:id="Omicron_Alpha.4"><!-- UNDER SYMBOLS?????????? --><!-- change id??????????? -->
-        <gloss>Omicron_Alpha.4, variant no. 4 (ho hagios)</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i249</idno>
-    </item>
-    <item xml:id="Kai"><!-- no AR postname -->
-        <gloss>Kai symbol, variant no. 0 (S)</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i448</idno>
-    </item>
-    
-    
-    
-    <!-- LIGATURES -->
-    <item xml:id="Omicron_Upsilon">
-        <gloss>Omicron_Upsilon, variant no. 0 (small omicron topped by V)</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i252</idno>
-    </item>
-    <item xml:id="Omicron_Upsilon.1">
-        <gloss>Omicron_Upsilon.1, variant no. 1 (horseshoe ligature)</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i253</idno>
-    </item>
-    
-    
-    
-    <!-- LETTERS -->
-    <item xml:id="Alpha.2">
-        <term xml:lang="grc"></term>
-        <gloss>Alpha.2, variant no. 2</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i6</idno>
-    </item>
-    <item xml:id="Beta">
-        <gloss>Beta, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i32</idno>
-    </item>
-    <item xml:id="Beta.1">
-        <term xml:lang="grc"></term>
-        <gloss>Beta.1, variant no. 1</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i33</idno>
-    </item>
-    <item xml:id="Delta">
-        <gloss>Delta, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i47</idno>
-    </item>
-    <item xml:id="Delta.1">
-        <gloss>Delta.1, variant no. 1 (extended base)</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i48</idno>
-    </item>
-    <item xml:id="Epsilon">
-        <term xml:lang="grc">Ε</term>
-        <gloss>Epsilon, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i61</idno>
-    </item>
-    <item xml:id="Theta">
-        <term xml:lang="grc">Θ</term>
-        <gloss>Theta, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i74</idno>
-    </item>
-    <item xml:id="Kappa">
-        <gloss>Kappa, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i81</idno>
-    </item>
-    <item xml:id="Kappa.1">
-        <term xml:lang="grc"></term>
-        <gloss>Kappa.1, variant no. 1</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i82</idno>
-    </item>
-    <item xml:id="Mu">
-        <gloss>Mu, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i92</idno>
-    </item>
-    <item xml:id="Mu.1">
-        <term xml:lang="grc"></term>
-        <gloss>Mu.1, variant no. 1</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i93</idno>
-    </item>
-    <item xml:id="Xi.8">
-        <gloss>Xi.8, variant no. 8</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i114</idno>
-    </item>
-    <item xml:id="Sigma">
-        <term xml:lang="grc">Σ</term>
-        <gloss>Sigma, variant no. 0</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i125</idno>
-    </item>
-    <item xml:id="Omega.1">
-        <gloss>Omega.1, variant no. 1</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i144</idno>
-    </item>
-    <item xml:id="Omega.3">
-        <gloss>Omega.3, variant no. 3</gloss>
-        <idno type="AthenaRuby">http://athenaruby.kalvesmaki.com/ARdatabase.html#i146</idno>
-    </item>
-                </list>
+            <list type="glyphs">
+
+
+                <!-- ABBREVIATIONS (see also uni0375) -->
+
+                <item xml:id="uni1018D"><!-- ID and postname to be verified -->
+                    <term xml:lang="grc"></term>
+                    <gloss>uni1018D, variant no. 0 (Greek indiction sign)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE51B"><!-- ID and postname to be verified -->
+                    <term xml:lang="grc"></term>
+                    <gloss>uniE51B, variant no. 1 (Greek indiction sign)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E09"><!-- ?????????????????????????????????????????????????????? -->
+                    <term xml:lang="grc">⸉</term>
+                    <gloss>uni2E09, variant no. 0 (Ancient punctuation, indicating omitted letters.
+                        Shaped like s)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E09.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni2E09.1, variant no. 1 (Like a comma, midheight)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E09.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni2E09.2, variant no. 2 (Vertical squiggle)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E09.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni2E09.3, variant no. 3 (As uni2E09, set between x-height and ascender
+                        line)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E09.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni2E09.4, variant no. 4 (As uni2E09, at baseline)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E0A">
+                    <term xml:lang="grc">⸊</term>
+                    <gloss>uni2E0A (As uni2E09.2, reversed)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni02CA">
+                    <term xml:lang="grc">ˊ</term>
+                    <gloss>uni02CA (Like acutecomb)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni02CB">
+                    <term xml:lang="grc">ˋ</term>
+                    <gloss>uni02CB (Like gravecomb)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni00B7">
+                    <term xml:lang="grc">·</term>
+                    <gloss>uni00B7, variant no. 0 (Pellet)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni00B7.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni00B7.1, variant no. 1 (Diamond-shaped pellet)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni002F">
+                    <term xml:lang="grc">/</term>
+                    <gloss>uni002F, variant no. 0 (Large slash, climbing to right)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni002F.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni002F.1, variant no. 1 (Large slash, climbing to right, curved)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E44">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni2E44</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni02C1">
+                    <term xml:lang="grc">ˁ</term>
+                    <gloss>uni02C1 (Like backwards, tilted question mark without dot)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni02D9">
+                    <term xml:lang="grc">˙</term>
+                    <gloss>uni02D9 (Pellet centered above letter. Sits between letters)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E23">
+                    <term xml:lang="grc">⸣</term>
+                    <gloss>uni2E23, variant no. 0 (Connects to combining overline)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni2E23.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni2E23.1, variant no. 1 (Wavy variant. Connects to combining
+                        overline)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE40B">
+                    <term xml:lang="grc"></term>
+                    <gloss>uniE40B</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni0337">
+                    <term xml:lang="grc">̷</term>
+                    <gloss>uni0337 (oblique stroke cutting previous letter)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni0305">
+                    <term xml:lang="grc">̅</term>
+                    <gloss>uni0305 (Overbar. Ancient editorial mark set above previous letter(s) to
+                        mark suspension of letters)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni0305.wave">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni0305.wave, variant no. 1 (Curved form)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni0305.waverev">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni0305.waverev, variant no. 2 (Curved form, reversed)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="overlinecomb.curve">
+                    <term xml:lang="grc"></term>
+                    <gloss>overlinecomb.curve, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- GREEK NUMERAL SIGNS -->
+
+                <item xml:id="uni0374">
+                    <term xml:lang="grc">ʹ</term>
+                    <gloss>uni0374, variant no. 0 (Like acute accent, but does not combine with
+                        other characters)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni0374.overline">
+                    <term xml:lang="grc"></term><!-- is this the right one???????????????????? -->
+                    <gloss>uni0374.overline, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni0375">
+                    <term xml:lang="grc">͵</term><!-- used also as lower abbreviation sign (??????????????????) -->
+                    <gloss>uni0375 (lower numeral sign)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- LIGATURES -->
+
+                <!-- GREEK LIGATURES -->
+
+                <item xml:id="Alpha_Beta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Beta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Beta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Beta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Kappa">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Lambda">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Lambda</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Alpha_Chi">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha_Chi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Beta_Kappa">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta_Kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Iota">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Iota</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Kappa">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Mu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Mu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Rho</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Rho_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Rho_Omega, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Rho_Omega.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Rho_Omega.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Gamma_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma_Omega</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Delta_Delta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta_Delta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Delta_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Delta_Upsilon">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta_Upsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Epsilon_Iota">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon_Iota</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Epsilon_Upsilon">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon_Upsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Beta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Beta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Gamma">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Gamma</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Kappa">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Lambda">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Lambda</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Mu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Mu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Rho.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Rho.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Rho_Sigma">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Rho_Sigma</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Sigma">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Sigma</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Eta_Tau">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta_Tau</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Theta_Kappa">
+                    <term xml:lang="grc"></term>
+                    <gloss>Theta_Kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Iota_Alpha">
+                    <term xml:lang="grc"></term>
+                    <gloss>Iota_Alpha</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Iota_Beta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Iota_Beta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Iota_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Iota_Omega</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Alpha_Iota">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Alpha_Iota, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Alpha_Iota.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Alpha_Iota.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Gamma">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Gamma, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Gamma.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Gamma.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Delta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Delta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Phi">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Phi, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Phi.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Phi.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Kappa_Omega_Tau">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa_Omega_Tau</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Lambda_Iota.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda_Iota.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Alpha">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Alpha</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Gamma">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Gamma, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Gamma.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Gamma.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Epsilon">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Epsilon, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Epsilon.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Epsilon.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Eta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Eta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Eta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Eta_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Eta_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Eta_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Eta_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Eta_Rho.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Eta_Rho.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Mu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Mu, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Mu.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Mu.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Nu_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Nu_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Nu_Eta_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Nu_Eta_Nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Mu_Tau">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu_Tau</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Gamma">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Gamma</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Gamma_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Gamma_Rho</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Delta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Delta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Epsilon">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Epsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Eta_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Eta_Nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Kappa">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Mu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Mu, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Mu.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Mu.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Nu, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Nu.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Nu.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Nu_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Nu_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Omicron">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Omicron</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Nu_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu_Rho</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Alpha.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Alpha.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Upsilon">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Upsilon, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Upsilon.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Upsilon.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Upsilon.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Upsilon.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Upsilon.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Upsilon.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Upsilon.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Upsilon.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omicron_Upsilon.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omicron_Upsilon.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi_Alpha">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi_Alpha</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi_Eta_Tau">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi_Eta_Tau</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi_Pi">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi_Pi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho_Phi">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho_Phi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho_Omega, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho_Omega.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho_Omega.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho_Omega.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho_Omega.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho_Omega.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho_Omega.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma_Omicron">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma_Omicron</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma_Pi">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma_Pi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma_Tau">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma_Tau, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma_Tau.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma_Tau.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma_Tau_Iota">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma_Tau_Iota</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Zeta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Zeta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Eta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Eta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Eta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Omicron">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Omicron</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Omicron_Upsilon">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Omicron_Upsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Rho_Eta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Rho_Eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Omega, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Omega.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Omega.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Tau_Omega.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tau_Omega.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi_Theta">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi_Theta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi_Omega, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi_Omega.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi_Omega.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Chi_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Chi_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Chi_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Chi_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Chi_Rho.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Chi_Rho.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Chi_Rho.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Chi_Rho.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Psi_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>Psi_Omega</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega_Nu">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega_Nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega_Rho">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega_Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega_Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega_Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega_Rho.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega_Rho.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni271A_Phi">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni271A_Phi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uni271A_Omega">
+                    <term xml:lang="grc"></term>
+                    <gloss>uni271A_Omega</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- LATIN LIGATURES -->
+
+                <item xml:id="A_U">
+                    <term></term>
+                    <gloss>A_U</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A_E">
+                    <term></term>
+                    <gloss>A_E</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="H_R">
+                    <term></term>
+                    <gloss>H_R, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="H_R.1">
+                    <term></term>
+                    <gloss>H_R.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="H_R_C">
+                    <term></term>
+                    <gloss>H_R_C</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="L_I">
+                    <term></term>
+                    <gloss>L_I</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- LETTERS -->
+
+                <!-- GREEK LETTERS -->
+
+                <!-- Alpha -->
+
+                <item xml:id="Alpha">
+                    <term xml:lang="grc">Α</term>
+                    <gloss>Alpha, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i4</idno>
+                </item>
+                <item xml:id="Alpha.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i5</idno>
+                </item>
+                <item xml:id="Alpha.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i6</idno>
+                </item>
+                <item xml:id="Alpha.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i7</idno>
+                </item>
+                <item xml:id="Alpha.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i8</idno>
+                </item>
+                <item xml:id="Alpha.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i9</idno>
+                </item>
+                <item xml:id="Alpha.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i10</idno>
+                </item>
+                <item xml:id="Alpha.7">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i11</idno>
+                </item>
+                <item xml:id="Alpha.8">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.8, variant no. 8</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i12</idno>
+                </item>
+                <item xml:id="Alpha.9">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.9, variant no. 9</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i13</idno>
+                </item>
+                <item xml:id="Alpha.10">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.10, variant no. 10</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i14</idno>
+                </item>
+                <item xml:id="Alpha.11">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.11, variant no. 11</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i15</idno>
+                </item>
+                <item xml:id="Alpha.12">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.12, variant no. 12</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i16</idno>
+                </item>
+                <item xml:id="Alpha.13">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.13, variant no. 13</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i17</idno>
+                </item>
+                <item xml:id="Alpha.14">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.14, variant no. 14</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i18</idno>
+                </item>
+                <item xml:id="Alpha.15">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.15, variant no. 15</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i19</idno>
+                </item>
+                <item xml:id="Alpha.16">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.16, variant no. 16</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i20</idno>
+                </item>
+                <item xml:id="Alpha.17">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.17, variant no. 17</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i21</idno>
+                </item>
+                <item xml:id="Alpha.18">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.18, variant no. 18</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i22</idno>
+                </item>
+                <item xml:id="Alpha.19">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.19, variant no. 19</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i23</idno>
+                </item>
+                <item xml:id="Alpha.20">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.20, variant no. 20</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i24</idno>
+                </item>
+                <item xml:id="Alpha.21">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.21, variant no. 21</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i25</idno>
+                </item>
+                <item xml:id="Alpha.22">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.22, variant no. 22</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i26</idno>
+                </item>
+                <item xml:id="Alpha.23">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.23, variant no. 23</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i27</idno>
+                </item>
+                <item xml:id="Alpha.24">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.24, variant no. 24</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i28</idno>
+                </item>
+                <item xml:id="Alpha.25">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.25, variant no. 25</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i29</idno>
+                </item>
+                <item xml:id="Alpha.26">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.26, variant no. 26</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i30</idno>
+                </item>
+                <item xml:id="Alpha.27">
+                    <term xml:lang="grc"></term>
+                    <gloss>Alpha.27, variant no. 27</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i31</idno>
+                </item>
+
+                <!-- Beta -->
+
+                <item xml:id="Beta">
+                    <term xml:lang="grc">Β</term>
+                    <gloss>Beta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i32</idno>
+                </item>
+                <item xml:id="Beta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i33</idno>
+                </item>
+                <item xml:id="Beta.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i34</idno>
+                </item>
+                <item xml:id="Beta.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i35</idno>
+                </item>
+                <item xml:id="Beta.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i36</idno>
+                </item>
+                <item xml:id="Beta.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i37</idno>
+                </item>
+                <item xml:id="Beta.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i38</idno>
+                </item>
+                <item xml:id="Beta.7">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i39</idno>
+                </item>
+                <item xml:id="Beta.8">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.8, variant no. 8</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i40</idno>
+                </item>
+                <item xml:id="Beta.9">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.9, variant no. 9</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i41</idno>
+                </item>
+                <item xml:id="Beta.10">
+                    <term xml:lang="grc"></term>
+                    <gloss>Beta.10, variant no. 10</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i42</idno>
+                </item>
+
+                <!-- Gamma -->
+
+                <item xml:id="Gamma">
+                    <term xml:lang="grc">Γ</term>
+                    <gloss>Gamma, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i43</idno>
+                </item>
+                <item xml:id="Gamma.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i44</idno>
+                </item>
+                <item xml:id="Gamma.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i45</idno>
+                </item>
+                <item xml:id="Gamma.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Gamma.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i46</idno>
+                </item>
+
+                <!-- Delta -->
+
+                <item xml:id="Delta">
+                    <term xml:lang="grc">Δ</term>
+                    <gloss>Delta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i47</idno>
+                </item>
+                <item xml:id="Delta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i48</idno>
+                </item>
+                <item xml:id="Delta.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i49</idno>
+                </item>
+                <item xml:id="Delta.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i50</idno>
+                </item>
+                <item xml:id="Delta.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i51</idno>
+                </item>
+                <item xml:id="Delta.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i52</idno>
+                </item>
+                <item xml:id="Delta.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i53</idno>
+                </item>
+                <item xml:id="Delta.7">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i54</idno>
+                </item>
+                <item xml:id="Delta.8">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.8, variant no. 8</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i55</idno>
+                </item>
+                <item xml:id="Delta.9">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.9, variant no. 9</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i56</idno>
+                </item>
+                <item xml:id="Delta.10">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.10, variant no. 10</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i57</idno>
+                </item>
+                <item xml:id="Delta.11">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.11, variant no. 11</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i58</idno>
+                </item>
+                <item xml:id="Delta.12">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.12, variant no. 12</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i59</idno>
+                </item>
+                <item xml:id="Delta.13">
+                    <term xml:lang="grc"></term>
+                    <gloss>Delta.13, variant no. 13</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i60</idno>
+                </item>
+
+                <!-- Epsilon -->
+
+                <item xml:id="Epsilon">
+                    <term xml:lang="grc">Ε</term>
+                    <gloss>Epsilon, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i61</idno>
+                </item>
+                <item xml:id="Epsilon.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i62</idno>
+                </item>
+                <item xml:id="Epsilon.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i63</idno>
+                </item>
+                <item xml:id="Epsilon.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i64</idno>
+                </item>
+                <item xml:id="Epsilon.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i65</idno>
+                </item>
+                <item xml:id="Epsilon.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i66</idno>
+                </item>
+                <item xml:id="Epsilon.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Epsilon.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i67</idno>
+                </item>
+
+                <!-- Zeta -->
+
+                <item xml:id="Zeta">
+                    <term xml:lang="grc">Ζ</term>
+                    <gloss>Zeta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i68</idno>
+                </item>
+                <item xml:id="Zeta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Zeta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i69</idno>
+                </item>
+                <item xml:id="Zeta.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Zeta.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i70</idno>
+                </item>
+                <item xml:id="Zeta.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Zeta.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i71</idno>
+                </item>
+
+                <!-- Eta -->
+                <item xml:id="Eta">
+                    <term xml:lang="grc">Η</term>
+                    <gloss>Eta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i72</idno>
+                </item>
+                <item xml:id="Eta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Eta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i73</idno>
+                </item>
+
+                <!-- Theta -->
+
+                <item xml:id="Theta">
+                    <term xml:lang="grc">Θ</term>
+                    <gloss>Theta, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i74</idno>
+                </item>
+                <item xml:id="Theta.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Theta.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i75</idno>
+                </item>
+                <item xml:id="Theta.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Theta.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i76</idno>
+                </item>
+                <item xml:id="Theta.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Theta.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i77</idno>
+                </item>
+                <item xml:id="Theta.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Theta.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i78</idno>
+                </item>
+
+                <!-- Iota -->
+
+                <item xml:id="Iota">
+                    <term xml:lang="grc">Ι</term>
+                    <gloss>Iota, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i79</idno>
+                </item>
+                <item xml:id="Iota.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Iota.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i80</idno>
+                </item>
+
+                <!-- Kappa -->
+
+                <item xml:id="Kappa">
+                    <term xml:lang="grc">Κ</term>
+                    <gloss>Kappa, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i81</idno>
+                </item>
+                <item xml:id="Kappa.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i82</idno>
+                </item>
+                <item xml:id="Kappa.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i83</idno>
+                </item>
+                <item xml:id="Kappa.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Kappa.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i84</idno>
+                </item>
+
+                <!-- Lambda -->
+
+                <item xml:id="Lambda">
+                    <term xml:lang="grc">Λ</term>
+                    <gloss>Lambda, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i85</idno>
+                </item>
+                <item xml:id="Lambda.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i86</idno>
+                </item>
+                <item xml:id="Lambda.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i87</idno>
+                </item>
+                <item xml:id="Lambda.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i88</idno>
+                </item>
+                <item xml:id="Lambda.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i89</idno>
+                </item>
+                <item xml:id="Lambda.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i90</idno>
+                </item>
+                <item xml:id="Lambda.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lambda.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i91</idno>
+                </item>
+
+                <!-- Mu -->
+
+                <item xml:id="Mu">
+                    <term xml:lang="grc">Μ</term>
+                    <gloss>Mu, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i92</idno>
+                </item>
+                <item xml:id="Mu.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i93</idno>
+                </item>
+                <item xml:id="Mu.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i94</idno>
+                </item>
+                <item xml:id="Mu.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i95</idno>
+                </item>
+                <item xml:id="Mu.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i96</idno>
+                </item>
+                <item xml:id="Mu.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i97</idno>
+                </item>
+                <item xml:id="Mu.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i98</idno>
+                </item>
+                <item xml:id="Mu.7">
+                    <term xml:lang="grc"></term>
+                    <gloss>Mu.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i99</idno>
+                </item>
+
+                <!-- Nu -->
+
+                <item xml:id="Nu">
+                    <term xml:lang="grc">Ν</term>
+                    <gloss>Nu, variant no. 0</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i100</idno>
+                </item>
+                <item xml:id="Nu.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i101</idno>
+                </item>
+                <item xml:id="Nu.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i102</idno>
+                </item>
+                <item xml:id="Nu.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i103</idno>
+                </item>
+                <item xml:id="Nu.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i104</idno>
+                </item>
+                <item xml:id="Nu.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Nu.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"
+                        >https://www.doaks.org/resources/athena-ruby/database-of-characters-in-html#i105</idno>
+                </item>
+
+                <!-- Xi -->
+
+                <item xml:id="Xi">
+                    <term xml:lang="grc">Ξ</term>
+                    <gloss>Xi, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.7">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.8">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.8, variant no. 8</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.9">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.9, variant no. 9</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.10">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.10, variant no. 10</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Xi.11">
+                    <term xml:lang="grc"></term>
+                    <gloss>Xi.11, variant no. 11</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Omicron -->
+
+                <item xml:id="Omicron">
+                    <term xml:lang="grc">Ο</term>
+                    <gloss>Omicron</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Pi -->
+
+                <item xml:id="Pi">
+                    <term xml:lang="grc">Π</term>
+                    <gloss>Pi, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Pi.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pi.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Rho -->
+
+                <item xml:id="Rho">
+                    <term xml:lang="grc">Ρ</term>
+                    <gloss>Rho, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Rho.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Rho.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Sigma -->
+
+                <item xml:id="Sigma">
+                    <term xml:lang="grc">Σ</term>
+                    <gloss>Sigma, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Sigma.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Sigma.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Tau -->
+
+                <item xml:id="Tau">
+                    <term xml:lang="grc">Τ</term>
+                    <gloss>Tau</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Upsilon -->
+
+                <item xml:id="Upsilon">
+                    <term xml:lang="grc">Υ</term>
+                    <gloss>Upsilon, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Upsilon.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Upsilon.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Upsilon.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Upsilon.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Upsilon.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Upsilon.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Phi -->
+
+                <item xml:id="Phi">
+                    <term xml:lang="grc">Φ</term>
+                    <gloss>Phi, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Phi.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Phi.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Chi -->
+
+                <item xml:id="Chi">
+                    <term xml:lang="grc">Χ</term>
+                    <gloss>Chi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Psi -->
+
+                <item xml:id="Psi">
+                    <term xml:lang="grc">Ψ</term>
+                    <gloss>Psi, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Psi.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Psi.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Omega -->
+
+                <item xml:id="Omega">
+                    <term xml:lang="grc">Ω</term>
+                    <gloss>Omega, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega.1">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega.2">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega.3">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega.4">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega.5">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Omega.6">
+                    <term xml:lang="grc"></term>
+                    <gloss>Omega.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- SUPERSCRIPT GREEK LETTERS -->
+
+                <item xml:id="uniE500">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript alpha</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE501">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript beta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE502">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript gamma</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE503">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript delta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE504">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript epsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE505">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript zeta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE506">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript eta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE507">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript theta</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE508">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript iota</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE509">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript kappa</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE50A">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript lambda</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE50B">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript mu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE50C">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript nu</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE50D">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript xi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE50E">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript omicron</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE50F">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript pi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE510">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript rho</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE511">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript sigma</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE512">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript tau</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE513">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript upsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE514">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript phi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE515">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript chi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE516">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript psi</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE517">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript omega</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE518">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript ligature omicron-upsilon</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE519">
+                    <term xml:lang="grc"></term>
+                    <gloss>Superscript ligature omicron-upsilon (horseshoe)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- LATIN LETTERS -->
+
+                <item xml:id="A">
+                    <term>A</term>
+                    <gloss>A, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A.1">
+                    <term></term>
+                    <gloss>A.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A.2">
+                    <term></term>
+                    <gloss>A.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A.3">
+                    <term></term>
+                    <gloss>A.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A.4">
+                    <term></term>
+                    <gloss>A.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A.5">
+                    <term></term>
+                    <gloss>A.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="A.6">
+                    <term></term>
+                    <gloss>A.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="B">
+                    <term>B</term>
+                    <gloss>B, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="B.1">
+                    <term></term>
+                    <gloss>B.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="C">
+                    <term>C</term>
+                    <gloss>C, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="C.1">
+                    <term></term>
+                    <gloss>C.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="C.2">
+                    <term></term>
+                    <gloss>C.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="C.3">
+                    <term></term>
+                    <gloss>C.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="C.4">
+                    <term></term>
+                    <gloss>C.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D">
+                    <term>D</term>
+                    <gloss>D, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.1">
+                    <term></term>
+                    <gloss>D.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.2">
+                    <term></term>
+                    <gloss>D.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.3">
+                    <term></term>
+                    <gloss>D.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.4">
+                    <term></term>
+                    <gloss>D.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.5">
+                    <term></term>
+                    <gloss>D.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.6">
+                    <term></term>
+                    <gloss>D.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.7">
+                    <term></term>
+                    <gloss>D.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.8">
+                    <term></term>
+                    <gloss>D.8, variant no. 8</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="D.9">
+                    <term></term>
+                    <gloss>D.9, variant no. 9</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="E">
+                    <term>E</term>
+                    <gloss>E, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="E.1">
+                    <term></term>
+                    <gloss>E.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="E.2">
+                    <term></term>
+                    <gloss>E.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="E.3">
+                    <term></term>
+                    <gloss>E.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="E.4">
+                    <term></term>
+                    <gloss>E.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="F">
+                    <term>F</term>
+                    <gloss>F, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="F.1">
+                    <term></term>
+                    <gloss>F.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="F.2">
+                    <term></term>
+                    <gloss>F.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="F.3">
+                    <term></term>
+                    <gloss>F.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G">
+                    <term>G</term>
+                    <gloss>G, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.1">
+                    <term></term>
+                    <gloss>G.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.2">
+                    <term></term>
+                    <gloss>G.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.3">
+                    <term></term>
+                    <gloss>G.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.4">
+                    <term></term>
+                    <gloss>G.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.5">
+                    <term></term>
+                    <gloss>G.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.6">
+                    <term></term>
+                    <gloss>G.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.7">
+                    <term></term>
+                    <gloss>G.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.8">
+                    <term></term>
+                    <gloss>G.8, variant no. 8</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="G.9">
+                    <term></term>
+                    <gloss>G.9, variant no. 9</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="H">
+                    <term>H</term>
+                    <gloss>H, variant no. 9</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="H.1">
+                    <term></term>
+                    <gloss>H.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="H.2">
+                    <term></term>
+                    <gloss>H.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="I">
+                    <term>I</term>
+                    <gloss>I, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="I.1">
+                    <term></term>
+                    <gloss>I.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="J">
+                    <term>J</term>
+                    <gloss>J</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="K">
+                    <term>K</term>
+                    <gloss>K, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="K.1">
+                    <term></term>
+                    <gloss>K.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="L">
+                    <term>L</term>
+                    <gloss>L, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="L.1">
+                    <term></term>
+                    <gloss>L.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="L.2">
+                    <term></term>
+                    <gloss>L.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="L.3">
+                    <term></term>
+                    <gloss>L.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M">
+                    <term>M</term>
+                    <gloss>M, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.1">
+                    <term></term>
+                    <gloss>M.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.2">
+                    <term></term>
+                    <gloss>M.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.3">
+                    <term></term>
+                    <gloss>M.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.4">
+                    <term></term>
+                    <gloss>M.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.5">
+                    <term></term>
+                    <gloss>M.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.6">
+                    <term></term>
+                    <gloss>M.6, variant no. 6</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="M.7">
+                    <term></term>
+                    <gloss>M.7, variant no. 7</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="N">
+                    <term>N</term>
+                    <gloss>N, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="N.1">
+                    <term></term>
+                    <gloss>N.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="N.2">
+                    <term></term>
+                    <gloss>N.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="N.3">
+                    <term></term>
+                    <gloss>N.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="N.4">
+                    <term></term>
+                    <gloss>N.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="N.5">
+                    <term></term>
+                    <gloss>N.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="O">
+                    <term>O</term>
+                    <gloss>O, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="O.1">
+                    <term></term>
+                    <gloss>O.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="P">
+                    <term>P</term>
+                    <gloss>P, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="P.1">
+                    <term></term>
+                    <gloss>P.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Q">
+                    <term>Q</term>
+                    <gloss>Q</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="R">
+                    <term>R</term>
+                    <gloss>R, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="R.1">
+                    <term></term>
+                    <gloss>R.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="R.2">
+                    <term></term>
+                    <gloss>R.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="R.3">
+                    <term></term>
+                    <gloss>R.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="R.4">
+                    <term></term>
+                    <gloss>R.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="R.5">
+                    <term></term>
+                    <gloss>R.5, variant no. 5</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="S">
+                    <term>S</term>
+                    <gloss>S, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="S.1">
+                    <term></term>
+                    <gloss>S.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="S.2">
+                    <term></term>
+                    <gloss>S.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="S.3">
+                    <term></term>
+                    <gloss>S.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="T">
+                    <term>T</term>
+                    <gloss>T, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="T.1">
+                    <term></term>
+                    <gloss>T.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="T.2">
+                    <term></term>
+                    <gloss>T.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="T.3">
+                    <term></term>
+                    <gloss>T.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="T.4">
+                    <term></term>
+                    <gloss>T.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="U">
+                    <term>U</term>
+                    <gloss>U, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="U.1">
+                    <term></term>
+                    <gloss>U.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="U.2">
+                    <term></term>
+                    <gloss>U.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="U.3">
+                    <term></term>
+                    <gloss>U.3, variant no. 3</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="U.4">
+                    <term></term>
+                    <gloss>U.4, variant no. 4</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="V">
+                    <term>V</term>
+                    <gloss>V, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="V.1">
+                    <term></term>
+                    <gloss>V.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="V.2">
+                    <term></term>
+                    <gloss>V.2, variant no. 2</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="W">
+                    <term>W</term>
+                    <gloss>W</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="X">
+                    <term>X</term>
+                    <gloss>X</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Y">
+                    <term>Y</term>
+                    <gloss>Y</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Z">
+                    <term>Z</term>
+                    <gloss>Z, variant no. 0</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="Z.1">
+                    <term></term>
+                    <gloss>Z.1, variant no. 1</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- DECORATION ELEMENTS -->
+
+                <item xml:id="uni25CC">
+                    <term xml:lang="grc">◌</term>
+                    <gloss>Dotted circle</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE700">
+                    <term xml:lang="grc"></term>
+                    <gloss>As hyphen.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE701">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE702">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE703">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE704">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set near cap height.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE705">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE706">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE707">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE708">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set diagonally to top right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE709">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set diagonally to bottom right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE70A">
+                    <term xml:lang="grc"></term>
+                    <gloss>Small cross.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE70B">
+                    <term xml:lang="grc"></term>
+                    <gloss>Large cross.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE70C">
+                    <term xml:lang="grc"></term>
+                    <gloss>x shaped.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE70D">
+                    <term xml:lang="grc"></term>
+                    <gloss>x shaped (wider variant).</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE70E">
+                    <term xml:lang="grc"></term>
+                    <gloss>with short crossbar bisecting top arm.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE70F">
+                    <term xml:lang="grc"></term>
+                    <gloss>One horizontal ray trisected by two short vertical rays</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE710">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set in octagonal array (no ray assigned to horizontal “axis”)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE711">
+                    <term xml:lang="grc"></term>
+                    <gloss>no ray assigned to vertical “axis.”</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE712">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set in hexagonal array, one “axis” set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE713">
+                    <term xml:lang="grc"></term>
+                    <gloss>One “axis” set horizontally.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE714">
+                    <term xml:lang="grc"></term>
+                    <gloss>Three stacked horizontal rays.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE715">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE716">
+                    <term xml:lang="grc"></term>
+                    <gloss>Small 8-rayed star.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE717">
+                    <term xml:lang="grc"></term>
+                    <gloss>Large 8-rayed star.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE718">
+                    <term xml:lang="grc"></term>
+                    <gloss>Tic-tac-toe shape.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE719">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE71A">
+                    <term xml:lang="grc"></term>
+                    <gloss>Small rays set windmill fashion, unconnected.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE71B">
+                    <term xml:lang="grc"></term>
+                    <gloss>large rays.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE71C">
+                    <term xml:lang="grc"></term>
+                    <gloss>Two pairs of closely placed horizontal rays, framing a central
+                        element.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE71D">
+                    <term xml:lang="grc"></term>
+                    <gloss>Wider variant.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE71E">
+                    <term xml:lang="grc"></term>
+                    <gloss>Five-pointed star.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE71F">
+                    <term xml:lang="grc"></term>
+                    <gloss>Single midpoint.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE720">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE721">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set below baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE722">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set above x-height.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE723">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set above cap height.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE724">
+                    <term xml:lang="grc"></term>
+                    <gloss>Two pellets just below x-height, near each other, set
+                        horizontally.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE725">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE726">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set horizontally, spaced apart.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE727">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set vertically, spaced apart.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE728">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set diagonally to top right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE729">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set diagonally to bottom right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE72A">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE72B">
+                    <term xml:lang="grc"></term>
+                    <gloss>3-pellet array set horizontally.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE72C">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE72D">
+                    <term xml:lang="grc"></term>
+                    <gloss>Three pellets set in shape of equilateral triangle, pointing up.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE72E">
+                    <term xml:lang="grc"></term>
+                    <gloss>Equilateral triangle pointing down.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE72F">
+                    <term xml:lang="grc"></term>
+                    <gloss>Equilateral triangle pointing right</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE730">
+                    <term xml:lang="grc"></term>
+                    <gloss>Equilateral triangle pointing left.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE731">
+                    <term xml:lang="grc"></term>
+                    <gloss>3-pellet array set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE732">
+                    <term xml:lang="grc"></term>
+                    <gloss>4-pellet array set horizontally.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE733">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE734">
+                    <term xml:lang="grc"></term>
+                    <gloss>Small square arrangement.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE735">
+                    <term xml:lang="grc"></term>
+                    <gloss>Large square arrangement.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE736">
+                    <term xml:lang="grc"></term>
+                    <gloss>Large diamond arrangement.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE737">
+                    <term xml:lang="grc"></term>
+                    <gloss>5-pellet array quincunx</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE738">
+                    <term xml:lang="grc"></term>
+                    <gloss>In cross arrangement.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE739">
+                    <term xml:lang="grc"></term>
+                    <gloss>Pentagonal arrangement, with one “axis” vertical.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE73A">
+                    <term xml:lang="grc"></term>
+                    <gloss>6-pellet array 3 across by 2 down.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE73B">
+                    <term xml:lang="grc"></term>
+                    <gloss>2 across by 3 down.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE73C">
+                    <term></term>
+                    <gloss>Set in octagonal array (no pellets assigned to horizontal “axis”)</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE73D">
+                    <term xml:lang="grc"></term>
+                    <gloss>No pellets assigned to vertical “axis.”</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE73E">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set in hexagonal array, one “axis” set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE73F">
+                    <term xml:lang="grc"></term>
+                    <gloss>Hexagonal array, one “axis” set horizontally.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE740">
+                    <term xml:lang="grc"></term>
+                    <gloss>7-pellet array with center pellet.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE741">
+                    <term xml:lang="grc"></term>
+                    <gloss>with center pellet larger than the others.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE742">
+                    <term xml:lang="grc"></term>
+                    <gloss>8-pellet array set in hollow square formation.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE743">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set in octagonal array.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE744">
+                    <term xml:lang="grc"></term>
+                    <gloss>9-pellet array set in 3 x 3 array</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE745">
+                    <term xml:lang="grc"></term>
+                    <gloss>medium circle</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE746">
+                    <term xml:lang="grc"></term>
+                    <gloss>medium circle near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE747">
+                    <term xml:lang="grc"></term>
+                    <gloss>medium circle, hollow.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE748">
+                    <term xml:lang="grc"></term>
+                    <gloss>2 medium circles set vertically.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE749">
+                    <term xml:lang="grc"></term>
+                    <gloss>large circle set near x-height.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE74A">
+                    <term xml:lang="grc"></term>
+                    <gloss>Set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE74B">
+                    <term xml:lang="grc"></term>
+                    <gloss>large circle, hollow</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE74C">
+                    <term xml:lang="grc"></term>
+                    <gloss>small square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE74D">
+                    <term xml:lang="grc"></term>
+                    <gloss>small square set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE74E">
+                    <term xml:lang="grc"></term>
+                    <gloss>medium square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE74F">
+                    <term xml:lang="grc"></term>
+                    <gloss>medium square set near baseline.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE750">
+                    <term xml:lang="grc"></term>
+                    <gloss>medium square, hollow.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE751">
+                    <term xml:lang="grc"></term>
+                    <gloss>large square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE752">
+                    <term xml:lang="grc"></term>
+                    <gloss>large square, pinched sides</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE753">
+                    <term xml:lang="grc"></term>
+                    <gloss>large circle</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE754">
+                    <term xml:lang="grc"></term>
+                    <gloss>large square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE755">
+                    <term xml:lang="grc"></term>
+                    <gloss>large square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE756">
+                    <term xml:lang="grc"></term>
+                    <gloss>large square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE800">
+                    <term xml:lang="grc"></term>
+                    <gloss>tendril, two leaves, stem on right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE801">
+                    <term xml:lang="grc"></term>
+                    <gloss>reversed</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE802">
+                    <term xml:lang="grc"></term>
+                    <gloss>tendril, three leaves, stem on right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE803">
+                    <term xml:lang="grc"></term>
+                    <gloss>reversed</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE804">
+                    <term xml:lang="grc"></term>
+                    <gloss>cross, mid-point, arms of equal length.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE805">
+                    <term xml:lang="grc"></term>
+                    <gloss>thicker arms</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE807">
+                    <term xml:lang="grc"></term>
+                    <gloss>Bottom arm elongated.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE808">
+                    <term xml:lang="grc"></term>
+                    <gloss>De-Christianized cross.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE809">
+                    <term xml:lang="grc"></term>
+                    <gloss>Scepter cross</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE80A">
+                    <term xml:lang="grc"></term>
+                    <gloss>Scepter surmounted by patriarchal cross.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE80B">
+                    <term xml:lang="grc"></term>
+                    <gloss>Double-barred cross. Signum.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE80C">
+                    <term xml:lang="grc"></term>
+                    <gloss>globus cruciger, standard</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE80D">
+                    <term xml:lang="grc"></term>
+                    <gloss>globus cruciger, with second crossbar</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE80E">
+                    <term xml:lang="grc"></term>
+                    <gloss>globus cruciger, with four-pellet cross.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE80F">
+                    <term xml:lang="grc"></term>
+                    <gloss>globus cruciger, with five-pellet cross.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE810">
+                    <term xml:lang="grc"></term>
+                    <gloss>first quarter moon, hollow, waxing moon.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE811">
+                    <term xml:lang="grc"></term>
+                    <gloss>last quarter moon, as first quarter moon, mirrored.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE812">
+                    <term xml:lang="grc"></term>
+                    <gloss>lazy quarter moon, as first quarter moon, but lying on side.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE813">
+                    <term xml:lang="grc"></term>
+                    <gloss>Thin moon on side, with pellet in middle.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE814">
+                    <term xml:lang="grc"></term>
+                    <gloss>6-ray star instead of pellet in middle.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE815">
+                    <term xml:lang="grc"></term>
+                    <gloss>Three-wave decoration with interspersed pellets. Set mid-height.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE816">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lazy C over bar.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE817">
+                    <term xml:lang="grc"></term>
+                    <gloss>Lazy S set x-height.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE818">
+                    <term xml:lang="grc"></term>
+                    <gloss>Left half of nimbus. Large C, with two pairs of horizontal lines (one at
+                        top, one at bottom); in the center is a single pellet.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE819">
+                    <term xml:lang="grc"></term>
+                    <gloss>Left half of nimbus. Large C, with two pairs of horizontal lines (one at
+                        top, one at bottom); in the center is a 5-pellet array.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE81A">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, one pellet dangling from vertical stem.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE81B">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, two pellets vertically arranged dangling from vertical
+                        stem.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE81C">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, two pellets arranged diagonally dangling from left of vertical
+                        stem.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE81D">
+                    <term xml:lang="grc"></term>
+                    <gloss>on right</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE81E">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, three pellets vertically arranged dangling from vertical
+                        stem.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE81F">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, three pellets in triangular formation dangling from vertical
+                        stem, two dots over one.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE820">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, triangle points up.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE821">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, three pellets in triangular formation dangling from vertical
+                        stem, pointing left.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE822">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, triangle points right.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE823">
+                    <term xml:lang="grc"></term>
+                    <gloss>pendilium, three pellets on baseline dangling from branched vertical
+                        stem.</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE757">
+                    <term xml:lang="grc"></term>
+                    <gloss>Hollow medium square</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+                <item xml:id="uniE758">
+                    <term xml:lang="grc"></term>
+                    <gloss>Hollow medium diamond</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+                <!-- Editorial interventions -->
+
+                <item xml:id="period">
+                    <term xml:lang="grc">.</term>
+                    <gloss>Modern editorial character, full stop, used to mark a lost
+                        character</gloss>
+                    <idno type="AthenaRuby"/>
+                </item>
+
+            </list>
         </body>
     </text>
 </TEI>

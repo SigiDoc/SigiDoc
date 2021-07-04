@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2020-06-09 -->
+<!-- LAST MODIFIED: 2021-07-02 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -19,24 +19,24 @@
             <term xml:lang="grc">Θεοτόκος</term>
             <term xml:lang="en">Θεοτόκος</term>
             <!--<term xml:lang="en">Theotokos</term>-->
-            <term xml:lang="fr">Théotokos</term>
-            <term xml:lang="it">Theotokos</term>
+            <!--<term xml:lang="fr">Théotokos</term>
+            <term xml:lang="it">Theotokos</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="Μητροπάρθενος">
             <term xml:lang="grc">Μητροπάρθενος</term>
             <term xml:lang="en">Μητροπάρθενος</term>
             <!--<term xml:lang="en">Virgin mother</term>-->
-            <term xml:lang="fr">Vièrge mère</term>
-            <term xml:lang="it">Vergine madre</term>
+            <!--<term xml:lang="fr">Vièrge mère</term>
+            <term xml:lang="it">Vergine madre</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
                 <item xml:id="Μήτηρ_Θεοῦ">
                     <term xml:lang="grc">Μήτηρ Θεοῦ</term>
                     <term xml:lang="en">Μήτηρ Θεοῦ</term>
                     <!--<term xml:lang="en">Mother of God</term>-->
-                    <term xml:lang="fr">Mère de Dieu</term>
-                    <term xml:lang="it">Madre di Dio</term>
+                    <!--<term xml:lang="fr">Mère de Dieu</term>
+                    <term xml:lang="it">Madre di Dio</term>-->
                     <gloss xml:lang="en"></gloss>
                 </item>
     </list>

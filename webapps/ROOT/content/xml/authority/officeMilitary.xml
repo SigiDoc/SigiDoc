@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2020-06-09 -->
+<!-- LAST MODIFIED: 2021-07-02 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -19,87 +19,87 @@
             <term xml:lang="grc">τοποτηρητὴς τοῦ Ἀριθμοῦ</term>
             <term xml:lang="en">τοποτηρητὴς τοῦ Ἀριθμοῦ</term>
             <!--<term xml:lang="en">topoteretes of the Arithmos</term>-->
-            <term xml:lang="fr">topotèrètès de l’Arithmos</term>
-            <term xml:lang="it">topoterete</term>
+            <!--<term xml:lang="fr">topotèrètès de l’Arithmos</term>-->
+            <!--<term xml:lang="it">topoterete</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
                 <item xml:id="δομέστικος_τῶν_Ἐξκουβίτων">
                     <term xml:lang="grc">δομέστικος τῶν Ἐξκουβίτων</term>
                     <term xml:lang="en">δομέστικος τῶν Ἐξκουβίτων</term>
             <!--<term xml:lang="en">domestikos of the Exkoubitoi</term>-->
-            <term xml:lang="fr">domestique des Excubites</term>
-            <term xml:lang="it">domestico degli Escubiti</term>
+            <!--<term xml:lang="fr">domestique des Excubites</term>
+            <term xml:lang="it">domestico degli Escubiti</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="στρατηγός">
             <term xml:lang="grc">στρατηγός</term>
             <term xml:lang="en">στρατηγός</term>
             <!--<term xml:lang="en">strategos</term>-->
-            <term xml:lang="fr">stratège</term>
-            <term xml:lang="it">stratego</term>
+            <!--<term xml:lang="fr">stratège</term>
+            <term xml:lang="it">stratego</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
                 <item xml:id="στρατηγὸς_τῆς_Σελευκίας">
                     <term xml:lang="grc">στρατηγός τῆς Σελευκίας</term>
                     <term xml:lang="en">στρατηγός τῆς Σελευκίας</term>
                     <!--<term xml:lang="en">strategos of Seleukeias</term>-->
-                    <term xml:lang="fr">stratège de Séleucie</term>
-                    <term xml:lang="it">stratego di Seleucia</term>
+                    <!--<term xml:lang="fr">stratège de Séleucie</term>
+                    <term xml:lang="it">stratego di Seleucia</term>-->
                     <gloss xml:lang="en"></gloss>
                 </item>
         <item xml:id="δοὺξ_Ἀντιοχείας">
             <term xml:lang="grc">δοὺξ Ἀντιοχείας</term>
             <term xml:lang="en">δοὺξ Ἀντιοχείας</term>
             <!--<term xml:lang="en">doux of Antioch</term>-->
-            <term xml:lang="fr">duc d'Antioche</term>
-            <term xml:lang="it">duca di Antiochia</term>
+            <!--<term xml:lang="fr">duc d'Antioche</term>
+            <term xml:lang="it">duca di Antiochia</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="τοποτηρητὴς_τοῦ_Ὀψικίου">
             <term xml:lang="grc">τοποτηρητὴς τοῦ Ὀψικίου</term>
             <term xml:lang="en">τοποτηρητὴς τοῦ Ὀψικίου</term>
             <!--<term xml:lang="en">topoteretes of the Opsikion</term>-->
-            <term xml:lang="fr">topotérète de l’Opsikion</term>
-            <term xml:lang="it">topoterete dell'Opsikion</term>
+           <!-- <term xml:lang="fr">topotérète de l’Opsikion</term>
+            <term xml:lang="it">topoterete dell'Opsikion</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="στρατηγὸς_τοῦ_Δυρραχίου">
             <term xml:lang="grc">στρατηγὸς τοῦ Δυρραχίου</term>
             <term xml:lang="en">στρατηγὸς τοῦ Δυρραχίου</term>
             <!--<term xml:lang="en">strategos of Dyrrachion</term>-->
-            <term xml:lang="fr">stratège de Dyrrachion</term>
-            <term xml:lang="it">stratego di Durazzo</term>
+           <!-- <term xml:lang="fr">stratège de Dyrrachion</term>
+            <term xml:lang="it">stratego di Durazzo</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="στρατηλάτης">
             <term xml:lang="grc">στρατηλάτης</term>
             <term xml:lang="en">στρατηλάτης</term>
             <!--<term xml:lang="en">stratelates</term>-->
-            <term xml:lang="fr">stratélate</term>
-            <term xml:lang="it">stratelate</term>
+            <!--<term xml:lang="fr">stratélate</term>
+            <term xml:lang="it">stratelate</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="στρατοπεδάρχης">
             <term xml:lang="grc">στρατοπεδάρχης</term>
             <term xml:lang="en">στρατοπεδάρχης</term>
             <!--<term xml:lang="en">stratopedarches</term>-->
-            <term xml:lang="fr">stratopédarque</term>
-            <term xml:lang="it">stratopedarca</term>
+            <!--<term xml:lang="fr">stratopédarque</term>
+            <term xml:lang="it">stratopedarca</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="στρατηγὸς_Ἀτακᾶτζ">
             <term xml:lang="grc">στρατηγὸς Ἀτακᾶτζ</term>
             <term xml:lang="en">στρατηγὸς Ἀτακᾶτζ</term>
             <!--<term xml:lang="en">strategos of At‘akh </term>-->
-            <term xml:lang="fr">stratège de At‘akh</term>
-            <term xml:lang="it">stratego di At‘akh</term>
+            <!--<term xml:lang="fr">stratège de At‘akh</term>
+            <term xml:lang="it">stratego di At‘akh</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="πρωτοκένταρχος_τοῦ_Ὀψικίου">
             <term xml:lang="grc">πρωτοκένταρχος τοῦ Ὀψικίου</term>
             <term xml:lang="en">πρωτοκένταρχος τοῦ Ὀψικίου</term>
             <!--<term xml:lang="en">protokentarchos of the Opskion</term>-->
-            <term xml:lang="fr">protokentarque de l'Opsikion</term>
+            <!--<term xml:lang="fr">protokentarque de l'Opsikion</term>-->
             <term xml:lang="it"></term>
             <gloss xml:lang="en"></gloss>
         </item>
@@ -107,16 +107,16 @@
             <term xml:lang="grc">τοποτηρητής</term>
             <term xml:lang="en">τοποτηρητής</term>
             <!--<term xml:lang="en">topoteretes</term>-->
-            <term xml:lang="fr">topotérète</term>
-            <term xml:lang="it">topoterete</term>
+            <!--<term xml:lang="fr">topotérète</term>
+            <term xml:lang="it">topoterete</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="μέγας_δρουγγάριος_τοῦ_στόλου">
             <term xml:lang="grc">μέγας δρουγγάριος τοῦ στόλου</term>
             <term xml:lang="en">μέγας δρουγγάριος τοῦ στόλου</term>
             <!--<term xml:lang="en">megas droungarios of the fleet</term>-->
-            <term xml:lang="fr">grand drongaire de la flotte</term>
-            <term xml:lang="it">gran drungario della flotta</term><!-- ???????????? -->
+            <!--<term xml:lang="fr">grand drongaire de la flotte</term>
+            <term xml:lang="it"></term>-->
             <gloss xml:lang="en"></gloss>
         </item>
     </list>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 20-11-2018 -->
+<!-- LAST MODIFIED: 2021-07-02 -->
 
 <!-- eunuchs???????????????????????????????????????????????? -->
 <!-- add <idno/> with URI where available!!!!!!!!!!!!!!!!!!!!!!!!! -->
@@ -31,7 +31,7 @@
                     <persName xml:lang="la">Iustinianus I</persName>
                     <persName xml:lang="en">Iustinianus I</persName>
                     <!--<persName xml:lang="en">Justinian I</persName>-->
-                    <persName xml:lang="fr">Justinien Ier</persName>
+                    <!--<persName xml:lang="fr">Justinien Ier</persName>-->
                     <birth cert="low" when="0482">
                         <seg xml:lang="en">482 CE</seg>
                         <seg xml:lang="fr">482 apr.J.-C.</seg>
@@ -47,7 +47,7 @@
                     <persName xml:lang="grc">Κωνσταντῖνος Δ΄</persName>
                     <persName xml:lang="en">Κωνσταντῖνος Δ΄</persName>
                     <!--<persName xml:lang="en">Constantine IV</persName>-->
-                    <persName xml:lang="fr">Constantin IV</persName>
+                    <!--<persName xml:lang="fr">Constantin IV</persName>-->
                     <floruit>M/L VII</floruit>
                     <note>PBE4313</note><!--ref="http://www.pbe.kcl.ac.uk/person/p4313"-->
                 </person>
@@ -55,7 +55,7 @@
                     <persName xml:lang="grc">Κώνστας Β΄</persName>
                     <persName xml:lang="en">Κώνστας Β΄</persName>
                     <!--<persName xml:lang="en">Constans II</persName>-->
-                    <persName xml:lang="fr">Constant II</persName>
+                    <!--<persName xml:lang="fr">Constant II</persName>-->
                     <floruit>M VII</floruit>
                     <note>PBE4304</note>
                 </person>
@@ -63,7 +63,7 @@
                     <persName xml:lang="grc">Ἀναστασία</persName>
                     <persName xml:lang="en">Ἀναστασία</persName>
                     <!--<persName xml:lang="en">Anastasia</persName>-->
-                    <persName xml:lang="fr">Anastasie</persName>
+                    <!--<persName xml:lang="fr">Anastasie</persName>-->
                     <floruit>M/L VII</floruit>
                     <note>PBE225</note>
                 </person>
@@ -71,7 +71,7 @@
                     <persName xml:lang="grc">Γεώργιος</persName>
                     <persName xml:lang="en">Γεώργιος</persName>
                     <!--<persName xml:lang="en">Georgios</persName>-->
-                    <persName xml:lang="fr">Georges</persName>
+                    <!--<persName xml:lang="fr">Georges</persName>-->
                     <floruit>M XI</floruit>
                     <note>PBWGeorgios20126</note>
                 </person>
@@ -80,7 +80,7 @@
                     <persName xml:lang="grc">Γρηγορᾶς</persName>
                     <persName xml:lang="en">Γρηγορᾶς</persName>
                     <!--<persName xml:lang="en">Gregoras</persName>-->
-                    <persName xml:lang="fr">Grégoras</persName>
+                    <!--<persName xml:lang="fr">Grégoras</persName>-->
                     <floruit>L IX</floruit>
                     <note>SigiDocID4</note>
                 </person>
@@ -89,7 +89,7 @@
                     <persName xml:lang="grc">Μιχαήλ</persName>
                     <persName xml:lang="en">Μιχαήλ</persName>
                     <!--<persName xml:lang="en">Michael</persName>-->
-                    <persName xml:lang="fr">Michel</persName>
+                    <!--<persName xml:lang="fr">Michel</persName>-->
                     <floruit>M XI</floruit>
                     <note>SigiDocID5</note>
                 </person>
@@ -98,7 +98,7 @@
                     <persName xml:lang="grc">Σαρωνίτης, Νικήτας (?)</persName>
                     <persName xml:lang="en">Σαρωνίτης, Νικήτας (?)</persName>
                     <!--<persName xml:lang="en">Niketas (?) Saronites</persName>-->
-                    <persName xml:lang="fr">Sarônitès, Nicétas (?)</persName>
+                    <!--<persName xml:lang="fr">Sarônitès, Nicétas (?)</persName>-->
                     <floruit>M/L XI</floruit>
                    <note> SigiDocID6</note>
                 </person>
@@ -106,7 +106,7 @@
                     <persName xml:lang="grc">Νικήτας</persName>
                     <persName xml:lang="en">Νικήτας</persName>
                     <!--<persName xml:lang="en">Niketas</persName>-->
-                    <persName xml:lang="fr">Nicétas</persName>
+                    <!--<persName xml:lang="fr">Nicétas</persName>-->
                     <floruit>M/L X</floruit>
                     <note>SigiDocID7</note>
                 </person>
@@ -114,7 +114,7 @@
                     <persName xml:lang="grc">Θεόδωρος</persName>
                     <persName xml:lang="en">Θεόδωρος</persName>
                     <!--<persName xml:lang="en">Theodoros</persName>-->
-                    <persName xml:lang="fr">Théodore</persName>
+                    <!--<persName xml:lang="fr">Théodore</persName>-->
                     <floruit>L IX</floruit>
                     <note>SigiDocID8</note>
                 </person>
@@ -122,7 +122,7 @@
                     <persName xml:lang="grc">Τζιπουρέλης, Δαυίδ</persName>
                     <persName xml:lang="en">Τζιπουρέλης, Δαυίδ</persName>
                     <!--<persName xml:lang="en">David Tzipoureles</persName>-->
-                    <persName xml:lang="fr">Tzipourélès, David</persName>
+                    <!--<persName xml:lang="fr">Tzipourélès, David</persName>-->
                     <floruit>M XI</floruit>
                     <note>PBWDavid20104</note>
                     <note>SigiDocID9</note>
@@ -131,7 +131,7 @@
                     <persName xml:lang="grc">Στέφανος</persName>
                     <persName xml:lang="en">Στέφανος</persName>
                     <!--<persName xml:lang="en">Stephanos</persName>-->
-                    <persName xml:lang="fr">Étienne</persName>
+                    <!--<persName xml:lang="fr">Étienne</persName>-->
                     <floruit>M XI</floruit>
                     <note>PBWStephanos20116</note><note>SigidocID10</note>
                 </person>
@@ -139,7 +139,7 @@
                     <persName xml:lang="grc">Ῥαδηνός, Ἰωάννης (?)</persName>
                     <persName xml:lang="en">Ῥαδηνός, Ἰωάννης (?)</persName>
                     <!--<persName xml:lang="en">Ioannes Radenos</persName>-->
-                    <persName xml:lang="fr">Radènos, Jean</persName>
+                    <!--<persName xml:lang="fr">Radènos, Jean</persName>-->
                     <floruit>L X-E XI</floruit>
                     <note>SigiDocID11</note>
                 </person>
@@ -147,7 +147,7 @@
                     <persName xml:lang="grc">Ἰωάννης</persName>
                     <persName xml:lang="en">Ἰωάννης</persName>
                     <!--<persName xml:lang="en">Ioannes</persName>-->
-                    <persName xml:lang="fr">Jean</persName>
+                    <!--<persName xml:lang="fr">Jean</persName>-->
                     <floruit>M/L XI</floruit>
                     <note>PBWIoannes20159</note><note>SigiDocID12</note>
                 </person>
@@ -155,7 +155,7 @@
                     <persName xml:lang="grc">Ἰουστινιανός</persName>
                     <persName xml:lang="en">Ἰουστινιανός</persName>
                     <!--<persName xml:lang="en">Justinian</persName>-->
-                    <persName xml:lang="fr">Justinien</persName>
+                    <!--<persName xml:lang="fr">Justinien</persName>-->
                     <floruit>E VIII</floruit>
                     <note>SigiDocID13</note>
                 </person>
@@ -163,7 +163,7 @@
                     <persName xml:lang="grc">Λέων</persName>
                     <persName xml:lang="en">Λέων</persName>
                     <!--<persName xml:lang="en">Leon</persName>-->
-                    <persName xml:lang="fr">Léon</persName>
+                    <!--<persName xml:lang="fr">Léon</persName>-->
                     <floruit>M XI</floruit>
                     <note>PBWLeon20290</note><note>SigiDocID14</note>
                 </person>
@@ -171,7 +171,7 @@
                     <persName xml:lang="grc">Λέων</persName>
                     <persName xml:lang="en">Λέων</persName>
                     <!--<persName xml:lang="en">Leon</persName>-->
-                    <persName xml:lang="fr">Léon</persName>
+                    <!--<persName xml:lang="fr">Léon</persName>-->
                     <floruit>VIII</floruit>
                     <note>SigiDocID15</note>
                 </person>
@@ -179,21 +179,21 @@
                     <persName xml:lang="grc">Ἀβραμόπουλος, Μιχαήλ</persName>
                     <persName xml:lang="en">Ἀβραμόπουλος, Μιχαήλ</persName>
                     <!--<persName xml:lang="en">Michael Avramopoulos</persName>-->
-                    <persName xml:lang="fr">Avramopoulos, Michel</persName>
+                    <!--<persName xml:lang="fr">Avramopoulos, Michel</persName>-->
                     <floruit>M XI</floruit><note>SigiDocID16</note>
                 </person>
                 <person sex="M" xml:id="Μιχαὴλ_2">
                     <persName xml:lang="grc">Μιχαὴλ</persName>
                     <persName xml:lang="en">Μιχαὴλ</persName>
                     <!--<persName xml:lang="en">Michael</persName>-->
-                    <persName xml:lang="fr">Michel</persName>
+                    <!--<persName xml:lang="fr">Michel</persName>-->
                     <floruit>M XI</floruit><note>SigiDocID17</note>
                 </person>
                 <person sex="M" xml:id="Νικήτας_2">
                     <persName xml:lang="grc">Νικήτας</persName>
                     <persName xml:lang="en">Νικήτας</persName>
                     <!--<persName xml:lang="en">Niketas</persName>-->
-                    <persName xml:lang="fr">Nicétas</persName>
+                    <!--<persName xml:lang="fr">Nicétas</persName>-->
                     <floruit>M XI</floruit>
                     <note>PBWNiketas20196</note><note>SigiDocID18</note>
                 </person>
@@ -201,7 +201,7 @@
                     <persName xml:lang="grc">Νικήτας</persName>
                     <persName xml:lang="en">Νικήτας</persName>
                     <!--<persName xml:lang="en">Niketas</persName>-->
-                    <persName xml:lang="fr">Nicétas</persName>
+                    <!--<persName xml:lang="fr">Nicétas</persName>-->
                     <floruit>M XI</floruit>
                     <note>PBWNiketas20222</note><note>SigiDocID19</note>
                 </person>
@@ -209,7 +209,7 @@
                     <persName xml:lang="grc">Οὐρσέλιος</persName>
                     <persName xml:lang="en">Οὐρσέλιος</persName>
                     <!--<persName xml:lang="en">Oursel (Roussel) de Bailleul</persName>-->
-                    <persName xml:lang="fr">Oursel (Roussel) de Bailleul</persName>
+                    <!--<persName xml:lang="fr">Oursel (Roussel) de Bailleul</persName>-->
                     <floruit>M/L XI</floruit>
                     <note>PBWRoussel61</note><note>SigiDocID20</note>
                 </person>
@@ -217,14 +217,14 @@
                     <persName xml:lang="grc">Φράγγος, Χουρσέλιος</persName>
                     <persName xml:lang="en">Φράγγος, Χουρσέλιος</persName>
                     <!--<persName xml:lang="en">Chourselios Phrangos</persName>-->
-                    <persName xml:lang="fr">Phrangos, Choursélios</persName>
+                    <!--<persName xml:lang="fr">Phrangos, Choursélios</persName>-->
                     <floruit>M/L XI</floruit><note>SigiDocID43</note>
                 </person>
                 <person sex="M" xml:id="Φράγγος_Ζαχαρίας">
                     <persName xml:lang="grc">Φράγγος, Ζαχαρίας</persName>
                     <persName xml:lang="en">Φράγγος, Ζαχαρίας</persName>
                     <!--<persName xml:lang="en">Zacharias Phrangos</persName>-->
-                    <persName xml:lang="fr">Phrangos, Zacharie</persName>
+                    <!--<persName xml:lang="fr">Phrangos, Zacharie</persName>-->
                     <floruit>M/L XI</floruit>
                     <note>PBWZacharias15001</note><note>SigiDocID44</note>
                 </person>
@@ -232,38 +232,37 @@
                     <persName xml:lang="grc">Βουλκασιότης, Παγκράτιος</persName>
                     <persName xml:lang="en">Βουλκασιότης, Παγκράτιος</persName>
                     <!--<persName xml:lang="en">Pankratios Boulkasiotes</persName>-->
-                    <persName xml:lang="fr">Boulkasiotès, Pancrace</persName>
+                    <!--<persName xml:lang="fr">Boulkasiotès, Pancrace</persName>-->
                     <floruit>M XI</floruit><note>SigiDocID21</note>
                 </person>
                 <person sex="M" xml:id="Ἰσμαίλ_Ῥωμανός">
                     <persName xml:lang="grc">Ἰσμαίλ, Ῥωμανός</persName>
                     <persName xml:lang="en">Ἰσμαίλ, Ῥωμανός</persName>
                     <!--<persName xml:lang="en">Romanos Ismail</persName>-->
-                    <persName xml:lang="fr">Ismail, Romain</persName>
+                    <!--<persName xml:lang="fr">Ismail, Romain</persName>-->
                     <floruit>M XI</floruit><note>SigiDocID22</note>
                 </person>
                 <person sex="M" xml:id="Κουρκούας_Ῥωμανός">
                     <persName xml:lang="grc">Κουρκούας, Ῥωμανός</persName>
                     <persName xml:lang="en">Κουρκούας, Ῥωμανός</persName>
                     <!--<persName xml:lang="en">Romanos Kourkouas</persName>-->
-                    <persName xml:lang="fr">Kourkouas, Romain</persName>
+                    <!--<persName xml:lang="fr">Kourkouas, Romain</persName>-->
                     <floruit>E XI</floruit>
                     <note>PBWRomanos102</note><note>SigiDocID23</note>
                 </person>
                 <person sex="M" xml:id="Theodorus_1">
-                    <!-- prosopographies!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
                     <persName xml:lang="grc">Theodorus</persName>
                     <persName xml:lang="la">Theodorus</persName>
                     <persName xml:lang="en">Theodorus</persName>
                     <!--<persName xml:lang="en">Theodore</persName>-->
-                    <persName xml:lang="fr">Théodore</persName>
+                    <!--<persName xml:lang="fr">Théodore</persName>-->
                     <floruit>VI</floruit><note>SigiDocID24</note>
                 </person>
                 <person sex="M" xml:id="Κομνηνός_Ἀλέξιος">
                     <persName xml:lang="grc">Κομνηνός, Ἀλέξιος</persName>
                     <persName xml:lang="en">Κομνηνός, Ἀλέξιος</persName>
                     <!--<persName xml:lang="en">Alexios Komnenos</persName>-->
-                    <persName xml:lang="fr">Comnène, Alexis</persName>
+                    <!--<persName xml:lang="fr">Comnène, Alexis</persName>-->
                     <floruit>E/M XII</floruit>
                     <note>PBWAlexios20125</note><note>SigiDocID25</note>
                 </person>
@@ -271,7 +270,7 @@
                     <persName xml:lang="grc">Κομνηνός, Νικηφόρος</persName>
                     <persName xml:lang="en">Κομνηνός, Νικηφόρος</persName>
                     <!--<persName xml:lang="en">Nikephoros Komnenos</persName>-->
-                    <persName xml:lang="fr">Comnène, Nicéphore</persName>
+                    <!--<persName xml:lang="fr">Comnène, Nicéphore</persName>-->
                     <floruit>E XII</floruit>
                     <note>PBWNikephoros116</note><note>SigiDocID41</note>
                 </person>
@@ -280,63 +279,63 @@
                     <persName xml:lang="la">Michael, Andreas</persName>
                     <persName xml:lang="en">Michael, Andreas</persName>
                     <!--<persName xml:lang="en">Andrea Michiel</persName>-->
-                    <persName xml:lang="fr">Michiel, Andrea</persName>
+                    <!--<persName xml:lang="fr">Michiel, Andrea</persName>-->
                     <floruit>L XI-E XII</floruit><note>SigiDocID26</note>
                 </person>
                 <person sex="M" xml:id="Ἀψίμαρος_1">
                     <persName xml:lang="grc">Ἀψίμαρος</persName>
                     <persName xml:lang="en">Ἀψίμαρος</persName>
                     <!--<persName xml:lang="en">Apsimar</persName>-->
-                    <persName xml:lang="fr">Apsimar</persName>
+                    <!--<persName xml:lang="fr">Apsimar</persName>-->
                     <floruit>M/L VII</floruit><note>PMBZ8483</note><note>SigiDocID27</note>
                 </person>
                 <person sex="M" xml:id="Ἐρωτικός_Κωνσταντῖνος">
                     <persName xml:lang="grc">Ἐρωτικός, Κωνσταντῖνος</persName>
                     <persName xml:lang="en">Ἐρωτικός, Κωνσταντῖνος</persName>
                     <!--<persName xml:lang="en">Konstantinos Erotikos</persName>-->
-                    <persName xml:lang="fr">Érôtikos, Constantin</persName>
+                    <!--<persName xml:lang="fr">Érôtikos, Constantin</persName>-->
                     <floruit>E XI</floruit><note>SigiDocID28</note>
                 </person>
                 <person sex="F" xml:id="Μακρεμβολίτισσα_Μαρία">
                     <persName xml:lang="grc">Μακρεμβολίτισσα, Μαρία</persName>
                     <persName xml:lang="en">Μακρεμβολίτισσα, Μαρία</persName>
                     <!--<persName xml:lang="en">Maria Makrembolitissa</persName>-->
-                    <persName xml:lang="fr">Makrembolitissa, Marie</persName>
+                    <!--<persName xml:lang="fr">Makrembolitissa, Marie</persName>-->
                     <floruit>M/L XI</floruit><note>PBWMaria20107</note><note>SigiDocID29</note>
                 </person>
                 <person sex="M" xml:id="Συνέσιος_Νικόλαος">
                     <persName xml:lang="grc">Συνέσιος, Νικόλαος</persName>
                     <persName xml:lang="en">Συνέσιος, Νικόλαος</persName>
                     <!--<persName xml:lang="en">Nikolaos Synesios</persName>-->
-                    <persName xml:lang="fr">Synésios, Nicolas</persName>
+                    <!--<persName xml:lang="fr">Synésios, Nicolas</persName>-->
                     <floruit>L XI-E XII</floruit><note>PBWNikolaos20274</note><note>SigiDocID30</note>
                 </person>
                 <person sex="M" xml:id="Ἀθανάσιος_1">
                     <persName xml:lang="grc">Ἀθανάσιος (?)</persName>
                     <persName xml:lang="en">Ἀθανάσιος (?)</persName>
                     <!--<persName xml:lang="en">Athanasios (?)</persName>-->
-                    <persName xml:lang="fr">Athanase (?)</persName>
+                    <!--<persName xml:lang="fr">Athanase (?)</persName>-->
                     <floruit>VII</floruit><note>SigiDocID31</note>
                 </person>
                 <person sex="M" xml:id="Κυριακός_1">
                     <persName xml:lang="grc">Κυριακός</persName>
                     <persName xml:lang="en">Κυριακός</persName>
                     <!--<persName xml:lang="en">Kyriakos</persName>-->
-                    <persName xml:lang="fr">Cyriaque</persName>
+                    <!--<persName xml:lang="fr">Cyriaque</persName>-->
                     <floruit>E/M XI</floruit><note>PBWKyriakos101</note><note>SigiDocID32</note>
                 </person>
                 <person sex="M" xml:id="Ἰωάννης_1">
                     <persName xml:lang="grc">Ἰωάννης</persName>
                     <persName xml:lang="en">Ἰωάννης</persName>
                     <!--<persName xml:lang="en">Ioannes</persName>-->
-                    <persName xml:lang="fr">Jean</persName>
+                    <!--<persName xml:lang="fr">Jean</persName>-->
                     <floruit>L VII</floruit><note>SigiDocID33</note>
                 </person>
                 <person sex="M" xml:id="Νικηφόρος_1">
                     <persName xml:lang="grc">Νικηφόρος</persName>
                     <persName xml:lang="en">Νικηφόρος</persName>
                     <!--<persName xml:lang="en">Nikephoros</persName>-->
-                    <persName xml:lang="fr">Nicéphore</persName>
+                    <!--<persName xml:lang="fr">Nicéphore</persName>-->
                     <floruit>M XI</floruit><note>SigiDocID34</note>
                 </person>
                 <person sex="M" xml:id="Νικόλαος_1">
@@ -350,7 +349,7 @@
                     <persName xml:lang="grc">Θεοδόσιος</persName>
                     <persName xml:lang="en">Θεοδόσιος</persName>
                     <!--<persName xml:lang="en">Theodosios</persName>-->
-                    <persName xml:lang="fr">Théodose</persName>
+                    <!--<persName xml:lang="fr">Théodose</persName>-->
                     <floruit>XI</floruit><note>SigiDocID36</note>
                 </person>
                 <person sex="M" xml:id="NN_1" source="SigiDocID37"><!-- not in the xml edition yet!!!!!! -->
@@ -358,21 +357,21 @@
                     <!--<persName xml:lang="en"/>-->
                     <persName xml:lang="grc">NN</persName>
                     <persName xml:lang="en">NN</persName>
-                    <persName xml:lang="fr">Anonyme</persName>
+                    <!--<persName xml:lang="fr">Anonyme</persName>-->
                     <floruit>M/L XI</floruit><note>SigiDocID37</note>
                 </person>
                 <person sex="M" xml:id="Βαβωσκομήτης_Κωνσταντῖνος">
                     <persName xml:lang="grc">Βαβωσκομήτης, Κωνσταντῖνος</persName>
                     <persName xml:lang="en">Βαβωσκομήτης, Κωνσταντῖνος</persName>
                     <!--<persName xml:lang="en">Konstantinos Baboskometes</persName>-->
-                    <persName xml:lang="fr">Babôskomètès, Constantin</persName>
+                    <!--<persName xml:lang="fr">Babôskomètès, Constantin</persName>-->
                     <floruit>XI-XII</floruit><note>SigiDocID38</note>
                 </person>
                 <person sex="M" xml:id="Πεπαγώμενος_Βασίλειος">
                     <persName xml:lang="grc">Πεπαγώμενος, Βασίλειος</persName>
                     <persName xml:lang="en">Πεπαγώμενος, Βασίλειος</persName>
                     <!--<persName xml:lang="en">Basileios Pepagomenos</persName>-->
-                    <persName xml:lang="fr">Pépagoménos, Basile</persName>
+                    <!--<persName xml:lang="fr">Pépagoménos, Basile</persName>-->
                     <floruit>L XI-E XII</floruit><note>SigiDocID39</note>
                 </person>
                 <person sex="M" xml:id="Βηκένης_Ὀσίνη">
@@ -380,14 +379,14 @@
                     <persName xml:lang="en">Βηκένης, Ὀσίνη</persName>
                     <!-- ???????????????? -->
                     <!--<persName xml:lang="en">Ochin Vigenes</persName>-->
-                    <persName xml:lang="fr">Vigénès, Ochin</persName>
+                    <!--<persName xml:lang="fr">Vigénès, Ochin</persName>-->
                     <floruit>M/L XI</floruit><note>PBWOursenios20101</note><note>SigiDocID40</note>
                 </person>
                 <person sex="M" xml:id="Πεπαγώμενος_Θεόδωρος">
                     <persName xml:lang="grc">Πεπαγώμενος, Θεόδωρος</persName>
                     <persName xml:lang="en">Πεπαγώμενος, Θεόδωρος</persName>
                     <!--<persName xml:lang="en">Theodoros Pepagomenos</persName>-->
-                    <persName xml:lang="fr">Pépagoménos, Théodore</persName>
+                    <!--<persName xml:lang="fr">Pépagoménos, Théodore</persName>-->
                     <floruit>L XI-E XII</floruit><note>PBWTheodoros110</note><note>SigiDocID42</note>
                 </person>
                 
