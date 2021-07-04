@@ -19,12 +19,12 @@ footer {
 }
 */
 
-/*Keyboard*/
+/*Keyboard*/ /* for AR keyboard, see also search.xml */
 
-@font-face {
+/*@font-face {
     font-family: athenaruby;
     src: url('../fonts/AthenaRuby_b018.ttf') format('truetype')
-} /* for Athena Ruby in keyboard! */
+} *//* for Athena Ruby in keyboard! */
 
 #keyboard_box {
     display:none;
@@ -48,9 +48,9 @@ footer {
     border-radius: 5px;
 }
 
-#keyboard li.letter {
+/*#keyboard li.letter {
         font-family: athenaruby;
-}  /* for Athena Ruby in keyboard! */
+}*/  /* for Athena Ruby in keyboard! */
 
 #keyboard li:hover {
     border: none;
@@ -103,8 +103,12 @@ nav.top-bar {
     letter-spacing: 1px;
 }
 
-p, li {
+p {
     text-align: justify;
+}
+
+li {
+    text-align: left;
 }
 
 p, h1, h2, h3, h4, h5, h6, li, ul {

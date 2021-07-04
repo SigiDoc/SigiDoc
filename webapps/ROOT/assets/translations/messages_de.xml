@@ -9,7 +9,7 @@
     <message key="epidoc-xslt-sigidoc-work-type">Format</message>
     <message key="epidoc-xslt-sigidoc-material">Material</message>
     <message key="epidoc-xslt-sigidoc-diameter">Durchmesser (mm)</message>
-    <message key="epidoc-xslt-sigidoc-weight">Gewicht (gr)</message>
+    <message key="epidoc-xslt-sigidoc-weight">Gewicht (g)</message>
     <message key="epidoc-xslt-sigidoc-axis">Achse (Uhr)</message> <!-- corretto? -->
     <message key="epidoc-xslt-sigidoc-overstrike">Ausricht. Overstrike</message>
     <message key="epidoc-xslt-sigidoc-channel">Fadenkanal (Uhr)</message>

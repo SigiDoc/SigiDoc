@@ -34,10 +34,10 @@
     </kiln:block>
 
     <kiln:block name="page-heading">
-      <xsl:value-of select="$title" />
+      <xsl:value-of select="$title" /><br/><p style="font-size:14px"><a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}"> XML</a> | <a href="javascript:window.print()">PDF</a></p>
     </kiln:block>
 
-    <kiln:block name="content">
+    <!--<kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
           <p>
@@ -45,6 +45,6 @@
           </p>
         </div>
       </div>
-    </kiln:block>
+    </kiln:block>-->
   </kiln:child>
 </kiln:root>
