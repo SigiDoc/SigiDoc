@@ -144,10 +144,10 @@
       </map:match>
 
       <!-- EpiDoc texts. -->
-      <map:match id="local-epidoc-index-display" pattern="*/inscriptions/">
+      <map:match id="local-epidoc-index-display" pattern="*/seals/">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://internal/search/tei_metadata.xml?q=epidoc" />
-          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/inscriptions/" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/seals/" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/inscription-index.xsl">
           <map:parameter name="language" value="{1}" />
@@ -159,7 +159,7 @@
       </map:match>
 
       <!-- ZIP file of all EpiDoc texts. -->
-      <map:match id="local-epidoc-zip" pattern="*/inscriptions/zip/">
+      <map:match id="local-epidoc-zip" pattern="*/seals/zip/">
         <map:generate src="cocoon://_internal/dirlist/content/xml/epidoc.xml" />
         <map:transform src="../kiln/stylesheets/dir-list-to-zip.xsl">
           <map:parameter name="path-prefix" value="../content/xml/" />
@@ -168,10 +168,10 @@
       </map:match>
 
       <map:match id="local-epidoc-display-html"
-                 pattern="*/inscriptions/**.html">
+                 pattern="*/seals/**.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://internal/epidoc/preprocess/language/{1}/{2}.xml" />
-          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/inscriptions/{2}.html" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/seals/{2}.html" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/epidoc-{global:epidoc-edn-structure}.xsl">
           <map:parameter name="language" value="{1}" />
@@ -197,7 +197,7 @@
         <map:serialize />
       </map:match>
 
-      <map:match id="local-epidoc-display-xml" pattern="*/inscriptions/**.xml">
+      <map:match id="local-epidoc-display-xml" pattern="*/seals/**.xml">
         <map:read mime-type="application/tei+xml"
                   src="../content/xml/epidoc/{2}.xml" />
       </map:match>

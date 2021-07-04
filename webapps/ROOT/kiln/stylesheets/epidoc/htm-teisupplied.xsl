@@ -16,5 +16,11 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    
+    <xsl:template name="supplied-similar"><!-- added by SigiDoc -->
+        <span class="underline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
 </xsl:stylesheet>

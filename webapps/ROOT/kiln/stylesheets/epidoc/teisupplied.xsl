@@ -27,6 +27,10 @@
                   <!-- Found in [htm|txt]-teisupplied.xsl -->
                   <xsl:call-template name="supplied-previouseditor"/>
                </xsl:when>
+               <xsl:when test="@evidence = 'similar'"><!-- added by SigiDoc -->
+                  <!-- Found in [htm|txt]-teisupplied.xsl -->
+                  <xsl:call-template name="supplied-similar"/>
+               </xsl:when>
             </xsl:choose>
             <xsl:if test="$parm-leiden-style = 'ddbdp' or $parm-leiden-style = 'sammelbuch'">
                <xsl:text>]</xsl:text>
@@ -156,6 +160,10 @@
          <xsl:when test="@evidence = 'previouseditor'">
             <!-- Found in [htm|txt]-teisupplied.xsl -->
             <xsl:call-template name="supplied-previouseditor"/>
+         </xsl:when>
+         <xsl:when test="@evidence = 'similar'"><!-- added by SigiDoc -->
+            <!-- Found in [htm|txt]-teisupplied.xsl -->
+            <xsl:call-template name="supplied-similar"/>
          </xsl:when>
       </xsl:choose>
    </xsl:template>

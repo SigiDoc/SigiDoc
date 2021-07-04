@@ -10,7 +10,7 @@
        <xsl:param name="parm-edn-structure" tunnel="yes" required="no"></xsl:param>
        <xsl:param name="parm-leiden-style" tunnel="yes" required="no"></xsl:param>
        <xsl:choose>
-           <xsl:when test="$parm-edn-structure = 'rib'">
+           <xsl:when test="$parm-edn-structure = ('rib','sigidoc')"><!-- modified by SigiDoc -->
                <!-- Ignore -->
            </xsl:when>
            <xsl:otherwise>
@@ -40,8 +40,21 @@
        </xsl:choose>
    </xsl:template>
 
-   <xsl:template match="t:choice/t:reg"/>
+    <xsl:template match="t:choice/t:reg"><!-- added by SigiDoc -->
+        <xsl:param name="parm-edition-type" tunnel="yes" required="no"></xsl:param>
+        <xsl:param name="parm-leiden-style" tunnel="yes" required="no"></xsl:param>
+        <xsl:choose>
+            <xsl:when test="$parm-leiden-style='sigidoc' and ../t:reg and $parm-edition-type='interpretive'">
+                <xsl:text>&#x2e22;</xsl:text>
+                <xsl:apply-templates select="../t:reg/node()"/>
+                <xsl:text>&#x2e23;</xsl:text>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
       <!-- reg is currently not displayed in text in any Leiden-style
-          (except "iospe", see under orig, above) -->
+          except "iospe" (see under orig, above) 
+      and "sigidoc"
+      -->
    
 </xsl:stylesheet>
