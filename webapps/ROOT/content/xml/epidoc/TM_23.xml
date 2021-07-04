@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Romain Kourkouas, protospathaire et topotèrètès</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_23</idno>
                 <idno type="SigiDocID">23</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0025</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>14</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">24</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -141,7 +143,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1025" evidence="prosopography lettering titulature parallel" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1001" notAfter="1025" evidence="prosopography lettering titulature parallel" cert="high">
                                 <seg xml:lang="en">XIth C., first quarter</seg>
                                 <seg xml:lang="fr">XIe s., premier quart</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
@@ -149,16 +151,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Agora coins (Ireland)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Agora coins (Irlande)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -230,10 +228,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -267,11 +265,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-09" who="AS">Changes for EFES</change>
             <change when="2018-08-11" who="AS">First version of the record</change>
@@ -309,12 +305,11 @@
                   <div type="textpart" subtype="face" n="obv" rend="circular">
                       <ab>
                           <lb n="1"/>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε2">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           <supplied reason="lost">βοήθει</supplied>
                                       </w> 
@@ -328,13 +323,12 @@
                                           δού<supplied reason="lost">λῳ</supplied>
                                       </rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                              <lg><l><lb n="2"/>
+                              <rs type="legendsCases"><lb n="2"/>
                                   <persName type="attested" ref="prosopography.xml#Κουρκούας_Ῥωμανός">
                                       <name type="forename">
                                           <expan><abbr>Ῥωμαν</abbr><ex>ῷ</ex></expan>
@@ -352,13 +346,13 @@
                               <lb n="5" break="no"/><abbr>τ</abbr><ex>ῇ</ex></expan>
                                       </rs> 
                                       <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
-                                          τ
+                                          τ<choice xml:id="choice1"><orig>ο</orig><reg>ῷ</reg></choice>
                                       </w> 
                                       <name type="surname">
                                           <expan><abbr>Κουρ
                               <lb n="6" break="no"/>κ</abbr><ex>ούᾳ</ex></expan>
                                       </name>
-                                  </persName></l></lg>
+                                  </persName></rs>
                       </ab>
                   </div>
               </div>
@@ -376,6 +370,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>...
                           <lb n="2"/>ρ̣̣μ̣α̣ν̣͵
                           <lb n="3"/>ασπθ͵s
                           <lb n="4"/>τοποτηρ
@@ -387,14 +382,17 @@
               <div type="apparatus">
                       <listApp>
                           <app loc="4">
-                              <note>epsilon à la place du Η dans l'édition du parallèle, lecture que cet exemplaire permet de corriger.</note>
+                              <note>Epsilon à la place du Η dans l'édition du parallèle, lecture que cet exemplaire permet de corriger.</note>
                           </app>
+                          <app loc="5" from="#choice1"><note>Sur le sceau τῷ est gravé avec omicron.</note></app>
                       </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Νικόλαος. Κύριε βοήθει τῷ σῷ δούλῳ / Ῥωμανῷ πρωτοσπαθαρίῳ καὶ τοποτηρητῇ τῷ  Κουρκούᾳ.</p>
+                  <p xml:lang="en">St Nicholas. Lord aid your servant / Romanos Kourkouas, protospatharios and topoteretes.</p>
+                  <p xml:lang="fr">Saint Nicolas. Seigneur aide ton serviteur / Romain Kourkouas, protospathaire et <hi rend="italic">topotèrètès</hi>.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Nous avons choisi d'attribuer ce sceau à l’administration
                           provinciale, mais Romain pourrait avoir exercé la lieutenance d’un régiment central. Les
                           tagmata constantinopolitains sont toutefois en voie d’effacement au cours du XIe siècle [1].
@@ -407,73 +405,24 @@
                           son beau-frère, le magistre Prousianos, et, suspecté de complot par Constantin VIII, fut
                           aveuglé [3].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Oikonomides1992"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Oikonomides1992"/>
-                          <citedRange unit="page">p. 144</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 144</citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Andriollo2012"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Andriollo2012"/>
-                      </biblStruct>.
+                      2. <bibl><ptr target="Andriollo2012"/></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:ScylitzaeSynopsis1973"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ScylitzaeSynopsis1973"/>
-                          <citedRange unit="page">p. 372</citedRange>
-                      </biblStruct>. Voir <bibl sameAs="bib:Andriollo2012"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Andriollo2012"/>
-                          <citedRange unit="page">p. 78-79</citedRange>
-                      </biblStruct>, qui, toutefois, n’exclut pas que le propriétaire du parallèle puisse avoir été « un homonyme un peu plus jeune ».
-                      Voir aussi la <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/"><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry">Romanos 102</citedRange>
-                      </biblStruct></ref>. Voir également sur ce complot, <bibl sameAs="bib:Hermay2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Hermay2017"/>
-                          <citedRange unit="page">p. 280-281</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 372</citedRange></bibl>. Voir <bibl><ptr target="Andriollo2012"/>, <citedRange unit="page">p. 78-79</citedRange></bibl>, qui, toutefois, n’exclut pas que le propriétaire du parallèle puisse avoir été « un homonyme un peu plus jeune ».
+                      Voir aussi la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/">Romanos 102</ref></citedRange></bibl>. 
+                      Voir également sur ce complot, <bibl><ptr target="Hermay2017"/>, <citedRange unit="page">p. 280-281</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 23, p. 726-727</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Andriollo2012"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Andriollo2012"/>
-                          <citedRange unit="page">p. 78-79 (sceau Zacos BnF 431)</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>23, p. 726-727</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="Andriollo2012"/>, <citedRange unit="page">p. 78-79</citedRange></bibl> (sceau Zacos BnF 431).</p>
               </div>
           </body>
       </text>

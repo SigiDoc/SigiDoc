@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Romain Ismaïl, protokentarque de l’Opsikion</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_22</idno>
                 <idno type="SigiDocID">22</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0024</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>26</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">24</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -138,7 +140,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature" cert="high" resp="#AS"><!-- 1040-1060??????????? -->
+                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature" cert="high"><!-- 1040-1060??????????? -->
                                 <seg xml:lang="en">XIth C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
@@ -146,16 +148,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Artemission (United Kingdom)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Artemission (Royaume-Uni)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -225,10 +223,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -261,11 +259,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2019-01-09" who="AS">Changes for EFES</change>
@@ -302,14 +298,13 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε1">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqew&amp;la=greek">
                                           <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                                       </w>
@@ -325,19 +320,18 @@
                                           <supplied reason="lost">τ</supplied>οῦ
                                   <lb n="4"/>
                                           <placeName ref="geography.xml#Ὀψίκιον">
-                                              Ὀψικίου
+                                              <expan><abbr>Ὀψικί</abbr><ex>ου</ex></expan>
                                           </placeName>
                                       </rs>
-                                  <lb n="5"/>
                                       <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
-                                          τ<!-- again, problem of visualisation of omicron with circumflex -->
-                                      </w> 
+                                          τ<choice xml:id="choice1"><orig>ο</orig><reg>ῷ</reg></choice>
+                                      </w>
+                                  <lb n="5"/>
                                       <name type="surname">
                                           Ἰσμαίλ
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -350,21 +344,27 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>
                           <lb n="1"/>κ̅ε̅͵Θ͵
                           <lb n="2"/>ρον͵ᾶ
                           <lb n="3"/>ταρχ.
-                          <lb n="4"/>οΨικι͵
+                          <lb n="4"/>οΨικι͵tο
                           <lb n="5"/>ισαιλ
+                          <lb n="0"/>  
                       </ab>
                   </div>
               </div>
               <div type="apparatus">
-                      <p></p>
+                      <listApp>
+                          <app loc="4" from="#choice1"><note>Sur le sceau τῷ est gravé avec omicron.</note></app>
+                      </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Νικόλαος. / + Κύριε βοήθει Ῥομανῷ πρωτοκεντάρχῳ τοῦ Ὀψικίου τῷ Ἰσμαίλ.</p>
+                  <p xml:lang="en">St Nicholas. / Lord aid Romanos Ismail, protokentarchos of the Opsikion.</p>
+                  <p xml:lang="fr">Saint Nicolas. / Seigneur aide Romain Ismaïl, protokentarque de l’Opsikion.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Le système d’abréviation du titre est audacieux mais la lecture ne fait pas de doute
                       car plusieurs bulles attestent l’existence au XIe siècle de la fonction de protokentarque de
                       thème. On connaît ainsi des titulaires de la charge pour les thèmes de la mer Égée [1],
@@ -383,49 +383,21 @@
                       en Orient à la fin du Xe siècle, était sans doute d’origine arabe [8]. Elle n’était pas encore
                       attestée à notre connaissance.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:DOseals2"/>,<ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2368/view"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals2"/>
-                          <citedRange unit="entry">no. 40.24</citedRange>
-                      </biblStruct></ref>.
+                      1. <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2368/view">40.24</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:DOseals4"/>,<ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2648/view"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="entry">no. 1.20</citedRange>
-                      </biblStruct></ref>.
+                      2. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2648/view">1.20</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:DOseals3"/>,<ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange>no. 2.33</citedRange>
-                      </biblStruct></ref>.
+                      3. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view">2.33</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/129/"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry">Basileios 129</citedRange>
-                      </biblStruct></ref>.
+                      4. <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/129/">Basileios 129</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:PsellosLetters1941"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PsellosLetters1941"/>
-                          <citedRange>no. 78, p. 109</citedRange>
-                      </biblStruct>.
+                      5. <bibl><ptr target="PsellosLetters1941"/>, <citedRange unit="part">78, p. 109</citedRange></bibl>.
                   </p>
                   <p>
                       6. Ce qui est attesté par le cas de Basile Teknodotès, ancien titulaire de la fonction auprès du
@@ -434,39 +406,14 @@
                   </p>
                   <p>
                       7. Ο ἅγιος Νικόλαος. | Κύριε βοήθει τῷ σῷ δούλῳ | Ἰωάννῃ πρωτοκεντάρχῳ τοῦ κριτοῦ τῶν
-                      Θρᾳκησίων: <bibl sameAs="bib:DOseals3"/>,<ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange unit="entry">no. 2.33</citedRange>
-                      </biblStruct></ref>.
+                      Θρᾳκησίων: <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view">2.33</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:Cheynet1995"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1995"/>
-                      </biblStruct>.
+                      8. <bibl><ptr target="Cheynet1995"/></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 22, p. 725-726</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>22, p. 725-726</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Choursélios Phrangos, vestès</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filename"/>
+                <idno type="filename">TM_20bis</idno>
                 <idno type="SigiDocID">43</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0021</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -62,7 +63,7 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="undetermined"><!-- undetermined????????????????????? -->
+                                <roleName role="issuer" type="military">
                                     <seg xml:lang="grc">Χουρσέλιος Φράγγος</seg>
                                     <seg xml:lang="en">Chourselios Phrangos</seg>
                                     <seg xml:lang="fr">Choursélios Phrangos</seg>
@@ -91,7 +92,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter"/>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -114,8 +115,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5952/">
-                                        <idno type="PBW">5952</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">44</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5952/">5952</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -138,7 +140,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1067" notAfter="1100" evidence="prosopography lettering parallel" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1067" notAfter="1100" evidence="prosopography lettering parallel" cert="high">
                                 <seg xml:lang="en">XIth C., last third</seg>
                                 <seg xml:lang="fr">XIe s., dernier tiers</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering, parallel</interp>
@@ -146,14 +148,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -224,10 +221,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -260,11 +257,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-18" who="AS">First version of the record</change>
         </revisionDesc>
@@ -273,22 +268,22 @@
               <surface type="obverse">
                   <desc>Obverse</desc>
                   <graphic url="Schlumberger.jpg" scale="1.5">
-                      <desc xml:lang="en">Digital reproduction of the obverse.</desc><!-- more information needed -->
-                      <desc xml:lang="fr">Reproduction numérique de l'avers.</desc>
+                      <desc xml:lang="en">Digital reproduction of the obverse (2002).</desc><!-- year??????????????????????????? -->
+                      <desc xml:lang="fr">Reproduction numérique de l'avers (2002).</desc>
                   </graphic>
               </surface>
               <surface type="reverse">
                   <desc>Reverse</desc>
                   <graphic url="Schlumberger_b.jpg" scale="1.5">
-                      <desc xml:lang="en">Digital reproduction of the reverse.</desc>
-                      <desc xml:lang="fr">Reproduction numérique du revers.</desc>
+                      <desc xml:lang="en">Digital reproduction of the reverse (2002).</desc>
+                      <desc xml:lang="fr">Reproduction numérique du revers (2002).</desc>
                   </graphic>
               </surface>
       </facsimile>
       <text>
           <body>
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
-                  <div type="textpart" subtype="sigla" n="obv" rend="linear"><!-- sigla????? -->
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>
                           <rs type="marianTerm" subtype="sigla" ref="marianTerms.xml#Μήτηρ_Θεοῦ">
@@ -304,10 +299,9 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
-                                  <lb n="1"/><!-- cross!!!!!!!!!!!!!!!!!!!?????????????????????? -->
-                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε">
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
+                                  <lb n="1"/>
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε2" rend="linear">
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
                                           <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan>
                                       </rs> 
@@ -339,11 +333,10 @@
                                       </w>
                                   <lb n="5"/>
                                       <name type="surname">
-                                          <expan><abbr>Φρά</abbr><ex>γ</ex><abbr>γ</abbr></expan>
+                                          <expan><abbr>Φρά</abbr><ex>γ</ex><abbr>γ<choice xml:id="choice1"><orig>ο</orig><reg>ῷ</reg></choice></abbr></expan>
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -356,11 +349,12 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/> .
                           <lb n="1"/>θ̣ε̣.
                           <lb n="2"/>τσδ̣
                           <lb n="3"/>χρσελι
                           <lb n="4"/>̣εστ͵τ
-                          <lb n="5"/>̣ρα̣γ̣ο ̣
+                          <lb n="5"/>̣ρα̣γ̣ο̣
                       </ab>
                   </div>
               </div>
@@ -372,12 +366,15 @@
                               dernière solution est d’ailleurs sans doute plus satisfaisante du point de vue phonétique,
                               l’évolution étant dans ce cas la même que celle constatée pour l’Arménien Ochin, transcrit
                               Χοσίνης (voir par exemple le sceau <ref target="TM_40.html">SigiDoc ID 40</ref>).</note></app>
+                          <app loc="5" from="#choice1"><note>Sur le sceau Φράγγῷ est gravé avec omicron.</note></app>
                       </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                  <p>Mother of God. / Theotokos aid your servant Chourselios Phrangos, vestes </p>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. / +Θεοτόκε βοήθει τῷ σῷ δούλῳ Χουρσελίῳ βέστῃ τῷ Φράγγῷ.</p>
+                  <p xml:lang="en">Mother of God. / Mother of God aid your servant Chourselios Phrangos, vestes.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide ton serviteur Chourselios Phrangos, <hi rend="italic">vestès</hi>.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p>Confrontée à la bulle de Roussel de Bailleul (<ref target="TM_20.html">SigiDoc ID 20</ref>), cette relecture de la bulle publiée
                               par Gustave Schlumberger ouvre la voie à une remise en question de son attribution au
                               grand capitaine en raison des choix différents pour l’iconographie, de la transcription
@@ -389,50 +386,21 @@
                               1993, est entré à cette occasion dans la collection Savvas Kofopoulos: 
                               voir <ref target="TM_20ter.html">SigiDoc ID 44</ref>.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
                       1. Sauf erreur de notre part, nous n’avons pas de légende se terminant par une information du
                           type « le Turc », « l’Arménien », « l’Arabe » ou « le Géorgien », par exemple.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Schlumberger1881"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#:Schlumberger1881"/>
-                          <citedRange unit="page">, ici p. 296 (avec dessin);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Schlumberger1884"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Schlumberger1884"/>
-                          <citedRange unit="page">, p. 660 (avec dessin);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 20bis, p. 716-717</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Khoury"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Khoury"/>
-                          <citedRange>, ici no. 20, p. 436-437</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page">p. 296</citedRange></bibl> (avec dessin);
+                      <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="page">p. 660</citedRange></bibl> (avec dessin);
+                      <bibl><ptr target="Sopracasa2017"/>, <citedRange>20bis, p. 716-717</citedRange></bibl>.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="Khoury"/>, <citedRange>20, p. 436-437</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

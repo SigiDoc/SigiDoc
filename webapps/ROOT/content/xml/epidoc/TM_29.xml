@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Marie Makrembolitissa, kouropalatissa</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_29</idno>
                 <idno type="SigiDocID">29</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0032</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">27</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -114,16 +116,15 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/662/">
-                                        <idno type="PBW">662</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">41</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/662/">662</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote n="whole"><seg>Au revers, sur une première ligne, croisette entre tirets, dont le premier sert aussi à marquer
-                                l’abréviation du premier mot. Nous avons choisi dans l’édition de le redoubler pour
-                                maintenir sa double fonction</seg></handNote>
+                            <handNote n="whole"><seg/></handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote>
@@ -146,16 +147,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Agora coins (Ireland)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Agora coins (Irlande)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -224,11 +221,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines</seg>
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende sur 6 lignes précédée par une croisette</p>
-                                        <p xml:lang="en">Legend on 6 lines preceded by a small cross</p>
+                                        <p xml:lang="en">Legend of 6 lines preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -241,7 +238,8 @@
                                 <decoNote>
                                     <figure>
                                         <figDesc n="v"/>
-                                        <figDesc n="decoV">Cercle de gros grènetis; croisette entre tirets sur une première ligne</figDesc>
+                                        <figDesc n="decoV">Cercle de gros grènetis; sur une ligne séparée, croisette entre tirets, dont le premier sert aussi à marquer
+                                            l’abréviation du premier mot</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -260,11 +258,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
@@ -304,11 +300,10 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε">
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε1">
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
                                           <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κ<supplied reason="lost">ε</supplied></abbr></expan>
                                       </rs> 
@@ -335,21 +330,21 @@
                                   <lb n="6" break="no"/>σῃ
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="sigla" n="obv" rend="linear">
                       <ab>
-                          <cb n="a"/>̅<!-- abbreviation signs!!!!!!!!!!!!!!!!!! -->
+                          <cb n="a"/>̅<!-- abbreviation signs not well displayed!!!!!!!!!!!!!!!!!! -->
                           <cb n="b"/>θυ
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n="1"/>θκ. ͵θ͵
+                          <lb n="0"/>  
+                          <lb n="1"/>θκ. θ<!-- abbrev. signs not approx. -->
                           <lb n="2"/>μαρια̣κρ͵
                           <lb n="3"/>παλατ̣ισςḤ
                           <lb n="4"/>μ̣α̣κρ̣εμ
@@ -360,15 +355,19 @@
               </div>
               <div type="apparatus">
                       <listApp>
-                          <app><lem>κουρ(ο)παλατίσσῃ</lem><rdg><note>L’éditeur de la pièce conservée à Athènes préfère κουρ(ο)παλατίσσᾳ mais notre pièce
+                          <app loc="1"><note>Le premier tiret de la décoration qui précède sert aussi à marquer
+                              l’abréviation du premier mot: dans l’édition il a été redoublé pour
+                              maintenir sa double fonction.</note></app>
+                          <app loc="2-3"><lem>κουρ(ο)παλατίσσῃ</lem><rdg><note>L’éditeur de la pièce conservée à Athènes préfère κουρ(ο)παλατίσσᾳ mais notre pièce
                               présente des traces d’une lettre verticale d’où le choix du η. La photo du sceau athénien nous semble d’ailleurs également présenter un trait vertical.</note></rdg></app>
                       </listApp>
               </div>
               <div type="translation">
-                  <p>Μή(τη)ρ Θ(εο)ῦ / +Θ(εοτό)κ[ε] β(οή)θ(ει) Μαρίᾳ κουρ(ο)παλατίσσῃ τῇ Μακρεμβολι[τ]ίσσῃ</p>
-                  <p xml:lang="en">Mother of God / Theotokos aid Maria Makrembolitissa kouropalatissa.</p>
+                  <p>Μήτηρ Θεοῦ. / + Θεοτόκε βοήθει Μαρίᾳ κουροπαλατίσσῃ τῇ Μακρεμβολιτίσσῃ.</p>
+                  <p xml:lang="en">Mother of God. / Mother of God aid Maria Makrembolitissa, kouropalatissa.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide Marie Makrembolitissa, <hi rend="italic">kouropalatissa</hi>.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Marie Makrembolitissa nous a laissé plusieurs bulles de deux types distincts [1]. Sur le
                               second, plus tardif, l’invocation est plus développée et Maria opta pour une figuration de
                               la <hi rend="italic">Koimèsis</hi> au droit [2]. 
@@ -376,95 +375,32 @@
                               personne [3], mais le titre de curopalate, bien qu’en passe de se dévaluer, demeurait tout
                       de même élevé et nous serions enclins à les identifier [4].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. Pour le type présenté ici, voir <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/">Maria 20107</ref></citedRange>
-                      </biblStruct>.
+                      1. Pour le type présenté ici, voir <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/">Maria 20107</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Hunger1998"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Hunger1998"/>
-                          <citedRange unit="part">no 10, p. 18</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Šandrovskaya1988"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Šandrovskaya1988"/>
-                          <citedRange unit="page">p. 90</citedRange>
-                      </biblStruct>; voir aussi <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20108/">Maria 20108</ref></citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="Hunger1998"/>, <citedRange unit="part">10, p. 18</citedRange></bibl>;
+                      <bibl><ptr target="Šandrovskaya1988"/>, <citedRange unit="page">p. 90</citedRange></bibl>; 
+                      voir aussi <bibl><ptr target="PBW"/>, <citedRange><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20108/">Maria 20108</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Seyrig"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seyrig"/>
-                          <citedRange unit="page">p. 113</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Seyrig"/>, <citedRange unit="page">p. 113</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:ZacosGenève"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosGenève"/>
-                          <citedRange unit="part">no 167</citedRange>
-                      </biblStruct>, préfèrent les distinguer.
+                      4. <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">167</citedRange></bibl> préfère les distinguer.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 29, p. 744-745</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Athens1917"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens1917"/>
-                          <citedRange unit="part">, no 382 =</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Athens2000"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">, no 153;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Hunger1998"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Hunger1998"/>
-                          <citedRange unit="part">, ici no 9, p. 17-18 (collection Zacos) = </citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:ZacosGenève"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosGenève"/>
-                          <citedRange unit="part">, no 167</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>29, p. 744-745</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p>
+                      <bibl><ptr target="Athens1917"/>, <citedRange unit="part">382</citedRange></bibl> =
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">153</citedRange></bibl>;
+                      <bibl><ptr target="Hunger1998"/>, <citedRange unit="part">9, p. 17-18</citedRange></bibl> (collection Zacos) =
+                      <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">167</citedRange></bibl>.
+                  </p>
               </div>
           </body>
       </text>

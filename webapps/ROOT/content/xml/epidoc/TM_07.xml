@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Nicétas, ostiaire impérial, épi tou koitonos, pincerne de l’augousta et xénodoque (?)</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
-                <authority/><!-- to be added -->
+                <authority/>
+                <idno type="filename">TM_07</idno>
                 <idno type="SigiDocID">7</idno>
-                <date when="2016-02-24"/><!-- to be changed -->
+                <idno type="sequence">0007</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -87,7 +89,7 @@
                                         </term>
                                         <interp type="workType" xml:lang="en">Original impression</interp>
                                         <interp type="workType" xml:lang="fr">Impression originale</interp>
-                                        <interp type="workType" xml:lang="it">Impronta originale</interp><!-- ???????????? -->
+                                        <interp type="workType" xml:lang="it">Impronta originale</interp>
                                     </objectType>
                                     <material>
                                         <seg xml:lang="en">Lead</seg>
@@ -96,10 +98,10 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">25</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
-                                    <measure type="axis" unit="clock">12</measure><!-- ?????????????? -->
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">12/13</measure><!-- ????????????????????? -->
+                                    <measure type="channelOrient" unit="clock"/>
                                 </support>
                                 <condition>
                                     <p>Etat de conservation correct de l'avers et inscription
@@ -154,8 +156,7 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p></p>
                         </acquisition>
@@ -226,10 +227,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 7 lines</seg>
+                                            <seg xml:lang="en">Legend of 7 lines</seg>
                                             <seg xml:lang="fr">Légende sur 7 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 7 lines</p>
+                                        <p xml:lang="en">Legend of 7 lines</p>
                                         <p xml:lang="fr">Légende sur 7 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -262,11 +263,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2020-06-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -295,14 +294,13 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="circular">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
-                                  <rs type="invocation" ref="invocation.xml#Κύριε" rend="circular">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε2" rend="circular">
                                       <supplied reason="lost">+</supplied>
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <supplied reason="lost">Κύριε</supplied>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           <supplied reason="lost">βο</supplied>ήθει
                                       </w> 
@@ -316,13 +314,13 @@
                                           δο<supplied reason="lost">ύλῳ</supplied>
                                       </rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                                  <lg><l><lb n="2"/>
+                                  <rs type="legendsCases">
+                                      <lb n="2"/>
                                   +
                                   <persName type="unattested" ref="prosopography.xml#Νικήτας_1">
                                       <name>
@@ -341,7 +339,7 @@
                                       ἐ
                                   <lb n="4" break="no"/>
                                       πὴ τοῦ 
-                                      <expan><abbr>κοιτ</abbr><ex>ῶνος</ex></expan><!-- should we tag koiton separately?????????????????????????????? -->
+                                      <expan><abbr>κοιτ</abbr><ex>ῶνος</ex></expan>
                                   </rs> 
                                   <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
                                       <expan><abbr><am><g type="kai1"/></am></abbr><ex>καὶ</ex></expan>
@@ -368,9 +366,9 @@
                                       <placeName cert="low" ref="geography.xml#Νέα">
                                               νε<gap reason="lost" extent="unknown" unit="character"></gap>
                                       </placeName>
-                                  </rs></l></lg>
+                                  </rs>
+                                  </rs>
                       </ab>
-                      <!-- should we add augusta to the prosopography list? -->
                   </div>
               </div>
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
@@ -388,7 +386,7 @@
                     <lb n="6"/>.υγουστ͵̣
                     <lb n="7"/>.ε̣νοδ̣... 
                     <lb n="8"/>νẹ...
-                    <lb n="9"/><!-- after transformation: only 1 dot!!!!!!! -->
+                    <lb n="9"/>
                   </ab>
               </div>
               </div>
@@ -413,11 +411,11 @@
                   </listApp>
               </div>
               <div type="translation">
-                  <p>+Κύριε βοήθει τῷ σῷ δούλῳ / +Νηκίτα, βασιλικῷ ὀστιαρίῳ καὶ ἐπὴ τοῦ κοιτῶνος καὶ ἐπιγκέρνῃ τῆς αὐγούστης καὶ ξενοδόχῳ τ...νε...</p>
+                  <p>+ Κύριε βοήθει τῷ σῷ δούλῳ / +Νηκίτα, βασιλικῷ ὀστιαρίῳ καὶ ἐπὴ τοῦ κοιτῶνος καὶ ἐπιγκέρνῃ τῆς αὐγούστης καὶ ξενοδόχῳ τ...νε...</p>
                   <p xml:lang="en">Lord aid your servant / Niketas, imperial ostiarios, epi tou koitonos, pinkernes of the Augusta and xenodochos (?) ...</p>
-                  <p xml:lang="fr">Seigneur aid ton serviteur / Nicétas, ostiaire impérial, <hi rend="italic">épi tou koitonos</hi>, pincerne de l’<hi rend="italic">Augousta</hi> et xénodoque (?) ...</p>
+                  <p xml:lang="fr">Seigneur aide ton serviteur / Nicétas, ostiaire impérial, <hi rend="italic">épi tou koitonos</hi>, pincerne de l’<hi rend="italic">Augousta</hi> et xénodoque (?) ...</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Notre bulle évoque a priori une époque où la cour impériale n’abritait qu’une seule
                           augousta. On peut penser à Théophanô, femme de Romain II, après la mort d’Hélène
                           Lécapène (961-969) [2] ou à Théodora (970-976) [3], femme de Jean Tzimiskès. À la mort
@@ -432,68 +430,29 @@
                           servit l’échanson Nicétas, même si la solution la plus probable est sans doute Hélène,
                           femme de Constantin VIII.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Magdalino1987"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Magdalino1987"/>
-                      </biblStruct> et <bibl sameAs="bib:Magdalino1988"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Magdalino1988"/>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Magdalino1987"/></bibl> et <bibl><ptr target="Magdalino1988"/></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ30280">no 28125</ref> (Théophanô); </citedRange>
-                          <citedRange unit="part"><ref target="https://www.degruyter.com/view/PMBZ/PMBZ24727">no 22574</ref> (Hélène Lécapène)</citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="PmbZOnline"/>,
+                          <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ30280">28125</ref></citedRange> (Théophanô); 
+                          <citedRange unit="part"><ref target="https://www.degruyter.com/view/PMBZ/PMBZ24727">22574</ref></citedRange> (Hélène Lécapène)
+                      </bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ29759">no 27604</ref></citedRange>
-                      </biblStruct> ; Jean Ier avait tiré Théodora d’un monastère en 970 pour se doter d’un lien
+                      3. <bibl><ptr target="PmbZOnline"/>,
+                          <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ29759">27604</ref></citedRange>
+                      </bibl> ; Jean Ier avait tiré Théodora d’un monastère en 970 pour se doter d’un lien
                       dynastique aux Macédoniens.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ24731">no 22578</ref></citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="PmbZOnline"/>,
+                          <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ24731">22578</ref></citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 7, p. 700-701</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                      <!-- etc.... -->
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                      <!-- etc.... -->
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>7, p. 700-701</citedRange></bibl></p>
               </div>
           </body>
       </text>

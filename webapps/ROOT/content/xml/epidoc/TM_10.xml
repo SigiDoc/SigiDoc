@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau d'Étienne, vestarque et duc d’Antioche</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_10</idno>
                 <idno type="SigiDocID">10</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0010</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>50</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">22</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -114,8 +116,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/513/">
-                                        <idno type="PBW">513</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">35</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/513/">513</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -148,8 +151,7 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -171,11 +173,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 4 lines</seg>
+                                            <seg xml:lang="en">Legend of 4 lines</seg>
                                             <seg xml:lang="fr">Légende sur 4 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende sur quatre lignes (de la première subsiste seulement la partie inférieure du ρ)</p>
-                                        <p xml:lang="en">Legend on 4 lines (on the first, only the lower part of the ρ remains)</p>
+                                        <p xml:lang="en">Legend of 4 lines (on the first, only the lower part of the ρ remains)</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -220,10 +222,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 4 lines</seg>
+                                            <seg xml:lang="en">Legend of 4 lines</seg>
                                             <seg xml:lang="fr">Légende sur 4 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 4 lines</p>
+                                        <p xml:lang="en">Legend of 4 lines</p>
                                         <p xml:lang="fr">Légende sur 4 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -257,11 +259,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2020-06-05" who="AS">Bibliographic references improved and footnotes added</change>
@@ -271,14 +271,14 @@
       <facsimile>
               <surface type="obverse">
                   <desc>Obverse</desc>
-                  <graphic url="50.jpg" scale="1.5">
+                  <graphic url="50b.jpg" scale="1.5">
                       <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
                       <desc xml:lang="fr">Reproduction numérique de l'avers (2015)</desc>
                   </graphic>
               </surface>
               <surface type="reverse">
                   <desc>Reverse</desc>
-                  <graphic url="50b.jpg" scale="1.5">
+                  <graphic url="50.jpg" scale="1.5">
                       <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
                       <desc xml:lang="fr">Reproduction numérique du revers (2015)</desc>
                   </graphic>
@@ -289,8 +289,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Gen">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Gen">
                                   <lb n="1"/>
                                   <supplied reason="lost">+</supplied>
                                   <w lemma="σφραγίς" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=sfragis&amp;la=greek">
@@ -309,13 +308,12 @@
                                   <lb n="4" break="no"/>
                                       <supplied reason="lost">στ</supplied>άρχου
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                                  <lg><l><lb n="5"/>
+                                  <rs type="legendsCases"><lb n="5"/>
                                   <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
                                       κα<supplied reason="lost">ὶ</supplied>
                                   </w>
@@ -327,17 +325,18 @@
                                               Ἀντ<supplied reason="lost">ιο</supplied>
                                   <lb n="8" break="no"/>χε<supplied reason="lost">ίας</supplied>
                                       </placeName>
-                                  </rs></l></lg>
+                                  </rs></rs>
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"><!-- decoration at the beginning and at the end of the legend?????????????????? -->
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
                       <ab>
                           <lb n="1"/>...ρ̣.
                           <lb n="2"/>..ςςτε̣
                           <lb n="3"/>..νrε̣
                           <lb n="4"/>..αρχ
+                          <lb n="0"/>  
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
@@ -346,6 +345,7 @@
                           <lb n="6"/>ουκ..
                           <lb n="7"/>αντ..
                           <lb n="8"/>χε...
+                          <lb n="0"/>̣  ̣ .
                       </ab>
                   </div>
               </div>
@@ -359,81 +359,41 @@
               </div>
               <div type="translation">
                   <p>+Σφραγὶς Στεφάνου βεστάρχου / καὶ δουκὸς ᾿Αντιοχείας.</p>
-                  <p xml:lang="en">Seal of Stephanos, vestarches and doux of Antioch.</p>
-                  <p xml:lang="fr">Sceau d'Étienne, vestarque et duc d’Antioche.</p>
+                  <p xml:lang="en">Seal of Stephanos, vestarches / and doux of Antioch.</p>
+                  <p xml:lang="fr">Sceau d'Étienne, vestarque / et duc d’Antioche.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p>La liste des ducs d’Antioche a été établie par J.-C. Cheynet [1] : notre personnage fut en
                                   poste au milieu du XIe siècle, avant 1060 [2]. Il s’agirait du mari de la soeur de Michel IV,
                                   qui fut envoyée en Sicile entre 1037 et 1040 à la tête de la flotte byzantine, avant d’être
                                   nommé duc d’Antioche vraisemblablement à la fin du règne de Michel IV [3].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:ZacosOrient"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosOrient"/>
-                          <citedRange unit="page">p. 22-23</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 22-23</citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:ZacosOrient"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosOrient"/>
-                          <citedRange unit="page">p. 23</citedRange>
-                      </biblStruct>. Voir la <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/">Stephanos 20116</ref>. À propos de la datation, voir aussi <bibl sameAs="bib:BBÖ2"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ2"/>
-                          <citedRange unit="page">p. 263</citedRange>
-                      </biblStruct> : « Aus stilistischen Gründen datieren wir ferner die Bulle eines Stephanos βεστάρχης καὶ δοὺξ Ἀντιοχείας
+                      2. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 23</citedRange></bibl>. Voir la <bibl><ptr target="PBW"/>, <ref target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/">Stephanos 20116</ref></bibl>. 
+                      À propos de la datation, voir aussi <bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 263</citedRange></bibl> : « Aus stilistischen Gründen datieren wir ferner die Bulle eines Stephanos βεστάρχης καὶ δοὺξ Ἀντιοχείας
                           eher nach der Regierungszeit Konstantins IX. Monomachos. Sie könnte um 1060 entstanden sein.
                           Eine Identität dieser Person mit dem um wenige Jahre jüngeren Typus eines Stephanos σεβαστοφόρος
                           καὶ δούξ ist wahrscheinlich. »
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Seyrig"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seyrig"/>
-                          <citedRange>no 157</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Seyrig"/>, <citedRange unit="part">157</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 10, p. 703-704</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Laurent1962"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laurent1962"/>
-                          <citedRange>, ici no 20, p. 241;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Seyrig"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seyrig"/>
-                          <citedRange unit="part">, no 157</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current"><!-- BBO2????????????????????????????????????????????????????????????????????????????????????????????? -->
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>10, p. 703-704</citedRange></bibl></p>
+              </div>
+              <div type="bibliography" subtype="discussionCurrent">
+                  <p><bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 263</citedRange></bibl></p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p>
+                      <bibl><ptr target="Laurent1962"/>, <citedRange>20, p. 241;</citedRange></bibl>
+                      <bibl><ptr target="Seyrig"/>, <citedRange unit="part">157</citedRange></bibl>
+                  </p>
               </div>
           </body>
       </text>

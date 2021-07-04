@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Michel, vestarque et économe de la Néa</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,18 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_05</idno>
                 <idno type="SigiDocID">5</idno>
-                <date/><!-- to be added -->
+                <idno type="sequence">0005</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -44,8 +46,8 @@
                         </settlement>
                         <institution/>
                         <repository/>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>53</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -92,10 +94,10 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">26</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
-                                    <measure type="axis" unit="clock">12</measure>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">11</measure><!-- ??????? -->
+                                    <measure type="channelOrient" unit="clock"/>
                                 </support>
                                 <condition rend="trimmedPerimeter">
                                     <p>A l'avers, abrasion du visage de l’effigie; bon état de conservation du revers.</p>
@@ -219,11 +221,11 @@
                                             <dim type="diameter"></dim>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines.</seg>
+                                            <seg xml:lang="en">Legend of 6 lines.</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes.</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende sur 6 lignes précédée d'une croisette</p>
-                                        <p xml:lang="en">Legend on 6 lines preceded by a small cross</p>
+                                        <p xml:lang="en">Legend of 6 lines preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -254,11 +256,10 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-25" who="AS">Specific mark-up for diplomatic edition added</change>
+            <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2020-06-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -286,7 +287,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="sigla" n="obv" rend="columns">
                       <ab>
-                           <cb n="a"/><!-- columns also when there are only 2 letters???????????????? -->
+                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="sigla" ref="saintsTerms.xml#Μιχαήλ">
                                <expan><abbr>Μ</abbr><ex>ι</ex>
                           <cb n="b"/>
@@ -297,14 +298,13 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Κύριε" rend="linear">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε1" rend="linear">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><ex>ύρι</ex>ε</expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                                       </w>
@@ -333,26 +333,25 @@
                                   <lb n="6" break="no"/>α</supplied>ς
                                       </placeName>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
-                          <cb n="a"/><c type="glyph" ref="glyphs.xml#Mu.1"></c>
-                          <cb n="b"/>χ
+                          <cb n="a"/><c type="glyph" ref="glyphs.xml#Mu.1" subtype="Μ"></c>
+                          <cb n="b"/><c type="glyph" ref="glyphs.xml#Chi" subtype="Χ">Χ</c>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n="1"/><c type="glyph" ref="glyphs.xml#Kappa.1" subtype="K"></c>ε<c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c>͵<c type="glyph" ref="glyphs.xml#Theta">θ</c>͵
-                          <lb n="2"/><c type="glyph" ref="glyphs.xml#Mu.1"></c>ιχ<c type="glyph" ref="glyphs.xml#Alpha.2"></c>ηλ
-                          <lb n="3"/><c type="glyph" ref="glyphs.xml#Beta.1"></c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">ε</c><c type="glyph" ref="glyphs.xml#Sigma">σ</c>τ<c type="glyph" ref="glyphs.xml#Alpha.2"></c>ρχ
-                          <lb n="4"/>.οι<c type="glyph" ref="glyphs.xml#Kappa.1"></c>ονο
-                          <lb n="5"/>.τη<c type="glyph" ref="glyphs.xml#Sigma">σ</c>ν.
-                          <lb n="6"/>.<c type="glyph" ref="glyphs.xml#Sigma">Σ</c>̣ 
+                          <lb n="1"/><c type="glyph" ref="glyphs.xml#uniE70B"></c><c type="glyph" ref="glyphs.xml#Kappa.1" subtype="K"></c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ref="glyphs.xml#uni0375">͵</c><c type="glyph" ref="glyphs.xml#Theta" subtype="Θ">Θ</c><c type="glyph" ref="glyphs.xml#uni0375">͵</c>
+                          <lb n="2"/><c type="glyph" ref="glyphs.xml#Mu.1" subtype="M"></c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Chi" subtype="Χ">Χ</c><c type="glyph" ref="glyphs.xml#Alpha.2" subtype="A"></c><c type="glyph" ref="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ref="glyphs.xml#Lambda" subtype="Λ">Λ</c>
+                          <lb n="3"/><c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Alpha.2" subtype="A"></c><c type="glyph" ref="glyphs.xml#Rho" subtype="P">Ρ</c><c type="glyph" ref="glyphs.xml#Chi" subtype="Χ">Χ</c>
+                          <lb n="4"/><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Kappa.1"></c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c>
+                          <lb n="5"/><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c><c type="glyph" ref="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ref="glyphs.xml#period">.</c>
+                          <lb n="6"/><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c>̣ 
                       </ab>
                   </div>
               </div>
@@ -365,11 +364,11 @@
                   </listApp>
               </div>
               <div type="translation">
-                  <p>Μιχαήλ. / +Κύριε βοήθει Μιχαὴλ βεστάρχῃ καὶ οἰκονόμῳ τῆς Νέας.</p>
+                  <p>Μιχαήλ. / + Κύριε βοήθει Μιχαὴλ βεστάρχῃ καὶ οἰκονόμῳ τῆς Νέας.</p>
                   <p xml:lang="en">Michael. / Lord aid Michael, vestarches and oikonomos of the Nea.</p>
                   <p xml:lang="fr">Michel. / Seigneur aide Michel, vestarque et économe de la Néa.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>La collection de Dumbarton Oaks conserve un sceau de Michel magistre et
                       économe de l’église de la Néa [1], sans iconographie, daté du XIe siècle, qui pourrait avoir
                       appartenu au même individu à un stade ultérieur de sa carrière [2].</p>
@@ -379,72 +378,29 @@
                       avait un personnel nombreux et varié, dont une partie était en charge de la gestion de
                       son important patrimoine [4] : tel est le cas de notre Michel.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. On trouvera un tableau d’ensemble des bulles documentant l’église de la Néa dans <bibl sameAs="bib:Stepanova2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Stepanova2017"/>
-                      </biblStruct>.
+                      1. On trouvera un tableau d’ensemble des bulles documentant l’église de la Néa dans <bibl><ptr target="Stepanova2017"/></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:DOseals5"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals5"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4511/view">no 48.5</ref></citedRange>
-                      </biblStruct>; <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                      </biblStruct><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20427/">Michael 20427</ref>.
+                      2. <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4511/view">48.5</ref></citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20427/">Michael 20427</ref></citedRange></bibl>.
                   </p>
                   <p>
                       3. V. Laurent a mis en évidence le lien entre les saints auxquels était consacrée l’église et
-                      l’iconographie des sceaux des fonctionnaires y travaillant : <bibl sameAs="bib:LaurentCorpus5.2"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LaurentCorpus5.2"/>
-                          <citedRange unit="page">p. 89</citedRange>
-                      </biblStruct>. L’image permet
+                      l’iconographie des sceaux des fonctionnaires y travaillant : <bibl><ptr target="LaurentCorpus5.2"/>, <citedRange unit="page">p. 89</citedRange></bibl>. L’image permet
                           peut-être de distinguer notre Michel d’un homonyme, vestarque et grand économe du Tropaiophore,
                           qui a choisi saint Georges : on ne peut toutefois pas exclure un changement de saint protecteur à
-                          l’occasion du transfert d’un service à un autre (voir <bibl sameAs="bib:PBW"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                          </biblStruct><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20144/">Michael 20144</ref>).
+                          l’occasion du transfert d’un service à un autre (voir <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20144/">Michael 20144</ref></citedRange></bibl>).
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:LaurentCorpus5.2"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LaurentCorpus5.2"/>
-                          <citedRange unit="page">p. 89</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="LaurentCorpus5.2"/>, <citedRange unit="page">p. 89</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 5, p. 698-699</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl><ptr target="Sopracasa2017"/>, <citedRange>5, p. 698-699</citedRange></bibl>.
+                  </p>
               </div>
           </body>
       </text>

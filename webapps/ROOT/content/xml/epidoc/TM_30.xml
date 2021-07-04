@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Nicolas Synésios, protonobélissime</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filename">TM.30</idno>
+                <idno type="filename">TM_30</idno>
                 <idno type="SigiDocID">30</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0033</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -92,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">24</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -116,8 +117,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5713/">
-                                        <idno type="PBW">5713</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">42</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5713/">5713</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -140,7 +142,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering titulature parallel" cert="high" resp="#AS #VP"><!-- 1185-1115??? -->
+                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering titulature parallel" cert="high"><!-- 1185-1115??? -->
                                 <seg xml:lang="en">XIth C, end-XIIth C., beginning</seg>
                                 <seg xml:lang="fr">XIe s., fin-XIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
@@ -148,16 +150,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Artemide Aste (San Marino), Auction 21E, <date when="2013-03-23">23rd-24th of March 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/133/522">522</ref></p>
+                            <p xml:lang="fr">Artemide Aste (San Marino), Enchère 21E, <date when="2013-03-23">23-24 Mars 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/133/522">522</ref></p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -228,10 +226,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 8 lines</seg>
+                                            <seg xml:lang="en">Legend of 8 lines</seg>
                                             <seg xml:lang="fr">Légende sur 8 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 8 lines</p>
+                                        <p xml:lang="en">Legend of 8 lines</p>
                                         <p xml:lang="fr">Légende sur 8 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -264,11 +262,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
             <change when="2018-08-16" who="AS">First version of the record</change>
@@ -306,14 +302,13 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε2">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <supplied reason="lost"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied>
-                                      </w> 
-                                      <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek"><!-- ref to conjugated form -->
+                                      </rs> 
+                                      <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           <supplied reason="lost">β</supplied>
                                   <lb n="2" break="no"/>οήθει
                                       </w> 
@@ -348,8 +343,7 @@
                                           ῳ
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -373,9 +367,6 @@
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
-                  <!-- for nested elements, see previous element -->
-              </div>
               <div type="apparatus">
                   <listApp>
                       <app>
@@ -384,10 +375,12 @@
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Νικόλαος. / Κύριε βοήθει τῷ σῷ δούλῳ Νικολάῳ πρωτονοβελλισίμῳ τῷ Σινεσίῳ.</p>
+                  <p xml:lang="en">St Nicholas. / Lord aid your servant Nikolaos Synesios, protonobelissimos.</p>
+                  <p xml:lang="fr">Saint Nicolas. / Seigneur aide ton serviteur Nicolas Synésios, protonobélissime.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>À un stade antérieur de sa carrière, Nicolas Synésios est attesté comme protoproèdre
                           et déjà fidèle à son homonyme saint Nicolas [1]. Notre personnage a depuis gravi les
                           échelons, car il est ici porteur du protonobélissimat, dignité fort élevée. Notre bulle
@@ -405,136 +398,48 @@
                           bulgares de Basile II si l’on en croit une bulle, actuellement conservée à Dumbarton Oaks,
                           qui mentionne Jean, protospathaire et katépan de Ras [8].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Jordanov2002"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov2002"/>
-                          <citedRange unit="part">no 46</citedRange>
-                      </biblStruct>; voir aussi <bibl sameAs="bib:Jordanov2010"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov2010"/>
-                          <citedRange unit="part">no 46</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:JordanovCorpus2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#JordanovCorpus2"/>
-                          <citedRange unit="part">no 687</citedRange>
-                      </biblStruct>. Les datations proposées par l’éditeur sont le dernier tiers ou le troisième quart du XIe siècle. 
-                          Voir aussi la <bibl sameAs="bib:PBW"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/20274/">Nikolaos 20274</ref></citedRange>
-                          </biblStruct>.
+                      1. <bibl><ptr target="Jordanov2002"/>, <citedRange unit="part">46</citedRange></bibl>; 
+                      voir aussi <bibl><ptr target="Jordanov2010"/>, <citedRange unit="part">46</citedRange></bibl>; 
+                      <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="part">687</citedRange></bibl>. Les datations proposées par l’éditeur sont le dernier tiers ou le troisième quart du XIe siècle. 
+                      Voir aussi la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/20274/">Nikolaos 20274</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Maksimović1999"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Maksimović1999"/>
-                          <citedRange unit="part">, ici p. 438</citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="Maksimović1999"/>, <citedRange unit="part">p. 438</citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:JordanovCorpus2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#JordanovCorpus2"/>
-                          <citedRange unit="part">p. 394</citedRange>
-                      </biblStruct>, qui mentionne l’existence de deux autres sceaux du
+                      3. <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="part">p. 394</citedRange></bibl>, qui mentionne l’existence de deux autres sceaux du
                           protonobélissime Nicolas Synésios, l’un dans la collection Dumbarton Oaks (DO.55.1.3307) et l’autre
                           à l’Hermitage (M-9927), pour lesquels aurait été utilisé le même <hi rend="italic">boullotèrion</hi> que pour l’exemplaire
                           publié par Maksimović.
                   </p>
                   <p>
-                      4. Seul le début diffère avec la chute de la formule τῷ σῷ δούλῳ: <bibl sameAs="bib:Münz"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Münz"/>
-                          <citedRange>enchère 157, 12-13 janvier 2011</citedRange>
-                      </biblStruct>, signalé dans <bibl sameAs="bib:SBSauctions2007-11"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SBSauctions2007-11"/>
-                          <citedRange unit="page">p. 184</citedRange>
-                      </biblStruct>. On saisira l’occasion pour souligner l’importance pour la discipline du travail
-                          de dépouillement effectué par l’auteur et l’en remercier vivement.
+                      4. Seul le début diffère avec la chute de la formule τῷ σῷ δούλῳ: <bibl><ptr target="Münz"/>, <citedRange>enchère 157, lot 619</citedRange></bibl>, 12-13 janvier 2011, 
+                      signalé dans <bibl><ptr target="SBS_Auctions2007-2011"/>, <citedRange unit="page">p. 184</citedRange></bibl>.
                   </p>
                   <p>
-                      5. Cette suggestion se trouve dans un commentaire ajouté à l’édition du sceau dans <bibl sameAs="bib:Jordanov2002"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov2002"/>
-                          <citedRange unit="page">p. 49</citedRange>
-                      </biblStruct>. 
-                      Sur ce personnage de l’<hi rend="italic">Alexiade</hi>, voir <bibl sameAs="bib:Skoulatos1980"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Skoulatos1980"/>
-                          <citedRange unit="part">no 193, p. 285-286</citedRange>
-                      </biblStruct>.
+                      5. Cette suggestion se trouve dans un commentaire ajouté à l’édition du sceau dans <bibl><ptr target="Jordanov2002"/>, <citedRange unit="page">p. 49</citedRange></bibl>. 
+                      Sur ce personnage de l’<hi rend="italic">Alexiade</hi>, voir <bibl><ptr target="Skoulatos1980"/>, <citedRange unit="part">193, p. 285-286</citedRange></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:JordanovCorpus2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#JordanovCorpus2"/>
-                          <citedRange unit="part">p. 394</citedRange>
-                      </biblStruct> ; voir aussi <bibl sameAs="bib:Ivanišević2013"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Ivanišević2013"/>
-                          <citedRange unit="part">no 2, p. 453-454</citedRange>
-                      </biblStruct>.
+                      6. <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="part">p. 394</citedRange></bibl> ; 
+                      voir aussi <bibl><ptr target="Ivanišević2013"/>, <citedRange unit="part">2, p. 453-454</citedRange></bibl>.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:Ivanišević2013"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Ivanišević2013"/>
-                      </biblStruct> : 10 bulles, dont 7 lisibles, et parmi elles essentiellement des personnages de premier plan :
+                      7. <bibl><ptr target="Ivanišević2013"/></bibl> : 10 bulles, dont 7 lisibles, et parmi elles essentiellement des personnages de premier plan :
                           sceaux de l’empereur Alexis Ier, du protonobélissime Nicolas Synésios, du protonobélissime Eustathe
                           Kamytzès, de Constantin Dalassène Doukas, du protoproèdre et <hi rend="italic">doux</hi> Constantin Kékauménos.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:DOseals1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals1"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2444/view">no 33.1</ref></citedRange>
-                      </biblStruct>.
+                      8. <bibl><ptr target="DOseals1"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2444/view">no 33.1</ref></citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 30, p. 745-746</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Maksimović1999"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Maksimović1999"/>
-                          <citedRange unit="part">, ici no 805, p. 437-438</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>30, p. 745-746</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="Maksimović1999"/>, <citedRange unit="part">805, p. 437-438</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

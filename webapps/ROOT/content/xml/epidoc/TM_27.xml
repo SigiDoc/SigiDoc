@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau d'Apsimar, illoustrios et komès</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_27</idno>
                 <idno type="SigiDocID">27</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0030</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">21</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -128,8 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" xml:lang="en">Invocative cruciform monogram</figDesc><!-- monograms here??????????????????? -->
-                                    <figDesc n="whole" xml:lang="fr">Monogramme invocatif cruciforme</figDesc>
+                                    <figDesc n="whole"/>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -139,7 +140,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0651" notAfter="0700" evidence="prosopography lettering titulature" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="0651" notAfter="0700" evidence="prosopography lettering titulature" cert="high">
                                 <seg xml:lang="en">VIIth C., second half</seg>
                                 <seg xml:lang="fr">VIIe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
@@ -147,16 +148,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: A.A.C.-Ancient Coins (Netherlands)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: A.A.C.-Ancient Coins (Pays-Bas)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -179,7 +176,7 @@
                                             <seg xml:lang="en">Monogram</seg>
                                             <seg xml:lang="fr">Monogramme</seg>
                                         </rs>
-                                        <p xml:lang="fr">Monogramme invocatif cruciforme avec les lettres θ, o, τ, κ, η, I, , β</p><!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!AR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                                        <p xml:lang="fr">Monogramme invocatif cruciforme avec les lettres θ, o, τ, κ, η, I, , β</p>
                                         <p xml:lang="en">Cruciform invocative monogram with the letters θ, o, τ, κ, η, I, , β</p>
                                     </layout>
                                 </layoutDesc>
@@ -225,11 +222,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="fr">Légende sur 5 lignes précédée par une croisette</p><!-- cross at the beggining of the  legend, here: check for consistency!!!!!!!!!!!!!!!!!! -->
-                                        <p xml:lang="en">Legend on 5 lines preceded by a small cross</p>
+                                        <p xml:lang="fr">Légende sur 5 lignes précédée par une croisette</p>
+                                        <p xml:lang="en">Legend of 5 lines preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -261,11 +258,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
         </revisionDesc>
@@ -291,22 +286,25 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="monogram">
                       <ab>
-                          <lb n="1"/><rs type="invocation" ref="invocation.xml#Θεοτόκε">
-                              <rs type="monogram" ref="monogram.xml#mg3"><!-- not already classified -->
-                              <expan><ex>Θεοτόκε βοήθει</ex></expan>
-                              </rs><!-- how to tag Θεοτόκε and βοήθει for indexing -->
+                          <lb n="1"/><rs type="invocation" ref="invocation.xml#Θεοτόκε1">
+                              <rs type="monogram" ref="monogram.xml#mg3">
+                                  <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
+                                      <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
+                                          <expan><ex>Θεοτόκε βοήθει</ex></expan>
+                                      </w>
+                                  </rs>
+                              </rs>
                           </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Gen">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Gen">
                                   <lb n="2"/>
                                   +
                                   <persName type="attested" ref="prosopography.xml#Ἀψίμαρος_1">
                                       <name type="forename">
-                                          Ἀψι<supplied reason="lost">μ</supplied><!-- forename????????????????????????? -->
+                                          Ἀψι<supplied reason="lost">μ</supplied>
                                   <lb n="3" break="no"/>άρου
                                       </name>
                                   </persName> 
@@ -322,8 +320,7 @@
                                       κόμ
                                   <lb n="6" break="no"/><supplied reason="lost">η</supplied>τος
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -351,10 +348,12 @@
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Θεοτόκε βοήθει / +Ἀψιμάρου ἰλλουστρίου καὶ κόμητος.</p>
+                  <p xml:lang="en">Mother of God aid / Apsimar, illoustrios and komes.</p>
+                  <p xml:lang="fr">Mère de Dieu aide / Apsimar, <hi rend="italic">illoustrios</hi> et <hi rend="italic">komès</hi>.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Les légendes au génitif tendent à disparaître à partir du début du VIIIe siècle [2], et il
                           en va de même pour le rang d’<hi rend="italic">illustris/illoustrios</hi> entre les dernières décennies du VIIe et
                           le début du VIIIe siècle [3]. L’épigraphie, bien que grossière, correspond pleinement au
@@ -441,112 +440,42 @@
                           comme tend à l’indiquer le choix du nom de règne Tibère ou son iconographie monétaire
                           militaire, qui perpétuait les choix de Constantin IV [33].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. Voir, par exemple, <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange>pl. 250, no. 548 (sceau 1522)</citedRange>
-                      </biblStruct>.
+                      1. Voir, par exemple, <bibl><ptr target="Zacos1"/>, <citedRange>548, pl. 250</citedRange></bibl> (sceau 1522).
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Cheynet2008b"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2008b"/>
-                          <citedRange unit="page">p. 62</citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="Cheynet2008b"/>, <citedRange unit="page">p. 62</citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Brubaker2011"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Brubaker2011"/>
-                          <citedRange unit="page">p. 592-593</citedRange>
-                      </biblStruct>. Pour des exemples de porteurs du titre entre VIe et VIIIe siècle, voir la <bibl sameAs="bib:PBE1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBE1"/>
-                          <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/off/index.htm">Illoustrios</ref></citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Brubaker2011"/>, <citedRange unit="page">p. 592-593</citedRange></bibl>. 
+                      Pour des exemples de porteurs du titre entre VIe et VIIIe siècle, voir la <bibl><ptr target="PBE1"/></bibl>, s.v. Illoustrios.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange><ref target="https://db.degruyter.com/view/PMBZ/PMBZ19751">no. 8483</ref></citedRange>
-                      </biblStruct>; <bibl sameAs="bib:PBE1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBE1"/>
-                          <citedRange unit="entry"><ref target=" http://www.pbe.kcl.ac.uk/person/p8274">Tiberios2</ref></citedRange>
-                      </biblStruct> (lien actuellement inactif: 2020-07-27).
+                      4. <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ19751">8483</ref></citedRange></bibl>; 
+                      <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target=" http://www.pbe.kcl.ac.uk/person/p8274">Tiberios2</ref></citedRange></bibl> (lien actuellement inactif: 2021-03-18).
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:Zuckerman2005"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2005"/>
-                          <citedRange unit="page">p. 122-123</citedRange>
-                      </biblStruct>.
+                      5. <bibl><ptr target="Zuckerman2005"/>, <citedRange unit="page">p. 122-123</citedRange></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Laniado2002"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laniado2002"/>
-                          <citedRange unit="page">p. 162</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Jones1964"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jones1964"/>
-                          <citedRange>p. 529 et n. 16</citedRange>
-                      </biblStruct>.
+                      6. <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 162</citedRange></bibl>; <bibl><ptr target="Jones1964"/>, <citedRange>p. 529 et n. 16</citedRange></bibl>.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:Garbarino1988"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Garbarino1988"/>
-                          <citedRange unit="page">p. 318-323</citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="Garbarino1988"/>, <citedRange unit="page">p. 318-323</citedRange></bibl>.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange unit="part">no. 2850</citedRange>
-                      </biblStruct>; voir aussi ci-dessous le cas du commerciaire Serge. La forme
+                      8. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2850</citedRange></bibl>; voir aussi ci-dessous le cas du commerciaire Serge. La forme
                           <hi rend="italic">ellustrios</hi> est étonnante, mais pour une déformation proche, voir la mention de la maison de l’<hi rend="italic">euloustrios</hi>
-                      dans la <hi rend="italic">Vie</hi> de Grégoire d’Agrigente : <bibl sameAs="bib:LeontiosGregorios1995"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LeontiosGregorios1995"/>
-                          <citedRange>56, p. 213, l. 8-9</citedRange>
-                      </biblStruct>.
+                      dans la <hi rend="italic">Vie</hi> de Grégoire d’Agrigente : <bibl><ptr target="LeontiosGregorios1995"/>, <citedRange>56, p. 213, l. 8-9</citedRange></bibl>.
                   </p>
                   <p>
-                      9. Voir, par exemple, <bibl sameAs="bib:Banaji2001"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Banaji2001"/>
-                          <citedRange unit="page">p. 150, 161</citedRange>
-                      </biblStruct>; <ref target="http://papyri.info/ddbdp/bgu;1;323">BGU 1.323, l. 2-3</ref> (AD 601-651) :
+                      9. Voir, par exemple, <bibl><ptr target="Banaji2001"/>, <citedRange unit="page">p. 150, 161</citedRange></bibl>; 
+                      <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/bgu;1;323">BGU 1.323, l. 2-3</ref></citedRange></bibl> (AD 601-651) :
                           Φλ(αουίῳ) [Σεν]ουθίῳ τῷ εὐκλεεστάτῳ δοῦκ[ι - ca 9 -] τοῦ ἐνδοξοτάτου ἰλλουστρίου.
                   </p>
                   <p>
-                      10. <bibl sameAs="bib:Hornickel1930"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Hornickel1930"/>
-                          <citedRange unit="page">p. 17</citedRange>
-                      </biblStruct>: «Ist in den Papyri kein adjektivisches
+                      10. <bibl><ptr target="Hornickel1930"/>, <citedRange unit="page">p. 17</citedRange></bibl>: «Ist in den Papyri kein adjektivisches
                           Rangprädikat, sondern die Bezeichnung einer Würde wie etwa auch Patricius und Comes. Es ist
                           offenbar eine Titularwürde der Großgrundbesitzer, die auch Frauen verliehen werden kann. Es
                           bezeichnet als solche nur die Illustres Honorarii, die letze Gruppe der Illustres. Die Umwandlung des
@@ -554,12 +483,7 @@
                           des 6. Jahrhunderts. Ich habe nur für die Endoxotatoi gennanten Illoustrioi die belegte gesammelt.»
                   </p>
                   <p>
-                      11. <bibl sameAs="bib:Gascou1972"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Gascou1972"/>
-                          <citedRange>p. 69, n. 2</citedRange>
-                      </biblStruct>: 
+                      11. <bibl><ptr target="Gascou1972"/>, <citedRange>p. 69, n. 2</citedRange></bibl>: 
                           «Hornickel a pratiquement éludé l’étude de ce curieux <hi rend="italic">illustrat</hi>. Le mot ἰλλούστριος n’est pas la
                           simple translittération du latin <hi rend="italic">illustris</hi>. Les diverses classes de l’<hi rend="italic">illustrat</hi>, comme la “magnificence”, la
                           “gloire”, se traduisent par les épithètes citées plus haut et existaient longtemps avant l’apparition des
@@ -567,141 +491,54 @@
                           titulatures où ce mot figure, il est associé à des épithètes honorifiques courantes, ce qui en indique bien
                           la signification fonctionnelle. Lorsque les titulatures sont suffisamment explicites, le mot ἰλλούστριος nous apparaît clairement comme synonyme de pagarque. […] Peut-être était-ce même le nom officiel
                           de la “fonction” pagarchique après les réformes justiniennes. » L’auteur a par la suite retiré cette idée
-                          dans la réédition de son article dans <bibl sameAs="bib:Gascou2008"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Gascou2008"/>
-                              <citedRange unit="page">p. 49</citedRange>
-                          </biblStruct>. Mais cette hésitation illustre bien les caractéristiques particulières du terme.
+                          dans la réédition de son article dans <bibl><ptr target="Gascou2008"/>, <citedRange unit="page">p. 49</citedRange></bibl>. Mais cette hésitation illustre bien les caractéristiques particulières du terme.
                   </p>
                   <p>
-                      12. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange unit="part">no. 131</citedRange>
-                      </biblStruct>.
+                      12. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">131</citedRange></bibl>.
                   </p>
                   <p>
                       13. On laisse ici évidemment de côté les résurgences de ces prédicats au XIe-XIIe siècle, ainsi que
-                      les poids du VIe siècle (<bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange unit="part">no. 3000A et B</citedRange>
-                      </biblStruct>), le système classique étant alors en usage.
+                      les poids du VIe siècle (<bibl><ptr target="Zacos1"/>, <citedRange unit="part">3000A, B</citedRange></bibl>), le système classique étant alors en usage.
                   </p>
                   <p>
                       14. 82 recensées rien que pour le bullaire chypriote, mais avec beaucoup de doubles:
-                      <bibl sameAs="bib:Metcalf2004"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Metcalf2004"/>
-                          <citedRange unit="page">p. 242</citedRange>
-                      </biblStruct>.
+                      <bibl><ptr target="Metcalf2004"/>, <citedRange unit="page">p. 242</citedRange></bibl>.
                   </p>
                   <p>
-                      15. <bibl sameAs="bib:Athens1917"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens1917"/>
-                          <citedRange unit="part">nos 295 (la combinaison avec le titre d’<hi rend="italic">anthypatos</hi> est
-                              des plus étranges, il convient d’accueillir avec méfiance ce témoignage, en l’absence de photographie),</citedRange>
-                          <citedRange>362 (latin),</citedRange> <citedRange>362α (latin) β γ δ,</citedRange> <citedRange>363,</citedRange> <citedRange>364</citedRange> 
-                      </biblStruct>; <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 789a</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Schlumberger1884"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Schlumberger1884"/>
-                          <citedRange unit="page">p. 519</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Speck1986"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Speck1986"/>
-                          <citedRange unit="part">no. 165 (Plagiôtès)</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Orghidan"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Orghidan"/>
-                          <citedRange unit="part">no. 273</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Metcalf2004"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Metcalf2004"/>
-                          <citedRange unit="part">nos. 9, 19, 50, 62, 187-197, 199, 292, 322-324, 349, 380, 622, 629, 732, 740, 830</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Stepanova2006"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Stepanova2006"/>
-                          <citedRange>nos. 17, 18, 20, 30, 76</citedRange>
-                      </biblStruct>; on y ajoutera un inédit
-                          du musée de Syracuse, no 6896. On rappellera aussi la mention de la maison de l’<hi rend="italic">euloustrios</hi> dans la
+                      15. <bibl><ptr target="Athens1917"/>, 
+                          <citedRange unit="part">295</citedRange> (la combinaison avec le titre d’<hi rend="italic">anthypatos</hi> est
+                          des plus étranges, il convient d’accueillir avec méfiance ce témoignage, en l’absence de photographie),
+                          <citedRange>362 (latin), 362α (latin), β γ δ, 363, 364</citedRange>
+                      </bibl>; <bibl><ptr target="Zacos1"/>, <citedRange unit="part">789a</citedRange></bibl>; 
+                      <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="page">p. 519</citedRange></bibl>; <bibl><ptr target="Speck1986"/>, <citedRange unit="part">165</citedRange></bibl> (Plagiôtès); 
+                      <bibl><ptr target="Orghidan"/>, <citedRange unit="part">273</citedRange></bibl>; 
+                      <bibl><ptr target="Metcalf2004"/>, <citedRange unit="part">9, 19, 50, 62, 187-197, 199, 292, 322-324, 349, 380, 622, 629, 732, 740, 830</citedRange></bibl>;
+                      <bibl><ptr target="Stepanova2006"/>, <citedRange>nos. 17, 18, 20, 30, 76</citedRange></bibl>; on y ajoutera un inédit
+                          du musée de Syracuse, 6896. On rappellera aussi la mention de la maison de l’<hi rend="italic">euloustrios</hi> dans la
                           <hi rend="italic">Vie</hi> de Grégoire d’Agrigente, voir n. 8.
                   </p>
                   <p>
-                      16. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 971</citedRange>
-                      </biblStruct>.
+                      16. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">971</citedRange></bibl>.
                   </p>
                   <p>
-                      17. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 1596</citedRange>
-                      </biblStruct>.
+                      17. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">1596</citedRange></bibl>.
                   </p>
                   <p>
-                      18. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 2850</citedRange>
-                      </biblStruct>.
+                      18. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2850</citedRange></bibl>.
                   </p>
                   <p>
-                      19. <bibl sameAs="bib:Laniado2002"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laniado2002"/>
-                          <citedRange unit="page">p. 162</citedRange>
-                      </biblStruct>.
+                      19. <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 162</citedRange></bibl>.
                   </p>
                   <p>
                       20. Que les héritiers aient continué à jouir de certaines immunités au regard des obligations
                           curiales ne joua sans doute pas un rôle car cela ne concernait que les illustres titulaires de titres
-                          supérieurs: <bibl sameAs="bib:Laniado2002"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Laniado2002"/>
-                              <citedRange unit="page">p. 37</citedRange>
-                          </biblStruct>.
+                          supérieurs: <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 37</citedRange></bibl>.
                   </p>
                   <p>
-                      21. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 914A</citedRange>
-                      </biblStruct>.
+                      21. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">914A</citedRange></bibl>.
                   </p>
                   <p>
-                      22. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 909A</citedRange>
-                      </biblStruct>.
+                      22. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">909A</citedRange></bibl>.
                   </p>
                   <p>
                       23. Sur la pièce américaine, la partie supérieure est endommagée, ce qui ne permet pas de
@@ -709,108 +546,60 @@
                   </p>
                   <p>
                       24. Par exemple, Παύλου τοῦ ἐνδοξοτάτου ἀπὸ ὑπάτων καὶ διοικητοῦ τῶν ἀνατολικῶν ἐπαρχιῶν
-                      mentionné dans les actes du concile de Constantinople III : références dans la <bibl sameAs="bib:PBE1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBE1"/>
-                          <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/person/p6141">Paulos17</ref></citedRange>
-                      </biblStruct> (lien actuellement inactif: 2020-07-27).
+                      mentionné dans les actes du concile de Constantinople III : références dans la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/person/p6141">Paulos17</ref></citedRange></bibl> (lien actuellement inactif: 2021-03-18).
                   </p>
                   <p>
-                      25. Sur l’accès au sommet par la collation de dignités honoraires, voir aussi <bibl sameAs="bib:Garbarino1988"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Garbarino1988"/>
-                          <citedRange unit="page">p. 252-259</citedRange>
-                      </biblStruct>.
+                      25. Sur l’accès au sommet par la collation de dignités honoraires, voir aussi <bibl><ptr target="Garbarino1988"/>, <citedRange unit="page">p. 252-259</citedRange></bibl>.
                   </p>
                   <p>
-                      26. <ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1, l. 6-7</ref> (AD 651 ?) : [Φλ(αουίῳ) Ἰωάνν]ῃ τῷ ἐνδοξοτάτῳ ἰλλουστρίῳ [καὶ παγάρχῳ
-                      τ]αύτης τῆς Ἀρσινοιτῶν πόλεως ; voir aussi <ref target="http://papyri.info/ddbdp/cpr;22;2">CPR 22.2</ref> (AD 628-629 ou 643-644).
+                      26. <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1, l. 6-7</ref></citedRange></bibl> (AD 651 ?) : [Φλ(αουίῳ) Ἰωάνν]ῃ τῷ ἐνδοξοτάτῳ ἰλλουστρίῳ [καὶ παγάρχῳ
+                      τ]αύτης τῆς Ἀρσινοιτῶν πόλεως ; voir aussi <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;22;2">CPR 22.2</ref></citedRange></bibl> (AD 628-629 ou 643-644).
                   </p>
                   <p>
-                      27. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 1376</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Orghidan"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Orghidan"/>
-                          <citedRange unit="part">no. 273</citedRange>
-                      </biblStruct>; <ref target="http://papyri.info/ddbdp/cpr;30;17">CPR 30.17, l. 5</ref> (AD 643-644 env.).
+                      27. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">1376</citedRange></bibl>; <bibl><ptr target="Orghidan"/>, <citedRange unit="part">273</citedRange></bibl>; 
+                      <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;30;17">CPR 30.17, l. 5</ref></citedRange></bibl> (AD 643-644 env.).
                   </p>
                   <p>
-                      28. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 914A</citedRange>
-                      </biblStruct>.
+                      28. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">914A</citedRange></bibl>.
                   </p>
                   <p>
-                      29. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 872</citedRange>
-                      </biblStruct>: l’éditeur propose <hi rend="italic">illustris</hi> sur la bulle latine du commerciaire Serge, mais
+                      29. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">872</citedRange></bibl>: l’éditeur propose <hi rend="italic">illustris</hi> sur la bulle latine du commerciaire Serge, mais
                       l’exemple de Romain mentionné plus haut (voir n. 8) laisse la question de la résolution
                       de l’abréviation ouverte.
                   </p>
                   <p>
-                      30. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xmlZacos1"/>
-                          <citedRange unit="part">no. 890</citedRange>
-                      </biblStruct>. Nous ne nous étendrons pas sur le cas de Théodore <hi rend="italic">megaloprépestatos illoustrios</hi> et
+                      30. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">n890</citedRange></bibl>. Nous ne nous étendrons pas sur le cas de Théodore <hi rend="italic">megaloprépestatos illoustrios</hi> et
                           diocète, car l’état de son sceau ne permet pas d’établir avec exactitude sa fonction et donc son importance.
                   </p>
                   <p>
-                      31. Voici les résultats d’un sondage réalisé sur papyri.info : <ref target="http://papyri.info/ddbdp/p.cair.masp;3;67325">P.Cair.Masp. 3.67325</ref>, nos. IIIv,
-                      l. 9, 13 ; VIIIv, l. 24 (AD 501-600); <ref target="http://papyri.info/ddbdp/p.flor;3;298">P.Flor. 3.298</ref>, l. 13-14, 15, 19-20, 25 (AD 557-560); 
-                      <ref target="http://papyri.info/ddbdp/p.stras;7;699">P.Strasb. 7.699</ref>, l. 26 (recto), 3-4 (verso) (AD 525-560); avec le gloriosat en sus mais
-                      toujours <hi rend="italic">illoustrios</hi> comme prédicat <ref target="http://papyri.info/ddbdp/sb;20;15013">SB 20.15013</ref>, l. 2-3, 6 (AD 552-553); 
-                      <ref target="http://papyri.info/ddbdp/sb;20;15015">SB 20.15015</ref>, l. 3, 8 (AD 550-551).
+                      31. Voici les résultats d’un sondage réalisé sur Papyri.info : <bibl><ptr target="papyri"/>,
+                      <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.cair.masp;3;67325">P.Cair.Masp. 3.67325</ref>, IIIv, l. 9, 13 ; VIIIv, l. 24</citedRange> (AD 501-600);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.flor;3;298">P.Flor. 3.298</ref>, l. 13-14, 15, 19-20, 25</citedRange> (AD 557-560);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.stras;7;699">P.Strasb. 7.699</ref>, l. 26 (recto), 3-4 (verso)</citedRange> (AD 525-560);   
+                          avec le gloriosat en sus mais toujours <hi rend="italic">illoustrios</hi> comme prédicat <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/sb;20;15013">SB 20.15013</ref>, l. 2-3, 6</citedRange> (AD 552-553);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/sb;20;15015">SB 20.15015</ref>, l. 3, 8</citedRange> (AD 550-551)</bibl>.
                   </p>
                   <p>
-                      32. <ref target="http://papyri.info/ddbdp/bgu;2;396">BGU 2.396</ref>, l. 4 (AD 641); <ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1</ref>, l. 6-7 (AD 651-666); <ref target="http://papyri.info/ddbdp/cpr;22;2">CPR 22.2</ref>, l. 7 (AD 643-644); 
-                      <ref target="http://papyri.info/ddbdp/cpr;24;32">CPR 24.32</ref>, l. 7 (AD 651); <ref target="http://papyri.info/ddbdp/cpr;30;18">CPR 30.18</ref>, l. 6 (AD 643-644 env.);
-                      <ref target="http://papyri.info/ddbdp/p.koeln;7;319">P.Köln 7.319</ref>, l. 5 (AD 600-799); <ref target="http://papyri.info/ddbdp/stud.pal;3;448">Stud.Pal. 3.448</ref>, l. 1 (AD 708-709).
-                      Une exception possible est le <ref target="http://papyri.info/ddbdp/psi;4;283">PSI 4.283</ref>, l. 5-6 (20 décembre 550), mais une lacune empêche d’assurer la
-                      lecture du titre; d’autres exceptions se trouvent dans <ref target="http://papyri.info/ddbdp/p.cair.masp;3;67325">P.Cair.Masp. 3.67325</ref>, no. VIIv, l. 25 (ad 501-600); <ref target="http://papyri.info/ddbdp/p.flor;3;298">P.Flor. 3.298</ref>, l. 37,
-                          45, 51, 59 (ad 557-560). On remarquera toutefois que de ces six exceptions, une est rendue incertaine par l’état de conservation du
+                      32. <bibl><ptr target="papyri"/>,
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/bgu;2;396">BGU 2.396</ref>, l. 4</citedRange> (AD 641);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1</ref>, l. 6-7</citedRange> (AD 651-666);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;22;2">CPR 22.2</ref>, l. 7</citedRange> (AD 643-644);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;24;32">CPR 24.32</ref>, l. 7</citedRange> (AD 651);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;30;18">CPR 30.18</ref>, l. 6</citedRange> (AD 643-644 env.);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.koeln;7;319">P.Köln 7.319</ref>, l. 5</citedRange> (AD 600-799);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/stud.pal;3;448">Stud.Pal. 3.448</ref>, l. 1</citedRange> (AD 708-709)</bibl>.
+                      Une exception possible est le <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/psi;4;283">PSI 4.283</ref>, l. 5-6</citedRange></bibl> (20 décembre 550), mais une lacune empêche d’assurer la
+                      lecture du titre; d’autres exceptions se trouvent dans <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.cair.masp;3;67325">P.Cair.Masp. 3.67325</ref>, VIIv, l. 25</citedRange> (AD 501-600);
+                          <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.flor;3;298">P.Flor. 3.298</ref>, l. 37, 45, 51, 59</citedRange> (AD 557-560)</bibl>. 
+                      On remarquera toutefois que de ces six exceptions, une est rendue incertaine par l’état de conservation du
                           support, et quatre autres proviennent d’un même document.
                   </p>
                   <p>
-                      33. <bibl sameAs="bib:MIB3"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#MIB3"/>
-                          <citedRange>pl. 32, nos 4-13 et pl. 43, nos 1-7</citedRange>
-                      </biblStruct>.
+                      33. <bibl><ptr target="MIB3"/>, <citedRange>pl. 32, 4-13, pl. 43, 1-7</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 27, p. 735-739</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>27, p. 735-739</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

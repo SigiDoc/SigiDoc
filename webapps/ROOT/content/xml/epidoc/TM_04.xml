@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Grègoras (?), spatharocandidat impérial et topotèrètès de l’Arithmos (?)</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_04</idno>
                 <idno type="SigiDocID">4</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0004</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg xml:lang="en"> Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>71</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">24</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -122,7 +124,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote n="whole">
-                                <seg>Qualité de gravure assez médiocre pour l’époque et erreurs: voir Apparat</seg>
+                                <seg>Qualité de gravure assez médiocre pour l’époque et erreurs: voir Apparat.</seg>
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -148,8 +150,7 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -219,10 +220,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -255,11 +256,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">id for the dignity modified, line 321</change>
             <change when="2020-06-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -288,14 +287,13 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="circular">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε2">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><ex>ύρ</ex><abbr>ιε</abbr></expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqew&amp;la=greek">
                                           <supplied reason="lost">βοήθει</supplied>
                                       </w> 
@@ -307,8 +305,7 @@
                                       </w> 
                                       <rs type="devotional" ref="devotional.xml#δοῦλος">δούλῳ</rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
@@ -364,7 +361,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <!-- for nested elements, see previous element -->
               </div>
-              <div type="apparatus"><!-- the choice here is to leave the original reading in the edition and to put the amended reading in the apparatus; but in the indexing???????????????????????????? -->
+              <div type="apparatus">
                       <listApp>
                           <app loc="4"><lem>-κλν-</lem><rdg>καν</rdg><note>le lambda est clairement une erreur; la bonne lecture est donc σπαθαροκανδιδάτῳ</note></app>
                           <app loc="6"><lem>Ἀριο-</lem><rdg>Ἀριθ-</rdg><note>la qualité relativement grossière de la gravure et l'erreur signalée à la l. 4 justifient cette correction, pour Ἀριθμοῦ. La leçon ploïmon est exclue et les topotèrètai de villes ont disparu à l’époque de ce
@@ -372,52 +369,25 @@
                       </listApp>
               </div>
               <div type="translation">
-                  <p>+Κύριε βοήθει τῷ σῷ δούλῳ / +Γρηγορᾷ (?), βασιλικῷ σπαθαροκανδιδάτῳ καὶ τοποτηρητῇ τοῦ Ἀριθμοῦ (?).</p>
+                  <p>+ Κύριε βοήθει τῷ σῷ δούλῳ / +Γρηγορᾷ (?), βασιλικῷ σπαθαροκανδιδάτῳ καὶ τοποτηρητῇ τοῦ Ἀριθμοῦ (?).</p>
                   <p xml:lang="en">Lord aid your servant / Gregoras (?), imperial spatharokandidatos and topoteretes of the Arithmos (?).</p>
                   <p xml:lang="fr">Seigneur aide ton serviteur / Grégoras (?), spatharocandidat impérial et <hi rend="italic">topotèrètès</hi> de l’<hi rend="italic">Arithmos</hi> (?).</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p>Grégoras était le lieutenant du chef du tagma fondé par l’impératrice Irène [2].</p>
-              </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
               </div>
               <div type="footnotes">
                   <p>
-                      1. Voir <bibl sameAs="bib:Sopracasa2017"/>, <ref target="TM_13.html"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange unit="part">no 13</citedRange>
-                      </biblStruct></ref>.
+                      1. Voir <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part"><ref target="TM_13.html">13</ref></citedRange></bibl> .
                   </p>
                   <p>
-                      2. Sur cette unité et son origine, voir <bibl sameAs="bib:Prigent2015"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2015"/>
-                          <citedRange unit="page">p. 166-168</citedRange>
-                      </biblStruct>.
+                      2. Sur cette unité et son origine, voir <bibl><ptr target="Prigent2015"/>, <citedRange unit="page">p. 166-168</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 4, p. 697-698</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl><ptr target="Sopracasa2017"/>, <citedRange>4, p. 697-698</citedRange></bibl>
+                  </p>
               </div>
           </body>
       </text>

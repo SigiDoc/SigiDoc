@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Oursel (Roussel) de Bailleul, proèdre et stratopédarque</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filename"/>
+                <idno type="filename">TM_20</idno>
                 <idno type="SigiDocID">20</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0020</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -44,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>7</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -94,7 +95,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">26</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -150,14 +151,11 @@
                         </origin>
                         <provenance type="found"/>
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Artemide Aste (San Marino), Auction 22E, <date when="2013-04-25">25th of April 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/141/404">404</ref></p>
+                            <p xml:lang="fr">Artemide Aste (San Marino), Enchère 22E, <date when="2013-04-25">25 Avril 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/141/404">404</ref></p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -236,10 +234,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -272,11 +270,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-19" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-18" who="AS">First version of the record</change>
@@ -317,11 +313,10 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε">
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε1" rend="linear">
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
                                           <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan>
                                       </rs> 
@@ -349,12 +344,10 @@
                                   <lb n="5" break="no"/>
                                       δάρχῃ
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
-              <!-- or the following two elements to tag the editorial and the diplomatic separately-->
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"><!-- last line with deco????? --><!-- sigla???????????? -->
                   <div type="textpart" subtype="sigla" n="obv" rend="linear">
                       <ab>
@@ -373,12 +366,19 @@
               </div>
               </div>
               <div type="apparatus">
-                      <p></p>
+                  <listApp>
+                      <app>
+                          <note xml:lang="en">None.</note>
+                          <note xml:lang="fr">Aucun.</note>
+                      </app>
+                  </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. / +Θεοτόκε βοήθει Οὐρσέλῃ προέδρῳ καὶ στρατοπεδάρχῃ.</p>
+                  <p xml:lang="en">Mother of God. / Mother of God aid Oursel, proedros and stratopedarches.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide Oursel, proèdre et stratopédarque.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                                   <p>Ce sceau appartient au chevalier picard Roussel de Bailleul, l’un des plus célèbres
                                       chefs militaires « francs » entrés au service de l’Empire byzantin, phénomène courant au
                                       xie siècle, avant de se révolter. Roussel arriva dans l’Empire sous Romain IV Diogène, sans
@@ -518,463 +518,156 @@
                                       caractériserait l’utilisation du patronyme Phrangos et à laquelle on peut pour l’instant
                                       rattacher au moins le stratège Zacharie, mort au service d’Alexis Comnène.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Seibt1987"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1987"/>
-                      </biblStruct>; <bibl sameAs="bib:Koltsida-Makri2003"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblioraphy.xml#Koltsida-Makri2003"/>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Seibt1987"/></bibl>; <bibl><ptr target="Koltsida-Makri2003"/></bibl>.
                   </p>
                   <p>
                       2. La Nikopoios est mise à l’honneur par le patriarche Photios et se diffuse alors sur les bulles des évêques:
-                      voir l’exemple très clair de la bulle d’Arsénios de Lemnos publiée dans <bibl sameAs="bib:DOseals2"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals2"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5486/view">no 50.1a</ref></citedRange>
-                      </biblStruct>.
+                      voir l’exemple très clair de la bulle d’Arsénios de Lemnos publiée dans <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5486/view">50.1a</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Hunger1998"/>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Hunger1998"/>
-                          <citedRange>no 9, p. 17-18</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Hunger1998"/>, <citedRange>9, p. 17-18</citedRange></bibl>.
                   </p>
                   <p>
-                      4. Sur ce personnage voir <bibl sameAs="bib:Cheynet1990"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1990"/>
-                          <citedRange>no 97, p. 78-79 et p. 405-406</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Cheynet1997"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1997"/>
-                      </biblStruct>; <bibl sameAs="bib:Cheynet2002a"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2002a"/>
-                      </biblStruct>; <bibl sameAs="bib:Shepard1993"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Shepard1993"/>
-                      </biblStruct>; <bibl sameAs="bib:Lebeniotes2004"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Lebeniotes2004"/>
-                      </biblStruct> (nous n’avons pas eu
-                          l’occasion de consulter cet ouvrage?????????????????????????????????); voir aussi la note suivante.
+                      4. Sur ce personnage voir <bibl><ptr target="Cheynet1990"/>, <citedRange>97, p. 78-79 et p. 405-406</citedRange></bibl>; 
+                      <bibl><ptr target="Cheynet1997"/></bibl>; <bibl><ptr target="Cheynet2002a"/></bibl>; <bibl><ptr target="Shepard1993"/></bibl>; <bibl><ptr target="Lebeniotes2004"/></bibl> (nous n’avons pas pu consulter cet ouvrage); voir aussi la note suivante.<!-- verificare libro!!!!!!!!!!!!!!!!!!!!!!!!!! -->
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:Schlumberger1881"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography,xml#Schlumberger1881"/>
-                          <citedRange unit="page"> p. 296</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Schlumberger1884"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Schlumberger1884"/>
-                          <citedRange unit="page">p. 660</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Khoury"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Khoury"/>
-                          <citedRange>no. 20, p. 436-437</citedRange>
-                      </biblStruct>, qui date le sceau « vers 1070-1072 »; voir aussi un sceau de la collection Dumbarton Oaks, qui pourrait se rapporter à notre personnage :
-                      <bibl sameAs="bib:DOsealsOnline"/>avec le numéro d'inventaire<ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2197/view"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOsealsOnline"/>
-                          <citedRange unit="entry">BZS.1958.106.2197</citedRange>
-                      </biblStruct></ref>: Θεοτόκε βοήθει τῷ σῷ δούλῳ Ῥ/Μουσελήῳ
+                      5. <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page"> p. 296</citedRange></bibl>;
+                      <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="page">p. 660</citedRange></bibl>;
+                      <bibl><ptr target="Khoury"/>, <citedRange>20, p. 436-437</citedRange></bibl>, qui date le sceau « vers 1070-1072 »; voir aussi un sceau de la collection Dumbarton Oaks, qui pourrait se rapporter à notre personnage :
+                      <bibl><ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2197/view">BZS.1958.106.2197</ref></citedRange></bibl>: Θεοτόκε βοήθει τῷ σῷ δούλῳ Ῥ/Μουσελήῳ
                           προέδρῳ. Il faudrait toutefois admettre que Roussel ait délaissé la forme « Ourselè/Ourselios », attestée
                           par les sceaux qui lui appartiennent clairement, pour Rouselios, ce qui est possible mais peu convaincant.
-                          Voir la <bibl sameAs="bib: PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/"><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry">Roussel 61</citedRange>
-                          </biblStruct></ref> (avec mention du sceau
+                          Voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/">Roussel 61</ref></citedRange></bibl> (avec mention du sceau
                           Khoury).
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Attaleiates2012"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 182</citedRange>
-                      </biblStruct>.
+                      6. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 182</citedRange></bibl>.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:Schlumberger1881"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Schlumberger1881"/>
-                          <citedRange unit="page">p. 302</citedRange>
-                      </biblStruct>; voir aussi <bibl sameAs="bib:Cheynet1997"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr>
-                          <citedRange unit="page">p. 122</citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page">p. 302</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet1997"/>, <citedRange unit="page">p. 122</citedRange></bibl>.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:Attaleiates2012"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 278</citedRange>
-                      </biblStruct>.
+                      8. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 278</citedRange></bibl>.
                   </p>
                   <p>
-                      9. Voir les sources sur cet individu, sur lequel nous reviendrons plus bas, dans la <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Herve/101/"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry">Herve 101</citedRange>
-                      </biblStruct></ref>.
+                      9. Voir les sources sur cet individu, sur lequel nous reviendrons plus bas, dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Herve/101/">Herve 101</ref></citedRange></bibl>.
                   </p>
                   <p>
                       10. Ainsi lors de sa révolte, Michel VII tente-t-il d’abord de se le concilier en laissant sa femme
                       et ses enfants le rejoindre. Après la capture de Roussel, elle
                       est seule active, ce qui confirme que les enfants étaient en bas âge, de même que le
-                      terme τέκνα utilisé ailleurs pour les désigner (<bibl sameAs="bib:Attaleiates2012"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 342, 348, 350, 362</citedRange>
-                      </biblStruct>).
+                      terme τέκνα utilisé ailleurs pour les désigner (<bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 342, 348, 350, 362</citedRange></bibl>).
                   </p>
                   <p>
                       11. Dans ce cas, le choix iconographique commun avec Zacharie et non avec Roussel inciterait
                           à le rattacher au stratège de Séleucie ; peut-être était-il un neveu du grand capitaine.
                   </p>
                   <p>
-                      12. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange unit="entry">no. 2680</citedRange>
-                      </biblStruct>; voir aussi <bibl sameAs="bib:Cheynet2002b"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2002b"/>
-                          <citedRange unit="page">p. 122</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Cheynet2005"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2005"/>
-                          <citedRange unit="page">p. 55</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2997/"><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry">Isaakios 1</citedRange>
-                          </biblStruct></ref>.
+                      12. <bibl><ptr target="Zacos1"/>, <citedRange unit="entry">2680</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet2002b"/>, <citedRange unit="page">p. 122</citedRange></bibl>;
+                      <bibl><ptr target="Cheynet2005"/>, <citedRange unit="page">p. 55</citedRange></bibl>;
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2997/">Isaakios 1</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      13. <bibl sameAs="bib:GlycæAnnales1836"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#GlycæAnnales1836"/>
-                          <citedRange>p. 600, l. 7-8</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:PsellosChronographie1928"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PsellosChronographie1928"/>
-                          <citedRange unit="page">p. 84-85</citedRange>
-                      </biblStruct>.
+                      13. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange>p. 600, l. 7-8</citedRange></bibl>; <bibl><ptr target="PsellosChronographie1928"/>, <citedRange unit="page">p. 84-85</citedRange></bibl>.
                   </p>
                   <p>
-                      14. <bibl sameAs="bib:ScylitzaeSynopsis1973"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ScylitzaeSynopsis1973"/>
-                          <citedRange unit="page">p. 483</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:SkylitzèsEmpereurs2003"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SkylitzèsEmpereurs2003"/>
-                          <citedRange unit="page">p. 399</citedRange>
-                      </biblStruct>.
+                      14. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 483</citedRange></bibl>; <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 399</citedRange></bibl>.
                   </p>
                   <p>
-                      15. <bibl sameAs="bib:ZacosGenève"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosGenève"/>
-                          <citedRange>no. 113</citedRange>
-                      </biblStruct>.
+                      15. <bibl><ptr target="ZacosGenève"/>, <citedRange>113</citedRange></bibl>.
                   </p>
                   <p>
-                      16. Comme Alexis Comnène : voir les mentions réunies dans la <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/1/"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry">Alexios 1</citedRange>
-                      </biblStruct></ref>.
+                      16. Comme Alexis Comnène : voir les mentions réunies dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/1/">Alexios 1</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      17. <bibl sameAs="bib:Diehl1924"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Diehl1924"/>
-                      </biblStruct>. En 1070, Romain IV accorde ce titre à Arishgi,
+                      17. <bibl><ptr target="Diehl1924"/></bibl>. En 1070, Romain IV accorde ce titre à Arishgi,
                           beau-frère d’Alp Arslan, qui, après avoir vaincu Manuel Comnène, passa au service de l’Empire pour
-                          échapper au sultan qui se méfiait de sa popularité : <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                              <citedRange unit="page">p. 258</citedRange>
-                          </biblStruct>. Voir plus bas également le cas d’Hervé le Francopoule.
+                          échapper au sultan qui se méfiait de sa popularité : <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 258</citedRange></bibl>. Voir plus bas également le cas d’Hervé le Francopoule.
                   </p>
                   <p>
-                      18. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 341</citedRange>
-                      </biblStruct>.
+                      18. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 341</citedRange></bibl>.
                   </p>
                   <p>
-                      19. <bibl sameAs="bib:Seibt2010"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt2010"/>
-                      </biblStruct>.
+                      19. <bibl><ptr target="Seibt2010"/></bibl>.
                   </p>
                   <p>
                       20. Il vient de remplacer Robert Crispin. En 1071, il dirige des Francs mais
-                      n’est que τινος ἡγουμένου τούτων : <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 270</citedRange>
-                      </biblStruct>.
+                      n’est que τινος ἡγουμένου τούτων : <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 270</citedRange></bibl>.
                   </p>
                   <p>
                       21. En 1071 encore, soit deux ans auparavant, des chefs romains chevronnés comme Joseph
                           Tarchaneiôtès, Nicéphore Bryennios ou Nicéphore Basilakès, duc de Théodosioupolis, n’étaient
-                          que magistres (<bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                              <citedRange unit="page">p. 272, 280, 282</citedRange>
-                          </biblStruct>). Bien entendu, la crise qui porta
+                          que magistres (<bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 272, 280, 282</citedRange></bibl>). Bien entendu, la crise qui porta
                           Michel VII au pouvoir accéléra les carrières mais un chef subalterne comme Roussel n’avait certainement
                           pas la priorité.
                   </p>
                   <p>
-                      22. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 332</citedRange>
-                      </biblStruct>. On pourrait objecter que lors de sa propre révolte
+                      22. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 332</citedRange></bibl>. On pourrait objecter que lors de sa propre révolte
                           Hervé n’en mobilisa que 300, mais il ne s’agissait alors que de troupes démobilisées pour l’hiver qu’il
                           rassembla autour de lui et il n’était alors sans doute que vestarque ou vestès, puisqu’il avait réclamé de
-                          Michel VI le magistrat : <bibl sameAs="bib:ScylitzaeSynopsis1973"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#ScylitzaeSynopsis1973"/>
-                              <citedRange>p. 485, l. 53-60</citedRange>
-                          </biblStruct>.
+                          Michel VI le magistrat : <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange>p. 485, l. 53-60</citedRange></bibl>.
                   </p>
                   <p>
-                      23. Amaseia était un aplekton impérial : <bibl sameAs="bib:ODB"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ODB"/>
-                          <citedRange unit="page">p. 74, s.v. Amaseia</citedRange>
-                      </biblStruct>.
+                      23. Amaseia était un aplekton impérial : <bibl><ptr target="ODB"/>, <citedRange unit="page">p. 74, s.v. Amaseia</citedRange></bibl>.
                   </p>
                   <p>
-                      24. Voir <bibl sameAs="bib:Magdalino1997"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Magdalino1997"/>
-                      </biblStruct>, et <bibl sameAs="bib:Morrisson2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Morrisson2017"/>
-                      </biblStruct>.
+                      24. Voir <bibl><ptr target="Magdalino1997"/></bibl>, et <bibl><ptr target="Morrisson2017"/></bibl>.
                   </p>
                   <p>
-                      25. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 462</citedRange>
-                      </biblStruct>.
+                      25. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 462</citedRange></bibl>.
                   </p>
                   <p>
-                      26. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 460</citedRange>
-                      </biblStruct>.
+                      26. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460</citedRange></bibl>.
                   </p>
                   <p>
-                      27. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 460</citedRange>
-                      </biblStruct>.
+                      27. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460</citedRange></bibl>.
                   </p>
                   <p>
-                      28. <bibl sameAs="bib:Cheynet1986"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1986"/>
-                          <citedRange unit="page">p. 306</citedRange>
-                      </biblStruct>.
+                      28. <bibl><ptr target="Cheynet1986"/>, <citedRange unit="page">p. 306</citedRange></bibl>.
                   </p>
                   <p>
-                      29. <bibl sameAs="bib:ScylitzaeSynopsis1973"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ScylitzaeSynopsis1973"/>
-                          <citedRange>p. 464, l. 13-19</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:SkylitzèsEmpereurs2003"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SkylitzèsEmpereurs2003"/>
-                          <citedRange unit="page">p. 384</citedRange>
-                      </biblStruct>.
+                      29. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange>p. 464, l. 13-19</citedRange></bibl>; <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 384</citedRange></bibl>.
                   </p>
                   <p>
-                      30. <bibl sameAs="bib:Zacos1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange>no. 2680</citedRange>
-                      </biblStruct>: Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Ἰσαακίῳ μαγίστρῳ βέστῃ καὶ
+                      30. <bibl><ptr target="Zacos1"/>, <citedRange>2680</citedRange></bibl>: Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Ἰσαακίῳ μαγίστρῳ βέστῃ καὶ
                           στρατπεδάρχῃ τῆς Ἀνατολῆς τῷ Κομνηνῷ.
                   </p>
                   <p>
-                      31. <bibl sameAs="bib:BryenniosHistoire1975"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BryenniosHistoire1975"/>
-                          <citedRange unit="chapter">II.19-20, p. 183, l. 16 - p. 185, l. 1</citedRange>
-                      </biblStruct>.
+                      31. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">II.19-20, p. 183, l. 16 - p. 185, l. 1</citedRange></bibl>.
                   </p>
                   <p>
-                      32. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 456, 460</citedRange>
-                      </biblStruct>.
+                      32. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 456, 460</citedRange></bibl>.
                   </p>
                   <p>
-                      33. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 526</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Alexias2001"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Alexias2001"/>
-                          <citedRange>p. 62, l. 17</citedRange>
-                      </biblStruct>; 
-                      voir aussi <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 544</citedRange>
-                      </biblStruct>. L’auteur emploie « doux de l’Occident », un équivalent de domestique : <bibl sameAs="bib:Oikonomides1992"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Oikonomides1992"/>
-                          <citedRange unit="page">p. 142</citedRange>
-                      </biblStruct>.
+                      33. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 526</citedRange></bibl>; 
+                      <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 62, l. 17</citedRange></bibl>; 
+                      voir aussi <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 544</citedRange></bibl>. 
+                      L’auteur emploie « doux de l’Occident », un équivalent de domestique : <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 142</citedRange></bibl>.
                   </p>
                   <p>
-                      34. <bibl sameAs="bib:Alexias2001"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Alexias2001"/>
-                          <citedRange>p. 206, l. 91-92</citedRange>
-                      </biblStruct>.
+                      34. <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 206, l. 91-92</citedRange></bibl>.
                   </p>
                   <p>
-                      35. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 460, 462</citedRange>
-                      </biblStruct>.
+                      35. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460, 462</citedRange></bibl>.
                   </p>
                   <p>
-                      36. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 488</citedRange>
-                      </biblStruct>.
+                      36. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 488</citedRange></bibl>.
                   </p>
                   <p>
-                      37. <bibl sameAs="bib:Karagiorgou2008"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Karagiorgou2008"/>
-                          <citedRange unit="page">p. 119</citedRange>
-                      </biblStruct>.
+                      37. <bibl><ptr target="Karagiorgou2008"/>, <citedRange unit="page">p. 119</citedRange></bibl>.
                   </p>
                   <p>
-                      38. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 462</citedRange>
-                      </biblStruct>.
+                      38. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 462</citedRange></bibl>.
                   </p>
                   <p>
-                      39. <bibl sameAs="bib:Attaleiates2012"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Attaleiates2012"/>
-                          <citedRange unit="page">p. 494</citedRange>
-                      </biblStruct>.
+                      39. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 494</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 20, p. 715-723</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>20, p. 715-723</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

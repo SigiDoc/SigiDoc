@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Constantin Érôtikos, protospathaire</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_28</idno>
                 <idno type="SigiDocID">28</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0031</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">23</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -146,14 +148,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p xml:lang="fr"><ref target="https://www.biddr.ch/auctions/numismatiknaumann/browse?a=116&amp;c=2049&amp;l=101690">Numismatik Naumann, enchère 53, lot 958</ref>, <date when="2017-05-07">7 mai 2017</date> [1].</p>
                             <p xml:lang="en"><ref target="https://www.biddr.ch/auctions/numismatiknaumann/browse?a=116&amp;c=2049&amp;l=101690">Numismatik Naumann, auction 53, lot 958</ref>, <date when="2017-05-07">7th of May 2017</date>[1].</p>
@@ -195,7 +192,7 @@
                                         <figDesc n="r">Buste de la Théotokos
                                             Nikopoios [2] au nimbe de grènetis. La Vierge porte un maphorion décoré de losanges de
                                             perles sur les épaules et sur le front, tenant devant sa poitrine le médaillon de l’Enfant au
-                                            nimbe crucigère. De part et d’autre de l’effigie, sigle</figDesc><!-- note element not allowed here -->
+                                            nimbe crucigère. De part et d’autre de l’effigie, sigle</figDesc>
                                         <figDesc n="decoR">Cercle de grènetis très partiellement conservé</figDesc>
                                     </figure>
                                 </decoNote>
@@ -227,11 +224,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende sur 5 lignes précédée par une croisette</p>
-                                        <p xml:lang="en">Legend on 5 lines preceded by a small cross</p>
+                                        <p xml:lang="en">Legend of 5 lines preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -263,11 +260,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
@@ -306,8 +301,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Nom">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Nom">
                                   <lb n="1"/>
                                   +
                                   <persName type="unattested" ref="prosopography.xml#Ἐρωτικός_Κωνσταντῖνος">
@@ -329,13 +323,12 @@
                                           κός
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
-                  <div type="textpart" subtype="sigla" n="obv" rend="linear">
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>.ρ̣̅
                           <cb n="b"/>θυ
@@ -346,7 +339,7 @@
                           <lb n="1"/>ν
                           <lb n="2"/>Στντ͵
                           <lb n="3"/>̅Σπθ͵ο
-                          <lb n="4"/>ερ τι
+                          <lb n="4"/>ερτι
                           <lb n="5"/>οΣ
                       </ab>
                   </div>
@@ -359,10 +352,12 @@
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p>Constantine Erotikos protospatharios.</p>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. / +Κωνσταντῖνος πρωτοσπαθάριος ὁ Ἐρωτικός.</p>
+                      <p xml:lang="en">Mother of God. / Constantine Erotikos, protospatharios.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Constantin Érôtikos, protospathaire.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                               <p>Divers témoignages littéraires établissent un lien entre les Érôtikoi et les Comnènes :</p>
                               <p>Jean Skylitzès: ἤδη δὲ τῶν κατὰ θάλατταν ἐχόντων καλῶς ὁ παρακοιμώμενος τῶν κατὰ τὴν
                                   ἤπειρον ἐτίθετο ἐπιμέλειαν. καὶ δὴ Μανουὴλ πατρίκιον τὸν Ἐρωτικόν, ἐκ γένους τε ἄνδρα
@@ -438,9 +433,6 @@
                                   la révolte du stratège de Chypre ait été fatal au statut de la famille dont le sort divergea
                                   dès lors de celui de ses anciens alliés.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
                       1. Nous tenons à remercier Jean-François Vannier pour nous avoir signalé la mise en vente de ce sceau et pour nous avoir donné son avis éclairé sur la famille Érôtikos.
@@ -449,71 +441,26 @@
                       2. Le type n’est pas absolument certain mais les zones écrasées ne semblent pas pouvoir avoir comporté les bras en oraison.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:ScylitzaeSynopsis1973"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ScylitzaeSynopsis1973"/>
-                          <citedRange>p. 322, l. 98; 323, l. 1-7</citedRange>
-                      </biblStruct>: Trad.: «Une fois que sa situation fut bonne du côté de la mer, le parakoimomène [Basile] s’occupa
+                      3. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 322, l. 98; 323, l. 1-7</citedRange></bibl>: Trad.: «Une fois que sa situation fut bonne du côté de la mer, le parakoimomène [Basile] s’occupa
                           de la terre. Il envoya le patrice Manuel Érôtikos, un homme très connu pour sa naissance, sa valeur et
-                          sa bravoure, afin de garder Nicée» (contre Bardas Sklèros en 978): <bibl sameAs="bib:SkylitzèsEmpereurs2003"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#SkylitzèsEmpereurs2003"/>
-                              <citedRange unit="page">p. 270</citedRange>
-                          </biblStruct>.
+                          sa bravoure, afin de garder Nicée» (contre Bardas Sklèros en 978): <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 270</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:BryenniosHistoire1975"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BryenniosHistoire1975"/>
-                          <citedRange>I.1, p. 75, l. 1-3, 7-8</citedRange>
-                      </biblStruct>. Trad.: «Le célèbre Manuel, rejeton de la famille des Comnène, qui fut nommé plénipotentiaire pour
+                      4. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">I.1, p. 75, l. 1-3, 7-8</citedRange></bibl>. Trad.: «Le célèbre Manuel, rejeton de la famille des Comnène, qui fut nommé plénipotentiaire pour
                           conclure conventions et accords entre Basile, qui tenait le sceptre des Romains, et le fameux Bardas
-                          Sklèros […], ce Manuel donc avait deux enfants : l’aîné s’appelait Isaac et le cadet Jean»: <bibl sameAs="bib:BryenniosHistoire1975"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#BryenniosHistoire1975"/>
-                              <citedRange>I.1, p. 74</citedRange>
-                          </biblStruct>.
+                          Sklèros […], ce Manuel donc avait deux enfants : l’aîné s’appelait Isaac et le cadet Jean»: <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange>I.1, p. 74</citedRange></bibl>.
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:Alexias2001"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Alexias2001"/>
-                          <citedRange>XI.I.6, p. 324</citedRange>
-                      </biblStruct>. Trad.: «[...] le fameux Manuel, le père du précédent basileus Isaac Comnène et de son frère Jean,
+                      5. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XI.I.6, p. 324</citedRange></bibl>. Trad.: «[...] le fameux Manuel, le père du précédent basileus Isaac Comnène et de son frère Jean,
                           mon aïeul paternel, avait été promu stratège autocrator de tout l’Orient par l’empereur d’alors Basile,
-                          avec mission de mettre un terme aux hostilités avec Skléros […]»: <bibl sameAs="bib:Alexiade1937"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Alexiade1937"/>
-                              <citedRange>XI.I.6, p. 9-10</citedRange>
-                          </biblStruct>.
+                          avec mission de mettre un terme aux hostilités avec Skléros […]»: <bibl><ptr target="Alexiade1937"/>, <citedRange unit="chapter">XI.I.6, p. 9-10</citedRange></bibl>.
                   </p>
                   <p>
-                      6. Voir <bibl sameAs="bib:Settipani2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Settipani2017"/>
-                          <citedRange unit="page">p. 665-667</citedRange>
-                      </biblStruct>.
+                      6. Voir <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667</citedRange></bibl>.
                   </p>
                   <p>
-                      7. Comme déjà signalé dans <bibl sameAs="bib:Settipani2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Settipani2017"/>
-                          <citedRange unit="page">p. 665-667 et n. 39</citedRange>
-                      </biblStruct>. 
-                      Voir <bibl sameAs="bib:Koytcheva2014"/>, qui conclut<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Koytcheva2014"/>
-                          <citedRange unit="page">p. 99</citedRange>
-                      </biblStruct>: «the name of the progenitor of the Komnenian dynasty
+                      7. Comme déjà signalé dans <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667 et n. 39</citedRange></bibl>. 
+                      Voir <bibl><ptr target="Koytcheva2014"/>, <citedRange unit="page">p. 99</citedRange></bibl>, qui conclut: «the name of the progenitor of the Komnenian dynasty
                           was Manuel Komnenos, not Manuel Erotikos, and this name was preserved with dignity and handed
                           down to the future generations. These considerations do not rule out the possibility that the appellation
                           Manuel Erotikos existed, too, and that its bearer played a certain role in Byzantine history at the turn
@@ -521,51 +468,17 @@
                           their progenitors and requires deeper and more detailed research into their family roots.»
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:Cheynet2003"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2003"/>
-                          <citedRange unit="page">p. 90</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Stanković2013"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Stanković2013"/>
-                          <citedRange unit="page">p. 9-12</citedRange>
-                      </biblStruct>.
+                      8. <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90</citedRange></bibl>; 
+                      <bibl><ptr target="Stanković2013"/>, <citedRange unit="page">p. 9-12</citedRange></bibl>.
                   </p>
                   <p>
-                      9. Voir <bibl sameAs="bib:Cheynet1990"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1990"/>
-                          <citedRange unit="page">p. 218-219</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Barzós1984a"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Barzós1984a"/>
-                          <citedRange>no 2, p. 38-39</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27039">no 24885</ref></citedRange>
-                      </biblStruct>.
+                      9. Voir <bibl><ptr target="Cheynet1990"/>, <citedRange unit="page">p. 218-219</citedRange></bibl>; 
+                      <bibl><ptr target="Barzós1984a"/>, <citedRange unit="part">2, p. 38-39</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27039">24885</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      10. <bibl sameAs="bib:Schlumberger1884"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Schlumberger1884"/>
-                          <citedRange>p. 643, no 20</citedRange>
-                      </biblStruct>(sans image); 
-                      <bibl sameAs="bib:Cheynet2005"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2005"/>
-                          <citedRange>p. 54 et fig. 1</citedRange>
-                      </biblStruct>(Inv. Zacos BnF 249).
+                      10. <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="part">20, p. 643</citedRange></bibl> (sans image); 
+                      <bibl><ptr target="Cheynet2005"/>, <citedRange>p. 54 et fig. 1</citedRange></bibl> (Inv. Zacos BnF 249).
                   </p>
                   <p>
                       11. Nous nous abstiendrons de traiter ici le problème très complexe de l’identification ou de
@@ -573,350 +486,109 @@
                           Théophile. On mentionnera que l’on retrouve le nom au génitif – Ἐρωτίκου – dans la Calabre du
                           Xe siècle, cité dans un épisode de la <hi rend="italic">Vie</hi> d’Élie le Spéléote : πολλὰ δὲ παράδοξα σημεῖα πεποίηκεν ὁ κύριος
                           διὰ τούτου [lege : τοῦ or &lt;τοῦ&gt;] ἁγίου λειψάνου τοῦ ὁσίου πατρὸς ἡμῶν Ἡλίου, οὐ μὴν δέ, ἀλλὰ καὶ διὰ
-                          τῶν ἀμφίων αὐτοῦ·, ἐξ ὧν ἐκ πολλῶν ὁλίγα ὑδιωτικῶς συν{τ}άξω. Πέτρος εὐλαβέστατος καὶ περιβόητος
+                          τῶν ἀμφίων αὐτοῦ, ἐξ ὧν ἐκ πολλῶν ὁλίγα ὑδιωτικῶς συν{τ}άξω. Πέτρος εὐλαβέστατος καὶ περιβόητος
                           ἱερεὺς ὁ τῇ ἐπικλήσει Ῥοφὴς [lege : Ῥαφὴς or Ῥοῦφος ?] πίστει ἀδιστάκτῳ φερόμενος καὶ τῇ τοῦ ὁσίου
                           ἀγάπῃ ἐκ πάλαι τετρωμένος, λαβὼν τὴν βακτηρίαν αὐτοῦ, ἐν ᾗπερ ἐν ἀσθενείᾳ μικρὸν ἐπεστήρικται ὁ
                           ἅγιος, προσεκόμισεν ὡς παθῶν ἀλεξητήριον·, καὶ ταύτην ἀποπλύνας ὕδατι καθαρῷ, τὸν ὅλως παρειμένον
                           καὶ παραλελυμένον ἅπαν τὸ σῶμα Νικήταν τοῦ Ἐρωτίκου [lege : Ἐρωτικοῦ] υἱὸν ποτίσας, τὴν βακτηρίαν
-                          ἐπάνω αὐτοῦ τέθηκεν. θᾶττον οὖν ἡ ῥῶσις ἐπηκολούθησεν τῷ κάμνοντι·, καὶ ἀπήλλακται τῆς χαλεπῆς
-                          καὶ δεινῆς ἀρρωστείας ὁ ἄνθρωπος : <bibl sameAs="bib:VitaEliaeSpelaeotae"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#VitaEliaeSpelaeotae"/>
-                              <citedRange unit="chapter">§ 81, p. 881B-C</citedRange>
-                          </biblStruct>; 
+                          ἐπάνω αὐτοῦ τέθηκεν. θᾶττον οὖν ἡ ῥῶσις ἐπηκολούθησεν τῷ κάμνοντι, καὶ ἀπήλλακται τῆς χαλεπῆς
+                          καὶ δεινῆς ἀρρωστείας ὁ ἄνθρωπος : <bibl><ptr target="VitaEliaeSpelaeotae"/>, <citedRange unit="chapter">§ 81, p. 881B-C</citedRange></bibl>; 
                           les corrections indiquées entre crochets sont reprises de l’édition en ligne offerte par
-                          la <bibl sameAs="bib:DOHagio"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#DOHagio"/>
-                              <citedRange><ref target="https://www.doaks.org/research/byzantine/resources/hagiography/database/dohp.asp?cmd=SShow&amp;key=58">Elias Spelaiotes</ref></citedRange>
-                          </biblStruct>. 
-                          Voir aussi <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                              <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ23896">no. 21743</ref></citedRange>
-                          </biblStruct>, qui souligne qu’une appartenance à la famille qui nous intéresse ici est peu probable. Un document sans date mais que son éditeur tend à placer dans la seconde moitié du XIe siècle, mentionne à nouveau
+                          la <bibl><ptr target="DOHagio"/>, <citedRange><ref target="https://www.doaks.org/research/byzantine/resources/hagiography/database/texts/58.html">Elias Spelaiotes</ref></citedRange></bibl>. 
+                      Voir aussi <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ23896">21743</ref></citedRange></bibl>, 
+                      qui souligne qu’une appartenance à la famille qui nous intéresse ici est peu probable. Un document sans date mais que son éditeur tend à placer dans la seconde moitié du XIe siècle, mentionne à nouveau
                           le patronyme en Calabre : la nonne Komètô, veuve de Jean Érotikès, descendant d’Élie Érotikès, fait
                           une donation au bénéfice de la Théotokos du kastron d’Oppido : Σίγνον [χειρὸς] Κομητοῦς μοναχή,
-                          γυνὴ Ἰωάννου ἔγγων Ἠλίου τοῦ ἐπιλεγωμένου τοῦ Ἐροτίκη (<bibl sameAs="bib:Guillou1972"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Guillou1972"/>
-                              <citedRange unit="page">p. 183-184</citedRange>
-                          </biblStruct>) ; le document est mentionné par
-                          <bibl sameAs="bib:Koytcheva2014"/>, ici<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Koytcheva2014"/>
-                              <citedRange unit="page">p. 94</citedRange>
-                          </biblStruct>. On rappellera, pour bien
+                          γυνὴ Ἰωάννου ἔγγων Ἠλίου τοῦ ἐπιλεγωμένου τοῦ Ἐροτίκη (<bibl><ptr target="Guillou1972"/>, <citedRange unit="page">p. 183-184</citedRange></bibl>) ; le document est mentionné par
+                      <bibl><ptr target="Koytcheva2014"/>, <citedRange unit="page">p. 94</citedRange></bibl>. On rappellera, pour bien
                           évaluer ces témoignages, que les noms de grandes familles se diffusèrent en Italie du Sud, sans doute
                           par le biais de liens de clientèle avec de puissants personnages.
                   </p>
                   <p>
                       12. « Il dépêcha donc vers eux comme ambassadeurs le patrice Nicéphore, ayant pour nom
-                      Érôtikos […] » : <bibl sameAs="bib:LéonEmpereurs2014"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LéonEmpereurs2014"/>
-                          <citedRange>V.3, p. 116</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:LeonisHistoriae1828"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LeonisHistoriae1828"/>
-                          <citedRange >V.3, p. 79, l. 15-16</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">no. 25583</ref></citedRange>
-                      </biblStruct>.
+                      Érôtikos […] » : <bibl><ptr target="LéonEmpereurs2014"/>, <citedRange unit="chapter">V.3, p. 116</citedRange></bibl>; 
+                      <bibl><ptr target="LeonisHistoriae1828"/>, <citedRange unit="chapter">V.3, p. 79, l. 15-16</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      13. <bibl sameAs="bib:TheophanesContinuatus1838"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#TheophanesContinuatus1838"/>
-                          <citedRange>VI.14, p. 446, l. 13-14</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">no. 25583</ref></citedRange>
-                      </biblStruct>.
+                      13. <bibl><ptr target="TheophanesContinuatus1838"/>, <citedRange unit="chapter">VI.14, p. 446, l. 13-14</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      14. <ref target="http://dx.doi.org/10.12681/byzsym.663"><bibl sameAs="bib:Markopoulos1979"/></ref>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Markopoulos1979"/>
-                          <citedRange unit="page">p. 92, § 5, l. 5-6</citedRange>
-                      </biblStruct>. 
-                      À ce propos, <bibl sameAs="bib:Cheynet2003"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2003"/>
-                          <citedRange>p. 90, n. 86</citedRange>
-                      </biblStruct> écrit : « It is unlikely, though not
+                      14. <bibl><ptr target="Markopoulos1979"/>, <citedRange unit="page">p. 92, § 5, l. 5-6</citedRange></bibl>. 
+                      À ce propos, <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90, n. 86</citedRange></bibl> écrit : « It is unlikely, though not
                           impossible, that the two men, united by the relation of gambros (generally, son- or brother-in-law) had
                           the same family name. We should probably correct one of the manuscripts, perhaps that of Theophanes
-                          Continuatus. » Voir aussi <bibl sameAs="bib:Cheynet1990"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Cheynet1990"/>
-                              <citedRange unit="page">p. 218</citedRange>
-                          </biblStruct>, qui, concernant l’identification entre le
+                          Continuatus. » Voir aussi <bibl><ptr target="Cheynet1990"/>, <citedRange unit="page">p. 218</citedRange></bibl>, qui, concernant l’identification entre le
                           proche de Constantin VII et l’envoyé de Nicéphore Phocas, parle d’identité ou de simple homonymie.
-                          Cf. <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                              <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">no. 25583</ref></citedRange>
-                          </biblStruct>.
+                          Cf. <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      15. Voir <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ30309">no. 28154</ref></citedRange>
-                      </biblStruct> ; <bibl sameAs="bib:Guilland1980"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Guilland1980"/>
-                          <citedRange unit="page">p. 154</citedRange>
-                      </biblStruct>; pour les sceaux
-                      voir <bibl sameAs="bib:Zacos2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos2"/>
-                          <citedRange>nos 328 (ici le commentaire fait de Théophile le beau-fils de Nicéphore, en inversant le
-                              propos de la <hi rend="italic">Continuation de Théophane</hi>), 332, 1088</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:LaurentCorpus2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LaurentCorpus2"/>
-                          <citedRange>nos 1107-1108</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Nesbitt1998"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Nesbitt1998"/>
-                          <citedRange>no 23, p. 179-180</citedRange>
-                      </biblStruct>.
+                      15. Voir <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ30309">28154</ref></citedRange></bibl> ; 
+                      <bibl><ptr target="Guilland1980"/>, <citedRange unit="page">p. 154</citedRange></bibl>; pour les sceaux
+                      voir <bibl><ptr target="Zacos2"/>, <citedRange unit="part">328</citedRange> (ici le commentaire fait de Théophile le beau-fils de Nicéphore, en inversant le
+                          propos de la <hi rend="italic">Continuation de Théophane</hi>), <citedRange unit="part">332, 1088</citedRange></bibl>; 
+                      <bibl><ptr target="LaurentCorpus2"/>, <citedRange>1107-1108</citedRange></bibl>; <bibl><ptr target="Nesbitt1998"/>, <citedRange unit="part">23, p. 179-180</citedRange></bibl>.
                   </p>
                   <p>
-                      16. <bibl sameAs="bib:Drew-Bear1998"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Drew-Bear1998"/>
-                      </biblStruct>; <bibl sameAs="bib:BMFD"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BMFD"/>
-                          <citedRange>no 16, p. 310-312</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27786">no. 25632</ref></citedRange>
-                      </biblStruct>. Les éditeurs du <hi rend="italic">typikon</hi> établissent un lien entre ce fondateur et l’homonyme précédemment
-                      mentionné : <bibl sameAs="bib:Drew-Bear1998"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Drew-Bear1998"/>
-                          <citedRange unit="page">p. 206-207</citedRange>
-                      </biblStruct>. Or, dans ce cas la
+                      16. <bibl><ptr target="Drew-Bear1998"/></bibl>; <bibl><ptr target="BMFD"/>, <citedRange unit="part">16, p. 310-312</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27786">25632</ref></citedRange></bibl>. Les éditeurs du <hi rend="italic">typikon</hi> établissent un lien entre ce fondateur et l’homonyme précédemment
+                      mentionné : <bibl><ptr target="Drew-Bear1998"/>, <citedRange unit="page">p. 206-207</citedRange></bibl>. Or, dans ce cas la
                           datation du document devrait nécessairement être remontée de plusieurs décennies, puisque Nicéphore
                           était déjà patrice sous Constantin VII.
                   </p>
                   <p>
-                      17. <bibl sameAs="bib:Istanbul"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Istanbul"/>
-                          <citedRange>no 5.161</citedRange>
-                      </biblStruct>. Si on voulait rapprocher les deux derniers Nicéphore cités,
+                      17. <bibl><ptr target="Istanbul"/>, <citedRange unit="part">5.161</citedRange></bibl>. Si on voulait rapprocher les deux derniers Nicéphore cités,
                           on pourrait envisager que, anciennement dignitaire attaché au <hi rend="italic">épi tôn oikeiakôn</hi>, Nicéphore ait par la
                           suite accédé au groupe plus prestigieux des dignitaires du Chrysotriklinos.
                   </p>
                   <p>
-                      18. <bibl sameAs="bib:Istanbul"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Istanbul"/>
-                          <citedRange>no 2.242</citedRange>
-                      </biblStruct>.
+                      18. <bibl><ptr target="Istanbul"/>, <citedRange>2.242</citedRange></bibl>.
                   </p>
                   <p>
-                      19. <bibl sameAs="bib:SkylitzèsEmpereurs2003"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SkylitzèsEmpereurs2003"/>
-                          <citedRange unit="page">p. 356-357</citedRange>
-                      </biblStruct>; 
-                          <bibl sameAs="bib:PBW"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/102/">Theophilos 102</ref></citedRange>
-                          </biblStruct>. 
-                      Sur cette révolte voir <bibl sameAs="bib:Cheynet1990"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1990"/>
-                          <citedRange>no 59, p. 56 et p. 410</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Bourdara1981"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Bourdara1981"/>
-                          <citedRange>no 71, p. 119-120</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Georgiou2009"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Georgiou2009"/>
-                      </biblStruct>.
+                      19. <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 356-357</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/102/">Theophilos 102</ref></citedRange></bibl>. 
+                      Sur cette révolte voir <bibl><ptr target="Cheynet1990"/>, <citedRange>59, p. 56 et p. 410</citedRange></bibl>; 
+                      <bibl><ptr target="Bourdara1981"/>, <citedRange unit="part">71, p. 119-120</citedRange></bibl>;
+                      <bibl><ptr target="Georgiou2009"/></bibl>.
                   </p>
                   <p>
-                      20. <bibl sameAs="bib:Peira1856"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Peira1856"/>
-                          <citedRange>LIII.2, p. 253</citedRange>
-                      </biblStruct>; 
-                          <bibl sameAs="bib:PBW"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/12101/">Theophilos 12101</ref></citedRange>
-                          </biblStruct>. 
-                      Selon <bibl sameAs="bib:Istanbul"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Istanbul"/>
-                          <citedRange unit="page">p. 239</citedRange>
-                      </biblStruct>, ce <hi rend="italic">vestès</hi> Érôtikos serait le Manuel
+                      20. <bibl><ptr target="Peira1856"/>, <citedRange unit="chapter">LIII.2, p. 253</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/12101/">Theophilos 12101</ref></citedRange></bibl>. 
+                      Selon <bibl><ptr target="Istanbul"/>, <citedRange unit="page">p. 239</citedRange></bibl>, ce <hi rend="italic">vestès</hi> Érôtikos serait le Manuel
                           Érôtikos-Comnène partisan de Basile II lors des guerres civiles.
                   </p>
                   <p>
-                      21. <bibl sameAs="bib:Chkhaidze2015"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Chkhaidze2015"/>
-                          <citedRange unit="page">p. 63</citedRange>
-                      </biblStruct> : « In Professor Seibt’s opinion,
-                          these two lines might be read as TON ERO-TIK(ON) = Ἐρωτικῶν. » ; la photo du sceau est publiée dans
-                      <bibl sameAs="bib:Chkhaidze2013"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Chkhaidze2013"/>
-                          <citedRange>p. 40-41 et fig. 1</citedRange>
-                      </biblStruct>.
+                      21. <bibl><ptr target="Chkhaidze2015"/>, <citedRange unit="page">p. 63</citedRange></bibl> : « In Professor Seibt’s opinion,
+                      these two lines might be read as ΤΟΝ ΕΡO-ΤΙΚ(ΟΝ) = Ἐρωτικῶν. » ; la photo du sceau est publiée dans
+                      <bibl><ptr target="Chkhaidze2013"/>, <citedRange>p. 40-41 et fig. 1</citedRange></bibl>.
                   </p>
                   <p>
-                      22. <bibl sameAs="bib:Selçuk"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Selçuk"/>
-                          <citedRange unit="page">p. 332</citedRange>
-                      </biblStruct>.
+                      22. <bibl><ptr target="Selçuk"/>, <citedRange unit="page">p. 332</citedRange></bibl>.
                   </p>
                   <p>
-                      23. Réunies dans <bibl sameAs="bib:Karagiorgou2009"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Karagiorgou2009"/>
-                          <citedRange unit="page">p. 28-29</citedRange>
-                      </biblStruct> (où la date indiquée pour ces sceaux est 1080-1120). La datation au troisième quart du
-                      XIe siècle est donnée par <bibl sameAs="bib:Wassiliou-Seibt2011"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Wassiliou-Seibt2011"/>
-                          <citedRange unit="part">no 796</citedRange>
-                      </biblStruct>. Éditions dans : <bibl sameAs="bib:DOseals2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals2"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4920/view">no 8.18</ref></citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">no 84</citedRange>
-                      </biblStruct>;
-                      <bibl sameAs="bib:Corinth12"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Corinth12"/>
-                          <citedRange>no 2810, p. 327</citedRange>
-                      </biblStruct>.
+                      23. Réunies dans <bibl><ptr target="Karagiorgou2009"/>, <citedRange unit="page">p. 28-29</citedRange></bibl> (où la date indiquée pour ces sceaux est 1080-1120). La datation au troisième quart du
+                      XIe siècle est donnée par <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">796</citedRange></bibl>. 
+                      Éditions dans : <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4920/view">8.18</ref></citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">84</citedRange></bibl>;
+                      <bibl><ptr target="Corinth12"/>, <citedRange>2810, p. 327</citedRange></bibl>.
                   </p>
                   <p>
-                      24. <bibl sameAs="bib:Selçuk"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Selçuk"/>
-                          <citedRange unit="page">no 22, p. 331-332</citedRange>
-                      </biblStruct>, qui préfère
-                      néanmoins l’ordre inverse pour ces postes ; <bibl sameAs="bib:Münz"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Münz"/>
-                          <citedRange>enchère no 81, lot 1517</citedRange>
-                      </biblStruct> : voir <bibl sameAs="bib:SBSauctions"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SBSauctions"/>
-                          <citedRange>6, 1999, p. 154</citedRange>
-                      </biblStruct>; voir aussi <bibl sameAs="bib:Wassiliou-Seibt2011"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Wassiliou-Seibt2011"/>
-                          <citedRange unit="part">no 192</citedRange>
-                      </biblStruct>. Les bulles sont datées des années 1050-1080, mais le patriciat incite
+                      24. <bibl><ptr target="Selçuk"/>, <citedRange unit="part">22, p. 331-332</citedRange></bibl>, qui préfère
+                      néanmoins l’ordre inverse pour ces postes ; <bibl><ptr target="Münz"/>, <citedRange>enchère 81, lot 1517</citedRange></bibl> : 
+                      voir <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 154</citedRange></bibl>; voir aussi <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">192</citedRange></bibl>. 
+                      Les bulles sont datées des années 1050-1080, mais le patriciat incite
                           à ne pas trop descendre étant donné l’importance du poste. Pour la même raison, si l’on retenait la
                           datation proposée par Olga Karagiorgou pour la bulle de juge de l’Hellade et du Péloponnèse, il faudrait
                           sans doute distinguer les deux personnages.
                   </p>
                   <p>
-                      25. <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">no 83</citedRange>
-                      </biblStruct>; 
-                          <bibl sameAs="bib:PBW"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Bardas/20112/">Bardas 20112</ref></citedRange>
-                          </biblStruct>.
+                      25. <bibl><ptr target="Athens2000"/>, <citedRange unit="part">83</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Bardas/20112/">Bardas 20112</ref></citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 28, p. 739-744</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>28, p. 739-744</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

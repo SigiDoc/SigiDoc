@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau du kathègètès du monastère de <hi rend="italic">ta Pikridiou</hi></seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_37</idno>
                 <idno type="SigiDocID">37</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0040</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -61,7 +63,6 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="monastic">
-                                    <seg xml:lang="grc"></seg><!-- anonymous in Greek????? -->
                                     <seg xml:lang="en">Anonymous</seg>
                                     <seg xml:lang="fr">Anonyme</seg>
                                     <interp type="milieu" xml:lang="en">monastic</interp>
@@ -89,7 +90,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">18</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -135,7 +136,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="lettering" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="lettering" cert="high">
                                 <seg xml:lang="en">XIth C., second half</seg>
                                 <seg xml:lang="fr">XIe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
@@ -143,16 +144,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Agora coins (Ireland)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Agora coins (Irlande)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -220,10 +217,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -254,11 +251,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
@@ -300,8 +295,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Gen">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Gen">
                                   <lb n="1"/>
                                   <w lemma="σφραγίς" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=sfragis&amp;la=greek">
                                       <expan><abbr>Σφρὰγι</abbr><ex>ς</ex></expan>
@@ -322,8 +316,7 @@
                                   <lb n="5" break="no"/>
                                           δίο<supplied reason="lost">υ</supplied>
                                   </placeName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -336,13 +329,14 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>  
                           <lb n="1"/>σργι
                           <lb n="2"/>τ.θηγη̣
                           <lb n="3"/>του̣ṃονησ
                           <lb n="4"/>τνπι̣ρι
                           <lb n="5"/>διο.
                       </ab>
-                  </div><!-- first line with cross not included -->
+                  </div>
               </div>
               <div type="apparatus">
                   <listApp>
@@ -352,10 +346,12 @@
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. / Σφρὰγις τοῦ καθηγητοῦ μονὴς τῶν Πικριδίου.</p>
+                  <p xml:lang="en">Mother of God. / Seal of the kathegetes of the monastery of <hi rend="italic">ta Pikridiou</hi>.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Sceau du <hi rend="italic">kathègètès</hi> du monastère de <hi rend="italic">ta Pikridiou</hi>.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                                   <p>Identifié avec Hasköy, le quartier de τὰ Πικριδίου était situé dans les environs
                                       immédiats de Constantinople, par-delà la Corne d’Or [1]. Selon Janin, qui suit ici le
                                       pseudo-Codinus, le monastère τῶν Πικριδίου avait été fondé sous l’impératrice Irène
@@ -375,115 +371,40 @@
                                   des vacances entre l’élection de deux supérieurs [5]. Ce type de sceau est également attesté
                                   pour le supérieur du monastère de Képhalobounion [6] et du mont Latros [7].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Janin1950"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Janin1950"/>
-                          <citedRange unit="page">p. 465-466</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Janin1953"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Janin1953"/>
-                          <citedRange unit="page">p. 417</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Janin1950"/>, <citedRange unit="page">p. 465-466</citedRange></bibl>; 
+                      <bibl><ptr target="Janin1953"/>, <citedRange unit="page">p. 417</citedRange></bibl>.
                   </p>
                   <p>
-                      2. Voir aussi <ref target="https://doi.org/10.3406/rebyz.2000.1991"><bibl sameAs="bib:Failler2000"/></ref>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Failler2000"/>
-                          <citedRange unit="page">p. 186-190</citedRange>
-                      </biblStruct>. Sur Jean Pikridios, voir les notices de la <bibl sameAs="bib:PBE1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBE1"/>
-                          <citedRange unit="entry">http://www.pbe.kcl.ac.uk/person/p3468???????????????????????????????</citedRange>
-                      </biblStruct> et de
-                      <bibl sameAs="bib:PmbZOnline"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ14247">no 3110</ref></citedRange>
-                      </biblStruct>.
+                      2. Voir aussi <bibl><ptr target="Failler2000"/>, <citedRange unit="page">p. 186-190</citedRange></bibl>. 
+                      Sur Jean Pikridios, voir les notices de la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/person/p3468">Ioannes 16</ref></citedRange></bibl> (lien actuellement inactif: 2021-03-19) et de
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://www.degruyter.com/document/database/PMBZ/entry/PMBZ14247/html">3110</ref></citedRange></bibl>.
                   </p>
                   <p>
                       3. Pour le lien entre toponymie urbaine et designation des monastères, citons, par exemple, le
                           cas clair du monastère <hi rend="italic">ta Stoudiou</hi>. La reprise urbaine sous le grand empereur isaurien est symbolisée
-                      par la restauration de l’aqueduc de Valens : <bibl sameAs="bib:Theophanes"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Theophanes"/>
-                          <citedRange unit="page">p. 440</citedRange>
-                      </biblStruct>, datée de 765-766.
+                      par la restauration de l’aqueduc de Valens : <bibl><ptr target="Theophanes"/>, <citedRange unit="page">p. 440</citedRange></bibl>, datée de 765-766.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:VieSyméonJeune1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#VieSyméonJeune1"/>
-                          <citedRange>chap. 232, l. 4-5, p. 208-209</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:VieSyméonJeune2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#VieSyméonJeune2"/>
-                          <citedRange unit="chapter">chap. 232, p. 233</citedRange>
-                      </biblStruct>. Dans son introduction (p. 162 n. 8) et en note à sa traduction (p. 233 n. 2), Van den Ven
+                      4. <bibl><ptr target="VieSyméonJeune1"/>, <citedRange unit="chapter">chap. 232, l. 4-5, p. 208-209</citedRange></bibl>; 
+                      <bibl><ptr target="VieSyméonJeune2"/>, <citedRange unit="chapter">chap. 232, p. 233</citedRange></bibl>. 
+                      Dans son introduction (<bibl><ptr target="VieSyméonJeune1"/>, <citedRange unit="page">p. 162, n. 8</citedRange></bibl>) et en note à sa traduction (<bibl><ptr target="VieSyméonJeune2"/>, <citedRange unit="page">p. 233, n. 2</citedRange></bibl>), Van den Ven
                           propose une identification avec un préfet d’Afrique Théodore, mais le prénom est trop fréquent pour
-                          qu’on le suive dans cette voie. Voir également <bibl sameAs="bib:PLRE3"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PLRE3"/>
-                              <citedRange unit="entry">Theodorus <hi rend="italic">qui et</hi> Picridius 61, p. 1263</citedRange>
-                          </biblStruct>.
+                          qu’on le suive dans cette voie. Voir également <bibl><ptr target="PLRE3"/>, <citedRange unit="entry">Theodorus <hi rend="italic">qui et</hi> Picridius 61, p. 1263</citedRange></bibl>.
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:Oikonomides1995"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Oikonomides1995"/>
-                      </biblStruct>.
+                      5. <bibl><ptr target="Oikonomides1995"/></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:DOseals5"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals5"/>
-                          <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4789/view">no 83.1</ref></citedRange>
-                      </biblStruct>.
+                      6. <bibl><ptr target="DOseals5"/>, <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4789/view">83.1</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:DOseals3"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.404/view">no 22.1</ref></citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="DOseals3"/>, <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.404/view">22.1</ref></citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 37, p. 752-753</citedRange>
-                      </biblStruct> 
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>37, p. 752-753</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

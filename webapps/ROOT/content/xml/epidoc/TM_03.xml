@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Georges, patrice, juge du Velum et grand économe des fondations pieuses</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_03</idno>
                 <idno type="SigiDocID">3</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0003</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>55</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">23</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -115,8 +117,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1228/">
-                                        <idno type="PBW">1228</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">34</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1228/">1228</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -148,8 +151,7 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -220,10 +222,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 7 lines</seg>
+                                            <seg xml:lang="en">Legend of 7 lines</seg>
                                             <seg xml:lang="fr">Légende sur 7 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 7 lines</p>
+                                        <p xml:lang="en">Legend of 7 lines</p>
                                         <p xml:lang="fr">Légende sur 7 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -256,11 +258,10 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-25" who="AS">Specific mark-up for diplomatic edition added</change>
+            <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2020-06-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -286,7 +287,7 @@
       <text>
           <body>
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
-                  <div type="textpart" subtype="label" n="obv" rend="columns"><!-- problem after transformation -->
+                  <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἅγιος_Γεώργιος">
@@ -299,14 +300,13 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
-                                          <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-                                      </w> 
+                                  <rs type="invocation" ref="invocation.xml#Κύριε1">
+                                          <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
+                                              <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
+                                          </rs>
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqew&amp;la=greek">
                                           <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                                       </w>
@@ -341,28 +341,26 @@
                                               γῶ<supplied reason="lost">ν</supplied>
                                           </placeName>
                                   </rs>
-                              </l>
-                          </lg>
-                          <!-- should we replace @ref and @nymRef values with numbers????????????????????????? -->
+                          </rs>
                       </ab>
                   </div>
               </div>
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
-                          <cb n="a"/>ΓΕΡ
-                          <cb n="b"/>ΓΙΟ ̣Σ
+                          <cb n="a"/><c type="glyph" ref="glyphs.xml#Omicron_Alpha.4"></c><c type="glyph" ref="glyphs.xml#Gamma" subtype="Γ">Γ</c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Omega.1" subtype="Ω"></c><c type="glyph" ref="glyphs.xml#Rho" subtype="P">Ρ</c>
+                          <cb n="b"/><c type="glyph" ref="glyphs.xml#Gamma" subtype="Γ">Γ</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c>̣<c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n="1"/>er,̅ θ,
-                          <lb n="2"/>γε ρ̣γι
-                          <lb n="3"/>π̅ρ̅ι̅ριτη
-                          <lb n="4"/>τουrηλ
-                          <lb n="5"/>οικονομ,
-                          <lb n="6"/>τν...
-                          <lb n="7"/>γ̣..
+                          <lb n="1"/><c type="glyph" ref="glyphs.xml#uniE805"></c><c type="glyph" ref="glyphs.xml#Kappa.1" subtype="K"></c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ref="glyphs.xml#uni0305">̅</c><c type="glyph" ref="glyphs.xml#uni0375">͵</c><c type="glyph" ref="glyphs.xml#Theta" subtype="Θ">Θ</c><c type="glyph" ref="glyphs.xml#uni0375">͵</c>
+                          <lb n="2"/><c type="glyph" ref="glyphs.xml#Gamma" subtype="Γ">Γ</c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Omega.1" subtype="Ω"></c><c type="glyph" ref="glyphs.xml#Rho" subtype="P">Ρ</c>̣<c type="glyph" ref="glyphs.xml#Gamma" subtype="Γ">Γ</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Omega.1" subtype="Ω"></c>
+                          <lb n="3"/><c type="glyph" ref="glyphs.xml#Pi" subtype="Π">Π</c><c type="glyph" ref="glyphs.xml#uni0305">̅</c><c type="glyph" ref="glyphs.xml#Rho" subtype="P">Ρ</c><c type="glyph" ref="glyphs.xml#uni0305">̅</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#uni0305">̅</c><c type="glyph" ref="glyphs.xml#Kappa.1" subtype="K"></c><c type="glyph" ref="glyphs.xml#Rho" subtype="P">Ρ</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Eta" subtype="H">Η</c>
+                          <lb n="4"/><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Upsilon" subtype="Y">Υ</c><c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ref="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ref="glyphs.xml#Lambda" subtype="Λ">Λ</c><c type="glyph" ref="glyphs.xml#Omicron_Upsilon.1"></c><c type="glyph" ref="glyphs.xml#Kappa_Alpha_Iota"></c>
+                          <lb n="5"/><c type="glyph" ref="glyphs.xml#Mu_Gamma"></c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Kappa.1"></c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Mu">Μ</c><c type="glyph" ref="glyphs.xml#uni0375">͵</c>
+                          <lb n="6"/><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Omega.1" subtype="Ω"></c><c type="glyph" ref="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#period">.</c>
+                          <lb n="7"/><c type="glyph" ref="glyphs.xml#uniE700"></c><c type="glyph" ref="glyphs.xml#Gamma" subtype="Γ">Γ</c><c type="glyph" ref="glyphs.xml#Omega.1" subtype="Ω"></c>̣<c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#period">.</c>
                       </ab>
                   </div>
               </div>
@@ -375,11 +373,11 @@
                       </listApp>
               </div>
               <div type="translation">
-                  <p>῾Ο ἅγιος Γεώργιος. / +Κύριε βοήθει Γεωργίῳ, πατρικίῳ, κριτῇ τοῦ βήλου καὶ μεγάλῳ οἰκονόμῳ τῶν εὐαγῶν.</p>
+                  <p>῾Ο ἅγιος Γεώργιος. / + Κύριε βοήθει Γεωργίῳ, πατρικίῳ, κριτῇ τοῦ βήλου καὶ μεγάλῳ οἰκονόμῳ τῶν εὐαγῶν.</p>
                   <p xml:lang="en">St George. / Lord aid George, patrikios, judge of the Velon and megas oikonomos of the charitable foundations.</p>
                   <p xml:lang="fr">Saint Georges. / Seigneur aide Georges, patrice, juge du Velum et grand économe des fondations pieuses.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p>Les grandes fondations impériales prennent de l’importance comme
                               organismes de gestion dans le courant du Xe siècle et au XIe siècle [3]. Cette évolution est
                               sans doute à mettre en relation avec le tournant pris à l’époque dans la gestion des terres
@@ -391,142 +389,58 @@
                               propres [11]. Dans les années 1070, le service se scinde en maisons pieuses d’Orient et
                               d’Occident, ce qui fournit a priori le terminus ante quem pour notre bulle [12].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Seibt1997"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1997"/>
-                          <citedRange unit="part">no 2.1.7</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.1.7</citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:DOseals4"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5046/view">no 11.2</ref></citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5046/view">11.2</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Oikonomides1992"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Oikonomides1992"/>
-                          <citedRange unit="page">p. 138-140</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 138-140</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Howard-Johnston1995"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Howard-Johnston1995"/>
-                      </biblStruct>; <bibl sameAs="bib:Prigent2014"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2014"/>
-                          <citedRange unit="page">p. 225</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="Howard-Johnston1995"/></bibl>; <bibl><ptr target="Prigent2014"/>, <citedRange unit="page">p. 225</citedRange></bibl>.
                   </p>
                   <p>
-                      5. Entre 1001 et 1019 : <bibl sameAs="bib:Oikonomides1992"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Oikonomides1992"/>
-                          <citedRange unit="page">p.  140</citedRange>
-                      </biblStruct>.
+                      5. Entre 1001 et 1019 : <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p.  140</citedRange></bibl>.
                   </p>
                   <p>
-                      6. Voir <bibl sameAs="bib:Stepanova2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Stepanova2017"/>
-                          <citedRange unit="page">p. 786-787</citedRange>
-                      </biblStruct> et aussi <bibl sameAs="bib:Sopracasa2017"/>, ici<ref target="TM_05.html"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange unit="part">no 5</citedRange>
-                      </biblStruct></ref>.
+                      6. Voir <bibl><ptr target="Stepanova2017"/>, <citedRange unit="page">p. 786-787</citedRange></bibl> et aussi <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part"><ref target="TM_05.html">5</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      7. Citons Basile, préposite <hi rend="italic">épi tou koitônos</hi> et <hi rend="italic">chartophylax</hi> du <hi rend="italic">sékréton</hi> du Myrelaion : <bibl sameAs="bib:PBW"/> <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                      </biblStruct><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/204/">Basileios 204</ref>.
+                      7. Citons Basile, préposite <hi rend="italic">épi tou koitônos</hi> et <hi rend="italic">chartophylax</hi> du <hi rend="italic">sékréton</hi> du Myrelaion : <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/204/">Basileios 204</ref></citedRange></bibl>.
                   </p>
                   <p>
                       8. Par exemple, le protospathaire et juge de l’hippodrome Jean, qui exerçait les fonctions de
-                      curateur des Manganes : voir <bibl sameAs="bib:DOseals5"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals5"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.1019/view">no 25.4</ref></citedRange>
-                      </biblStruct>.
+                      curateur des Manganes : voir <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.1019/view">25.4</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      9. Philètos, protospathaire impérial <hi rend="italic">épi tou Chrysotriklinou</hi> et curateur <hi rend="italic">tôn Éleuthériou</hi> : <bibl sameAs="bib:DOseals5"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals5"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1618/view">no 24.1</ref></citedRange>
-                      </biblStruct>. Associé ensuite aux Manganes.
+                      9. Philètos, protospathaire impérial <hi rend="italic">épi tou Chrysotriklinou</hi> et curateur <hi rend="italic">tôn Éleuthériou</hi> : <bibl><ptr target="DOseals5"/>, 
+                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1618/view">24.1</ref></citedRange></bibl>. Associé ensuite aux Manganes.
                   </p>
                   <p>
-                      10. <bibl sameAs="bib:Janin1953"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Janin1953"/>
-                          <citedRange unit="page">p. 506-507</citedRange>
-                      </biblStruct>.
+                      10. <bibl><ptr target="Janin1953"/>, <citedRange unit="page">p. 506-507</citedRange></bibl>.
                   </p>
                   <p>
                       11. Que les grandes fondations soient techniquement considérées comme des services administratifs
                           transparaît également de leur désignation comme <hi rend="italic">sékréta</hi> ; l’évolution dans la dénomination est déjà
                           entérinée dans le dernier tiers du XIe siècle : voir par exemple le sceau de Constantin, vestarque, juge
-                          du Velum et grand curateur du <hi rend="italic">sékréton</hi> des Manganes (<bibl sameAs="bib:DOseals5"/>, <biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#DOseals5"/>
-                              <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5709/view">no 25.2</ref></citedRange>
-                          </biblStruct>).
+                          du Velum et grand curateur du <hi rend="italic">sékréton</hi> des Manganes (<bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5709/view">25.2</ref></citedRange></bibl>).
                   </p>
                   <p>
-                      12. <bibl sameAs="bib:Oikonomides1992"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Oikonomides1992"/>
-                          <citedRange unit="page">p. 140</citedRange>
-                      </biblStruct>.
+                      12. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 140</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 3, p. 696-697</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Zacos2"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos2"/>
-                          <citedRange unit="part">, no 469</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl><ptr target="Sopracasa2017"/>, <citedRange>3, p. 696-697</citedRange></bibl>.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p>
+                      <bibl><ptr target="Zacos2"/>, <citedRange unit="part">469</citedRange></bibl>.
+                  </p>
               </div>
           </body>
       </text>

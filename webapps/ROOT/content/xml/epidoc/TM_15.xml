@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Léon, protospathaire impérial et stratège de Dyrrachion (?)</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_15</idno>
                 <idno type="SigiDocID">15</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0015</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>30</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">23</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -130,8 +132,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" xml:lang="en">Cruciform invocative monogram</figDesc><!-- ICONOGRAPHY???????????????????????????????? -->
-                                    <figDesc n="whole" xml:lang="fr">Monogramme invocatif cruciforme</figDesc>
+                                    <figDesc n="whole"/>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -141,7 +142,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0701" notAfter="0800" evidence="lettering titulature" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="0701" notAfter="0800" evidence="lettering titulature" cert="high">
                                 <seg xml:lang="en">VIIIth C.</seg>
                                 <seg xml:lang="fr">VIIIe s.</seg>
                                 <interp type="datingCriteria" xml:lang="en">titulature, lettering</interp>
@@ -149,14 +150,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -225,10 +221,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -260,11 +256,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
             <change when="2020-06-17" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -293,11 +287,14 @@
                   <div type="textpart" subtype="face" n="obv" rend="monogram">
                       <ab>
                           <lb n="1"/>
-                          <lg type="legendsCases" ref="legendsCases.xml#DatGen">
-                              <l>
-                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε" rend="monogram">
+                          <rs type="legendsCases" ref="legendsCases.xml#DatGen">
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε2" rend="monogram">
                                       <rs type="monogram" ref="monogram.xml#mg2">
-                                          <expan><ex>Θεοτόκε βοήθει</ex></expan> <!-- how to tag words inside <ex> separately???????????????? -->
+                                          <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
+                                              <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
+                                                  <expan><ex>Θεοτόκε βοήθει</ex></expan>
+                                              </w>
+                                          </rs>
                                       <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
                                           τῷ
                                       </w> 
@@ -309,13 +306,12 @@
                                       </rs>
                                       </rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg><l><lb n="2"/>
+                          <rs type="legendsCases"><lb n="2"/>
                           +
                                   <persName type="unattested" ref="prosopography.xml#Λέων_2">
                                       <name type="forename">
@@ -340,7 +336,7 @@
                                               <expan cert="low"><abbr><supplied reason="lost">Δ
                           <lb n="6" break="no"/>υ</supplied></abbr><ex>ρ</ex><abbr>ρα<supplied reason="lost">χίου</supplied></abbr></expan>
                                       </placeName>
-                                  </rs></l></lg>
+                                  </rs></rs>
                       </ab>
                   </div>
               </div>
@@ -376,7 +372,7 @@
                   <p xml:lang="en">Mother of God aid your servant / Leon, imperial protospatharios and strategos of Dyrrachion (?).</p>
                   <p xml:lang="fr">Mère de Dieu aide ton serviteur / Léon, protospathaire impérial et stratège de Dyrrachion (?).</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>La reconstruction du commandement repose sur le fait qu’il n’existe à l’époque que
                           trois commandements exigeant un article masculin/neutre : l’Opsikion, le Péloponnèse et
                           Dyrrachion. Or, seule la dernière solution s’accorde avec les traces de lettres observables
@@ -384,41 +380,13 @@
                           elle s’avérait juste Léon serait très probablement l’un des tout premiers titulaires de ce
                           commandement adriatique [1].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Prigent2008"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2008"/>
-                          <citedRange unit="page">p. 408</citedRange>
-                      </biblStruct>. Plus généralement, <bibl sameAs="bib:Kislinger2011"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Kislinger2011"/>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Prigent2008"/>, <citedRange unit="page">p. 408</citedRange></bibl>. Plus généralement, <bibl><ptr target="Kislinger2011"/></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 15, p. 709-710</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>15, p. 709-710</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

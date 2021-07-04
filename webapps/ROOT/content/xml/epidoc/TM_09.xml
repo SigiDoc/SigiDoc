@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de David Tzipourélès, protospathaire et stratège</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
-                <authority/><!-- to be added -->
+                <authority/>
+                <idno type="filename">TM_09</idno>
                 <idno type="SigiDocID">9</idno>
-                <date when="2016-02-24"/><!-- to be changed -->
+                <idno type="sequence">0009</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>19</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">22</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -149,11 +151,10 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p xml:lang="en">Ebay auction</p>
-                            <p xml:lang="fr">Enchère Ebay</p>
+                            <p xml:lang="en">Ebay auction; seller: Agora coins (Ireland)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Agora coins (Irlande)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -193,7 +194,7 @@
                                             imberbe, de face, aux cheveux bouclés et au nimbe de grènetis ; il porte une tenue
                                             militaire et tient de la main gauche un bouclier décoré (le bras droit n’est plus visible). De l’inscription accompagnant l’effigie survit, dans le champ droit, γ|̣ ιο|σ, pour [(Ὁ ἅγιος)
                                             Γεώρ]γιος. Les traces visibles et l’iconographie ne permettent pas d’écarter totalement
-                                            saint Dèmètrios, mais l’autre sceau connu du personnage confirme le choix effectué ici.</figDesc><!-- all that together??????????? label/sigla should go under iconography, not legend??????? -->
+                                            saint Dèmètrios, mais l’autre sceau connu du personnage confirme le choix effectué ici.</figDesc>
                                         <figDesc n="decoR">Cercle de grènetis partiellement conservé</figDesc>
                                     </figure>
                                 </decoNote>
@@ -225,10 +226,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -261,11 +262,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-03" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-09" who="AS">First version of the record</change>
@@ -292,7 +291,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
-                          <cb n="a"/><!-- break's position??????????????????????????????????????????????????? -->
+                          <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἅγιος_Γεώργιος">
                               <expan>
                                   <supplied reason="lost"><abbr><am><g type="hoHagios" cert="high"/></am></abbr><ex>Ὁ ἅγιος</ex></supplied>
@@ -304,15 +303,14 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Κύριε" rend="linear">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε1" rend="linear">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><supplied reason="lost"><ex>ύρι</ex><abbr>ε</abbr></supplied>
                                           </expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           <supplied reason="lost"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied>
                                       </w>
@@ -323,7 +321,7 @@
                                           <expan><abbr>Δα</abbr><ex>υὶ</ex><abbr>δ</abbr></expan>
                                       </name> 
                                       <rs type="dignity" ref="dignities.xml#πρωτοσπαθάριος">
-                                          <expan><abbr><am><g type="protos1"/></am></abbr><ex>πρωτο</ex><abbr><supplied reason="lost">σπα</supplied><!-- the line breaks are visualised in diplomatic too!!!! -->
+                                          <expan><abbr><am><g type="protos1"/></am></abbr><ex>πρωτο</ex><abbr><supplied reason="lost">σπα</supplied>
                                   <lb n="3" break="no"/>θαρ</abbr><ex>ίῳ</ex></expan>
                                       </rs> 
                                       <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
@@ -341,8 +339,7 @@
                                   <lb n="5" break="no"/>πουρέλ</abbr><ex>ῃ</ex></expan>
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -367,108 +364,46 @@
                       <p></p>
               </div>
               <div type="translation">
-                  <p>῾Ο ἅγιος Γεώργιος. / +Κύριε βοήθει Δαυὶδ πρωτοσπαθαρίῳ καὶ στρατιγῷ τῷ Τζιπουρέλῃ.</p>
-                      <p xml:lang="en">St George. / Lord aid David Tzipoureles protospatharios and strategos.</p>
+                  <p>῾Ο ἅγιος Γεώργιος. / + Κύριε βοήθει Δαυὶδ πρωτοσπαθαρίῳ καὶ στρατιγῷ τῷ Τζιπουρέλῃ.</p>
+                      <p xml:lang="en">St George. / Lord aid David Tzipoureles, protospatharios and strategos.</p>
                   <p xml:lang="fr">Saint Georges. / Seigneur aide David Tzipourélès, protospathaire et stratège.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Ce même personnage nous a laissé un autre sceau, daté par ses éditeurs du troisième
                               quart du XIe siècle. Cette pièce reprend saint Georges, représenté en pied, et indique que
                               David Tzipourélès obtint une promotion, accédant au patriciat tout en continuant à
-                              exercer des fonctions de stratège [1]. Un autre membre de la famille est connu par un sceau
+                              exercer des fonctions de stratège [1]. Plus récemment, un sceau de David Tzipourélès protospathaire, <hi rend="italic">épi tou Chrysotriklinou</hi>
+                      et topotérète de Ἐδεσοῦ, du milieu du XIe siècle et portant toujours l'effigie de saint Georges, a été publié [2]. Un autre membre de la famille est connu par un sceau
                               daté entre 1040 et 1070 : Georges, protospathaire, <hi rend="italic">épi tou Chrysotriklinou</hi> et taxiarque, lui
-                              aussi fidèle à son saint homonyme [2]. Peu après, un Jean Tzipourélès, simple particulier,
-                              adopta deux bulles, dont une métrique, à l’effigie de la Blachernitissa [3]. En 1113, un
-                              général expérimenté nommé Tzipourélès perdit la vie face aux Turcs à Akrokos [4]. Nous
+                              aussi fidèle à son saint homonyme [3]. Peu après, un Jean Tzipourélès, simple particulier,
+                              adopta deux bulles, dont une métrique, à l’effigie de la Blachernitissa [4]. En 1113, un
+                              général expérimenté nommé Tzipourélès perdit la vie face aux Turcs à Akrokos [5]. Nous
                               avons là manifestement une famille intégrée par le métier des armes aux échelons inférieurs
                               de l’aristocratie impériale vers le milieu du XIe siècle.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Seibt1997"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1997"/>
-                          <citedRange unit="part">no 2.3.11</citedRange>
-                      </biblStruct>; l’exemplaire
-                          appartient à une collection privée et peut être identifié avec celui qui avait été mis en vente comme
-                          lot no 2560 par le Classical Numismatic Group (<ref target="http://issuu.com/cngcoins/docs/cng_39">enchère 39, de 1996</ref>), comme la comparaison avec la
-                      photo du catalogue (p. 236) semble montrer (enchère signalée dans <bibl sameAs="bib:SBSauctions"/> <biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#SBSauctions"/>
-                              <citedRange>6, 1999, p. 118</citedRange>
-                          </biblStruct>). Voir aussi la <bibl sameAs="bib:PBW"/> <biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                          </biblStruct><ref target="http://pbw2016.kdl.kcl.ac.uk/person/David/20104/">David 20104</ref>.
+                      1. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.11</citedRange></bibl> ; l’exemplaire
+                      appartient à une collection privée et peut être identifié avec celui qui avait été mis en vente par le 
+                      <bibl><ptr target="CNG"/>, <citedRange><ref target="http://issuu.com/cngcoins/docs/cng_39">enchère 39, lot 2560</ref></citedRange></bibl> de 1996, comme la comparaison avec la
+                      photo du catalogue (p. 236) semble montrer (enchère signalée dans <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 118</citedRange></bibl>). Voir aussi la <bibl><ptr target="PBW"/></bibl>, <ref target="http://pbw2016.kdl.kcl.ac.uk/person/David/20104/">David 20104</ref>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Seibt1997"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1997"/>
-                          <citedRange unit="part">no 2.3.10</citedRange>
-                      </biblStruct>. Voir aussi <bibl sameAs="bib:SBSauctions"/> <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SBSauctions"/>
-                          <citedRange>6, 1999, p. 138</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:PBW"/> <biblStruct>
-                          <monogr><ptr target="bibliography.xml#PBW"/>
-                              <imprint><biblScope/></imprint>
-                          </monogr>
-                      </biblStruct><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Georgios/20115/">Georgios 20115</ref>. Pour quelques informations sur la famille, voir <bibl sameAs="bib:Seibt1997"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1997"/>
-                          <citedRange unit="page">p. 100</citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="Wassiliou-Seibt2020"/>, <citedRange unit="page">pp. 12-13</citedRange></bibl>; <bibl><ptr target="NBS"/>, <citedRange unit="entry">Web Auction 1, du 10.10.2020, <ref target="https://www.biddr.com/auctions/nbsauctions/browse?a=1305&amp;l=1384127">lot 676</ref></citedRange></bibl>: le sceau a d'abord été mis aux enchères et ensuite retiré.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:ZacosGenève"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosGenève"/>
-                          <citedRange unit="part"> no 379</citedRange>
-                      </biblStruct>, et <bibl sameAs="bib:CheynetTheodoridis"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#CheynetTheodoridis"/>
-                          <citedRange unit="part">no 210</citedRange>
-                      </biblStruct> .
+                      3. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.10</citedRange></bibl>. Voir aussi <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 138</citedRange></bibl> ; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Georgios/20115/">Georgios 20115</ref></citedRange></bibl>. Pour quelques informations sur la famille, voir <bibl><ptr target="Seibt1997"/>, <citedRange unit="page">p. 100</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Skoulatos1980"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Skoulatos1980"/>
-                          <citedRange>no 203, p. 299</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">379</citedRange></bibl>, et <bibl><ptr target="CheynetTheodoridis"/>, <citedRange unit="part">210</citedRange></bibl> .
+                  </p>
+                  <p>
+                      5. <bibl><ptr target="Skoulatos1980"/>, <citedRange>203, p. 299</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 9, p. 702-703</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>9, p. 702-703</citedRange></bibl></p>
               </div>
           </body>
       </text>

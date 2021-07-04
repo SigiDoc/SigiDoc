@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Michel Avramopoulos, asèkrètis et chartulaire du Péloponnèse et de l’Hellade</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_16</idno>
                 <idno type="SigiDocID">16</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0016</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>78</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,12 +93,12 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">25</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr">14</measure>
+                                    <measure type="weight" unit="g">14</measure>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock">12</measure>
                                 </support>
-                                <condition rend="notCentered"><!-- add other values -->
+                                <condition rend="notCentered">
                                     <p>Bon état de conservation ; frappe décentrée ; rogné sur le pourtour ; légèrement échancré
                                         aux orifices du canal ; endommagé sur une petite portion du revers</p>
                                 </condition>
@@ -139,7 +141,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="titulature lettering" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="titulature lettering" cert="high">
                                 <seg xml:lang="en">XIth C., central third</seg>
                                 <seg xml:lang="fr">XIe s., tiers central</seg>
                                 <interp type="datingCriteria" xml:lang="en">titulature, lettering</interp>
@@ -147,17 +149,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
-                        <acquisition><!-- address to be added!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-                            <p xml:lang="fr">Roma Numismatics (Londres), <ref target="">E-Sale 37, lot 644</ref>, <date when="2017-06-24">24 juin 2017</date></p>
-                            <p xml:lang="en">Roma Numismatics (Londron), <ref target="">E-Sale 37, lot 644</ref>, <date when="2017-06-24">24th of June 2017</date></p>
+                        <provenance type="transferred"/>
+                        <acquisition>
+                            <p xml:lang="fr">Roma Numismatics (Londres), <ref target="https://www.numisbids.com/n.php?p=lot&amp;sid=2054&amp;lot=644">E-Sale 37, lot 644</ref>, <date when="2017-06-24">24 juin 2017</date></p>
+                            <p xml:lang="en">Roma Numismatics (London), <ref target="https://www.numisbids.com/n.php?p=lot&amp;sid=2054&amp;lot=644">E-Sale 37, lot 644</ref>, <date when="2017-06-24">24th of June 2017</date></p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -196,7 +193,7 @@
                                         <figDesc n="r">Saint Michel, de face,
                                             débout sur un suppédion, les ailes partiellement déployées ; le nimbe semble double ;
                                             l’archange tient de la main gauche un globe crucigère et de la droite un long labarum; il porte divitision et loros, le repli de ce vêtement posé dans l’angle du bras. Pas de sigle
-                                            visible ; inscription invocative circulaire</figDesc><!-- check for consistency: here there's the mention of the circular inscription, elewhere I wrote 'corcular inscription surrounding image' in layout!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                                            visible ; inscription invocative circulaire</figDesc><!-- check for consistency: here there's the mention of the circular inscription, elsewhere I wrote 'circular inscription surrounding image' in layout!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
                                         <figDesc n="decoR">Cercle de grènetis partiellement conservé</figDesc>
                                     </figure>
                                 </decoNote>
@@ -228,10 +225,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 7 lines</seg>
+                                            <seg xml:lang="en">Legend of 7 lines</seg>
                                             <seg xml:lang="fr">Légende sur 7 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 7 lines</p>
+                                        <p xml:lang="en">Legend of 7 lines</p>
                                         <p xml:lang="fr">Légende sur 7 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -263,11 +260,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
             <change when="2020-06-17" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">minor adjustements to leidenisation</change>
@@ -296,9 +291,8 @@
                   <div type="textpart" subtype="face" n="obv" rend="circular">
                       <ab>
                           <lb n="1"/>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
-                                  <rs type="invocation" ref="invocation.xml#undetermined" rend="circular">
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
+                                  <rs type="invocation" ref="invocation.xml#undetermined1" rend="circular">
                                       <gap reason="lost" extent="unknown" unit="character"/> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           <supplied reason="lost">βοήθει</supplied>
@@ -313,13 +307,12 @@
                                           <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan>
                                       </rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg><l><lb n="2"/>
+                          <rs type="legendsCases"><lb n="2"/>
                                   <persName type="unattested" ref="prosopography.xml#Ἀβραμόπουλος_Μιχαήλ">
                                       <name type="forename">
                                           Μιχαὴ<supplied reason="lost">λ</supplied>
@@ -332,8 +325,12 @@
                                       <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
                                           <expan><ex>καὶ</ex></expan>
                                       </w> 
-                                      <rs type="officeCivil" ref="officeCivil.xml#χαρτουλάριος_Πελοποννήσου_καὶ_Ἑλλάδος">
-                                          <expan><abbr>χ</abbr><ex>α</ex><abbr>ρτελ</abbr><ex>αρίῳ</ex></expan> 
+                                      <rs type="officeCivil" ref="officeCivil.xml#χρυσοτελὴς_Πελοποννήσου_καὶ_Ἑλλάδος">
+                                          <rs type="officeCivil" ref="officeCivil.xml#χαρτουλάριος_Πελοποννήσου_καὶ_Ἑλλάδος">
+                                          <app type="alternative">
+                                                  <lem><expan><abbr>χ</abbr><ex>α</ex><abbr>ρτελ</abbr><ex>αρίῳ</ex></expan></lem>
+                                                  <rdg><expan><ex>χρυσο</ex><abbr>τελ</abbr><ex>ῇ</ex></expan></rdg>
+                                              </app> 
                                           <placeName ref="geography.xml#Πελοπόννησος_καὶ_Ἑλλάς">
                                                   <expan><abbr>Πε
                           <lb n="5" break="no"/>λοπονν</abbr><ex>ήσου</ex></expan>
@@ -343,6 +340,7 @@
                           <lb n="6"/>
                                                   <expan><abbr>Ἑλλά</abbr><supplied reason="lost">δ</supplied><supplied reason="lost"><ex>ος</ex></supplied></expan>
                                           </placeName>
+                                      </rs>
                                       </rs> 
                                       <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
                                           <supplied reason="lost">τῷ</supplied>
@@ -352,7 +350,7 @@
                                           <expan><abbr>Ἀβραμο
                           <lb n="8" break="no"/>πούλ</abbr><ex>ῳ</ex></expan>
                                       </name>
-                                  </persName></l></lg>
+                                  </persName></rs>
                       </ab>
                   </div>
               </div>
@@ -380,8 +378,9 @@
                           <lem><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>Μιχαὴλ, Ἀρχιστράτηγε, Κύριε</rdg><rdg><note>le destinataire de l’invocation ne peut être identifié avec certitude.</note></rdg>
                       </app>
                       <app loc="4">
-                          <lem>-ρτελ-</lem><rdg>-ρτουλ-</rdg><note>La lecture de la fonction présuppose une correction à la quatrième lettre de la troisième
-                              ligne, où il faudra donc plutôt lire .</note>
+                          <note>La solution retenue pour la fonction présuppose une correction à la quatrième lettre, où il faudra donc plutôt lire .
+                              Une solution alternative, qui n'implique aucune correction, a été proposée par <bibl><ptr target="Seibt2018"/><citedRange/></bibl>, qui lit (χρυσο)τελ(ῇ).
+                          </note>
                       </app>
                   </listApp>
               </div>
@@ -390,30 +389,12 @@
                   <p xml:lang="en">... aid your servant / Michael Avramopoulos, asekretis and chartoularios of the Peloponnesos and Hellas.</p>
                   <p xml:lang="fr">... aide ton serviteur / Michel Avramopoulos, <hi rend="italic">asèkrètis</hi> et chartulaire du Péloponnèse et de l’Hellade.</p>
               </div>
-              <div type="commentary" subtype="edition">
-                      <p/>
+              <div type="commentary">
+                      <p xml:lang="en">None.</p>
+                  <p xml:lang="fr">Aucun.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 16, p. 710-711</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>16, p. 710-711</citedRange></bibl>.</p>
               </div>
           </body>
       </text>
