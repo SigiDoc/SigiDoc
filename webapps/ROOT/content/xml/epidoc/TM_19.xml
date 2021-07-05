@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Nicétas, protospathaire, épi tou Chrysotriklinou et juge des Thracésiens</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_19</idno>
                 <idno type="SigiDocID">19</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0019</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>15</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">22</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -115,8 +117,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3621/">
-                                        <idno type="PBW">3621</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">39</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3621/">3621</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -147,14 +150,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -176,10 +174,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -225,10 +223,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -263,11 +261,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-06-18" who="AS">Bibliographic references improved</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2018-08-11" who="AS">First version of the record</change>
@@ -294,13 +290,12 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε2">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
                                           β<supplied reason="lost">ο
                                   <lb n="2" break="no"/>ή</supplied>θει
@@ -326,13 +321,12 @@
                                   <rs type="dignity" ref="dignities.xml#πρωτοσπαθάριος">
                                       <expan><abbr><am><g type="protos1"/></am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                                  <lg><l><lb n="6"/>
+                                  <rs type="legendsCases"><lb n="6"/>
                                   <rs type="officeCivil" ref="officeCivil.xml#ἐπὶ_τοῦ_Χρυσοτρικλίνου">
                                       <supplied reason="lost">ἐπ</supplied>ὶ 
                                       τοῦ
@@ -353,7 +347,7 @@
                                           <supplied reason="lost">Θ</supplied>ρᾳκη
                                   <lb n="10" break="no"/>σίων
                                       </placeName>
-                                  </rs></l></lg>
+                                  </rs></rs>
                       </ab>
                   </div>
               </div>
@@ -385,50 +379,25 @@
                           </app>
                       </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Κύριε βοήθει τῷ σῷ δούλῳ Νικήτᾳ πρωτοσπαθαρίῳ / ἐπὶ τοῦ Χρυσοτρικλίνου καὶ κριτῇ τῶν Θρακησίων.</p>
+                  <p xml:lang="en">Lord aid your servant Niketas, protospatharios, / epi tou Chrysotriklinou and judge of Thrakesion.</p>
+                  <p xml:lang="fr">Seigneur aide ton serviteur Nicétas, protospathaire, / <hi rend="italic">épi tou Chrysotriklinou</hi> et juge des Thracésiens.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p xml:lang="en">None.</p>
                   <p xml:lang="fr">Aucun.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>19, p. 714-715</citedRange></bibl>.</p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 19, p. 714-715</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Orghidan"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Orghidan"/>
-                          <citedRange unit="part">, no 243;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Zarnitz"/><biblStruct><!-- rivedere modo di citazione qui!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zarnitz"/>
-                          <citedRange unit="part">no 493</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl sameAs="bib:BBÖ2"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ2"/>
-                          <citedRange unit="page">, p. 133, n. 15 (coll. Zarnitz 493)</citedRange>
-                      </biblStruct>
-                  </listBibl>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="Orghidan"/>, <citedRange unit="part">243</citedRange></bibl>;
+                      <bibl><ptr target="Zarnitz"/>, <citedRange unit="part">493</citedRange></bibl>.<!-- rivedere modo di citazione qui!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                  </p>
+              </div>
+              <div type="bibliography" subtype="discussionParallels">
+                  <p><bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 133, n. 15</citedRange></bibl> (coll. Zarnitz 493).</p>
               </div>
           </body>
       </text>

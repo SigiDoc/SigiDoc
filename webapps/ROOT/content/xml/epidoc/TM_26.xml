@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau d'Andrea Michiel, protonobélissime impérial</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_26</idno>
                 <idno type="SigiDocID">26</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0029</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">21</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -114,7 +116,6 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="shape" xml:lang="fr"></rs>
                                     <rs type="matrix" subtype="notSurviving">
                                         <idno type="SigiDoc">24</idno>
                                     </rs>                                  
@@ -158,16 +159,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Artemide Aste (San Marino), Auction 22E, <date when="2013-04-25">25th of April 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/141/407">407</ref></p>
+                            <p xml:lang="fr">Artemide Aste (San Marino), Enchère 22E, <date when="2013-04-25">25 Avril 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/141/407">407</ref></p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -238,10 +235,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines</seg>
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 6 lines</p>
+                                        <p xml:lang="en">Legend of 6 lines</p>
                                         <p xml:lang="fr">Légende sur 6 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -274,11 +271,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Id for the dignity modified, line 328</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
@@ -305,7 +300,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="la">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
-                          <cb n="a"/><rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Sanctus_Iohannes_Chrussostomos"><!-- spelling in ref??????????????? -->
+                          <cb n="a"/><rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Sanctus_Iohannes_Chrussostomos">
                               <expan><abbr>S</abbr><ex>anctus</ex></expan> 
                               <expan><abbr>I</abbr><ex>ohannes</ex></expan> 
                               Chrus
@@ -316,8 +311,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Nom">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Nom">
                                   <lb n="1"/>
                                   +
                                   <persName type="attested" ref="prosopography.xml#Michael_Andreas">
@@ -333,12 +327,11 @@
                                   <rs type="dignity" ref="dignities.xml#protonobilissimus_imperialis">
                                       <expan><abbr>imp</abbr><ex>er</ex><abbr>ial</abbr><ex>is</ex></expan>
                                   <lb n="4"/>
-                                      <expan><abbr>p</abbr><am><g type="pro1"/></am><ex>ro</ex><abbr>tonobi<!-- is this correct to tag the abbr. p(ro)?????????????????? -->
+                                      <expan><abbr>p</abbr><ex>ro</ex><abbr>tonobi
                                   <lb n="5" break="no"/>lissim
                                   <lb n="6" break="no"/>o</abbr></expan>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -353,8 +346,8 @@
                       <ab>
                           <lb n="1"/>
                           <lb n="2"/>MICHEL
-                          <lb n="3"/>IMIL
-                          <lb n="4"/>PTONOBI
+                          <lb n="3"/>IMIL<!-- abbrev. per L non visualizzata -->
+                          <lb n="4"/>PTONOBI<!-- abbrev. per P non visualizzata -->
                           <lb n="5"/>LISSIM
                           <lb n="6"/>O
                       </ab>
@@ -364,19 +357,16 @@
                   <listApp>
                       <app loc="1">
                           <lem></lem><rdg></rdg><note>dans son édition de la pièce parallèle, Klimanov donne une solution erronée du , interprété comme « adjuva ». 
-                              Si l’on en croit le dessin donné dans <bibl sameAs="bib:Schlumberger1884"/>,<biblStruct>
-                                  <monogr>
-                                      <imprint><biblScope/></imprint>
-                                  </monogr><ptr target="bibliography.xml#Schlumberger1884"/>
-                                  <citedRange>p. 549-550, no 6</citedRange>
-                              </biblStruct>, la pièce éditée par Klimanov est distincte de celle de la collection Schlumberger, mais les notes de Likhačev identifient bien les deux sceaux.</note>
+                              Si l’on en croit le dessin donné dans <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="page">6, p. 549-550</citedRange></bibl>, la pièce éditée par Klimanov est distincte de celle de la collection Schlumberger, mais les notes de Likhačev identifient bien les deux sceaux.</note>
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Sanctus Iohannes Chrussostomos. / +Andreas Michael imperialis protonobilissimo.</p>
+                  <p xml:lang="en">St John Chrysostomos. Andrea Michiel, imperial protonobelissimos.</p>
+                  <p xml:lang="fr">Saint Jean Chrysostome. / Andrea Michiel, protonobélissime impérial.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Ce sceau fait partie du groupe restreint des plus anciens sceaux vénitiens de style byzantin à présent connus.</p>
                       <p>L’iconographie de saint Jean Chrysostome s’explique
                           par le fait que la famille Michiel possédait des biens dans cette paroisse de la ville de
@@ -409,17 +399,9 @@
                           serait pas nécessairement une imitation des usages grecs, puisque les documents vénitiens
                           sont susceptibles d’utiliser <hi rend="italic">protonobellissimo</hi> même au nominatif [17].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Saint-Guillain2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Saint-Guillain2017"/>
-                          <citedRange>no. 3, p. 579-583</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="part">3, p. 579-583</citedRange></bibl>.
                   </p>
                   <p>
                       2. Il demeure possible que les deux pièces aient été faiblement frappées mais le beau relief n’incite
@@ -427,176 +409,68 @@
                           cet endroit et ne permette pas de comparaison sur ce point.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Falkenhausen2013"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Falkenhausen2013"/>
-                          <citedRange unit="page">p. 830</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 830</citedRange></bibl>.
                   </p>
                   <p>
-                      4. Voir <bibl sameAs="bib:Saint-Guillain2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Saint-Guillain2017"/>
-                          <citedRange unit="page">p. 607-612</citedRange>
-                      </biblStruct>.
+                      4. Voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="page">p. 607-612</citedRange></bibl>.
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:Cheynet1983"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1983"/>
-                      </biblStruct>.
+                      5. <bibl><ptr target="Cheynet1983"/></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Ravegnani1992"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Ravegnani1992"/>
-                      </biblStruct>.
+                      6. <bibl><ptr target="Ravegnani1992"/></bibl>.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:Falkenhausen2013"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Falkenhausen2013"/>
-                          <citedRange unit="page">p. 825</citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 825</citedRange></bibl>.
                   </p>
                   <p>
-                      8. Mentions réunies dans <bibl sameAs="bib:Falkenhausen2013"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Falkenhausen2013"/>
-                          <citedRange unit="page">p. 827-830</citedRange>
-                      </biblStruct> 
-                      et plus généralement <bibl sameAs="bib:Martin2010"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Martin2010"/>
-                      </biblStruct>.
+                      8. Mentions réunies dans <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 827-830</citedRange></bibl> 
+                      et plus généralement <bibl><ptr target="Martin2010"/></bibl>.
                   </p>
                   <p>
-                      9. <bibl sameAs="bib:Prigent2012"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2012"/>
-                          <citedRange unit="page">p. 623</citedRange>
-                      </biblStruct>.
+                      9. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 623</citedRange></bibl>.
                   </p>
                   <p>
-                      10. <bibl sameAs="bib:Prigent2012"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2012"/>
-                          <citedRange unit="page">p. 625</citedRange>
-                      </biblStruct>.
+                      10. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
                   </p>
                   <p>
                       11. Un Andrea Michiel, peut-être à identifier avec l’Andrea Michiel testateur (oncle ou grand-père
                           du propriétaire du sceau), a été ambassadeur auprès d’Alexis Ier en 1084, comme le relate la chronique
                           d’Andrea Dandolo : <hi rend="italic">Qui [= le doge Vitale Falier], augusti ortacione, Andream Michaelem, Dominicum
                           Dandulo et Iacobum Aurio legatos Constantinopolim missit, ut iurisdiciones Dalmacie et Choracie [sic], sibi
-                          ab incolis traditas, optineret, quam constantinopolitano imperio pertinere noverat</hi> (<bibl sameAs="bib:DanduliChronica1938"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="biblio:DanduliChronica1938"/>
-                              <citedRange unit="page">p. 217</citedRange>
-                          </biblStruct>). La date de cette ambassade est sujette à caution, 
-                      voir <bibl sameAs="bib:Saint-Guillain2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Saint-Guillain2017"/>
-                          <citedRange>p. 586-587</citedRange>
-                      </biblStruct>.
+                          ab incolis traditas, optineret, quam constantinopolitano imperio pertinere noverat</hi> (<bibl><ptr target="DanduliChronica1938"/>, <citedRange unit="page">p. 217</citedRange></bibl>). 
+                      La date de cette ambassade est sujette à caution, 
+                      voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange>p. 586-587</citedRange></bibl>.
                   </p>
                   <p>
-                      12. <bibl sameAs="bib:Pozza1983"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Pozza1983"/>
-                          <citedRange unit="page">p. 230</citedRange>
-                      </biblStruct>. Le latin <hi rend="italic">nepos</hi> peut être interprété à la fois comme neveu
+                      12. <bibl><ptr target="Pozza1983"/>, <citedRange unit="page">p. 230</citedRange></bibl>. Le latin <hi rend="italic">nepos</hi> peut être interprété à la fois comme neveu
                           et comme petit-fils : le fait que les deux personnes aient eu le même prénom ferait plutôt penser à un
                           petit-fils qui aurait hérité du prénom du grand-père, usage très répandu à Venise comme à Byzance,
                           mais on ne peut pas en avoir la certitude.
                   </p>
                   <p>
-                      13. Voir <bibl sameAs="bib:Pozza1983"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Pozza1983"/>
-                          <citedRange>p. 228, n. 20</citedRange>
-                      </biblStruct>.
+                      13. Voir <bibl><ptr target="Pozza1983"/>, <citedRange>p. 228, n. 20</citedRange></bibl>.
                   </p>
                   <p>
-                      14. <bibl sameAs="bib:Cheynet1983"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1983"/>
-                          <citedRange unit="page">p. 473-475</citedRange>
-                      </biblStruct>.
+                      14. <bibl><ptr target="Cheynet1983"/>, <citedRange unit="page">p. 473-475</citedRange></bibl>.
                   </p>
                   <p>
-                      15. <bibl sameAs="bib:Bibicou1959"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Bibicou1959"/>
-                      </biblStruct>.
+                      15. <bibl><ptr target="Bibicou1959"/></bibl>.
                   </p>
                   <p>
-                      16. <bibl sameAs="bib:Stepanova2001"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Stepanova2001"/>
-                          <citedRange>no. 9, p. 62</citedRange>
-                      </biblStruct>, identifié dans 
-                      <bibl sameAs="bib:Prigent2012"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2012"/>
-                          <citedRange unit="page">p. 625</citedRange>
-                      </biblStruct>.
+                      16. <bibl><ptr target="Stepanova2001"/>, <citedRange unit="part">9, p. 62</citedRange></bibl>, identifié dans 
+                      <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
                   </p>
                   <p>
-                      17. <bibl sameAs="bib:Prigent2012"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2012"/>
-                          <citedRange unit="page">p. 622</citedRange>
-                      </biblStruct>. Erreur
-                      corrigée dans <bibl sameAs="bib:Saint-Guillain2017"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Saint-Guillain2017"/>
-                          <citedRange>p. 580 et n. 98</citedRange>
-                      </biblStruct>.
+                      17. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 622</citedRange></bibl>. Erreur
+                      corrigée dans <bibl><ptr target="Saint-Guillain2017"/>, <citedRange>p. 580 et n. 98</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 26, p. 732-735</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Klimanov1999"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Klimanov1999"/>
-                          <citedRange>, no. 33, p. 235-236</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part">26, p. 732-735</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="Klimanov1999"/>, <citedRange unit="part">33, p. 235-236</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Théodose, moine</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_36</idno>
                 <idno type="SigiDocID">36</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0039</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -89,7 +91,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">14</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -134,7 +136,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1100" evidence="lettering" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1001" notAfter="1100" evidence="lettering" cert="high">
                                 <seg xml:lang="en">XIth C.</seg>
                                 <seg xml:lang="fr">XIe s.</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
@@ -142,14 +144,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -216,11 +213,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende métrique sur 5 lignes</p>
-                                        <p xml:lang="en">Metrical legend on 5 lines</p>
+                                        <p xml:lang="en">Metrical legend of 5 lines</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -249,11 +246,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-12" who="AS">First version of the record</change>
         </revisionDesc>
@@ -340,10 +335,12 @@
                           </app>
                       </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>῾Ο ἅγιος Θεοδόσιος (?). / Θεοδοσίου μοναχοῦ σφραγὶς πέλω.</p>
+                  <p xml:lang="en">St Theodosios (?). / I am the seal of the monk Theodosios.</p>
+                  <p xml:lang="fr">Saint Théodose (?). / Je suis le sceau du moine Théodose.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Étant donné l’identité du propriétaire et sa vocation, on admettrait volontiers la
                           lecture la plus simple [(Ὁ ἅγιος)] Θ[εοδό]σ[ιος] sans qu’il soit possible de préciser le
                           détail de l’inscription. Saint Théodose est en effet l’un des pères du monachisme oriental.
@@ -360,45 +357,16 @@
                           encore jeune, mais évidemment on ne peut dépasser le stade de l’hypothèse en raison du
                           caractère extrêmement lacunaire du nom présent sur le sceau.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:VieThéodose1963"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography,xml#VieThéodose1963"/>
-                          <citedRange unit="page">p. 58</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="VieThéodose1963"/>, <citedRange unit="page">p. 58</citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:VieThéodosios1963"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#VieThéodosios1963"/>
-                          <citedRange unit="page">p. 105</citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="VieThéodosios1963"/>, <citedRange unit="page">p. 105</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 36, p. 751-752</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>36, p. 751-752</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

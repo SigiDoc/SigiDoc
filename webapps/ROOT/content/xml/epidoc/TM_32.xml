@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Cyriaque, archevêque d’Éphèse et syncelle</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_32</idno>
                 <idno type="SigiDocID">32</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0035</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">24</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -139,7 +141,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1028" notAfter="1050" evidence="prosopography" cert="high" resp="#AS">
+                            <origDate type="analysis" notBefore="1028" notAfter="1050" evidence="prosopography" cert="high">
                                 <seg xml:lang="en">XIth C., first half (after 1028-1029)</seg>
                                 <seg xml:lang="fr">XIe s., première moitié (après 1028-1029)</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography</interp>
@@ -147,16 +149,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Agora coins (Ireland)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Agora coins (Irlande)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -222,10 +220,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -258,11 +256,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
@@ -291,43 +287,39 @@
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#unidentified">
-                              <cb n="a"/><expan><ex>Ὁ ἅγιος</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><!-- enough??????? --><!-- @type's attribute!!!!!!!!again, AR problem -->
+                              <cb n="a"/><expan><ex>Ὁ ἅγιος</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
                           <cb n="b"/><gap reason="lost" extent="unknown" unit="character"/>
                           </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
-                                  +<!-- here separate line with cross added ??????????? legend on 5 lines -->
-                                  <lb n="2"/>
                                   <persName type="attested" ref="prosopography.xml#Κυριακός_1">
                                       <name type="forename">
                                           Κυρια
-                                  <lb n="3" break="no"/>
+                                  <lb n="2" break="no"/>
                                           κῷ
                                       </name>
                                   </persName> 
                                   <rs type="officeEcclesiastical" ref="officeEcclesiastical.xml#ἀρχιεπίσκοπος_Ἐφέσου">
                                       <expan><abbr>ἀρχιε
-                                  <lb n="4" break="no"/>π</abbr><ex>ισ</ex><abbr>κόπῳ</abbr></expan> 
+                                  <lb n="3" break="no"/>π</abbr><ex>ισ</ex><abbr>κόπῳ</abbr></expan> 
                                       <placeName ref="geography.xml#Ἔφεσος">
                                               <expan><abbr>Ἐ
-                                  <lb n="5" break="no"/>φ</abbr><ex>έσου</ex></expan>
+                                  <lb n="4" break="no"/>φ</abbr><ex>έσου</ex></expan>
                                       </placeName>
                                   </rs> 
-                                  <rs type="officeEcclesiastical" ref="officeEcclesiastical.xml#σύγκελλος"><!-- office name in ref: ho ton synkellon???????? -->
+                                  <rs type="officeEcclesiastical" ref="officeEcclesiastical.xml#σύγκελλος">
                                       ἐκ 
-                                      <supplied reason="omitted">τῶν</supplied><!-- omitted????????????????????????????????????????? -->
+                                      <supplied reason="omitted">τῶν</supplied>
                                       συγ
-                                  <lb n="6" break="no"/>
+                                  <lb n="5" break="no"/>
                                       κέλλω
-                                  <lb n="7" break="no"/><supplied reason="lost">ν</supplied>
+                                  <lb n="6" break="no"/><supplied reason="lost">ν</supplied>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -340,133 +332,69 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>̣
                           <lb n="1"/>κυρια
                           <lb n="2"/>καρχιε
                           <lb n="3"/>π͵κοπε
                           <lb n="4"/>φ͵εκ͵συγ
                           <lb n="5"/>κελλ
+                          <lb n="6"/>.
                       </ab>
                   </div>
               </div>
               <div type="apparatus">
                   <listApp>
-                      <app loc="4-5">
-                          <lem>Ἐφ(έσου) ἐκ</lem><note>il pourrait y avoir deux alternatives: premièrement, déplacer le premier signe d'abréviation pour lire </note><rdg>εφε(σου) κ(αὶ) (?)</rdg><note>mais l’abréviation du
+                      <app loc="4-6">
+                          <note>L’établissement de la légende présente une difficulté en raison de la présence apparente de deux signes d’abréviation et d’une abréviation étonnante du toponyme. 
+                              Il pourrait y avoir deux alternatives: premièrement, déplacer le premier signe d'abréviation pour lire εφε(σου) κ(αὶ), mais l’abréviation du
                               toponyme serait particulièrement inélégante; deuxièmement, identifier le second signe
                               d’abréviation avec un défaut du plomb et admettre une erreur de graveur qui aurait
-                              interverti les deux lettres de la conjonction </note><rdg>εφ(εσου) κε (?)</rdg><note>.</note><note> Un examen attentif
+                              interverti les deux lettres de la conjonction εφ(εσου) κε. Un examen attentif
                                   de la pièce amène à admettre que le second signe d’abréviation est bien dû à un choc
-                                  puisque le tracé continue au-dessus du Κ, sous la patine.</note>
+                                  puisque le tracé continue au-dessus du Κ, sous la patine. Une troisième solution permet de sortir du problème, en prenant en compte l’existence de la ligne manquante:
+                                  on pourrait en effet vouloir y placer une dernière lettre (Ν) pour aboutir à la leçon retenue ici, leçon qui trouverait une justification
+                                  précise dans la carrière du titulaire. Voir commentaire.</note>
                       </app>
-                      <app loc="4-7"><note>Une troisième solution permet de sortir du problème évoqué à  la note précédente, en prenant en compte l’existence de la ligne manquante,
-                          on pourrait en effet vouloir y placer une dernière lettre (Ν) pour aboutir à la leçon retenue ici, leçon qui trouverait une justification
-                          précise dans la carrière du titulaire. Voir commentaire.</note></app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Ὁ ἅγιος ... / Κυριακῷ ἀρχιεπισκόπῳ Ἐφέσου ἐκ τῶν συγκέλλων.</p>
+                  <p xml:lang="en">St ... / Kyriakos, archbishop of Ephesos and synkellos.</p>
+                  <p xml:lang="fr">Saint ... / Cyriaque, archevêque d’Éphèse et syncelle.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Il s’agit très probablement ici de la première attestation sigillographique
                           du métropolite d’Éphèse Cyriaque (attesté par d'autres sources de 1027 à 1039), frère du patriarche Alexis
                           Stoudite (1025-1043) [2]. Or, selon Skylitzès et Kédrènos, en 1028-1029, l’un des premiers
                           actes du nouvel empereur Romain III (1028-1034) fut d’attribuer le titre ecclésiastique de syncelle à trois métropolites, dont Cyriaque. En cette occasion la position de syncelle,
-                          apanage d’un seul titulaire depuis le ixe siècle au moins, redevenait « collégiale », ce qui
+                          apanage d’un seul titulaire depuis le IXe siècle au moins, redevenait « collégiale », ce qui
                           justifierait élégamment la reconstruction proposée ici [3]. Quoi qu’il en soit de cette
                           hypothèse, notre sceau doit être daté postérieurement à 1028-1029, en accord avec les
                           témoignages écrits mentionnant la dignité de syncelle de Cyriaque [4].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Cotsonis2003"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cotsonis2003"/>
-                          <citedRange unit="page">p. 10-13</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Cotsonis2003"/>, <citedRange unit="page">p. 10-13</citedRange></bibl>.
                   </p>
                   <p>
-                      2. Voir la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Kyriakos/101/">Kyriakos 101</ref></citedRange>
-                      </biblStruct>.
+                      2. Voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Kyriakos/101/">Kyriakos 101</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:ScylitzaeSynopsis1973"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ScylitzaeSynopsis1973"/>
-                          <citedRange>p. 375, l. 58-60</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:SkylitzèsEmpereurs2003"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SkylitzèsEmpereurs2003"/>
-                          <citedRange>p. 311 et n. 4</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Cedrenus1839"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cedrenus1839"/>
-                          <citedRange>p. 486, l. 11-13</citedRange>
-                      </biblStruct>. Sur le
-                      titre de syncelle, voir aussi <bibl sameAs="bib:LaurentCorpus5.1"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LaurentCorpus5.1"/>
-                          <citedRange unit="page">p. 147-148</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 375, l. 58-60</citedRange></bibl>; 
+                      <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange>p. 311 et n. 4</citedRange></bibl>; 
+                      <bibl><ptr target="Cedrenus1839"/>, <citedRange unit="page">p. 486, l. 11-13</citedRange></bibl>. Sur le
+                      titre de syncelle, voir aussi <bibl><ptr target="LaurentCorpus5.1"/>, <citedRange unit="page">p. 147-148</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Ficker1911"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Ficker1911"/>
-                          <citedRange>p. 18, l. 30 (année 1030), 42, l. 8 (année 1039)</citedRange>
-                      </biblStruct>. 
-                      Pas de mention de la dignité dans <bibl sameAs="bib:RallesPotles5"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:RallesPotles5"/>
-                          <citedRange unit="page">p. 24 (année 1027), 32 (année 1028)</citedRange>
-                      </biblStruct>. 
-                      Voir aussi <bibl sameAs="bib:GrumelRegestes1.2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:GrumelRegestes1.2"/>
-                          <citedRange>nos 833, 835, 839, 846</citedRange>
-                      </biblStruct>. Sur les métropolites
+                      4. <bibl><ptr target="Ficker1911"/>, <citedRange unit="page">p. 18, l. 30</citedRange> (année 1030), <citedRange unit="page">42, l. 8</citedRange> (année 1039)</bibl>. 
+                      Pas de mention de la dignité dans <bibl><ptr target="RallesPotles5"/>, <citedRange unit="page">p. 24</citedRange> (année 1027), <citedRange unit="page">32</citedRange> (année 1028)</bibl>. 
+                      Voir aussi <bibl><ptr target="GrumelRegestes1.2"/>, <citedRange unit="part">833, 835, 839, 846</citedRange></bibl>. Sur les métropolites
                       d’Éphèse à cette époque (avec
-                      la liste révisée des évêques d’Éphèse au XIe siècle), voir <bibl sameAs="bib:Feissel2003"/>, et, en particulier, sur Cyriaque,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Feissel2003"/>
-                          <citedRange>p. 232, n. 4 et 245</citedRange>
-                      </biblStruct>.
+                      la liste révisée des évêques d’Éphèse au XIe siècle), voir <bibl><ptr target="Feissel2003"/>, et, en particulier, sur Cyriaque <citedRange>p. 232, n. 4; 245</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 32, p. 747-749</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>32, p. 747-749</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

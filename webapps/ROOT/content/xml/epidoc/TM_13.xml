@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Justinien, hypatos et topotèrètès de l’Opsikion</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_13</idno>
                 <idno type="SigiDocID">13</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0013</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>28</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">26</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -129,8 +131,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" xml:lang="en">Cruciform invocative monogram</figDesc><!-- ICONOGRAPHY???????????????????????????????? -->
-                                    <figDesc n="whole" xml:lang="fr">Monogramme invocatif cruciforme</figDesc>
+                                    <figDesc n="whole"/>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -148,16 +149,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Ancient Treasures (USA); according to the seller, the seal would have been found in former Yugoslavia</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Ancient Treasures (USA); selon le vendeur, le sceau aurait été retrouvé en ex-Yougoslavie</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -225,10 +222,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 5 lines</p>
+                                        <p xml:lang="en">Legend of 5 lines</p>
                                         <p xml:lang="fr">Légende sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -261,11 +258,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-15" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-16" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -294,13 +289,16 @@
                   <div type="textpart" subtype="face" n="obv" rend="monogram">
                       <ab>
                           <lb n="1"/>
-                          <lg type="legendsCases" ref="legendsCases.xml#DatNom">
-                              <l>
-                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε" rend="monogram"><!-- INCLUDING TO SO DOULO????????? -->
+                          <rs type="legendsCases" ref="legendsCases.xml#DatNom">
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε2" rend="monogram">
                                       <rs type="monogram" ref="monogram.xml#mg1">
-                                          <expan><ex>Θεοτόκε βοήθει</ex></expan> <!-- to lemmatise with <w/> we have to tag them separately in 2 <ex/>, but in this way the transformation will be (Θεοτόκε) (βοήθει) -->
+                                          <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
+                                              <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqei&amp;la=greek">
+                                                  <expan><ex>Θεοτόκε βοήθει</ex></expan>
+                                              </w>
+                                          </rs>
                                       <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
-                                          <supplied reason="lost">τ</supplied><!-- visualisation problem with the omicron for omega -->
+                                          <supplied reason="lost">τ</supplied><choice xml:id="choice1"><orig>ο</orig><reg>ῷ</reg></choice>
                                       </w> 
                                       <w lemma="σός" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=sw&amp;la=greek">σῷ
                                       </w> 
@@ -308,13 +306,12 @@
                                       </rs>
                                       </rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                                  <lg><l><lb n="2"/>
+                                  <rs type="legendsCases"><lb n="2"/>
                                   <persName type="unattested" ref="prosopography.xml#Ἰουστινιανός_1">
                                       <name type="forename">
                                           Ἰουστιν
@@ -338,11 +335,11 @@
                                   <lb n="6" break="no"/>
                                           ικίου
                                       </placeName>
-                                  </rs></l></lg>
+                                  </rs></rs>
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"><!-- add monogram's letters; visualisation problem with - separating letters -->
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                    <div type="textpart" subtype="face" n="obv" rend="monogram">
                        <ab>
                            <lb n="1"/>.ο-σ--λ
@@ -350,28 +347,28 @@
                    </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n=""/>ι̣ουστι̣ν̣
-                          <lb n=""/>ινοσ̣υπ̣
-                          <lb n=""/>τοσκ/τοπ
-                          <lb n=""/>οτ/το
-                          <lb n=""/>ικιου
+                          <lb n="2"/>ι̣ουστι̣ν̣
+                          <lb n="3"/>ινοσ̣υπ̣
+                          <lb n="4"/>τοσκ/ τοπ
+                          <lb n="5"/>οτ/ το
+                          <lb n="6"/>ικιου
                       </ab>
                   </div>
               </div>
               <div type="apparatus">
                   <listApp>
-                      <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                      <app loc="1" from="#choice1">
+                          <note xml:lang="en">Sur le sceau τῷ est gravé avec omicron.</note>
+                          <note xml:lang="fr">Sur le sceau τῷ est gravé avec omicron.</note>
                       </app>
                   </listApp>
               </div>
               <div type="translation">
-                  <p>Θεοτόκε βοήθει τ σῷ δούλῳ / Ἰουστινιανὸς, ὕπατος καὶ τοποτηρητὴς τοῦ ᾿Οψικίου.</p>
+                  <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / Ἰουστινιανὸς, ὕπατος καὶ τοποτηρητὴς τοῦ ᾿Οψικίου.</p>
                   <p xml:lang="en">Mother of God aid your servant / Justinian, hypatos and topoteretes of the Opsikion.</p>
                   <p xml:lang="fr">Mère de Dieu aide ton serviteur / Justinien, <hi rend="italic">hypatos</hi> et <hi rend="italic">topotèrètès</hi> de l’Opsikion.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Le libellé au nominatif est exceptionnel pour les sceaux de cette époque.</p>
                       <p>Le prénom
                           est également des plus rares. On pourrait envisager que notre <hi rend="italic">topotèrètès</hi> soit né sous
@@ -389,150 +386,38 @@
                       bien évidemment pas de lien direct avec les <hi rend="italic">topotèrètai</hi> du XIe siècle, dont l’apparition est
                       liée à l’implantation de <hi rend="italic">tagmata</hi> en province [6].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Zacos1"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange>no 1762 et no 3176a</citedRange>
-                      </biblStruct> = <bibl sameAs="bib:DOseals3"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.295/view">no 39.49</ref></citedRange>
-                      </biblStruct>; seconde moitié du VIIIe siècle
-                      (voir aussi la <bibl sameAs="bib:PBE1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBE1"/>
-                          <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D68/F48.htm">Sergios 91</ref></citedRange>
-                      </biblStruct> et <bibl sameAs="bib:PmbZOnline"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                          <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ17851">no 6644</ref></citedRange>
-                      </biblStruct>).
+                      1. <bibl><ptr target="Zacos1"/>, <citedRange>1762, 3176a</citedRange></bibl> = <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.295/view">39.49</ref></citedRange></bibl>; 
+                      seconde moitié du VIIIe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D68/F48.htm">Sergios 91</ref></citedRange></bibl> et 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ17851">6644</ref></citedRange></bibl>).
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Orghidan"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Orghidan"/>
-                          <citedRange unit="part">no 219</citedRange>
-                      </biblStruct>: le nom est une hypothèse de l’éditeur, accueillie par <bibl sameAs="bib:Prigent2006"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml/#Prigent2006"/>
-                          <citedRange unit="page">, ici p. 148</citedRange>
-                      </biblStruct>; daté par son éditeur au IXe-Xe siècle (voir aussi la <bibl sameAs="bib:PBE1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBE1"/>
-                          <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D12/F63.htm">Anonymus 690</ref></citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="Orghidan"/>, <citedRange unit="part">219</citedRange></bibl>: le nom est une hypothèse de l’éditeur, accueillie par <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 148</citedRange></bibl>; 
+                      daté par son éditeur au IXe-Xe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D12/F63.htm">Anonymus 690</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Zacos1"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange>no 2660</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:DOseals3"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1303/view">no 39.50</ref></citedRange>
-                      </biblStruct>. Le nom est perdu ; daté par ses éditeurs à
-                          la seconde moitié du VIIIe siècle (voir aussi la <bibl sameAs="bib:PBE1"/><ptr target="biblio:PBE1"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBE1"/>
-                              <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D10/F46.htm">Anonymus 470</ref></citedRange>
-                          </biblStruct> et <bibl sameAs="bib:PmbZOnline"/>, <biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PmbZOnline"/>
-                              <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ20878">no 10904</ref></citedRange>
-                          </biblStruct>).
+                      3. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2660</citedRange></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1303/view">39.50</ref></citedRange></bibl>. 
+                      Le nom est perdu ; daté par ses éditeurs à la seconde moitié du VIIIe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D10/F46.htm">Anonymus 470</ref></citedRange></bibl> et 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ20878">10904</ref></citedRange></bibl>).
                   </p>
                   <p>
-                      4. Pour la liste et la datation, voir <bibl sameAs="bib:Prigent2006"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml/#Prigent2006"/>
-                          <citedRange unit="page">, ici p. 148</citedRange>
-                      </biblStruct>. On les distinguera bien du cas de Léon Pérènos, topotèrètès de l’Opsikion du XIe siècle (<bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20277/">Leon 20277</ref></citedRange>
-                      </biblStruct>) qui reflète l’implantation des tagmata en province avec l’apparition des ducs de thèmes (sur cette réforme voir <bibl sameAs="bib:Cheynet1985"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1985"/>
-                      </biblStruct>).
+                      4. Pour la liste et la datation, voir <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 148</citedRange></bibl>. 
+                      On les distinguera bien du cas de Léon Pérènos, <hi rend="italic">topotèrètès</hi> de l’Opsikion du XIe siècle (<bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20277/">Leon 20277</ref></citedRange></bibl>) 
+                      qui reflète l’implantation des tagmata en province avec l’apparition des ducs de thèmes (sur cette réforme voir <bibl><ptr target="Cheynet1985"/></bibl>).
                   </p>
                   <p>
-                      5. « Le cas des topotèrètai de l’Opsikion ne recouvre donc très probablement qu’une particularité
-                          terminologique liée à l’origine et au rôle d’armée de manoeuvre, héritière des magistri militum præsentales,
-                          de ce thème » : <bibl sameAs="bib:Prigent2006"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Prigent2006"/>
-                              <citedRange unit="page">p. 149</citedRange>
-                          </biblStruct>. Sur ce thème, voir <bibl sameAs="bib:Haldon1984"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Haldon1984"/>
-                          </biblStruct>; <bibl sameAs="bib:Lounghis1991"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Lounghis1991"/>
-                          </biblStruct>; <ref target="https://doi.org/10.12681/byzsym.804"><bibl sameAs="bib:Lounghis1996"/></ref><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Lounghis1996"/>
-                          </biblStruct>; <bibl sameAs="bib:DOseals3"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#DOseals3"/>
-                              <citedRange unit="page">p. 55</citedRange>
-                          </biblStruct>. Plus récemment, <bibl sameAs="bib:Lebeniotes2011"/><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Lebeniotes2011"/>
-                          </biblStruct>.
+                      5. « Le cas des <hi rend="italic">topotèrètai</hi> de l’Opsikion ne recouvre donc très probablement qu’une particularité
+                          terminologique liée à l’origine et au rôle d’armée de manoeuvre, héritière des <hi rend="italic">magistri militum præsentales</hi>,
+                      de ce thème » : <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 149</citedRange></bibl>. Sur ce thème, voir <bibl><ptr target="Haldon1984"/></bibl>; <bibl><ptr target="Lounghis1991"/></bibl>; 
+                      <bibl><ptr target="Lounghis1996"/></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="page">p. 55</citedRange></bibl>. Plus récemment, <bibl><ptr target="Lebeniotes2011"/></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Kühn1991"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Kühn1991"/>
-                      </biblStruct>.
+                      6. <bibl><ptr target="Kühn1991"/></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 13, p. 706-707</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>13, p. 706-707</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

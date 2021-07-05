@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0"
-                xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
-                xmlns:tei="http://www.tei-c.org/ns/1.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+  xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  
   <!-- Convert a bibliography authority TEI document to a concordance
        index. -->
-
+  
   <xsl:template match="arr[@name='concordance_bibliography_item']">
     <td>
       <ul class="inline-list">
@@ -14,29 +15,29 @@
       </ul>
     </td>
   </xsl:template>
-
+  
   <xsl:template match="doc" mode="item-display">
     <tr>
       <xsl:apply-templates select="str[@name='concordance_bibliography_cited_range']" />
       <xsl:apply-templates select="arr[@name='concordance_bibliography_item']" />
     </tr>
   </xsl:template>
-
-  <xsl:template match="doc" mode="bibl-list">
-    <xsl:variable name="bibl-id" select="substring-after(str[@name='concordance_bibliography_ref'], '#')" />
+  
+  <xsl:template match="doc" mode="bibl-list">  
+    <xsl:variable name="bibl-id" select="str[@name='concordance_bibliography_ref']" />
     <li>
-      <a href="{kiln:url-for-match('local-concordance-bibliography-item', ($language, $bibl-id), 0)}"><!-- creates the link from the concordance ref to the item and cited range -->
-        <xsl:apply-templates mode="full-citation" select="id($bibl-id)" />
-      </a>
+      <a href="{kiln:url-for-match('local-concordance-bibliography-item', ($language, $bibl-id), 0)}">
+        <xsl:apply-templates mode="short-citation" select="id($bibl-id)" />
+      </a>: <xsl:apply-templates mode="full-citation" select="id($bibl-id)" />
     </li>
   </xsl:template>
-
+  
   <xsl:template match="str[@name='concordance_bibliography_cited_range']">
     <td>
       <xsl:value-of select="." />
     </td>
   </xsl:template>
-
+  
   <xsl:template match="arr[@name='concordance_bibliography_item']/str">
     <li>
       <a href="{kiln:url-for-match('local-epidoc-display-html', ($language, .), 0)}">
@@ -44,129 +45,19 @@
       </a>
     </li>
   </xsl:template>
-
-  <xsl:template match="tei:author"><!-- STILL NECESSARY????????????????? -->
-    <xsl:value-of select="." />
-    <xsl:if test="following-sibling::tei:author">
-      <xsl:text>,</xsl:text>
-    </xsl:if>
-    <xsl:text> </xsl:text>
-  </xsl:template>
-
-  <!-- replaced with lines 64-165 by SigiDoc -->
-  <!--<xsl:template match="tei:bibl" mode="full-citation">
-    <xsl:apply-templates select="tei:author" />
+  
+  <xsl:template match="tei:bibl[@xml:id]" mode="full-citation">
+    <xsl:apply-templates select="node() except tei:bibl[@type]" />
+    <!--<xsl:apply-templates select="tei:author" />
     <xsl:apply-templates select="tei:editor" />
-    <xsl:apply-templates select="tei:date" />
-    <xsl:apply-templates select="tei:title" />
-  </xsl:template>-->
-  
-  <xsl:template match="tei:biblStruct//tei:author//tei:surname" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
+    <xsl:apply-templates select="tei:date[1]" />
+    <xsl:apply-templates select="tei:title[1]" />
+    <xsl:apply-templates select="tei:title[2]" />-->
   </xsl:template>
   
-  <xsl:template match="tei:biblStruct//tei:author//tei:name" mode="full-citation"><!-- esp. for ancient authors known by a single name -->
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:editor//tei:surname" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text> (ed.), </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:forename" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text> </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:title[@level='m']" mode="full-citation">
-    <i>
-      <xsl:apply-templates />
-    </i>
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:title[@level='j']" mode="full-citation">
-    <i>
-      <xsl:apply-templates />
-    </i>
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:title[@level='s']" mode="full-citation"><!-- without italic -->
-    (<xsl:apply-templates />)
-    <xsl:text></xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:title[@level='u']" mode="full-citation">
-    <i>
-      <xsl:apply-templates />
-    </i>
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:title[@level='a']" mode="full-citation"><!-- for articles in journals or book sections -->
-    <i>
-      <xsl:apply-templates />
-    </i>
-    <xsl:text>, in</xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:biblScope[@unit='volume']" mode="full-citation"><!-- for bibliography.xml; but if it indicates a subtitle with volume number, the subtitle too won't be in italic!!! -->
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:biblScope[@unit='issue']" mode="full-citation"><!-- for bibliography.xml;  -->
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:biblScope[@unit='chapter']" mode="full-citation"><!-- for bibliography.xml;  -->
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:biblScope/@unit" mode="full-citation"><!-- for xml files -->
-    <xsl:apply-templates />
-    <xsl:text></xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:pubPlace" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:publisher" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct[@type='book']//tei:date" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text/>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct[@type='bookSection']//tei:date" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct[@type='journalArticle']//tei:date" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text>, </xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="tei:biblStruct//tei:citedRange" mode="full-citation">
-    <xsl:apply-templates />
-    <xsl:text/>
-  </xsl:template>
-  
-
-  <xsl:template match="tei:bibl" mode="short-citation">
-    <xsl:choose>
+  <xsl:template match="tei:bibl[@xml:id]" mode="short-citation">
+    <strong><xsl:value-of select="tei:bibl[@type='abbrev']"/></strong>
+    <!--<xsl:choose>
       <xsl:when test="tei:editor">
         <xsl:value-of select="tei:editor[1]" />
       </xsl:when>
@@ -175,23 +66,154 @@
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text> </xsl:text>
-    <xsl:value-of select=".//tei:date[1]" />
+    <xsl:value-of select=".//tei:date[1]" />-->
   </xsl:template>
-
-  <!--<xsl:template match="tei:editor">
+  
+  <xsl:template match="tei:bibl[@type='abbrev']">
+    <xsl:value-of select="." />
+  </xsl:template>
+  
+  <xsl:template match="tei:author">
+    <xsl:value-of select="." />
+    <xsl:choose>
+      <xsl:when test="following-sibling::tei:author">
+        <xsl:text>, </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>, </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:title[@level='m']">
+    <i><xsl:value-of select="." /></i>
+    <xsl:choose>
+      <xsl:when test="following-sibling::tei:biblScope[@unit='part']">
+        <xsl:text>: </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>, </xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:biblScope[@unit='part']">
+    <xsl:value-of select="." />
+    <xsl:text>, </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:biblScope[@unit='volume']">
+    <xsl:value-of select="." />
+    <xsl:text>, </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:biblScope[@unit='issue']">
+    <xsl:value-of select="." />
+    <xsl:text>, </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:biblScope[@unit='chapter']">
+    <xsl:value-of select="." />
+    <xsl:text>, </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:ref[@target]">
+    <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="@target" /></xsl:attribute><xsl:value-of select="." /></a>
+  </xsl:template>
+  
+  <xsl:template match="tei:editor">
     <xsl:value-of select="." />
     <xsl:choose>
       <xsl:when test="following-sibling::tei:editor">
         <xsl:text>, </xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text> (ed</xsl:text>
+        <i18n:text i18n:key="epidoc-xslt-sigidoc-ed"><xsl:text> (ed</xsl:text>
         <xsl:if test="preceding-sibling::tei:editor">
           <xsl:text>s</xsl:text>
         </xsl:if>
-        <xsl:text>) </xsl:text>
+        <xsl:text>.), </xsl:text></i18n:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:pubPlace">
+    <xsl:value-of select="." />
+    <xsl:text>, </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:publisher">
+    <xsl:value-of select="." />
+    <xsl:text>, </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:date">
+    <xsl:value-of select="." />
+    <xsl:choose>
+      <xsl:when test="following-sibling::tei:biblScope [@unit='page']">
+        <xsl:text>, </xsl:text>
+      </xsl:when>
+      <xsl:when test=" following-sibling::tei:series">
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>.</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:title[@level='s']">
+    (<xsl:apply-templates/>).
+  </xsl:template>
+  
+  <xsl:template match="tei:title[@level='a']">
+    "<xsl:apply-templates/>",
+    <xsl:choose>
+      <xsl:when test="following-sibling::tei:title[@level='m']">
+        <i18n:text i18n:key="epidoc-xslt-sigidoc-in"><xsl:text> in </xsl:text></i18n:text>
+      </xsl:when>
+      <xsl:when test="following-sibling::tei:title[@level='j']">
+        <xsl:text></xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>, </xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+ 
+ <!--<xsl:template match="tei:biblScope[@unit='page']">
+   <xsl:value-of select="." />
+   <xsl:text>.</xsl:text>
+ </xsl:template>-->
+  
+  <xsl:template match="tei:biblScope[@unit='page']">
+    <xsl:choose>
+      <xsl:when test="following-sibling::tei:series">
+        <xsl:value-of select="." />
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="." />
+        <xsl:text>.</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+ 
+
+  <!--<xsl:template match="tei:title[1]">
+    <xsl:text>, </xsl:text>
+    <xsl:value-of select="." />
+  </xsl:template>
+  
+  <xsl:template match="tei:title[2]">
+    <xsl:choose>
+      <xsl:when test="@level='j'">
+        <xsl:text>, </xsl:text>
+        <xsl:value-of select="." />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>, in </xsl:text>
+        <xsl:value-of select="." />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>-->
-
+  
 </xsl:stylesheet>

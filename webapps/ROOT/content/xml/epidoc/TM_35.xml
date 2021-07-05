@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Nicolas, évêque de Sébastè</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_35</idno>
                 <idno type="SigiDocID">35</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0038</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -89,7 +91,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">24</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -134,7 +136,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="lettering" cert="high" resp="#AS">
+                            <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="lettering" cert="high"><!-- 1034-1066????????????? -->
                                 <seg xml:lang="en">XIth C., central third</seg>
                                 <seg xml:lang="fr">XIe s., tiers central</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
@@ -142,14 +144,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -217,11 +214,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 8 lines</seg>
+                                            <seg xml:lang="en">Legend of 8 lines</seg>
                                             <seg xml:lang="fr">Légende sur 8 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende métrique sur 8 lignes précédée par une croisette</p>
-                                        <p xml:lang="en">Metrical legend on 8 lines preceded by a small cross</p>
+                                        <p xml:lang="en">Metrical legend of 8 lines preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -251,11 +248,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2018-08-11" who="AS">First version of the record</change>
@@ -326,7 +321,7 @@
                                   </rs> 
                                   <w lemma="φέρω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=ferousa&amp;la=greek">
                                       φ<supplied reason="lost">έ
-                                  <lb n="6" break="no"/>ρ</supplied>ουσα<!-- visualised as a unique restoration across the 2 lines: is it correct????????? -->
+                                  <lb n="6" break="no"/>ρ</supplied>ουσα
                                   </w> 
                                   <rs type="saintsTerm" subtype="appellative" ref="saintsTerms.xml#μάρτυς">
                                       μάρ
@@ -334,7 +329,7 @@
                                       τυρος
                                   </rs>
                                   <lb n="8"/>
-                                  <w lemma="τύπος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tupon&amp;la=greek"><!-- or a more precific category?????????????????????????????? -->
+                                  <w lemma="τύπος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tupon&amp;la=greek">
                                       <supplied reason="lost">τ</supplied>ύπο<supplied reason="lost">ν</supplied>
                                   </w>
                               </l>
@@ -351,6 +346,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>
                           <lb n="1"/>σφραγ͵
                           <lb n="2"/>σεαστησ
                           <lb n="3"/>ποιενοσ
@@ -371,10 +367,12 @@
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>῾Ο ἅγιος Θεόδωρος ὁ Στρατιλάτης. / +Σφράγις Σεβαστῆς ποιμένος Νικολάου Θεοδώρου φέρουσα μάρτυρος τύπον.</p>
+                  <p xml:lang="en">St Theodore Stratelates. / Seal of the shepherd of Sebaste Nicholas bearing the impression of the martyr Theodore.</p>
+                  <p xml:lang="fr">Saint Théodore Stratèlatès. / Sceau du berger de Sébastè Nicolas qui porte l'empreinte du martyr Théodore.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>Sise dans la vallée du Méandre, Sebastè (l’actuel Selçikler) relevait de l’éparchie de Phrygie Pakatiane [2].
                           Elle occupait le dixième rang des suffragants de Laodicée de Phrygie dans la notice 1
                           du VIIe siècle [3], mais profita apparemment de la crise des cités lors des siècles obscurs
@@ -382,74 +380,26 @@
                           Mystikos [4]. Si l’on en croit les listes établies par Giorgio Fedalto, Nicolas est le premier
                           titulaire du siège connu après Constantin qui siégea au concile photien de 879 [5].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:DOseals3"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2466/view">no 33.1</ref></citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2466/view">33.1</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:TIB7"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#TIB7"/>
-                          <citedRange unit="page">p. 376-378</citedRange>
-                      </biblStruct>.
+                      2. <bibl><ptr target="TIB7"/>, <citedRange unit="page"><ref target="https://tib.oeaw.ac.at/reader/TIB/tib7.html#page/376/mode/2up">p. 376-378</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:NotitiaeEpiscopatuum"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#NotitiaeEpiscopatuum"/>
-                          <citedRange>p. 211, l. 322</citedRange>
-                      </biblStruct>. Pour une redatation de cette notice,
-                      <bibl sameAs="bib:Jankowiak2013"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jankowiak2013"/>
-                      </biblStruct>.
+                      3. <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 211, l. 322</citedRange></bibl>. Pour une redatation de cette notice,
+                      <bibl><ptr target="Jankowiak2013"/></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:NotitiaeEpiscopatuum"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#NotitiaeEpiscopatuum"/>
-                          <citedRange>p. 280, l. 391</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 280, l. 391</citedRange></bibl>.
                   </p>
                   <p>
-                      5. <bibl sameAs="bib:Fedalto1988"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Fedalto1988"/>
-                          <citedRange unit="page">p. 162-163</citedRange>
-                      </biblStruct>.
+                      5. <bibl><ptr target="Fedalto1988"/>, <citedRange unit="page">p. 162-163</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 35, p. 750-751</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>35, p. 750-751</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

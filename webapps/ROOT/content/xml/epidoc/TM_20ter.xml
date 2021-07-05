@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Zacharie Phrangos, vestarque et stratège de Séleucie</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,26 +20,25 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filename"/>
+                <idno type="filename">TM_20ter</idno>
                 <idno type="SigiDocID">44</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0022</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>
-                            <seg xml:lang="en">??????</seg>
-                            <seg xml:lang="fr">??????</seg>
+                            <seg xml:lang="en">Greece</seg>
+                            <seg xml:lang="fr">Grèce</seg>
                         </country>
                         <settlement>
                             <seg></seg>
@@ -92,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter"/>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -139,7 +140,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1060" notAfter="1080" evidence="prosopography lettering titulature" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1060" notAfter="1080" evidence="prosopography lettering titulature" cert="high">
                                 <seg xml:lang="en">1060-1080</seg>
                                 <seg xml:lang="fr">1060-1080</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
@@ -147,18 +148,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p xml:lang="en">Numismatik Lanz, Sale 74, <date when="1993-06-07">7th of June 1993</date>, lot no. 1016</p>
-                            <p xml:lang="fr">Numismatik Lanz, Vente 74, <date when="1993-06-07">7 juin 1993</date>, lot no. 1016</p>
+                            <p xml:lang="en">Numismatik Lanz, Sale 74, <date when="1993-06-07">7th of June 1993</date>, lot 1016</p>
+                            <p xml:lang="fr">Numismatik Lanz, Vente 74, <date when="1993-06-07">7 juin 1993</date>, lot 1016</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -227,10 +222,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 7 lines</seg>
+                                            <seg xml:lang="en">Legend of 7 lines</seg>
                                             <seg xml:lang="fr">Légende sur 7 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 7 lines</p>
+                                        <p xml:lang="en">Legend of 7 lines</p>
                                         <p xml:lang="fr">Légende sur 7 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -264,11 +259,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2018-08-18" who="AS">First version of the record</change>
@@ -293,7 +286,7 @@
       <text>
           <body>
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
-                  <div type="textpart" subtype="sigla" n="obv" rend="linear"><!-- sigla -->
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>
                           <rs type="marianTerm" subtype="sigla" ref="marianTerms.xml#Μήτηρ_Θεοῦ">
@@ -309,11 +302,10 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε">
+                                  <rs type="invocation" ref="invocation.xml#Θεοτόκε1" rend="linear">
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
                                           <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan>
                                       </rs> 
@@ -354,8 +346,7 @@
                                           γῳ
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -368,7 +359,8 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n="1"/>+ΘΚ̅ε̅͵θ͵
+                          <lb n="0"/>  <!-- not well visualised by AR -->
+                          <lb n="1"/>ΘΚε͵θ͵
                           <lb n="2"/>Ζαχαρια
                           <lb n="3"/>εςταρχη
                           <lb n="4"/>ςτρατιγ͵ṭ
@@ -380,16 +372,19 @@
               </div>
               <div type="apparatus">
                       <listApp>
-                          <app>
-                              <note xml:lang="en">None.</note>
-                              <note xml:lang="fr">Aucun.</note>
+                          <app loc="1">
+                              <note>Le premier tiret de la décoration qui précède sert aussi à marquer
+                                  l’abréviation du premier mot: dans l’édition il a été redoublé pour
+                                  maintenir sa double fonction.</note>
                           </app>
                       </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. / +Θεοτόκε βοήθει Ζαχαρίᾳ βεστάρχῃ καὶ στρατιγῷ τῆς Σελευκίας τῷ Φράγγῳ.</p>
+                  <p xml:lang="en">Mother of God. / Mother of God aid Zacharias Phrangos, vestarches and strategos of Seleukeia.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide Zacharie Phrangos, vestarque et stratège de Séleucie.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p>Le prénom étant très rare [1], le possesseur de cette pièce peut raisonnablement, en
                               vertu de sa date, être identifié avec l’un des officiers d’Alexis Comnène qui trouva la
                               mort face aux Normands de Robert Guiscard à Dyrrachion en 1081 [2].</p>
@@ -405,113 +400,49 @@
                               magistre Guillaume [5]. Cette succession d’Arménien à Francs est fort intéressante au vu
                               des alliances passées peu après entre Arméniens et croisés en Cilicie [6].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. Seulement sept attestations dans la <bibl sameAs="bib:PBW"/> sous<ref target="https://pbw2016.kdl.kcl.ac.uk/browse/?name=%22Zacharias%22"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry">Zacharias</citedRange>
-                      </biblStruct></ref>
+                      1. Seulement sept attestations dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="https://pbw2016.kdl.kcl.ac.uk/browse/?name=%22Zacharias%22">Zacharias</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Alexias2001"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Alexias2001"/>
-                          <citedRange>p. 135, l. 62-63</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/"><biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#PBW"/>
-                              <citedRange unit="entry">Zacharias 15001</citedRange>
-                          </biblStruct></ref>.
+                      2. <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 135, l. 62-63</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/">Zacharias 15001</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
-                          <citedRange unit="page">p. 660, 675</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 660, 675</citedRange></bibl>.
                   </p>
                   <p>
-                      4. Sur Robert Crispin, <bibl sameAs="bib:PBW"/><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Robert/101/"><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry">Robert 101</citedRange>
-                      </biblStruct></ref>. Lorsqu’il mourut, Roussel hérita du commandement sur les Francs, et
+                      4. Sur Robert Crispin, <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Robert/101/">Robert 101</ref></citedRange></bibl>. Lorsqu’il mourut, Roussel hérita du commandement sur les Francs, et
                           Bryennios précise qu’il appartenait auparavant à son « hétairie » : Οὐρσέλιος, τῆς ἑταιρέιας ὢν τοῦ
-                          Κρισπίνου καὶ τῆς ἐκείνου κατάρχων φάλαγγος (<bibl sameAs="bib:BryenniosHistoire1975"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#BryenniosHistoire1975"/>
-                              <citedRange>p. 147, l. 24 – p. 149, l. 1</citedRange>
-                          </biblStruct>). On
+                          Κρισπίνου καὶ τῆς ἐκείνου κατάρχων φάλαγγος (<bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="page">p. 147, l. 24 – p. 149, l. 1</citedRange></bibl>). On
                           pourrait également comprendre que Crispin commandait une hétairie, au sens d’un régiment de la
                           garde du palais, mais la formule semble plutôt impliquer deux échelons, la « phalange » de Crispin,
                           qui serait le régiment franc, et son hétairie, au sens de garde personnelle.
                   </p>
                   <p>
                       5. Connu par un sceau à la légende Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Γηληέλμῳ μαγίστρῳ στρατηγῷ
-                      Σελευκείας καὶ ἀνθρώπῳ τοῦ βασιλέως ἡμῶν τοῦ ἁγίου : <bibl sameAs="bib:Seibt1997"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1997"/>
-                          <citedRange unit="entry">no. 2.3.2</citedRange>
-                      </biblStruct>.
+                      Σελευκείας καὶ ἀνθρώπῳ τοῦ βασιλέως ἡμῶν τοῦ ἁγίου : <bibl><ptr target="Seibt1997"/>, <citedRange unit="entry">2.3.2</citedRange></bibl>.
                   </p>
                   <p>
                       6. On rappellera également qu’après que Romain IV a démis de ses fonctions Robert Crispin
                           pour sédition, les hommes de ce dernier s’attaquèrent un temps à la Mésopotamie. On ignore ce qu’il
                           advint d’eux finalement mais il n’est peut-être pas incident que la Mésopotamie ait été le bastion de
                           la famille d’Apnelgarib Arsakidès depuis que Grigor magistros y avait reçu d’immenses domaines de
-                          l’empereur Constantin IX Monomaque (<bibl sameAs="bib:AristakèsRécit1973"/>,<biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#AristakèsRécit1973"/>
-                              <citedRange>62.17, p. 51</citedRange>
-                          </biblStruct> : « Grigor reçut la dignité de
+                          l’empereur Constantin IX Monomaque (<bibl><ptr target="AristakèsRécit1973"/>, <citedRange>62.17, p. 51</citedRange></bibl> : « Grigor reçut la dignité de
                           magistros, des villages et des villes dans le territoire de la Mésopotamie à titre de lieux de résidence et
                           le droit de les transmettre à perpétuité de génération en génération, qui lui fut confirmé par une bulle
                           à sceau d’or »). Si les rebelles rentrèrent dans le rang, ce qui semble probable, ils auraient pu servir déjà
                           sous le chef Arsakidès et l’accompagner dans le thème de Séleucie.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 20ter, p. 718-719</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl sameAs="bib:SBSauctions"/><biblStruct><!-- va bene qui??????????????? chiedere a Vivien da dove viene la foto -->
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#SBSauctions"/>
-                          <citedRange>6, 1999, p. 141;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Nikolau2012"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="biblio:Nikolau2012"/>
-                          <citedRange unit="page">, ici p. 122</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>20ter, p. 718-719</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="discussionCurrent">
+                  <p>
+                      <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 141</citedRange></bibl>;
+                      <bibl><ptr target="Nikolau2012"/>, <citedRange unit="page">p. 122</citedRange></bibl>.
+                  </p>
               </div>
           </body>
       </text>

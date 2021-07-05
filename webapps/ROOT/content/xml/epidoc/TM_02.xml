@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Constantin IV, Constant II et Anastasie, basileis des Romains</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filrname">TM_02</idno>
+                <idno type="filename">TM_02</idno>
                 <idno type="SigiDocID">2</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0002</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -44,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>56</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -57,9 +58,9 @@
                             <seg xml:lang="en">Imperial seals</seg>
                             <seg xml:lang="fr">Sceaux impértaux</seg>
                         </summary>
-                        <textLang mainLang="grc-Latn"><!-- ???????????????????????????????? -->
-                            <seg xml:lang="en">Ancient Greek written in latin script</seg>
-                            <seg xml:lang="fr">Grec ancien en alphabet latin</seg>
+                        <textLang mainLang="grc-Latn">
+                            <seg xml:lang="en">Byzantine Greek in Latin script</seg>
+                            <seg xml:lang="fr">Grec byzantin en alphabet latin</seg>
                         </textLang>
                         <msItem>
                             <author>
@@ -98,13 +99,13 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">32</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="trimmedPerimeter"><!-- @rend???????????????????????? -->
                                     <p>Bon état de conservation ; large flan rogné sur le pourtour</p>
                                 </condition>
                             </supportDesc>
@@ -155,8 +156,7 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -230,10 +230,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines</seg>
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 6 lines preceded by a small cross</p>
+                                        <p xml:lang="en">Legend of 6 lines preceded by a small cross</p>
                                         <p xml:lang="fr">Légende sur 6 lignes précédée d’une croisette</p>
                                     </layout>
                                 </layoutDesc>
@@ -266,11 +266,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-05-29" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-13" who="AS">First version of the record</change>
@@ -297,8 +295,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc-Latn">
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Nom">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Nom">
                                   <lb n="1"/>
                                   +
                                   <persName type="attested" ref="prosopography.xml#Κωνσταντῖνος_Δ">
@@ -329,35 +326,31 @@
                                   <lb n="6"/>
                                       <w lemma="Ῥωμαῖος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=rwmaioi&amp;la=greek">Romaio<supplied reason="lost">n</supplied></w>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc-Latn"><!-- at the end of the 4th line, not the right abbrev. sign -->
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n="1"/>COS
-                          <lb n="2"/>I̣OS
-                          <lb n="3"/>COS̣̣/
-                          <lb n="4"/>SSSI/
-                          <lb n="5"/>ECʹSIL/
-                          <lb n="6"/>ṛọ̣̣ι̣ο̣.
+                          <lb n="1"/><c type="glyph" ref="glyphs.xml#uniE745" subtype="decoration"></c><c type="glyph" ref="glyphs.xml#uniE805" subtype="decoration"></c><c type="glyph" ref="glyphs.xml#C">C</c><c type="glyph" ref="glyphs.xml#O">O</c><c type="glyph" ref="glyphs.xml#N.1"></c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyhps.xml#T.1"></c>
+                          <lb n="2"/><c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ref="glyphs.xml#N.1"></c><c type="glyph" ref="glyhps.xml#T.1"></c><c type="glyph" ref="glyphs.xml#I">I</c><c type="glyph" ref="glyphs.xml#N.1"></c>̣<c type="glyph" ref="glyphs.xml#O">O</c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyphs.xml#uniE745" subtype="decoration"></c>
+                          <lb n="3"/><c type="glyph" ref="glyphs.xml#C">C</c><c type="glyph" ref="glyphs.xml#O">O</c><c type="glyph" ref="glyphs.xml#N.1"></c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyhps.xml#T.1"></c>̣<c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c>̣<c type="glyph" ref="glyphs.xml#N.1"></c><c type="glyph" ref="glyhps.xml#T.1"></c><c type="glyph" ref="glyphs.xml#uni2E09.1" subtype="abbreviation"></c>
+                          <lb n="4"/><c type="glyph" ref="glyphs.xml#Kappa_Alpha_Iota" subtype="greekLigatures"></c><c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ref="glyphs.xml#N.1"></c><c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyhps.xml#T.1"></c><c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyphs.xml#I">I</c><c type="glyph" ref="glyphs.xml#uni002F" subtype="abbreviation">/</c>
+                          <lb n="5"/><c type="glyph" ref="glyphs.xml#E">E</c><c type="glyph" ref="glyphs.xml#C">C</c><c type="glyph" ref="glyphs.xml#Theta.2" subtype="Θ"></c><c type="glyph" ref="glyphs.xml#uni02CA" subtype="abbreviation">ʹ</c><c type="glyph" ref="glyphs.xml#B.1"></c><c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyphs.xml#I">I</c><c type="glyph" ref="glyiphs.xml#L">L</c><c type="glyph" ref="glyphs.xml#uni2E09.1" subtype="abbreviation"></c>
+                          <lb n="6"/><c type="glyph" ref="glyphs.xml#R">R</c>̣<c type="glyph" ref="glyphs.xml#O">O</c>̣<c type="glyph" ref="glyphs.xml#M.2"></c>̣<c type="glyph" ref="glyphs.xml#Alpha.20" subtype="Α"></c>̣<c type="glyph" ref="glyphs.xml#I">I</c>̣<c type="glyph" ref="glyphs.xml#O">O</c>̣<c type="glyph" ref="glyphs.xml#period" subtype="editorial">.</c>
                       </ab>
                   </div>
-              </div>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
-                  <!-- for nested elements, see previous element -->
               </div>
               <div type="apparatus">
                       <p></p>
               </div>
               <div type="translation">
                   <p>+Constantinos Constantinou καὶ Anastasia ec Θeu basileis Romaion.</p>
-                  <p xml:lang="en"></p>
-                  <p xml:lang="fr"></p>
+                  <p xml:lang="en">Constantine, Constans and Anastasia, emperors of the Romans.</p>
+                  <p xml:lang="fr">Constantin, Constant et Anastasie, empereurs des Romains.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                                   <p>L’absence de représentations impériales sur ce sceau[2] est tout à fait singulière, n’ayant
                                       ni précédent, ni postérité avant l’époque iconoclaste. On en connaît deux versions
                                       légèrement différentes. Notre pièce se rattache à deux sceaux de l’ancienne collection
@@ -385,7 +378,7 @@
                                       de même pour la bulle découverte sur les bords du Danube et publiée par Barnea [6]. Bien
                                       évidemment, cela peut sembler étonnant puisqu’on y lit clairement COSO, mais
                                       les légendes monétaires du règne de Constantin IV montrent des déformations tout aussi
-                                      importantes du nom impérial : CONSAIUS ou CONSANUS [7].</p>
+                                      importantes du nom impérial : CONSAIUS ou CONSANUS [7].</p><!-- in commentary, only variants are visualised with Athena Ruby -->
                                   <p>Le rapprochement de la légende du sceau avec celles des émissions monétaires de
                                       Constantin IV est d’un intérêt plus large. En effet, comme l’a souligné le premier
                                       H. Goodacre [8], la formule NCONSAIUSCCOS en usage sur les solidi de classe I et une
@@ -441,245 +434,91 @@
                                       permettrait de trancher définitivement la question en faveur d’une attribution au règne
                                       de Constant II.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1.  <bibl sameAs="bib:BBÖ1"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ1"/>
-                          <citedRange unit="page">p. 75</citedRange>
-                      </biblStruct>.
+                      1.  <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75</citedRange></bibl>.
                   </p>
                   <p> 
-                      2. Ce sceau, à strictement parler, n'a aucun parallèle, mais les bulles <bibl sameAs="bib:Zacos1"/>, <biblStruct>
-                      <monogr>
-                          <imprint><biblScope/></imprint>
-                      </monogr><ptr target="bibliography.xml#Zacos1"/>
-                      <citedRange unit="part">nos 19a-b</citedRange>
-                  </biblStruct>, sont de même conception. Les trois matrices sont néanmoins différentes. Des différences plus nettes apparaissent
-                      avec un quatrième boullotèrion : <ref target="https://www.persee.fr/doc/rebyz_1146-9447_1939_num_38_195_2941"><bibl sameAs="bib:Laurent1939"/></ref>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laurent1939"/>
-                          <citedRange unit="page">p. 359</citedRange>
-                      </biblStruct> (description de l’effigie et transcription de la légende) = <ref target="http://www.snr-1903.ro/cna/arhiva/cna-nr.117-118.pdf"><bibl sameAs="bib:Laurent1940"/></ref>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laurent1940"/>
-                          <citedRange unit="page">p. 207</citedRange>
-                      </biblStruct> (description de l’effigie et transcription de la légende) = <bibl sameAs="bib:Barnea1981"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Barnea1981"/>
-                      </biblStruct> = <bibl sameAs="bib:Barnea1982"/>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Barnea1982"/>
-                          <citedRange> no 4, p. 203-206</citedRange>
-                      </biblStruct>  = 
-                      <bibl sameAs="bib:JordanovCorpus3"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#JordanovCorpus3"/>
-                          <citedRange> no 51</citedRange>
-                      </biblStruct><!-- 3.1???????????????????????????????? -->.</p>
+                      2. Ce sceau, à strictement parler, n'a aucun parallèle, mais les bulles <bibl><ptr target="Zacos1"/>, <citedRange unit="part">19a-b</citedRange></bibl>, sont de même conception. Les trois matrices sont néanmoins différentes. Des différences plus nettes apparaissent
+                      avec un quatrième boullotèrion : <bibl><ptr target="Laurent1939"/>, <citedRange unit="page">p. 359</citedRange></bibl> (description de l’effigie et transcription de la légende) = 
+                      <bibl><ptr target="Laurent1940"/>, <citedRange unit="page">p. 207</citedRange></bibl> (description de l’effigie et transcription de la légende) = <bibl><ptr target="Barnea1981"/></bibl> = 
+                      <bibl><ptr target="Barnea1982"/>, <citedRange>4, p. 203-206</citedRange></bibl> = <bibl><ptr target="JordanovCorpus3"/>, <citedRange> 51</citedRange></bibl>.</p>
                   <p>
-                      3. <bibl sameAs="bib:BBÖ1"/>,
-                      <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr>
-                          <ptr target="bibliography.xml#BBÖ1"/>
-                          <citedRange unit="page">p. 75-76</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75-76</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Zuckerman2010"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 882</citedRange>
-                      </biblStruct>; après avoir corrigé de manière substantielle la lecture et
-                      l’interprétation du sceau <bibl sameAs="bib:Zacos1"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange>no 18</citedRange>
-                      </biblStruct> (qui ne porte pas le nom d’Anastasie), il conclut
+                      4. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>; après avoir corrigé de manière substantielle la lecture et
+                      l’interprétation du sceau <bibl><ptr target="Zacos1"/>, <citedRange>18</citedRange></bibl> (qui ne porte pas le nom d’Anastasie), il conclut
                       que « these specimens from the early 680s represent the first case of the transposition of title basileus
                       on the imperial seals ».
                   </p>
                   <p>
                       5. Seule la déformation du flan permet d’écrire que « the photograph supports Constantos
-                      in line 3 » : <bibl sameAs="bib:Zuckerman2010"/>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 882</citedRange>
-                      </biblStruct>. La position de la dernière lettre de la
+                      in line 3 » : <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>. La position de la dernière lettre de la
                           deuxième ligne permet de déterminer où s’arrêtait la troisième et il est clair que l’on a la place que pour
-                          l’abréviation. De même, on ne peut suivre l’auteur lorsqu’il indique que le sceau <bibl sameAs="bib:Zacos1"/>, <biblStruct>
-                              <monogr>
-                                  <imprint><biblScope/></imprint>
-                              </monogr><ptr target="bibliography.xml#Zacos1"/>
-                              <citedRange unit="part">no 18b</citedRange>
-                          </biblStruct> ne présente pas le S entre les deux mentions du nom Constantin. L’état de conservation de la bulle ne
+                          l’abréviation. De même, on ne peut suivre l’auteur lorsqu’il indique que le sceau <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18b</citedRange></bibl> ne présente pas le S entre les deux mentions du nom Constantin. L’état de conservation de la bulle ne
                           permet pas de postuler son absence.
                   </p>
                   <p>
-                      6. Comme l’a fait remarquer <bibl sameAs="bib:Barnea1981"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Barnea1981"/>
-                          <citedRange unit="page">p. 627</citedRange>
-                      </biblStruct> ; voir aussi <bibl sameAs="bib:Zuckerman2010"/>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 882</citedRange>
-                      </biblStruct>.
+                      6. Comme l’a fait remarquer <bibl><ptr target="Barnea1981"/>, <citedRange unit="page">p. 627</citedRange></bibl> ; voir aussi <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:DOC2.2"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOC2.2"/>
-                          <citedRange>nos 1 et 12, p. 525 et 530</citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="DOC2.2"/>, <citedRange>1, 12, p. 525, 530</citedRange></bibl>.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:Goodacre1945"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Goodacre1945"/>
-                          <citedRange>p. 37-38</citedRange>
-                      </biblStruct>.
+                      8. <bibl><ptr target="Goodacre1945"/>, <citedRange>p. 37-38</citedRange></bibl>.
                   </p>
                   <p>
-                      9. <bibl sameAs="bib:Zuckerman2010"/>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 883</citedRange>
-                      </biblStruct> propose d’interpréter le premier C comme un F
+                      9. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 883</citedRange></bibl> propose d’interpréter le premier C comme un F
                           pour filius, mais les monnaies de Filippicus présentent une forme tout à fait différente de cette lettre.
                   </p>
                   <p>
-                      10. Point souligné par <bibl sameAs="bib:BBÖ1"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ1"/>
-                          <citedRange unit="page">p. 76</citedRange>
-                      </biblStruct>. Voir, en dernier lieu, <bibl sameAs="bib:Prigent2016"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Prigent2016"/>
-                      </biblStruct>.
+                      10. Point souligné par <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 76</citedRange></bibl>. Voir, en dernier lieu, <bibl><ptr target="Prigent2016"/></bibl>.
                   </p>
                   <p>
-                      11. <bibl sameAs="bib:Zuckerman2010"/>, ici <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 882</citedRange>
-                      </biblStruct>.
+                      11. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
                   </p>
                   <p>
-                      12. <bibl sameAs="bib:Zacos1"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zacos1"/>
-                          <citedRange unit="part">no 18a</citedRange>
-                      </biblStruct>. Le signe d’abréviation en fin de première ligne est clair et on ne
+                      12. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18a</citedRange></bibl>. Le signe d’abréviation en fin de première ligne est clair et on ne
                           saurait admettre qu’il n’est là que pour la seule voyelle U (Constantin[u]s) ; le S est donc bien ici une
                           conjonction.
                   </p>
                   <p>
-                      13. <bibl sameAs="bib:Zuckerman2010"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 880-881.</citedRange>
-                      </biblStruct>
+                      13. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 880-881</citedRange></bibl>.
                   </p>
                   <p>
-                      14. En dernier lieu, <bibl sameAs="bib:Cosentino2014"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cosentino2014"/>
-                      </biblStruct>; on trouvera le texte accompagné
-                          d’une traduction anglaise, p. 167-169.
+                      14. En dernier lieu, <bibl><ptr target="Cosentino2014"/><citedRange/></bibl>; on trouvera le texte accompagné
+                      d’une traduction anglaise, <bibl><ptr target="Cosentino2014"/>, <citedRange unit="page">p. 167-169</citedRange></bibl>.
                   </p>
                   <p>
                       15. On renoncera donc à voir dans l’inscription de Bizye la première attestation collégiale du
-                      titre de basileus, <bibl sameAs="bib:Zuckerman2010"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Zuckerman2010"/>
-                          <citedRange unit="page">p. 884</citedRange>
-                      </biblStruct>. <bibl sameAs="bib:Cosentino2014"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cosentino2014"/>
-                          <citedRange unit="page">p. 161-166</citedRange>
-                      </biblStruct>, a proposé de lire Constantinus maior imperator Heraclii et Tiberii imperator(um) l’inscription
+                      titre de basileus, <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 884</citedRange></bibl>. <bibl><ptr target="Cosentino2014"/>, <citedRange unit="page">p. 161-166</citedRange></bibl>, 
+                      a proposé de lire <hi rend="italic">Constantinus maior imperator Heraclii et Tiberii imperator(um)</hi> l’inscription
                           reconstruite de San Apollinare in Classe et d’y voir la célébration d’une confirmation par Constantin IV
                           des privilèges octroyés par son père. Néanmoins, comme le souligne l’auteur, toute reconstruction est
-                          hypothétique puisque tout repose en réalité sur la version du texte transmise dans le Liber pontificalis
-                          Ecclesiae Ravennatis d’Agnellus. En effet, à la fin du XVIIe siècle, il ne restait rien de l’inscription originelle
+                          hypothétique puisque tout repose en réalité sur la version du texte transmise dans le <hi rend="italic">Liber pontificalis
+                          Ecclesiae Ravennatis</hi> d’Agnellus. En effet, à la fin du XVIIe siècle, il ne restait rien de l’inscription originelle
                           qui a été reconstituée ultérieurement, sans doute à partir de la source littéraire. On n’insistera donc
                           pas trop sur ce document.
                   </p>
                   <p>
-                      16. <bibl sameAs="bib:Theophanes"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Theophanes"/><!-- vérifier qu'ill s'agisse bien de 1883!!!!!!!!!!!!!!! -->
-                          <citedRange unit="page">p. 352</citedRange>
-                      </biblStruct>.
+                      16. <bibl><ptr target="Theophanes"/>, <citedRange unit="page">p. 352</citedRange></bibl>.
                   </p>
                   <p>
-                      17. <bibl sameAs="bib:Thomas_of_Elmham"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Thomas_of_Elmham"/>
-                          <citedRange unit="page">p. 244-245</citedRange>
-                      </biblStruct>.
+                      17. <bibl><ptr target="Thomas_of_Elmham"/>, <citedRange unit="page">p. 244-245</citedRange></bibl>.
                   </p>
                   <p>
-                      18. <bibl sameAs="bib:DOseals6"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals6"/>
-                          <citedRange unit="part">nos 22.1-3</citedRange>
-                      </biblStruct> (dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4260/view">BZS.1955.1.4260</ref>,
+                      18. <bibl><ptr target="DOseals6"/>, <citedRange unit="part">22.1-3</citedRange></bibl> (dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4260/view">BZS.1955.1.4260</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4259">BZS.1955.1.4259</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4261">BZS.1955.1.4261</ref>). Sur ces bulles, la hiérarchie n’est indiquée que par le portrait imberbe qui,
                           d’une certaine façon, peut renvoyer visuellement au titre de novus augustus dans l’acception grecque
-                          de novus, neos, « jeune ».
+                          de <hi rend="italic">novus</hi>, <hi rend="italic">neos</hi>, « jeune ».
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 2, p. 692-696</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl><ptr target="Sopracasa2017"/>, <citedRange>2, p. 692-696</citedRange></bibl>
+                  </p>
               </div>
           </body>
       </text>

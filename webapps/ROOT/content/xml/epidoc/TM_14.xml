@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Léon, vestès, patrice et juge des Bucellaires</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_14</idno>
                 <idno type="SigiDocID">14</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0014</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>5</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">30</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -115,8 +117,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3665/">
-                                        <idno type="PBW">3665</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">37</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3665/">3665</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -139,7 +142,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high" resp="#AS #VP"><!-- possible 2 resp? -->
+                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high">
                                 <seg xml:lang="en">XIth C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
@@ -147,16 +150,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: akiles_coleccion (Elche, Spain)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: akiles_coleccion (Elche, Espagne)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -176,11 +175,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende métrique sur 5 lignes, précédée d’une croisette</p>
-                                        <p xml:lang="en">Metrical legend on 5 lines, preceded by a small cross</p>
+                                        <p xml:lang="en">Metrical legend of 5 lines, preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -225,10 +224,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Metrical legend on 5 lines</p>
+                                        <p xml:lang="en">Metrical legend of 5 lines</p>
                                         <p xml:lang="fr">Légende métrique sur 5 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -262,11 +261,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
             <change when="2020-06-17" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -309,26 +306,25 @@
                                   <lb n="3" break="no"/>
                                       του
                                   </rs> 
-                                  <rs type="officeCivil" ref="officeCivil.xml#κριτὴς_τῶν_Βουκελλαρίων">
+                                  <rs type="officeCivil" ref="officeCivil.xml#κριτὴς_τῶν_Βουκελλαρίων"><!-- rs office should be tagged across the faces!!!!!!!!!!!!!!!!!!!!! -->
                                       κριτοῦ
                                   </rs> 
                                   <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
                                       <supplied reason="lost"><expan><ex>καὶ</ex></expan></supplied>
-                                  </w><!-- cert low is for the abbrev. type, not for its meaning???????????? -->
+                                  </w>
                                   <lb n="4"/>
                                   <rs type="dignity" ref="dignities.xml#πατρίκιος">
                                       πατρικί
                                   <lb n="5" break="no"/>
                                       ου
                                   </rs>
-                                  <!-- rs office should be tagged across the faces!!!!!!!!!!!!!!!!!!!!! -->
                               </l>
                           </lg>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                        <lg>
+                        <lg type="metrical" met="dodecasyllabic" subtype="true">
                             <l>
                                 <lb n="6"/>
                                 <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tou&amp;la=greek">
@@ -352,7 +348,6 @@
                                 <lb n="10" break="no"/>
                                     ων
                                 </placeName>
-                                <!-- krites and dikastes tagged with Boukellarion -->
                             </l>
                         </lg>
                       </ab>
@@ -361,6 +356,7 @@
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
                       <ab>
+                          <lb n="0"/>  
                           <lb n="1"/>+σφρα
                           <lb n="2"/>γισμαrεσ̣
                           <lb n="3"/>τριτ.
@@ -370,6 +366,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>  
                           <lb n="6"/>TOυδΙ
                           <lb n="7"/>αΣΤΟΥ
                           <lb n="8"/>ΛΕΟΝΤ͵r
@@ -377,9 +374,6 @@
                           <lb n="10"/>ν
                       </ab>
                   </div>
-              </div>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
-                  <!-- for nested elements, see previous element -->
               </div>
               <div type="apparatus">
                   <listApp>
@@ -394,7 +388,7 @@
                   <p xml:lang="en">Seal of the vestes, judge and patrikios | / Leo, judge of Boukellarion.</p>
                   <p xml:lang="fr">Sceau du <hi rend="italic">vestès</hi>, juge et patrice Léon, juge des Bucellaires.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p>Pour le milieu du XIe siècle, la dignité de <hi rend="italic">vestès</hi> et patrice est fort élevée pour un juge
                               de thème, ce d’autant plus que les Bucellaires n’étaient sans doute pas un poste des plus
                               importants bien qu’il ait couvert une bonne partie de la Paphlagonie, dont les ressortissants
@@ -420,69 +414,26 @@
                               de dignités aussi élevées que celle de Romain Diogène qui accède alors à l’Empire et de
                               peu supérieures à celle de notre juge Léon [8].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Magdalino1998"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Magdalino1998"/>
-                      </biblStruct>; voir également pour la période
-                      immédiatement antérieure, <bibl sameAs="bib:Messis2015"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Messis2015"/>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Magdalino1998"/></bibl>; voir également pour la période
+                      immédiatement antérieure, <bibl><ptr target="Messis2015"/></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:PsellosLetters1941"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PsellosLetters1941"/>
-                          <citedRange>no 65, p. 99</citedRange>
-                      </biblStruct>. En dernier lieu
-                      sur cette correspondance, <bibl sameAs="bib:Jeffreys2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jeffreys2017"/>
-                      </biblStruct>.
+                      2. <bibl><ptr target="PsellosLetters1941"/>, <citedRange>no 65, p. 99</citedRange></bibl>. En dernier lieu
+                      sur cette correspondance, <bibl><ptr target="Jeffreys2017"/></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:DOseals4"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="part">nos <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">1.9</ref> et <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2241/view">1.10</ref></citedRange>
-                      </biblStruct>; <bibl sameAs="bib:BBÖ2"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ2"/>
-                          <citedRange unit="page">, p. 189</citedRange>
-                      </biblStruct>. Les deux personnages pourraient
-                      être identiques. Les Xeroi avaient la haute main sur le Génikon au milieu du XIe siècle : <bibl sameAs="bib:Cheynet2012"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2012"/>
-                      </biblStruct>.
+                      3. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">1.9</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2241/view">1.10</ref></citedRange></bibl>; 
+                      <bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 189</citedRange></bibl>. Les deux personnages pourraient
+                      être identiques. Les Xeroi avaient la haute main sur le Génikon au milieu du XIe siècle : <bibl><ptr target="Cheynet2012"/></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:DOseals4"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.647/view">no 1.11</ref></citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.647/view">1.11</ref></citedRange></bibl>.
                   </p>
                   <p>
                       5. Par exemple dans les bulles de la collection de Dumbarton Oaks, huit protospathaires sur les
-                      dix titulaires (<bibl sameAs="bib:DOseals4"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="part">nos 1.9-17 et 19</citedRange>
-                      </biblStruct>; dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">BZS.1955.1.3404</ref>,
+                      dix titulaires (<bibl><ptr target="DOseals4"/>, <citedRange unit="part">1.9-17, 19</citedRange></bibl>; dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">BZS.1955.1.3404</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2241/view">BZS.1955.1.2241</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.647/view">BZS.1947.2.647</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1522/view">BZS.1955.1.1522</ref>,
@@ -494,71 +445,24 @@
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3272/view">BZS.1955.1.3272</ref>).
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Seibt1976"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Seibt1976"/>
-                          <citedRange unit="part">no 22</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:DOseals3"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals3"/>
-                          <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3270/view">no 86.25</ref></citedRange>
-                      </biblStruct>, avec références aux autres bulles jalonnant sa carrière dans les
-                          Anatoliques et les Arméniaques.
+                      6. <bibl><ptr target="Seibt1976"/>, <citedRange unit="part">22</citedRange></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3270/view">86.25</ref></citedRange></bibl>, 
+                      avec références aux autres bulles jalonnant sa carrière dans les Anatoliques et les Arméniaques.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:Cheynet1985"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet1985"/>
-                          <citedRange unit="page">p. 188</citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="Cheynet1985"/>, <citedRange unit="page">p. 188</citedRange></bibl>.
                   </p>
                   <p>
                       8. Κύριε βοήθει Λέοντι μαγίστρῳ βέστῃ καὶ στρατηγῷ τῶν Βουκελλαρίων τῷ Ἰασίτῃ:
-                      <bibl sameAs="bib:DOseals4"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3062/view">no 1.32</ref></citedRange>
-                      </biblStruct>. Pour sa carrière, <bibl sameAs="bib:BBÖ1"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ1"/>
-                          <citedRange unit="part">no 40</citedRange>
-                      </biblStruct>. Le premier duc connu, Michel Maurix,
-                      était proèdre: <bibl sameAs="bib:DOseals4"/>, <biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals4"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2995/view">no 1.6</ref></citedRange>
-                      </biblStruct>.
+                      <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3062/view">1.32</ref></citedRange></bibl>. Pour sa carrière, <bibl><ptr target="BBÖ1"/>, <citedRange unit="part">40</citedRange></bibl>. Le premier duc connu, Michel Maurix,
+                      était proèdre: <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2995/view">1.6</ref></citedRange></bibl>;
+                      <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">93</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 14, p. 707-709</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:BBÖ2"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#BBÖ2"/>
-                          <citedRange unit="part">, no 178</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>14, p. 707-709</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="BBÖ2"/>, <citedRange unit="part">178</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

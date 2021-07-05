@@ -2,14 +2,16 @@
 <!-- $Id$ -->
 <xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" version="2.0">
+                xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" version="2.0"
+                xmlns:fn="http://www.w3.org/2005/xpath-functions">
   <!-- Contains named templates for IOSPE file structure (aka "metadata" aka "supporting data") -->
 
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <!-- LAST MODIFIED: 2020-10-11 -->
+  <!-- LAST MODIFIED: 2021-07-01 -->
 
   <xsl:template name="sigidoc-body-structure">
+    <xsl:call-template name="navigation"/>
     
 
       <h6 width="600" align="right" xml:space="preserve">SigiDoc ID: 
@@ -47,11 +49,32 @@
         <dd>
           <xsl:choose xml:space="preserve">
             <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']">
-              <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno//text()"/>*<!-- the mention Sigidoc id should precede the number -->
+              <xsl:choose>
+                <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc'] and //t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']">
+                  SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']"/>* - PBW ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']"/>*
+                </xsl:when>
+                <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']">
+                  SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']"/>*
+                </xsl:when>
+                <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']">
+                  PBW ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']"/>*
+                </xsl:when>
+              </xsl:choose>
             </xsl:when>
             <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']">
-              <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno//text()"/><!-- the mention Sigidoc id should precede the number -->
+              <xsl:choose>
+                <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc'] and //t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']">
+                  SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']"/> - PBW ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']"/>
+                </xsl:when>
+                <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']">
+                  SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']"/>
+                </xsl:when>
+                <xsl:when test="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']">
+                  PBW ID: <xsl:apply-templates select="//t:layout[@n='whole']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']"/>
+                </xsl:when>
+              </xsl:choose>
             </xsl:when>
+            <xsl:otherwise/>
           </xsl:choose>
         </dd>
       </dl>
@@ -125,11 +148,11 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-weight">Weight (gr)</i18n:text></dt>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-weight">Weight (g)</i18n:text></dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:support//t:measure[@type='weight'][@unit='gr']//text()">
-              <xsl:apply-templates select="//t:support//t:measure[@type='weight'][@unit='gr']"/>
+            <xsl:when test="//t:support//t:measure[@type='weight'][@unit='g']//text()">
+              <xsl:apply-templates select="//t:support//t:measure[@type='weight'][@unit='g']"/>
             </xsl:when>
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
@@ -143,7 +166,7 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-overstrike-orientation">Overstrike orient. (clock)</i18n:text></dt><!-- 'orient' because a 2 lines field name generates troubles in the following field name -->
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-overstrike-orientation">Overstrike orientation (clock)</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:support//t:measure[@type='overstrikeOrient'][@unit='clock']//text()">
@@ -152,7 +175,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-channel-orientation">Channel orient. (clock)</i18n:text></dt><!-- 'orient' because a 2 lines field name generates troubles in the following field name -->
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-channel-orientation">Channel orientation (clock)</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:support//t:measure[@type='channelOrient'][@unit='clock']//text()">
@@ -167,7 +190,7 @@
             <xsl:when test="//t:layout//t:rs[@type='execution']//t:seg//text()">
               <xsl:apply-templates select="//t:layout//t:rs[@type='execution']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-struck">Struck</i18n:text></xsl:otherwise><!-- check the other default values!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-struck">Struck</i18n:text></xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-countermark">Countermark</i18n:text></dt>
@@ -197,7 +220,7 @@
             <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-round">Round</i18n:text></xsl:otherwise>
           </xsl:choose>
         </dd>
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-condition">Condition</i18n:text></dt><!-- the data should be separated by a ; (see dating criteria) //// appearance of @rend's value -->
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-condition">Condition</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
             <xsl:when test="//t:supportDesc//t:condition">
@@ -234,7 +257,7 @@
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-dating-criteria">Dating criteria</i18n:text></dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:origin//t:origDate//t:interp/text()"><!-- to be tested after TM files' modification!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+            <xsl:when test="//t:origin//t:origDate//t:interp/text()">
               <xsl:apply-templates select="//t:origin//t:origDate//t:interp"/>
             </xsl:when>
             <xsl:otherwise>
@@ -296,7 +319,7 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-place-origin">Place of origin</i18n:text></dt><!-- lang to be precified in seg -->
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-place-origin">Place of origin</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:origPlace//t:seg//t:placeName//text()">
@@ -305,47 +328,44 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-place">Find place</i18n:text></dt><!-- all the <provenance/> need to be tested -->
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-place">Find place</i18n:text></dt>
         <dd>
-          <xsl:choose>
-            <xsl:when test="//t:history//t:provenance[@type='found']//text()">
-              <xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:seg//t:placeName[@type='ancientFindspot']"/> <xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:seg//t:placeName[@type='modernFindspot']"/>
+          <xsl:choose xml:space="preserve">
+            <xsl:when test="//t:history//t:provenance[@type='found']//t:placeName[@type='ancientFindspot']//text() and //t:history//t:provenance[@type='found']//t:placeName[@type='modernFindspot']//text()">
+              <xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:placeName[@type='ancientFindspot']"/> (<xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:placeName[@type='modernFindspot']"/>)
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise><!-- it doesn't appear -->
-          </xsl:choose>
-        </dd>
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-context">Find context</i18n:text></dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:provenance[@type='found']//t:seg//t:rs[@type='context']//text()">
-              <xsl:apply-templates select="//t:provenance[@type='found']//t:seg//t:rs[@type='context']"/>
+            <xsl:when test="//t:history//t:provenance[@type='found']//t:placeName[@type='ancientFindspot']//text()">
+              <xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:placeName[@type='ancientFindspot']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
-          </xsl:choose>
-        </dd>
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-circumstances">Find circumstances</i18n:text></dt>
-          <dd>
-          <xsl:choose>
-            <xsl:when test="//t:provenance[@type='found']//t:seg//t:rs[@type='circumstances']//text()">
-              <xsl:apply-templates select="//t:provenance[@type='found']//t:seg//t:rs[@type='circumstances']"/>
+            <xsl:when test="//t:history//t:provenance[@type='found']//t:placeName[@type='modernFindspot']//text()">
+              <xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:placeName[@type='modernFindspot']"/>
             </xsl:when>
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-date">Find date</i18n:text></dt>
-        <dd>
+          <dd>
+            <xsl:choose xml:space="preserve">
+              <xsl:when test="//t:provenance[@type='found']/@when">
+                <xsl:apply-templates select="//t:provenance[@type='found']/@when"/>
+              </xsl:when>
+              <xsl:when test="//t:provenance[@type='found']/@notBefore and //t:provenance[@type='found']/@notAfter">
+                <xsl:apply-templates select="//t:provenance[@type='found']/@notBefore"/> - <xsl:apply-templates select="//t:provenance[@type='found']/@notAfter"/>
+              </xsl:when>
+              <xsl:when test="//t:provenance[@type='found']/@notBefore">
+                <i18n:text i18n:key="epidoc-xslt-sigidoc-not-before">Not before</i18n:text> <xsl:apply-templates select="//t:provenance[@type='found']/@notBefore"/>
+              </xsl:when>
+              <xsl:when test="//t:provenance[@type='found']/@notAfter">
+                <i18n:text i18n:key="epidoc-xslt-sigidoc-not-after">Not after</i18n:text> <xsl:apply-templates select="//t:provenance[@type='found']/@notAfter"/>
+              </xsl:when>
+              <xsl:otherwise><i>―</i></xsl:otherwise>
+            </xsl:choose>
+          </dd>
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-circumstances">Find circumstances</i18n:text></dt>
+          <dd>
           <xsl:choose>
-            <xsl:when test="//t:provenance[@type='found']/@when">
-              <xsl:apply-templates select="//t:provenance[@type='found']/@when"/>
-            </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
-          </xsl:choose>
-        </dd>
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-discoverers">Discoverers</i18n:text></dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:provenance[@type='found']//t:seg//t:persName//text()">
-              <xsl:apply-templates select="//t:provenance[@type='found']//t:seg//t:persName"/>
+            <xsl:when test="//t:provenance[@type='found']//t:rs[@type='circumstances']//text()">
+              <xsl:apply-templates select="//t:provenance[@type='found']//t:rs[@type='circumstances']"/>
             </xsl:when>
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
@@ -353,9 +373,9 @@
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-modern-location">Modern location</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
-                        <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:settlement//t:seg//text() and //t:sourceDesc//t:msDesc//t:msIdentifier//t:country//t:seg//text()"><!-- comma or brackets to be added when both infos available -->
+                        <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:settlement//t:seg//text() and //t:sourceDesc//t:msDesc//t:msIdentifier//t:country//t:seg//text()">
                           <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:settlement//t:seg"/>
-                          <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:country//t:seg"/> 
+                          (<xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:country//t:seg"/>) 
                         </xsl:when>
                         <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:settlement//t:seg//text()">
                           <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:settlement//t:seg"/>
@@ -430,9 +450,22 @@
               <xsl:otherwise><i>―</i></xsl:otherwise>
             </xsl:choose>
           </dd>
-        
-        
-        <!-- ++++++++++++++ Past modern observations (provenance @type=observed/not-observed): not included, for now ++++++++++++++++++ -->
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-modern-observations">Modern observations</i18n:text></dt>
+          <dd>
+            <xsl:choose>
+              <xsl:when test="//t:provenance[@type='observed']//t:p//text() and //t:provenance[@type='not-observed']//t:p//text()">
+                <xsl:apply-templates select="//t:provenance[@type='observed']//t:p"/>
+                <xsl:apply-templates select="//t:provenance[@type='not-observed']//t:p"/>
+              </xsl:when>
+              <xsl:when test="//t:provenance[@type='observed']//t:p//text()">
+                <xsl:apply-templates select="//t:provenance[@type='observed']//t:p"/>
+              </xsl:when>
+              <xsl:when test="//t:provenance[@type='not-observed']//t:p//text()">
+                <xsl:apply-templates select="//t:provenance[@type='not-observed']//t:p"/>
+              </xsl:when>
+              <xsl:otherwise><i>―</i></xsl:otherwise>
+            </xsl:choose>
+          </dd>
         </dl>
         </div>
         
@@ -499,19 +532,39 @@
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix (assembled)</i18n:text></dt>
           <dd>
             <xsl:choose xml:space="preserve">
-            <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']">
-              <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno//text()"/>*<!-- the mention Sigidoc id should precede the number -->
-            </xsl:when>
-            <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']">
-              <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno//text()"/><!-- the mention Sigidoc id should precede the number -->
-            </xsl:when>
+              <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']">
+                <xsl:choose>
+                  <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc'] and //t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']">
+                    SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']//text()"/>* - PBW ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']//text()"/>*
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']">
+                SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']//text()"/>*
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']">
+                PBW ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']//text()"/>*
+                  </xsl:when>
+                </xsl:choose>
+              </xsl:when>
+              <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']">
+                <xsl:choose xml:space="preserve">
+                  <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc'] and //t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']">
+                    SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']//text()"/> - PBW ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']//text()"/>
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']">
+                    SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']//text()"/>
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']">
+                    PBW ID: <xsl:apply-templates select="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']//text()"/>
+                  </xsl:when>
+                </xsl:choose>
+              </xsl:when>
               <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
+            </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-iconography">Iconography</i18n:text></dt>
           <dd>
             <xsl:choose>
-              <xsl:when test="//t:figure//t:figDesc[@n='r']//text()"><!-- it doesn't work!!!!!!!!!!!!!!!!!!! -->
+              <xsl:when test="//t:figure//t:figDesc[@n='r']//text()">
                 <xsl:apply-templates select="//t:figure//t:figDesc[@n='r']"/>
               </xsl:when>
               <xsl:otherwise><i>―</i></xsl:otherwise>
@@ -520,7 +573,7 @@
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-decoration">Decoration</i18n:text></dt>
           <dd>
             <xsl:choose>
-              <xsl:when test="//t:figure//t:figDesc[@n='decoR']//text()"><!-- it doesn't work!!!!!!!!!!!!!!!!!!! -->
+              <xsl:when test="//t:figure//t:figDesc[@n='decoR']//text()">
                 <xsl:apply-templates select="//t:figure//t:figDesc[@n='decoR']"/>
               </xsl:when>
               <xsl:otherwise><i>―</i></xsl:otherwise>
@@ -531,7 +584,7 @@
         </dl>
       </div>
 
-    <dl class="iospe"><!-- don't touch this! (don't know why) -->
+    <dl class="iospe"><!-- don't touch this! -->
       
     </dl>
 
@@ -598,19 +651,39 @@
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix (assembled)</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
-            <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']">
-              <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno//text()"/>*
-            </xsl:when>
-            <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']">
-              <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno//text()"/>
-            </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
+              <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']">
+                <xsl:choose>
+                  <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc'] and //t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']">
+                    SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']//text()"/>* - PBW ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']//text()"/>*
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']">
+                SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='SigiDoc']//text()"/>*
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']">
+                PBW ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']//t:idno[@type='PBW']//text()"/>*
+                  </xsl:when>
+                </xsl:choose>
+              </xsl:when>
+              <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']">
+                <xsl:choose xml:space="preserve">
+                  <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc'] and //t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']">
+                    SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']//text()"/> - PBW ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']//text()"/>
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']">
+                    SigiDoc ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='SigiDoc']//text()"/>
+                  </xsl:when>
+                  <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']">
+                    PBW ID: <xsl:apply-templates select="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='notSurviving']//t:idno[@type='PBW']//text()"/>
+                  </xsl:when>
+                </xsl:choose>
+              </xsl:when>
+              <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
+            </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-iconography">Iconography</i18n:text></dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:figure//t:figDesc[@n='v']//text()"><!-- it doesn't work!!!!!!!!!!!!!!!!!!! -->
+            <xsl:when test="//t:figure//t:figDesc[@n='v']//text()">
               <xsl:apply-templates select="//t:figure//t:figDesc[@n='v']"/>
             </xsl:when>
             <xsl:otherwise><i>―</i></xsl:otherwise>
@@ -619,7 +692,7 @@
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-decoration">Decoration</i18n:text></dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:figure//t:figDesc[@n='decoV']//text()"><!-- it doesn't work!!!!!!!!!!!!!!!!!!! -->
+            <xsl:when test="//t:figure//t:figDesc[@n='decoV']//text()">
               <xsl:apply-templates select="//t:figure//t:figDesc[@n='decoV']"/>
             </xsl:when>
             <xsl:otherwise><i>―</i></xsl:otherwise>
@@ -649,38 +722,38 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Editions</i18n:text></dt><!-- to be changed for bibliographic concordances -->
-        <dd>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Editions</i18n:text></dt>
+        <dd id="biblioEditions">
           <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography']//t:listBibl[@type='editions']//t:biblStruct">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography']//t:listBibl[@type='editions']//t:biblStruct"/>
+            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
+              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-unpublished">Unpublished</i18n:text></i></xsl:otherwise>
-        </xsl:choose>
+          </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on editions</i18n:text></dt><!-- to be changed for bibliographic concordances -->
-        <dd>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on editions</i18n:text></dt>
+        <dd id="biblioCommEditions">
           <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography']//t:listBibl[@type='discussionOnly'][@subtype='current']//t:biblStruct">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography']//t:listBibl[@type='discussionOnly'][@subtype='current']//t:biblStruct"/>
+            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionCurrent']/t:p/node()">
+              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussionCurrent']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels">Parallels</i18n:text></dt><!-- to be changed for bibliographic concordances -->
-        <dd>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels">Parallels</i18n:text></dt>
+        <dd id="biblioParallels">
           <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography']//t:listBibl[@type='parallels']//t:biblStruct">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography']//t:listBibl[@type='parallels']//t:biblStruct"/>
+            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()">
+              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-no-parallels-known">No parallels known</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-parallels">Commentary on parallels</i18n:text></dt><!-- to be changed for bibliographic concordances -->
-        <dd>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-parallels">Commentary on parallels</i18n:text></dt>
+        <dd id="biblioCommParallels">
           <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography']//t:listBibl[@type='discussionOnly'][@subtype='parallels']//t:biblStruct">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography']//t:listBibl[@type='discussionOnly'][@subtype='parallels']//t:biblStruct"/>
+            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
+              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
@@ -784,7 +857,7 @@
         </table>-->
       </div>
 
-      <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Editions</i18n:text></i></h4><!-- addition needed in order to separate the images from the editions' tabs; it shouldn't be an empty element -->
+      <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Editions</i18n:text></i></h4>
       <div class="section-container tabs" data-section="tabs">
         <section>
           <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-sigidoc-interpretive">Interpretive</i18n:text></a></p>
@@ -800,7 +873,7 @@
           </div>
         </section>
         <section>
-          <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-sigidoc-diplomatic">Diplomatic</i18n:text></a></p><!-- this is still a problem!!!!! -->
+          <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-sigidoc-diplomatic">Diplomatic</i18n:text></a></p>
           <div class="content" id="diplomatic" data-section-content="data-section-content">
             <!-- Edited text output -->
             <xsl:variable name="edtxt">
@@ -935,5 +1008,67 @@
     </a>
   </xsl:template>
   
+  <xsl:template match="t:ptr[@target]">
+    <xsl:variable name="bibl-ref" select="@target"/>
+    <xsl:variable name="bibl" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/authority/bibliography.xml'))//t:bibl[@xml:id=$bibl-ref][not(@sameAs)]"/>
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>../concordance/bibliography/</xsl:text>
+        <xsl:value-of select="$bibl-ref"/>
+        <xsl:text>.html</xsl:text>
+      </xsl:attribute>
+      <xsl:attribute name="target">_blank</xsl:attribute>
+      <xsl:choose>
+        <xsl:when test="$bibl//t:bibl[@type='abbrev']">
+          <xsl:apply-templates select="$bibl//t:bibl[@type='abbrev'][1]"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="$bibl"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </a>
+  </xsl:template>
+  
+  <!-- arrows pointing to previous/next seal: from "Cretan Inscriptions" project -->
+  <xsl:template name="navigation">
+    <xsl:if test="doc-available(concat('file:',system-property('user.dir'),'/all_seals.xml')) = fn:true()">
+      <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='sequence']"/></xsl:variable>
+      <xsl:variable name="list" select="document(concat('file:',system-property('user.dir'),'/all_seals.xml'))//t:list"/>
+      <xsl:variable name="prev" select="$list/t:item[@sortKey=$filename]/preceding-sibling::t:item[1]/@n"/>
+      <xsl:variable name="next" select="$list/t:item[@sortKey=$filename]/following-sibling::t:item[1]/@n"/>
+      
+      <div class="row">
+        <div class="large-12 columns">
+          <ul class="pagination left">
+            <xsl:if test="$prev">
+              <li class="arrow">
+                <a>
+                  <xsl:attribute name="href">
+                    <xsl:text>./</xsl:text>
+                    <xsl:value-of select="$prev"/>
+                    <xsl:text>.html</xsl:text>
+                  </xsl:attribute>
+                  <i18n:text i18n:key="epidoc-xslt-sigidoc-arrow_left"><xsl:text>&#x021D0; previous</xsl:text></i18n:text>
+                </a>
+              </li>
+            </xsl:if>
+            
+            <xsl:if test="$next">
+              <li class="arrow">
+                <a>
+                  <xsl:attribute name="href">
+                    <xsl:text>./</xsl:text>
+                    <xsl:value-of select="$next"/>
+                    <xsl:text>.html</xsl:text>
+                  </xsl:attribute>
+                  <i18n:text i18n:key="epidoc-xslt-sigidoc-arrow_right"><xsl:text>next &#x021D2;</xsl:text></i18n:text>
+                </a>
+              </li>
+            </xsl:if>
+          </ul>
+        </div>
+      </div>
+    </xsl:if>
+  </xsl:template>
   
 </xsl:stylesheet>

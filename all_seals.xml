@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SigiDoc: List of all the inscriptions</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item n="TM_01" sortKey="0001"/>
+                <item n="TM_02" sortKey="0002"/>
+                <item n="TM_03" sortKey="0003"/>
+                <item n="TM_04" sortKey="0004"/>
+                <item n="TM_05" sortKey="0005"/>
+                <item n="TM_06" sortKey="0006"/>
+                <item n="TM_07" sortKey="0007"/>
+                <item n="TM_08" sortKey="0008"/>
+                <item n="TM_09" sortKey="0009"/>
+                <item n="TM_10" sortKey="0010"/>
+                <item n="TM_11" sortKey="0011"/>
+                <item n="TM_12" sortKey="0012"/>
+                <item n="TM_13" sortKey="0013"/>
+                <item n="TM_14" sortKey="0014"/>
+                <item n="TM_15" sortKey="0015"/>
+                <item n="TM_16" sortKey="0016"/>
+                <item n="TM_17" sortKey="0017"/>
+                <item n="TM_18" sortKey="0018"/>
+                <item n="TM_19" sortKey="0019"/>
+                <item n="TM_20" sortKey="0020"/>
+                <item n="TM_20bis" sortKey="0021"/>
+                <item n="TM_20ter" sortKey="0022"/>
+                <item n="TM_21" sortKey="0023"/>
+                <item n="TM_22" sortKey="0024"/>
+                <item n="TM_23" sortKey="0025"/>
+                <item n="TM_24" sortKey="0026"/>
+                <item n="TM_25" sortKey="0027"/>
+                <item n="TM_25bis" sortKey="0028"/>
+                <item n="TM_26" sortKey="0029"/>
+                <item n="TM_27" sortKey="0030"/>
+                <item n="TM_28" sortKey="0031"/>
+                <item n="TM_29" sortKey="0032"/>
+                <item n="TM_30" sortKey="0033"/>
+                <item n="TM_31" sortKey="0034"/>
+                <item n="TM_32" sortKey="0035"/>
+                <item n="TM_33" sortKey="0036"/>
+                <item n="TM_34" sortKey="0037"/>
+                <item n="TM_35" sortKey="0038"/>
+                <item n="TM_36" sortKey="0039"/>
+                <item n="TM_37" sortKey="0040"/>
+                <item n="TM_38" sortKey="0041"/>
+                <item n="TM_39" sortKey="0042"/>
+                <item n="TM_39bis" sortKey="0043"/>
+                <item n="TM_40" sortKey="0044"/>
+            </list>
+        </body>
+    </text>
+</TEI>

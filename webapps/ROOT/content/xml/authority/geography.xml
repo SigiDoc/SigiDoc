@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2020-06-08 -->
+<!-- LAST MODIFIED: 2021-07-02 -->
 
-<!-- here: cities, themes, etc. ???????????????????????????????????????????? -->
 <!-- add DIGTIB where available -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -22,156 +21,156 @@
             <placeName xml:lang="grc">Ἀντιόχεια</placeName>
             <placeName xml:lang="en">Ἀντιόχεια</placeName>
             <!--<placeName xml:lang="en">Antioch</placeName>-->
-            <placeName xml:lang="fr">Antioche</placeName>
-            <placeName xml:lang="it">Antiochia</placeName>
+            <!--<placeName xml:lang="fr">Antioche</placeName>
+            <placeName xml:lang="it">Antiochia</placeName>-->
             <idno></idno>
         </place>
             <place xml:id="Ὀψίκιον">
             <placeName xml:lang="grc">Ὀψίκιον</placeName>
             <placeName xml:lang="en">Ὀψίκιον</placeName>
             <!--<placeName xml:lang="en">Opsikion</placeName>-->
-            <placeName xml:lang="fr">Opsikion</placeName>
-            <placeName xml:lang="it">Opsikion</placeName>
+           <!-- <placeName xml:lang="fr">Opsikion</placeName>
+            <placeName xml:lang="it">Opsikion</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Βουκελλαρίων">
              <placeName xml:lang="grc">Βουκελλαρίων</placeName>
              <placeName xml:lang="en">Βουκελλαρίων</placeName>
             <!--<placeName xml:lang="en">Boukellarion</placeName>-->
-            <placeName xml:lang="fr">(thème des) Bucellaires</placeName>
-            <placeName xml:lang="it">(tema dei) Bucellari</placeName>
+            <!--<placeName xml:lang="fr">(thème des) Bucellaires</placeName>
+            <placeName xml:lang="it">(tema dei) Bucellari</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Δυρράχιον">
             <placeName xml:lang="grc">Δυρράχιον</placeName>
                  <placeName xml:lang="en">Δυρράχιον</placeName>
             <!--<placeName xml:lang="en">Dyrrachion</placeName>-->
-            <placeName xml:lang="fr">Dyrrachion</placeName>
+           <!-- <placeName xml:lang="fr">Dyrrachion</placeName>
             <placeName xml:lang="it">Durazzo</placeName>
-            <placeName xml:lang="sq">Durrës</placeName>
+            <placeName xml:lang="sq">Durrës</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Πελοπόννησος_καὶ_Ἑλλάς">
             <placeName xml:lang="grc">Πελοπόννησος καὶ Ἑλλάς</placeName>
              <placeName xml:lang="en">Πελοπόννησος καὶ Ἑλλάς</placeName>
             <!--<placeName xml:lang="en">Peloponnese and Hellas</placeName>-->
-            <placeName xml:lang="fr">Péloponnèse et Hellade</placeName>
+            <!--<placeName xml:lang="fr">Péloponnèse et Hellade</placeName>
             <placeName xml:lang="it">Peloponneso ed Ellade</placeName>
-            <placeName xml:lang="el">Πελοπόννησος καὶ Ελλάς</placeName>
+            <placeName xml:lang="el">Πελοπόννησος καὶ Ελλάς</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Θρᾳκησίων">
             <placeName xml:lang="grc">Θρᾳκησίων</placeName>
              <placeName xml:lang="en">Θρᾳκησίων</placeName>
             <!--<placeName xml:lang="en">Thrakesion</placeName>-->
-            <placeName xml:lang="fr">(thème des) Thracésiens</placeName>
-            <placeName xml:lang="it">(tema dei) Tracesiani</placeName>
+            <!--<placeName xml:lang="fr">(thème des) Thracésiens</placeName>
+            <placeName xml:lang="it">(tema dei) Tracesiani</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Σελεύκεια">
             <placeName xml:lang="grc">Σελεύκεια</placeName>
             <placeName xml:lang="en">Σελεύκεια</placeName>
             <!--<placeName xml:lang="en">Seleukeia</placeName>-->
-            <placeName xml:lang="fr">/Séleucie</placeName>
-            <placeName xml:lang="it">Seleucia</placeName>
+            <!--<placeName xml:lang="fr">Séleucie</placeName>
+            <placeName xml:lang="it">Seleucia</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Ἀτακᾶτζ">
             <placeName xml:lang="grc">Ἀτακᾶτζ</placeName>
              <placeName xml:lang="en">Ἀτακᾶτζ</placeName>
             <!--<placeName xml:lang="en">At‘akh</placeName>--><!-- ????????????????????? -->
-            <placeName xml:lang="fr">At‘akh</placeName>
-            <placeName xml:lang="hy"></placeName>
+            <!--<placeName xml:lang="fr">At‘akh</placeName>
+            <placeName xml:lang="hy"></placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Insulae">
-            <placeName xml:lang="lat">Insulae</placeName>
+            <placeName xml:lang="la">Insulae</placeName>
              <placeName xml:lang="en">Insulae</placeName>
              <placeName xml:lang="grc">Insulae</placeName>
             <!--<placeName xml:lang="en">Islands</placeName>-->
-            <placeName xml:lang="fr">Îles</placeName>
-            <placeName xml:lang="it">Isole</placeName>
+            <!--<placeName xml:lang="fr">Îles</placeName>
+            <placeName xml:lang="it">Isole</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Παρνασσός">
             <placeName xml:lang="grc">Παρνασσός</placeName>
              <placeName xml:lang="en">Παρνασσός</placeName>
             <!--<placeName xml:lang="en">Parnassos</placeName>-->
-            <placeName xml:lang="fr">Parnassos</placeName>
-            <placeName xml:lang="it">Parnasso</placeName>
+            <!--<placeName xml:lang="fr">Parnassos</placeName>
+            <placeName xml:lang="it">Parnasso</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Ἔφεσος">
             <placeName xml:lang="grc">Ἔφεσος</placeName>
              <placeName xml:lang="en">Ἔφεσος</placeName>
             <!--<placeName xml:lang="en">Ephesos</placeName>-->
-            <placeName xml:lang="fr">Éphèse</placeName>
-            <placeName xml:lang="it">Efeso</placeName>
+            <!--<placeName xml:lang="fr">Éphèse</placeName>
+            <placeName xml:lang="it">Efeso</placeName>-->
             <idno></idno>
         </place>
             <place xml:id="Σάμος">
             <placeName xml:lang="grc">Σάμος</placeName>
             <placeName xml:lang="en">Σάμος</placeName>
             <!--<placeName xml:lang="en">Samos</placeName>-->
-            <placeName xml:lang="fr">Samos</placeName>
+            <!--<placeName xml:lang="fr">Samos</placeName>
             <placeName xml:lang="it">Samo</placeName>
-            <placeName xml:lang="el">Σάμος</placeName>
+            <placeName xml:lang="el">Σάμος</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Σεβαστή">
             <placeName xml:lang="grc">Σεβαστή</placeName>
              <placeName xml:lang="en">Σεβαστή</placeName>
             <!--<placeName xml:lang="en">Sebaste</placeName>-->
-            <placeName xml:lang="fr">Sebastè</placeName>
-            <placeName xml:lang="it">Sebaste</placeName>
+            <!--<placeName xml:lang="fr">Sebastè</placeName>
+            <placeName xml:lang="it">Sebaste</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Πικριδίου_τὰ">
             <placeName xml:lang="grc">τὰ Πικριδίου</placeName>
             <placeName xml:lang="en">τὰ Πικριδίου</placeName>
-            <placeName xml:lang="en">ta Pikridiou</placeName>
+            <!--<placeName xml:lang="en">ta Pikridiou</placeName>
             <placeName xml:lang="fr">ta Pikridiou</placeName>
-            <placeName xml:lang="it">ta Pikridiou</placeName>
+            <placeName xml:lang="it">ta Pikridiou</placeName>-->
             <idno></idno>
         </place>
             <place xml:id="βῆλον">
             <placeName xml:lang="grc">βῆλον</placeName>
              <placeName xml:lang="en">βῆλον</placeName>
             <!--<placeName xml:lang="en">velum</placeName>-->
-            <placeName xml:lang="fr">velum</placeName>
-            <placeName xml:lang="it">velo</placeName>
+            <!--<placeName xml:lang="fr">velum</placeName>
+            <placeName xml:lang="it">velo</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="εὑαγει̑ς_οἰ̑κοι">
             <placeName xml:lang="grc">εὑαγει̑ς οἰ̑κοι</placeName>
              <placeName xml:lang="en">εὑαγει̑ς οἰ̑κοι</placeName>
             <!--<placeName xml:lang="en">charitable foundations</placeName>-->
-            <placeName xml:lang="fr">fondations pieuses</placeName>
-            <placeName xml:lang="it"></placeName>
+            <!--<placeName xml:lang="fr">fondations pieuses</placeName>
+            <placeName xml:lang="it"></placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Νέα">
             <placeName xml:lang="grc">Νέα (Ἐκκλησία)</placeName>
              <placeName xml:lang="en">Νέα (Ἐκκλησία)</placeName>
             <!--<placeName xml:lang="en">Nea</placeName>-->
-            <placeName xml:lang="fr">Néa</placeName>
-            <placeName xml:lang="it">Nea</placeName>
+            <!--<placeName xml:lang="fr">Néa</placeName>
+            <placeName xml:lang="it">Nea</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="δρόμος">
             <placeName xml:lang="grc">δρόμος</placeName>
             <placeName xml:lang="en">δρόμος</placeName>
             <!--<placeName xml:lang="en">dromos</placeName>-->
-            <placeName xml:lang="fr">drome</placeName>
-            <placeName xml:lang="it">dromo</placeName>
+            <!--<placeName xml:lang="fr">drome</placeName>
+            <placeName xml:lang="it">dromo</placeName>-->
             <idno></idno>
         </place>
              <place xml:id="Χρυσοτρίκλινος">
             <placeName xml:lang="grc">Χρυσοτρίκλινος</placeName>
              <placeName xml:lang="en">Χρυσοτρίκλινος</placeName>
             <!--<placeName xml:lang="en">Chrysotriklinos</placeName>-->
-            <placeName xml:lang="fr">Chrysotriklinos</placeName>
-            <placeName xml:lang="it">Crisotriclinio</placeName>
+            <!--<placeName xml:lang="fr">Chrysotriklinos</placeName>
+            <placeName xml:lang="it">Crisotriclinio</placeName>-->
             <idno></idno>
         </place>
     </listPlace>

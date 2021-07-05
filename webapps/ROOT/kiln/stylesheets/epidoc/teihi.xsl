@@ -10,7 +10,7 @@
        <xsl:choose>
            <xsl:when test="@rend='ligature'">
                <xsl:choose>
-                   <xsl:when test="$parm-leiden-style = 'rib'">
+                   <xsl:when test="$parm-leiden-style = ('rib','sigidoc')"><!-- modified by SigiDoc -->
                        <xsl:choose>
                            <xsl:when test="string-length(normalize-space(.))=2">
                                <xsl:value-of select="substring(.,1,1)"/>

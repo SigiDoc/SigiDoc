@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Pancrace Boulkasiotès, protospathaire et stratège d'At‘akh (?)</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_21</idno>
                 <idno type="SigiDocID">21</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0023</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution></institution>
                         <repository></repository>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>45</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">25</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -138,7 +140,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature" cert="high" resp="#AS #VP"><!-- 1040-1060?????? -->
+                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature" cert="high"><!-- 1040-1060?????? -->
                                 <seg xml:lang="en">XIth C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
@@ -146,14 +148,9 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
                             <p/>
                         </acquisition>
@@ -225,10 +222,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines</seg>
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 6 lines</p>
+                                        <p xml:lang="en">Legend of 6 lines</p>
                                         <p xml:lang="fr">Légende sur 6 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -262,11 +259,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
@@ -304,9 +299,8 @@
                   <div type="textpart" subtype="face" n="obv" rend="circular">
                       <ab>
                           <lb n="1"/>
-                          <lg type="legendsCases" ref="legendsCases.xml#DatNom">
-                              <l>
-                                  <rs type="invocation" ref="invocation.xml#undetermined">
+                          <rs type="legendsCases" ref="legendsCases.xml#DatNom">
+                                  <rs type="invocation" ref="invocation.xml#undetermined1">
                                       <gap reason="lost" atLeast="2" atMost="5" unit="character"/> <!-- atLeast 2????????????????????? -->
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqew&amp;la=greek">
                                           <supplied reason="lost">βοήθει</supplied>
@@ -321,13 +315,12 @@
                                           <supplied reason="lost">δ</supplied>ούλῳ
                                       </rs>
                                   </rs>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                                  <lg><l><lb n="2"/>
+                                  <rs type="legendsCases"><lb n="2"/>
                                   <supplied reason="lost">+</supplied>
                                   <persName type="unattested" ref="prosopography.xml#Βουλκασιότης_Παγκράτιος">
                                       <name type="forename">
@@ -357,7 +350,7 @@
                                           <expan><abbr>Βουλκ</abbr><ex>α</ex>
                                   <lb n="7" break="no"/><abbr>σιότ</abbr><ex>ης</ex></expan>
                                       </name>
-                                  </persName></l></lg>
+                                  </persName></rs>
                       </ab>
                   </div>
               </div>
@@ -375,6 +368,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb n="0"/>.<!-- how long????????????????? -->
                           <lb n="2"/>.παν̣ρα̣
                           <lb n="3"/>..σπαθα̣ρ
                           <lb n="4"/>...στρατ
@@ -391,10 +385,12 @@
                           </app>
                       </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Ὁ ἄγιος Νικόλαος. ...βοήθει τῷ σῷ δούλῳ / +Πανκράτιος πρωτοσπαθάριος καὶ στρατηγὸς Ατακᾶτζ ὁ Βουλκασιότης.</p>
+                  <p xml:lang="en">St Nicholas. ... aid your servant / Pankratios Boulkasiotes, protospatharios and strategos of At‘akh (?).</p>
+                  <p xml:lang="fr">Saint Nicolas. ... aide ton serviteur / Pancrace Boulkasiotès, protospathaire et stratège d'At‘akh (?).</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>La forme Πανκράτιος est bien attestée sur d’autres bulles contemporaines [1]. On
                           pourrait hésiter avec Pakourianos mais l’élément droit de la troisième lettre semble bien
                           un trait vertical continu [2]; de plus, la lettre suivante ne pourrait pas être une ligature en
@@ -425,36 +421,18 @@
                                   donc tout à fait le profil d’un chef-lieu de petit thème en Orient, mais l’identification
                                   doit demeurer hypothétique.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. Voir le commentaire au sceau <ref target="TM_40.html">SigiDoc ID 40</ref> ; <bibl sameAs="bib:Jordanov1993"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov1993"/>
-                          <citedRange unit="entry">nos. 399-400</citedRange>
-                      </biblStruct>.
+                      1. Voir le commentaire au sceau <ref target="TM_40.html">SigiDoc ID 40</ref> ; <bibl><ptr target="Jordanov1993"/>, <citedRange unit="entry">399-400</citedRange></bibl>.
                   </p>
                   <p>
                       2. Cela permet d’écarter aussi le très rare Pazouni.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Chronik45"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Chronik45"/>
-                          <citedRange>§ 31-32, p. 335</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Chronik45"/>, <citedRange unit="part">§ 31-32, p. 335</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Chronik45"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Chronik45"/>
-                          <citedRange>§ 34, p. 335 et § 36, p. 336</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="Chronik45"/>, <citedRange unit="part">§ 34, p. 335, § 36, p. 336</citedRange></bibl>.
                   </p>
                   <p>
                       5. Type Grigor Narekatsi pour Grégoire de Narek. Nous remercions Théo van Lint des
@@ -465,72 +443,26 @@
                           que le β de la même ligne, dont la panse rejoint la hampe gauche plus bas.
                   </p>
                   <p>
-                      7. <bibl sameAs="bib:Honigmann1935"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Honigmann1935"/>
-                          <citedRange unit="page">p. 153</citedRange>
-                      </biblStruct>.
+                      7. <bibl><ptr target="Honigmann1935"/>, <citedRange unit="page">p. 153</citedRange></bibl>.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:Dédéyan2003a"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003a"/>
-                          <citedRange unit="page">p. 118</citedRange>
-                      </biblStruct>, citant l’Achkharhatsouytz de Vardan.
+                      8. <bibl><ptr target="Dédéyan2003a"/>, <citedRange unit="page">p. 118</citedRange></bibl>, citant l’Achkharhatsouytz de Vardan.
                   </p>
                   <p>
-                      9. <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
-                          <citedRange unit="page">p. 1308-1309</citedRange>
-                      </biblStruct>.
+                      9. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1308-1309</citedRange></bibl>.
                   </p>
                   <p>
-                      10. <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
-                          <citedRange unit="page">p. 1308</citedRange>
-                      </biblStruct>.
+                      10. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1308</citedRange></bibl>.
                   </p>
                   <p>
-                      11. <bibl sameAs="bib:Dédéyan2003a"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003a"/>
-                          <citedRange unit="page">p. 116</citedRange>
-                      </biblStruct>.
+                      11. <bibl><ptr target="Dédéyan2003a"/>, <citedRange unit="page">p. 116</citedRange></bibl>.
                   </p>
                   <p>
-                      12. <bibl sameAs="bib:Sinclair1989"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sinclair1989"/>
-                          <citedRange unit="page">p. 391-392</citedRange>
-                      </biblStruct>.
+                      12. <bibl><ptr target="Sinclair1989"/>, <citedRange unit="page">p. 391-392</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 21, p. 723-724</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>21, p. 723-724</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

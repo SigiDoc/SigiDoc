@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2020-06-09 -->
+<!-- LAST MODIFIED: 2021-07-02 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -19,7 +19,7 @@
             <term xml:lang="grc">κριτὴς τοῦ βήλου</term>
             <term xml:lang="en">κριτὴς τοῦ βήλου</term>
             <!--<term xml:lang="en">judge of the Velum</term>-->
-            <term xml:lang="fr">juge du Vélum</term>
+            <!--<term xml:lang="fr">juge du Vélum</term>-->
             <term xml:lang="it"></term>
             <gloss xml:lang="en"></gloss>
         </item>
@@ -27,39 +27,39 @@
             <term xml:lang="grc">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
             <term xml:lang="en">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
             <!--<term xml:lang="en">megas oikonomos of the charitable foundations</term>-->
-            <term xml:lang="fr">grand économe des fondations pieuses</term>
-            <term xml:lang="it">grrande economo delle 'case pie'</term><!-- ???????????????????????????????? -->
+            <!--<term xml:lang="fr">grand économe des fondations pieuses</term>
+            <term xml:lang="it">grande economo delle 'case pie'</term>--><!-- ???????????????????????????????? -->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="οἰκονόμος_τῆς_Νέας">
             <term xml:lang="grc">οἰκονόμος τῆς Νέας</term>
             <term xml:lang="en">οἰκονόμος τῆς Νέας</term>
             <!--<term xml:lang="en">oikonomos of the Nea</term>-->
-            <term xml:lang="fr">économe de la Néa</term>
-            <term xml:lang="it">economo della Nea</term>
+            <!--<term xml:lang="fr">économe de la Néa</term>
+            <term xml:lang="it">economo della Nea</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="δομέστικος_τών_Ἐξκουβίτων">
             <term xml:lang="grc">δομέστικος τών Ἐξκουβίτων</term>
             <term xml:lang="en">δομέστικος τών Ἐξκουβίτων</term>
             <!--<term xml:lang="en">domestikos of the Exkoubitoi</term>-->
-            <term xml:lang="fr">domestique des Excubites</term>
-            <term xml:lang="it">domestico degli Escubiti</term>
+            <!--<term xml:lang="fr">domestique des Excubites</term>
+            <term xml:lang="it">domestico degli Escubiti</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="ἐπὶ_τοῦ_κοιτῶνος">
             <term xml:lang="grc">ἐπὶ τοῦ κοιτῶνος</term>
             <term xml:lang="en">ἐπὶ τοῦ κοιτῶνος</term>
             <!--<term xml:lang="en">epi tou koitonos</term>-->
-            <term xml:lang="fr">épi tou koitonos</term>
-            <term xml:lang="it">epi tou koitonos</term>
+            <!--<term xml:lang="fr">épi tou koitonos</term>
+            <term xml:lang="it">epi tou koitonos</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="ἐπιγκέρνης_τῆς_αὐγούστης">
             <term xml:lang="grc">ἐπιγκέρνης τῆς αὐγούστης</term>
             <term xml:lang="en">ἐπιγκέρνης τῆς αὐγούστης</term>
             <!--<term xml:lang="en">pinkernes of the Augusta</term>-->
-            <term xml:lang="fr">pincerne de l’augousta</term>
+            <!--<term xml:lang="fr">pincerne de l’augousta</term>-->
             <term xml:lang="it"></term>
             <gloss xml:lang="en"></gloss>
         </item>
@@ -67,7 +67,7 @@
             <term xml:lang="grc">ξενοδóχος τῆς Νέας</term>
             <term xml:lang="en">ξενοδóχος τῆς Νέας</term>
             <!--<term xml:lang="en">xenodochos of the Nea</term>-->
-            <term xml:lang="fr">xénodoque de la Néa</term>
+            <!--<term xml:lang="fr">xénodoque de la Néa</term>-->
             <term xml:lang="it"></term>
             <gloss xml:lang="en"></gloss>
         </item>
@@ -75,56 +75,64 @@
             <term xml:lang="grc">λογοθέτης τοῦ δρόμου</term>
             <term xml:lang="en">λογοθέτης τοῦ δρόμου</term>
             <!--<term xml:lang="en">logothetes of the dromos</term>-->
-            <term xml:lang="fr">logothète du drome</term>
-            <term xml:lang="it">logoteta del dromo</term>
+           <!-- <term xml:lang="fr">logothète du drome</term>
+            <term xml:lang="it">logoteta del dromo</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="κριτὴς_τῶν_Βουκελλαρίων">
             <term xml:lang="grc">κριτὴς τῶν Βουκελλαρίων</term>
             <term xml:lang="grc">κριτὴς τῶν Βουκελλαρίων</term>
             <!--<term xml:lang="en">krites of the Boukellarioi</term>-->
-            <term xml:lang="fr">juge des Bucellaires</term>
-            <term xml:lang="it">giudice dei Buccellari</term>
+            <!--<term xml:lang="fr">juge des Bucellaires</term>
+            <term xml:lang="it">giudice dei Buccellari</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="ἀσηκρῆτις">
             <term xml:lang="grc">ἀσηκρῆτις</term>
             <term xml:lang="en">ἀσηκρῆτις</term>
             <!--<term xml:lang="en">asekretis</term>-->
-            <term xml:lang="fr">asèkrètis</term>
-            <term xml:lang="it">asekretis</term>
+            <!--<term xml:lang="fr">asèkrètis</term>
+            <term xml:lang="it">asekretis</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="χαρτουλάριος_Πελοποννήσου_καὶ_Ἑλλάδος">
             <term xml:lang="grc">χαρτουλάριος Πελοποννήσου καὶ Ἑλλάδος</term>
             <term xml:lang="en">χαρτουλάριος Πελοποννήσου καὶ Ἑλλάδος</term>
             <!--<term xml:lang="en">chartoularios of the Peloponnesos and Hellas</term>-->
-            <term xml:lang="fr">chartulaire du Péloponnèse et de l’Hellade</term>
-            <term xml:lang="it">cartulario del Peloponneso e dell'Ellade</term>
+            <!--<term xml:lang="fr">chartulaire du Péloponnèse et de l’Hellade</term>
+            <term xml:lang="it">cartulario del Peloponneso e dell'Ellade</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
+                <item xml:id="χρυσοτελὴς_Πελοποννήσου_καὶ_Ἑλλάδος">
+                    <term xml:lang="grc">χρυσοτελὴς Πελοποννήσου καὶ Ἑλλάδος</term>
+                    <term xml:lang="en">χρυσοτελὴς Πελοποννήσου καὶ Ἑλλάδος</term>
+                    <!--<term xml:lang="en">chrysoteles of the Peloponnesos and Hellas</term>-->
+                    <!--<term xml:lang="fr">chrysotélès du Péloponnèse et de l’Hellade</term>-->
+                    <term xml:lang="it"></term>
+                    <gloss xml:lang="en"></gloss>
+                </item>
         <item xml:id="δικασπόλος_τῶν_Θρᾳκησίων">
             <term xml:lang="grc">δικασπόλος τῶν Θρᾳκησίων</term>
             <term xml:lang="en">δικασπόλος τῶν Θρᾳκησίων</term>
             <!--<term xml:lang="en">dikaspolos of Thrakesion</term>--><!-- ???????????????????????????????? -->
-            <term xml:lang="fr">juge des Thracésiens</term>
-            <term xml:lang="it">giudice dei Tracesiani</term>
+            <!--<term xml:lang="fr">juge des Thracésiens</term>
+            <term xml:lang="it">giudice dei Tracesiani</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="ἐπὶ_τοῦ_Χρυσοτρικλίνου">
             <term xml:lang="grc">ἐπὶ τοῦ Χρυσοτρικλίνου</term>
             <term xml:lang="en">ἐπὶ τοῦ Χρυσοτρικλίνου</term>
             <!--<term xml:lang="en">epi tou Chrysotriklinou</term>-->
-            <term xml:lang="fr">épi tou Chrysotriklinou</term>
-            <term xml:lang="it">epi tou Chrysotriklinou</term>
+            <!--<term xml:lang="fr">épi tou Chrysotriklinou</term>
+            <term xml:lang="it">epi tou Chrysotriklinou</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="κριτὴς_τῶν_Θρᾳκησίων">
             <term xml:lang="grc">κριτὴς τῶν Θρᾳκησίων</term>
             <term xml:lang="en">κριτὴς τῶν Θρᾳκησίων</term>
             <!--<term xml:lang="en">krites of Thrakesion</term>-->
-            <term xml:lang="fr">juge des Thracésiens</term>
-            <term xml:lang="it">giudice dei Tracesiani</term>
+           <!-- <term xml:lang="fr">juge des Thracésiens</term>
+            <term xml:lang="it">giudice dei Tracesiani</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="præfectus_insularum">
@@ -132,24 +140,24 @@
             <term xml:lang="la">præfectus insularum</term>
             <term xml:lang="en">præfectus insularum</term>
             <!--<term xml:lang="en">prefect of the islands</term>-->
-            <term xml:lang="fr">préfet des îles</term>
-            <term xml:lang="it">prefetto delle isole</term>
+            <!--<term xml:lang="fr">préfet des îles</term>
+            <term xml:lang="it">prefetto delle isole</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="χαρτουλάριος">
             <term xml:lang="grc">χαρτουλάριος</term>
             <term xml:lang="en">χαρτουλάριος</term>
             <!--<term xml:lang="en">chartoularios</term>-->
-            <term xml:lang="fr">chartulaire</term>
-            <term xml:lang="it">cartulario</term>
+            <!--<term xml:lang="fr">chartulaire</term>
+            <term xml:lang="it">cartulario</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
         <item xml:id="δικαστὴς_τῶν_Βουκελλαρίων">
             <term xml:lang="grc">δικαστὴς τῶν Βουκελλαρίων</term>
             <term xml:lang="en">δικαστὴς τῶν Βουκελλαρίων</term>
             <!--<term xml:lang="en">judge of the Boukellarioi</term>-->
-            <term xml:lang="fr">juge des Bucellaires</term>
-            <term xml:lang="it">giudice dei Bucellari</term>
+            <!--<term xml:lang="fr">juge des Bucellaires</term>
+            <term xml:lang="it">giudice dei Bucellari</term>-->
             <gloss xml:lang="en"></gloss>
         </item>
     </list>

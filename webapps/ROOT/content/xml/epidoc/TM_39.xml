@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Basile Pépagoménos</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filename"/>
+                <idno type="filename">TM_39</idno>
                 <idno type="SigiDocID">39</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0042</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -90,7 +91,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">17</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -135,7 +136,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering" cert="high" resp="#AS #VP"><!-- 1085-1115????? -->
+                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering" cert="high"><!-- 1085-1115????? -->
                                 <seg xml:lang="en">XIth C., end-XII C., beginning</seg>
                                 <seg xml:lang="fr">XIe s., fin-XIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
@@ -143,16 +144,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: Rector orbis</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Rector orbis</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -218,10 +215,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 4 lines</seg>
+                                            <seg xml:lang="en">Legend of 4 lines</seg>
                                             <seg xml:lang="fr">Légende sur 4 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend on 4 lines</p>
+                                        <p xml:lang="en">Legend of 4 lines</p>
                                         <p xml:lang="fr">Légende sur 4 lignes</p>
                                     </layout>
                                 </layoutDesc>
@@ -252,11 +249,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
             <change when="2018-08-16" who="AS">First version of the record</change>
@@ -293,12 +288,11 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Gen">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Gen">
                                   <lb n="1"/>
                                   <supplied reason="lost">+</supplied>
                                   <w lemma="σφραγίς" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=sfragis&amp;la=greek">
-                                      Σφρὰγις
+                                      Σφραγὶς
                                   </w>
                                   <lb n="2"/>
                                   <persName type="unattested" ref="prosopography.xml#Πεπαγώμενος_Βασίλειος">
@@ -307,16 +301,14 @@
                                       </name>
                                   <lb n="3"/>
                                       <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=twn&amp;la=greek">
-                                          τν
+                                          τ<choice xml:id="choice1"><orig>ο</orig><reg>ῶ</reg></choice>ν
                                       </w> 
                                       <name type="surname">
                                           Πεπ<supplied reason="lost">α</supplied>
                                   <lb n="4" break="no"/>γoμένω<supplied reason="lost">ν</supplied>
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
-                          <!-- omicron for omega not diplayed + should we tag it differently?????? -->
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -324,7 +316,7 @@
                   <div type="textpart" subtype="sigla" n="obv" rend="linear">
                       <ab>
                           <cb n="a"/>ις̅
-                          <cb n="b"/>χσ̣̅<!-- abbreviation signs!!!!!!!!!!!!!!!!!!!!! -->
+                          <cb n="b"/>χσ̣̅<!-- abbreviation signs not well displayed!!!!!!!!!!!!!!!!!!!!! -->
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
@@ -338,16 +330,17 @@
               </div>
               <div type="apparatus">
                   <listApp>
-                      <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                      <app loc="3" from="#choice1">
+                          <note>Sur le sceau τῶν est gravé avec omicron.</note>
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>᾿Ιησοῦς Χριστός. / +Σγραφὶς Βασιλείου τῶν Πεπαγoμένων.</p>
+                  <p xml:lang="en">Jesus Christ. / Seal of Basil (stemming from) the Pepagomenoi.</p>
+                  <p xml:lang="fr">Jésus Christ. / Sceau de Basile (issu) des Pépagoménoi.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                   <p>La représentation du Christ sur les sceaux des dignitaires est très rare et tout spécialement
                           à l’époque de notre bulle (5 % des attestations) [1]. On rapprochera donc ce choix de la
                           légende, également rare, choisie par un autre membre de la famille Pépagoménos : Σφραγὶς
@@ -379,180 +372,59 @@
                               Les Pépagoménoi sont également présents à l’époque des Paléologues, en recouvrant
                               notamment des fonctions au sein de l’Église [14].</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <ref target="https://doi.org/10.3406/numi.2013.3215"><bibl sameAs="bib:Cotsonis2013"/></ref>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cotsonis2013"/>
-                          <citedRange unit="page">p. 565</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Cotsonis2013"/>, <citedRange unit="page">p. 565</citedRange></bibl>.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Athens1917"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens1917"/>
-                          <citedRange unit="part">no 668</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Laurent1932"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laurent1932"/>
-                          <citedRange unit="part">no 574</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">no 192</citedRange>
-                      </biblStruct>. Formule alternative : Σφραγὶς
-                      Ἰωάννου δούλου Χριστοῦ | τοῦ Πεπαγωμένου : <bibl sameAs="bib:Birch1898"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Birch1898"/>
-                          <citedRange unit="part">no 17883</citedRange>
-                      </biblStruct>; <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="page">p. 291</citedRange>
-                      </biblStruct>. Voir aussi le sceau <ref target="TM_34.html">SigiDoc ID 34</ref>.
+                      2. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">668</citedRange></bibl>; 
+                      <bibl><ptr target="Laurent1932"/>, <citedRange unit="part">574</citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">192</citedRange></bibl>. Formule alternative : Σφραγὶς
+                      Ἰωάννου δούλου Χριστοῦ | τοῦ Πεπαγωμένου : <bibl><ptr target="Birch1898"/>, <citedRange unit="part">no 17883</citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="page">p. 291</citedRange></bibl>. Voir aussi le sceau <ref target="TM_34.html">SigiDoc ID 34</ref>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Athens1917"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens1917"/>
-                          <citedRange unit="part">no 428β</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">no 193</citedRange>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">428β</citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">193</citedRange></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Athens1917"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens1917"/>
-                          <citedRange unit="part">no 306</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">no 205</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">306</citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">205</citedRange></bibl>.
                   </p>
                   <p>
-                      5. Constantin, spatharocubiculaire : <bibl sameAs="bib:Athens1917"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens1917"/>
-                          <citedRange unit="part">no 669</citedRange>
-                      </biblStruct>; 
-                      <bibl sameAs="bib:Athens2000"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Athens2000"/>
-                          <citedRange unit="part">no 206</citedRange>
-                      </biblStruct>.
+                      5. Constantin, spatharocubiculaire : <bibl><ptr target="Athens1917"/>, <citedRange unit="part">669</citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">206</citedRange></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Cheynet2008c"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2008c"/>
-                      </biblStruct>.
+                      6. <bibl><ptr target="Cheynet2008c"/></bibl>.
                   </p>
                   <p>
-                      7. Pour les références, voir la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/497/">Ioannes 497</ref></citedRange>
-                      </biblStruct>.
+                      7. Pour les références, voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/497/">Ioannes 497</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      8. <bibl sameAs="bib:LaurentCorpus5.3"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#LaurentCorpus5.3"/>
-                          <citedRange unit="part"> no 1675</citedRange>
-                      </biblStruct>.
+                      8. <bibl><ptr target="LaurentCorpus5.3"/>, <citedRange unit="part">1675</citedRange></bibl>.
                   </p>
                   <p>
-                      9. ῥαίκτωρος : voir les références dans la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/110/">Theodoros 110</ref></citedRange>
-                      </biblStruct>.
+                      9. ῥαίκτωρος : voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/110/">Theodoros 110</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      10. Voir les références dans la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/352/">Ioannes 352</ref></citedRange>
-                      </biblStruct>.
+                      10. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/352/">Ioannes 352</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      11. Voir les références dans la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/405/">Ioannes 405</ref></citedRange>
-                      </biblStruct>.
+                      11. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/405/">Ioannes 405</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      12. Voir les références dans la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/196/">Leon 196</ref></citedRange>
-                      </biblStruct>.
+                      12. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/196/">Leon 196</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      13. Voir les références dans la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/151/">Nikephoros 151</ref></citedRange>
-                      </biblStruct>.
+                      13. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/151/">Nikephoros 151</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      14. Voir <bibl sameAs="bib:PLP"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PLP"/>
-                          <citedRange unit="part">nos 21283-21287, 22341-22371</citedRange>
-                      </biblStruct>.
+                      14. Voir <bibl><ptr target="PLP"/>, <citedRange unit="part">21283-21287, 22341-22371</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 39, p. 754-756</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>39, p. 754-756</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

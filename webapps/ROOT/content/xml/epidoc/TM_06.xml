@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau de Nicétas (?) Sarônitès, protovestès (?) et domestique des Excubites</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
-                <authority/><!-- to be added -->
+                <authority/>
+                <idno type="filename">TM_06</idno>
                 <idno type="SigiDocID">6</idno>
-                <date when="2016-02-24"/><!-- to be changed -->
+                <idno type="sequence">0006</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,8 +45,8 @@
                         </settlement>
                         <institution/>
                         <repository/>
-                        <collection xml:lang="en">Private collection</collection>
-                        <collection xml:lang="fr">Collection privée</collection>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>20</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -91,10 +93,10 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">23</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
-                                    <measure type="axis" unit="clock">12</measure><!-- ???????????????? -->
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">13</measure><!-- ????????????? -->
+                                    <measure type="channelOrient" unit="clock"/>
                                 </support>
                                 <condition>
                                     <p>Echancrures aux orifices du canal; bon état de conservation à l'avers; au revers, état de conservation moyen; légende du revers endommagée, en particulier dans sa partie centrale, le long du canal</p>
@@ -149,11 +151,10 @@
                         <provenance type="found"/>
                         <provenance type="observed"/>
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        <provenance type="transferred" subtype="donated"/>
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p xml:lang="en">Ebay auction</p>
-                            <p xml:lang="fr">Enchère Ebay</p>
+                            <p xml:lang="en">Ebay auction; seller: Agora coins (Ireland)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: Agora coins (Irlande)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -170,7 +171,7 @@
                                 <layoutDesc>
                                     <layout n="r">
                                         <dimensions type="written" unit="mm">
-                                            <dim type="diameter"/><!-- ??????? -->
+                                            <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
                                             <seg xml:lang="en">Iconography</seg>
@@ -182,7 +183,7 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <handNote/>
+                                <handNote n="r"/>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
@@ -220,11 +221,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines</seg>
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende sur 6 lignes</p>
-                                        <p xml:lang="en">Legend on 6 lines</p>
+                                        <p xml:lang="en">Legend of 6 lines</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -255,11 +256,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-08" who="AS">[description of changes]</change>
@@ -288,7 +287,7 @@
                       <ab>
                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἅγιος_Θεόδωρος">
-                              <expan><ex>Ὁ ἅγιος</ex></expan> <!-- how to tag with <w/> ho and hagios separately??????????? -->
+                              <expan><ex>Ὁ ἅγιος</ex></expan>
                                   <expan><abbr>Θεό
                           <cb n="b"/>
                                       δω</abbr><ex>ρος</ex></expan>
@@ -297,8 +296,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#DatGen">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#DatGen">
                                   <lb n="1"/>
                                   <persName type="unattested" ref="prosopography.xml#Σαρωνίτης_Νικήτας">
                                       <name type="forename">
@@ -330,8 +328,7 @@
                                           ου
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
@@ -372,41 +369,16 @@
                   <p xml:lang="en">St Theodore. / Niketas (?) Saronites, protovestes (?) and domestikos of the Exkoubitoi.</p>
                   <p xml:lang="fr">Saint Théodore. / Nicétas (?) Sarônitès, <hi rend="italic">protovestès</hi> (?) et domestique des Excubites.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                       <p/>
-              </div>
-              <div type="commentary" subtype="translation">
-                  <p/>
               </div>
               <div type="footnotes">
                   <p>
-                      1. Un Michel Sarônitès est bien connu par ses sceaux mais il y fait figurer saint Michel au droit : <bibl sameAs="bib:Nesbitt2005"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Nesbitt2005"/>
-                      </biblStruct>.
+                      1. Un Michel Sarônitès est bien connu par ses sceaux mais il y fait figurer saint Michel au droit : <bibl><ptr target="Nesbitt2005"/></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no 6, p. 699-700</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                      <!-- etc.... -->
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                      <!-- etc.... -->
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>6, p. 699-700</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

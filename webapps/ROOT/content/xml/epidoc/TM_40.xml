@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau d'Ochin Vigénès</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,17 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
+                <idno type="filename">TM_40</idno>
                 <idno type="SigiDocID">40</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0044</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -89,7 +91,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">19</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -112,8 +114,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5250/">
-                                        <idno type="PBW">5250</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">43</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5250/">5250</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -134,7 +137,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="prosopography lettering parallel" cert="high" resp="#AS">
+                            <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="prosopography lettering parallel" cert="high">
                                 <seg xml:lang="en">XIth C., second half</seg>
                                 <seg xml:lang="fr">XIe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering, parallel</interp>
@@ -142,16 +145,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Acquired from Numismatica Katane (Italy)</p>
+                            <p xml:lang="fr">Acheté auprès de Numismatica Katane (Italie)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -219,11 +218,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 5 lines</seg>
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
                                             <seg xml:lang="fr">Légende sur 5 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende sur 5 lignes précédée par une croisette</p>
-                                        <p xml:lang="en">Legend on 5 lines preceded by a small cross</p>
+                                        <p xml:lang="en">Legend of 5 lines preceded by a small cross</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -253,11 +252,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
             <change when="2018-08-13" who="AS">First version of the record</change>
@@ -298,14 +295,13 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="legendsCases" ref="legendsCases.xml#Dat">
-                              <l>
+                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
                                   +
-                                  <rs type="invocation" ref="invocation.xml#Κύριε">
-                                      <w lemma="Κύριος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kurie&amp;la=greek">
+                                  <rs type="invocation" ref="invocation.xml#Κύριε2">
+                                      <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">
                                           <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-                                      </w> 
+                                      </rs> 
                                       <w lemma="βοηθέω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=bohqew&amp;la=greek">
                                           <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                                       </w>
@@ -317,8 +313,8 @@
                                           σῷ
                                       </w> 
                                       <rs type="devotional" ref="devotional.xml#δοῦλος">
-                                          δ<supplied reason="lost">ου</supplied>
-                                  <lb n="3" break="no"/>λῷ
+                                          δ<supplied reason="lost">ού</supplied>
+                                  <lb n="3" break="no"/>λῳ
                                       </rs>
                                   </rs> 
                                   <persName type="attested" ref="prosopography.xml#Βηκένης_Ὀσίνη">
@@ -326,8 +322,8 @@
                                           Χούσ<supplied reason="lost">ι</supplied>
                                   <lb n="4" break="no"/>νι
                                       </name> 
-                                      <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek"><!-- iota!!!!! -->
-                                          τὸ
+                                      <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=tw&amp;la=greek">
+                                          τ<choice xml:id="choice1"><orig>ο</orig><reg>ῷ</reg></choice>
                                       </w> 
                                       <name type="surname">
                                           Βί
@@ -335,20 +331,20 @@
                                           κενι
                                       </name>
                                   </persName>
-                              </l>
-                          </lg>
+                          </rs>
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"><!-- pi-rho ligature not correctly diplayed in AuthorMode!!!!!!!!!!!!!!!!!!!!!! -->
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>.|I|O
-                          <cb n="b"/>rp|Δ<!-- ligature pi-rho not yet available in AR!!!!!!!badly visualised; add abbr. signs!!!!!!!!!!!!!! -->
+                          <cb n="b"/>ΠΡ|Δ<!-- ligature pi-rho !!!!!!!!!! -->
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
+                          <lb/><gap reason="lost" extent="unknown" unit="character"></gap>
                           <lb n="1"/>+̅ε̅r,θ,
                           <lb n="2"/>τσδ.
                           <lb n="3"/>λχς.
@@ -359,16 +355,17 @@
               </div>
               <div type="apparatus">
                   <listApp>
-                      <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                      <app loc="4" from="#choice1">
+                          <note>Sur le sceau τῷ est gravé avec omicron.</note>
                       </app>
                   </listApp>
               </div>
-              <div type="translation" xml:lang="en">
-                      <p></p>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Ἰωάννης ὁ Πρόδρομος. / + Κύριε βοήθει τῷ σῷ δούλῳ Χούσινι τῷ Βίκενι.</p>
+                  <p xml:lang="en">St John the Forerunner. / Lord aid your servant Ochin Vigenes.</p>
+                  <p xml:lang="fr">Saint Jean Prodrome. / Seigneur aide ton serviteur Ochin Vigénès.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                                   <p>Cette belle bulle appartint à l’un des nombreux Arméniens installés dans l’Empire.
                                       Le prénom Ochin, issu de l’arabe, est donné pour la première fois dans nos sources au
                                       fondateur de la dynastie Hétoumide, probablement originaire du nord-est de l’Arménie
@@ -390,109 +387,43 @@
                                       dont trois certainement trouvées sur place [7]. 
                                       En l’absence de mentions de fonctions dans les légendes, on peut sans doute conclure à un transfert effectif de la famille.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
                       1. Nous remercions Sulamith Brodbeck qui a identifié pour nous cet attribut.
                   </p>
                   <p>
-                      2. <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
-                          <citedRange unit="page">p. 660 et suiv.</citedRange>
-                      </biblStruct>
+                      2. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 660 et suiv.</citedRange></bibl>.
                           L’un de ces descendants homonymes, sans doute son petit-fils, nous a laissé une belle bulle métrique :
-                      <bibl sameAs="bib:ZacosSpink2"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#ZacosSpink2"/>
-                          <citedRange unit="part">no 133</citedRange>
-                      </biblStruct> (Hetoum, son of Oshin); l’image du sceau est publiée également
-                      par <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
-                          <citedRange>fig. 98</citedRange>
-                      </biblStruct>.
+                      <bibl><ptr target="ZacosSpink2"/>, <citedRange unit="part">133</citedRange></bibl> (Hetoum, son of Oshin); l’image du sceau est publiée également
+                      par <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="part">fig. 98</citedRange></bibl>.
                   </p>
                   <p>
                       3. Légende : Ο ἅγιος Γεώργιος | Κύριε βοήθει Βῆκεν ἀνθυπάτῳ πατρικίῳ καὶ στρατηγῷ Σασοῦν.
                           Ce sceau de l’ancienne collection de l’Institut archéologique russe de Constantinople a été édité par
-                      <bibl sameAs="bib:Šandrovskaya1977"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Šandrovskaya1977"/>
-                          <citedRange>no 20, p. 115</citedRange>
-                      </biblStruct>; voir aussi W. Seibt, c.r. de Шандровская,
-                          Поправки (cité ici), BZ 71, 1978, p. 289<!-- TO BE DONE -->.
+                      <bibl><ptr target="Šandrovskaya1977"/>, <citedRange unit="part">20, p. 115</citedRange></bibl>; voir aussi le compte-rendu de cet article par <bibl><ptr target="Seibt1978"/><citedRange/></bibl>.
                   </p>
                   <p>
-                      4. Sur Vigen Ier Tornikian et sa principauté, voir <bibl sameAs="bib:Dédéyan2003b"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Dédéyan2003b"/>
-                          <citedRange unit="page">p. 1309, 1315-1319</citedRange>
-                      </biblStruct>.
+                      4. Sur Vigen Ier Tornikian et sa principauté, voir <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1309, 1315-1319</citedRange></bibl>.
                   </p>
                   <p>
                       5. Ὁ ἅγιος Γεώργιος | Κύριε βοήθει Βεκέν πρωτοσπαθαρίῳ καὶ στρατηγῷ τοῦ Βαλανέως :
-                      <bibl sameAs="bib:DOseals5"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#DOseals5"/>
-                          <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.240/view">no 15.1</ref></citedRange>
-                      </biblStruct>.
+                      <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.240/view">15.1</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      6. <bibl sameAs="bib:Cheynet2004"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2004"/>
-                      </biblStruct>.
+                      6. <bibl><ptr target="Cheynet2004"/></bibl>.
                   </p>
                   <p>
-                      7. Voir la série de références données dans la notice de la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Pankratios/20104/">Pankratios 20104</ref></citedRange>
-                      </biblStruct>.
+                      7. Voir la série de références données dans la notice de la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Pankratios/20104/">Pankratios 20104</ref></citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 40, p. 756-758</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Shumen"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Shumen"/>
-                          <citedRange unit="part">, no 378;</citedRange>
-                      </biblStruct>
-                      <biblStruct>
-                          <monogr><imprint><biblScope>Bulgarie, collection privée;</biblScope></imprint></monogr></biblStruct><!-- ?????????????????????????????????????????? -->
-                      <bibl sameAs="bib:JordanovCorpus2"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                              <citedRange unit="part">, nos 103-104</citedRange>
-                          </monogr>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>40, p. 756-758</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p>
+                      <bibl><ptr target="Shumen"/>, <citedRange unit="part">378</citedRange></bibl>;
+                      <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="part">103-104</citedRange></bibl>.
+                  </p>
               </div>
           </body>
       </text>

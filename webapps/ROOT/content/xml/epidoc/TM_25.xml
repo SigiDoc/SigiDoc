@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <seg xml:lang="fr">Sceau d'Alexis Comnène, fils de Nicéphore, sébaste</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename><surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,18 +20,17 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename><surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
                 <authority/>
-                <idno type="filename">TM.25</idno>
+                <idno type="filename">TM_25</idno>
                 <idno type="SigiDocID">25</idno>
-                <date when="2016-02-24"/>
+                <idno type="sequence">0027</idno>
+                <date/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <seg>Licensed under a Creative Commons-Attribution 3.0 licence.</seg>
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -64,7 +65,7 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="civil"><!-- imperial too????????????????????????????????????????????????? -->
-                                    <seg xml:lang="grc">Ἀλέξιος Κομνηνός</seg><!-- what to do with homonymous????? -->
+                                    <seg xml:lang="grc">Ἀλέξιος Κομνηνός</seg>
                                     <seg xml:lang="en">Alexios Komnenos</seg>
                                     <seg xml:lang="fr">Alexis Comnène</seg>
                                     <interp type="milieu" xml:lang="en">civil</interp>
@@ -92,7 +93,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">28</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="gr"/>
+                                    <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
@@ -115,8 +116,9 @@
                                         <seg xml:lang="en">Round</seg>
                                         <seg xml:lang="fr">Ronde</seg>
                                     </rs>
-                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5417/">
-                                        <idno type="PBW">5417</idno>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">40</idno>
+                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5417/">5417</ref></idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
@@ -129,8 +131,8 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#icono13" xml:lang="fr">Buste de la Vierge Episkepsis</figDesc>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#icono13" xml:lang="en">Bust of the Virgin Episkepsis</figDesc>
+                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Episkepsis" xml:lang="fr">Buste de la Vierge Episkepsis</figDesc>
+                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Episkepsis" xml:lang="en">Bust of the Virgin Episkepsis</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -140,7 +142,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1101" notAfter="1150" evidence="prosopography parallel" cert="high" resp="#AS">
+                            <origDate type="analysis" notBefore="1101" notAfter="1150" evidence="prosopography parallel" cert="high">
                                 <seg xml:lang="en">XIIth C., first half</seg>
                                 <seg xml:lang="fr">XIIe s., première moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, parallel</interp>
@@ -148,16 +150,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found"/>
-                        
                         <provenance type="observed"/>
-                        
                         <provenance type="not-observed"/>
-                        <provenance type="transferred" subtype="auctioned"/>
-                        
-                        <provenance type="transferred" subtype="donated"/>
-                        
+                        <provenance type="transferred"/>
                         <acquisition>
-                            <p/>
+                            <p xml:lang="en">Ebay auction; seller: akiles_coleccion (Elche, Spain)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: akiles_coleccion (Elche, Espagne)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">
@@ -228,11 +226,11 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Legend on 6 lines</seg>
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
                                         <p xml:lang="fr">Légende métrique sur 6 lignes [1]</p>
-                                        <p xml:lang="en">Metrical legend on 6 lines [1]</p>
+                                        <p xml:lang="en">Metrical legend of 6 lines [1]</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -264,11 +262,9 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl><p/></editorialDecl>
-            <listPrefixDef>
-                <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-            </listPrefixDef>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-15" who="AS">First version of the record</change>
         </revisionDesc>
@@ -308,15 +304,15 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue"><!-- lg tag not compatible with indexing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-                              <l><!-- we should tag with <l/> the two verses, but how????????????????????????????????? -->
+                          <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue">
+                              <l>
                               <lb n="1"/>
                                   +
                                   <rs type="dignity" ref="dignities.xml#σεβαστός">
                                       Σε<supplied reason="lost">β</supplied>α
                                   <lb n="2" break="no"/>στὸν
                                   </rs> 
-                                  <persName type="attested" ref="prosopography.xml#PBWAlexios20125">
+                                  <persName type="attested" ref="prosopography.xml#Κομνηνός_Ἀλέξιος">
                                       <name type="forename">
                                           Ἀλέξιον
                                       </name>
@@ -324,7 +320,7 @@
                                       <w lemma="ἐκ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=ek&amp;la=greek">
                                           ἐκ
                                       </w> 
-                                      <persName type="attested" ref="prosopography.xml#PBWNikephoros116">
+                                      <persName type="attested" ref="prosopography.xml#Κομνηνός_Νικηφόρος">
                                           <name type="forename">
                                               Νικηφόρου
                                           </name>
@@ -335,17 +331,11 @@
                                           <name type="surname">
                                               Κομνη
                                   <lb n="5" break="no"/>
-                                              νοῦ
-                                          </name>
-                                      </persName>
-                                  </persName>
-                                  , 
+                                              νοῦ</name></persName></persName>,
                                   <rs type="invocation">
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Μητροπάρθενος">
                                           <expan><abbr>Μ</abbr><ex>ητ</ex><abbr>ρ<supplied reason="lost">ο</supplied>πάρ
-                                  <lb n="6" break="no"/><supplied reason="lost">θ</supplied>ενε</abbr></expan>
-                                      </rs>
-                                      , 
+                                  <lb n="6" break="no"/><supplied reason="lost">θ</supplied>ενε</abbr></expan></rs>,
                                       <w lemma="σκεπάζω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=skepazw&amp;la=greek"><!-- ???????????????????????????????????????? -->
                                           <expan><abbr>σκέπ</abbr><ex>οις</ex></expan>
                                       </w>
@@ -369,6 +359,7 @@
                           <lb n="4"/>ΥΝΤΑΚ̣ΟΜΝΗ
                           <lb n="5"/>ΝΟΥΜ̅ρ̣̅.ΠΑΡ
                           <lb n="6"/>.Ε̣ΝΕΣΚ̣Ε̣Π̣/
+                          <lb n="0"/>  
                       </ab>
                   </div>
               </div>
@@ -381,11 +372,11 @@
                   </listApp>
               </div>
               <div type="translation">
-                  <p>Μ(ήτη)ρ Θ(εο)ῦ / +Σε[β]αστὸν ᾿Αλέξιον ἐκ Νικηφόρου φύντα Κομνηνοῦ, Μ(ητ)ρ[ο]πάρ[θ]ενε, σκέπ(οις)</p>
-                  <p xml:lang="en">Mother of God / Virgin mother, may you protect Alexios sebastos, son of Nikephoros Komnenos</p>
-                  <p xml:lang="fr"></p>
+                  <p>Μήτηρ Θεοῦ / +Σεβαστὸν ᾿Αλέξιον ἐκ Νικηφόρου φύντα Κομνηνοῦ, Μητροπάρθενε, σκέποις.</p>
+                  <p xml:lang="en">Mother of God / Virgin Mother, may you protect Alexios sebastos, son of Nikephoros Komnenos.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Vièrge Mère, puisses-tu protéger le sébaste Alexis, fils de Nicéphore Comnène.</p>
               </div>
-              <div type="commentary" subtype="edition">
+              <div type="commentary">
                               <p>Ce personnage est connu exclusivement par les sources sigillographiques, mais celles-ci
                               sont assez abondantes. Il s’agit du neveu de l’empereur Alexis Ier par son plus jeune
                               frère Nicéphore [2], sur lequel voir le sceau <ref target="TM_25bis.html">SigiDoc ID 41</ref>. La généalogie élaborée par K. Barzos fait naître le sébaste Alexis
@@ -399,125 +390,43 @@
                               de décoration ; le droit est très mal conservé, mais il semble bien que l’image soit la même
                               que sur notre sceau.</p>
               </div>
-              <div type="commentary" subtype="translation">
-                  <p></p>
-              </div>
               <div type="footnotes">
                   <p>
-                      1. <bibl sameAs="bib:Wassiliou-Seibt2016"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Wassiliou-Seibt2016"/>
-                          <citedRange unit="part">no. 1903</citedRange>
-                      </biblStruct>.
+                      1. <bibl><ptr target="Wassiliou-Seibt2016"/>, <citedRange unit="part">1903</citedRange></bibl>.
                   </p>
                   <p>
-                      2. Sur notre Alexis Comnène voir la <bibl sameAs="bib:PBW"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#PBW"/>
-                          <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/20125/">Alexios 20125</ref></citedRange>
-                      </biblStruct>.
+                      2. Sur notre Alexis Comnène voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/20125/">Alexios 20125</ref></citedRange></bibl>.
                   </p>
                   <p>
-                      3. <bibl sameAs="bib:Barzós1984a"/>,<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Barzós1984a"/>
-                          <citedRange>no. 45, p. 272</citedRange>
-                      </biblStruct> ; pour un aperçu de l’iconographie des bulles des Comnènes, voir <bibl sameAs="bib:Cheynet2005"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Cheynet2005"/>
-                      </biblStruct>.
+                      3. <bibl><ptr target="Barzós1984a"/>, <citedRange unit="part">45, p. 272</citedRange></bibl> ; 
+                      pour un aperçu de l’iconographie des bulles des Comnènes, voir <bibl><ptr target="Cheynet2005"/></bibl>.
                   </p>
                   <p>
-                      4. <bibl sameAs="bib:Alekseenko2010"/>, ici<biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Alekseenko2010"/>
-                          <citedRange>no. 2, p. 329-330</citedRange>
-                      </biblStruct>.
+                      4. <bibl><ptr target="Alekseenko2010"/>, <citedRange unit="part">2, p. 329-330</citedRange></bibl>.
                   </p>
               </div>
-              <div type="bibliography">
-                  <listBibl type="editions">
-                      <bibl sameAs="bib:Sopracasa2017"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Sopracasa2017"/>
-                          <citedRange>, ici no. 25, p. 728-730</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="parallels">
-                      <bibl sameAs="bib:Schlumberger1884"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Schlumberger1884"/>
-                          <citedRange>, p. 639, no. 3 (sans image);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Laurent1932"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Laurent1932"/>
-                          <citedRange>, no. 324, p. 114-115 (sans image);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib: Jordanov1998"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov1998"/>
-                          <citedRange>, ici no. 2;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Jordanov2003"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov2003"/>
-                          <citedRange>, ici no. 4;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib: JordanovCorpus2"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#JordanovCorpus2"/>
-                          <citedRange>, no. 337 (l’éditeur publie deux exemplaires a
-                              et b, mais la photographie renvoie à l’exemplaire en plus
-                              mauvais état, avec impression incomplète, en dépit de la
-                              numérotation de la photo sur les planches finales – 337a –
-                              censée renvoyer à la bulle en bon état de conservation ;
-                              l’éditeur lit οισ sur la septième ligne du sceau, et -ε en
-                              fin du prénom Nicéphore);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Jordanov2008"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Jordanov2008"/>
-                          <citedRange>, ici no. 1, p. 90 (même exemplaire
-                              que le nr 337 présent en photo dans le préc.);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:JordanovCorpus3"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#JordanovCorpus3"/>
-                          <citedRange>, no. 620 (ne donne pas d’image);</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Hirsch"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Hirsch"/>
-                          <citedRange>enchère 272 (4 mai 2011), <ref target="https://www.acsearch.info/search.html?id=993674">lot no. 827</ref>;</citedRange>
-                      </biblStruct>
-                      <bibl sameAs="bib:Gorny"/><biblStruct>
-                          <monogr>
-                              <imprint><biblScope/></imprint>
-                          </monogr><ptr target="bibliography.xml#Gorny"/>
-                          <citedRange><ref target="https://www.gmcoinart.de/templates/images/muenzen/Kataloge/gm_auktion_208_katalog.pdf">enchère 208</ref> (16-17 octobre 2012), lot no. 2544.</citedRange>
-                      </biblStruct>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="current">
-                      <bibl/>
-                  </listBibl>
-                  <listBibl type="discussionOnly" subtype="parallels">
-                      <bibl/>
-                  </listBibl>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>25, p. 728-730</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p>
+                      <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="part">3, p. 639</citedRange></bibl> (sans image);
+                      <bibl><ptr target="Laurent1932"/>, <citedRange unit="part">324, p. 114-115</citedRange></bibl> (sans image);
+                      <bibl><ptr target="Jordanov1998"/>, <citedRange unit="part">2</citedRange></bibl>;
+                      <bibl><ptr target="Jordanov2003"/>, <citedRange unit="part">4</citedRange></bibl>;
+                      <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="part">337</citedRange></bibl> (l’éditeur publie deux exemplaires a
+                      et b, mais la photographie renvoie à l’exemplaire en plus
+                      mauvais état, avec impression incomplète, en dépit de la
+                      numérotation de la photo sur les planches finales – 337a –
+                      censée renvoyer à la bulle en bon état de conservation ;
+                      l’éditeur lit οισ sur la septième ligne du sceau, et -ε en
+                      fin du prénom Nicéphore);
+                      <bibl><ptr target="Jordanov2008"/>, <citedRange unit="part">1, p. 90</citedRange></bibl> (même exemplaire
+                      que le nr 337 présent en photo dans le préc.);
+                      <bibl><ptr target="JordanovCorpus3"/>, <citedRange>620</citedRange></bibl> (ne donne pas d’image);
+                      <bibl><ptr target="Hirsch"/>, <citedRange><ref target="https://www.acsearch.info/search.html?id=993674">enchère 272, lot 827</ref></citedRange></bibl> (4 mai 2011);
+                      <bibl><ptr target="Gorny"/>, <citedRange><ref target="https://issuu.com/gorny_und_mosch/docs/gm_auktion_208_katalog/8">enchère 208, lot 2544</ref></citedRange></bibl> (16-17 octobre 2012).
+                  </p>
               </div>
           </body>
       </text>

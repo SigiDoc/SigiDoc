@@ -23,7 +23,23 @@
     font-family: 'calibri', 'athenaruby';
 }
 
-/* Modified above this line for AthenaRuby font: Joel Kalvesmaki / MF 2019-05-19 / AS 2020-05-25 */
+#biblioEditions {
+    font-family: 'calibri', 'athenaruby';
+}
+
+#biblioCommEditions {
+    font-family: 'calibri', 'athenaruby';
+}
+
+#biblioParallels {
+    font-family: 'calibri', 'athenaruby';
+}
+
+#biblioCommParallels {
+    font-family: 'calibri', 'athenaruby';
+}
+
+/* Modified above this line for AthenaRuby font: Joel Kalvesmaki / MF 2019-05-19 / AS 2020-05-25, 2021-03-19 */
 
 .latinnum {
     border-top: thin black solid;
