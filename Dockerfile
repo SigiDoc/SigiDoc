@@ -1,4 +1,4 @@
-FROM openjdk:latest
+FROM openjdk:15
 
 COPY . /sigidoc
 WORKDIR /sigidoc
