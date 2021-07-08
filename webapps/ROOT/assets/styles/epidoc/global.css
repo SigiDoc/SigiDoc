@@ -1,94 +1,93 @@
 @font-face {
-    font-family: athenaruby;
-    src: url('../../fonts/AthenaRuby_b018.ttf') format('truetype')
+  font-family: athenaruby;
+  src: url("../../fonts/AthenaRuby_b018.ttf") format("truetype");
 }
 
-#diplomatic *[lang ^= "grc"] {
-    font-family: athenaruby;
+#diplomatic *[lang^="grc"] {
+  font-family: athenaruby;
 }
 
 #apparatus {
-    font-family: 'calibri', 'athenaruby';
+  font-family: "calibri", "athenaruby";
 }
 
-
 #commentary p {
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 100%;
-    font-family: 'calibri', 'athenaruby';
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 100%;
+  font-family: "calibri", "athenaruby";
 }
 
 #lettering {
-    font-family: 'calibri', 'athenaruby';
+  font-family: "calibri", "athenaruby";
 }
 
 #biblioEditions {
-    font-family: 'calibri', 'athenaruby';
+  font-family: "calibri", "athenaruby";
 }
 
 #biblioCommEditions {
-    font-family: 'calibri', 'athenaruby';
+  font-family: "calibri", "athenaruby";
 }
 
 #biblioParallels {
-    font-family: 'calibri', 'athenaruby';
+  font-family: "calibri", "athenaruby";
 }
 
 #biblioCommParallels {
-    font-family: 'calibri', 'athenaruby';
+  font-family: "calibri", "athenaruby";
 }
 
 /* Modified above this line for AthenaRuby font: Joel Kalvesmaki / MF 2019-05-19 / AS 2020-05-25, 2021-03-19 */
 
 .latinnum {
-    border-top: thin black solid;
+  border-top: thin black solid;
 }
 
 .supraline {
-    border-top: thin black solid;
+  border-top: thin black solid;
 }
 
 .previouslyread {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-*[lang = "la"] {
-    font-family: 'calibri';
+*[lang="la"] {
+  font-family: "calibri";
 }
 
 /* *[lang="grc"] {
-    font-family: "Lucida Grande", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", 
-    "Palatino Linotype", "Titus Cyberbit Basic", "Cardo", "Vusillus Old Face", "Alphabetum", "Galatia SIL", 
-    "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", 
-    "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", 
+    font-family: "Lucida Grande", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode",
+    "Palatino Linotype", "Titus Cyberbit Basic", "Cardo", "Vusillus Old Face", "Alphabetum", "Galatia SIL",
+    "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic",
+    "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon",
     "Verdana", "Tahoma";
    }
    */
 .textpart {
-    left: 6em;
-    line-height: 1.4;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    position: relative;
-    padding-right: 2em;
-/*    font-family: 'calibri';
+  left: 6em;
+  line-height: 1.4;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  padding-right: 2em;
+  /*    font-family: 'calibri';
 */
 }
 
 .textpartnumber {
-    padding-right: 0.2em;
-    position: absolute;
-    font-family: 'calibri';
-    font-size: 80%
+  padding-right: 0.2em;
+  position: absolute;
+  font-family: "calibri";
+  font-size: 80%;
 }
 
 .linenumber {
-    left: -4em;
-    padding-right: 0.2em;
-    position: absolute;
-    font-family: 'calibri';
-    font-size: 80%
+  left: -4em;
+  padding-right: 0.2em;
+  position: absolute;
+  font-family: "calibri";
+  font-size: 80%;
 }
 
 /*.linenumberbroken {
@@ -104,80 +103,80 @@
 }*/
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 h4.slimmer {
-    margin-bottom: -0.5em;
+  margin-bottom: -0.5em;
 }
 
 h3.iospe {
-    color: black;
-    float: left;
-    font-family: 'calibri';
-    font-size: 20px;
-    max-width: 250px;
-    margin-top: 0;
-    padding-top: 0;
-    padding-right:inherit;
-    width: 165px;
+  color: black;
+  float: left;
+  font-family: "calibri";
+  font-size: 20px;
+  max-width: 250px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-right: inherit;
+  width: 165px;
 }
 
 h6.iospe {
-    font-family: 'calibri';
+  font-family: "calibri";
 }
 
 h4.iospe {
-    font-family: 'calibri';
-    font-size: 16px;
-    color: black;
-    max-width: 165px;
-    width: 165px;
+  font-family: "calibri";
+  font-size: 16px;
+  color: black;
+  max-width: 165px;
+  width: 165px;
 }
 
 dl.iospe {
-    font-family: 'calibri';
-    font-size: 15px;
-    margin-bottom: 5px;
-    margin-top: 15px;
-    padding-left: 165px;
-    padding-top: 5px;
+  font-family: "calibri";
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  padding-left: 165px;
+  padding-top: 5px;
 }
 
 dl.iospe dt {
-    float: left;
-    font-size: 16px;
-    font-weight: bold;
-    color: #183A37;
-    max-width: 250px;
-    vertical-align: baseline;
-    width: 250px;/* instead of 200: changed to adapt the layout to the length of the fieldnames */
-    padding-left: 20px;
-    margin-bottom: auto;
-    padding-bottom: inherit;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: #183a37;
+  max-width: 250px;
+  vertical-align: baseline;
+  width: 250px; /* instead of 200: changed to adapt the layout to the length of the fieldnames */
+  padding-left: 20px;
+  margin-bottom: auto;
+  padding-bottom: inherit;
 }
 
 dl.iospe dd {
-    font-size: 16px;
-    margin-left: 200px;/* instead of 165: changed to adapt the layout to the length of the fieldnames */
-    vertical-align: baseline;
-    margin-bottom: 1px;
-    font-family: 'calibri';
-    padding-left: 50px;
+  font-size: 16px;
+  margin-left: 200px; /* instead of 165: changed to adapt the layout to the length of the fieldnames */
+  vertical-align: baseline;
+  margin-bottom: 1px;
+  font-family: "calibri";
+  padding-left: 50px;
 }
 
 div#edition.iospe {
-    margin-left: 100px;
-    font-size: 15px;
-    font-family: 'calibri';
+  margin-left: 100px;
+  font-size: 15px;
+  font-family: "calibri";
 }
 
 div.iospe {
-    margin-left: 165px;
+  margin-left: 165px;
 }
 
 /* below this line: additions for images' and captions' display according to SigiDoc's htm-tpl-struct-sigidoc.xsl - AS 2020-05-27 */
@@ -187,52 +186,49 @@ dl.box {
   width: 10%;
   padding: 1px;
 }
- 
+
 /*div#images::after {
   clear: both;
   display: table;
 }*/
 
 dl.box dt {
-    float:none;
-    font-size: 12px;
-    font-weight:normal;
-    color: #183A37;
-    max-width: 100px;
-    vertical-align: baseline;
-/*    width: 200px;*/
-    padding-left: 0px;
-    margin-bottom: auto;
-    padding-bottom: inherit;
-    font-family: 'calibri';
-    overflow:auto;
+  float: none;
+  font-size: 12px;
+  font-weight: normal;
+  color: #183a37;
+  max-width: 100px;
+  vertical-align: baseline;
+  /*    width: 200px;*/
+  padding-left: 0px;
+  margin-bottom: auto;
+  padding-bottom: inherit;
+  font-family: "calibri";
+  overflow: auto;
 }
 
 /* below this line: additions for div footnotes' display according to SigiDoc's htm-tpl-struct-sigidoc.xsl - AS 2020-05-28 / AS 2020-07-25*/
 
 div#footnotes p {
-    font-size: 16px;
-    font-family: 'calibri', 'athenaruby';
-
+  font-size: 16px;
+  font-family: "calibri", "athenaruby";
 }
 
 div#footnotes {
-    font-size: 16px;
-    font-family: 'calibri';
-
+  font-size: 16px;
+  font-family: "calibri";
 }
 
 div.fnseparator {
-    border-bottom: 2px solid black;
-    padding-bottom: 10px;
-    width: 200px;
-
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  width: 200px;
 }
 
 h4#notes {
-    font-family: 'calibri';
-    font-size: 16px;
-    color: black;
-    max-width: 165px;
-    width: 165px;
+  font-family: "calibri";
+  font-size: 16px;
+  color: black;
+  max-width: 165px;
+  width: 165px;
 }

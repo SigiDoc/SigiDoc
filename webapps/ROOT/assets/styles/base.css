@@ -1,5 +1,5 @@
-/*  original EFES css 
- 
+/*  original EFES css
+
  ul.index-instances { }
 
 .index-instance-file {
@@ -24,54 +24,54 @@ footer {
 /*@font-face {
     font-family: athenaruby;
     src: url('../fonts/AthenaRuby_b018.ttf') format('truetype')
-} *//* for Athena Ruby in keyboard! */
+} */ /* for Athena Ruby in keyboard! */
 
 #keyboard_box {
-    display:none;
-    margin-top: 1em;
-    margin-right: 1em;
-    margin-bottom: 4em;
-    float: none;
-    width: 300px;
-    height: 300px;
+  display: none;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 4em;
+  float: none;
+  width: 300px;
+  height: 300px;
 }
 #keyboard li {
-    font-size: 18px;
-    list-style: none;
-    float: left;
-    margin: 0 5px 5px 0;
-    width: 22px;
-    height: 22px;
-    line-height: 25px;
-    text-align: center;
-    background: #F0F0F0;
-    border-radius: 5px;
+  font-size: 18px;
+  list-style: none;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 22px;
+  height: 22px;
+  line-height: 25px;
+  text-align: center;
+  background: #f0f0f0;
+  border-radius: 5px;
 }
 
 /*#keyboard li.letter {
         font-family: athenaruby;
-}*/  /* for Athena Ruby in keyboard! */
+}*/ /* for Athena Ruby in keyboard! */
 
 #keyboard li:hover {
-    border: none;
-    background-color: #e5e5e5;
-    cursor: pointer;
+  border: none;
+  background-color: #e5e5e5;
+  cursor: pointer;
 }
 
 ul.index-instances {
-font-weight:normal;
+  font-weight: normal;
 }
 
 .index-instance-file {
-font-weight:normal;
+  font-weight: normal;
 }
 
 .index-instance-text-parts {
-font-weight:normal;
+  font-weight: normal;
 }
 
-.index-instance-line { 
-font-weight:normal;
+.index-instance-line {
+  font-weight: normal;
 }
 
 #site-title {
@@ -79,68 +79,83 @@ font-weight:normal;
   background: url("../images/Seal.jpg") no-repeat;
   position: inherit;
   background-size: 1440px 300px;
-font-size: 45px;
-  color: #562C2C;
+  font-size: 45px;
+  color: #562c2c;
   height: 120px;
   text-align: right;
   margin-top: -1px;
   margin-bottom: -1px;
   padding-right: 10px;
   padding-left: 10px;
-width: 100%
+  width: 100%;
 }
 
-nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
-    background-color: #562C2C;
-    font-size: 18px;
+nav.top-bar,
+nav.top-bar ul.right li,
+nav.top-bar ul.left * {
+  background-color: #562c2c;
+  font-size: 18px;
 }
 
 nav.top-bar {
-    margin: 0 0px 40px 0px;
+  margin: 0 0px 40px 0px;
 }
 
 .top-bar-section {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 li {
-    text-align: left;
+  text-align: left;
 }
 
-p, h1, h2, h3, h4, h5, h6, li, ul {
-    font-family: 'calibri';
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul {
+  font-family: "calibri";
 }
 
 h1 {
-    font-size: 45px;
-    color: #562C2C;
-    padding-bottom: 10px;
-    margin-top: auto;
+  font-size: 45px;
+  color: #562c2c;
+  padding-bottom: 10px;
+  margin-top: auto;
 }
 
-a:link, a:visited, a:active { color: #637893; }
-a:hover { color: #45658B; } 
-
-body{
-    background: -7px top repeat-y;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color:white;
-    display:block;
-    border: 1px solid #efefef;
-    padding: 3px 1px 3px 3px;
+a:link,
+a:visited,
+a:active {
+  color: #637893;
+}
+a:hover {
+  color: #45658b;
 }
 
-footer{
-    margin: 0 20px 40px 170px;
-    border-top: 2px solid #efefef;
-    font-size: 75%;
-    color: #999
+body {
+  background: -7px top repeat-y;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: white;
+  display: block;
+  border: 1px solid #efefef;
+  padding: 3px 1px 3px 3px;
 }
 
+footer {
+  margin: 0 20px 40px 170px;
+  border-top: 2px solid #efefef;
+  font-size: 75%;
+  color: #999;
+}
