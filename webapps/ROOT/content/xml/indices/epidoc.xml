@@ -6,7 +6,7 @@
         <title>SigiDoc Indices</title>
       </titleStmt>
       <publicationStmt>
-        <p></p>
+        <p/>
       </publicationStmt>
       <sourceDesc>
         <p>Born digital document.</p>
@@ -16,11 +16,267 @@
   <text>
     <front>
       <div>
-        <p>These are the main indices designed for a SigiDoc corpus: each project will be able to make their own choices, but consistency among all the SigiDoc-based projects is highly recommended.</p>
+        <p>These are the main indices designed for a SigiDoc corpus: each project will be able to
+          make their own choices, but consistency among all the SigiDoc-based projects is highly
+          recommended.</p>
       </div>
     </front>
     <body>
-      
+      <!--      Prosopography and geography     -->
+
+      <div xml:id="prosopography">
+        <head n="1">Personal Names</head>
+
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin names are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="placenames">
+        <head n="1">Place names</head>
+
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin terms are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <!--Dignities and offices-->
+
+      <div xml:id="dignities">
+        <head n="2">Dignities</head>
+
+        <div type="headings">
+          <list>
+            <item>Dignity</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin terms are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="officeCivil">
+        <head n="2">Civil offices</head>
+
+        <div type="headings">
+          <list>
+            <item>Office</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin terms are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="officeMilitary">
+        <head n="2">Military offices</head>
+
+        <div type="headings">
+          <list>
+            <item>Office</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin terms are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="officeEcclesiastical">
+        <head n="2">Ecclesiastical offices</head>
+
+        <div type="headings">
+          <list>
+            <item>Office</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin terms are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="titles">
+        <head n="2">Titles</head>
+
+        <div type="headings">
+          <list>
+            <item>Title</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index contains titles for which there is uncertainty as to whether they are
+            dignities or functions. It is currently available in Byzantine Greek and Latin only
+            (without translations in modern languages). Latin terms are displayed first. If the
+            links in the 'References' column are used when reading this index with the 'Byzantine
+            Greek' language option, once on the page of the seal edition it will be necessary to
+            change the language (to English or French) to obtain a correct display. Square brackets
+            [ ] indicate that the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <!--Religious appellatives-->
+
+      <div xml:id="marianTerms">
+        <head n="3">Marian terms</head>
+
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index also contains the addressees of the invocations, the full text of which is
+            however contained in a separate index. It is currently available in Byzantine Greek and
+            Latin only (without translations in modern languages). Latin terms are displayed first.
+            If the links in the 'References' column are used when reading this index with the
+            'Byzantine Greek' language option, once on the page of the seal edition it will be
+            necessary to change the language (to English or French) to obtain a correct display.
+            Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="christTerms">
+        <head n="3">Christ-related terms</head>
+
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index also contains the addressees of the invocations, the full text of which is
+            however contained in a separate index. It is currently available in Byzantine Greek and
+            Latin only (without translations in modern languages). Latin terms are displayed first.
+            If the links in the 'References' column are used when reading this index with the
+            'Byzantine Greek' language option, once on the page of the seal edition it will be
+            necessary to change the language (to English or French) to obtain a correct display.
+            Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="saintsTerms">
+        <head n="3">Saints-related terms</head>
+
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index also contains the addressees of the invocations, the full text of which is
+            however contained in a separate index. It is currently available in Byzantine Greek and
+            Latin only (without translations in modern languages). Latin terms are displayed first.
+            If the links in the 'References' column are used when reading this index with the
+            'Byzantine Greek' language option, once on the page of the seal edition it will be
+            necessary to change the language (to English or French) to obtain a correct display.
+            Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <!--Iconography and monograms-->
+
+      <div xml:id="iconography">
+        <head n="4">Iconography</head>
+
+        <div type="headings">
+          <list>
+            <item>Subject</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is limited to the subjects of the iconography, without any further detail.
+            It is currently available in English and French only. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="monogram">
+        <head n="4">Monograms</head>
+
+        <div type="headings">
+          <list>
+            <item>Monogram</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index contains the interpretations of monograms, not the monograms themselves. It
+            is currently available in Byzantine Greek and Latin only (without translations in modern
+            languages). Latin words are displayed first. If the links in the 'References' column are
+            used when reading this index with the 'Byzantine Greek' language option, once on the
+            page of the seal edition it will be necessary to change the language (to English or
+            French) to obtain a correct display. Square brackets [ ] indicate that the name/word is
+            partially or completely restored.</p>
+        </div>
+      </div>
+
+      <!--Words and legend’s features-->
+
       <!--<div xml:id="abbreviation">
         <head>Abbreviations</head>
         
@@ -40,99 +296,7 @@
           </list>
         </div>
       </div>-->
-      
-      <!--<div xml:id="symbol">
-        <head>Symbols</head>
-        
-        <div type="notes">
-          <list>
-            <item>
-              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
-            </item>
-          </list>
-        </div>
-      </div>-->
 
-      <!--<div xml:id="fragment">
-        <head>Fragments</head>
-
-        <div type="headings">
-          <list>
-            <item>Fragment</item>
-            <item>Language code</item>
-            <item>References</item>
-          </list>
-        </div>
-
-        <div type="notes">
-          <list>
-            <item>
-              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
-            </item>
-          </list>
-        </div>
-      </div>-->
-
-      <!-- <div xml:id="numeral">
-        <head>Numerals</head>
-
-        <div type="headings">
-          <list>
-            <item>Numeral</item>
-            <item>Value</item>
-            <item>References</item>
-          </list>
-        </div>
-
-        <div type="notes">
-          <list>
-            <item>
-              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
-            </item>
-          </list>
-        </div>
-      </div> -->
-
-      <!--<div xml:id="word">
-        <head>Words</head>
-
-        <div type="headings">
-          <list>
-            <item>Word</item>
-            <item>Language code</item>
-            <item>References</item>
-          </list>
-        </div>
-
-        <div type="notes">
-          <list>
-            <item>
-              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
-            </item>
-          </list>
-        </div>
-      </div>-->
-      
-      <div xml:id="lemma">
-        <head>Lemmata</head>
-
-        <div type="headings">
-          <list>
-            <item>Lemma</item>
-            <item>Language code</item>
-            <item>References</item>
-          </list>
-        </div>
-
-        <div type="notes">
-              <p>All words not included in the other headings are grouped together in this index. It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin words are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display.
-                Square brackets [ ] indicate that the name/word is partially or completely restored.
-              </p>
-        </div>
-      </div>
-      
       <!--<div xml:id="glyphs">
         <head>Glyphs</head>
         
@@ -152,112 +316,143 @@
           </list>
         </div>
       </div>-->
-      
-      <div xml:id="monogram">
-        <head>Monograms</head>
-        
-        <div type="headings">
-          <list>
-            <item>Monogram</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-          <p>This index contains the interpretations of monograms, not the monograms themselves. It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin words are displayed first.
-            If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-            it will be necessary to change the language (to English or French) to obtain a correct display.
-                Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
 
-      <div xml:id="prosopography">
-        <head>Personal Names</head>
+      <div xml:id="lemma">
+        <head n="5">Lemmata</head>
 
         <div type="headings">
           <list>
-            <item>Name</item>
+            <item>Lemma</item>
+            <item>Language code</item>
             <item>References</item>
           </list>
         </div>
 
         <div type="notes">
-          <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin names are displayed first.
-            If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-            it will be necessary to change the language (to English or French) to obtain a correct display.
-            Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+          <p>All words not included in the other headings are grouped together in this index. It is
+            currently available in Byzantine Greek and Latin only (without translations in modern
+            languages). Latin words are displayed first. If the links in the 'References' column are
+            used when reading this index with the 'Byzantine Greek' language option, once on the
+            page of the seal edition it will be necessary to change the language (to English or
+            French) to obtain a correct display. Square brackets [ ] indicate that the name/word is
+            partially or completely restored. </p>
         </div>
       </div>
-      
+
+      <div xml:id="legendsCases">
+        <head n="5">Legends’ cases</head>
+
+        <div type="headings">
+          <list>
+            <item>Cases</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in English and French only. Square brackets [ ]
+            indicate that the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="metrical">
+        <head n="5">Metrical legends</head>
+
+        <div type="headings">
+          <list>
+            <item>Metre</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index is currently available in English and French only. Square brackets [ ]
+            indicate that the name/word is partially or completely restored.</p>
+        </div>
+      </div>
+
+      <div xml:id="invocation">
+        <head n="5">Invocations</head>
+
+        <div type="headings">
+          <list>
+            <item>Types</item>
+            <item>References</item>
+          </list>
+        </div>
+
+        <div type="notes">
+          <p>This index contains the complete text of the invocations. It is currently available in
+            Byzantine Greek and Latin only (without translations in modern languages). Latin terms
+            are displayed first. If the links in the 'References' column are used when reading this
+            index with the 'Byzantine Greek' language option, once on the page of the seal edition
+            it will be necessary to change the language (to English or French) to obtain a correct
+            display. Square brackets [ ] indicate that the name/word is partially or completely
+            restored.</p>
+        </div>
+      </div>
+
       <div xml:id="genealogical">
-        <head>Genealogical terms</head>
-        
+        <head n="5">Genealogical terms</head>
+
         <div type="headings">
           <list>
             <item>Term</item>
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages).
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). If the links in the 'References' column are used when
+            reading this index with the 'Byzantine Greek' language option, once on the page of the
+            seal edition it will be necessary to change the language (to English or French) to
+            obtain a correct display. Square brackets [ ] indicate that the name/word is partially
+            or completely restored.</p>
         </div>
       </div>
-      
+
       <div xml:id="ecclesiastical">
-        <head>Ecclesiastical terms</head><!-- title to be changed!!?? -->
-        
+        <head>Ecclesiastical terms</head>
+        <!-- title to be changed!!?? -->
+
         <div type="headings">
           <list>
             <item>Term</item>
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages).
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). If the links in the 'References' column are used when
+            reading this index with the 'Byzantine Greek' language option, once on the page of the
+            seal edition it will be necessary to change the language (to English or French) to
+            obtain a correct display. Square brackets [ ] indicate that the name/word is partially
+            or completely restored.</p>
         </div>
       </div>
-      
-      <div xml:id="titles">
-        <head>Titles</head>
-        
+
+      <div xml:id="devotional">
+        <head>Devotional terms</head>
+
         <div type="headings">
           <list>
-            <item>Title</item>
+            <item>Term</item>
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
-              <p>This index contains titles for which there is uncertainty as to whether they are dignities or functions.
-                It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+          <p>This index is currently available in Byzantine Greek and Latin only (without
+            translations in modern languages). Latin terms are displayed first. If the links in the
+            'References' column are used when reading this index with the 'Byzantine Greek' language
+            option, once on the page of the seal edition it will be necessary to change the language
+            (to English or French) to obtain a correct display. Square brackets [ ] indicate that
+            the name/word is partially or completely restored.</p>
         </div>
       </div>
-      
-      <div xml:id="dignities">
-        <head>Dignities</head>
-        
-        <div type="headings">
-          <list>
-            <item>Dignity</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
+
       <!--<div xml:id="divinities">
         <head>Divinities</head>
         
@@ -276,75 +471,7 @@
           </list>
         </div>
       </div>-->
-      
-      <div xml:id="officeCivil">
-        <head>Civil offices</head>
-        
-        <div type="headings">
-          <list>
-            <item>Office</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="officeMilitary">
-        <head>Military offices</head>
-        
-        <div type="headings">
-          <list>
-            <item>Office</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="officeEcclesiastical">
-        <head>Ecclesiastical offices</head>
-        
-        <div type="headings">
-          <list>
-            <item>Office</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="placenames">
-        <head>Place names</head>
-        
-        <div type="headings">
-          <list>
-            <item>Name</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
+
       <!--<div xml:id="institutions">
         <head>Institutions</head>
         
@@ -363,7 +490,7 @@
           </list>
         </div>
       </div>-->
-      
+
       <!--<div xml:id="legalEntities">
         <head>Legal entities</head>
         
@@ -382,7 +509,7 @@
           </list>
         </div>
       </div>-->
-      
+
       <!--<div xml:id="militaryUnits">
         <head>Military units</head>
         
@@ -401,139 +528,77 @@
           </list>
         </div>
       </div>-->
-      
-      <div xml:id="devotional">
-        <head>Devotional terms</head>
+      <!--<div xml:id="symbol">
+        <head>Symbols</head>
         
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>-->
+      
+      <!--<div xml:id="fragment">
+        <head>Fragments</head>
+
         <div type="headings">
           <list>
-            <item>Term</item>
+            <item>Fragment</item>
+            <item>Language code</item>
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
-              <p>This index is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
         </div>
-      </div>
+      </div>-->
       
-      <div xml:id="legendsCases">
-        <head>Legends’ cases</head>
-        
+      <!-- <div xml:id="numeral">
+        <head>Numerals</head>
+
         <div type="headings">
           <list>
-            <item>Cases</item>
+            <item>Numeral</item>
+            <item>Value</item>
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
-              <p>This index is currently available in English and French only. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
         </div>
-      </div>
+      </div> -->
       
-      <div xml:id="metrical">
-        <head>Metrical legends</head>
-        
+      <!--<div xml:id="word">
+        <head>Words</head>
+
         <div type="headings">
           <list>
-            <item>Metre</item>
+            <item>Word</item>
+            <item>Language code</item>
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
-              <p>This index is currently available in English and French only. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="invocation">
-        <head>Invocations</head>
-        
-        <div type="headings">
           <list>
-            <item>Types</item>
-            <item>References</item>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
           </list>
         </div>
-        
-        <div type="notes">
-              <p>This index contains the complete text of the invocations. It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="marianTerms">
-        <head>Marian terms</head>
-        
-        <div type="headings">
-          <list>
-            <item>Term</item>
-            <item>Type</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-          <p>This index also contains the addressees of the invocations, the full text of which is however contained in a separate index. It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="christTerms">
-        <head>Christ-related terms</head>
-        
-        <div type="headings">
-          <list>
-            <item>Term</item>
-            <item>Type</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-          <p>This index also contains the addressees of the invocations, the full text of which is however contained in a separate index. It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="saintsTerms">
-        <head>Saints-related terms</head>
-        
-        <div type="headings">
-          <list>
-            <item>Term</item>
-            <item>Type</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-          <p>This index also contains the addressees of the invocations, the full text of which is however contained in a separate index. It is currently available in Byzantine Greek and Latin only (without translations in modern languages). Latin terms are displayed first.
-                If the links in the 'References' column are used when reading this index with the 'Byzantine Greek' language option, once on the page of the seal edition
-                it will be necessary to change the language (to English or French) to obtain a correct display. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
-      
-      <div xml:id="iconography">
-        <head>Iconography</head>
-        
-        <div type="headings">
-          <list>
-            <item>Subject</item>
-            <item>References</item>
-          </list>
-        </div>
-        
-        <div type="notes">
-          <p>This index is limited to the subjects of the iconography, without any further detail. It is currently available in English and French only. Square brackets [ ] indicate that the name/word is partially or completely restored.</p>
-        </div>
-      </div>
+      </div>-->
     </body>
   </text>
 </TEI>

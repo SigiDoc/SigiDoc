@@ -24,13 +24,59 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
-          <xsl:apply-templates select="/aggregation/tei:TEI/tei:text/tei:front" />
+          <xsl:apply-templates select="/aggregation/tei:TEI/tei:text/tei:front"/>
           <!-- Display the list of indices. -->
-          <ul>
+          <h4 class="iospe">Prosopography and geography</h4>
+          <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
-                <a href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
-                  <xsl:value-of select="tei:head" />
+                <a
+                  href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="(tei:head[@n='1'])"/>
+                </a>
+              </li>
+            </xsl:for-each>
+          </ul>
+          <h4 class="iospe">Dignities and offices</h4>
+          <ul class="no-bullet">
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
+              <li>
+                <a
+                  href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="(tei:head[@n='2'])"/>
+                </a>
+              </li>
+            </xsl:for-each>
+          </ul>
+          <h4 class="iospe">Religious appellatives</h4>
+          <ul class="no-bullet">
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
+              <li>
+                <a
+                  href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="(tei:head[@n='3'])"/>
+                </a>
+              </li>
+            </xsl:for-each>
+          </ul>
+          <h4 class="iospe">Iconography and monograms</h4>
+          <ul class="no-bullet">
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
+              <li>
+                <a
+                  href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="(tei:head[@n='4'])"/>
+                </a>
+              </li>
+            </xsl:for-each>
+          </ul>
+          <h4 class="iospe">Words and legend's features</h4>
+          <ul class="no-bullet">
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
+              <li>
+                <a
+                  href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="(tei:head[@n='5'])"/>
                 </a>
               </li>
             </xsl:for-each>
