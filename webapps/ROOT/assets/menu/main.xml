@@ -1,49 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
-      xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-  <menu label="Seals" match="local-epidoc-index-display"
-        i18n:key="menu-seals" />
+  xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  <menu label="Seals" match="local-epidoc-index-display" i18n:key="menu-seals"/>
   <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
-    <item label="Lemmata" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-lemma"/>
+    
+    <!--Prosopography and geography-->
+    <item label="Personal names" match="local-index-display-html" params="epidoc prosopography"
+      i18n:key="menu-index-prosopography"/>
+    <item label="Place names" match="local-index-display-html" params="epidoc placenames"
+      i18n:key="menu-index-geography"/>
+
+    <!--Dignities and offices-->
+    <item label="Dignities" match="local-index-display-html" params="epidoc dignities"
+      i18n:key="menu-index-dignities"/>
+    <item label="Civil offices" match="local-index-display-html" params="epidoc officeCivil"
+      i18n:key="menu-index-officeCivil"/>
+    <item label="Military offices" match="local-index-display-html" params="epidoc officeMilitary"
+      i18n:key="menu-index-officeMilitary"/>
+    <item label="Ecclesiastical offices" match="local-index-display-html"
+      params="epidoc officeEcclesiastical" i18n:key="menu-index-officeEcclesiastical"/>
+    <item label="Titles" match="local-index-display-html" params="epidoc titles"
+      i18n:key="menu-index-titles"/>
+
+    <!--Religious appellatives-->
+    <item label="Marian terms" match="local-index-display-html" params="epidoc marianTerms"
+      i18n:key="menu-index-marianTerms"/>
+    <item label="Christ-related terms" match="local-index-display-html" params="epidoc christTerms"
+      i18n:key="menu-index-christTerms"/>
+    <item label="Saints-related terms" match="local-index-display-html" params="epidoc saintsTerms"
+      i18n:key="menu-index-saintsTerms"/>
+
+    <!--Iconography and monograms-->
+    <item label="Iconography" match="local-index-display-html" params="epidoc iconography"
+      i18n:key="menu-index-iconography"/>
+    <item label="Monograms" match="local-index-display-html" params="epidoc monogram"
+      i18n:key="menu-index-monogram"/>
+
+    <!--Words and legend’s features-->
+    <item label="Lemmata" match="local-index-display-html" params="epidoc lemma"
+      i18n:key="menu-index-lemma"/>
+    <item label="Legends' cases" match="local-index-display-html" params="epidoc legendsCases"
+      i18n:key="menu-index-legendsCases"/>
+    <item label="Metrical legends" match="local-index-display-html" params="epidoc metrical"
+      i18n:key="menu-index-metrical"/>
+    <item label="Invocations" match="local-index-display-html" params="epidoc invocation"
+      i18n:key="menu-index-invocation"/>
+
     <!--<item label="Glyphs" match="local-index-display-html" params="epidoc glyphs" i18n:key="menu-index-glyph"/>-->
     <!--<item label="Abbreviations" match="local-index-display-html" params="epidoc abbreviation" i18n:key="menu-index-abbreviation"/>-->
-    <item label="Monograms" match="local-index-display-html" params="epidoc monogram" i18n:key="menu-index-monogram"/>
     <!--<item label="Symbols" match="local-index-display-html" params="epidoc symbol" i18n:key="menu-index-symbol"/>-->
     <!--<item label="Fragments" match="local-index-display-html" params="epidoc fragment" i18n:key="menu-index-fragment"/>-->
     <!--<item label="Words" match="local-index-display-html" params="epidoc word" i18n:key="menu-index-word"/>-->
     <!-- <item label="Numerals" match="local-index-display-html" params="epidoc numeral" i18n:key="menu-index-numeral"/> -->
-    <item label="Personal names" match="local-index-display-html" params="epidoc prosopography" i18n:key="menu-index-prosopography"/>
-    <item label="Genealogical terms" match="local-index-display-html" params="epidoc genealogical" i18n:key="menu-index-genealogical"/>
-    <item label="Ecclesiastical terms" match="local-index-display-html" params="epidoc ecclesiastical" i18n:key="menu-index-ecclesiastical"/>
-    <item label="Titles" match="local-index-display-html" params="epidoc titles" i18n:key="menu-index-titles"/>
-    <item label="Dignities" match="local-index-display-html" params="epidoc dignities" i18n:key="menu-index-dignities"/>
+    <!--<item label="Genealogical terms" match="local-index-display-html" params="epidoc genealogical" i18n:key="menu-index-genealogical"/>-->
+    <!--<item label="Ecclesiastical terms" match="local-index-display-html" params="epidoc ecclesiastical" i18n:key="menu-index-ecclesiastical"/>-->
     <!--<item label="Divinities" match="local-index-display-html" params="epidoc divinities" i18n:key="menu-index-divinities"/>-->
-    <item label="Civil offices" match="local-index-display-html" params="epidoc officeCivil" i18n:key="menu-index-officeCivil"/>
-    <item label="Military offices" match="local-index-display-html" params="epidoc officeMilitary" i18n:key="menu-index-officeMilitary"/>
-    <item label="Ecclesiastical offices" match="local-index-display-html" params="epidoc officeEcclesiastical" i18n:key="menu-index-officeEcclesiastical"/>
-    <item label="Place names" match="local-index-display-html" params="epidoc placenames" i18n:key="menu-index-geography"/>
     <!--<item label="Institutions" match="local-index-display-html" params="epidoc institutions" i18n:key="menu-index-institutions"/>-->
     <!--<item label="Legal entities" match="local-index-display-html" params="epidoc legalEntities" i18n:key="menu-index-legalEntities"/>-->
     <!--<item label="Military units" match="local-index-display-html" params="epidoc militaryUnits" i18n:key="menu-index-militaryUnits"/>-->
-    <item label="Devotional terms" match="local-index-display-html" params="epidoc devotional" i18n:key="menu-index-devotional"/>
-    <item label="Legends' cases" match="local-index-display-html" params="epidoc legendsCases" i18n:key="menu-index-legendsCases"/>
-    <item label="Metrical legends" match="local-index-display-html" params="epidoc metrical" i18n:key="menu-index-metrical"/>
-    <item label="Invocations" match="local-index-display-html" params="epidoc invocation" i18n:key="menu-index-invocation"/>
-    <item label="Marian terms" match="local-index-display-html" params="epidoc marianTerms" i18n:key="menu-index-marianTerms"/>
-    <item label="Christ-related terms" match="local-index-display-html" params="epidoc christTerms" i18n:key="menu-index-christTerms"/>
-    <item label="Saints-related terms" match="local-index-display-html" params="epidoc saintsTerms" i18n:key="menu-index-saintsTerms"/>
-    <item label="Iconography" match="local-index-display-html" params="epidoc iconography" i18n:key="menu-index-iconography"/>
-    
-    
+    <!--<item label="Devotional terms" match="local-index-display-html" params="epidoc devotional" i18n:key="menu-index-devotional"/>-->
+
   </menu>
   <menu label="Bibliography" match="local-concordance-bibliography" i18n:key="menu-bibliography">
     <!--<item label="Bibliographic" match="local-concordance-bibliography"
           i18n:key="menu-concordance-bibliography" />-->
   </menu>
-  <menu label="Search" match="local-search" i18n:key="menu-search" />
-  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
-  
+  <menu label="Search" match="local-search" i18n:key="menu-search"/>
+  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin"/>
+
   <menu label="Language" i18n:key="language">
     <item label="Byzantine Greek" language_switch="grc" i18n:key="grc"/>
     <item label="English" i18n:key="en" language_switch="en"/>

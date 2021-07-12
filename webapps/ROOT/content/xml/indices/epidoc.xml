@@ -22,7 +22,8 @@
       </div>
     </front>
     <body>
-      <!--      Prosopography and geography     -->
+
+      <!--Prosopography and geography-->
 
       <div xml:id="prosopography">
         <head n="1">Personal Names</head>
@@ -392,7 +393,7 @@
         </div>
       </div>
 
-      <div xml:id="genealogical">
+      <!--<div xml:id="genealogical">
         <head n="5">Genealogical terms</head>
 
         <div type="headings">
@@ -410,11 +411,11 @@
             obtain a correct display. Square brackets [ ] indicate that the name/word is partially
             or completely restored.</p>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="ecclesiastical">
+      <!--<div xml:id="ecclesiastical">
         <head>Ecclesiastical terms</head>
-        <!-- title to be changed!!?? -->
+        <!-\- title to be changed!!?? -\->
 
         <div type="headings">
           <list>
@@ -431,9 +432,9 @@
             obtain a correct display. Square brackets [ ] indicate that the name/word is partially
             or completely restored.</p>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="devotional">
+      <!--<div xml:id="devotional">
         <head>Devotional terms</head>
 
         <div type="headings">
@@ -451,7 +452,7 @@
             (to English or French) to obtain a correct display. Square brackets [ ] indicate that
             the name/word is partially or completely restored.</p>
         </div>
-      </div>
+      </div>-->
 
       <!--<div xml:id="divinities">
         <head>Divinities</head>
@@ -539,7 +540,7 @@
           </list>
         </div>
       </div>-->
-      
+
       <!--<div xml:id="fragment">
         <head>Fragments</head>
 
@@ -559,7 +560,7 @@
           </list>
         </div>
       </div>-->
-      
+
       <!-- <div xml:id="numeral">
         <head>Numerals</head>
 
@@ -579,7 +580,7 @@
           </list>
         </div>
       </div> -->
-      
+
       <!--<div xml:id="word">
         <head>Words</head>
 
