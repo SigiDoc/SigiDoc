@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
- xmlns="http://www.tei-c.org/ns/1.0">
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -169,8 +169,10 @@
                         <provenance type="not-observed"/>
                         <provenance type="transferred"/>
                         <acquisition>
-                            <p xml:lang="en">Ebay auction; seller: DRG Coins and Antiquities (United Kingdom)</p>
-                            <p xml:lang="fr">Enchère Ebay; vendeur: DRG Coins and Antiquities (Royaume-Uni)</p>
+                            <p xml:lang="en">Ebay auction; seller: DRG Coins and Antiquities (United
+                                Kingdom)</p>
+                            <p xml:lang="fr">Enchère Ebay; vendeur: DRG Coins and Antiquities
+                                (Royaume-Uni)</p>
                         </acquisition>
                     </history>
                     <msPart n="r">

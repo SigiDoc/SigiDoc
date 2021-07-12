@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
- xmlns="http://www.tei-c.org/ns/1.0">
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                    <seg xml:lang="en">Seal of Constantine IV, Constans II and Anastasia, basileis of the Romans</seg>
-                    <seg xml:lang="fr">Sceau de Constantin IV, Constant II et Anastasie, basileis des Romains</seg>
+                    <seg xml:lang="en">Seal of Constantine IV, Constans II and Anastasia, basileis
+                        of the Romans</seg>
+                    <seg xml:lang="fr">Sceau de Constantin IV, Constant II et Anastasie, basileis
+                        des Romains</seg>
                 </title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename>
+                        <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename>
+                        <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -20,7 +24,8 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename>
+                        <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
@@ -30,7 +35,9 @@
                 <idno type="sequence">0002</idno>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                        Commons Attributions-NonCommercial-ShareAlike 4.0 International
+                        License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -41,10 +48,10 @@
                             <seg xml:lang="fr">Italie</seg>
                         </country>
                         <settlement>
-                            <seg></seg>
+                            <seg/>
                         </settlement>
-                        <institution></institution>
-                        <repository></repository>
+                        <institution/>
+                        <repository/>
                         <collection xml:lang="en">Sopracasa collection</collection>
                         <collection xml:lang="fr">Collection Sopracasa</collection>
                         <idno>56</idno>
@@ -89,8 +96,10 @@
                                             <seg xml:lang="en">Seal</seg>
                                             <seg xml:lang="fr">Sceau</seg>
                                         </term>
-                                        <interp type="workType" xml:lang="en">Original impression</interp>
-                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
                                     </objectType>
                                     <material>
                                         <seg xml:lang="en">Lead</seg>
@@ -105,8 +114,10 @@
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter"><!-- @rend???????????????????????? -->
-                                    <p>Bon état de conservation ; large flan rogné sur le pourtour</p>
+                                <condition rend="trimmedPerimeter">
+                                    <!-- @rend???????????????????????? -->
+                                    <p>Bon état de conservation ; large flan rogné sur le
+                                        pourtour</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -125,19 +136,22 @@
                                     </rs>
                                     <rs type="matrix" subtype="notSurviving">
                                         <idno type="SigiDoc">19</idno>
-                                    </rs>                                  
+                                    </rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote n="whole">
-                                <seg>Les lettres de la légende au revers présentent des empattements marqués.</seg>
+                                <seg>Les lettres de la légende au revers présentent des empattements
+                                    marqués.</seg>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin" xml:lang="en">Bust of the Virgin</figDesc>
+                                    <figDesc n="whole" type="iconography"
+                                        ref="iconography.xml#Virgin" xml:lang="en">Bust of the
+                                        Virgin</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -145,12 +159,15 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <seg></seg>
+                                <seg/>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0668" notAfter="0685" evidence="prosopography titulature lettering" cert="high" resp="#AS">
+                            <origDate type="analysis" notBefore="0668" notAfter="0685"
+                                evidence="prosopography titulature lettering" cert="high" resp="#AS">
                                 <seg>668-685</seg>
-                                <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
-                                <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
+                                <interp type="datingCriteria" xml:lang="en">prosopography,
+                                    titulature, lettering</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie,
+                                    titulature, épigraphie</interp>
                             </origDate>
                         </origin>
                         <provenance type="found"/>
@@ -188,18 +205,23 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="r">
-                                    <seg></seg>
+                                    <seg/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r">Buste de la Vierge, avec nimbe de grènetis, habillée avec chiton
-                                            et maphorion, tenant des deux mains devant la poitrine l’Enfant au nimbe de grènetis
-                                            crucifère, vêtu d’un himation et de quatre perles disposées en croix sur la poitrine. Comme
-                                            le souligne Werner Seibt, l’enfant n’est pas dans le clipeus habituel [1].</figDesc>
-                                        <figDesc n="decoR">Au pourtour, cercle de feuilles de laurier partiellement conservé; deux
-                                            grandes croix latines placées à droite et à gauche du buste de la Vierge</figDesc>
+                                        <figDesc n="r">Buste de la Vierge, avec nimbe de grènetis,
+                                            habillée avec chiton et maphorion, tenant des deux mains
+                                            devant la poitrine l’Enfant au nimbe de grènetis
+                                            crucifère, vêtu d’un himation et de quatre perles
+                                            disposées en croix sur la poitrine. Comme le souligne
+                                            Werner Seibt, l’enfant n’est pas dans le clipeus
+                                            habituel [1].</figDesc>
+                                        <figDesc n="decoR">Au pourtour, cercle de feuilles de
+                                            laurier partiellement conservé; deux grandes croix
+                                            latines placées à droite et à gauche du buste de la
+                                            Vierge</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -233,21 +255,24 @@
                                             <seg xml:lang="en">Legend of 6 lines</seg>
                                             <seg xml:lang="fr">Légende sur 6 lignes</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend of 6 lines preceded by a small cross</p>
-                                        <p xml:lang="fr">Légende sur 6 lignes précédée d’une croisette</p>
+                                        <p xml:lang="en">Legend of 6 lines preceded by a small
+                                            cross</p>
+                                        <p xml:lang="fr">Légende sur 6 lignes précédée d’une
+                                            croisette</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
                                 <handNote n="v">
-                                    <seg></seg>
+                                    <seg/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v"></figDesc>
-                                        <figDesc n="decoV">Au pourtour, cercle de feuilles de laurier partiellement conservé</figDesc>
+                                        <figDesc n="v"/>
+                                        <figDesc n="decoV">Au pourtour, cercle de feuilles de
+                                            laurier partiellement conservé</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -265,34 +290,37 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl><p/></editorialDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
         </encodingDesc>
         <revisionDesc>
             <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
-            <change when="2020-05-29" who="AS">Bibliographic references improved and footnotes added</change>
+            <change when="2020-05-29" who="AS">Bibliographic references improved and footnotes
+                added</change>
             <change when="2018-08-13" who="AS">First version of the record</change>
         </revisionDesc>
-      </teiHeader>
-      <facsimile>
-              <surface type="obverse">
-                  <desc>Obverse</desc>
-                  <graphic url="56.jpg" scale="1.5">
-                      <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
-                      <desc xml:lang="fr">Reproduction numérique de l'avers (2015).</desc>
-                  </graphic>
-              </surface>
-              <surface type="reverse">
-                  <desc>Reverse</desc>
-                  <graphic url="56b.jpg" scale="1.5">
-                      <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
-                      <desc xml:lang="fr">Reproduction numérique du revers (2015).</desc>
-                  </graphic>
-              </surface>
-      </facsimile>
-      <text>
-          <body>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc-Latn">
+    </teiHeader>
+    <facsimile>
+        <surface type="obverse">
+            <desc>Obverse</desc>
+            <graphic url="56.jpg" scale="1.5">
+                <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
+                <desc xml:lang="fr">Reproduction numérique de l'avers (2015).</desc>
+            </graphic>
+        </surface>
+        <surface type="reverse">
+            <desc>Reverse</desc>
+            <graphic url="56b.jpg" scale="1.5">
+                <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
+                <desc xml:lang="fr">Reproduction numérique du revers (2015).</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc-Latn">
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
                           <rs type="legendsCases" ref="legendsCases.xml#Nom">
@@ -330,7 +358,7 @@
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc-Latn"><!-- at the end of the 4th line, not the right abbrev. sign -->
+            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc-Latn"><!-- at the end of the 4th line, not the right abbrev. sign -->
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
                           <lb n="1"/><c type="glyph" ref="glyphs.xml#uniE745" subtype="decoration"></c><c type="glyph" ref="glyphs.xml#uniE805" subtype="decoration"></c><c type="glyph" ref="glyphs.xml#C">C</c><c type="glyph" ref="glyphs.xml#O">O</c><c type="glyph" ref="glyphs.xml#N.1"></c><c type="glyph" ref="glyphs.xml#S">S</c><c type="glyph" ref="glyhps.xml#T.1"></c>
@@ -342,15 +370,15 @@
                       </ab>
                   </div>
               </div>
-              <div type="apparatus">
-                      <p></p>
+            <div type="apparatus">
+                      <p/>
               </div>
-              <div type="translation">
+            <div type="translation">
                   <p>+Constantinos Constantinou καὶ Anastasia ec Θeu basileis Romaion.</p>
                   <p xml:lang="en">Constantine, Constans and Anastasia, emperors of the Romans.</p>
                   <p xml:lang="fr">Constantin, Constant et Anastasie, empereurs des Romains.</p>
               </div>
-              <div type="commentary">
+            <div type="commentary">
                                   <p>L’absence de représentations impériales sur ce sceau[2] est tout à fait singulière, n’ayant
                                       ni précédent, ni postérité avant l’époque iconoclaste. On en connaît deux versions
                                       légèrement différentes. Notre pièce se rattache à deux sceaux de l’ancienne collection
@@ -434,7 +462,7 @@
                                       permettrait de trancher définitivement la question en faveur d’une attribution au règne
                                       de Constant II.</p>
               </div>
-              <div type="footnotes">
+            <div type="footnotes">
                   <p>
                       1.  <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75</citedRange></bibl>.
                   </p>
@@ -515,11 +543,11 @@
                           de <hi rend="italic">novus</hi>, <hi rend="italic">neos</hi>, « jeune ».
                   </p>
               </div>
-              <div type="bibliography" subtype="edition">
+            <div type="bibliography" subtype="edition">
                   <p>
                       <bibl><ptr target="Sopracasa2017"/>, <citedRange>2, p. 692-696</citedRange></bibl>
                   </p>
               </div>
-          </body>
-      </text>
-</TEI>             
+        </body>
+    </text>
+</TEI>
