@@ -339,7 +339,7 @@
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>.|I|O
-                          <cb n="b"/>ΠΡ|Δ<!-- ligature pi-rho !!!!!!!!!! -->
+                          <cb n="b"/>|Δ
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">

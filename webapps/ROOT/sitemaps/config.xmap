@@ -86,7 +86,7 @@
         <epidoc-internal-app-style>none</epidoc-internal-app-style>
         <epidoc-leiden-style>panciera</epidoc-leiden-style>
         <epidoc-leiden-style>sigidoc</epidoc-leiden-style>
-        <epidoc-line-inc>2</epidoc-line-inc>
+        <epidoc-line-inc>1</epidoc-line-inc>
         <epidoc-verse-lines>off</epidoc-verse-lines>
         <!-- 'concordance-bibliography-file' is the name (without
              ".xml" extension) of the file in content/xml/authority
