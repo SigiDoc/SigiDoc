@@ -82,7 +82,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-physical-description">Physical description</i18n:text></i></h4><!-- ************* physical description *************** -->
           <dl class="iospe">
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Work type</i18n:text></dt>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Impression type</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:objectType//t:interp[@type='workType']//text()">
@@ -172,7 +172,7 @@
             <xsl:when test="//t:support//t:measure[@type='overstrikeOrient'][@unit='clock']//text()">
               <xsl:apply-templates select="//t:support//t:measure[@type='overstrikeOrient'][@unit='clock']"/>
             </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
+            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-channel-orientation">Channel orientation (clock)</i18n:text></dt>
@@ -529,7 +529,7 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
           </dd>
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix (assembled)</i18n:text></dt>
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix</i18n:text></dt>
           <dd>
             <xsl:choose xml:space="preserve">
               <xsl:when test="//t:layout[@n='r']//t:rs[@type='matrix'][@subtype='surviving']">
@@ -648,7 +648,7 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix (assembled)</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
               <xsl:when test="//t:layout[@n='v']//t:rs[@type='matrix'][@subtype='surviving']">
@@ -713,7 +713,7 @@
     <div id="text">
       <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-text">Text</i18n:text></h3>
       <dl class="iospe">
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Languages</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Language(s)</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:msContents//t:textLang//t:seg//text()">
@@ -722,7 +722,7 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Editions</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Edition(s)</i18n:text></dt>
         <dd id="biblioEditions">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
@@ -731,7 +731,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-unpublished">Unpublished</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on editions</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on edition(s)</i18n:text></dt>
         <dd id="biblioCommEditions">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionCurrent']/t:p/node()">
@@ -740,7 +740,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels">Parallels</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels">Parallel(s)</i18n:text></dt>
         <dd id="biblioParallels">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()">
@@ -749,7 +749,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-no-parallels-known">No parallels known</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-parallels">Commentary on parallels</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-parallels">Commentary on parallel(s)</i18n:text></dt>
         <dd id="biblioCommParallels">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
