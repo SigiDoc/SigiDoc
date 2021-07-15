@@ -71,7 +71,7 @@
               </li>
             </xsl:for-each>
           </ul>
-          <h4 class="iospe">Words and legend's features</h4>
+          <h4 class="iospe">Other features</h4>
           <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
