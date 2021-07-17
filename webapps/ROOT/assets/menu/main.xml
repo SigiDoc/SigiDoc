@@ -69,7 +69,7 @@
   <menu label="Search" match="local-search" i18n:key="menu-search"/>
   <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin"/>
 
-  <menu label="Language" i18n:key="language">
+  <menu label="Language" i18n:key="menu-language">
     <item label="Byzantine Greek" language_switch="grc" i18n:key="grc"/>
     <item label="English" i18n:key="en" language_switch="en"/>
     <item label="French" i18n:key="fr" language_switch="fr"/>

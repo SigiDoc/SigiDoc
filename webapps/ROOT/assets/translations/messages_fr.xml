@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 28-09-2019 -->
-
-<!-- Visualisation problems: alignements of columns (not only because of the names' length -->
-<!-- in order to get all the elements' contents, be sure the xml:lang attribute has the right attribute: en, fr, it, de, ... -->
+<!-- LAST MODIFIED: 2021-07-17 -->
 
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="epidoc-xslt-sigidoc-artifact">Artéfact</message>
@@ -84,13 +81,34 @@
     <message key="menu-search">Rechercher</message>
     <message key="menu-bibliography">Bibliographie</message>
     <message key="menu-admin">Admin</message>
-    <message key="language">Langue(s)</message><!-- doppione?????? cfr. linea 66 -->
+    <message key="menu-language">Langues</message>
     <message key="grc">Grec byzantin</message>
     <message key="en">Anglais</message>
     <message key="fr">Français</message>
+    <message key="menu-index-prosopography">Index prosopographique</message>
+    <message key="menu-index-geography">Index géographique</message>
+    <message key="menu-index-dignities">Dignités</message>
+    <message key="menu-index-officeCivil">Fonctions civiles</message>
+    <message key="menu-index-officeMilitary">Fonctions militaires</message>
+    <message key="menu-index-officeEcclesiastical">Fonctions ecclésiastiques</message>
+    <message key="menu-index-titles">Titres</message>
+    <message key="menu-index-marianTerms">Termes se rapportant à la Vierge</message>
+    <message key="menu-index-christTerms">Termes se rapportant au Christ</message>
+    <message key="menu-index-saintsTerms">Termes se rapportant aux saints</message>
+    <message key="menu-index-iconography">Iconographie</message>
+    <message key="menu-index-monogram">Monogrammes</message>
+    <message key="menu-index-lemma">Lemmata</message>
+    <message key="menu-index-legendsCases">Cas des légendes</message>
+    <message key="menu-index-metrical">Légendes métriques</message>
+    <message key="menu-index-invocation">Invocations</message>
     <message key="home-title">SigiDoc 1.0: un corpus modèle</message>
     <message key="bibliographic-concordance">Bibliographie</message>
     <message key="inscription-index-zip">Les fichiers SigiDoc XML des éditions de sceaux présentes dans la liste suivante sont disponibles dans une </message>
+    <message key="indices-type-prosopography-geography">Personnes et lieux</message>
+    <message key="indices-type-dignities-offices">Dignités et fonctions</message>
+    <message key="indices-type-religious-appellatives">Termes religieux</message>
+    <message key="indices-type-iconography-monograms">Iconographie et monogrammes</message>
+    <message key="indices-type-other-features">Autres index</message>
     <message key="search">Rechercher</message>
     <message key="epidoc-xslt-sigidoc-in">dans</message>
     <message key="epidoc-xslt-sigidoc-ed"> (éd.),</message>
