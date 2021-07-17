@@ -46,7 +46,7 @@
   <!-- Display unselected facets. -->
   <xsl:template match="lst[@name='facet_fields']" mode="search-results">
     <xsl:if test="lst/int">
-      <h3>Facets</h3>
+      <h3><i18n:text i18n:key="search-filters">Filters</i18n:text></h3>
 
       <div class="section-container accordion"
            data-section="accordion">

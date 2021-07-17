@@ -110,6 +110,10 @@
     <message key="indices-type-iconography-monograms">Iconographie et monogrammes</message>
     <message key="indices-type-other-features">Autres index</message>
     <message key="search">Rechercher</message>
+    <message key="search-lemmatised-text"> Recherche de texte lemmatisé</message>
+    <message key="search-greek-keyboard">Clavier grec</message>
+    <message key="search-reset">Réinitialiser la recherche</message>
+    <message key="search-filters">Filtres</message>
     <message key="epidoc-xslt-sigidoc-in">dans</message>
     <message key="epidoc-xslt-sigidoc-ed"> (éd.),</message>
     <message key="epidoc-xslt-sigidoc-not-before">Pas avant</message>

@@ -56,15 +56,15 @@
                     <xsl:attribute name="checked">checked</xsl:attribute>
                   </xsl:if>
                 </input>
-                <xsl:text> Search lemmatised text</xsl:text>
+                <i18n:text i18n:key="search-lemmatised-text"><xsl:text> Search lemmatised text</xsl:text></i18n:text>
               </label>
             </xsl:if>
             
             <label>
               <p>
                 <!--<a href="#" onclick="toggle_visibility('keyboard_box');">Athena Ruby keyboard</a> <xsl:text> | </xsl:text>--> <!-- comment this line out if you do not want the Greek keyboard; if needed, see also base.css -->
-                <a href="#" onclick="toggle_visibility('keyboard_box');">Greek keyboard</a> <xsl:text> | </xsl:text>
-                <a href="{kiln:url-for-match('local-search', ($language), 0)}"><xsl:text>Reset search</xsl:text></a>
+                <a href="#" onclick="toggle_visibility('keyboard_box');"><i18n:text i18n:key="search-greek-keyboard">Greek keyboard</i18n:text></a> <xsl:text> | </xsl:text>
+                <a href="{kiln:url-for-match('local-search', ($language), 0)}"><i18n:text i18n:key="search-reset"><xsl:text>Reset search</xsl:text></i18n:text></a>
               </p>
             </label>
             
