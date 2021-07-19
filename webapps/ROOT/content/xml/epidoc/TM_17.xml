@@ -300,7 +300,7 @@
                           <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue">
                               <l>
                                   <lb n="1"/>
-                                  <w lemma="σκεπάζω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=skepazw&amp;la=greek"><!-- ???????????????????????????????????? -->
+                                  <w lemma="σκέπω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=ske%2Fpw&amp;la=greek&amp;can=ske%2Fpw1&amp;prior=skepa/zw">
                                       Σκέποις
                                   </w>
                                   <lb n="2"/>

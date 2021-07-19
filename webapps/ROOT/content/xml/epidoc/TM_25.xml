@@ -336,7 +336,7 @@
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Μητροπάρθενος">
                                           <expan><abbr>Μ</abbr><ex>ητ</ex><abbr>ρ<supplied reason="lost">ο</supplied>πάρ
                                   <lb n="6" break="no"/><supplied reason="lost">θ</supplied>ενε</abbr></expan></rs>,
-                                      <w lemma="σκεπάζω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=skepazw&amp;la=greek"><!-- ???????????????????????????????????????? -->
+                                      <w lemma="σκέπω" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=ske%2Fpw&amp;la=greek&amp;can=ske%2Fpw1&amp;prior=skepa/zw">
                                           <expan><abbr>σκέπ</abbr><ex>οις</ex></expan>
                                       </w>
                                   </rs>
