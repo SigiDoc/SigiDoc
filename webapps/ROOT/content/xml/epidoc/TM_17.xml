@@ -296,7 +296,6 @@
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
-                      <ab>
                           <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue">
                               <l>
                                   <lb n="1"/>
@@ -320,7 +319,6 @@
                                   </rs>
                               </l>
                           </lg>
-                      </ab>
                   </div>
               </div>
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
