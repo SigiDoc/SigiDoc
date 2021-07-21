@@ -8,7 +8,7 @@
 
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <!-- LAST MODIFIED: 2021-07-01 -->
+  <!-- LAST MODIFIED: 2021-07-21 -->
 
   <xsl:template name="sigidoc-body-structure">
     <xsl:call-template name="navigation"/>
@@ -1002,6 +1002,16 @@
     <a>
       <xsl:attribute name="href">
         <xsl:value-of select="@target"/>
+      </xsl:attribute>
+      <xsl:attribute name="target">_blank</xsl:attribute>
+      <xsl:apply-templates/>
+    </a>
+  </xsl:template>
+  
+  <xsl:template match="t:idno[@type='PBW']"><!-- pointing to the boulloterion ID page on the PBW -->
+    <a>
+      <xsl:attribute name="href">
+        <xsl:value-of select="@corresp"/>
       </xsl:attribute>
       <xsl:attribute name="target">_blank</xsl:attribute>
       <xsl:apply-templates/>
