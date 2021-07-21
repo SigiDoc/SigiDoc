@@ -118,7 +118,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="notSurviving">
                                         <idno type="SigiDoc">41</idno>
-                                        <idno type="PBW"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/662/">662</ref></idno>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/662/">662</idno>
                                     </rs>                                  
                                 </layout>
                             </layoutDesc>
