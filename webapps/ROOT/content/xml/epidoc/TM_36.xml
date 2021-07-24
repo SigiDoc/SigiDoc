@@ -283,7 +283,7 @@
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
-                          <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue">
+                          <lg type="metrical" met="dodecasyllabic" subtype="true" ana="metrical.xml#dodecasyllabicTrue">
                               <l>
                                   <lb n="1"/>
                                   <persName type="unattested" ref="prosopography.xml#Θεοδόσιος_1">

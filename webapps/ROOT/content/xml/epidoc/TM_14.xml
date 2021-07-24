@@ -291,7 +291,7 @@
           <body>
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
-                          <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue">
+                          <lg type="metrical" met="dodecasyllabic" subtype="true" ana="metrical.xml#dodecasyllabicTrue">
                               <l>
                                   <lb n="1"/>
                                   +

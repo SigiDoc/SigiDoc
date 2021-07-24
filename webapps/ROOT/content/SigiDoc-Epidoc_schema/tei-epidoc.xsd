@@ -10,7 +10,7 @@
     
   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2021-07-21 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2021-07-24 -->
   
   <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
@@ -8273,7 +8273,6 @@ Suggested values include: 1] appendix; 2] book; 3] chapter; 4] column; 5] databa
       <xs:attributeGroup ref="tei:tei_att.divLike.attributes"/>
       <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
       <xs:attributeGroup ref="tei:tei_att.declaring.attributes"/>
-      <xs:attribute name="ref"/><!-- SigiDoc: for EFES -->
     </xs:complexType>
   </xs:element>
   <xs:element name="sp">

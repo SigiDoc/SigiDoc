@@ -292,7 +292,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
                       <ab>
-                          <lg type="metrical" met="dodecasyllabic" subtype="true" ref="metrical.xml#dodecasyllabicTrue">
+                          <lg type="metrical" met="dodecasyllabic" subtype="true" ana="metrical.xml#dodecasyllabicTrue">
                              <l>
                                 <lb n="1"/>
                                  <w lemma="ψῆφος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=yhfous&amp;la=greek">
