@@ -11337,10 +11337,9 @@ Sample values include: 1] no; 2] yes; 3] weak; 4] strong</xs:documentation>
         <xs:extension base="tei:tei_macro.xtext">
           <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
           <xs:attributeGroup ref="tei:tei_att.segLike.attributes"/>
-          <!--<xs:attributeGroup ref="tei:tei_att.typed.attributes"/>-->
+          <!--<xs:attributeGroup ref="tei:tei_att.typed.attributes"/>--><!-- commented out by SigiDoc -->
           <xs:attributeGroup ref="tei:tei_att.notated.attributes"/>
-          <xs:attributeGroup ref="tei:tei_att.canonical.attribute.ref"/>
-          <xs:attribute name="type" use="required">
+          <xs:attribute name="type" use="required"><!-- added by SigiDoc -->
             <xs:simpleType>
               <xs:restriction base="xs:token">
                 <xs:enumeration value="glyph"/>

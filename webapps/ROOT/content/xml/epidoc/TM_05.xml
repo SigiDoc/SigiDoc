@@ -340,18 +340,18 @@
               <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
-                          <cb n="a"/><c type="glyph" ref="glyphs.xml#Mu.1" subtype="Μ"></c>
-                          <cb n="b"/><c type="glyph" ref="glyphs.xml#Chi" subtype="Χ">Χ</c>
+                          <cb n="a"/><c type="glyph" ana="glyphs.xml#Mu.1" subtype="Μ"></c>
+                          <cb n="b"/><c type="glyph" ana="glyphs.xml#Chi" subtype="Χ">Χ</c>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <lb n="1"/><c type="glyph" ref="glyphs.xml#uniE70B"></c><c type="glyph" ref="glyphs.xml#Kappa.1" subtype="K"></c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ref="glyphs.xml#uni0375">͵</c><c type="glyph" ref="glyphs.xml#Theta" subtype="Θ">Θ</c><c type="glyph" ref="glyphs.xml#uni0375">͵</c>
-                          <lb n="2"/><c type="glyph" ref="glyphs.xml#Mu.1" subtype="M"></c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Chi" subtype="Χ">Χ</c><c type="glyph" ref="glyphs.xml#Alpha.2" subtype="A"></c><c type="glyph" ref="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ref="glyphs.xml#Lambda" subtype="Λ">Λ</c>
-                          <lb n="3"/><c type="glyph" ref="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ref="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Alpha.2" subtype="A"></c><c type="glyph" ref="glyphs.xml#Rho" subtype="P">Ρ</c><c type="glyph" ref="glyphs.xml#Chi" subtype="Χ">Χ</c>
-                          <lb n="4"/><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ref="glyphs.xml#Kappa.1"></c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ref="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ref="glyphs.xml#Omicron" subtype="O">Ο</c>
-                          <lb n="5"/><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ref="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c><c type="glyph" ref="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ref="glyphs.xml#period">.</c>
-                          <lb n="6"/><c type="glyph" ref="glyphs.xml#period">.</c><c type="glyph" ref="glyphs.xml#Sigma" subtype="Σ">Σ</c>̣ 
+                          <lb n="1"/><c type="glyph" ana="glyphs.xml#uniE70B"></c><c type="glyph" ana="glyphs.xml#Kappa.1" subtype="K"></c><c type="glyph" ana="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ana="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ana="glyphs.xml#uni0375">͵</c><c type="glyph" ana="glyphs.xml#Theta" subtype="Θ">Θ</c><c type="glyph" ana="glyphs.xml#uni0375">͵</c>
+                          <lb n="2"/><c type="glyph" ana="glyphs.xml#Mu.1" subtype="M"></c><c type="glyph" ana="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ana="glyphs.xml#Chi" subtype="Χ">Χ</c><c type="glyph" ana="glyphs.xml#Alpha.2" subtype="A"></c><c type="glyph" ana="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ana="glyphs.xml#Lambda" subtype="Λ">Λ</c>
+                          <lb n="3"/><c type="glyph" ana="glyphs.xml#Beta.1" subtype="B"></c><c type="glyph" ana="glyphs.xml#Epsilon" subtype="E">Ε</c><c type="glyph" ana="glyphs.xml#Sigma" subtype="Σ">Σ</c><c type="glyph" ana="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ana="glyphs.xml#Alpha.2" subtype="A"></c><c type="glyph" ana="glyphs.xml#Rho" subtype="P">Ρ</c><c type="glyph" ana="glyphs.xml#Chi" subtype="Χ">Χ</c>
+                          <lb n="4"/><c type="glyph" ana="glyphs.xml#period">.</c><c type="glyph" ana="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ana="glyphs.xml#Iota" subtype="I">Ι</c><c type="glyph" ana="glyphs.xml#Kappa.1"></c><c type="glyph" ana="glyphs.xml#Omicron" subtype="O">Ο</c><c type="glyph" ana="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ana="glyphs.xml#Omicron" subtype="O">Ο</c>
+                          <lb n="5"/><c type="glyph" ana="glyphs.xml#period">.</c><c type="glyph" ana="glyphs.xml#Tau" subtype="T">Τ</c><c type="glyph" ana="glyphs.xml#Eta" subtype="H">Η</c><c type="glyph" ana="glyphs.xml#Sigma" subtype="Σ">Σ</c><c type="glyph" ana="glyphs.xml#Nu" subtype="N">Ν</c><c type="glyph" ana="glyphs.xml#period">.</c>
+                          <lb n="6"/><c type="glyph" ana="glyphs.xml#period">.</c><c type="glyph" ana="glyphs.xml#Sigma" subtype="Σ">Σ</c>̣ 
                       </ab>
                   </div>
               </div>
