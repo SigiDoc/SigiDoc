@@ -36,7 +36,7 @@
     <message key="epidoc-xslt-sigidoc-condition">Conservation</message>
     <message key="epidoc-xslt-sigidoc-dating">Datation</message>
     <message key="epidoc-xslt-sigidoc-date">Date</message>
-    <message key="epidoc-xslt-sigidoc-internal-date">Date interne</message>
+    <message key="epidoc-xslt-sigidoc-internal-date">Date explicite</message>
     <message key="epidoc-xslt-sigidoc-dating-criteria">Critères de datation</message>
     <message key="epidoc-xslt-sigidoc-alternative-dating">Date alternative</message>
     <message key="epidoc-xslt-sigidoc-history">Historique</message>
