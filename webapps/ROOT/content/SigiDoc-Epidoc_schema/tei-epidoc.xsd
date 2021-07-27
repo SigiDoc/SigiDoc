@@ -10,7 +10,7 @@
     
   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2021-07-24 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2021-07-27 -->
   
   <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
@@ -16482,6 +16482,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
             <xs:enumeration value="secularChurch"/>
             <xs:enumeration value="monastic"/>
             <xs:enumeration value="civic"/>
+            <xs:enumeration value="private"/>
             <xs:enumeration value="undetermined"/>
           </xs:restriction>
         </xs:simpleType>
