@@ -15,7 +15,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          repository:  SigiDoc/SigiDoc_Latest
+          repository:  sigidoc/sigidoc_latest
           tags: latest
           dockerfile: Dockerfile
   deploy:
@@ -24,8 +24,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Pull image
-        run: docker pull ghcr.io/SigiDoc/SigiDoc_Latest:latest
+        run: docker pull ghcr.io/sigidoc/sigidoc_latest:latest
       - name: Stop previous container
         run: docker stop sigidoc || true && docker rm sigidoc || true
       - name: Run image
-        run: docker run -p 9000:9999 -d --rm --name sigidoc ghcr.io/SigiDoc/SigiDoc_Latest:latest
+        run: docker run -p 9000:9999 -d --rm --name sigidoc ghcr.io/sigidoc/sigidoc_latest:latest
