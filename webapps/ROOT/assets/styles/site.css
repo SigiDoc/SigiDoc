@@ -1,0 +1,181 @@
+/* Improve fonts */
+:root {
+  --base-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "athenaruby";
+  --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "athenaruby";
+
+  --fs-base: 16px;
+  --base-line-height: 1.666;
+  --fraction: 1.25;
+
+  --fs-small: calc(var(--fs-base) / var(--fraction));
+  --fs-tiny: calc(var(--fs-small) / var(--fraction));
+  --fs-medium: calc(var(--fs-base) * var(--fraction));
+  --fs-large: calc(var(--fs-medium) * var(--fraction));
+  --fs-xlarge: calc(var(--fs-large) * var(--fraction));
+  --fs-xxlarge: calc(var(--fs-xlarge) * var(--fraction));
+  --fs-huge: calc(var(--fs-xxlarge) * var(--fraction));
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+table thead,
+table tbody {
+  font-family: var(--base-font);
+}
+
+p,
+table,
+table thead,
+table tbody {
+  font-size: var(--fs-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  line-height: var(--base-line-height);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--fs-huge);
+}
+
+h2 {
+  font-size: var(--fs-xxlarge);
+}
+
+h3 {
+  font-size: var(--fs-xlarge);
+}
+
+h4 {
+  font-size: var(--fs-large);
+}
+
+h5 {
+  font-size: var(--fs-medium);
+}
+
+h6 {
+  font-size: var(--fs-base);
+}
+
+/* Improve header background */
+#site-title {
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+}
+
+/* Navigation – Sub-menus to be transparent */
+.top-bar-section ul li.active > a {
+  background-color: transparent;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  gap: 1em;
+  padding-top: 0.5em;
+}
+
+/* Seal page */
+h3.iospe,
+h4.iospe,
+dl.iospe dt,
+dl.iospe dd,
+h4#notes,
+*[lang="la"],
+.textpartnumber {
+  font-family: var(--base-font);
+  font-size: inherit;
+}
+
+dl.iospe dd p:last-of-type {
+  margin-bottom: 0;
+}
+
+#apparatus,
+#edition,
+#lettering,
+#commentary p,
+div#footnotes p,
+.textpart {
+  font-family: var(--base-font);
+}
+
+#diplomatic *[lang="la"],
+#diplomatic *[lang="grc"],
+#diplomatic .textpart {
+  font-family: "athenaruby";
+}
+
+/* Seal table */
+dl.iospe {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.25em 1em;
+}
+
+dl.iospe dt {
+  width: 33%;
+}
+
+dl.iospe dd {
+  width: 66%;
+  padding-left: 0;
+}
+
+h3.iospe {
+  float: none;
+}
+
+dl.iospe {
+  padding-left: 0;
+}
+
+dl.iospe dt {
+  width: 300px;
+  max-width: 300px;
+  margin-right: 1em;
+  text-align: right;
+}
+
+dl.iospe dd {
+  margin-left: 0;
+}
+
+/* Seal section titles */
+h3.iospe {
+  font-size: var(--fs-large);
+}
+
+h3.iospe,
+h4.iospe {
+  width: auto;
+  max-width: inherit;
+  margin: 1em 0;
+}
+
+h4.iospe i {
+  font-style: normal;
+}
