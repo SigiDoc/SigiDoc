@@ -8,15 +8,17 @@ When there are authority lists in your project (stored in /webapps/ROOT/content/
 
 In order to make use of Kiln’s RDF capabilities, some setup is required. You need to create a repository in the Sesame server.
 
-1. Go to http://127.0.0.1:9999/openrdf-workbench/
-2. Click the “New repository” link at
-3. Set `Type` to `In Memory Store RDF Schema and Direct Type Hierarchy`.
-4. Set `ID` to `kiln`
+- Go to http://127.0.0.1:9999/openrdf-workbench/
+- Click the “New repository” link at
 
-- Click `Next`
-- Click `Create`
+  - Set `Type` to `In Memory Store RDF Schema and Direct Type Hierarchy`.
+  - Set `ID` to `kiln`
+  - Click `Next`
+  - Click `Create`
 
-5. Go to http://127.0.0.1:9999/admin/
+- Go to http://127.0.0.1:9999/admin/
 
-- Click the `Harvest all (RDF)` button
-- Click the `Index all (search)`
+  - Click the `Harvest all (RDF)` button
+  - Click the `Index all (search)`
+
+- Go to http://127.0.0.1:9999 and you should see the data in the indecies.
