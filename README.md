@@ -8,6 +8,7 @@ When there are authority lists in your project (stored in /webapps/ROOT/content/
 
 In order to make use of Kiln’s RDF capabilities, some setup is required. You need to create a repository in the Sesame server.
 
+- Run ./docker.sh then open
 - Go to http://127.0.0.1:9999/openrdf-workbench/
 - Click the “New repository” link at
 
