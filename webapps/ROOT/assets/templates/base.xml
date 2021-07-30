@@ -23,7 +23,6 @@
             <link href="{$kiln:assets-path}/foundation/css/normalize.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/styles/base.css" rel="stylesheet" type="text/css" />
-            <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png" />
           </kiln:block>
           <kiln:block name="js">
