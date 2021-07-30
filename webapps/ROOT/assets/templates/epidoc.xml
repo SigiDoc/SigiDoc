@@ -25,8 +25,8 @@
     </kiln:block>
 
     <kiln:block name="css">
-      <kiln:super />
       <link href="{$kiln:assets-path}/styles/epidoc/global.css" rel="stylesheet" type="text/css" />
+      <kiln:super />
     </kiln:block>
 
     <kiln:block name="page-heading">
