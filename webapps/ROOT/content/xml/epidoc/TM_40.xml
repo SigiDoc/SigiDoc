@@ -53,8 +53,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en">Patronymic seals</seg>
-                            <seg xml:lang="fr">Sceaux patronymiques</seg>
+                            <seg xml:lang="en">Private patronymic seals</seg>
+                            <seg xml:lang="fr">Sceaux patronymiques privés</seg>
                         </summary>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Byzantine greek</seg>
@@ -62,12 +62,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="undetermined"><!-- undetermined??????? -->
-                                    <seg xml:lang="grc">᾿Οσίνη Βηκένης</seg><!-- ᾿Οσίνη ???????????????????????? -->
+                                <roleName role="issuer" type="private">
+                                    <seg xml:lang="grc">Χούσιν Βικένης</seg>
                                     <seg xml:lang="en">Ochin Vigenes</seg>
                                     <seg xml:lang="fr">Ochin Vigénès</seg>
-                                    <interp type="milieu" xml:lang="en">undetermined</interp>
-                                    <interp type="milieu" xml:lang="fr">indéterminé</interp>
+                                    <interp type="milieu" xml:lang="en">Private</interp>
+                                    <interp type="milieu" xml:lang="fr">Privé</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -127,7 +127,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_John_Prodromos" xml:lang="en">Bust of St John Prodromos</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_John_Prodromos" xml:lang="en">Bust of St John Prodromos</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -138,7 +138,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="prosopography lettering parallel" cert="high">
-                                <seg xml:lang="en">XIth C., second half</seg>
+                                <seg xml:lang="en">11th C., second half</seg>
                                 <seg xml:lang="fr">XIe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie, parallèle</interp>
@@ -254,6 +254,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
@@ -365,7 +366,7 @@
                   <p xml:lang="en">St John the Forerunner. / Lord aid your servant Ochin Vigenes.</p>
                   <p xml:lang="fr">Saint Jean Prodrome. / Seigneur aide ton serviteur Ochin Vigénès.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                                   <p>Cette belle bulle appartint à l’un des nombreux Arméniens installés dans l’Empire.
                                       Le prénom Ochin, issu de l’arabe, est donné pour la première fois dans nos sources au
                                       fondateur de la dynastie Hétoumide, probablement originaire du nord-est de l’Arménie
@@ -387,7 +388,7 @@
                                       dont trois certainement trouvées sur place [7]. 
                                       En l’absence de mentions de fonctions dans les légendes, on peut sans doute conclure à un transfert effectif de la famille.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Nous remercions Sulamith Brodbeck qui a identifié pour nous cet attribut.
                   </p>

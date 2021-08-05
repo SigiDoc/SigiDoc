@@ -58,12 +58,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="military"><!-- imperial too????????????????????????? -->
+                                <roleName role="issuer" type="military">
                                     <seg xml:lang="grc">Νικηφόρος Κομνηνός</seg>
                                     <seg xml:lang="en">Nikephoros Komnenos</seg>
                                     <seg xml:lang="fr">Nicéphore Comnène</seg>
-                                    <interp type="milieu" xml:lang="en">imperial, military</interp>
-                                    <interp type="milieu" xml:lang="fr">impérial, militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -92,7 +92,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="clipped"><!-- ???????????????????????????? -->
+                                <condition rend="crushed">
                                     <p>On the reverse, lamination flaw obscuring left portion of reverse legend</p>
                                 </condition>
                             </supportDesc>
@@ -124,7 +124,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Demetrios" xml:lang="en">St Demetrios standing</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Demetrios" xml:lang="en">St Demetrios standing</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -134,8 +134,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1101" notAfter="1115" evidence="prosopography lettering titulature" cert="high"><!-- 1101-1115?????? -->
-                                <seg xml:lang="en">XIIth C., beginning</seg>
+                            <origDate type="analysis" notBefore="1101" notAfter="1120" evidence="prosopography lettering titulature" cert="high">
+                                <seg xml:lang="en">12th C., beginning</seg>
                                 <seg xml:lang="fr">XIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
@@ -255,6 +255,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
@@ -373,8 +374,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -383,7 +384,7 @@
                   <p xml:lang="en">St Demetrius. / Lord aid Nikephoros Komnenos, sebastos, megas droungarios of the fleet and the emperor’s own brother.</p>
                   <p xml:lang="fr">Saint Dèmètrios. / Seigneur aide Nicéphore Comnène, sébaste, grand drongaire de la flotte et propre frère de l'empereur.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Le propriétaire du sceau est Nicéphore Comnène, le plus jeune frère de l'empereur Alexis Ier [2].</p>
                               <p>Cette bulle semble offrir la seule attestation sigillographique de l’exercice par
                                   Nicéphore de la fonction de grand drongaire de la flotte, bien connue par les sources
@@ -422,7 +423,7 @@
                                   campagne contre le grand Normand [13]. Le commandement aurait donc pu passer alors
                                   d’Eustathe à Nicéphore.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Nous remercions vivement
                       Jean-François Vannier pour nous avoir signalé ce sceau, ainsi que la présence explicite du lien familial

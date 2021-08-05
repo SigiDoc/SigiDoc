@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Ῥωμανός Ἰσμαίλ</seg>
                                     <seg xml:lang="en">Romanos Ismail</seg>
                                     <seg xml:lang="fr">Romain Ismaïl</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -130,7 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -140,8 +140,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature" cert="high"><!-- 1040-1060??????????? -->
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="prosopography lettering titulature" cert="high">
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -364,7 +365,7 @@
                   <p xml:lang="en">St Nicholas. / Lord aid Romanos Ismail, protokentarchos of the Opsikion.</p>
                   <p xml:lang="fr">Saint Nicolas. / Seigneur aide Romain Ismaïl, protokentarque de l’Opsikion.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Le système d’abréviation du titre est audacieux mais la lecture ne fait pas de doute
                       car plusieurs bulles attestent l’existence au XIe siècle de la fonction de protokentarque de
                       thème. On connaît ainsi des titulaires de la charge pour les thèmes de la mer Égée [1],
@@ -383,7 +384,7 @@
                       en Orient à la fin du Xe siècle, était sans doute d’origine arabe [8]. Elle n’était pas encore
                       attestée à notre connaissance.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2368/view">40.24</ref></citedRange></bibl>.
                   </p>

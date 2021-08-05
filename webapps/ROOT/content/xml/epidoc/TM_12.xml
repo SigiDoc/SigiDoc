@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Ἰωάννης</seg>
                                     <seg xml:lang="en">Ioannes</seg>
                                     <seg xml:lang="fr">Jean</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -98,7 +98,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Etat de conservation correct</p>
                                 </condition>
                             </supportDesc>
@@ -131,7 +131,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Theodore" xml:lang="en">St Theodore standing</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Theodore" xml:lang="en">St Theodore standing</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -141,8 +141,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1057" notAfter="1080" evidence="prosopography titulature parallel" cert="high" resp="#AS"><!-- how to represent the 'ca'???? -->
-                                <seg xml:lang="en">XIth C., ca. 1057-1080</seg>
+                            <origDate type="analysis" notBefore="1057" notAfter="1080" evidence="prosopography titulature parallel" cert="medium">
+                                <seg xml:lang="en">11th C., ca. 1057-1080</seg>
                                 <seg xml:lang="fr">XIe s., env. 1057-1080</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, parallèle</interp>
@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-15" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-16" who="AS">Bibliographic references improved and footnotes added</change>
@@ -344,8 +345,8 @@
               <div type="apparatus">
                       <listApp>
                           <app>
-                              <note xml:lang="en">None.</note>
-                              <note xml:lang="fr">Aucun.</note>
+                              <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                              <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                           </app>
                       </listApp>
               </div>
@@ -354,12 +355,12 @@
                   <p xml:lang="en">St Theodore. / John protoproedros and doux of Antioch.</p>
                   <p xml:lang="fr">Saint Théodore. / Jean protoproèdre et duc d’Antioche.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Il a été proposé de voir dans ce personnage Jean Doukas, qui exerça également en
                               Orient un commandement à Édesse (1059). Il serait le premier protoproèdre connu et
                               reçut sans doute cette dignité pour son rôle dans la rébellion d’Isaac Comnène [1].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Seyrig"/>, <citedRange unit="page">p. 118</citedRange></bibl>; 
                       voir aussi la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20159/">Ioannes 20159</ref></citedRange></bibl>.

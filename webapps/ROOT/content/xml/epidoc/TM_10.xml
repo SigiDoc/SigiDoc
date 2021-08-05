@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Στέφανος</seg>
                                     <seg xml:lang="en">Stephanos</seg>
                                     <seg xml:lang="fr">Étienne</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -141,8 +141,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high" resp="#AS"><!-- right 1040-1060?????? -->
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high" >
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallèle</interp>
@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -362,13 +363,13 @@
                   <p xml:lang="en">Seal of Stephanos, vestarches / and doux of Antioch.</p>
                   <p xml:lang="fr">Sceau d'Étienne, vestarque / et duc d’Antioche.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>La liste des ducs d’Antioche a été établie par J.-C. Cheynet [1] : notre personnage fut en
                                   poste au milieu du XIe siècle, avant 1060 [2]. Il s’agirait du mari de la soeur de Michel IV,
                                   qui fut envoyée en Sicile entre 1037 et 1040 à la tête de la flotte byzantine, avant d’être
                                   nommé duc d’Antioche vraisemblablement à la fin du règne de Michel IV [3].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 22-23</citedRange></bibl>.
                   </p>

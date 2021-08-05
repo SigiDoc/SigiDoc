@@ -75,14 +75,11 @@
                                     <seg xml:lang="grc">Κωνσταντῖνος Δ΄, </seg>
                                     <seg xml:lang="en">Constantine IV, </seg>
                                     <seg xml:lang="fr">Constantin IV, </seg>
-                                    <seg xml:lang="grc">Κώνστας Β΄, </seg>
-                                    <seg xml:lang="en">Constans II, </seg>
-                                    <seg xml:lang="fr">Constant II, </seg>
                                     <seg xml:lang="grc">Αναστασία</seg>
                                     <seg xml:lang="en">Anastasia</seg>
                                     <seg xml:lang="fr">Anastasie</seg>
-                                    <interp type="milieu" xml:lang="en">imperial</interp>
-                                    <interp type="milieu" xml:lang="fr">impérial</interp>
+                                    <interp type="milieu" xml:lang="en">Imperial</interp>
+                                    <interp type="milieu" xml:lang="fr">Impérial</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -114,9 +111,8 @@
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
-                                    <!-- @rend???????????????????????? -->
-                                    <p>Bon état de conservation ; large flan rogné sur le
+                                <condition rend="wornEdge">
+                                    <p>Bon état de conservation; large flan rogné sur le
                                         pourtour</p>
                                 </condition>
                             </supportDesc>
@@ -150,7 +146,7 @@
                             <decoNote>
                                 <figure>
                                     <figDesc n="whole" type="iconography"
-                                        ref="iconography.xml#Virgin" xml:lang="en">Bust of the
+                                        ana="iconography.xml#Virgin" xml:lang="en">Bust of the
                                         Virgin</figDesc>
                                 </figure>
                             </decoNote>
@@ -162,7 +158,7 @@
                                 <seg/>
                             </origPlace>
                             <origDate type="analysis" notBefore="0668" notAfter="0685"
-                                evidence="prosopography titulature lettering" cert="high" resp="#AS">
+                                evidence="prosopography titulature lettering" cert="high">
                                 <seg>668-685</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography,
                                     titulature, lettering</interp>
@@ -295,6 +291,7 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-05-29" who="AS">Bibliographic references improved and footnotes
@@ -378,7 +375,7 @@
                   <p xml:lang="en">Constantine son of Constantine, and Anastasia, in God emperors of the Romans.</p>
                 <p xml:lang="fr">Constantin fils de Constantin, et Anastasie, en Dieu empereurs des Romains.</p>
               </div>
-            <div type="commentary">
+            <div type="commentary" subtype="text">
                                   <p>L’absence de représentations impériales sur ce sceau[2] est tout à fait singulière, n’ayant
                                       ni précédent, ni postérité avant l’époque iconoclaste. On en connaît deux versions
                                       légèrement différentes. Notre pièce se rattache à deux sceaux de l’ancienne collection
@@ -462,7 +459,7 @@
                                       permettrait de trancher définitivement la question en faveur d’une attribution au règne
                                       de Constant II.</p>
               </div>
-            <div type="footnotes">
+            <div type="commentary" subtype="footnotes">
                   <p>
                       1.  <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75</citedRange></bibl>.
                   </p>

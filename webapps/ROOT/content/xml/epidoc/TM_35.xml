@@ -66,7 +66,7 @@
                                     <seg xml:lang="grc">Νικόλαος</seg>
                                     <seg xml:lang="en">Nikolaos</seg>
                                     <seg xml:lang="fr">Nicolas</seg>
-                                    <interp type="milieu" xml:lang="en">secular Church</interp>
+                                    <interp type="milieu" xml:lang="en">Secular Church</interp>
                                     <interp type="milieu" xml:lang="fr">Église séculière</interp>
                                 </roleName>
                             </author>
@@ -96,7 +96,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Etat de conservation correct ; flan rogné sur le pourtour ; partie droite de l’avers endommagée</p>
                                 </condition>
                             </supportDesc>
@@ -126,7 +126,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Theodore_Stratelates" xml:lang="en">St Theodore Stratelates standing</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Theodore_Stratelates" xml:lang="en">St Theodore Stratelates standing</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -136,8 +136,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="lettering" cert="high"><!-- 1034-1066????????????? -->
-                                <seg xml:lang="en">XIth C., central third</seg>
+                            <origDate type="analysis" notBefore="1030" notAfter="1070" evidence="lettering" cert="high">
+                                <seg xml:lang="en">11th C., central third</seg>
                                 <seg xml:lang="fr">XIe s., tiers central</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">épigraphie</interp>
@@ -250,6 +250,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -370,7 +371,7 @@
                   <p xml:lang="en">St Theodore Stratelates. / Seal of the shepherd of Sebaste Nicholas bearing the impression of the martyr Theodore.</p>
                   <p xml:lang="fr">Saint Théodore Stratèlatès. / Sceau du berger de Sébastè Nicolas, qui porte l'empreinte du martyr Théodore.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Sise dans la vallée du Méandre, Sebastè (l’actuel Selçikler) relevait de l’éparchie de Phrygie Pakatiane [2].
                           Elle occupait le dixième rang des suffragants de Laodicée de Phrygie dans la notice 1
                           du VIIe siècle [3], mais profita apparemment de la crise des cités lors des siècles obscurs
@@ -378,7 +379,7 @@
                           Mystikos [4]. Si l’on en croit les listes établies par Giorgio Fedalto, Nicolas est le premier
                           titulaire du siège connu après Constantin qui siégea au concile photien de 879 [5].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2466/view">33.1</ref></citedRange></bibl>.
                   </p>

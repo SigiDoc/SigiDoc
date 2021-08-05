@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Γρηγορᾶς</seg>
                                     <seg xml:lang="en">Gregoras</seg>
                                     <seg xml:lang="fr">Grègoras</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -130,7 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Cross_patriarcal" xml:lang="en">Patriarcal cross</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Cross_patriarcal" xml:lang="en">Patriarcal cross</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -140,8 +140,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0876" notAfter="0900" evidence="prosopography" cert="high" resp="#AS">
-                                <seg xml:lang="en">IXth C., last quarter</seg>
+                            <origDate type="analysis" notBefore="0876" notAfter="0900" evidence="prosopography" cert="high">
+                                <seg xml:lang="en">9th C., last quarter</seg>
                                 <seg xml:lang="fr">IXe s., dernier quart</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie</interp>
@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">id for the dignity modified, line 321</change>
@@ -373,12 +374,12 @@
                   <p xml:lang="en">Lord aid your servant / Gregoras (?), imperial spatharokandidatos and topoteretes of the Arithmos (?).</p>
                   <p xml:lang="fr">Seigneur aide ton serviteur / Grégoras (?), spatharocandidat impérial et <hi rend="italic">topotèrètès</hi> de l’<hi rend="italic">Arithmos</hi> (?).</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>Grégoras était le lieutenant du chef du tagma fondé par l’impératrice Irène [2].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
-                      1. Voir <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part"><ref target="TM_13.html">13</ref></citedRange></bibl> .
+                      1. Voir <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part">13</citedRange></bibl> (<ref target="TM_13.html">SigiDoc 13</ref>).
                   </p>
                   <p>
                       2. Sur cette unité et son origine, voir <bibl><ptr target="Prigent2015"/>, <citedRange unit="page">p. 166-168</citedRange></bibl>.

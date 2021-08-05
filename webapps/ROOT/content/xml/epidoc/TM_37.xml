@@ -65,8 +65,8 @@
                                 <roleName role="issuer" type="monastic">
                                     <seg xml:lang="en">Anonymous</seg>
                                     <seg xml:lang="fr">Anonyme</seg>
-                                    <interp type="milieu" xml:lang="en">monastic</interp>
-                                    <interp type="milieu" xml:lang="fr">monastique</interp>
+                                    <interp type="milieu" xml:lang="en">Monastic</interp>
+                                    <interp type="milieu" xml:lang="fr">Monastique</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -126,7 +126,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Blachernitissa" xml:lang="en">Bust of the Virgin Blachernitissa</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Blachernitissa" xml:lang="en">Bust of the Virgin Blachernitissa</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -137,7 +137,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="lettering" cert="high">
-                                <seg xml:lang="en">XIth C., second half</seg>
+                                <seg xml:lang="en">11th C., second half</seg>
                                 <seg xml:lang="fr">XIe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">épigraphie</interp>
@@ -253,6 +253,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -341,8 +342,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -351,7 +352,7 @@
                   <p xml:lang="en">Mother of God. / Seal of the kathegetes of the monastery of <hi rend="italic">ta Pikridiou</hi>.</p>
                   <p xml:lang="fr">Mère de Dieu. / Sceau du <hi rend="italic">kathègètès</hi> du monastère de <hi rend="italic">ta Pikridiou</hi>.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                                   <p>Identifié avec Hasköy, le quartier de τὰ Πικριδίου était situé dans les environs
                                       immédiats de Constantinople, par-delà la Corne d’Or [1]. Selon Janin, qui suit ici le
                                       pseudo-Codinus, le monastère τῶν Πικριδίου avait été fondé sous l’impératrice Irène
@@ -371,7 +372,7 @@
                                   des vacances entre l’élection de deux supérieurs [5]. Ce type de sceau est également attesté
                                   pour le supérieur du monastère de Képhalobounion [6] et du mont Latros [7].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Janin1950"/>, <citedRange unit="page">p. 465-466</citedRange></bibl>; 
                       <bibl><ptr target="Janin1953"/>, <citedRange unit="page">p. 417</citedRange></bibl>.

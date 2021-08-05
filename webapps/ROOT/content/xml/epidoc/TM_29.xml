@@ -64,12 +64,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="civil">
+                                <roleName role="issuer" type="layAristocracy">
                                     <seg xml:lang="grc">Μαρία Μακρεμβολίτισσα</seg>
                                     <seg xml:lang="en">Maria Makrembolitissa</seg>
                                     <seg xml:lang="fr">Marie Makrembolitissa</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocracie laïque</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -98,7 +98,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Flan rogné sur le pourtour, légère perte sur l’un des côtés; à l'avers, beaucoup de caractéristiques de l’effigie sont perdues; au revers, état de conservation assez bon</p>
                                 </condition>
                             </supportDesc>
@@ -129,7 +129,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -139,8 +139,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1071" notAfter="1080" evidence="prosopography lettering parallel" cert="high" resp="#AS"><!--  8th decade????? -->
-                                <seg xml:lang="en">XIth C., 8th decade</seg>
+                            <origDate type="analysis" notBefore="1071" notAfter="1080" evidence="prosopography lettering parallel" cert="high">
+                                <seg xml:lang="en">11th C., 8th decade</seg>
                                 <seg xml:lang="fr">XIe s., 8ème décennie</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie, parallèle</interp>
@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
@@ -367,7 +368,7 @@
                   <p xml:lang="en">Mother of God. / Mother of God aid Maria Makrembolitissa, kouropalatissa.</p>
                   <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide Marie Makrembolitissa, <hi rend="italic">kouropalatissa</hi>.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Marie Makrembolitissa nous a laissé plusieurs bulles de deux types distincts [1]. Sur le
                               second, plus tardif, l’invocation est plus développée et Maria opta pour une figuration de
                               la <hi rend="italic">Koimèsis</hi> au droit [2]. 
@@ -375,7 +376,7 @@
                               personne [3], mais le titre de curopalate, bien qu’en passe de se dévaluer, demeurait tout
                       de même élevé et nous serions enclins à les identifier [4].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Pour le type présenté ici, voir <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/">Maria 20107</ref></citedRange></bibl>.
                   </p>

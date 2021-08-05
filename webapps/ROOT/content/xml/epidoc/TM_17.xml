@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Μιχαὴλ</seg>
                                     <seg xml:lang="en">Michael</seg>
                                     <seg xml:lang="fr">Michel</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -130,7 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Theodore" xml:lang="en">Bust of St Theodore</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Theodore" xml:lang="en">Bust of St Theodore</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -140,8 +140,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1050" notAfter="1070" evidence="prosopography titulature lettering" cert="high" resp="#AS #VP">
-                                <seg xml:lang="en">XIth C., 1050-1070</seg>
+                            <origDate type="analysis" notBefore="1050" notAfter="1070" evidence="prosopography titulature lettering" cert="high">
+                                <seg xml:lang="en">11th C., 1050-1070</seg>
                                 <seg xml:lang="fr">XIe s., 1050-1070</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
             <change when="2020-06-18" who="AS">Bibliographic references improved and footnotes added</change>
@@ -342,8 +343,8 @@
               <div type="apparatus">
                       <listApp>
                           <app>
-                              <note xml:lang="en">None.</note>
-                              <note xml:lang="fr">Aucun.</note>
+                              <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                              <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                           </app>
                       </listApp>
               </div>
@@ -352,7 +353,7 @@
                   <p xml:lang="en">St Theodore. / May you protect Michael, magistros, stratelates.</p>
                   <p xml:lang="fr">Saint Théodore. / Puisses-tu protéger Michel, magistre, <hi rend="italic">stratèlatès</hi>.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>Équivalent grec de la haute fonction de magister militum, le titre de stratèlate devint
                               honorifique au cours du VIIe siècle [1]. Le terme réapparut pour désigner les membres d’un
                               nouveau tagma central, créé sous Jean Tzimiskès, ainsi que son chef [2]. À l’instar des autres
@@ -392,7 +393,7 @@
                                       conviendrait au mieux avec la date proposée pour notre sceau et correspond à l’orientation
                                       de la famille dans la seconde moitié du siècle [12].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Durliat1979"/></bibl>.
                   </p>

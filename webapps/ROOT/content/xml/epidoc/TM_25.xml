@@ -64,12 +64,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="civil"><!-- imperial too????????????????????????????????????????????????? -->
+                                <roleName role="issuer" type="layAristocracy">
                                     <seg xml:lang="grc">Ἀλέξιος Κομνηνός</seg>
                                     <seg xml:lang="en">Alexios Komnenos</seg>
                                     <seg xml:lang="fr">Alexis Comnène</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -131,8 +131,8 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Episkepsis" xml:lang="fr">Buste de la Vierge Episkepsis</figDesc>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Episkepsis" xml:lang="en">Bust of the Virgin Episkepsis</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Episkepsis" xml:lang="fr">Buste de la Vierge Episkepsis</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Episkepsis" xml:lang="en">Bust of the Virgin Episkepsis</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -143,7 +143,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1101" notAfter="1150" evidence="prosopography parallel" cert="high">
-                                <seg xml:lang="en">XIIth C., first half</seg>
+                                <seg xml:lang="en">12th C., first half</seg>
                                 <seg xml:lang="fr">XIIe s., première moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, parallèle</interp>
@@ -264,6 +264,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-15" who="AS">First version of the record</change>
@@ -364,8 +365,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -374,7 +375,7 @@
                   <p xml:lang="en">Mother of God / Virgin Mother, may you protect Alexios sebastos, who stemmed from Nikephoros Komnenos.</p>
                   <p xml:lang="fr">Mère de Dieu. / Vièrge Mère, puisses-tu protéger le sébaste Alexis, issu de Nicéphore Comnène.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                               <p>Ce personnage est connu exclusivement par les sources sigillographiques, mais celles-ci
                               sont assez abondantes. Il s’agit du neveu de l’empereur Alexis Ier par son plus jeune
                               frère Nicéphore [2], sur lequel voir le sceau <ref target="TM_25bis.html">SigiDoc ID 41</ref>. La généalogie élaborée par K. Barzos fait naître le sébaste Alexis
@@ -388,7 +389,7 @@
                               de décoration ; le droit est très mal conservé, mais il semble bien que l’image soit la même
                               que sur notre sceau.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Wassiliou-Seibt2016"/>, <citedRange unit="part">1903</citedRange></bibl>.
                   </p>

@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Παγκράτιος Βουλκασιότης</seg>
                                     <seg xml:lang="en">Pankratios Boulkasiotes</seg>
                                     <seg xml:lang="fr">Pancrace Boulkasiotès</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -130,7 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -140,8 +140,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature" cert="high"><!-- 1040-1060?????? -->
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="prosopography lettering titulature" cert="high">
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -390,7 +391,7 @@
                   <p xml:lang="en">St Nicholas. ... aid your servant / Pankratios Boulkasiotes, protospatharios and strategos of At‘akh (?).</p>
                   <p xml:lang="fr">Saint Nicolas. ... aide ton serviteur / Pancrace Boulkasiotès, protospathaire et stratège d'At‘akh (?).</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>La forme Πανκράτιος est bien attestée sur d’autres bulles contemporaines [1]. On
                           pourrait hésiter avec Pakourianos mais l’élément droit de la troisième lettre semble bien
                           un trait vertical continu [2]; de plus, la lettre suivante ne pourrait pas être une ligature en
@@ -421,7 +422,7 @@
                                   donc tout à fait le profil d’un chef-lieu de petit thème en Orient, mais l’identification
                                   doit demeurer hypothétique.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Voir le commentaire au sceau <ref target="TM_40.html">SigiDoc ID 40</ref> ; <bibl><ptr target="Jordanov1993"/>, <citedRange unit="entry">399-400</citedRange></bibl>.
                   </p>

@@ -64,12 +64,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="civil">
+                                <roleName role="issuer" type="military">
                                     <seg xml:lang="grc">Δαυίδ Τζιπουρέλης</seg>
                                     <seg xml:lang="en">David Tzipoureles</seg>
                                     <seg xml:lang="fr">David Tzipourélès</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -131,7 +131,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_George" xml:lang="en">Bust of St George</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_George" xml:lang="en">Bust of St George</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -141,8 +141,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1100" evidence="prosopography" cert="high" resp="#AS">
-                                <seg xml:lang="en">XIth C.</seg>
+                            <origDate type="analysis" notBefore="1001" notAfter="1100" evidence="prosopography" cert="high">
+                                <seg xml:lang="en">11th C.</seg>
                                 <seg xml:lang="fr">XIe s.</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie</interp>
@@ -264,6 +264,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-03" who="AS">Bibliographic references improved and footnotes added</change>
@@ -368,7 +369,7 @@
                       <p xml:lang="en">St George. / Lord aid David Tzipoureles, protospatharios and strategos.</p>
                   <p xml:lang="fr">Saint Georges. / Seigneur aide David Tzipourélès, protospathaire et stratège.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Ce même personnage nous a laissé un autre sceau, daté par ses éditeurs du troisième
                               quart du XIe siècle. Cette pièce reprend saint Georges, représenté en pied, et indique que
                               David Tzipourélès obtint une promotion, accédant au patriciat tout en continuant à
@@ -381,7 +382,7 @@
                               avons là manifestement une famille intégrée par le métier des armes aux échelons inférieurs
                               de l’aristocratie impériale vers le milieu du XIe siècle.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.11</citedRange></bibl> ; l’exemplaire
                       appartient à une collection privée et peut être identifié avec celui qui avait été mis en vente par le 

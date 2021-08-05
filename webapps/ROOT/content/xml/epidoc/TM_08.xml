@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Θεόδωρος</seg>
                                     <seg xml:lang="en">Theodoros</seg>
                                     <seg xml:lang="fr">Théodore</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -98,7 +98,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Bon état de conservation; flan rogné sur le pourtour, en particulier dans la partie inférieure</p>
                                 </condition>
                             </supportDesc>
@@ -132,7 +132,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Cross_patriarcal" xml:lang="en">Patriarcal cross</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Cross_patriarcal" xml:lang="en">Patriarcal cross</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -142,8 +142,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0867" notAfter="0900" evidence="prosopography titulature" cert="high" resp="#AS">
-                                <seg xml:lang="en">IXth C., last third</seg>
+                            <origDate type="analysis" notBefore="0867" notAfter="0900" evidence="prosopography titulature" cert="high">
+                                <seg xml:lang="en">9th C., last third</seg>
                                 <seg xml:lang="fr">IXe s., dernier tiers</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature</interp>
@@ -219,7 +219,7 @@
                                 <layoutDesc>
                                     <layout n="v">
                                         <dimensions type="written" unit="mm">
-                                            <dim type="diameter">20</dim>
+                                            <dim type="diameter"/>
                                         </dimensions>
                                         <rs type="layout">
                                             <seg xml:lang="en">Legend of 5 lines</seg>
@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -373,7 +374,7 @@
                   <p xml:lang="en">Lord aid your servant / Theodore, anthypatos, patrikios, imperial protospatharios and logothetes of the Dromos.</p>
                   <p xml:lang="fr">Seigneur aide ton serviteur / Théodore, <hi rend="italic">anthypatos</hi>, patrice, protospathaire impérial et logothète du Drome.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Ce personnage porte une série de titres très élevés pour la période à laquelle il fut
                           actif. Bien que le logothète du Drome ait alors été l’un des plus importants de l’Empire,
                           les titulaires de la fonction n’accédaient généralement pas à de telles dignités. Il semble

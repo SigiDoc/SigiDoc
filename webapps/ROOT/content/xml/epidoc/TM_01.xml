@@ -72,8 +72,8 @@
                                     <seg xml:lang="la">Iustinianus I</seg>
                                     <seg xml:lang="en">Justinian I</seg>
                                     <seg xml:lang="fr">Justinien Ier</seg>
-                                    <interp type="milieu" xml:lang="en">imperial</interp>
-                                    <interp type="milieu" xml:lang="fr">impérial</interp>
+                                    <interp type="milieu" xml:lang="en">Imperial</interp>
+                                    <interp type="milieu" xml:lang="fr">Impérial</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -141,10 +141,10 @@
                             <decoNote>
                                 <figure>
                                     <figDesc n="whole" type="iconography"
-                                        ref="iconography.xml#Justinian_I" xml:lang="en">Bust of
+                                        ana="iconography.xml#Justinian_I" xml:lang="en">Bust of
                                         Justinian I</figDesc>
                                     <figDesc n="whole" type="iconography"
-                                        ref="iconography.xml#Victory" xml:lang="en"
+                                        ana="iconography.xml#Victory" xml:lang="en"
                                         >Victory</figDesc>
                                 </figure>
                             </decoNote>
@@ -156,7 +156,7 @@
                                 <seg/>
                             </origPlace>
                             <origDate type="analysis" notBefore="0527" notAfter="0565"
-                                evidence="prosopography titulature" cert="high" resp="#AS">
+                                evidence="prosopography titulature" cert="high">
                                 <seg>527-565</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography,
                                     titulature</interp>
@@ -295,6 +295,7 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-05-29" who="AS">Bibliographic references improved and footnotes
@@ -355,14 +356,19 @@
                   </div>
               </div>
             <div type="apparatus">
-                      <p/>
+                      <listApp>
+                          <app>
+                              <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                              <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
+                          </app>
+                      </listApp>
               </div>
             <div type="translation">
                   <p>Dominus noster Iustinianus perpetuus augustus.</p>
                   <p xml:lang="en">Our lord Justinian, eternal augustus.</p>
                   <p xml:lang="fr">Notre seigneur Justinien, perpétuel auguste.</p>
               </div>
-            <div type="commentary">
+            <div type="commentary" subtype="text">
                       <p>Les bulles de Justin II présentent une césure après IVST, tandis que celles de Justin Ier
                               sont anépigraphes et offrent un portrait de l’empereur légèrement de trois-quarts, ce
                               qui permet d’attribuer notre sceau à Justinien [1]. Les nombreux sceaux conservés de ce
@@ -372,7 +378,7 @@
                               à une bulle de la collection de Dumbarton Oaks caractérisée par ce symbole de champ
                               de chaque côté de la Victoire [2].</p>
               </div>
-            <div type="footnotes">
+            <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4234/view">3.1</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4238/view">7.2</ref></citedRange>
                           (le <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1618/view">7.1</ref></citedRange> est frappé sur un flan trop petit pour que l’on puisse juger de la

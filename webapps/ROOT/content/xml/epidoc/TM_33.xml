@@ -68,7 +68,7 @@
                                     <seg xml:lang="grc">Ἰωάννης</seg>
                                     <seg xml:lang="en">Ioannes</seg>
                                     <seg xml:lang="fr">Jean</seg>
-                                    <interp type="milieu" xml:lang="en">secular Church</interp>
+                                    <interp type="milieu" xml:lang="en">Secular Church</interp>
                                     <interp type="milieu" xml:lang="fr">Église séculière</interp>
                                 </roleName>
                             </author>
@@ -140,7 +140,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="0667" notAfter="0700" evidence="lettering" cert="high">
-                                <seg xml:lang="en">VIIth C., last third</seg>
+                                <seg xml:lang="en">7th C., last third</seg>
                                 <seg xml:lang="fr">VIIe s., dernier tiers</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">épigraphie</interp>
@@ -254,6 +254,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -346,13 +347,9 @@
                   <p xml:lang="en">John, most humble bishop of Samos (?).</p>
                   <p xml:lang="fr">Jean, très humble évêque de Samos (?).</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p xml:lang="en">None.</p>
                   <p xml:lang="fr">Aucun.</p>
-              </div>
-              <div type="footnotes">
-                  <p xml:lang="en">None.</p>
-                  <p xml:lang="fr">Aucune.</p>
               </div>
               <div type="bibliography" subtype="edition">
                   <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>33, p. 749-750</citedRange></bibl>.</p>

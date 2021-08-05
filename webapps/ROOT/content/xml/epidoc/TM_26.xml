@@ -64,12 +64,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="civil">
+                                <roleName role="issuer" type="layAristocracy">
                                     <seg xml:lang="la">Andreas Michael</seg>
                                     <seg xml:lang="en">Andrea Michiel</seg>
                                     <seg xml:lang="fr">Andrea Michiel</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -98,7 +98,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Flan rogné sur le pourtour, en particulier dans la moitié supérieure ; bon état de conservation</p>
                                 </condition>
                             </supportDesc>
@@ -141,7 +141,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_John_Chrysostomos" xml:lang="en">Bust of St John Chrysostomos</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_John_Chrysostomos" xml:lang="en">Bust of St John Chrysostomos</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -151,9 +151,9 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1085" notAfter="1120" evidence="prosopography lettering titulature parallel" cert="high" resp="#AS #VP"><!-- 1085-1120??????? -->
-                                <seg xml:lang="en">XIth C, end-XIIth C.,  first 2 decades</seg>
-                                <seg xml:lang="fr">XIe s., fin - XIIe s., deux  premières décennies</seg>
+                            <origDate type="analysis" notBefore="1081" notAfter="1120" evidence="prosopography lettering titulature parallel" cert="high">
+                                <seg xml:lang="en">11th C, end-12th C., first 2 decades</seg>
+                                <seg xml:lang="fr">XIe s., fin - XIIe s., deux premières décennies</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallel</interp>
                             </origDate>
@@ -273,6 +273,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Id for the dignity modified, line 328</change>
@@ -366,7 +367,7 @@
                   <p xml:lang="en">St John Chrysostomos. Andrea Michiel, imperial protonobelissimos.</p>
                   <p xml:lang="fr">Saint Jean Chrysostome. / Andrea Michiel, protonobélissime impérial.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Ce sceau fait partie du groupe restreint des plus anciens sceaux vénitiens de style byzantin à présent connus.</p>
                       <p>L’iconographie de saint Jean Chrysostome s’explique
                           par le fait que la famille Michiel possédait des biens dans cette paroisse de la ville de
@@ -399,7 +400,7 @@
                           serait pas nécessairement une imitation des usages grecs, puisque les documents vénitiens
                           sont susceptibles d’utiliser <hi rend="italic">protonobellissimo</hi> même au nominatif [17].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="part">3, p. 579-583</citedRange></bibl>.
                   </p>

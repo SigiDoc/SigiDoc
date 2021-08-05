@@ -53,8 +53,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en">Patronymic seals</seg>
-                            <seg xml:lang="fr">Sceaux patronymiques</seg>
+                            <seg xml:lang="en">Private patronymic seals</seg>
+                            <seg xml:lang="fr">Sceaux patronymiques privés</seg>
                         </summary>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Byzantine greek</seg>
@@ -62,12 +62,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="undetermined"><!-- undetermined????????? -->
+                                <roleName role="issuer" type="private">
                                     <seg xml:lang="grc">Βασίλειος Πεπαγώμενος</seg>
                                     <seg xml:lang="en">Basileios Pepagomenos</seg>
                                     <seg xml:lang="fr">Basile Pépagoménos</seg>
-                                    <interp type="milieu" xml:lang="en">undetermined</interp>
-                                    <interp type="milieu" xml:lang="fr">indéterminé</interp>
+                                    <interp type="milieu" xml:lang="en">Private</interp>
+                                    <interp type="milieu" xml:lang="fr">Privé</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -126,7 +126,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Christ" xml:lang="en">Bust of Christ</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Christ" xml:lang="en">Bust of Christ</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -136,8 +136,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering" cert="high"><!-- 1085-1115????? -->
-                                <seg xml:lang="en">XIth C., end-XII C., beginning</seg>
+                            <origDate type="analysis" notBefore="1080" notAfter="1120" evidence="prosopography lettering" cert="high">
+                                <seg xml:lang="en">11th C., end-12 C., beginning</seg>
                                 <seg xml:lang="fr">XIe s., fin-XIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie</interp>
@@ -251,6 +251,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
@@ -340,7 +341,7 @@
                   <p xml:lang="en">Jesus Christ. / Seal of Basil (stemming from) the Pepagomenoi.</p>
                   <p xml:lang="fr">Jésus Christ. / Sceau de Basile (issu) des Pépagoménoi.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>La représentation du Christ sur les sceaux des dignitaires est très rare et tout spécialement
                           à l’époque de notre bulle (5 % des attestations) [1]. On rapprochera donc ce choix de la
                           légende, également rare, choisie par un autre membre de la famille Pépagoménos : Σφραγὶς
@@ -372,7 +373,7 @@
                               Les Pépagoménoi sont également présents à l’époque des Paléologues, en recouvrant
                               notamment des fonctions au sein de l’Église [14].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Cotsonis2013"/>, <citedRange unit="page">p. 565</citedRange></bibl>.
                   </p>

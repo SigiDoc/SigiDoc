@@ -68,7 +68,7 @@
                                     <seg xml:lang="grc">Κυριακός</seg>
                                     <seg xml:lang="en">Kyriakos</seg>
                                     <seg xml:lang="fr">Cyriaque</seg>
-                                    <interp type="milieu" xml:lang="en">secular Church</interp>
+                                    <interp type="milieu" xml:lang="en">Secular Church</interp>
                                     <interp type="milieu" xml:lang="fr">Église séculière</interp>
                                 </roleName>
                             </author>
@@ -131,7 +131,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_undetermined" xml:lang="en">Bust of unidentified saint</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_undetermined" xml:lang="en">Bust of unidentified saint</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -142,7 +142,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1028" notAfter="1050" evidence="prosopography" cert="high">
-                                <seg xml:lang="en">XIth C., first half (after 1028-1029)</seg>
+                                <seg xml:lang="en">11th C., first half (after 1028-1029)</seg>
                                 <seg xml:lang="fr">XIe s., première moitié (après 1028-1029)</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie</interp>
@@ -189,7 +189,7 @@
                                 <decoNote>
                                     <figure>
                                         <figDesc n="r">Buste de saint flanqué de traces d’épigraphie à gauche. Étant donné le siège du titulaire, il est probable qu’il s’agisse de saint Jean l’Évangéliste
-                                            même si l’état de conservation ne permet pas d’aller au-delà de l’hypothèse [1].</figDesc>
+                                            même si l’état de conservation ne permet pas d’aller au-delà de l’hypothèse [1], confirmée par la pièce parallèle mise aux enchères en juillet 2021.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -237,7 +237,7 @@
                                         <figDesc n="v"/>
                                         <figDesc n="decoV">Cercle de grènetis très partiellement conservé; croisette entre deux tirets sur une ligne précédant la légende, éléments qui étaient sans doute présents
                                             également à la fin de la légende, sur une sixième ligne aujourd’hui perdue mais dont
-                                            l’existence est indiquée par le tracé de la circonférence</figDesc>
+                                            l’existence est indiquée par le tracé de la circonférence: la pièce parallèle mise aux enchères en juillet 2021 confirme cette hypothèse.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -314,10 +315,9 @@
                                   <rs type="officeEcclesiastical" ref="officeEcclesiastical.xml#σύγκελλος">
                                       ἐκ 
                                       <supplied reason="omitted">τῶν</supplied>
-                                      συγ
+                                      <expan><abbr>συγ
                                   <lb n="5" break="no"/>
-                                      κέλλω
-                                  <lb n="6" break="no"/><supplied reason="lost">ν</supplied>
+                                      κέλλω</abbr><ex>ν</ex></expan>
                                   </rs>
                           </rs>
                       </ab>
@@ -338,22 +338,21 @@
                           <lb n="3"/>π͵κοπε
                           <lb n="4"/>φ͵εκ͵συγ
                           <lb n="5"/>κελλ
-                          <lb n="6"/>.
+                          <lb n="0"/><supplied reason="lost" evidence="parallel"></supplied>
                       </ab>
                   </div>
               </div>
               <div type="apparatus">
                   <listApp>
-                      <app loc="4-6">
+                      <app loc="4-5">
                           <note>L’établissement de la légende présente une difficulté en raison de la présence apparente de deux signes d’abréviation et d’une abréviation étonnante du toponyme. 
                               Il pourrait y avoir deux alternatives: premièrement, déplacer le premier signe d'abréviation pour lire εφε(σου) κ(αὶ), mais l’abréviation du
                               toponyme serait particulièrement inélégante; deuxièmement, identifier le second signe
                               d’abréviation avec un défaut du plomb et admettre une erreur de graveur qui aurait
                               interverti les deux lettres de la conjonction εφ(εσου) κε. Un examen attentif
-                                  de la pièce amène à admettre que le second signe d’abréviation est bien dû à un choc
-                                  puisque le tracé continue au-dessus du Κ, sous la patine. Une troisième solution permet de sortir du problème, en prenant en compte l’existence de la ligne manquante:
-                                  on pourrait en effet vouloir y placer une dernière lettre (Ν) pour aboutir à la leçon retenue ici, leçon qui trouverait une justification
-                                  précise dans la carrière du titulaire. Voir commentaire.</note>
+                                  de la pièce amène à admettre que le second signe d’abréviation est bien dû à un défaut du <hi rend="italic">boullotèrion</hi>
+                                  puisque le tracé continue au-dessus du Κ, sous la patine. Une troisième solution permet de sortir du problème, en postulant la présence d'un Ν abrégé comme dernière lettre de la légende, pour aboutir à la leçon retenue ici, leçon qui trouverait une justification
+                                  précise dans la carrière du titulaire (voir commentaire). La ligne finale, avec les éléments de décoration, a été restitutée dans l'édition diplomatique grâce à la comparaison avec le parallèle.</note>
                       </app>
                   </listApp>
               </div>
@@ -362,7 +361,7 @@
                   <p xml:lang="en">St ... / Kyriakos, archbishop of Ephesos and synkellos.</p>
                   <p xml:lang="fr">Saint ... / Cyriaque, archevêque d’Éphèse et syncelle.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Il s’agit très probablement ici de la première attestation sigillographique
                           du métropolite d’Éphèse Cyriaque (attesté par d'autres sources de 1027 à 1039), frère du patriarche Alexis
                           Stoudite (1025-1043) [2]. Or, selon Skylitzès et Kédrènos, en 1028-1029, l’un des premiers
@@ -372,7 +371,7 @@
                           hypothèse, notre sceau doit être daté postérieurement à 1028-1029, en accord avec les
                           témoignages écrits mentionnant la dignité de syncelle de Cyriaque [4].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Cotsonis2003"/>, <citedRange unit="page">p. 10-13</citedRange></bibl>.
                   </p>
@@ -395,6 +394,9 @@
               </div>
               <div type="bibliography" subtype="edition">
                   <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>32, p. 747-749</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="AMCC"/>, <citedRange>Auction 3, 24th of July 2021, <ref target="https://www.biddr.com/auctions/amcoinscanada/browse?a=1857&amp;l=2024298">lot 398</ref></citedRange></bibl>.</p>
               </div>
           </body>
       </text>

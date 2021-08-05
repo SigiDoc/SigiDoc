@@ -40,7 +40,7 @@
                             <seg xml:lang="en">France</seg>
                             <seg xml:lang="fr">France</seg>
                         </country>
-                        <settlement><seg></seg></settlement>
+                        <settlement><seg/></settlement>
                         <institution></institution>
                         <repository></repository>
                         <collection xml:lang="en">Thierry collection</collection>
@@ -53,7 +53,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en"></seg><!-- ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
                         </summary>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Byzantine greek</seg>
@@ -65,8 +66,8 @@
                                     <seg xml:lang="grc">Θεόδωρος Πεπαγώμενος</seg>
                                     <seg xml:lang="en">Theodoros Pepagomenos</seg>
                                     <seg xml:lang="fr">Théodore Pépagoménos</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -135,8 +136,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering" cert="high"><!-- 1085-1115????? -->
-                                <seg xml:lang="en">XIth C., end-XII C., beginning</seg>
+                            <origDate type="analysis" notBefore="1080" notAfter="1120" evidence="prosopography lettering" cert="high">
+                                <seg xml:lang="en">11th C., end-12th C., beginning</seg>
                                 <seg xml:lang="fr">XIe s., fin-XIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie</interp>
@@ -249,6 +250,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
@@ -312,7 +314,7 @@
                       <ab>
                           <rs type="legendsCases">
                                   <lb n="5"/>
-                                  <rs type="officeCivil" ref="officeCivil.xml#χαρτουλάριος"><!-- ???????????????????????? -->
+                                  <rs type="officeCivil" ref="officeCivil.xml#χαρτουλάριος">
                                       χαρτου
                                   <lb n="6" break="no"/>
                                       λαρίῳ
@@ -362,11 +364,11 @@
                   <p xml:lang="en">Lord aid your servant Theodore Pepagomenos, chartoularios.</p>
                   <p xml:lang="fr">Seigneur aide ton serviteur Théodore Pépagoménos, chartulaire.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>Il existe un autre sceau au nom de Théodore Pépagoménos, mais en
                                   l’absence de toute fonction et dignité, l’identification serait plus que hasardeuse [1]. Voir aussi le sceau <ref target="TM_39.html">SigiDoc ID 39</ref>.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Athens1996"/>, <citedRange unit="part">316</citedRange></bibl>.
                   </p>

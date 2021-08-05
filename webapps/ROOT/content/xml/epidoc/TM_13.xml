@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Ἰουστινιανός</seg>
                                     <seg xml:lang="en">Justinian</seg>
                                     <seg xml:lang="fr">Justinien</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -141,8 +141,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0701" notAfter="0715" evidence="prosopography titulature lettering" cert="high" resp="#AS"><!-- 701-715 for beginning????? -->
-                                <seg xml:lang="en">VIIIth C., beginning</seg>
+                            <origDate type="analysis" notBefore="0701" notAfter="0720" evidence="prosopography titulature lettering" cert="high">
+                                <seg xml:lang="en">8th C., beginning</seg>
                                 <seg xml:lang="fr">VIIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-15" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-16" who="AS">Bibliographic references improved and footnotes added</change>
@@ -368,7 +369,7 @@
                   <p xml:lang="en">Mother of God aid your servant / Justinian, hypatos and topoteretes of the Opsikion.</p>
                   <p xml:lang="fr">Mère de Dieu aide ton serviteur / Justinien, <hi rend="italic">hypatos</hi> et <hi rend="italic">topotèrètès</hi> de l’Opsikion.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Le libellé au nominatif est exceptionnel pour les sceaux de cette époque.</p>
                       <p>Le prénom
                           est également des plus rares. On pourrait envisager que notre <hi rend="italic">topotèrètès</hi> soit né sous
@@ -386,7 +387,7 @@
                       bien évidemment pas de lien direct avec les <hi rend="italic">topotèrètai</hi> du XIe siècle, dont l’apparition est
                       liée à l’implantation de <hi rend="italic">tagmata</hi> en province [6].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Zacos1"/>, <citedRange>1762, 3176a</citedRange></bibl> = <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.295/view">39.49</ref></citedRange></bibl>; 
                       seconde moitié du VIIIe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D68/F48.htm">Sergios 91</ref></citedRange></bibl> et 

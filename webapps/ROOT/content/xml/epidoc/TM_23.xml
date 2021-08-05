@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Ῥωμανός Κουρκούας</seg>
                                     <seg xml:lang="en">Romanos Kourkouas</seg>
                                     <seg xml:lang="fr">Romain Kourkouas</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -133,7 +133,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -144,7 +144,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1001" notAfter="1025" evidence="prosopography lettering titulature parallel" cert="high">
-                                <seg xml:lang="en">XIth C., first quarter</seg>
+                                <seg xml:lang="en">11th C., first quarter</seg>
                                 <seg xml:lang="fr">XIe s., premier quart</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallèle</interp>
@@ -267,6 +267,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-09" who="AS">Changes for EFES</change>
@@ -392,7 +393,7 @@
                   <p xml:lang="en">St Nicholas. Lord aid your servant / Romanos Kourkouas, protospatharios and topoteretes.</p>
                   <p xml:lang="fr">Saint Nicolas. Seigneur aide ton serviteur / Romain Kourkouas, protospathaire et <hi rend="italic">topotèrètès</hi>.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Nous avons choisi d'attribuer ce sceau à l’administration
                           provinciale, mais Romain pourrait avoir exercé la lieutenance d’un régiment central. Les
                           tagmata constantinopolitains sont toutefois en voie d’effacement au cours du XIe siècle [1].
@@ -405,7 +406,7 @@
                           son beau-frère, le magistre Prousianos, et, suspecté de complot par Constantin VIII, fut
                           aveuglé [3].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 144</citedRange></bibl>.
                   </p>

@@ -64,12 +64,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="civil">
+                                <roleName role="issuer" type="layAristocracy">
                                     <seg xml:lang="grc">Κωνσταντῖνος Ἐρωτικός</seg>
                                     <seg xml:lang="en">Konstantinos Erotikos</seg>
                                     <seg xml:lang="fr">Constantin Érôtikos</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -130,7 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -140,9 +140,9 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1030" evidence="prosopography lettering" cert="high" resp="#AS #VP"><!-- 1001-1030?????? -->
-                                <seg xml:lang="en">XIth C., first decades</seg>
-                                <seg xml:lang="fr">XIe s., premières décennies</seg>
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="prosopography lettering" cert="high">
+                                <seg xml:lang="en">11th C., first half</seg>
+                                <seg xml:lang="fr">XIe s., première moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie</interp>
                             </origDate>
@@ -262,6 +262,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
@@ -347,8 +348,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -357,7 +358,7 @@
                       <p xml:lang="en">Mother of God. / Constantine Erotikos, protospatharios.</p>
                   <p xml:lang="fr">Mère de Dieu. / Constantin Érôtikos, protospathaire.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                               <p>Divers témoignages littéraires établissent un lien entre les Érôtikoi et les Comnènes :</p>
                               <p>Jean Skylitzès: ἤδη δὲ τῶν κατὰ θάλατταν ἐχόντων καλῶς ὁ παρακοιμώμενος τῶν κατὰ τὴν
                                   ἤπειρον ἐτίθετο ἐπιμέλειαν. καὶ δὴ Μανουὴλ πατρίκιον τὸν Ἐρωτικόν, ἐκ γένους τε ἄνδρα
@@ -433,7 +434,7 @@
                                   la révolte du stratège de Chypre ait été fatal au statut de la famille dont le sort divergea
                                   dès lors de celui de ses anciens alliés.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Nous tenons à remercier Jean-François Vannier pour nous avoir signalé la mise en vente de ce sceau et pour nous avoir donné son avis éclairé sur la famille Érôtikos.
                   </p>
@@ -589,6 +590,9 @@
               </div>
               <div type="bibliography" subtype="edition">
                   <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>28, p. 739-744</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part">5.81</citedRange></bibl>.</p>
               </div>
           </body>
       </text>

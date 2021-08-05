@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Ἀψίμαρος</seg>
                                     <seg xml:lang="en">Apsimar</seg>
                                     <seg xml:lang="fr">Apsimar</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -98,7 +98,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Flan rogné sur le pourtour ; échancré aux orifices du canal ; état de conservation correct</p>
                                 </condition>
                             </supportDesc>
@@ -141,7 +141,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="0651" notAfter="0700" evidence="prosopography lettering titulature" cert="high">
-                                <seg xml:lang="en">VIIth C., second half</seg>
+                                <seg xml:lang="en">7th C., second half</seg>
                                 <seg xml:lang="fr">VIIe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
@@ -343,8 +344,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -353,7 +354,7 @@
                   <p xml:lang="en">Mother of God aid / Apsimar, illoustrios and komes.</p>
                   <p xml:lang="fr">Mère de Dieu aide / Apsimar, <hi rend="italic">illoustrios</hi> et <hi rend="italic">komès</hi>.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Les légendes au génitif tendent à disparaître à partir du début du VIIIe siècle [2], et il
                           en va de même pour le rang d’<hi rend="italic">illustris/illoustrios</hi> entre les dernières décennies du VIIe et
                           le début du VIIIe siècle [3]. L’épigraphie, bien que grossière, correspond pleinement au
@@ -440,7 +441,7 @@
                           comme tend à l’indiquer le choix du nom de règne Tibère ou son iconographie monétaire
                           militaire, qui perpétuait les choix de Constantin IV [33].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Voir, par exemple, <bibl><ptr target="Zacos1"/>, <citedRange>548, pl. 250</citedRange></bibl> (sceau 1522).
                   </p>

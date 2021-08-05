@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Οὐρσέλιος</seg><!-- ?????  -->
                                     <seg xml:lang="en">Oursel (Roussel) de Bailleul</seg>
                                     <seg xml:lang="fr">Oursel (Roussel) de Bailleul</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                             <!-- what to do with variant names????????? addName?????:
@@ -132,7 +132,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -142,7 +142,7 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1070" notAfter="1078" evidence="prosopography titulature" cert="high" resp="#AS #VP">
+                            <origDate type="analysis" notBefore="1070" notAfter="1078" evidence="prosopography titulature" cert="high">
                                 <seg xml:lang="en">1070/72-1078</seg>
                                 <seg xml:lang="fr">1070/72-1078</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature</interp>
@@ -272,6 +272,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-19" who="AS">Bibliographic references improved and footnotes added</change>
@@ -368,8 +369,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -378,7 +379,7 @@
                   <p xml:lang="en">Mother of God. / Mother of God aid Oursel, proedros and stratopedarches.</p>
                   <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide Oursel, proèdre et stratopédarque.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                                   <p>Ce sceau appartient au chevalier picard Roussel de Bailleul, l’un des plus célèbres
                                       chefs militaires « francs » entrés au service de l’Empire byzantin, phénomène courant au
                                       xie siècle, avant de se révolter. Roussel arriva dans l’Empire sous Romain IV Diogène, sans
@@ -518,7 +519,7 @@
                                       caractériserait l’utilisation du patronyme Phrangos et à laquelle on peut pour l’instant
                                       rattacher au moins le stratège Zacharie, mort au service d’Alexis Comnène.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Seibt1987"/></bibl>; <bibl><ptr target="Koltsida-Makri2003"/></bibl>.
                   </p>

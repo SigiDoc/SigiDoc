@@ -35,10 +35,10 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><!-- ?????????????????????????????????? -->
+                    <msIdentifier>
                         <country>
-                            <seg xml:lang="en">????????</seg>
-                            <seg xml:lang="fr">?????????</seg>
+                            <seg xml:lang="en"/>
+                            <seg xml:lang="fr"/>
                         </country>
                         <settlement>
                             <seg></seg>
@@ -54,8 +54,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en">Provincial administration</seg>
-                            <seg xml:lang="fr">Administration provinciale</seg>
+                            <seg xml:lang="en">Seals of dignitaries</seg>
+                            <seg xml:lang="fr">Sceaux de dignitaires</seg>
                         </summary>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Byzantine greek</seg>
@@ -63,12 +63,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="military">
+                                <roleName role="issuer" type="layAristocracy">
                                     <seg xml:lang="grc">Χουρσέλιος Φράγγος</seg>
                                     <seg xml:lang="en">Chourselios Phrangos</seg>
                                     <seg xml:lang="fr">Choursélios Phrangos</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp><!-- ?????????????????????? -->
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -97,7 +97,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Mediocre état de l'avers</p>
                                 </condition>
                             </supportDesc>
@@ -130,7 +130,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Virgin_Blachernitissa" xml:lang="en">Bust of the Virgin Blachernitissa</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Blachernitissa" xml:lang="en">Bust of the Virgin Blachernitissa</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -141,7 +141,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1067" notAfter="1100" evidence="prosopography lettering parallel" cert="high">
-                                <seg xml:lang="en">XIth C., last third</seg>
+                                <seg xml:lang="en">11th C., last third</seg>
                                 <seg xml:lang="fr">XIe s., dernier tiers</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie, parallèle</interp>
@@ -259,6 +259,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-18" who="AS">First version of the record</change>
@@ -374,7 +375,7 @@
                   <p xml:lang="en">Mother of God. / Mother of God aid your servant Chourselios Phrangos, vestes.</p>
                   <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide ton serviteur Chourselios Phrangos, <hi rend="italic">vestès</hi>.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>Confrontée à la bulle de Roussel de Bailleul (<ref target="TM_20.html">SigiDoc ID 20</ref>), cette relecture de la bulle publiée
                               par Gustave Schlumberger ouvre la voie à une remise en question de son attribution au
                               grand capitaine en raison des choix différents pour l’iconographie, de la transcription
@@ -386,7 +387,7 @@
                               1993, est entré à cette occasion dans la collection Savvas Kofopoulos: 
                               voir <ref target="TM_20ter.html">SigiDoc ID 44</ref>.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Sauf erreur de notre part, nous n’avons pas de légende se terminant par une information du
                           type « le Turc », « l’Arménien », « l’Arabe » ou « le Géorgien », par exemple.

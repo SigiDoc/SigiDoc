@@ -68,7 +68,7 @@
                                     <seg xml:lang="grc">Ἀθανάσιος (?)</seg>
                                     <seg xml:lang="en">Athanasios (?)</seg>
                                     <seg xml:lang="fr">Athanase (?)</seg>
-                                    <interp type="milieu" xml:lang="en">secular Church</interp>
+                                    <interp type="milieu" xml:lang="en">Secular Church</interp>
                                     <interp type="milieu" xml:lang="fr">Église séculière</interp>
                                 </roleName>
                             </author>
@@ -98,7 +98,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>Etat de conservation correct ; flan rogné sur le pourtour et légère perte dans la partie inférieure,
                                         qui a endommagé le monogramme au droit.</p>
                                 </condition>
@@ -143,7 +143,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="0601" notAfter="0700" evidence="lettering" cert="high">
-                                <seg xml:lang="en">VIIth C.</seg>
+                                <seg xml:lang="en">7th C.</seg>
                                 <seg xml:lang="fr">VIIe s.</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">épigraphie</interp>
@@ -256,6 +256,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -332,8 +333,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -342,13 +343,13 @@
                   <p xml:lang="en">Athanasios (?), / (bishop) of Parnassos.</p>
                   <p xml:lang="fr">Athanase (?), / (évêque) de Parnassos.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Sis en Cappadoce sur un axe stratégique, l’évêché de Parnassos (actuel Değirmenyolu)
                           relevait de la métropole de Mokissos [1]. Il existait déjà au moins au IVe siècle puisque
                           son titulaire siégea au concile de Nicée [2]. Dans la liste des titulaires de cet évêché de
                           Cappadoce figure un seul Athanase [3], propriétaire d’un sceau daté du XIe siècle [4].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Voir par exemple la notice épiscopale 1 : <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 212, l. 411</citedRange></bibl>.
                   </p>

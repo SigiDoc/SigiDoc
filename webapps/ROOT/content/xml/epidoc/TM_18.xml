@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Νικήτας</seg>
                                     <seg xml:lang="en">Niketas</seg>
                                     <seg xml:lang="fr">Nicétas</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -143,8 +143,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high"><!-- 1040-1060???? -->
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high">
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallèle</interp>
@@ -264,6 +264,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
             <change when="2020-06-18" who="AS">Bibliographic references improved and footnotes added</change>
@@ -291,7 +292,6 @@
           <body>
               <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="face" n="obv" rend="linear">
-                      <ab>
                           <lg type="metrical" met="dodecasyllabic" subtype="true" ana="metrical.xml#dodecasyllabicTrue">
                              <l>
                                 <lb n="1"/>
@@ -322,7 +322,7 @@
                                  </w>
                              </l>
                          </lg>
-                      </ab>
+                      
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                           <lg type="metrical" met="dodecasyllabic" subtype="true">
@@ -385,13 +385,13 @@
                   <p xml:lang="en">I ratify the sentences and confirm the words / of Niketas, judge of Thrakesion.</p>
                   <p xml:lang="fr">Je ratifie les sentences et confirme les mots / de Nicétas, juge des Thracésiens.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>
                           L’édition de cette bulle permet de corriger l’édition de la pièce parallèle conservée à Dumbarton Oaks.
                          Une étude d’ensemble des juges des Thracèsiens a été publié par J.-Cl. Cheynet: nous nous contenterons ici d’y renvoyer??????????????????????????????????????????.
                       </p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. ????????????????????????????????????????????????????????????????????????????????????????????????
                   </p>

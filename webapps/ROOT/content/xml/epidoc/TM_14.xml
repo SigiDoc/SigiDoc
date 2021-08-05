@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Λέων</seg>
                                     <seg xml:lang="en">Leon</seg>
                                     <seg xml:lang="fr">Léon</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -142,8 +142,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high">
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="prosopography lettering titulature parallel" cert="high">
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallèle</interp>
@@ -263,6 +263,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
             <change when="2020-06-17" who="AS">Bibliographic references improved and footnotes added</change>
@@ -374,8 +375,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -384,7 +385,7 @@
                   <p xml:lang="en">Seal of the vestes, judge and patrikios | / Leo, judge of Boukellarion.</p>
                   <p xml:lang="fr">Sceau du <hi rend="italic">vestès</hi>, juge et patrice Léon, juge des Bucellaires.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>Pour le milieu du XIe siècle, la dignité de <hi rend="italic">vestès</hi> et patrice est fort élevée pour un juge
                               de thème, ce d’autant plus que les Bucellaires n’étaient sans doute pas un poste des plus
                               importants bien qu’il ait couvert une bonne partie de la Paphlagonie, dont les ressortissants
@@ -410,7 +411,7 @@
                               de dignités aussi élevées que celle de Romain Diogène qui accède alors à l’Empire et de
                               peu supérieures à celle de notre juge Léon [8].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Magdalino1998"/></bibl>; voir également pour la période
                       immédiatement antérieure, <bibl><ptr target="Messis2015"/></bibl>.

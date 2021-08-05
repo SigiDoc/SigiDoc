@@ -53,8 +53,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en">Patronymic seals</seg>
-                            <seg xml:lang="fr">Sceaux patronymiques</seg>
+                            <seg xml:lang="en">Private patronymic seals</seg>
+                            <seg xml:lang="fr">Sceaux patronymiques privés</seg>
                         </summary>
                         <textLang mainLang="grc">
                             <seg xml:lang="en">Byzantine greek</seg>
@@ -62,12 +62,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="undetermined"><!-- undetermined????????? -->
+                                <roleName role="issuer" type="private">
                                     <seg xml:lang="grc">Κωνσταντῖνος Βαβωσκομήτης</seg>
                                     <seg xml:lang="en">Konstantinos Baboskometes</seg>
                                     <seg xml:lang="fr">Constantin Babôskomètès</seg>
-                                    <interp type="milieu" xml:lang="en">undetermined</interp>
-                                    <interp type="milieu" xml:lang="fr">indéterminé</interp>
+                                    <interp type="milieu" xml:lang="en">Private</interp>
+                                    <interp type="milieu" xml:lang="fr">Privé</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -137,7 +137,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1001" notAfter="1200" evidence="prosopography lettering" cert="high">
-                                <seg xml:lang="en">XIth-XIIth C.</seg>
+                                <seg xml:lang="en">11th-12th C.</seg>
                                 <seg xml:lang="fr">XIe-XIIe s.</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie</interp>
@@ -251,6 +251,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-19" who="AS">Changes for EFES</change>
@@ -331,8 +332,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -341,7 +342,7 @@
                   <p xml:lang="en">Seal of Constantine Baboskometes.</p>
                   <p xml:lang="fr">Sceau de Constantin Babôskomètès.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Comme tant d’autres au XIe siècle [1], le nom de famille Βαβωσκομήτης est formé sur un toponyme, ici Βαβωσκόμη, que nous n’avons pas été en mesure de localiser.
                       On retrouve des modèles de formation proche avec les familles Pano(u)komètès [2], Laukokomitès [3],
                           Lautokomitès [4] (peut-être deux formes du même nom) ou Laptoukomètès [5].</p>
@@ -354,7 +355,7 @@
                       Peu après, le notaire impérial Nicolas Βαβισκωμίτης est responsable de la version grecque
                   d'un traité passé entre l'Empire et Venise en 1332 [9].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Cheynet2016"/></bibl>.
                   </p>

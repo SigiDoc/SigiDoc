@@ -64,12 +64,12 @@
                         </textLang>
                         <msItem>
                             <author>
-                                <roleName role="issuer" type="civil">
+                                <roleName role="issuer" type="layAristocracy">
                                     <seg xml:lang="grc">Νικόλαος Συνέσιος</seg>
                                     <seg xml:lang="en">Nikolaos Synesios</seg>
                                     <seg xml:lang="fr">Nicolas Synésios</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -132,7 +132,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -142,8 +142,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1085" notAfter="1115" evidence="prosopography lettering titulature parallel" cert="high"><!-- 1185-1115??? -->
-                                <seg xml:lang="en">XIth C, end-XIIth C., beginning</seg>
+                            <origDate type="analysis" notBefore="1081" notAfter="1120" evidence="prosopography lettering titulature parallel" cert="high">
+                                <seg xml:lang="en">11th C., end-12th C., beginning</seg>
                                 <seg xml:lang="fr">XIe s., fin-XIIe s., début</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallèle</interp>
@@ -264,6 +264,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
@@ -370,8 +371,8 @@
               <div type="apparatus">
                   <listApp>
                       <app>
-                          <note xml:lang="en">None.</note>
-                          <note xml:lang="fr">Aucun.</note>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                       </app>
                   </listApp>
               </div>
@@ -380,7 +381,7 @@
                   <p xml:lang="en">St Nicholas. / Lord aid your servant Nikolaos Synesios, protonobelissimos.</p>
                   <p xml:lang="fr">Saint Nicolas. / Seigneur aide ton serviteur Nicolas Synésios, protonobélissime.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>À un stade antérieur de sa carrière, Nicolas Synésios est attesté comme protoproèdre
                           et déjà fidèle à son homonyme saint Nicolas [1]. Notre personnage a depuis gravi les
                           échelons, car il est ici porteur du protonobélissimat, dignité fort élevée. Notre bulle
@@ -398,7 +399,7 @@
                           bulgares de Basile II si l’on en croit une bulle, actuellement conservée à Dumbarton Oaks,
                           qui mentionne Jean, protospathaire et katépan de Ras [8].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Jordanov2002"/>, <citedRange unit="part">46</citedRange></bibl>; 
                       voir aussi <bibl><ptr target="Jordanov2010"/>, <citedRange unit="part">46</citedRange></bibl>; 

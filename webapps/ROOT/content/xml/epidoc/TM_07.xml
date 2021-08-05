@@ -71,8 +71,8 @@
                                     <seg xml:lang="en">Niketas</seg>
                                     <seg xml:lang="fr">Nicétas</seg>
                                     <seg xml:lang="it">Niceta</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -136,7 +136,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#Cross_patriarcal" xml:lang="en">Patriarcal cross</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Cross_patriarcal" xml:lang="en">Patriarcal cross</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -146,8 +146,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0951" notAfter="1000" evidence="prosopography" cert="high" resp="#AS">
-                                <seg xml:lang="en">Xth C., second half</seg>
+                            <origDate type="analysis" notBefore="0951" notAfter="1000" evidence="prosopography" cert="high">
+                                <seg xml:lang="en">10th C., second half</seg>
                                 <seg xml:lang="fr">Xe s., seconde moitié</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie</interp>
@@ -265,6 +265,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
@@ -415,7 +416,7 @@
                   <p xml:lang="en">Lord aid your servant / Niketas, imperial ostiarios, epi tou koitonos, pinkernes of the Augusta and xenodochos (?) ...</p>
                   <p xml:lang="fr">Seigneur aide ton serviteur / Nicétas, ostiaire impérial, <hi rend="italic">épi tou koitonos</hi>, pincerne de l’<hi rend="italic">Augousta</hi> et xénodoque (?) ...</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Notre bulle évoque a priori une époque où la cour impériale n’abritait qu’une seule
                           augousta. On peut penser à Théophanô, femme de Romain II, après la mort d’Hélène
                           Lécapène (961-969) [2] ou à Théodora (970-976) [3], femme de Jean Tzimiskès. À la mort
@@ -430,7 +431,7 @@
                           servit l’échanson Nicétas, même si la solution la plus probable est sans doute Hélène,
                           femme de Constantin VIII.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Magdalino1987"/></bibl> et <bibl><ptr target="Magdalino1988"/></bibl>.
                   </p>

@@ -69,8 +69,8 @@
                                     <seg xml:lang="grc">Μιχαήλ</seg>
                                     <seg xml:lang="en">Michael</seg>
                                     <seg xml:lang="fr">Michel</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -99,7 +99,7 @@
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
-                                <condition rend="trimmedPerimeter">
+                                <condition rend="wornEdge">
                                     <p>A l'avers, abrasion du visage de l’effigie; bon état de conservation du revers.</p>
                                 </condition>
                             </supportDesc>
@@ -131,7 +131,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Michael" xml:lang="en">Bust of St Michael</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Michael" xml:lang="en">Bust of St Michael</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -141,8 +141,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="titulature historical_context" cert="high" resp="#AS #VP">
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="titulature historical_context" cert="high">
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">titulature, historical context</interp>
                                 <interp type="datingCriteria" xml:lang="fr">titulature, contexte historique</interp>
@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-25" who="AS">Specific mark-up for diplomatic edition added</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -368,7 +369,7 @@
                   <p xml:lang="en">Michael. / Lord aid Michael, vestarches and oikonomos of the Nea.</p>
                   <p xml:lang="fr">Michel. / Seigneur aide Michel, vestarque et économe de la Néa.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>La collection de Dumbarton Oaks conserve un sceau de Michel magistre et
                       économe de l’église de la Néa [1], sans iconographie, daté du XIe siècle, qui pourrait avoir
                       appartenu au même individu à un stade ultérieur de sa carrière [2].</p>
@@ -378,7 +379,7 @@
                       avait un personnel nombreux et varié, dont une partie était en charge de la gestion de
                       son important patrimoine [4] : tel est le cas de notre Michel.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. On trouvera un tableau d’ensemble des bulles documentant l’église de la Néa dans <bibl><ptr target="Stepanova2017"/></bibl>.
                   </p>

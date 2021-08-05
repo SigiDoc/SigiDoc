@@ -66,8 +66,8 @@
                                     <seg xml:lang="grc">Θεοδόσιος</seg>
                                     <seg xml:lang="en">Theodosios</seg>
                                     <seg xml:lang="fr">Théodose</seg>
-                                    <interp type="milieu" xml:lang="en">monastic</interp>
-                                    <interp type="milieu" xml:lang="fr">monastique</interp>
+                                    <interp type="milieu" xml:lang="en">Monastic</interp>
+                                    <interp type="milieu" xml:lang="fr">Monastique</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -126,7 +126,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_undetermined" xml:lang="en">Bust of unidentified saint</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_undetermined" xml:lang="en">Bust of unidentified saint</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -137,7 +137,7 @@
                                 <seg></seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1001" notAfter="1100" evidence="lettering" cert="high">
-                                <seg xml:lang="en">XIth C.</seg>
+                                <seg xml:lang="en">11th C.</seg>
                                 <seg xml:lang="fr">XIe s.</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">épigraphie</interp>
@@ -248,6 +248,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2018-08-12" who="AS">First version of the record</change>
@@ -328,8 +329,8 @@
               <div type="apparatus">
                       <listApp>
                           <app>
-                              <note xml:lang="en">None.</note>
-                              <note xml:lang="fr">Aucun.</note>
+                              <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                              <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                           </app>
                       </listApp>
               </div>
@@ -338,7 +339,7 @@
                   <p xml:lang="en">St Theodosios (?). / I am the seal of the monk Theodosios.</p>
                   <p xml:lang="fr">Saint Théodose (?). / Je suis le sceau du moine Théodose.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Étant donné l’identité du propriétaire et sa vocation, on admettrait volontiers la
                           lecture la plus simple [(Ὁ ἅγιος)] Θ[εοδό]σ[ιος] sans qu’il soit possible de préciser le
                           détail de l’inscription. Saint Théodose est en effet l’un des pères du monachisme oriental.
@@ -355,7 +356,7 @@
                           encore jeune, mais évidemment on ne peut dépasser le stade de l’hypothèse en raison du
                           caractère extrêmement lacunaire du nom présent sur le sceau.</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="VieThéodose1963"/>, <citedRange unit="page">p. 58</citedRange></bibl>.
                   </p>

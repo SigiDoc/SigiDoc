@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Γεώργιος</seg>
                                     <seg xml:lang="en">Georgios</seg>
                                     <seg xml:lang="fr">Georges</seg>
-                                    <interp type="milieu" xml:lang="en">civil</interp>
-                                    <interp type="milieu" xml:lang="fr">civil</interp>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="fr">Civil</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -132,7 +132,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_George" xml:lang="en">Bust of St. George</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_George" xml:lang="en">Bust of St. George</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -141,8 +141,8 @@
                         <origin>
                             <origPlace>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography lettering titulature parallel" cert="high" resp="#AS #VP">
-                                <seg xml:lang="en">XIth C., third quarter</seg>
+                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography lettering titulature parallel" cert="high">
+                                <seg xml:lang="en">11th C., third quarter</seg>
                                 <seg xml:lang="fr">XIe s., troisième quart</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallèle</interp>
@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-25" who="AS">Specific mark-up for diplomatic edition added</change>
             <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -377,7 +378,7 @@
                   <p xml:lang="en">St George. / Lord aid George, patrikios, judge of the Velon and megas oikonomos of the charitable foundations.</p>
                   <p xml:lang="fr">Saint Georges. / Seigneur aide Georges, patrice, juge du Velum et grand économe des fondations pieuses.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p>Les grandes fondations impériales prennent de l’importance comme
                               organismes de gestion dans le courant du Xe siècle et au XIe siècle [3]. Cette évolution est
                               sans doute à mettre en relation avec le tournant pris à l’époque dans la gestion des terres
@@ -389,7 +390,7 @@
                               propres [11]. Dans les années 1070, le service se scinde en maisons pieuses d’Orient et
                               d’Occident, ce qui fournit a priori le terminus ante quem pour notre bulle [12].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.1.7</citedRange></bibl>.
                   </p>

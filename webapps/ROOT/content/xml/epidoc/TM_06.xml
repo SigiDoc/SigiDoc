@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Νικήτας (?) Σαρωνίτης</seg>
                                     <seg xml:lang="en">Niketas (?) Saronites</seg>
                                     <seg xml:lang="fr">Nicétas (?) Sarônitès</seg>
-                                    <interp type="milieu" xml:lang="en">military</interp>
-                                    <interp type="milieu" xml:lang="fr">militaire</interp>
+                                    <interp type="milieu" xml:lang="en">Military</interp>
+                                    <interp type="milieu" xml:lang="fr">Militaire</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -134,15 +134,15 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_Theodore" xml:lang="en">St Theodore standing</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Theodore" xml:lang="en">St Theodore standing</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography titulature" cert="high" resp="#AS">
-                                <seg xml:lang="en">XIth C., third quarter</seg>
+                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography titulature" cert="high">
+                                <seg xml:lang="en">11th C., third quarter</seg>
                                 <seg xml:lang="fr">XIe s., troisième quart</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature</interp>
                                 <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature</interp>
@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
             <change when="2020-06-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -369,10 +370,10 @@
                   <p xml:lang="en">St Theodore. / Niketas (?) Saronites, protovestes (?) and domestikos of the Exkoubitoi.</p>
                   <p xml:lang="fr">Saint Théodore. / Nicétas (?) Sarônitès, <hi rend="italic">protovestès</hi> (?) et domestique des Excubites.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                       <p/>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. Un Michel Sarônitès est bien connu par ses sceaux mais il y fait figurer saint Michel au droit : <bibl><ptr target="Nesbitt2005"/></bibl>.
                   </p>

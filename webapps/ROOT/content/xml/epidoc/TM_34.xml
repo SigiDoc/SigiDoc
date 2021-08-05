@@ -68,8 +68,8 @@
                                     <seg xml:lang="grc">Νικηφόρος</seg>
                                     <seg xml:lang="en">Nikephoros</seg>
                                     <seg xml:lang="fr">Nicéphore</seg>
-                                    <interp type="milieu" xml:lang="en">monastic</interp>
-                                    <interp type="milieu" xml:lang="fr">monastique</interp>
+                                    <interp type="milieu" xml:lang="en">Monastic</interp>
+                                    <interp type="milieu" xml:lang="fr">Monastique</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -129,7 +129,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ref="iconography.xml#St_military_undetermined" xml:lang="en">Bust of unidentified military saint</figDesc>
+                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_military_undetermined" xml:lang="en">Bust of unidentified military saint</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -139,8 +139,8 @@
                             <origPlace>
                                 <seg></seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1040" notAfter="1060" evidence="lettering" cert="high"><!-- 1040-1060???????? -->
-                                <seg xml:lang="en">XIth C., middle</seg>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="lettering" cert="high">
+                                <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
                                 <interp type="datingCriteria" xml:lang="en">lettering</interp>
                                 <interp type="datingCriteria" xml:lang="fr">épigraphie</interp>
@@ -256,6 +256,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
             <change when="2019-01-13" who="AS">Changes for EFES</change>
@@ -339,8 +340,8 @@
               <div type="apparatus">
                       <listApp>
                           <app>
-                              <note xml:lang="en">None.</note>
-                              <note xml:lang="fr">Aucun.</note>
+                              <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                              <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
                           </app>
                       </listApp>
               </div>
@@ -349,12 +350,12 @@
                   <p xml:lang="en">St ... / Saviour watch over the monk Nikephoros.</p>
                   <p xml:lang="fr">Saint ... / Sauveur veille sur le moine Nicéphore.</p>
               </div>
-              <div type="commentary">
+              <div type="commentary" subtype="text">
                   <p>Ce type d’invocation au Christ au revers est très rare : John Cotsonis n’en relève que
                           quatre attestations au XIe siècle, début XIIe siècle [1]. La formule Σῶτερ φύλαττε se retrouve
                           sur une bulle du Xe siècle conservée en Autriche [2].</p>
               </div>
-              <div type="footnotes">
+              <div type="commentary" subtype="footnotes">
                   <p>
                       1. <bibl><ptr target="Cotsonis2013"/>, <citedRange unit="page">p. 555</citedRange></bibl>.
                   </p>
