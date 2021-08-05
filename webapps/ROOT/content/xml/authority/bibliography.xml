@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 2021-06-28 -->
+<!-- LAST MODIFIED: 2021-07-31 -->
 
 <!-- This bibliography is structured as follows:-->
 
@@ -334,7 +334,7 @@
 
                 <bibl type="book" xml:id="Istanbul"
                     corresp="http://zotero.org/users/3169239/items/4NNLLGBY">
-                    <bibl type="abbrev">Cheynet, Gökıldırım, Bulgurlu, coll. Istanbul, 2012</bibl>
+                    <bibl type="abbrev">Cheynet, Gökyıldırım, Bulgurlu, coll. Istanbul</bibl>
                     <!--<idno type="ISBN">978-605-4642-08-3</idno>-->
                     <author><forename>J.-Cl.</forename>
                         <surname>Cheynet</surname></author>
@@ -581,6 +581,18 @@
                     <publisher>R. Habelt</publisher>
                     <date>1986</date>
                     <series><title level="s">Poikila byzantina 5</title></series>
+                </bibl>
+                
+                <!-- ***************** -->
+                
+                <bibl type="book" xml:id="CheynetTatış">
+                    <bibl type="abbrev">Cheynet, coll. Tatış</bibl>
+                    <author><forename>J.-Cl.</forename>
+                        <surname>Cheynet</surname></author>
+                    <title level="m">Les sceaux byzantins de la collection Yavuz Tatış</title>
+                    <pubPlace>İzmir</pubPlace>
+                    <publisher>Imprimerie Metro Matbaacılıl</publisher>
+                    <date>2019</date>
                 </bibl>
 
                 <!-- ****************Theodoridis****************** -->
@@ -3464,6 +3476,14 @@
                     <biblScope unit="volume">12</biblScope>
                     <date>2016</date>
                     <biblScope unit="page">p. 141-197</biblScope>
+                </bibl>
+                
+                
+                <bibl xml:id="AMCC">
+                    <bibl type="abbrev">AMCC</bibl>
+                    <title level="m">Ancient and Medieval Coins Canada</title>
+                    <pubPlace>Kelowna, Canada</pubPlace>
+                    available at <ref target="https://www.amcoinscanada.com/">amcoinscanada.com</ref>.
                 </bibl>
                 <bibl xml:id="CNG">
                     <bibl type="abbrev">CNG</bibl>
