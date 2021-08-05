@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2021-07-02 -->
+<!-- LAST MODIFIED: 2021-07-29 -->
 
 <!-- eunuchs???????????????????????????????????????????????? -->
 <!-- add <idno/> with URI where available!!!!!!!!!!!!!!!!!!!!!!!!! -->
@@ -374,10 +374,9 @@
                     <!--<persName xml:lang="fr">Pépagoménos, Basile</persName>-->
                     <floruit>L XI-E XII</floruit><note>SigiDocID39</note>
                 </person>
-                <person sex="M" xml:id="Βηκένης_Ὀσίνη">
-                    <persName xml:lang="grc">Βηκένης, Ὀσίνη</persName>
-                    <persName xml:lang="en">Βηκένης, Ὀσίνη</persName>
-                    <!-- ???????????????? -->
+                <person sex="M" xml:id="Βικένης_Χούσιν">
+                    <persName xml:lang="grc">Βικένης, Χούσιν</persName>
+                    <persName xml:lang="en">Βικένης, Χούσιν</persName>
                     <!--<persName xml:lang="en">Ochin Vigenes</persName>-->
                     <!--<persName xml:lang="fr">Vigénès, Ochin</persName>-->
                     <floruit>M/L XI</floruit><note>PBWOursenios20101</note><note>SigiDocID40</note>
