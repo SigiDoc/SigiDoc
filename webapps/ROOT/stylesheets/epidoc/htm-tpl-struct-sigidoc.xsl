@@ -82,7 +82,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-physical-description">Physical description</i18n:text></i></h4><!-- ************* physical description *************** -->
           <dl class="iospe">
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Impression type</i18n:text></dt>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Type of impression</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:objectType//t:interp[@type='workType']//text()">
