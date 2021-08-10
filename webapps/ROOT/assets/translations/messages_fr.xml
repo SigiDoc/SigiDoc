@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 2021-07-17 -->
+<!-- LAST MODIFIED: 2021-08-10 -->
 
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="epidoc-xslt-sigidoc-artifact">Artéfact</message>
@@ -39,6 +39,7 @@
     <message key="epidoc-xslt-sigidoc-internal-date">Date explicite</message>
     <message key="epidoc-xslt-sigidoc-dating-criteria">Critères de datation</message>
     <message key="epidoc-xslt-sigidoc-alternative-dating">Date alternative</message>
+    <message key="epidoc-xslt-sigidoc-alternative-dating-basedon">sur la base de</message>
     <message key="epidoc-xslt-sigidoc-history">Historique</message>
     <message key="epidoc-xslt-sigidoc-seal-context">Catégorie</message>
     <message key="epidoc-xslt-sigidoc-issuer">Émetteur</message>
