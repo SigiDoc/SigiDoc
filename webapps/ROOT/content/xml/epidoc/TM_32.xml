@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -288,7 +289,7 @@
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#unidentified">
-                              <cb n="a"/><expan><ex>Ὁ ἅγιος</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                              <cb n="a"/><w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=o%28&amp;lang=greek"><w lemma="ἅγιος" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=agios&amp;lang=greek"><expan><ex>Ὁ ἅγιος</ex></expan></w></w> <gap reason="lost" extent="unknown" unit="character"/>
                           <cb n="b"/><gap reason="lost" extent="unknown" unit="character"/>
                           </rs>
                       </ab>

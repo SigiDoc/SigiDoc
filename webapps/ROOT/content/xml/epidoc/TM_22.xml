@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
@@ -292,7 +293,7 @@
                       <ab>
                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἄγιος_Νικόλαος">
-                              <expan><ex>Ὁ ἅγιος</ex></expan> <expan><abbr>Ν<supplied reason="lost">ι</supplied>
+                              <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=o%28&amp;lang=greek"><w lemma="ἅγιος" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=agios&amp;lang=greek"><expan><ex>Ὁ ἅγιος</ex></expan></w></w> <expan><abbr>Ν<supplied reason="lost">ι</supplied>
                           <cb n="b"/>κόλαο</abbr><ex>ς</ex></expan>
                           </rs>
                       </ab>

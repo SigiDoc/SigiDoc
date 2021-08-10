@@ -248,6 +248,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -277,7 +278,7 @@
                       <ab>
                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἅγιος_Θεοδόσιος"><!-- in EFES index is given as certain, but it is not!!!!!!!!!!!!!!! -->
-                              <supplied reason="lost" cert="low"><expan><ex>Ὁ ἅγιος</ex></expan></supplied> 
+                              <supplied reason="lost" cert="low"><w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=o%28&amp;lang=greek"><w lemma="ἅγιος" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=agios&amp;lang=greek"><expan><ex>Ὁ ἅγιος</ex></expan></w></w></supplied> 
                               Θ<supplied reason="lost" cert="low">εο<!-- here the end of column???????????????????????????????????????????????????????????????????????????????????????????????? -->
                           <cb n="b"/>δό</supplied>σ<supplied reason="lost" cert="low">ιος</supplied>
                           </rs>

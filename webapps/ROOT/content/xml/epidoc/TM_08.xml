@@ -271,7 +271,7 @@
       <facsimile>
               <surface type="obverse">
                   <desc>Obverse</desc>
-                  <graphic url="43.jpg" scale="1.5"><!-- photo à l'invers!|!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                  <graphic url="43.jpg" scale="1.5">
                       <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
                       <desc xml:lang="fr">Reproduction numérique de l'avers (2015).</desc>
                   </graphic>

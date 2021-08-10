@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -288,7 +289,11 @@
                       <ab>
                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἅγιος_Θεόδωρος">
-                              <expan><ex>Ὁ ἅγιος</ex></expan>
+                              <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=o%28&amp;lang=greek">
+                                  <w lemma="ἅγιος" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=agios&amp;lang=greek">
+                                      <expan><ex>Ὁ ἅγιος</ex></expan>
+                                  </w>
+                              </w>
                                   <expan><abbr>Θεό
                           <cb n="b"/>
                                       δω</abbr><ex>ρος</ex></expan>

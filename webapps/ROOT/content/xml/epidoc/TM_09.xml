@@ -264,6 +264,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -295,7 +296,8 @@
                           <cb n="a"/>
                           <rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Ὁ_ἅγιος_Γεώργιος">
                               <expan>
-                                  <supplied reason="lost"><abbr><am><g type="hoHagios" cert="high"/></am></abbr><ex>Ὁ ἅγιος</ex></supplied>
+                                  <supplied reason="lost"><w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=o%28&amp;lang=greek"><w lemma="ἅγιος" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=agios&amp;lang=greek"><ex>Ὁ ἅγιος</ex></w></w>
+                                  </supplied>
                               </expan> 
                                   <supplied reason="lost">Γεώρ</supplied>
                           <cb n="b"/>γιος
