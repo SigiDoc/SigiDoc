@@ -857,7 +857,7 @@
         </table>-->
       </div>
 
-      <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-editions">Editions</i18n:text></i></h4>
+      <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-edition">Edition</i18n:text></i></h4>
       <div class="section-container tabs" data-section="tabs">
         <section>
           <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-sigidoc-interpretive">Interpretive</i18n:text></a></p>
