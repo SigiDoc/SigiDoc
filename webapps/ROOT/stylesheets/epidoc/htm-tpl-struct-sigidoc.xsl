@@ -8,7 +8,7 @@
 
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <!-- LAST MODIFIED: 2021-08-02 -->
+  <!-- LAST MODIFIED: 2021-08-10 -->
 
   <xsl:template name="sigidoc-body-structure">
     <xsl:call-template name="navigation"/>
@@ -282,7 +282,7 @@
           <dd>
             <xsl:choose>
               <xsl:when test="//t:origin//t:date//t:choice">
-                <xsl:apply-templates select="//t:origin//t:date//t:choice//t:corr"/> (<xsl:apply-templates select="//t:origin//t:date//t:choice//t:corr/@resp"/>)
+                <xsl:apply-templates select="//t:origin//t:date//t:choice//t:corr"/> (<xsl:apply-templates select="//t:origin//t:date//t:choice//t:corr/@resp"/>), <i18n:text i18n:key="epidoc-xslt-sigidoc-alternative-dating-basedon">based on</i18n:text>: <xsl:apply-templates select="//t:origin//t:date//t:interp[@type='datingCriteria']"/>
               </xsl:when>
               <xsl:otherwise><i>―</i></xsl:otherwise>
             </xsl:choose>
