@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:figDesc[@n='whole'][@type='iconography'][@ana][ancestor::tei:physDesc]" group-by="@ana">
+      <xsl:for-each-group select="//tei:figDesc[@n='whole'][@ana][ancestor::tei:physDesc]" group-by="@ana">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
