@@ -10,7 +10,7 @@
     
   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2021-08-05 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2021-08-12 -->
   
   <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
@@ -17872,7 +17872,6 @@ Suggested values include: 1] label; 2] data</xs:documentation>
         </xs:simpleType>
       </xs:attribute>
       <!--<xs:attributeGroup ref="tei:tei_att.global.attributes"/>-->
-      <xs:attribute name="type" use="optional"/><!-- SigiDoc: for EFES --><!-- to be changed at some point!!!!! -->
       <xs:attributeGroup ref="tei:tei_att.global.analytic.attribute.ana"/><!-- SigiDoc: for EFES -->
     </xs:complexType>
     <!--<xs:complexType>
