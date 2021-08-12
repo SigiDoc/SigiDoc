@@ -330,14 +330,14 @@
                                   <rs type="title" ref="titles.xml#dominus">
                                       <w lemma="dominus" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=dominus&amp;la=la">
                                           <expan><abbr>D</abbr><ex>ominus</ex></expan>
-                                      </w> 
+                                      </w>
                                       <w lemma="noster" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=noster&amp;la=la">
                                           <expan><abbr>n</abbr><ex>oster</ex></expan>
                                       </w>
-                                  </rs> 
+                                  </rs>
                                   <persName type="attested" ref="prosopography.xml#Iustinianus_I">
                                       <name>Iustini<supplied reason="lost">anus</supplied></name>
-                                  </persName> 
+                                  </persName>
                                       <rs type="title" ref="titles.xml#augustus">
                                           <w lemma="perpetuus" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=perpetuus&amp;la=la">
                                               <supplied reason="lost"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuus</ex></expan></supplied></w> <supplied reason="lost"><expan><abbr>aug</abbr><ex>ustus</ex></expan></supplied>
@@ -378,13 +378,13 @@
               </div>
             <div type="commentary" subtype="footnotes">
                   <p xml:id="footnote-1">
-                      1. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4234/view">3.1</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4238/view">7.2</ref></citedRange>
+                      [1]. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4234/view">3.1</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4238/view">7.2</ref></citedRange>
                           (le <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1618/view">7.1</ref></citedRange> est frappé sur un flan trop petit pour que l’on puisse juger de la
                           légende)
                       </bibl>.
                   </p>
                 <p xml:id="footnote-2">
-                      2. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.360/view">5.1</ref></citedRange></bibl>.
+                      [2]. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.360/view">5.1</ref></citedRange></bibl>.
                   </p>
               </div>
             <div type="bibliography" subtype="edition">
