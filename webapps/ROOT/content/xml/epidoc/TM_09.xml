@@ -131,7 +131,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_George" xml:lang="en">Bust of St George</figDesc>
+                                    <figDesc n="whole" ana="iconography.xml#St_George" xml:lang="en">Bust of St George</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>

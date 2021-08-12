@@ -140,11 +140,9 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography"
-                                        ana="iconography.xml#Justinian_I" xml:lang="en">Bust of
+                                    <figDesc n="whole" ana="iconography.xml#Justinian_I" xml:lang="en">Bust of
                                         Justinian I</figDesc>
-                                    <figDesc n="whole" type="iconography"
-                                        ana="iconography.xml#Victory" xml:lang="en"
+                                    <figDesc n="whole" ana="iconography.xml#Victory" xml:lang="en"
                                         >Victory</figDesc>
                                 </figure>
                             </decoNote>

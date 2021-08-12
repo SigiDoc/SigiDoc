@@ -133,7 +133,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
+                                    <figDesc n="whole" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>

@@ -131,8 +131,8 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Episkepsis" xml:lang="fr">Buste de la Vierge Episkepsis</figDesc>
-                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Virgin_Episkepsis" xml:lang="en">Bust of the Virgin Episkepsis</figDesc>
+                                    <figDesc n="whole" ana="iconography.xml#Virgin_Episkepsis" xml:lang="fr">Buste de la Vierge Episkepsis</figDesc>
+                                    <figDesc n="whole" ana="iconography.xml#Virgin_Episkepsis" xml:lang="en">Bust of the Virgin Episkepsis</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>

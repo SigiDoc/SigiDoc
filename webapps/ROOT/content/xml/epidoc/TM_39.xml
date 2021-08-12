@@ -126,7 +126,7 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" type="iconography" ana="iconography.xml#Christ" xml:lang="en">Bust of Christ</figDesc>
+                                    <figDesc n="whole" ana="iconography.xml#Christ" xml:lang="en">Bust of Christ</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
