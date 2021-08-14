@@ -10,7 +10,7 @@
     
   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2021-08-12 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2021-08-14 -->
   
   <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
@@ -5563,6 +5563,15 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
                                 </xs:enumeration>
                               </xs:restriction>
                             </xs:simpleType>
+                            <!--<xs:simpleType>
+                              <xs:restriction base="xs:token">
+                                <xs:enumeration value="office">
+                                  <xs:annotation>
+                                    <xs:documentation>Text dated by an office or rank, e.g. the reign of an emperor or other ruler</xs:documentation>
+                                  </xs:annotation>
+                                </xs:enumeration>
+                              </xs:restriction>
+                            </xs:simpleType>-->
                             <xs:simpleType>
                               <xs:restriction base="xs:token">
                                 <xs:enumeration value="prosopography">
