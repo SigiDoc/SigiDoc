@@ -28,4 +28,4 @@ jobs:
       - name: Stop previous container
         run: docker stop sigidoc || true && docker rm sigidoc || true
       - name: Run image
-        run: docker run -p 9000:80 -d --rm --name sigidoc ghcr.io/sigidoc/sigidoc_latest:latest
+        run: docker run -p 9000:9999 -d --rm --name sigidoc ghcr.io/sigidoc/sigidoc_latest:latest

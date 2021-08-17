@@ -1,16 +1,13 @@
 FROM openjdk:8
 
-RUN apt update
-RUN apt-get -y install apache2
+# Installing nginx, supervisord, nodejs
+RUN apt-get update -yq \
+  && apt-get install nginx supervisor -yq
 
-RUN cd /usr/lib/apache2/modules && a2enmod proxy_html
-RUN cd /usr/lib/apache2/modules && a2enmod proxy_http
+COPY .docker/provisioning/nginx/default /etc/nginx/sites-enabled/default
 
-COPY .docker/apache.conf /etc/apache2/sites-available/000-default.conf
-RUN unlink /var/www/html/index.html
-
-COPY . /var/www/html/sigidoc
-WORKDIR /var/www/html/sigidoc
+COPY . /sigidoc
+WORKDIR /sigidoc
 
 RUN ["chmod", "+x", "build.sh"]
 RUN ["chmod", "+x", "docker-build.sh"]

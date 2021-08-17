@@ -1,5 +1,6 @@
 #!/bin/bash
 
-service apache2 start
+service nginx start
+# systemctl enable nginx
 
 ./build.sh
