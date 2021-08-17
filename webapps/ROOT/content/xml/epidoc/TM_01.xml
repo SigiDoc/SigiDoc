@@ -377,13 +377,13 @@
                               de chaque côté de la Victoire [2].</p>
               </div>
             <div type="commentary" subtype="footnotes">
-                  <p>
+                  <p xml:id="footnote-1">
                       1. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4234/view">3.1</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4238/view">7.2</ref></citedRange>
                           (le <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1618/view">7.1</ref></citedRange> est frappé sur un flan trop petit pour que l’on puisse juger de la
                           légende)
                       </bibl>.
                   </p>
-                  <p>
+                <p xml:id="footnote-2">
                       2. <bibl><ptr target="DOseals6"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.360/view">5.1</ref></citedRange></bibl>.
                   </p>
               </div>
