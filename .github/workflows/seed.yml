@@ -1,0 +1,15 @@
+name: Seed KILN repo
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: Seed data.
+    runs-on: self-hosted
+    steps:
+      - name: Create Kiln repository
+        run: docker exec sigidoc /bin/bash /sigidoc/scripts/create-kiln.sh
+      - name: Harvest RDFS
+        run: docker exec sigidoc /bin/bash /sigidoc/scripts/harvest-rdfs.sh
+      - name: Index ALL
+        run: docker exec sigidoc /bin/bash /sigidoc/scripts/index-all.sh

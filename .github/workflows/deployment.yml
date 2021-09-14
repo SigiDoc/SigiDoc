@@ -29,14 +29,3 @@ jobs:
         run: docker stop sigidoc || true && docker rm sigidoc || true
       - name: Run image
         run: docker run -p 9000:9999 -d --rm --name sigidoc ghcr.io/sigidoc/sigidoc_latest:latest
-  process_data:
-    name: Process data
-    needs: deploy
-    runs-on: self-hosted
-    steps:
-      - name: Create Kiln repository
-        run: docker exec sigidoc /bin/bash /sigidoc/scripts/create-kiln.sh
-      - name: Harvest RDFS
-        run: docker exec sigidoc /bin/bash /sigidoc/scripts/harvest-rdfs.sh
-      - name: Index ALL
-        run: docker exec sigidoc /bin/bash /sigidoc/scripts/index-all.sh
