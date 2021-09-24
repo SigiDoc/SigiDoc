@@ -79,4 +79,6 @@ function initFootnotes() {
   });
 }
 
-initFootnotes();
+window.addEventListener("load", (_event) => {
+  initFootnotes();
+});
