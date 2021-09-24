@@ -245,3 +245,32 @@ h4.iospe {
 h4.iospe i {
   font-style: normal;
 }
+
+/* Footnote's tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip .tooltiptext {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  visibility: hidden;
+  padding: 1em;
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Footnotes */
+#footnotes a.back-to-ref {
+  text-decoration: none;
+}
