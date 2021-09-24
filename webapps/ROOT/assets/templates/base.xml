@@ -29,7 +29,7 @@
           </kiln:block>
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
-            <script src="{$kiln:assets-path}/scripts/footnoes.js">&#160;</script>
+            <script src="{$kiln:assets-path}/scripts/footnotes.js">&#160;</script>
           </kiln:block>
           <kiln:block name="head-extra" />
         </head>
