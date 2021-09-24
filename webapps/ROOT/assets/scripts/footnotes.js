@@ -80,5 +80,5 @@ function initFootnotes() {
 }
 
 window.addEventListener("load", (_event) => {
-  initFootnotes();
+  // initFootnotes();
 });
