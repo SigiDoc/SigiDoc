@@ -28,7 +28,10 @@ const findNodeByText = (text) => {
   return null;
 };
 
-const footNotePointerTemplate = (footnote, match) => `<div class="tooltip">
+const footNotePointerTemplate = (
+  footnote,
+  match
+) => `<div class="footnote-tooltip">
           <a href="#${footnote.id}" id="${footnote.id}-ref">${match}</a>
           <span class="tooltiptext">${footnote.innerHTML}</span>
         </div>

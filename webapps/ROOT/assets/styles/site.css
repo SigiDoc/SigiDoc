@@ -247,13 +247,13 @@ h4.iospe i {
 }
 
 /* Footnote's tooltip */
-.tooltip {
+.footnote-tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
-.tooltip .tooltiptext {
+.footnote-tooltip .tooltiptext {
   position: absolute;
   z-index: 1;
   display: block;
@@ -266,7 +266,7 @@ h4.iospe i {
   color: black;
 }
 
-.tooltip:hover .tooltiptext {
+.footnote-tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
