@@ -67,7 +67,7 @@
           i18n:key="menu-concordance-bibliography" />-->
   </menu>
   <menu label="Search" match="local-search" i18n:key="menu-search"/>
-  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin"/>
+  <!--<menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin"/>-->
 
   <menu label="Language" i18n:key="menu-language">
     <item label="Byzantine Greek" language_switch="grc" i18n:key="grc"/>
