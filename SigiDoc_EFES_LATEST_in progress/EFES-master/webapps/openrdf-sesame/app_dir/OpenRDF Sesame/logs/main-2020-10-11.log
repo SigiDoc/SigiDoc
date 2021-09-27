@@ -1,6 +1,0 @@
-[INFO ] 2020-10-11 10:18:52,916 [main] Logback logging API implementation is configured.
-[WARN ] 2020-10-11 10:18:53,424 [main] Removing invalid lock 7332@DESKTOP-6MSIDIV
-[INFO ] 2020-10-11 10:18:53,913 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 2367 ms
-[INFO ] 2020-10-11 13:47:27,693 [main] Logback logging API implementation is configured.
-[WARN ] 2020-10-11 13:47:28,513 [main] Removing invalid lock 1404@DESKTOP-6MSIDIV
-[INFO ] 2020-10-11 13:47:29,047 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 3795 ms
