@@ -70,7 +70,7 @@
   <!--<menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin"/>-->
 
   <menu label="Language" i18n:key="menu-language">
-    <item label="Byzantine Greek" language_switch="grc" i18n:key="grc"/>
+    <!--<item label="Byzantine Greek" language_switch="grc" i18n:key="grc"/>-->
     <item label="English" i18n:key="en" language_switch="en"/>
     <item label="French" i18n:key="fr" language_switch="fr"/>
     <!--<item label="Deutsch" i18n:key="de" language_switch="de"/>-->
