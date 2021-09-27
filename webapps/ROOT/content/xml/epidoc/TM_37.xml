@@ -253,6 +253,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
@@ -373,35 +374,35 @@
                                   pour le supérieur du monastère de Képhalobounion [6] et du mont Latros [7].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Janin1950"/>, <citedRange unit="page">p. 465-466</citedRange></bibl>; 
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Janin1950"/>, <citedRange unit="page">p. 465-466</citedRange></bibl>; 
                       <bibl><ptr target="Janin1953"/>, <citedRange unit="page">p. 417</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. Voir aussi <bibl><ptr target="Failler2000"/>, <citedRange unit="page">p. 186-190</citedRange></bibl>. 
+                  <p xml:id="footnote-2">
+                      [2]. Voir aussi <bibl><ptr target="Failler2000"/>, <citedRange unit="page">p. 186-190</citedRange></bibl>. 
                       Sur Jean Pikridios, voir les notices de la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/person/p3468">Ioannes 16</ref></citedRange></bibl> (lien actuellement inactif: 2021-03-19) et de
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://www.degruyter.com/document/database/PMBZ/entry/PMBZ14247/html">3110</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. Pour le lien entre toponymie urbaine et designation des monastères, citons, par exemple, le
+                  <p xml:id="footnote-3">
+                      [3]. Pour le lien entre toponymie urbaine et designation des monastères, citons, par exemple, le
                           cas clair du monastère <hi rend="italic">ta Stoudiou</hi>. La reprise urbaine sous le grand empereur isaurien est symbolisée
                       par la restauration de l’aqueduc de Valens : <bibl><ptr target="Theophanes"/>, <citedRange unit="page">p. 440</citedRange></bibl>, datée de 765-766.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="VieSyméonJeune1"/>, <citedRange unit="chapter">chap. 232, l. 4-5, p. 208-209</citedRange></bibl>; 
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="VieSyméonJeune1"/>, <citedRange unit="chapter">chap. 232, l. 4-5, p. 208-209</citedRange></bibl>; 
                       <bibl><ptr target="VieSyméonJeune2"/>, <citedRange unit="chapter">chap. 232, p. 233</citedRange></bibl>. 
                       Dans son introduction (<bibl><ptr target="VieSyméonJeune1"/>, <citedRange unit="page">p. 162, n. 8</citedRange></bibl>) et en note à sa traduction (<bibl><ptr target="VieSyméonJeune2"/>, <citedRange unit="page">p. 233, n. 2</citedRange></bibl>), Van den Ven
                           propose une identification avec un préfet d’Afrique Théodore, mais le prénom est trop fréquent pour
                           qu’on le suive dans cette voie. Voir également <bibl><ptr target="PLRE3"/>, <citedRange unit="entry">Theodorus <hi rend="italic">qui et</hi> Picridius 61, p. 1263</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Oikonomides1995"/></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Oikonomides1995"/></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="DOseals5"/>, <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4789/view">83.1</ref></citedRange></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="DOseals5"/>, <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4789/view">83.1</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="DOseals3"/>, <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.404/view">22.1</ref></citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="DOseals3"/>, <citedRange><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.404/view">22.1</ref></citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

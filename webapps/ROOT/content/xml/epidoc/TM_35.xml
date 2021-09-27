@@ -250,6 +250,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
@@ -381,21 +382,21 @@
                           titulaire du siège connu après Constantin qui siégea au concile photien de 879 [5].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2466/view">33.1</ref></citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2466/view">33.1</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="TIB7"/>, <citedRange unit="page"><ref target="https://tib.oeaw.ac.at/reader/TIB/tib7.html#page/376/mode/2up">p. 376-378</ref></citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="TIB7"/>, <citedRange unit="page"><ref target="https://tib.oeaw.ac.at/reader/TIB/tib7.html#page/376/mode/2up">p. 376-378</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 211, l. 322</citedRange></bibl>. Pour une redatation de cette notice,
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 211, l. 322</citedRange></bibl>. Pour une redatation de cette notice,
                       <bibl><ptr target="Jankowiak2013"/></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 280, l. 391</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 280, l. 391</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Fedalto1988"/>, <citedRange unit="page">p. 162-163</citedRange></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Fedalto1988"/>, <citedRange unit="page">p. 162-163</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

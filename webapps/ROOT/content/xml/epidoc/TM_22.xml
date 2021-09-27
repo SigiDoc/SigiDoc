@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
@@ -386,32 +387,32 @@
                       attestée à notre connaissance.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2368/view">40.24</ref></citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2368/view">40.24</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2648/view">1.20</ref></citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2648/view">1.20</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view">2.33</ref></citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view">2.33</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/129/">Basileios 129</ref></citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/129/">Basileios 129</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="PsellosLetters1941"/>, <citedRange unit="part">78, p. 109</citedRange></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="PsellosLetters1941"/>, <citedRange unit="part">78, p. 109</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. Ce qui est attesté par le cas de Basile Teknodotès, ancien titulaire de la fonction auprès du
+                  <p xml:id="footnote-6">
+                      [6]. Ce qui est attesté par le cas de Basile Teknodotès, ancien titulaire de la fonction auprès du
                           stratège de Serrès : πρωτοκένταρχον γεγονότα τῆς τάξεως τοῦ στρατηγοῦ Σερρῶν (pour la référence,
                           voir la note 4).
                   </p>
-                  <p>
-                      7. Ο ἅγιος Νικόλαος. | Κύριε βοήθει τῷ σῷ δούλῳ | Ἰωάννῃ πρωτοκεντάρχῳ τοῦ κριτοῦ τῶν
+                  <p xml:id="footnote-7">
+                      [7]. Ο ἅγιος Νικόλαος. | Κύριε βοήθει τῷ σῷ δούλῳ | Ἰωάννῃ πρωτοκεντάρχῳ τοῦ κριτοῦ τῶν
                       Θρᾳκησίων: <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2301/view">2.33</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Cheynet1995"/></bibl>.
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Cheynet1995"/></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

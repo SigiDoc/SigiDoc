@@ -1,0 +1,12 @@
+[INFO ] 2019-05-13 16:17:31,078 [main] Logback logging API implementation is configured.
+[WARN ] 2019-05-13 16:17:32,015 [main] Removing invalid lock 4964@DESKTOP-6MSIDIV
+[INFO ] 2019-05-13 16:17:32,405 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 2811 ms
+[INFO ] 2019-05-13 16:23:36,736 [main] Logback logging API implementation is configured.
+[WARN ] 2019-05-13 16:23:37,019 [main] Removing invalid lock 2388@DESKTOP-6MSIDIV
+[INFO ] 2019-05-13 16:23:37,256 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1005 ms
+[INFO ] 2019-05-13 16:29:36,371 [main] Logback logging API implementation is configured.
+[WARN ] 2019-05-13 16:29:36,574 [main] Removing invalid lock 4476@DESKTOP-6MSIDIV
+[INFO ] 2019-05-13 16:29:36,824 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 922 ms
+[INFO ] 2019-05-13 16:33:19,994 [main] Logback logging API implementation is configured.
+[WARN ] 2019-05-13 16:33:20,514 [main] Removing invalid lock 7768@DESKTOP-6MSIDIV
+[INFO ] 2019-05-13 16:33:21,029 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1566 ms

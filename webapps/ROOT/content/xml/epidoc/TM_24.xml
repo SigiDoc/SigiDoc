@@ -259,6 +259,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
@@ -360,18 +361,18 @@
                                       fonction qu’on a proposé d’identifier avec celle de <hi rend="italic">quæstor exercitus</hi> [3].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Ces bulles ont été présentées par Vujadin Ivanisevič lors du « 11th International symposium
+                  <p xml:id="footnote-1">
+                      [1]. Ces bulles ont été présentées par Vujadin Ivanisevič lors du « 11th International symposium
                           of Byzantine sigillography », Istanbul, 8-10 mai 2014.
                   </p>
-                  <p>
-                      2. eο|οro | pre|FIn|lr : <bibl><ptr target="Rostowtsew1900"/>, <citedRange>825, p. 280 (planche VIII, no. 1)</citedRange></bibl>; 
+                  <p xml:id="footnote-2">
+                      [2]. eο|οro | pre|FIn|lr : <bibl><ptr target="Rostowtsew1900"/>, <citedRange>825, p. 280 (planche VIII, no. 1)</citedRange></bibl>; 
                       <bibl><ptr target="Cantacuzène1927"/>, <citedRange unit="page">p. 611</citedRange></bibl> 
                       (découvert à Tomis ; voir corrections dans <bibl><ptr target="SBS_Articles1931-1986"/>, <citedRange unit="page">p. 45</citedRange></bibl>); 
                       <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2928</citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Gkoutzioukostas2008"/></bibl>; <bibl><ptr target="Gkoutzioukostas2009"/></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Gkoutzioukostas2008"/></bibl>; <bibl><ptr target="Gkoutzioukostas2009"/></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

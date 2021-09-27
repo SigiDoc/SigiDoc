@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
@@ -376,11 +377,12 @@
                   <p xml:lang="fr">Saint Théodore. / Nicétas (?) Sarônitès, <hi rend="italic">protovestès</hi> (?) et domestique des Excubites.</p>
               </div>
               <div type="commentary" subtype="text">
-                      <p/>
+                      <p xml:lang="en"><hi rend="italic">None.</hi></p>
+                  <p xml:lang="fr"><hi rend="italic">Aucun.</hi></p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Un Michel Sarônitès est bien connu par ses sceaux mais il y fait figurer saint Michel au droit : <bibl><ptr target="Nesbitt2005"/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. Un Michel Sarônitès est bien connu par ses sceaux mais il y fait figurer saint Michel au droit : <bibl><ptr target="Nesbitt2005"/></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

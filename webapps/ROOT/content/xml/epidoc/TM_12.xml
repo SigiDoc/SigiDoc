@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-15" who="AS">Bibliographic referencing system changed</change>
@@ -365,8 +366,8 @@
                               reçut sans doute cette dignité pour son rôle dans la rébellion d’Isaac Comnène [1].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Seyrig"/>, <citedRange unit="page">p. 118</citedRange></bibl>; 
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Seyrig"/>, <citedRange unit="page">p. 118</citedRange></bibl>; 
                       voir aussi la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20159/">Ioannes 20159</ref></citedRange></bibl>.
                   </p>
               </div>

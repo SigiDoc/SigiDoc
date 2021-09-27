@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
@@ -424,43 +425,43 @@
                                   doit demeurer hypothétique.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Voir le commentaire au sceau <ref target="TM_40.html">SigiDoc ID 40</ref> ; <bibl><ptr target="Jordanov1993"/>, <citedRange unit="entry">399-400</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. Voir le commentaire au sceau <ref target="TM_40.html">SigiDoc ID 40</ref> ; <bibl><ptr target="Jordanov1993"/>, <citedRange unit="entry">399-400</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. Cela permet d’écarter aussi le très rare Pazouni.
+                  <p xml:id="footnote-2">
+                      [2]. Cela permet d’écarter aussi le très rare Pazouni.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Chronik45"/>, <citedRange unit="part">§ 31-32, p. 335</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Chronik45"/>, <citedRange unit="part">§ 31-32, p. 335</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Chronik45"/>, <citedRange unit="part">§ 34, p. 335, § 36, p. 336</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Chronik45"/>, <citedRange unit="part">§ 34, p. 335, § 36, p. 336</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. Type Grigor Narekatsi pour Grégoire de Narek. Nous remercions Théo van Lint des
+                  <p xml:id="footnote-5">
+                      [5]. Type Grigor Narekatsi pour Grégoire de Narek. Nous remercions Théo van Lint des
                           informations fournies sur ce point.
                   </p>
-                  <p>
-                      6. De fait, dans sa section inférieure le κ de fin de cinquième ligne est plus proche de notre lettre
+                  <p xml:id="footnote-6">
+                      [6]. De fait, dans sa section inférieure le κ de fin de cinquième ligne est plus proche de notre lettre
                           que le β de la même ligne, dont la panse rejoint la hampe gauche plus bas.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="Honigmann1935"/>, <citedRange unit="page">p. 153</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Honigmann1935"/>, <citedRange unit="page">p. 153</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Dédéyan2003a"/>, <citedRange unit="page">p. 118</citedRange></bibl>, citant l’Achkharhatsouytz de Vardan.
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Dédéyan2003a"/>, <citedRange unit="page">p. 118</citedRange></bibl>, citant l’Achkharhatsouytz de Vardan.
                   </p>
-                  <p>
-                      9. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1308-1309</citedRange></bibl>.
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1308-1309</citedRange></bibl>.
                   </p>
-                  <p>
-                      10. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1308</citedRange></bibl>.
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1308</citedRange></bibl>.
                   </p>
-                  <p>
-                      11. <bibl><ptr target="Dédéyan2003a"/>, <citedRange unit="page">p. 116</citedRange></bibl>.
+                  <p xml:id="footnote-11">
+                      [11]. <bibl><ptr target="Dédéyan2003a"/>, <citedRange unit="page">p. 116</citedRange></bibl>.
                   </p>
-                  <p>
-                      12. <bibl><ptr target="Sinclair1989"/>, <citedRange unit="page">p. 391-392</citedRange></bibl>.
+                  <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Sinclair1989"/>, <citedRange unit="page">p. 391-392</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

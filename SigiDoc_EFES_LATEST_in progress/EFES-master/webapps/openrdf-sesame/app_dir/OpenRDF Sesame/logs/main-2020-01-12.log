@@ -1,0 +1,9 @@
+[INFO ] 2020-01-12 11:32:13,083 [main] Logback logging API implementation is configured.
+[WARN ] 2020-01-12 11:32:13,396 [main] Removing invalid lock 17656@DESKTOP-6MSIDIV
+[INFO ] 2020-01-12 11:32:13,692 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1328 ms
+[WARN ] 2020-01-12 12:27:52,814 [repositories/kiln] Removing invalid lock 19620@DESKTOP-6MSIDIV
+[INFO ] 2020-01-12 12:27:53,157 [repositories/kiln] POST query -1227659729
+[INFO ] 2020-01-12 12:27:53,642 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2020-01-12 15:08:27,491 [main] Logback logging API implementation is configured.
+[WARN ] 2020-01-12 15:08:27,851 [main] Removing invalid lock 6620@DESKTOP-6MSIDIV
+[INFO ] 2020-01-12 15:08:28,289 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1657 ms

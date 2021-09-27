@@ -255,6 +255,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
@@ -425,28 +426,28 @@
                                   d’Eustathe à Nicéphore.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Nous remercions vivement
+                  <p xml:id="footnote-1">
+                      [1]. Nous remercions vivement
                       Jean-François Vannier pour nous avoir signalé ce sceau, ainsi que la présence explicite du lien familial
                       de son propriétaire avec l’empereur.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Barzós1984a"/>, <citedRange unit="part">17, p. 118-120</citedRange></bibl>; voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/116/">Nikephoros 116</ref></citedRange></bibl>; voir aussi
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Barzós1984a"/>, <citedRange unit="part">17, p. 118-120</citedRange></bibl>; voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/116/">Nikephoros 116</ref></citedRange></bibl>; voir aussi
                       <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">673</citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange unit="page">p. 618, l. 20</citedRange></bibl>; 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange unit="page">p. 618, l. 20</citedRange></bibl>; 
                       <bibl><ptr target="ZonaraeEpitomae1897"/>, <citedRange unit="chapter">XVIII.21.8, p. 732, l. 4</citedRange></bibl>; 
                       <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">III.IV.2, p. 96, l. 81</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange unit="page">p. 618, l. 18</citedRange></bibl>, qui le mentionne comme l’un des deux
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange unit="page">p. 618, l. 18</citedRange></bibl>, qui le mentionne comme l’un des deux
                       αὐτάδελφοι […] νεώτεροι d’Alexis Ier ; <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter" >I.6, p. 87, l. 22-25</citedRange></bibl>; 
                       <bibl><ptr target="ZonaraeEpitomae1897"/>, <citedRange unit="chapter">XVIII.21.8, p. 732, l. 1.2</citedRange></bibl>; 
                       <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">III.IV.2, p. 96, l. 81</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Kouroupou2005"/>, <citedRange>p. 45, no. 30</citedRange></bibl> (avec plan généalogique des personnages cités dans le <hi rend="italic">typikon</hi> à la p. 44) ; notice biographique
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Kouroupou2005"/>, <citedRange>p. 45, no. 30</citedRange></bibl> (avec plan généalogique des personnages cités dans le <hi rend="italic">typikon</hi> à la p. 44) ; notice biographique
                       sur le personnage dans <bibl><ptr target="Kouroupou2005"/>, <citedRange unit="page">p. 65-66</citedRange></bibl>, qu’on lira en complément de celle de <bibl><ptr target="Skoulatos1980"/>, <citedRange unit="part">145, p. 232-233</citedRange></bibl>. 
                           On retrouve le même choix iconographique (seule la répartition des lettres du
                           vocable change dans le champ droit, étant purement verticale et non en croix) sur un sceau pour
@@ -454,36 +455,36 @@
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5430/">Nikephoros 116</ref></citedRange></bibl>; 
                       voir aussi <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">673</citedRange></bibl>: Ἐγὼ Κομνηνοῦ τὸ κράτος Νικηφόρου φέρων σπάθην σφάττουσαν, οὓς ἐχθροὺς ἔχει.
                   </p>
-                  <p>
-                      6. Une liste des Nicéphore Comnène homonymes pour les XIe-XIIe siècles est donnée par
+                  <p xml:id="footnote-6">
+                      [6]. Une liste des Nicéphore Comnène homonymes pour les XIe-XIIe siècles est donnée par
                       <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="page">p. 227-228</citedRange></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="page">p. 87, l. 23-25</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="page">p. 87, l. 23-25</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 146-147</citedRange></bibl>.
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 146-147</citedRange></bibl>.
                           Il faudrait donc rayer le sébaste Landulf de Salerne de la liste des grands drongaires de la flotte puisque le titre de thalassokratôr que lui donne
                           Anne Comnène désigne a priori le duc de la flotte : <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Landulf/20101/">Landulf 20101</ref></citedRange></bibl>. Un sceau lui est attribué avec le plus haut degré de
                           certitude en raison de la présence de saint Matthieu au droit et lui attribue bien les titres de sébaste et
                           duc, voir <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="part">398</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 147</citedRange></bibl>.
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 147</citedRange></bibl>.
                   </p>
-                  <p>
-                      10. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">VI.X.9, p. 191, l. 54</citedRange></bibl>.
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">VI.X.9, p. 191, l. 54</citedRange></bibl>.
                   </p>
-                  <p>
-                      11. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XI.X.9, p. 353, l. 5-6</citedRange></bibl>.
+                  <p xml:id="footnote-11">
+                      [11]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XI.X.9, p. 353, l. 5-6</citedRange></bibl>.
                   </p>
-                  <p>
-                      12. Sceau à la double iconographie de la Vierge et saint Michel et à la légende Τοῦ κανικλείου ἡ
+                  <p xml:id="footnote-12">
+                      [12]. Sceau à la double iconographie de la Vierge et saint Michel et à la légende Τοῦ κανικλείου ἡ
                       σφραγὶς Εὐσταθίου | ἄρχοντος ἐθνῶν καὶ στόλου χελανδίων : <bibl><ptr target="Oikonomides1986"/>, <citedRange unit="part">106</citedRange></bibl>; 
                       <bibl><ptr target="Oikonomides1985"/></bibl>.
                   </p>
-                  <p>
-                      13. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XIII.I.1, p. 384, l. 8-9</citedRange></bibl>.
+                  <p xml:id="footnote-13">
+                      [13]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XIII.I.1, p. 384, l. 8-9</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

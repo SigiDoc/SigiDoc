@@ -267,6 +267,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
@@ -407,14 +408,14 @@
                           aveuglé [3].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 144</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 144</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Andriollo2012"/></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Andriollo2012"/></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 372</citedRange></bibl>. Voir <bibl><ptr target="Andriollo2012"/>, <citedRange unit="page">p. 78-79</citedRange></bibl>, qui, toutefois, n’exclut pas que le propriétaire du parallèle puisse avoir été « un homonyme un peu plus jeune ».
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 372</citedRange></bibl>. Voir <bibl><ptr target="Andriollo2012"/>, <citedRange unit="page">p. 78-79</citedRange></bibl>, qui, toutefois, n’exclut pas que le propriétaire du parallèle puisse avoir été « un homonyme un peu plus jeune ».
                       Voir aussi la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/">Romanos 102</ref></citedRange></bibl>. 
                       Voir également sur ce complot, <bibl><ptr target="Hermay2017"/>, <citedRange unit="page">p. 280-281</citedRange></bibl>.
                   </p>

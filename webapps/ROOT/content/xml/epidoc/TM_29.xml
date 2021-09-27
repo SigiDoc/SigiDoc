@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -377,19 +378,19 @@
                       de même élevé et nous serions enclins à les identifier [4].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Pour le type présenté ici, voir <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/">Maria 20107</ref></citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. Pour le type présenté ici, voir <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/">Maria 20107</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Hunger1998"/>, <citedRange unit="part">10, p. 18</citedRange></bibl>;
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Hunger1998"/>, <citedRange unit="part">10, p. 18</citedRange></bibl>;
                       <bibl><ptr target="Šandrovskaya1988"/>, <citedRange unit="page">p. 90</citedRange></bibl>; 
                       voir aussi <bibl><ptr target="PBW"/>, <citedRange><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20108/">Maria 20108</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Seyrig"/>, <citedRange unit="page">p. 113</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Seyrig"/>, <citedRange unit="page">p. 113</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">167</citedRange></bibl> préfère les distinguer.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">167</citedRange></bibl> préfère les distinguer.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

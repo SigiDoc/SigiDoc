@@ -265,6 +265,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -432,23 +433,23 @@
                           femme de Constantin VIII.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Magdalino1987"/></bibl> et <bibl><ptr target="Magdalino1988"/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Magdalino1987"/></bibl> et <bibl><ptr target="Magdalino1988"/></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="PmbZOnline"/>,
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="PmbZOnline"/>,
                           <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ30280">28125</ref></citedRange> (Théophanô); 
                           <citedRange unit="part"><ref target="https://www.degruyter.com/view/PMBZ/PMBZ24727">22574</ref></citedRange> (Hélène Lécapène)
                       </bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="PmbZOnline"/>,
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="PmbZOnline"/>,
                           <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ29759">27604</ref></citedRange>
                       </bibl> ; Jean Ier avait tiré Théodora d’un monastère en 970 pour se doter d’un lien
                       dynastique aux Macédoniens.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="PmbZOnline"/>,
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="PmbZOnline"/>,
                           <citedRange unit="part"><ref target=" https://www.degruyter.com/view/PMBZ/PMBZ24731">22578</ref></citedRange></bibl>.
                   </p>
               </div>

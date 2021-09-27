@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -370,18 +371,18 @@
                                   nommé duc d’Antioche vraisemblablement à la fin du règne de Michel IV [3].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 22-23</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 22-23</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 23</citedRange></bibl>. Voir la <bibl><ptr target="PBW"/>, <ref target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/">Stephanos 20116</ref></bibl>. 
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="ZacosOrient"/>, <citedRange unit="page">p. 23</citedRange></bibl>. Voir la <bibl><ptr target="PBW"/>, <ref target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/">Stephanos 20116</ref></bibl>. 
                       À propos de la datation, voir aussi <bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 263</citedRange></bibl> : « Aus stilistischen Gründen datieren wir ferner die Bulle eines Stephanos βεστάρχης καὶ δοὺξ Ἀντιοχείας
                           eher nach der Regierungszeit Konstantins IX. Monomachos. Sie könnte um 1060 entstanden sein.
                           Eine Identität dieser Person mit dem um wenige Jahre jüngeren Typus eines Stephanos σεβαστοφόρος
                           καὶ δούξ ist wahrscheinlich. »
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Seyrig"/>, <citedRange unit="part">157</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Seyrig"/>, <citedRange unit="part">157</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

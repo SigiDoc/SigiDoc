@@ -1,0 +1,10 @@
+127.0.0.1 -  -  [24/dic/2018:14:05:25 +0000] "GET / HTTP/1.1" 302 - 
+127.0.0.1 -  -  [24/dic/2018:14:05:25 +0000] "GET /en/ HTTP/1.1" 200 5591 
+127.0.0.1 -  -  [24/dic/2018:14:05:28 +0000] "GET /assets/styles/site.css HTTP/1.1" 200 0 
+127.0.0.1 -  -  [24/dic/2018:14:05:28 +0000] "GET /assets/foundation/css/foundation.min.css HTTP/1.1" 200 163841 
+127.0.0.1 -  -  [24/dic/2018:14:05:28 +0000] "GET /assets/styles/base.css HTTP/1.1" 200 285 
+127.0.0.1 -  -  [24/dic/2018:14:05:28 +0000] "GET /assets/foundation/css/normalize.css HTTP/1.1" 200 7589 
+127.0.0.1 -  -  [24/dic/2018:14:05:28 +0000] "GET /favicon.ico HTTP/1.1" 404 8667 
+127.0.0.1 -  -  [24/dic/2018:14:05:31 +0000] "GET /admin/ HTTP/1.1" 200 15986 
+127.0.0.1 -  -  [24/dic/2018:14:05:31 +0000] "GET /assets/scripts/admin.js HTTP/1.1" 200 432 
+127.0.0.1 -  -  [24/dic/2018:14:05:31 +0000] "GET /assets/styles/admin.css HTTP/1.1" 200 995 

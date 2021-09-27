@@ -262,6 +262,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
@@ -435,32 +436,32 @@
                                   dès lors de celui de ses anciens alliés.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Nous tenons à remercier Jean-François Vannier pour nous avoir signalé la mise en vente de ce sceau et pour nous avoir donné son avis éclairé sur la famille Érôtikos.
+                  <p xml:id="footnote-1">
+                      [1]. Nous tenons à remercier Jean-François Vannier pour nous avoir signalé la mise en vente de ce sceau et pour nous avoir donné son avis éclairé sur la famille Érôtikos.
                   </p>
-                  <p>
-                      2. Le type n’est pas absolument certain mais les zones écrasées ne semblent pas pouvoir avoir comporté les bras en oraison.
+                  <p xml:id="footnote-2">
+                      [2]. Le type n’est pas absolument certain mais les zones écrasées ne semblent pas pouvoir avoir comporté les bras en oraison.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 322, l. 98; 323, l. 1-7</citedRange></bibl>: Trad.: «Une fois que sa situation fut bonne du côté de la mer, le parakoimomène [Basile] s’occupa
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 322, l. 98; 323, l. 1-7</citedRange></bibl>: Trad.: «Une fois que sa situation fut bonne du côté de la mer, le parakoimomène [Basile] s’occupa
                           de la terre. Il envoya le patrice Manuel Érôtikos, un homme très connu pour sa naissance, sa valeur et
                           sa bravoure, afin de garder Nicée» (contre Bardas Sklèros en 978): <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 270</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">I.1, p. 75, l. 1-3, 7-8</citedRange></bibl>. Trad.: «Le célèbre Manuel, rejeton de la famille des Comnène, qui fut nommé plénipotentiaire pour
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">I.1, p. 75, l. 1-3, 7-8</citedRange></bibl>. Trad.: «Le célèbre Manuel, rejeton de la famille des Comnène, qui fut nommé plénipotentiaire pour
                           conclure conventions et accords entre Basile, qui tenait le sceptre des Romains, et le fameux Bardas
                           Sklèros […], ce Manuel donc avait deux enfants : l’aîné s’appelait Isaac et le cadet Jean»: <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange>I.1, p. 74</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XI.I.6, p. 324</citedRange></bibl>. Trad.: «[...] le fameux Manuel, le père du précédent basileus Isaac Comnène et de son frère Jean,
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XI.I.6, p. 324</citedRange></bibl>. Trad.: «[...] le fameux Manuel, le père du précédent basileus Isaac Comnène et de son frère Jean,
                           mon aïeul paternel, avait été promu stratège autocrator de tout l’Orient par l’empereur d’alors Basile,
                           avec mission de mettre un terme aux hostilités avec Skléros […]»: <bibl><ptr target="Alexiade1937"/>, <citedRange unit="chapter">XI.I.6, p. 9-10</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. Voir <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667</citedRange></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. Voir <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667</citedRange></bibl>.
                   </p>
-                  <p>
-                      7. Comme déjà signalé dans <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667 et n. 39</citedRange></bibl>. 
+                  <p xml:id="footnote-7">
+                      [7]. Comme déjà signalé dans <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667 et n. 39</citedRange></bibl>. 
                       Voir <bibl><ptr target="Koytcheva2014"/>, <citedRange unit="page">p. 99</citedRange></bibl>, qui conclut: «the name of the progenitor of the Komnenian dynasty
                           was Manuel Komnenos, not Manuel Erotikos, and this name was preserved with dignity and handed
                           down to the future generations. These considerations do not rule out the possibility that the appellation
@@ -468,21 +469,21 @@
                           of the eleventh century. Nevertheless, this does not justify the identification of the two surnames and
                           their progenitors and requires deeper and more detailed research into their family roots.»
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90</citedRange></bibl>; 
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90</citedRange></bibl>; 
                       <bibl><ptr target="Stanković2013"/>, <citedRange unit="page">p. 9-12</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. Voir <bibl><ptr target="Cheynet1990"/>, <citedRange unit="page">p. 218-219</citedRange></bibl>; 
+                  <p xml:id="footnote-9">
+                      [9]. Voir <bibl><ptr target="Cheynet1990"/>, <citedRange unit="page">p. 218-219</citedRange></bibl>; 
                       <bibl><ptr target="Barzós1984a"/>, <citedRange unit="part">2, p. 38-39</citedRange></bibl>; 
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27039">24885</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      10. <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="part">20, p. 643</citedRange></bibl> (sans image); 
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="part">20, p. 643</citedRange></bibl> (sans image); 
                       <bibl><ptr target="Cheynet2005"/>, <citedRange>p. 54 et fig. 1</citedRange></bibl> (Inv. Zacos BnF 249).
                   </p>
-                  <p>
-                      11. Nous nous abstiendrons de traiter ici le problème très complexe de l’identification ou de
+                  <p xml:id="footnote-11">
+                      [11]. Nous nous abstiendrons de traiter ici le problème très complexe de l’identification ou de
                           l’homonymie de tous les personnages connus de cette famille, en particulier des Nicéphore et des
                           Théophile. On mentionnera que l’on retrouve le nom au génitif – Ἐρωτίκου – dans la Calabre du
                           Xe siècle, cité dans un épisode de la <hi rend="italic">Vie</hi> d’Élie le Spéléote : πολλὰ δὲ παράδοξα σημεῖα πεποίηκεν ὁ κύριος
@@ -505,18 +506,18 @@
                           évaluer ces témoignages, que les noms de grandes familles se diffusèrent en Italie du Sud, sans doute
                           par le biais de liens de clientèle avec de puissants personnages.
                   </p>
-                  <p>
-                      12. « Il dépêcha donc vers eux comme ambassadeurs le patrice Nicéphore, ayant pour nom
+                  <p xml:id="footnote-12">
+                      [12]. « Il dépêcha donc vers eux comme ambassadeurs le patrice Nicéphore, ayant pour nom
                       Érôtikos […] » : <bibl><ptr target="LéonEmpereurs2014"/>, <citedRange unit="chapter">V.3, p. 116</citedRange></bibl>; 
                       <bibl><ptr target="LeonisHistoriae1828"/>, <citedRange unit="chapter">V.3, p. 79, l. 15-16</citedRange></bibl>; 
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      13. <bibl><ptr target="TheophanesContinuatus1838"/>, <citedRange unit="chapter">VI.14, p. 446, l. 13-14</citedRange></bibl>; 
+                  <p xml:id="footnote-13">
+                      [13]. <bibl><ptr target="TheophanesContinuatus1838"/>, <citedRange unit="chapter">VI.14, p. 446, l. 13-14</citedRange></bibl>; 
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      14. <bibl><ptr target="Markopoulos1979"/>, <citedRange unit="page">p. 92, § 5, l. 5-6</citedRange></bibl>. 
+                  <p xml:id="footnote-14">
+                      [14]. <bibl><ptr target="Markopoulos1979"/>, <citedRange unit="page">p. 92, § 5, l. 5-6</citedRange></bibl>. 
                       À ce propos, <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90, n. 86</citedRange></bibl> écrit : « It is unlikely, though not
                           impossible, that the two men, united by the relation of gambros (generally, son- or brother-in-law) had
                           the same family name. We should probably correct one of the manuscripts, perhaps that of Theophanes
@@ -524,58 +525,58 @@
                           proche de Constantin VII et l’envoyé de Nicéphore Phocas, parle d’identité ou de simple homonymie.
                           Cf. <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      15. Voir <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ30309">28154</ref></citedRange></bibl> ; 
+                  <p xml:id="footnote-15">
+                      [15]. Voir <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ30309">28154</ref></citedRange></bibl> ; 
                       <bibl><ptr target="Guilland1980"/>, <citedRange unit="page">p. 154</citedRange></bibl>; pour les sceaux
                       voir <bibl><ptr target="Zacos2"/>, <citedRange unit="part">328</citedRange> (ici le commentaire fait de Théophile le beau-fils de Nicéphore, en inversant le
                           propos de la <hi rend="italic">Continuation de Théophane</hi>), <citedRange unit="part">332, 1088</citedRange></bibl>; 
                       <bibl><ptr target="LaurentCorpus2"/>, <citedRange>1107-1108</citedRange></bibl>; <bibl><ptr target="Nesbitt1998"/>, <citedRange unit="part">23, p. 179-180</citedRange></bibl>.
                   </p>
-                  <p>
-                      16. <bibl><ptr target="Drew-Bear1998"/></bibl>; <bibl><ptr target="BMFD"/>, <citedRange unit="part">16, p. 310-312</citedRange></bibl>; 
+                  <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Drew-Bear1998"/></bibl>; <bibl><ptr target="BMFD"/>, <citedRange unit="part">16, p. 310-312</citedRange></bibl>; 
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27786">25632</ref></citedRange></bibl>. Les éditeurs du <hi rend="italic">typikon</hi> établissent un lien entre ce fondateur et l’homonyme précédemment
                       mentionné : <bibl><ptr target="Drew-Bear1998"/>, <citedRange unit="page">p. 206-207</citedRange></bibl>. Or, dans ce cas la
                           datation du document devrait nécessairement être remontée de plusieurs décennies, puisque Nicéphore
                           était déjà patrice sous Constantin VII.
                   </p>
-                  <p>
-                      17. <bibl><ptr target="Istanbul"/>, <citedRange unit="part">5.161</citedRange></bibl>. Si on voulait rapprocher les deux derniers Nicéphore cités,
+                  <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Istanbul"/>, <citedRange unit="part">5.161</citedRange></bibl>. Si on voulait rapprocher les deux derniers Nicéphore cités,
                           on pourrait envisager que, anciennement dignitaire attaché au <hi rend="italic">épi tôn oikeiakôn</hi>, Nicéphore ait par la
                           suite accédé au groupe plus prestigieux des dignitaires du Chrysotriklinos.
                   </p>
-                  <p>
-                      18. <bibl><ptr target="Istanbul"/>, <citedRange>2.242</citedRange></bibl>.
+                  <p xml:id="footnote-18">
+                      [18]. <bibl><ptr target="Istanbul"/>, <citedRange>2.242</citedRange></bibl>.
                   </p>
-                  <p>
-                      19. <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 356-357</citedRange></bibl>; 
+                  <p xml:id="footnote-19">
+                      [19]. <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 356-357</citedRange></bibl>; 
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/102/">Theophilos 102</ref></citedRange></bibl>. 
                       Sur cette révolte voir <bibl><ptr target="Cheynet1990"/>, <citedRange>59, p. 56 et p. 410</citedRange></bibl>; 
                       <bibl><ptr target="Bourdara1981"/>, <citedRange unit="part">71, p. 119-120</citedRange></bibl>;
                       <bibl><ptr target="Georgiou2009"/></bibl>.
                   </p>
-                  <p>
-                      20. <bibl><ptr target="Peira1856"/>, <citedRange unit="chapter">LIII.2, p. 253</citedRange></bibl>; 
+                  <p xml:id="footnote-20">
+                      [20]. <bibl><ptr target="Peira1856"/>, <citedRange unit="chapter">LIII.2, p. 253</citedRange></bibl>; 
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/12101/">Theophilos 12101</ref></citedRange></bibl>. 
                       Selon <bibl><ptr target="Istanbul"/>, <citedRange unit="page">p. 239</citedRange></bibl>, ce <hi rend="italic">vestès</hi> Érôtikos serait le Manuel
                           Érôtikos-Comnène partisan de Basile II lors des guerres civiles.
                   </p>
-                  <p>
-                      21. <bibl><ptr target="Chkhaidze2015"/>, <citedRange unit="page">p. 63</citedRange></bibl> : « In Professor Seibt’s opinion,
+                  <p xml:id="footnote-21">
+                      [21]. <bibl><ptr target="Chkhaidze2015"/>, <citedRange unit="page">p. 63</citedRange></bibl> : « In Professor Seibt’s opinion,
                       these two lines might be read as ΤΟΝ ΕΡO-ΤΙΚ(ΟΝ) = Ἐρωτικῶν. » ; la photo du sceau est publiée dans
                       <bibl><ptr target="Chkhaidze2013"/>, <citedRange>p. 40-41 et fig. 1</citedRange></bibl>.
                   </p>
-                  <p>
-                      22. <bibl><ptr target="Selçuk"/>, <citedRange unit="page">p. 332</citedRange></bibl>.
+                  <p xml:id="footnote-22">
+                      [22]. <bibl><ptr target="Selçuk"/>, <citedRange unit="page">p. 332</citedRange></bibl>.
                   </p>
-                  <p>
-                      23. Réunies dans <bibl><ptr target="Karagiorgou2009"/>, <citedRange unit="page">p. 28-29</citedRange></bibl> (où la date indiquée pour ces sceaux est 1080-1120). La datation au troisième quart du
+                  <p xml:id="footnote-23">
+                      [23]. Réunies dans <bibl><ptr target="Karagiorgou2009"/>, <citedRange unit="page">p. 28-29</citedRange></bibl> (où la date indiquée pour ces sceaux est 1080-1120). La datation au troisième quart du
                       XIe siècle est donnée par <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">796</citedRange></bibl>. 
                       Éditions dans : <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4920/view">8.18</ref></citedRange></bibl>; 
                       <bibl><ptr target="Athens2000"/>, <citedRange unit="part">84</citedRange></bibl>;
                       <bibl><ptr target="Corinth12"/>, <citedRange>2810, p. 327</citedRange></bibl>.
                   </p>
-                  <p>
-                      24. <bibl><ptr target="Selçuk"/>, <citedRange unit="part">22, p. 331-332</citedRange></bibl>, qui préfère
+                  <p xml:id="footnote-24">
+                      [24]. <bibl><ptr target="Selçuk"/>, <citedRange unit="part">22, p. 331-332</citedRange></bibl>, qui préfère
                       néanmoins l’ordre inverse pour ces postes ; <bibl><ptr target="Münz"/>, <citedRange>enchère 81, lot 1517</citedRange></bibl> : 
                       voir <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 154</citedRange></bibl>; voir aussi <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">192</citedRange></bibl>. 
                       Les bulles sont datées des années 1050-1080, mais le patriciat incite
@@ -583,8 +584,8 @@
                           datation proposée par Olga Karagiorgou pour la bulle de juge de l’Hellade et du Péloponnèse, il faudrait
                           sans doute distinguer les deux personnages.
                   </p>
-                  <p>
-                      25. <bibl><ptr target="Athens2000"/>, <citedRange unit="part">83</citedRange></bibl>; 
+                  <p xml:id="footnote-25">
+                      [25]. <bibl><ptr target="Athens2000"/>, <citedRange unit="part">83</citedRange></bibl>; 
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Bardas/20112/">Bardas 20112</ref></citedRange></bibl>.
                   </p>
               </div>

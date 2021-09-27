@@ -256,6 +256,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-01" who="AS">Bibliographic references improved and footnotes added</change>
@@ -350,17 +351,17 @@
                           Cappadoce figure un seul Athanase [3], propriétaire d’un sceau daté du XIe siècle [4].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Voir par exemple la notice épiscopale 1 : <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 212, l. 411</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. Voir par exemple la notice épiscopale 1 : <bibl><ptr target="NotitiaeEpiscopatuum"/>, <citedRange unit="page">p. 212, l. 411</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="TIB2"/>, <citedRange unit="page"><ref target="https://tib.oeaw.ac.at/reader/TIB/tib2.html#page/252/mode/2up">p. 252-253</ref></citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="TIB2"/>, <citedRange unit="page"><ref target="https://tib.oeaw.ac.at/reader/TIB/tib2.html#page/252/mode/2up">p. 252-253</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Fedalto1988"/>, <citedRange unit="page">p. 38</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Fedalto1988"/>, <citedRange unit="page">p. 38</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="LaurentCorpus5.1"/>, <citedRange unit="part">618</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="LaurentCorpus5.1"/>, <citedRange unit="part">618</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

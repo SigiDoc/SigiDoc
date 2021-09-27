@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-15" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -388,27 +389,27 @@
                       liée à l’implantation de <hi rend="italic">tagmata</hi> en province [6].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Zacos1"/>, <citedRange>1762, 3176a</citedRange></bibl> = <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.295/view">39.49</ref></citedRange></bibl>; 
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Zacos1"/>, <citedRange>1762, 3176a</citedRange></bibl> = <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.295/view">39.49</ref></citedRange></bibl>; 
                       seconde moitié du VIIIe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D68/F48.htm">Sergios 91</ref></citedRange></bibl> et 
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ17851">6644</ref></citedRange></bibl>).
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Orghidan"/>, <citedRange unit="part">219</citedRange></bibl>: le nom est une hypothèse de l’éditeur, accueillie par <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 148</citedRange></bibl>; 
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Orghidan"/>, <citedRange unit="part">219</citedRange></bibl>: le nom est une hypothèse de l’éditeur, accueillie par <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 148</citedRange></bibl>; 
                       daté par son éditeur au IXe-Xe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D12/F63.htm">Anonymus 690</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2660</citedRange></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1303/view">39.50</ref></citedRange></bibl>. 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2660</citedRange></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1303/view">39.50</ref></citedRange></bibl>. 
                       Le nom est perdu ; daté par ses éditeurs à la seconde moitié du VIIIe siècle (voir aussi la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/data/D10/F46.htm">Anonymus 470</ref></citedRange></bibl> et 
                       <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ20878">10904</ref></citedRange></bibl>).
                   </p>
-                  <p>
-                      4. Pour la liste et la datation, voir <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 148</citedRange></bibl>. 
+                  <p xml:id="footnote-4">
+                      [4]. Pour la liste et la datation, voir <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 148</citedRange></bibl>. 
                       On les distinguera bien du cas de Léon Pérènos, <hi rend="italic">topotèrètès</hi> de l’Opsikion du XIe siècle (<bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20277/">Leon 20277</ref></citedRange></bibl>) 
                       qui reflète l’implantation des tagmata en province avec l’apparition des ducs de thèmes (sur cette réforme voir <bibl><ptr target="Cheynet1985"/></bibl>).
                   </p>
-                  <p>
-                      5. « Le cas des <hi rend="italic">topotèrètai</hi> de l’Opsikion ne recouvre donc très probablement qu’une particularité
+                  <p xml:id="footnote-5">
+                      [5]. « Le cas des <hi rend="italic">topotèrètai</hi> de l’Opsikion ne recouvre donc très probablement qu’une particularité
                           terminologique liée à l’origine et au rôle d’armée de manoeuvre, héritière des <hi rend="italic">magistri militum præsentales</hi>,
                       de ce thème » : <bibl><ptr target="Prigent2006"/>, <citedRange unit="page">p. 149</citedRange></bibl>. Sur ce thème, voir <bibl><ptr target="Haldon1984"/></bibl>; <bibl><ptr target="Lounghis1991"/></bibl>; 
                       <bibl><ptr target="Lounghis1996"/></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="page">p. 55</citedRange></bibl>. Plus récemment, <bibl><ptr target="Lebeniotes2011"/></bibl>.

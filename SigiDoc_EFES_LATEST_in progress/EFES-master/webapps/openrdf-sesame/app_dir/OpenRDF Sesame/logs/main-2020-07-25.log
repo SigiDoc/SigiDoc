@@ -1,0 +1,21 @@
+[INFO ] 2020-07-25 08:10:09,350 [main] Logback logging API implementation is configured.
+[WARN ] 2020-07-25 08:10:09,628 [main] Removing invalid lock 6016@NuovoAvalon
+[INFO ] 2020-07-25 08:10:10,046 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1403 ms
+[INFO ] 2020-07-25 13:08:51,555 [main] Logback logging API implementation is configured.
+[WARN ] 2020-07-25 13:08:52,030 [main] Removing invalid lock 5880@NuovoAvalon
+[INFO ] 2020-07-25 13:08:52,400 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 2320 ms
+[INFO ] 2020-07-25 15:08:28,173 [main] Logback logging API implementation is configured.
+[WARN ] 2020-07-25 15:08:29,758 [main] Removing invalid lock 7776@NuovoAvalon
+[INFO ] 2020-07-25 15:08:31,235 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 4179 ms
+[WARN ] 2020-07-25 15:13:30,869 [repositories/kiln] Removing invalid lock 10768@DESKTOP-6MSIDIV
+[INFO ] 2020-07-25 15:13:31,087 [repositories/kiln] POST query -1227659729
+[INFO ] 2020-07-25 15:13:31,440 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2020-07-25 15:20:59,830 [main] Logback logging API implementation is configured.
+[WARN ] 2020-07-25 15:21:00,078 [main] Removing invalid lock 6684@NuovoAvalon
+[INFO ] 2020-07-25 15:21:00,365 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1181 ms
+[INFO ] 2020-07-25 15:25:29,616 [main] Logback logging API implementation is configured.
+[WARN ] 2020-07-25 15:25:29,790 [main] Removing invalid lock 5092@NuovoAvalon
+[INFO ] 2020-07-25 15:25:30,043 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 915 ms
+[INFO ] 2020-07-25 15:36:47,769 [main] Logback logging API implementation is configured.
+[WARN ] 2020-07-25 15:36:47,978 [main] Removing invalid lock 7892@NuovoAvalon
+[INFO ] 2020-07-25 15:36:48,282 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1118 ms

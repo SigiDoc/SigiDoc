@@ -254,6 +254,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
@@ -390,32 +391,32 @@
                                       En l’absence de mentions de fonctions dans les légendes, on peut sans doute conclure à un transfert effectif de la famille.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Nous remercions Sulamith Brodbeck qui a identifié pour nous cet attribut.
+                  <p xml:id="footnote-1">
+                      [1]. Nous remercions Sulamith Brodbeck qui a identifié pour nous cet attribut.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 660 et suiv.</citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 660 et suiv.</citedRange></bibl>.
                           L’un de ces descendants homonymes, sans doute son petit-fils, nous a laissé une belle bulle métrique :
                       <bibl><ptr target="ZacosSpink2"/>, <citedRange unit="part">133</citedRange></bibl> (Hetoum, son of Oshin); l’image du sceau est publiée également
                       par <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="part">fig. 98</citedRange></bibl>.
                   </p>
-                  <p>
-                      3. Légende : Ο ἅγιος Γεώργιος | Κύριε βοήθει Βῆκεν ἀνθυπάτῳ πατρικίῳ καὶ στρατηγῷ Σασοῦν.
+                  <p xml:id="footnote-3">
+                      [3]. Légende : Ο ἅγιος Γεώργιος | Κύριε βοήθει Βῆκεν ἀνθυπάτῳ πατρικίῳ καὶ στρατηγῷ Σασοῦν.
                           Ce sceau de l’ancienne collection de l’Institut archéologique russe de Constantinople a été édité par
                       <bibl><ptr target="Šandrovskaya1977"/>, <citedRange unit="part">20, p. 115</citedRange></bibl>; voir aussi le compte-rendu de cet article par <bibl><ptr target="Seibt1978"/><citedRange/></bibl>.
                   </p>
-                  <p>
-                      4. Sur Vigen Ier Tornikian et sa principauté, voir <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1309, 1315-1319</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. Sur Vigen Ier Tornikian et sa principauté, voir <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 1309, 1315-1319</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. Ὁ ἅγιος Γεώργιος | Κύριε βοήθει Βεκέν πρωτοσπαθαρίῳ καὶ στρατηγῷ τοῦ Βαλανέως :
+                  <p xml:id="footnote-5">
+                      [5]. Ὁ ἅγιος Γεώργιος | Κύριε βοήθει Βεκέν πρωτοσπαθαρίῳ καὶ στρατηγῷ τοῦ Βαλανέως :
                       <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.240/view">15.1</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Cheynet2004"/></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Cheynet2004"/></bibl>.
                   </p>
-                  <p>
-                      7. Voir la série de références données dans la notice de la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Pankratios/20104/">Pankratios 20104</ref></citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. Voir la série de références données dans la notice de la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Pankratios/20104/">Pankratios 20104</ref></citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

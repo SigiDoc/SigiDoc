@@ -273,6 +273,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
@@ -401,41 +402,41 @@
                           sont susceptibles d’utiliser <hi rend="italic">protonobellissimo</hi> même au nominatif [17].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="part">3, p. 579-583</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="part">3, p. 579-583</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. Il demeure possible que les deux pièces aient été faiblement frappées mais le beau relief n’incite
+                  <p xml:id="footnote-2">
+                      [2]. Il demeure possible que les deux pièces aient été faiblement frappées mais le beau relief n’incite
                           pas à se rallier à cette position. On ne peut que regretter que le sceau de Vitale Marcello soit percé en
                           cet endroit et ne permette pas de comparaison sur ce point.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 830</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 830</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. Voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="page">p. 607-612</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. Voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="page">p. 607-612</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Cheynet1983"/></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Cheynet1983"/></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Ravegnani1992"/></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Ravegnani1992"/></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 825</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 825</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. Mentions réunies dans <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 827-830</citedRange></bibl> 
+                  <p xml:id="footnote-8">
+                      [8]. Mentions réunies dans <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 827-830</citedRange></bibl> 
                       et plus généralement <bibl><ptr target="Martin2010"/></bibl>.
                   </p>
-                  <p>
-                      9. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 623</citedRange></bibl>.
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 623</citedRange></bibl>.
                   </p>
-                  <p>
-                      10. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
                   </p>
-                  <p>
-                      11. Un Andrea Michiel, peut-être à identifier avec l’Andrea Michiel testateur (oncle ou grand-père
+                  <p xml:id="footnote-11">
+                      [11]. Un Andrea Michiel, peut-être à identifier avec l’Andrea Michiel testateur (oncle ou grand-père
                           du propriétaire du sceau), a été ambassadeur auprès d’Alexis Ier en 1084, comme le relate la chronique
                           d’Andrea Dandolo : <hi rend="italic">Qui [= le doge Vitale Falier], augusti ortacione, Andream Michaelem, Dominicum
                           Dandulo et Iacobum Aurio legatos Constantinopolim missit, ut iurisdiciones Dalmacie et Choracie [sic], sibi
@@ -443,27 +444,27 @@
                       La date de cette ambassade est sujette à caution, 
                       voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange>p. 586-587</citedRange></bibl>.
                   </p>
-                  <p>
-                      12. <bibl><ptr target="Pozza1983"/>, <citedRange unit="page">p. 230</citedRange></bibl>. Le latin <hi rend="italic">nepos</hi> peut être interprété à la fois comme neveu
+                  <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Pozza1983"/>, <citedRange unit="page">p. 230</citedRange></bibl>. Le latin <hi rend="italic">nepos</hi> peut être interprété à la fois comme neveu
                           et comme petit-fils : le fait que les deux personnes aient eu le même prénom ferait plutôt penser à un
                           petit-fils qui aurait hérité du prénom du grand-père, usage très répandu à Venise comme à Byzance,
                           mais on ne peut pas en avoir la certitude.
                   </p>
-                  <p>
-                      13. Voir <bibl><ptr target="Pozza1983"/>, <citedRange>p. 228, n. 20</citedRange></bibl>.
+                  <p xml:id="footnote-13">
+                      [13]. Voir <bibl><ptr target="Pozza1983"/>, <citedRange>p. 228, n. 20</citedRange></bibl>.
                   </p>
-                  <p>
-                      14. <bibl><ptr target="Cheynet1983"/>, <citedRange unit="page">p. 473-475</citedRange></bibl>.
+                  <p xml:id="footnote-14">
+                      [14]. <bibl><ptr target="Cheynet1983"/>, <citedRange unit="page">p. 473-475</citedRange></bibl>.
                   </p>
-                  <p>
-                      15. <bibl><ptr target="Bibicou1959"/></bibl>.
+                  <p xml:id="footnote-15">
+                      [15]. <bibl><ptr target="Bibicou1959"/></bibl>.
                   </p>
-                  <p>
-                      16. <bibl><ptr target="Stepanova2001"/>, <citedRange unit="part">9, p. 62</citedRange></bibl>, identifié dans 
+                  <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Stepanova2001"/>, <citedRange unit="part">9, p. 62</citedRange></bibl>, identifié dans 
                       <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
                   </p>
-                  <p>
-                      17. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 622</citedRange></bibl>. Erreur
+                  <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 622</citedRange></bibl>. Erreur
                       corrigée dans <bibl><ptr target="Saint-Guillain2017"/>, <citedRange>p. 580 et n. 98</citedRange></bibl>.
                   </p>
               </div>

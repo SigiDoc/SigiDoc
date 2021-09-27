@@ -272,6 +272,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
@@ -520,22 +521,22 @@
                                       rattacher au moins le stratège Zacharie, mort au service d’Alexis Comnène.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Seibt1987"/></bibl>; <bibl><ptr target="Koltsida-Makri2003"/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Seibt1987"/></bibl>; <bibl><ptr target="Koltsida-Makri2003"/></bibl>.
                   </p>
-                  <p>
-                      2. La Nikopoios est mise à l’honneur par le patriarche Photios et se diffuse alors sur les bulles des évêques:
+                  <p xml:id="footnote-2">
+                      [2]. La Nikopoios est mise à l’honneur par le patriarche Photios et se diffuse alors sur les bulles des évêques:
                       voir l’exemple très clair de la bulle d’Arsénios de Lemnos publiée dans <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5486/view">50.1a</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Hunger1998"/>, <citedRange>9, p. 17-18</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Hunger1998"/>, <citedRange>9, p. 17-18</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. Sur ce personnage voir <bibl><ptr target="Cheynet1990"/>, <citedRange>97, p. 78-79 et p. 405-406</citedRange></bibl>; 
+                  <p xml:id="footnote-4">
+                      [4]. Sur ce personnage voir <bibl><ptr target="Cheynet1990"/>, <citedRange>97, p. 78-79 et p. 405-406</citedRange></bibl>; 
                       <bibl><ptr target="Cheynet1997"/></bibl>; <bibl><ptr target="Cheynet2002a"/></bibl>; <bibl><ptr target="Shepard1993"/></bibl>; <bibl><ptr target="Lebeniotes2004"/></bibl> (nous n’avons pas pu consulter cet ouvrage); voir aussi la note suivante.<!-- verificare libro!!!!!!!!!!!!!!!!!!!!!!!!!! -->
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page"> p. 296</citedRange></bibl>;
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page"> p. 296</citedRange></bibl>;
                       <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="page">p. 660</citedRange></bibl>;
                       <bibl><ptr target="Khoury"/>, <citedRange>20, p. 436-437</citedRange></bibl>, qui date le sceau « vers 1070-1072 »; voir aussi un sceau de la collection Dumbarton Oaks, qui pourrait se rapporter à notre personnage :
                       <bibl><ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2197/view">BZS.1958.106.2197</ref></citedRange></bibl>: Θεοτόκε βοήθει τῷ σῷ δούλῳ Ῥ/Μουσελήῳ
@@ -544,127 +545,127 @@
                           Voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/">Roussel 61</ref></citedRange></bibl> (avec mention du sceau
                           Khoury).
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 182</citedRange></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 182</citedRange></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page">p. 302</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet1997"/>, <citedRange unit="page">p. 122</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Schlumberger1881"/>, <citedRange unit="page">p. 302</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet1997"/>, <citedRange unit="page">p. 122</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 278</citedRange></bibl>.
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 278</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. Voir les sources sur cet individu, sur lequel nous reviendrons plus bas, dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Herve/101/">Herve 101</ref></citedRange></bibl>.
+                  <p xml:id="footnote-9">
+                      [9]. Voir les sources sur cet individu, sur lequel nous reviendrons plus bas, dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Herve/101/">Herve 101</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      10. Ainsi lors de sa révolte, Michel VII tente-t-il d’abord de se le concilier en laissant sa femme
+                  <p xml:id="footnote-10">
+                      [10]. Ainsi lors de sa révolte, Michel VII tente-t-il d’abord de se le concilier en laissant sa femme
                       et ses enfants le rejoindre. Après la capture de Roussel, elle
                       est seule active, ce qui confirme que les enfants étaient en bas âge, de même que le
                       terme τέκνα utilisé ailleurs pour les désigner (<bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 342, 348, 350, 362</citedRange></bibl>).
                   </p>
-                  <p>
-                      11. Dans ce cas, le choix iconographique commun avec Zacharie et non avec Roussel inciterait
+                  <p xml:id="footnote-11">
+                      [11]. Dans ce cas, le choix iconographique commun avec Zacharie et non avec Roussel inciterait
                           à le rattacher au stratège de Séleucie ; peut-être était-il un neveu du grand capitaine.
                   </p>
-                  <p>
-                      12. <bibl><ptr target="Zacos1"/>, <citedRange unit="entry">2680</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet2002b"/>, <citedRange unit="page">p. 122</citedRange></bibl>;
+                  <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Zacos1"/>, <citedRange unit="entry">2680</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet2002b"/>, <citedRange unit="page">p. 122</citedRange></bibl>;
                       <bibl><ptr target="Cheynet2005"/>, <citedRange unit="page">p. 55</citedRange></bibl>;
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2997/">Isaakios 1</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      13. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange>p. 600, l. 7-8</citedRange></bibl>; <bibl><ptr target="PsellosChronographie1928"/>, <citedRange unit="page">p. 84-85</citedRange></bibl>.
+                  <p xml:id="footnote-13">
+                      [13]. <bibl><ptr target="GlycæAnnales1836"/>, <citedRange>p. 600, l. 7-8</citedRange></bibl>; <bibl><ptr target="PsellosChronographie1928"/>, <citedRange unit="page">p. 84-85</citedRange></bibl>.
                   </p>
-                  <p>
-                      14. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 483</citedRange></bibl>; <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 399</citedRange></bibl>.
+                  <p xml:id="footnote-14">
+                      [14]. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 483</citedRange></bibl>; <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 399</citedRange></bibl>.
                   </p>
-                  <p>
-                      15. <bibl><ptr target="ZacosGenève"/>, <citedRange>113</citedRange></bibl>.
+                  <p xml:id="footnote-15">
+                      [15]. <bibl><ptr target="ZacosGenève"/>, <citedRange>113</citedRange></bibl>.
                   </p>
-                  <p>
-                      16. Comme Alexis Comnène : voir les mentions réunies dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/1/">Alexios 1</ref></citedRange></bibl>.
+                  <p xml:id="footnote-16">
+                      [16]. Comme Alexis Comnène : voir les mentions réunies dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/1/">Alexios 1</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      17. <bibl><ptr target="Diehl1924"/></bibl>. En 1070, Romain IV accorde ce titre à Arishgi,
+                  <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Diehl1924"/></bibl>. En 1070, Romain IV accorde ce titre à Arishgi,
                           beau-frère d’Alp Arslan, qui, après avoir vaincu Manuel Comnène, passa au service de l’Empire pour
                           échapper au sultan qui se méfiait de sa popularité : <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 258</citedRange></bibl>. Voir plus bas également le cas d’Hervé le Francopoule.
                   </p>
-                  <p>
-                      18. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 341</citedRange></bibl>.
+                  <p xml:id="footnote-18">
+                      [18]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 341</citedRange></bibl>.
                   </p>
-                  <p>
-                      19. <bibl><ptr target="Seibt2010"/></bibl>.
+                  <p xml:id="footnote-19">
+                      [19]. <bibl><ptr target="Seibt2010"/></bibl>.
                   </p>
-                  <p>
-                      20. Il vient de remplacer Robert Crispin. En 1071, il dirige des Francs mais
+                  <p xml:id="footnote-20">
+                      [20]. Il vient de remplacer Robert Crispin. En 1071, il dirige des Francs mais
                       n’est que τινος ἡγουμένου τούτων : <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 270</citedRange></bibl>.
                   </p>
-                  <p>
-                      21. En 1071 encore, soit deux ans auparavant, des chefs romains chevronnés comme Joseph
+                  <p xml:id="footnote-21">
+                      [21]. En 1071 encore, soit deux ans auparavant, des chefs romains chevronnés comme Joseph
                           Tarchaneiôtès, Nicéphore Bryennios ou Nicéphore Basilakès, duc de Théodosioupolis, n’étaient
                           que magistres (<bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 272, 280, 282</citedRange></bibl>). Bien entendu, la crise qui porta
                           Michel VII au pouvoir accéléra les carrières mais un chef subalterne comme Roussel n’avait certainement
                           pas la priorité.
                   </p>
-                  <p>
-                      22. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 332</citedRange></bibl>. On pourrait objecter que lors de sa propre révolte
+                  <p xml:id="footnote-22">
+                      [22]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 332</citedRange></bibl>. On pourrait objecter que lors de sa propre révolte
                           Hervé n’en mobilisa que 300, mais il ne s’agissait alors que de troupes démobilisées pour l’hiver qu’il
                           rassembla autour de lui et il n’était alors sans doute que vestarque ou vestès, puisqu’il avait réclamé de
                           Michel VI le magistrat : <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange>p. 485, l. 53-60</citedRange></bibl>.
                   </p>
-                  <p>
-                      23. Amaseia était un aplekton impérial : <bibl><ptr target="ODB"/>, <citedRange unit="page">p. 74, s.v. Amaseia</citedRange></bibl>.
+                  <p xml:id="footnote-23">
+                      [23]. Amaseia était un aplekton impérial : <bibl><ptr target="ODB"/>, <citedRange unit="page">p. 74, s.v. Amaseia</citedRange></bibl>.
                   </p>
-                  <p>
-                      24. Voir <bibl><ptr target="Magdalino1997"/></bibl>, et <bibl><ptr target="Morrisson2017"/></bibl>.
+                  <p xml:id="footnote-24">
+                      [24]. Voir <bibl><ptr target="Magdalino1997"/></bibl>, et <bibl><ptr target="Morrisson2017"/></bibl>.
                   </p>
-                  <p>
-                      25. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 462</citedRange></bibl>.
+                  <p xml:id="footnote-25">
+                      [25]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 462</citedRange></bibl>.
                   </p>
-                  <p>
-                      26. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460</citedRange></bibl>.
+                  <p xml:id="footnote-26">
+                      [26]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460</citedRange></bibl>.
                   </p>
-                  <p>
-                      27. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460</citedRange></bibl>.
+                  <p xml:id="footnote-27">
+                      [27]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460</citedRange></bibl>.
                   </p>
-                  <p>
-                      28. <bibl><ptr target="Cheynet1986"/>, <citedRange unit="page">p. 306</citedRange></bibl>.
+                  <p xml:id="footnote-28">
+                      [28]. <bibl><ptr target="Cheynet1986"/>, <citedRange unit="page">p. 306</citedRange></bibl>.
                   </p>
-                  <p>
-                      29. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange>p. 464, l. 13-19</citedRange></bibl>; <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 384</citedRange></bibl>.
+                  <p xml:id="footnote-29">
+                      [29]. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange>p. 464, l. 13-19</citedRange></bibl>; <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 384</citedRange></bibl>.
                   </p>
-                  <p>
-                      30. <bibl><ptr target="Zacos1"/>, <citedRange>2680</citedRange></bibl>: Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Ἰσαακίῳ μαγίστρῳ βέστῃ καὶ
+                  <p xml:id="footnote-30">
+                      [30]. <bibl><ptr target="Zacos1"/>, <citedRange>2680</citedRange></bibl>: Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Ἰσαακίῳ μαγίστρῳ βέστῃ καὶ
                           στρατπεδάρχῃ τῆς Ἀνατολῆς τῷ Κομνηνῷ.
                   </p>
-                  <p>
-                      31. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">II.19-20, p. 183, l. 16 - p. 185, l. 1</citedRange></bibl>.
+                  <p xml:id="footnote-31">
+                      [31]. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">II.19-20, p. 183, l. 16 - p. 185, l. 1</citedRange></bibl>.
                   </p>
-                  <p>
-                      32. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 456, 460</citedRange></bibl>.
+                  <p xml:id="footnote-32">
+                      [32]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 456, 460</citedRange></bibl>.
                   </p>
-                  <p>
-                      33. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 526</citedRange></bibl>; 
+                  <p xml:id="footnote-33">
+                      [33]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 526</citedRange></bibl>; 
                       <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 62, l. 17</citedRange></bibl>; 
                       voir aussi <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 544</citedRange></bibl>. 
                       L’auteur emploie « doux de l’Occident », un équivalent de domestique : <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 142</citedRange></bibl>.
                   </p>
-                  <p>
-                      34. <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 206, l. 91-92</citedRange></bibl>.
+                  <p xml:id="footnote-34">
+                      [34]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 206, l. 91-92</citedRange></bibl>.
                   </p>
-                  <p>
-                      35. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460, 462</citedRange></bibl>.
+                  <p xml:id="footnote-35">
+                      [35]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 460, 462</citedRange></bibl>.
                   </p>
-                  <p>
-                      36. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 488</citedRange></bibl>.
+                  <p xml:id="footnote-36">
+                      [36]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 488</citedRange></bibl>.
                   </p>
-                  <p>
-                      37. <bibl><ptr target="Karagiorgou2008"/>, <citedRange unit="page">p. 119</citedRange></bibl>.
+                  <p xml:id="footnote-37">
+                      [37]. <bibl><ptr target="Karagiorgou2008"/>, <citedRange unit="page">p. 119</citedRange></bibl>.
                   </p>
-                  <p>
-                      38. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 462</citedRange></bibl>.
+                  <p xml:id="footnote-38">
+                      [38]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 462</citedRange></bibl>.
                   </p>
-                  <p>
-                      39. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 494</citedRange></bibl>.
+                  <p xml:id="footnote-39">
+                      [39]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 494</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

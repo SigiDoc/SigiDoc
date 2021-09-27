@@ -251,6 +251,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
@@ -374,54 +375,54 @@
                               notamment des fonctions au sein de l’Église [14].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Cotsonis2013"/>, <citedRange unit="page">p. 565</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Cotsonis2013"/>, <citedRange unit="page">p. 565</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">668</citedRange></bibl>; 
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">668</citedRange></bibl>; 
                       <bibl><ptr target="Laurent1932"/>, <citedRange unit="part">574</citedRange></bibl>; 
                       <bibl><ptr target="Athens2000"/>, <citedRange unit="part">192</citedRange></bibl>. Formule alternative : Σφραγὶς
                       Ἰωάννου δούλου Χριστοῦ | τοῦ Πεπαγωμένου : <bibl><ptr target="Birch1898"/>, <citedRange unit="part">no 17883</citedRange></bibl>; 
                       <bibl><ptr target="Athens2000"/>, <citedRange unit="page">p. 291</citedRange></bibl>. Voir aussi le sceau <ref target="TM_34.html">SigiDoc ID 34</ref>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">428β</citedRange></bibl>; 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">428β</citedRange></bibl>; 
                       <bibl><ptr target="Athens2000"/>, <citedRange unit="part">193</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">306</citedRange></bibl>; 
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Athens1917"/>, <citedRange unit="part">306</citedRange></bibl>; 
                       <bibl><ptr target="Athens2000"/>, <citedRange unit="part">205</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. Constantin, spatharocubiculaire : <bibl><ptr target="Athens1917"/>, <citedRange unit="part">669</citedRange></bibl>; 
+                  <p xml:id="footnote-5">
+                      [5]. Constantin, spatharocubiculaire : <bibl><ptr target="Athens1917"/>, <citedRange unit="part">669</citedRange></bibl>; 
                       <bibl><ptr target="Athens2000"/>, <citedRange unit="part">206</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Cheynet2008c"/></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Cheynet2008c"/></bibl>.
                   </p>
-                  <p>
-                      7. Pour les références, voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/497/">Ioannes 497</ref></citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. Pour les références, voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/497/">Ioannes 497</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="LaurentCorpus5.3"/>, <citedRange unit="part">1675</citedRange></bibl>.
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="LaurentCorpus5.3"/>, <citedRange unit="part">1675</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. ῥαίκτωρος : voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/110/">Theodoros 110</ref></citedRange></bibl>.
+                  <p xml:id="footnote-9">
+                      [9]. ῥαίκτωρος : voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/110/">Theodoros 110</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      10. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/352/">Ioannes 352</ref></citedRange></bibl>.
+                  <p xml:id="footnote-10">
+                      [10]. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/352/">Ioannes 352</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      11. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/405/">Ioannes 405</ref></citedRange></bibl>.
+                  <p xml:id="footnote-11">
+                      [11]. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/405/">Ioannes 405</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      12. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/196/">Leon 196</ref></citedRange></bibl>.
+                  <p xml:id="footnote-12">
+                      [12]. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/196/">Leon 196</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      13. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/151/">Nikephoros 151</ref></citedRange></bibl>.
+                  <p xml:id="footnote-13">
+                      [13]. Voir les références dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/151/">Nikephoros 151</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      14. Voir <bibl><ptr target="PLP"/>, <citedRange unit="part">21283-21287, 22341-22371</citedRange></bibl>.
+                  <p xml:id="footnote-14">
+                      [14]. Voir <bibl><ptr target="PLP"/>, <citedRange unit="part">21283-21287, 22341-22371</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

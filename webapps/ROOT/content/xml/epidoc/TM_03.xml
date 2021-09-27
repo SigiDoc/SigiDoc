@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-25" who="AS">Specific mark-up for diplomatic edition added</change>
             <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
@@ -391,46 +392,46 @@
                               d’Occident, ce qui fournit a priori le terminus ante quem pour notre bulle [12].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.1.7</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.1.7</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5046/view">11.2</ref></citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5046/view">11.2</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 138-140</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 138-140</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Howard-Johnston1995"/></bibl>; <bibl><ptr target="Prigent2014"/>, <citedRange unit="page">p. 225</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Howard-Johnston1995"/></bibl>; <bibl><ptr target="Prigent2014"/>, <citedRange unit="page">p. 225</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. Entre 1001 et 1019 : <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p.  140</citedRange></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. Entre 1001 et 1019 : <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p.  140</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. Voir <bibl><ptr target="Stepanova2017"/>, <citedRange unit="page">p. 786-787</citedRange></bibl> et aussi <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part"><ref target="TM_05.html">5</ref></citedRange></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. Voir <bibl><ptr target="Stepanova2017"/>, <citedRange unit="page">p. 786-787</citedRange></bibl> et aussi <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part"><ref target="TM_05.html">5</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      7. Citons Basile, préposite <hi rend="italic">épi tou koitônos</hi> et <hi rend="italic">chartophylax</hi> du <hi rend="italic">sékréton</hi> du Myrelaion : <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/204/">Basileios 204</ref></citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. Citons Basile, préposite <hi rend="italic">épi tou koitônos</hi> et <hi rend="italic">chartophylax</hi> du <hi rend="italic">sékréton</hi> du Myrelaion : <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/204/">Basileios 204</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      8. Par exemple, le protospathaire et juge de l’hippodrome Jean, qui exerçait les fonctions de
+                  <p xml:id="footnote-8">
+                      [8]. Par exemple, le protospathaire et juge de l’hippodrome Jean, qui exerçait les fonctions de
                       curateur des Manganes : voir <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.1019/view">25.4</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      9. Philètos, protospathaire impérial <hi rend="italic">épi tou Chrysotriklinou</hi> et curateur <hi rend="italic">tôn Éleuthériou</hi> : <bibl><ptr target="DOseals5"/>, 
+                  <p xml:id="footnote-9">
+                      [9]. Philètos, protospathaire impérial <hi rend="italic">épi tou Chrysotriklinou</hi> et curateur <hi rend="italic">tôn Éleuthériou</hi> : <bibl><ptr target="DOseals5"/>, 
                           <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.1618/view">24.1</ref></citedRange></bibl>. Associé ensuite aux Manganes.
                   </p>
-                  <p>
-                      10. <bibl><ptr target="Janin1953"/>, <citedRange unit="page">p. 506-507</citedRange></bibl>.
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Janin1953"/>, <citedRange unit="page">p. 506-507</citedRange></bibl>.
                   </p>
-                  <p>
-                      11. Que les grandes fondations soient techniquement considérées comme des services administratifs
+                  <p xml:id="footnote-11">
+                      [11]. Que les grandes fondations soient techniquement considérées comme des services administratifs
                           transparaît également de leur désignation comme <hi rend="italic">sékréta</hi> ; l’évolution dans la dénomination est déjà
                           entérinée dans le dernier tiers du XIe siècle : voir par exemple le sceau de Constantin, vestarque, juge
                           du Velum et grand curateur du <hi rend="italic">sékréton</hi> des Manganes (<bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5709/view">25.2</ref></citedRange></bibl>).
                   </p>
-                  <p>
-                      12. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 140</citedRange></bibl>.
+                  <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 140</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

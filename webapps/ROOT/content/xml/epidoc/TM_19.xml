@@ -386,8 +386,8 @@
                   <p xml:lang="fr">Seigneur aide ton serviteur Nicétas, protospathaire, / <hi rend="italic">épi tou Chrysotriklinou</hi> et juge des Thracésiens.</p>
               </div>
               <div type="commentary" subtype="text">
-                  <p xml:lang="en">None.</p>
-                  <p xml:lang="fr">Aucun.</p>
+                  <p xml:lang="en"><hi rend="italic">None.</hi></p>
+                  <p xml:lang="fr"><hi rend="italic">Aucun.</hi></p>
               </div>
               <div type="bibliography" subtype="edition">
                   <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>19, p. 714-715</citedRange></bibl>.</p>

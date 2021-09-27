@@ -290,6 +290,7 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -375,7 +376,7 @@
                 <p xml:lang="fr">Constantin fils de Constantin, et Anastasie, en Dieu empereurs des Romains.</p>
               </div>
             <div type="commentary" subtype="text">
-                                  <p>L’absence de représentations impériales sur ce sceau[2] est tout à fait singulière, n’ayant
+                                  <p>L’absence de représentations impériales sur ce sceau [2] est tout à fait singulière, n’ayant
                                       ni précédent, ni postérité avant l’époque iconoclaste. On en connaît deux versions
                                       légèrement différentes. Notre pièce se rattache à deux sceaux de l’ancienne collection
                                       Zacos, dont les matrices sont néanmoins légèrement différentes. De son côté, Ion Barnea
@@ -445,7 +446,7 @@
                                       peuvent être avancées : soit, ces bulles servaient au collège impérial, parallèlement à celle
                                       réservée au basileus, soit Constantin IV fit usage initialement de la bulle ne mentionnant
                                       que lui avant que la grogne autour du statut de ses frères ne l’incite à en changer pour
-                                      le modèle collégial anépigraphe, qui ne distingue entre le basileus et les augusti que par
+                                      le modèle collégial anépigraphe, qui ne distingue entre le <hi rend="italic">basileus</hi> et les <hi rend="italic">augusti</hi> que par
                                       les détails du portrait [18]. Notre préférence irait pour cette dernière solution mais rien ne
                                       permet de trancher.</p>
                                   <p>Notons que puisque l’absence ou la présence de Tibère et Héraclius n’est plus un
@@ -459,63 +460,63 @@
                                       de Constant II.</p>
               </div>
             <div type="commentary" subtype="footnotes">
-                  <p>
-                      1.  <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75</citedRange></bibl>.
+                <p xml:id="footnote-1">
+                      [1].  <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75</citedRange></bibl>.
                   </p>
-                  <p> 
-                      2. Ce sceau, à strictement parler, n'a aucun parallèle, mais les bulles <bibl><ptr target="Zacos1"/>, <citedRange unit="part">19a-b</citedRange></bibl>, sont de même conception. Les trois matrices sont néanmoins différentes. Des différences plus nettes apparaissent
+                <p xml:id="footnote-2"> 
+                      [2]. Ce sceau, à strictement parler, n'a aucun parallèle, mais les bulles <bibl><ptr target="Zacos1"/>, <citedRange unit="part">19a-b</citedRange></bibl>, sont de même conception. Les trois matrices sont néanmoins différentes. Des différences plus nettes apparaissent
                       avec un quatrième boullotèrion : <bibl><ptr target="Laurent1939"/>, <citedRange unit="page">p. 359</citedRange></bibl> (description de l’effigie et transcription de la légende) = 
                       <bibl><ptr target="Laurent1940"/>, <citedRange unit="page">p. 207</citedRange></bibl> (description de l’effigie et transcription de la légende) = <bibl><ptr target="Barnea1981"/></bibl> = 
                       <bibl><ptr target="Barnea1982"/>, <citedRange>4, p. 203-206</citedRange></bibl> = <bibl><ptr target="JordanovCorpus3"/>, <citedRange> 51</citedRange></bibl>.</p>
-                  <p>
-                      3. <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75-76</citedRange></bibl>.
+                <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75-76</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>; après avoir corrigé de manière substantielle la lecture et
+                <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>; après avoir corrigé de manière substantielle la lecture et
                       l’interprétation du sceau <bibl><ptr target="Zacos1"/>, <citedRange>18</citedRange></bibl> (qui ne porte pas le nom d’Anastasie), il conclut
                       que « these specimens from the early 680s represent the first case of the transposition of title basileus
                       on the imperial seals ».
                   </p>
-                  <p>
-                      5. Seule la déformation du flan permet d’écrire que « the photograph supports Constantos
+                <p xml:id="footnote-5">
+                      [5]. Seule la déformation du flan permet d’écrire que « the photograph supports Constantos
                       in line 3 » : <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>. La position de la dernière lettre de la
                           deuxième ligne permet de déterminer où s’arrêtait la troisième et il est clair que l’on a la place que pour
                           l’abréviation. De même, on ne peut suivre l’auteur lorsqu’il indique que le sceau <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18b</citedRange></bibl> ne présente pas le S entre les deux mentions du nom Constantin. L’état de conservation de la bulle ne
                           permet pas de postuler son absence.
                   </p>
-                  <p>
-                      6. Comme l’a fait remarquer <bibl><ptr target="Barnea1981"/>, <citedRange unit="page">p. 627</citedRange></bibl> ; voir aussi <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
+                <p xml:id="footnote-6">
+                      [6]. Comme l’a fait remarquer <bibl><ptr target="Barnea1981"/>, <citedRange unit="page">p. 627</citedRange></bibl> ; voir aussi <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="DOC2.2"/>, <citedRange>1, 12, p. 525, 530</citedRange></bibl>.
+                <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="DOC2.2"/>, <citedRange>1, 12, p. 525, 530</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Goodacre1945"/>, <citedRange>p. 37-38</citedRange></bibl>.
+                <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Goodacre1945"/>, <citedRange>p. 37-38</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 883</citedRange></bibl> propose d’interpréter le premier C comme un F
+                <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 883</citedRange></bibl> propose d’interpréter le premier C comme un F
                           pour filius, mais les monnaies de Filippicus présentent une forme tout à fait différente de cette lettre.
                   </p>
-                  <p>
-                      10. Point souligné par <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 76</citedRange></bibl>. Voir, en dernier lieu, <bibl><ptr target="Prigent2016"/></bibl>.
+                <p xml:id="footnote-10">
+                      [10]. Point souligné par <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 76</citedRange></bibl>. Voir, en dernier lieu, <bibl><ptr target="Prigent2016"/></bibl>.
                   </p>
-                  <p>
-                      11. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
+                <p xml:id="footnote-11">
+                      [11]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
                   </p>
-                  <p>
-                      12. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18a</citedRange></bibl>. Le signe d’abréviation en fin de première ligne est clair et on ne
+                <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18a</citedRange></bibl>. Le signe d’abréviation en fin de première ligne est clair et on ne
                           saurait admettre qu’il n’est là que pour la seule voyelle U (Constantin[u]s) ; le S est donc bien ici une
                           conjonction.
                   </p>
-                  <p>
-                      13. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 880-881</citedRange></bibl>.
+                <p xml:id="footnote-13">
+                      [13]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 880-881</citedRange></bibl>.
                   </p>
-                  <p>
-                      14. En dernier lieu, <bibl><ptr target="Cosentino2014"/><citedRange/></bibl>; on trouvera le texte accompagné
+                <p xml:id="footnote-14">
+                      [14]. En dernier lieu, <bibl><ptr target="Cosentino2014"/><citedRange/></bibl>; on trouvera le texte accompagné
                       d’une traduction anglaise, <bibl><ptr target="Cosentino2014"/>, <citedRange unit="page">p. 167-169</citedRange></bibl>.
                   </p>
-                  <p>
-                      15. On renoncera donc à voir dans l’inscription de Bizye la première attestation collégiale du
+                <p xml:id="footnote-15">
+                      [15]. On renoncera donc à voir dans l’inscription de Bizye la première attestation collégiale du
                       titre de basileus, <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 884</citedRange></bibl>. <bibl><ptr target="Cosentino2014"/>, <citedRange unit="page">p. 161-166</citedRange></bibl>, 
                       a proposé de lire <hi rend="italic">Constantinus maior imperator Heraclii et Tiberii imperator(um)</hi> l’inscription
                           reconstruite de San Apollinare in Classe et d’y voir la célébration d’une confirmation par Constantin IV
@@ -525,17 +526,17 @@
                           qui a été reconstituée ultérieurement, sans doute à partir de la source littéraire. On n’insistera donc
                           pas trop sur ce document.
                   </p>
-                  <p>
-                      16. <bibl><ptr target="Theophanes"/>, <citedRange unit="page">p. 352</citedRange></bibl>.
+                <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Theophanes"/>, <citedRange unit="page">p. 352</citedRange></bibl>.
                   </p>
-                  <p>
-                      17. <bibl><ptr target="Thomas_of_Elmham"/>, <citedRange unit="page">p. 244-245</citedRange></bibl>.
+                <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Thomas_of_Elmham"/>, <citedRange unit="page">p. 244-245</citedRange></bibl>.
                   </p>
-                  <p>
-                      18. <bibl><ptr target="DOseals6"/>, <citedRange unit="part">22.1-3</citedRange></bibl> (dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4260/view">BZS.1955.1.4260</ref>,
+                <p xml:id="footnote-18">
+                      [18]. <bibl><ptr target="DOseals6"/>, <citedRange unit="part">22.1-3</citedRange></bibl> (dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4260/view">BZS.1955.1.4260</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4259">BZS.1955.1.4259</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4261">BZS.1955.1.4261</ref>). Sur ces bulles, la hiérarchie n’est indiquée que par le portrait imberbe qui,
-                          d’une certaine façon, peut renvoyer visuellement au titre de novus augustus dans l’acception grecque
+                          d’une certaine façon, peut renvoyer visuellement au titre de <hi rend="italic">novus augustus</hi> dans l’acception grecque
                           de <hi rend="italic">novus</hi>, <hi rend="italic">neos</hi>, « jeune ».
                   </p>
               </div>

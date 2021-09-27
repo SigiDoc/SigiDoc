@@ -261,6 +261,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
@@ -402,30 +403,30 @@
                               des alliances passées peu après entre Arméniens et croisés en Cilicie [6].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Seulement sept attestations dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="https://pbw2016.kdl.kcl.ac.uk/browse/?name=%22Zacharias%22">Zacharias</ref></citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. Seulement sept attestations dans la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="https://pbw2016.kdl.kcl.ac.uk/browse/?name=%22Zacharias%22">Zacharias</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 135, l. 62-63</citedRange></bibl>; 
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="page">p. 135, l. 62-63</citedRange></bibl>; 
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/">Zacharias 15001</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 660, 675</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Dédéyan2003b"/>, <citedRange unit="page">p. 660, 675</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. Sur Robert Crispin, <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Robert/101/">Robert 101</ref></citedRange></bibl>. Lorsqu’il mourut, Roussel hérita du commandement sur les Francs, et
+                  <p xml:id="footnote-4">
+                      [4]. Sur Robert Crispin, <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Robert/101/">Robert 101</ref></citedRange></bibl>. Lorsqu’il mourut, Roussel hérita du commandement sur les Francs, et
                           Bryennios précise qu’il appartenait auparavant à son « hétairie » : Οὐρσέλιος, τῆς ἑταιρέιας ὢν τοῦ
                           Κρισπίνου καὶ τῆς ἐκείνου κατάρχων φάλαγγος (<bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="page">p. 147, l. 24 – p. 149, l. 1</citedRange></bibl>). On
                           pourrait également comprendre que Crispin commandait une hétairie, au sens d’un régiment de la
                           garde du palais, mais la formule semble plutôt impliquer deux échelons, la « phalange » de Crispin,
                           qui serait le régiment franc, et son hétairie, au sens de garde personnelle.
                   </p>
-                  <p>
-                      5. Connu par un sceau à la légende Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Γηληέλμῳ μαγίστρῳ στρατηγῷ
+                  <p xml:id="footnote-5">
+                      [5]. Connu par un sceau à la légende Ὁ ἅγιος Γεώργιος. | Κύριε βοήθει Γηληέλμῳ μαγίστρῳ στρατηγῷ
                       Σελευκείας καὶ ἀνθρώπῳ τοῦ βασιλέως ἡμῶν τοῦ ἁγίου : <bibl><ptr target="Seibt1997"/>, <citedRange unit="entry">2.3.2</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. On rappellera également qu’après que Romain IV a démis de ses fonctions Robert Crispin
+                  <p xml:id="footnote-6">
+                      [6]. On rappellera également qu’après que Romain IV a démis de ses fonctions Robert Crispin
                           pour sédition, les hommes de ce dernier s’attaquèrent un temps à la Mésopotamie. On ignore ce qu’il
                           advint d’eux finalement mais il n’est peut-être pas incident que la Mésopotamie ait été le bastion de
                           la famille d’Apnelgarib Arsakidès depuis que Grigor magistros y avait reçu d’immenses domaines de

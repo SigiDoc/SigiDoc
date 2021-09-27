@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -378,11 +379,11 @@
                       <p>Grégoras était le lieutenant du chef du tagma fondé par l’impératrice Irène [2].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Voir <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part">13</citedRange></bibl> (<ref target="TM_13.html">SigiDoc 13</ref>).
+                  <p xml:id="footnote-1">
+                      [1]. Voir <bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part">13</citedRange></bibl> (<ref target="TM_13.html">SigiDoc 13</ref>).
                   </p>
-                  <p>
-                      2. Sur cette unité et son origine, voir <bibl><ptr target="Prigent2015"/>, <citedRange unit="page">p. 166-168</citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. Sur cette unité et son origine, voir <bibl><ptr target="Prigent2015"/>, <citedRange unit="page">p. 166-168</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

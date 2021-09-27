@@ -248,6 +248,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
@@ -358,11 +359,11 @@
                           caractère extrêmement lacunaire du nom présent sur le sceau.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="VieThéodose1963"/>, <citedRange unit="page">p. 58</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="VieThéodose1963"/>, <citedRange unit="page">p. 58</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="VieThéodosios1963"/>, <citedRange unit="page">p. 105</citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="VieThéodosios1963"/>, <citedRange unit="page">p. 105</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

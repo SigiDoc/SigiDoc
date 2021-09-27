@@ -1,0 +1,16 @@
+[INFO ] 2020-08-08 07:33:42,082 [main] Logback logging API implementation is configured.
+[WARN ] 2020-08-08 07:33:42,392 [main] Removing invalid lock 5296@NuovoAvalon
+[INFO ] 2020-08-08 07:33:42,785 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1526 ms
+[INFO ] 2020-08-08 08:57:13,339 [main] Logback logging API implementation is configured.
+[WARN ] 2020-08-08 08:57:13,656 [main] Removing invalid lock 7324@NuovoAvalon
+[INFO ] 2020-08-08 08:57:14,061 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1408 ms
+[INFO ] 2020-08-08 13:04:32,656 [main] Logback logging API implementation is configured.
+[WARN ] 2020-08-08 13:04:33,513 [main] Removing invalid lock 6236@NuovoAvalon
+[INFO ] 2020-08-08 13:04:34,360 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 3604 ms
+[WARN ] 2020-08-08 13:16:22,631 [repositories/kiln] Removing invalid lock 6684@NuovoAvalon
+[INFO ] 2020-08-08 13:16:22,846 [repositories/kiln] POST query -1227659729
+[INFO ] 2020-08-08 13:16:23,378 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2020-08-08 13:16:34,390 [repositories/kiln] POST query -1227659729
+[INFO ] 2020-08-08 13:16:34,547 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2020-08-08 13:16:48,498 [repositories/kiln] POST query -1227659729
+[INFO ] 2020-08-08 13:16:48,630 [repositories/kiln] Request for query -1227659729 is finished

@@ -1,0 +1,42 @@
+[INFO ] 2019-03-24 13:56:54,937 [main] Logback logging API implementation is configured.
+[WARN ] 2019-03-24 13:56:55,671 [main] Removing invalid lock 10144@DESKTOP-6MSIDIV
+[INFO ] 2019-03-24 13:56:56,454 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 2970 ms
+[WARN ] 2019-03-24 13:57:30,077 [repositories/kiln] Removing invalid lock 10144@DESKTOP-6MSIDIV
+[INFO ] 2019-03-24 13:57:31,014 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 13:57:31,405 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 14:32:20,076 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 14:32:20,228 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 14:46:47,557 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 14:46:47,635 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 14:47:05,084 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 14:47:05,162 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 14:53:48,161 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 14:53:48,242 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 15:01:57,850 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 15:01:57,928 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 15:30:54,034 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 15:30:54,168 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 15:30:59,552 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 15:30:59,646 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 15:31:56,582 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 15:31:56,644 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 15:38:56,296 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 15:38:56,334 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 16:22:30,521 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 16:22:30,570 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 16:22:43,254 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 16:22:43,320 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 16:22:56,830 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 16:22:56,871 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 16:30:08,712 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 16:30:08,761 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 16:38:10,046 [main] Logback logging API implementation is configured.
+[WARN ] 2019-03-24 16:38:10,343 [main] Removing invalid lock 5740@DESKTOP-6MSIDIV
+[INFO ] 2019-03-24 16:38:10,624 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1390 ms
+[WARN ] 2019-03-24 16:57:32,114 [repositories/kiln] Removing invalid lock 5740@DESKTOP-6MSIDIV
+[INFO ] 2019-03-24 16:57:32,302 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 16:57:32,786 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 17:13:06,218 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 17:13:06,328 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-03-24 17:39:35,105 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-03-24 17:39:35,166 [repositories/kiln] Request for query -1227659729 is finished

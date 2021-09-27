@@ -1,0 +1,16 @@
+127.0.0.1 -  -  [23/gen/2019:08:46:24 +0000] "GET / HTTP/1.1" 302 - 
+127.0.0.1 -  -  [23/gen/2019:08:46:24 +0000] "GET /en/ HTTP/1.1" 200 5591 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/foundation/css/normalize.css HTTP/1.1" 304 - 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/styles/site.css HTTP/1.1" 200 0 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/foundation/js/vendor/custom.modernizr.js HTTP/1.1" 304 - 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/foundation/css/foundation.min.css HTTP/1.1" 200 163841 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/styles/base.css HTTP/1.1" 200 285 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/foundation/js/vendor/jquery.js HTTP/1.1" 304 - 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /assets/foundation/js/foundation.min.js HTTP/1.1" 304 - 
+127.0.0.1 -  -  [23/gen/2019:08:46:27 +0000] "GET /favicon.ico HTTP/1.1" 404 8667 
+127.0.0.1 -  -  [23/gen/2019:08:46:29 +0000] "GET /admin/ HTTP/1.1" 200 34475 
+127.0.0.1 -  -  [23/gen/2019:08:46:30 +0000] "GET /assets/styles/admin.css HTTP/1.1" 200 995 
+127.0.0.1 -  -  [23/gen/2019:08:46:30 +0000] "GET /assets/scripts/admin.js HTTP/1.1" 200 432 
+127.0.0.1 -  -  [23/gen/2019:08:46:51 +0000] "GET /en/inscriptions/TM_20ter.html HTTP/1.1" 200 20145 
+127.0.0.1 -  -  [23/gen/2019:08:46:53 +0000] "GET /assets/styles/epidoc/global.css HTTP/1.1" 200 2364 
+127.0.0.1 -  -  [23/gen/2019:08:46:53 +0000] "GET /images/-thumb. HTTP/1.1" 404 8670 

@@ -264,6 +264,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
@@ -385,24 +386,24 @@
                               de l’aristocratie impériale vers le milieu du XIe siècle.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.11</citedRange></bibl> ; l’exemplaire
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.11</citedRange></bibl> ; l’exemplaire
                       appartient à une collection privée et peut être identifié avec celui qui avait été mis en vente par le 
                       <bibl><ptr target="CNG"/>, <citedRange><ref target="http://issuu.com/cngcoins/docs/cng_39">enchère 39, lot 2560</ref></citedRange></bibl> de 1996, comme la comparaison avec la
                       photo du catalogue (p. 236) semble montrer (enchère signalée dans <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 118</citedRange></bibl>). Voir aussi la <bibl><ptr target="PBW"/></bibl>, <ref target="http://pbw2016.kdl.kcl.ac.uk/person/David/20104/">David 20104</ref>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Wassiliou-Seibt2020"/>, <citedRange unit="page">pp. 12-13</citedRange></bibl>; <bibl><ptr target="NBS"/>, <citedRange unit="entry">Web Auction 1, du 10.10.2020, <ref target="https://www.biddr.com/auctions/nbsauctions/browse?a=1305&amp;l=1384127">lot 676</ref></citedRange></bibl>: le sceau a d'abord été mis aux enchères et ensuite retiré.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Wassiliou-Seibt2020"/>, <citedRange unit="page">pp. 12-13</citedRange></bibl>; <bibl><ptr target="NBS"/>, <citedRange unit="entry">Web Auction 1, du 10.10.2020, <ref target="https://www.biddr.com/auctions/nbsauctions/browse?a=1305&amp;l=1384127">lot 676</ref></citedRange></bibl>: le sceau a d'abord été mis aux enchères et ensuite retiré.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.10</citedRange></bibl>. Voir aussi <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 138</citedRange></bibl> ; 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Seibt1997"/>, <citedRange unit="part">2.3.10</citedRange></bibl>. Voir aussi <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 138</citedRange></bibl> ; 
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Georgios/20115/">Georgios 20115</ref></citedRange></bibl>. Pour quelques informations sur la famille, voir <bibl><ptr target="Seibt1997"/>, <citedRange unit="page">p. 100</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">379</citedRange></bibl>, et <bibl><ptr target="CheynetTheodoridis"/>, <citedRange unit="part">210</citedRange></bibl> .
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">379</citedRange></bibl>, et <bibl><ptr target="CheynetTheodoridis"/>, <citedRange unit="part">210</citedRange></bibl> .
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Skoulatos1980"/>, <citedRange>203, p. 299</citedRange></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Skoulatos1980"/>, <citedRange>203, p. 299</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

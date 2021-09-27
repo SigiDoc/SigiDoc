@@ -259,6 +259,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-23" who="AS">Bibliographic references improved and footnotes added</change>
@@ -388,8 +389,8 @@
                               voir <ref target="TM_20ter.html">SigiDoc ID 44</ref>.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Sauf erreur de notre part, nous n’avons pas de légende se terminant par une information du
+                  <p xml:id="footnote-1">
+                      [1]. Sauf erreur de notre part, nous n’avons pas de légende se terminant par une information du
                           type « le Turc », « l’Arménien », « l’Arabe » ou « le Géorgien », par exemple.
                   </p>
               </div>

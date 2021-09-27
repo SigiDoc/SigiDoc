@@ -250,6 +250,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
@@ -369,8 +370,8 @@
                                   l’absence de toute fonction et dignité, l’identification serait plus que hasardeuse [1]. Voir aussi le sceau <ref target="TM_39.html">SigiDoc ID 39</ref>.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Athens1996"/>, <citedRange unit="part">316</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Athens1996"/>, <citedRange unit="part">316</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

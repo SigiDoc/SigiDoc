@@ -251,6 +251,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
@@ -356,33 +357,33 @@
                   d'un traité passé entre l'Empire et Venise en 1332 [9].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Cheynet2016"/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Cheynet2016"/></bibl>.
                   </p>
-                  <p>
-                      2. Sceau inédit conservé au musée de Philadelphie, numéro d’inventaire 29-226-302 : Nicétas
+                  <p xml:id="footnote-2">
+                      [2]. Sceau inédit conservé au musée de Philadelphie, numéro d’inventaire 29-226-302 : Nicétas
                       Panokomètès, magistre. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">IV.IV.3, XII.I.3</citedRange></bibl> mentionne Nicétas Panoukômitès: combattant aux côtés d'Alexis Ier à la bataille de Dyrrachion de 1081, il fut ensuite l'envoyé d'Alexis auprès du sultan d'Égypte (voir <bibl><ptr target="Skoulatos1980"/>, <citedRange unit="part">156, p. 250</citedRange></bibl> et la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/15002/">Niketas 15002</ref></citedRange></bibl>).
                   </p>
-                  <p>
-                      3. <bibl><ptr target="CheynetTheodoridis"/>, <citedRange>121</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="CheynetTheodoridis"/>, <citedRange>121</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Lihačev1991"/>, <citedRange unit="page">p. 95</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Lihačev1991"/>, <citedRange unit="page">p. 95</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Buckler1929"/>, <citedRange unit="page">p. 647</citedRange></bibl>. D'autres exemples sont donnés par <bibl><ptr target="Laurent1935"/>, <citedRange unit="page">p. 89, n. 1</citedRange></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Buckler1929"/>, <citedRange unit="page">p. 647</citedRange></bibl>. D'autres exemples sont donnés par <bibl><ptr target="Laurent1935"/>, <citedRange unit="page">p. 89, n. 1</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Papadopoulos-Kerameus1894"/>, <citedRange unit="page">p. 370</citedRange></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Papadopoulos-Kerameus1894"/>, <citedRange unit="page">p. 370</citedRange></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="Laurent1935"/><citedRange></citedRange></bibl>; voir aussi <bibl><ptr target="Constantinides1982"/>, <citedRange unit="page">pp. 15-17</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Laurent1935"/><citedRange></citedRange></bibl>; voir aussi <bibl><ptr target="Constantinides1982"/>, <citedRange unit="page">pp. 15-17</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="MM1"/>, <citedRange unit="page">pp. 61-62</citedRange></bibl>; <bibl><ptr target="DarrouzèsRegestes1.5"/>, <citedRange unit="part">2072, p. 51</citedRange></bibl>; <bibl><ptr target="PLP"/>, <citedRange>2011</citedRange></bibl>.
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="MM1"/>, <citedRange unit="page">pp. 61-62</citedRange></bibl>; <bibl><ptr target="DarrouzèsRegestes1.5"/>, <citedRange unit="part">2072, p. 51</citedRange></bibl>; <bibl><ptr target="PLP"/>, <citedRange>2011</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. <bibl><ptr target="MM3"/>, <citedRange>p. 111</citedRange></bibl>; <bibl><ptr target="DVL1"/>, <citedRange unit="page">p. 234</citedRange></bibl>
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="MM3"/>, <citedRange>p. 111</citedRange></bibl>; <bibl><ptr target="DVL1"/>, <citedRange unit="page">p. 234</citedRange></bibl>
                       (où le nom est rendu en latin comme <hi rend="italic">Vauoscomiti</hi>); <bibl><ptr target="PLP"/>, <citedRange>2010</citedRange></bibl>.
                   </p>
               </div>

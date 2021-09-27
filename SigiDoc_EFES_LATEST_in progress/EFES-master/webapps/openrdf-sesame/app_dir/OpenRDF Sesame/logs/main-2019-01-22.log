@@ -1,0 +1,25 @@
+[INFO ] 2019-01-22 15:24:12,400 [main] Logback logging API implementation is configured.
+[WARN ] 2019-01-22 15:24:13,866 [main] Removing invalid lock 4804@User-PC
+[INFO ] 2019-01-22 15:24:14,240 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 2698 ms
+[INFO ] 2019-01-22 16:29:56,631 [main] Logback logging API implementation is configured.
+[WARN ] 2019-01-22 16:29:56,927 [main] Removing invalid lock 6304@User-PC
+[INFO ] 2019-01-22 16:29:57,255 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1248 ms
+[WARN ] 2019-01-22 17:07:10,442 [repositories/kiln] Removing invalid lock 13164@DESKTOP-6MSIDIV
+[INFO ] 2019-01-22 17:07:10,692 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:07:11,051 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:07:29,600 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:07:29,803 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:16:31,629 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:16:31,707 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:23:05,079 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:23:05,173 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:31:21,740 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:31:21,818 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:42:54,472 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:42:54,550 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:43:31,230 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:43:31,292 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:47:54,661 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:47:54,739 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2019-01-22 17:59:46,394 [repositories/kiln] POST query -1227659729
+[INFO ] 2019-01-22 17:59:46,441 [repositories/kiln] Request for query -1227659729 is finished

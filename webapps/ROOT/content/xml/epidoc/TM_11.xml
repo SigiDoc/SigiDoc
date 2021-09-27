@@ -262,6 +262,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-15" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-08" who="AS">Legend and translation added</change>
@@ -395,14 +396,14 @@
                               de dignités qui obtint ensuite le commandement de la flotte impériale [3].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 42-45</citedRange></bibl>; <bibl><ptr target="Campagnolo2019"/><citedRange/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 42-45</citedRange></bibl>; <bibl><ptr target="Campagnolo2019"/><citedRange/></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="page">p. 353-354</citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="page">p. 353-354</citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part">966</citedRange></bibl>.
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part">966</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

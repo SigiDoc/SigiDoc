@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
@@ -442,49 +443,49 @@
                           militaire, qui perpétuait les choix de Constantin IV [33].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. Voir, par exemple, <bibl><ptr target="Zacos1"/>, <citedRange>548, pl. 250</citedRange></bibl> (sceau 1522).
+                  <p xml:id="footnote-1">
+                      [1]. Voir, par exemple, <bibl><ptr target="Zacos1"/>, <citedRange>548, pl. 250</citedRange></bibl> (sceau 1522).
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Cheynet2008b"/>, <citedRange unit="page">p. 62</citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Cheynet2008b"/>, <citedRange unit="page">p. 62</citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="Brubaker2011"/>, <citedRange unit="page">p. 592-593</citedRange></bibl>. 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Brubaker2011"/>, <citedRange unit="page">p. 592-593</citedRange></bibl>. 
                       Pour des exemples de porteurs du titre entre VIe et VIIIe siècle, voir la <bibl><ptr target="PBE1"/></bibl>, s.v. Illoustrios.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ19751">8483</ref></citedRange></bibl>; 
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ19751">8483</ref></citedRange></bibl>; 
                       <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target=" http://www.pbe.kcl.ac.uk/person/p8274">Tiberios2</ref></citedRange></bibl> (lien actuellement inactif: 2021-03-18).
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Zuckerman2005"/>, <citedRange unit="page">p. 122-123</citedRange></bibl>.
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Zuckerman2005"/>, <citedRange unit="page">p. 122-123</citedRange></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 162</citedRange></bibl>; <bibl><ptr target="Jones1964"/>, <citedRange>p. 529 et n. 16</citedRange></bibl>.
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 162</citedRange></bibl>; <bibl><ptr target="Jones1964"/>, <citedRange>p. 529 et n. 16</citedRange></bibl>.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="Garbarino1988"/>, <citedRange unit="page">p. 318-323</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Garbarino1988"/>, <citedRange unit="page">p. 318-323</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2850</citedRange></bibl>; voir aussi ci-dessous le cas du commerciaire Serge. La forme
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2850</citedRange></bibl>; voir aussi ci-dessous le cas du commerciaire Serge. La forme
                           <hi rend="italic">ellustrios</hi> est étonnante, mais pour une déformation proche, voir la mention de la maison de l’<hi rend="italic">euloustrios</hi>
                       dans la <hi rend="italic">Vie</hi> de Grégoire d’Agrigente : <bibl><ptr target="LeontiosGregorios1995"/>, <citedRange>56, p. 213, l. 8-9</citedRange></bibl>.
                   </p>
-                  <p>
-                      9. Voir, par exemple, <bibl><ptr target="Banaji2001"/>, <citedRange unit="page">p. 150, 161</citedRange></bibl>; 
+                  <p xml:id="footnote-9">
+                      [9]. Voir, par exemple, <bibl><ptr target="Banaji2001"/>, <citedRange unit="page">p. 150, 161</citedRange></bibl>; 
                       <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/bgu;1;323">BGU 1.323, l. 2-3</ref></citedRange></bibl> (AD 601-651) :
                           Φλ(αουίῳ) [Σεν]ουθίῳ τῷ εὐκλεεστάτῳ δοῦκ[ι - ca 9 -] τοῦ ἐνδοξοτάτου ἰλλουστρίου.
                   </p>
-                  <p>
-                      10. <bibl><ptr target="Hornickel1930"/>, <citedRange unit="page">p. 17</citedRange></bibl>: «Ist in den Papyri kein adjektivisches
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Hornickel1930"/>, <citedRange unit="page">p. 17</citedRange></bibl>: «Ist in den Papyri kein adjektivisches
                           Rangprädikat, sondern die Bezeichnung einer Würde wie etwa auch Patricius und Comes. Es ist
                           offenbar eine Titularwürde der Großgrundbesitzer, die auch Frauen verliehen werden kann. Es
                           bezeichnet als solche nur die Illustres Honorarii, die letze Gruppe der Illustres. Die Umwandlung des
                           Rangprädikates Illustris zur Benennung einer Würde vollzog sich nach Koch in den dreißiger Jahren
                           des 6. Jahrhunderts. Ich habe nur für die Endoxotatoi gennanten Illoustrioi die belegte gesammelt.»
                   </p>
-                  <p>
-                      11. <bibl><ptr target="Gascou1972"/>, <citedRange>p. 69, n. 2</citedRange></bibl>: 
+                  <p xml:id="footnote-11">
+                      [11]. <bibl><ptr target="Gascou1972"/>, <citedRange>p. 69, n. 2</citedRange></bibl>: 
                           «Hornickel a pratiquement éludé l’étude de ce curieux <hi rend="italic">illustrat</hi>. Le mot ἰλλούστριος n’est pas la
                           simple translittération du latin <hi rend="italic">illustris</hi>. Les diverses classes de l’<hi rend="italic">illustrat</hi>, comme la “magnificence”, la
                           “gloire”, se traduisent par les épithètes citées plus haut et existaient longtemps avant l’apparition des
@@ -494,19 +495,19 @@
                           de la “fonction” pagarchique après les réformes justiniennes. » L’auteur a par la suite retiré cette idée
                           dans la réédition de son article dans <bibl><ptr target="Gascou2008"/>, <citedRange unit="page">p. 49</citedRange></bibl>. Mais cette hésitation illustre bien les caractéristiques particulières du terme.
                   </p>
-                  <p>
-                      12. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">131</citedRange></bibl>.
+                  <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">131</citedRange></bibl>.
                   </p>
-                  <p>
-                      13. On laisse ici évidemment de côté les résurgences de ces prédicats au XIe-XIIe siècle, ainsi que
+                  <p xml:id="footnote-13">
+                      [13]. On laisse ici évidemment de côté les résurgences de ces prédicats au XIe-XIIe siècle, ainsi que
                       les poids du VIe siècle (<bibl><ptr target="Zacos1"/>, <citedRange unit="part">3000A, B</citedRange></bibl>), le système classique étant alors en usage.
                   </p>
-                  <p>
-                      14. 82 recensées rien que pour le bullaire chypriote, mais avec beaucoup de doubles:
+                  <p xml:id="footnote-14">
+                      [14]. 82 recensées rien que pour le bullaire chypriote, mais avec beaucoup de doubles:
                       <bibl><ptr target="Metcalf2004"/>, <citedRange unit="page">p. 242</citedRange></bibl>.
                   </p>
-                  <p>
-                      15. <bibl><ptr target="Athens1917"/>, 
+                  <p xml:id="footnote-15">
+                      [15]. <bibl><ptr target="Athens1917"/>, 
                           <citedRange unit="part">295</citedRange> (la combinaison avec le titre d’<hi rend="italic">anthypatos</hi> est
                           des plus étranges, il convient d’accueillir avec méfiance ce témoignage, en l’absence de photographie),
                           <citedRange>362 (latin), 362α (latin), β γ δ, 363, 364</citedRange>
@@ -518,70 +519,70 @@
                           du musée de Syracuse, 6896. On rappellera aussi la mention de la maison de l’<hi rend="italic">euloustrios</hi> dans la
                           <hi rend="italic">Vie</hi> de Grégoire d’Agrigente, voir n. 8.
                   </p>
-                  <p>
-                      16. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">971</citedRange></bibl>.
+                  <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">971</citedRange></bibl>.
                   </p>
-                  <p>
-                      17. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">1596</citedRange></bibl>.
+                  <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">1596</citedRange></bibl>.
                   </p>
-                  <p>
-                      18. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2850</citedRange></bibl>.
+                  <p xml:id="footnote-18">
+                      [18]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">2850</citedRange></bibl>.
                   </p>
-                  <p>
-                      19. <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 162</citedRange></bibl>.
+                  <p xml:id="footnote-19">
+                      [19]. <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 162</citedRange></bibl>.
                   </p>
-                  <p>
-                      20. Que les héritiers aient continué à jouir de certaines immunités au regard des obligations
+                  <p xml:id="footnote-20">
+                      [20]. Que les héritiers aient continué à jouir de certaines immunités au regard des obligations
                           curiales ne joua sans doute pas un rôle car cela ne concernait que les illustres titulaires de titres
                           supérieurs: <bibl><ptr target="Laniado2002"/>, <citedRange unit="page">p. 37</citedRange></bibl>.
                   </p>
-                  <p>
-                      21. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">914A</citedRange></bibl>.
+                  <p xml:id="footnote-21">
+                      [21]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">914A</citedRange></bibl>.
                   </p>
-                  <p>
-                      22. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">909A</citedRange></bibl>.
+                  <p xml:id="footnote-22">
+                      [22]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">909A</citedRange></bibl>.
                   </p>
-                  <p>
-                      23. Sur la pièce américaine, la partie supérieure est endommagée, ce qui ne permet pas de
+                  <p xml:id="footnote-23">
+                      [23]. Sur la pièce américaine, la partie supérieure est endommagée, ce qui ne permet pas de
                           déterminer si le monogramme <hi rend="italic">chartoularios</hi> est présent.
                   </p>
-                  <p>
-                      24. Par exemple, Παύλου τοῦ ἐνδοξοτάτου ἀπὸ ὑπάτων καὶ διοικητοῦ τῶν ἀνατολικῶν ἐπαρχιῶν
+                  <p xml:id="footnote-24">
+                      [24]. Par exemple, Παύλου τοῦ ἐνδοξοτάτου ἀπὸ ὑπάτων καὶ διοικητοῦ τῶν ἀνατολικῶν ἐπαρχιῶν
                       mentionné dans les actes du concile de Constantinople III : références dans la <bibl><ptr target="PBE1"/>, <citedRange unit="entry"><ref target="http://www.pbe.kcl.ac.uk/person/p6141">Paulos17</ref></citedRange></bibl> (lien actuellement inactif: 2021-03-18).
                   </p>
-                  <p>
-                      25. Sur l’accès au sommet par la collation de dignités honoraires, voir aussi <bibl><ptr target="Garbarino1988"/>, <citedRange unit="page">p. 252-259</citedRange></bibl>.
+                  <p xml:id="footnote-25">
+                      [25]. Sur l’accès au sommet par la collation de dignités honoraires, voir aussi <bibl><ptr target="Garbarino1988"/>, <citedRange unit="page">p. 252-259</citedRange></bibl>.
                   </p>
-                  <p>
-                      26. <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1, l. 6-7</ref></citedRange></bibl> (AD 651 ?) : [Φλ(αουίῳ) Ἰωάνν]ῃ τῷ ἐνδοξοτάτῳ ἰλλουστρίῳ [καὶ παγάρχῳ
+                  <p xml:id="footnote-26">
+                      [26]. <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1, l. 6-7</ref></citedRange></bibl> (AD 651 ?) : [Φλ(αουίῳ) Ἰωάνν]ῃ τῷ ἐνδοξοτάτῳ ἰλλουστρίῳ [καὶ παγάρχῳ
                       τ]αύτης τῆς Ἀρσινοιτῶν πόλεως ; voir aussi <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;22;2">CPR 22.2</ref></citedRange></bibl> (AD 628-629 ou 643-644).
                   </p>
-                  <p>
-                      27. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">1376</citedRange></bibl>; <bibl><ptr target="Orghidan"/>, <citedRange unit="part">273</citedRange></bibl>; 
+                  <p xml:id="footnote-27">
+                      [27]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">1376</citedRange></bibl>; <bibl><ptr target="Orghidan"/>, <citedRange unit="part">273</citedRange></bibl>; 
                       <bibl><ptr target="papyri"/>, <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;30;17">CPR 30.17, l. 5</ref></citedRange></bibl> (AD 643-644 env.).
                   </p>
-                  <p>
-                      28. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">914A</citedRange></bibl>.
+                  <p xml:id="footnote-28">
+                      [28]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">914A</citedRange></bibl>.
                   </p>
-                  <p>
-                      29. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">872</citedRange></bibl>: l’éditeur propose <hi rend="italic">illustris</hi> sur la bulle latine du commerciaire Serge, mais
+                  <p xml:id="footnote-29">
+                      [29]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">872</citedRange></bibl>: l’éditeur propose <hi rend="italic">illustris</hi> sur la bulle latine du commerciaire Serge, mais
                       l’exemple de Romain mentionné plus haut (voir n. 8) laisse la question de la résolution
                       de l’abréviation ouverte.
                   </p>
-                  <p>
-                      30. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">n890</citedRange></bibl>. Nous ne nous étendrons pas sur le cas de Théodore <hi rend="italic">megaloprépestatos illoustrios</hi> et
+                  <p xml:id="footnote-30">
+                      [30]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">n890</citedRange></bibl>. Nous ne nous étendrons pas sur le cas de Théodore <hi rend="italic">megaloprépestatos illoustrios</hi> et
                           diocète, car l’état de son sceau ne permet pas d’établir avec exactitude sa fonction et donc son importance.
                   </p>
-                  <p>
-                      31. Voici les résultats d’un sondage réalisé sur Papyri.info : <bibl><ptr target="papyri"/>,
+                  <p xml:id="footnote-31">
+                      [31]. Voici les résultats d’un sondage réalisé sur Papyri.info : <bibl><ptr target="papyri"/>,
                       <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.cair.masp;3;67325">P.Cair.Masp. 3.67325</ref>, IIIv, l. 9, 13 ; VIIIv, l. 24</citedRange> (AD 501-600);
                           <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.flor;3;298">P.Flor. 3.298</ref>, l. 13-14, 15, 19-20, 25</citedRange> (AD 557-560);
                           <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/p.stras;7;699">P.Strasb. 7.699</ref>, l. 26 (recto), 3-4 (verso)</citedRange> (AD 525-560);   
                           avec le gloriosat en sus mais toujours <hi rend="italic">illoustrios</hi> comme prédicat <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/sb;20;15013">SB 20.15013</ref>, l. 2-3, 6</citedRange> (AD 552-553);
                           <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/sb;20;15015">SB 20.15015</ref>, l. 3, 8</citedRange> (AD 550-551)</bibl>.
                   </p>
-                  <p>
-                      32. <bibl><ptr target="papyri"/>,
+                  <p xml:id="footnote-32">
+                      [32]. <bibl><ptr target="papyri"/>,
                           <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/bgu;2;396">BGU 2.396</ref>, l. 4</citedRange> (AD 641);
                           <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;14;1">CPR 14.1</ref>, l. 6-7</citedRange> (AD 651-666);
                           <citedRange unit="entry"><ref target="http://papyri.info/ddbdp/cpr;22;2">CPR 22.2</ref>, l. 7</citedRange> (AD 643-644);
@@ -595,8 +596,8 @@
                       On remarquera toutefois que de ces six exceptions, une est rendue incertaine par l’état de conservation du
                           support, et quatre autres proviennent d’un même document.
                   </p>
-                  <p>
-                      33. <bibl><ptr target="MIB3"/>, <citedRange>pl. 32, 4-13, pl. 43, 1-7</citedRange></bibl>.
+                  <p xml:id="footnote-33">
+                      [33]. <bibl><ptr target="MIB3"/>, <citedRange>pl. 32, 4-13, pl. 43, 1-7</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

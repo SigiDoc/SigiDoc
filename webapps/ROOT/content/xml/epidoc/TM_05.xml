@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-25" who="AS">Specific mark-up for diplomatic edition added</change>
             <change when="2021-03-14" who="AS">Bibliographic referencing system changed</change>
@@ -380,22 +381,22 @@
                       son important patrimoine [4] : tel est le cas de notre Michel.</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. On trouvera un tableau d’ensemble des bulles documentant l’église de la Néa dans <bibl><ptr target="Stepanova2017"/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. On trouvera un tableau d’ensemble des bulles documentant l’église de la Néa dans <bibl><ptr target="Stepanova2017"/></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4511/view">48.5</ref></citedRange></bibl>; 
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="DOseals5"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4511/view">48.5</ref></citedRange></bibl>; 
                       <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20427/">Michael 20427</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. V. Laurent a mis en évidence le lien entre les saints auxquels était consacrée l’église et
+                  <p xml:id="footnote-3">
+                      [3]. V. Laurent a mis en évidence le lien entre les saints auxquels était consacrée l’église et
                       l’iconographie des sceaux des fonctionnaires y travaillant : <bibl><ptr target="LaurentCorpus5.2"/>, <citedRange unit="page">p. 89</citedRange></bibl>. L’image permet
                           peut-être de distinguer notre Michel d’un homonyme, vestarque et grand économe du Tropaiophore,
                           qui a choisi saint Georges : on ne peut toutefois pas exclure un changement de saint protecteur à
                           l’occasion du transfert d’un service à un autre (voir <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20144/">Michael 20144</ref></citedRange></bibl>).
                   </p>
-                  <p>
-                      4. <bibl><ptr target="LaurentCorpus5.2"/>, <citedRange unit="page">p. 89</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="LaurentCorpus5.2"/>, <citedRange unit="page">p. 89</citedRange></bibl>.
                   </p>
               </div>
               <div type="bibliography" subtype="edition">

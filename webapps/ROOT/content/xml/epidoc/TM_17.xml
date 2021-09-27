@@ -260,6 +260,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
@@ -396,27 +397,27 @@
                                       de la famille dans la seconde moitié du siècle [12].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Durliat1979"/></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Durliat1979"/></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="Oikonomides1972"/>, <citedRange unit="page">p. 332</citedRange></bibl> et <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 143</citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="Oikonomides1972"/>, <citedRange unit="page">p. 332</citedRange></bibl> et <bibl><ptr target="Oikonomides1992"/>, <citedRange unit="page">p. 143</citedRange></bibl>.
                   </p>
-                  <p>
-                      3. Ce qui amène à placer ce sceau dans la section dédiée à l’administration provinciale, même
+                  <p xml:id="footnote-3">
+                      [3]. Ce qui amène à placer ce sceau dans la section dédiée à l’administration provinciale, même
                           s’il s’agit officiellement d’un corps de l’armée centrale. W. Seibt a également exprimé l’idée que le titre
                           de stratèlate aurait pu être porté simultanément par plusieurs officiers au sein de l’état-major d’une
                           armée en campagne : <bibl><ptr target="Seibt2010"/>, <citedRange unit="page">p. 93</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 204</citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Attaleiates2012"/>, <citedRange unit="page">p. 204</citedRange></bibl>.
                   </p>
-                  <p>
-                      5. <bibl><ptr target="Nesbitt1998"/>, <citedRange>12</citedRange></bibl>. Hervé se souleva contre Michel VI pour obtenir le magistrat et cette bulle
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Nesbitt1998"/>, <citedRange>12</citedRange></bibl>. Hervé se souleva contre Michel VI pour obtenir le magistrat et cette bulle
                       est donc postérieure, sans doute à dater du règne d’Isaac Comnène. Sur le personnage, <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Herve/101/">Herve 101</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Seibt2010"/>, <citedRange unit="page">p. 92</citedRange></bibl>: Κύριε βοήθει Ἑρβεβίῳ προέδρῳ στρατηλάτῃ δίκαια
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Seibt2010"/>, <citedRange unit="page">p. 92</citedRange></bibl>: Κύριε βοήθει Ἑρβεβίῳ προέδρῳ στρατηλάτῃ δίκαια
                           ὑπερέχοντι ἀκεφάλης Ἀνατολῆς τῷ Φραγγοπῶλῳ. La lecture n’est pas totalement assurée mais il est
                           vrai que l’on peine à trouver une alternative. On notera également qu’une autre situation de crise
                           pourrait également convenir à l’évocation d’un « Orient sans chef » (ἀκεφάλη Ἀνατολή) : lors de sa
@@ -426,21 +427,21 @@
                           y était largement battu en brèche par l’usurpation, même forcée, de son oncle. Hervé aurait très bien
                           pu rejoindre les rangs de Roussel et tenter un temps de se substituer à lui.
                   </p>
-                  <p>
-                      7. Voir <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">109</citedRange></bibl> et la notice consacrée à ce personnage dans
+                  <p xml:id="footnote-7">
+                      [7]. Voir <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">109</citedRange></bibl> et la notice consacrée à ce personnage dans
                       <bibl><ptr target="Cheynet2008a"/>, <citedRange unit="page">p. 353-355</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. Pour le choix de saint Michel pour les sceaux des Bourtzès, on signalera qu’au droit du second
+                  <p xml:id="footnote-8">
+                      [8]. Pour le choix de saint Michel pour les sceaux des Bourtzès, on signalera qu’au droit du second
                       sceau de Samuel Bourtzès (<bibl><ptr target="Cheynet2008a"/>, <citedRange unit="page">p. 356-357</citedRange></bibl>), le personnage à
                           droite du champ, en buste, est l’archange, dont le nom est clairement lisible sur une pièce parallèle
                           conservée au musée de Philadelphie.
                   </p>
-                  <p>
-                      9. <bibl><ptr target="Cheynet2008a"/>, <citedRange unit="page">p. 360-361</citedRange></bibl>.
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Cheynet2008a"/>, <citedRange unit="page">p. 360-361</citedRange></bibl>.
                   </p>
-                  <p>
-                      10. Voir <bibl><ptr target="Cheynet2008a"/>, 
+                  <p xml:id="footnote-10">
+                      [10]. Voir <bibl><ptr target="Cheynet2008a"/>, 
                           <citedRange unit="page">p. 358</citedRange> (les trois bulles du magistre Constantin Bourtzès);
                           <citedRange unit="page">362-363</citedRange> (sceau du <hi rend="italic">topotèrètès</hi> Théodore Bourtzès);
                           <citedRange unit="page">371-372</citedRange> (sceau du curopalate Théodore Bourtzès);
@@ -450,12 +451,12 @@
                           Bourtzès dans la première moitié du xe siècle et son apparition peut confirmer une nouvelle dévotion
                           au martyr d’Euchaïta.
                   </p>
-                  <p>
-                      11. Pour l’impact du développement de cette faction sur l’iconographie des sceaux de l’aristocratie
+                  <p xml:id="footnote-11">
+                      [11]. Pour l’impact du développement de cette faction sur l’iconographie des sceaux de l’aristocratie
                       au milieu du XIe siècle, voir <bibl><ptr target="Cheynet2002b"/></bibl>.
                   </p>
-                  <p>
-                      12. Le sceau de stratège des Anatoliques est malheureusement aniconique et ne permet donc pas de
+                  <p xml:id="footnote-12">
+                      [12]. Le sceau de stratège des Anatoliques est malheureusement aniconique et ne permet donc pas de
                           trancher. Enfin, on pourrait ajouter avec prudence un argument en quelque sorte a silentio, en rappelant
                           qu’aucun des autres grands généraux prénommés Michel bien attestés pour une époque proche (Iasitès,
                           Sarônitès, Kontostephanos, voire Maurix) ne font usage de saint Théodore.

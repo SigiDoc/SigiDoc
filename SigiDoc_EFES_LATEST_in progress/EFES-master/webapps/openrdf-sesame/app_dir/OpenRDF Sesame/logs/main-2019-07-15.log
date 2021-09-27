@@ -1,0 +1,3 @@
+[INFO ] 2019-07-15 09:34:42,695 [main] Logback logging API implementation is configured.
+[WARN ] 2019-07-15 09:34:43,052 [main] Removing invalid lock 3860@NuovoAvalon
+[INFO ] 2019-07-15 09:34:43,371 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1442 ms

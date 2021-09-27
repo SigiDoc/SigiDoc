@@ -348,8 +348,8 @@
                   <p xml:lang="fr">Jean, très humble évêque de Samos (?).</p>
               </div>
               <div type="commentary" subtype="text">
-                      <p xml:lang="en">None.</p>
-                  <p xml:lang="fr">Aucun.</p>
+                      <p xml:lang="en"><hi rend="italic">None.</hi></p>
+                  <p xml:lang="fr"><hi rend="italic">Aucun.</hi></p>
               </div>
               <div type="bibliography" subtype="edition">
                   <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>33, p. 749-750</citedRange></bibl>.</p>

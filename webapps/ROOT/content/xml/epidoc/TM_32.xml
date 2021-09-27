@@ -258,6 +258,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
@@ -373,20 +374,20 @@
                           témoignages écrits mentionnant la dignité de syncelle de Cyriaque [4].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Cotsonis2003"/>, <citedRange unit="page">p. 10-13</citedRange></bibl>.
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Cotsonis2003"/>, <citedRange unit="page">p. 10-13</citedRange></bibl>.
                   </p>
-                  <p>
-                      2. Voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Kyriakos/101/">Kyriakos 101</ref></citedRange></bibl>.
+                  <p xml:id="footnote-2">
+                      [2]. Voir la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Kyriakos/101/">Kyriakos 101</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 375, l. 58-60</citedRange></bibl>; 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 375, l. 58-60</citedRange></bibl>; 
                       <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange>p. 311 et n. 4</citedRange></bibl>; 
                       <bibl><ptr target="Cedrenus1839"/>, <citedRange unit="page">p. 486, l. 11-13</citedRange></bibl>. Sur le
                       titre de syncelle, voir aussi <bibl><ptr target="LaurentCorpus5.1"/>, <citedRange unit="page">p. 147-148</citedRange></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="Ficker1911"/>, <citedRange unit="page">p. 18, l. 30</citedRange> (année 1030), <citedRange unit="page">42, l. 8</citedRange> (année 1039)</bibl>. 
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Ficker1911"/>, <citedRange unit="page">p. 18, l. 30</citedRange> (année 1030), <citedRange unit="page">42, l. 8</citedRange> (année 1039)</bibl>. 
                       Pas de mention de la dignité dans <bibl><ptr target="RallesPotles5"/>, <citedRange unit="page">p. 24</citedRange> (année 1027), <citedRange unit="page">32</citedRange> (année 1028)</bibl>. 
                       Voir aussi <bibl><ptr target="GrumelRegestes1.2"/>, <citedRange unit="part">833, 835, 839, 846</citedRange></bibl>. Sur les métropolites
                       d’Éphèse à cette époque (avec

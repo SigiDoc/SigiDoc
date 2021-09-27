@@ -263,6 +263,7 @@
             <editorialDecl><p/></editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
             <change when="2020-08-09" who="AS">Legend and translation added</change>
@@ -412,24 +413,24 @@
                               peu supérieures à celle de notre juge Léon [8].</p>
               </div>
               <div type="commentary" subtype="footnotes">
-                  <p>
-                      1. <bibl><ptr target="Magdalino1998"/></bibl>; voir également pour la période
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Magdalino1998"/></bibl>; voir également pour la période
                       immédiatement antérieure, <bibl><ptr target="Messis2015"/></bibl>.
                   </p>
-                  <p>
-                      2. <bibl><ptr target="PsellosLetters1941"/>, <citedRange>no 65, p. 99</citedRange></bibl>. En dernier lieu
+                  <p xml:id="footnote-2">
+                      [2]. <bibl><ptr target="PsellosLetters1941"/>, <citedRange>no 65, p. 99</citedRange></bibl>. En dernier lieu
                       sur cette correspondance, <bibl><ptr target="Jeffreys2017"/></bibl>.
                   </p>
-                  <p>
-                      3. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">1.9</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2241/view">1.10</ref></citedRange></bibl>; 
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">1.9</ref>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2241/view">1.10</ref></citedRange></bibl>; 
                       <bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p. 189</citedRange></bibl>. Les deux personnages pourraient
                       être identiques. Les Xeroi avaient la haute main sur le Génikon au milieu du XIe siècle : <bibl><ptr target="Cheynet2012"/></bibl>.
                   </p>
-                  <p>
-                      4. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.647/view">1.11</ref></citedRange></bibl>.
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.647/view">1.11</ref></citedRange></bibl>.
                   </p>
-                  <p>
-                      5. Par exemple dans les bulles de la collection de Dumbarton Oaks, huit protospathaires sur les
+                  <p xml:id="footnote-5">
+                      [5]. Par exemple dans les bulles de la collection de Dumbarton Oaks, huit protospathaires sur les
                       dix titulaires (<bibl><ptr target="DOseals4"/>, <citedRange unit="part">1.9-17, 19</citedRange></bibl>; dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3404/view">BZS.1955.1.3404</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.2241/view">BZS.1955.1.2241</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.647/view">BZS.1947.2.647</ref>,
@@ -441,15 +442,15 @@
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2219/view">BZS.1958.106.2219</ref>,
                       <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3272/view">BZS.1955.1.3272</ref>).
                   </p>
-                  <p>
-                      6. <bibl><ptr target="Seibt1976"/>, <citedRange unit="part">22</citedRange></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3270/view">86.25</ref></citedRange></bibl>, 
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Seibt1976"/>, <citedRange unit="part">22</citedRange></bibl>; <bibl><ptr target="DOseals3"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3270/view">86.25</ref></citedRange></bibl>, 
                       avec références aux autres bulles jalonnant sa carrière dans les Anatoliques et les Arméniaques.
                   </p>
-                  <p>
-                      7. <bibl><ptr target="Cheynet1985"/>, <citedRange unit="page">p. 188</citedRange></bibl>.
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Cheynet1985"/>, <citedRange unit="page">p. 188</citedRange></bibl>.
                   </p>
-                  <p>
-                      8. Κύριε βοήθει Λέοντι μαγίστρῳ βέστῃ καὶ στρατηγῷ τῶν Βουκελλαρίων τῷ Ἰασίτῃ:
+                  <p xml:id="footnote-8">
+                      [8]. Κύριε βοήθει Λέοντι μαγίστρῳ βέστῃ καὶ στρατηγῷ τῶν Βουκελλαρίων τῷ Ἰασίτῃ:
                       <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3062/view">1.32</ref></citedRange></bibl>. Pour sa carrière, <bibl><ptr target="BBÖ1"/>, <citedRange unit="part">40</citedRange></bibl>. Le premier duc connu, Michel Maurix,
                       était proèdre: <bibl><ptr target="DOseals4"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2995/view">1.6</ref></citedRange></bibl>;
                       <bibl><ptr target="ZacosGenève"/>, <citedRange unit="part">93</citedRange></bibl>.
