@@ -187,9 +187,12 @@ dl.box {
   padding: 1px;
 }
 
-div#images::after {
-  /* clear: both;
-  display: table; */
+/* div#images::after {
+  clear: both;
+  display: table;
+}*/
+
+div#images {
   height: 250px;
 }
 
