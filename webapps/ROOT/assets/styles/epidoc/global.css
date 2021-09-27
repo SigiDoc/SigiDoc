@@ -187,10 +187,11 @@ dl.box {
   padding: 1px;
 }
 
-/*div#images::after {
-  clear: both;
-  display: table;
-}*/
+div#images::after {
+  /* clear: both;
+  display: table; */
+  height: 250px;
+}
 
 dl.box dt {
   float: none;
