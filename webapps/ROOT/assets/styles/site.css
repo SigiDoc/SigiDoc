@@ -95,11 +95,11 @@ h6 {
   background-color: transparent;
 }
 
-nav.top-bar {
+/* nav.top-bar {
   position: sticky;
   top: 0;
   z-index: 10;
-}
+} */
 
 .title-area a {
   display: inline-block;
@@ -273,4 +273,26 @@ h4.iospe i {
 /* Footnotes */
 #footnotes a.back-to-ref {
   text-decoration: none;
+}
+
+/* Font sizing on seal page */
+dl.iospe dd,
+#apparatus,
+#commentary,
+#translation h4 {
+  font-size: var(--fs-base);
+}
+
+#biblioEditions,
+#biblioCommEditions,
+#biblioParallels,
+#biblioCommParallels {
+  font-family: var(--base-font);
+}
+
+#lettering,
+#apparatus,
+#commentary,
+#footnotes {
+  font-family: var(--base-font);
 }
