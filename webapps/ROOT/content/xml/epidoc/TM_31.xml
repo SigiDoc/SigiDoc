@@ -304,7 +304,7 @@
                       <ab>
                                  <rs type="legendsCases"><lb n="2"/>
                                  +
-                                 <rs type="officeEcclesiastical" ref="officeEcclesiastical#ἐπίσκοπος_Παρνασσοῦ">
+                                 <rs type="officeEcclesiastical" ref="officeEcclesiastical.xml#ἐπίσκοπος_Παρνασσοῦ">
                                      <placeName ref="geography.xml#Παρνασσός">
                                          Πα
                                  <lb n="3" break="no"/>
