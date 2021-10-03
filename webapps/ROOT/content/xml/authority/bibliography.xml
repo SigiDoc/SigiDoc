@@ -1143,6 +1143,17 @@
                     <date>2015</date>
                     <biblScope unit="page">p. 61-70</biblScope>
                 </bibl>
+                
+                <!-- **************Constantelos********* -->
+
+                <bibl type="book" xml:id="Constantelos1991">
+                    <bibl type="abbrev">Constantelos, 1991</bibl>
+                    <author><forename>D. J.</forename>
+                        <surname>Constntelos</surname></author>
+                    <title level="m">Byzantine Philanthropy and Social Welfare</title>
+                    <pubPlace>New Rochelle</pubPlace>
+                    <date>1991</date>
+                </bibl> <!--aggiungere che è seconda edizione!!!!-->
 
                 <!-- **************Constantinides********* -->
                 <bibl type="book" xml:id="Constantinides1982">
@@ -1770,6 +1781,45 @@
                     <date>2010</date>
                     <biblScope unit="page">p. 33-59</biblScope>
                 </bibl>
+                
+                <!-- **************Kaplan********** -->
+
+                <bibl type="book" xml:id="Kaplan1976"
+                    corresp="http://zotero.org/users/3169239/items/IA5D2FYA">
+                    <bibl type="abbrev">Kaplan, 1976</bibl>
+                    <author><forename>M.</forename>
+                        <surname>Kaplan</surname></author>
+                    <title level="m">Les propriétés de la Couronne et de l’Église dans l’Empire byzantin (ve-vie siècle)</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date>1976</date>
+                </bibl>
+                
+                <bibl type="bookSection" xml:id="Kaplan2006">
+                    <bibl type="abbrev">Kaplan, 2006</bibl>
+                    <author><forename>M.</forename>
+                        <surname>Kaplan</surname></author>
+                    <title level="a">Quelques aspects des maisons divines du vie au ixe siècle</title>
+                    <editor><forename>M.</forename>
+                        <surname>Kaplan</surname></editor>
+                    <title level="m">Byzance. Villes et campagnes</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date>2006</date>
+                    <biblScope unit="page">p. 138-156</biblScope>
+                </bibl>
+                
+                <bibl type="bookSection" xml:id="Kaplan2006a">
+                    <bibl type="abbrev">Kaplan, 2006a</bibl>
+                    <author><forename>M.</forename>
+                        <surname>Kaplan</surname></author>
+                    <title level="a">Maisons impériales et fondations pieuses. Réorganisation de la fortune impériale et assistance publique
+                        de la fin du viiie siècle à la fin du xe siècle</title>
+                    <editor><forename>M.</forename>
+                        <surname>Kaplan</surname></editor>
+                    <title level="m">Byzance. Villes et campagnes</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date>2006</date>
+                    <biblScope unit="page">p. 167-183</biblScope>
+                </bibl>
 
                 <!-- **************Karagiorgou********** -->
 
@@ -2007,6 +2057,18 @@
                     <pubPlace xml:lang="fr">Thessalonique</pubPlace>
                     <date>2011</date>
                     <biblScope unit="page">p. 361-410</biblScope>
+                </bibl>
+                
+                <!-- *******************Leontaritou***************** -->
+                
+                <bibl type="book" xml:id="Leontaritou1996">
+                    <bibl type="abbrev">Leontaritou, 1996</bibl>
+                    <author><forename>V.</forename>
+                        <surname>Leontaritou</surname></author>
+                    <title level="a">Εκκλησιαστικά
+                        αξιώματα και υπηρεσίες στην πρώιμη και μέση βυζαντινή περίοδο</title>
+                    <pubPlace xml:lang="en">Athens-Komotene</pubPlace>
+                    <date>1996</date>
                 </bibl>
 
                 <!-- *******************Lihačev***************** -->
@@ -2705,6 +2767,31 @@
                     <biblScope unit="issue">1</biblScope>
                     <date>2017</date>
                     <biblScope unit="page">p. 777-787</biblScope>
+                </bibl>
+                
+                <!-- *******************Talbot***************** -->
+                
+                <bibl type="journalArticle" xml:id="Talbot1984">
+                    <bibl type="abbrev">Talbot, 1984</bibl>
+                    <author><forename>A.-M.</forename>
+                        <surname>Talbot</surname></author>
+                    <title level="a">Old Age in Byzantium</title>
+                    <title level="j">Byzantinische Zeitschrift</title>
+                    <biblScope unit="volume">77</biblScope>
+                    <date>1984</date>
+                    <biblScope unit="page">p. 267-278</biblScope>
+                </bibl>
+                
+                <!-- *******************Volk***************** -->
+
+                <bibl type="book" xml:id="Volk1983">
+                    <bibl type="abbrev">Volk, 1983</bibl>
+                    <author><forename>R.</forename>
+                        <surname>Volk</surname></author>
+                    <title level="m">Gesundheitswesen und Wohltätigkeit
+                        im Spiegel der byzantinischen Klostertypika</title>
+                    <pubPlace xml:lang="en">Munich</pubPlace>
+                    <date>1983</date>
                 </bibl>
 
                 <!-- *******************Wassiliou-Seibt***************** -->
