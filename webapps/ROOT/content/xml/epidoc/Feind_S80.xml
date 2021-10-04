@@ -289,7 +289,7 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="la">
-                  <div type="textpart" subtype="face" n="obv" rend="circular">
+                  <div type="textpart" subtype="face" n="obv">
                       <ab>
 <lb n="1"/><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο
 <lb n="2" break="no"/>ήθει τῷ
@@ -299,16 +299,20 @@
 <lb n="6" break="no"/><ex>τρι</ex><abbr>κλ</abbr><ex>ίνου</ex></expan>
                       </ab>
                   </div>
-              </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="la">
-                  <div type="textpart" subtype="face" n="obv" rend="circular">
-                      <ab>
+                <div type="textpart" subtype="face" n="rev">
+                    <ab>
 <lb n="7"/><supplied reason="lost">κρι</supplied> τ<supplied reason="lost">ῇ  
 <lb n="8"/>τ</supplied>οῦ <expan><abbr>β</abbr><ex>ή</ex><abbr>λου</abbr></expan> <supplied reason="lost"><ex>καὶ</ex></supplied>
 <lb n="9"/><expan><abbr><supplied reason="lost">γ</supplied>η<supplied reason="lost">ρ</supplied>οτρό
 <lb n="10"/>φ</abbr><ex>ῳ</ex></expan> τῷ Χρυ
 <lb n="11"/><supplied reason="lost">σ</supplied>οβέρ
 <lb n="12"/>γῃ
+                        </ab>
+                </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="la">
+                  <div type="textpart" subtype="face" n="obv" rend="circular">
+                      <ab>
                       </ab>
                   </div>
               </div>
