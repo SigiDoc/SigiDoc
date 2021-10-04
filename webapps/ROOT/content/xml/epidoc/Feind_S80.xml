@@ -6,8 +6,10 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <seg xml:lang="en">Seal of John Chrysoberges</seg>
-                    <seg xml:lang="de">Siegel des Ioannes Chrysoberges</seg>
+                    <seg xml:lang="en">Seal of John Chrysoberges, protospatharios, epi tou Chrysotriklinou, krites of the
+                        Velon, and gerotrophos</seg>
+                    <seg xml:lang="de">Siegel des Ioannes Chrysoberges, protospatharios, epi tou Chrysotriklinou, krites des
+                        Velon, und gerotrophos</seg>
                 </title>
                 <editor>
                     <persName xml:id="MC">Maria Teresa Catalano</persName>
@@ -273,15 +275,15 @@
     <facsimile>
         <surface type="obverse">
             <desc>Obverse</desc>
-            <graphic url="29b.jpg" scale="1.5">
-                <desc xml:lang="en"/>
+            <graphic url="S80a.jpeg" scale="1.5">
+                <desc xml:lang="en">Robert Feind Collection, S-80 (obverse)</desc>
                 <desc xml:lang="de"/>
             </graphic>
         </surface>
         <surface type="reverse">
             <desc>Reverse</desc>
-            <graphic url="29.jpg" scale="1.5">
-                <desc xml:lang="en"/>
+            <graphic url="S80b.jpeg" scale="1.5">
+                <desc xml:lang="en">Robert Feind Collection, S-80 (reverse)</desc>
                 <desc xml:lang="de"/>
             </graphic>
         </surface>
@@ -301,12 +303,12 @@
                   </div>
                 <div type="textpart" subtype="face" n="rev">
                     <ab>
-<lb n="7"/><supplied reason="lost">κρι</supplied> τ<supplied reason="lost">ῇ  
+<lb n="7"/><supplied reason="lost">κρι</supplied>τ<supplied reason="lost">ῇ  
 <lb n="8"/>τ</supplied>οῦ <expan><abbr>β</abbr><ex>ή</ex><abbr>λου</abbr></expan> <supplied reason="lost"><ex>καὶ</ex></supplied>
 <lb n="9"/><expan><abbr><supplied reason="lost">γ</supplied>η<supplied reason="lost">ρ</supplied>οτρό
-<lb n="10"/>φ</abbr><ex>ῳ</ex></expan> τῷ Χρυ
-<lb n="11"/><supplied reason="lost">σ</supplied>οβέρ
-<lb n="12"/>γῃ
+<lb n="10" break="no"/>φ</abbr><ex>ῳ</ex></expan> τῷ Χρυ
+<lb n="11" break="no"/><supplied reason="lost">σ</supplied>οβέρ
+<lb n="12" break="no"/>γῃ
                         </ab>
                 </div>
               </div>
