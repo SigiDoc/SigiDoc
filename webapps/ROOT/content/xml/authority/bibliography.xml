@@ -884,6 +884,23 @@
                         target="http://cimec.ro/Arheologie/dacia.digital/1933-3-4/imagepages/image318.html"
                         >Cimec</ref>
                 </bibl>
+                
+                <!-- ******************Catalano****************** -->
+                
+                <bibl type="journalArticle" xml:id="CatalanoFilosaSode2021">
+                    <bibl type="abbrev">Catalano-Filosa-Sode, 2021</bibl>
+                    <author><forename>M. T.</forename>
+                        <surname>Catalano</surname></author>
+                    <author><forename>M.</forename>
+                        <surname>Filosa</surname></author>
+                    <author><forename>C.</forename>
+                        <surname>Sode</surname></author>
+                    <title level="a">Byzantine seals from the Robert Feind Collection in Cologne: Research and Publication in the Context of the Digital Humanities</title>
+                    <title level="j">Revue des études byzantines</title>
+                    <biblScope unit="volume">79</biblScope>
+                    <date>2021</date>
+                    <biblScope unit="page">p. 297-322</biblScope>
+                </bibl>
 
                 <!-- ***************Cheynet******************* -->
 
