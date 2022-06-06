@@ -808,6 +808,20 @@
                     <biblScope unit="page">p. 43-75</biblScope>
                 </bibl>
 
+                <!-- *************Bilik************** -->
+                
+                <bibl type="journalArticle" xml:id="Bilik1998">
+                    <bibl type="abbrev">Bilik, 1998</bibl>
+                    <author><forename>S.</forename>
+                        <surname>Bilik</surname></author>
+                    <title level="a">Непубликувани византийски моливдовули с отпечатани фамилии имена</title>
+                    <title level="j">Нумизматика и сфрагистика</title>
+                    <biblScope unit="volume">5</biblScope>
+                    <biblScope unit="issue">2</biblScope>
+                    <date>1998</date>
+                    <biblScope unit="page">p. 50-66</biblScope>
+                </bibl>
+                
                 <!-- *************Bourdara************** -->
 
                 <bibl type="book" xml:id="Bourdara1981"
@@ -1800,6 +1814,28 @@
 
                 <!-- **************Jordanov************ -->
 
+                <bibl type="journalArticle" xml:id="Jordanov1985">
+                    <bibl type="abbrev">Jordanov, 1985</bibl>
+                    <author><forename>Iv.</forename>
+                        <surname>Jordanov</surname></author>
+                    <title level="a">Неиздадени византийски оловни печати от Силистра (II)</title>
+                    <title level="j">Известия на народния музей Варна</title>
+                    <biblScope unit="volume">21</biblScope>
+                    <date>1985</date>
+                    <biblScope unit="page">p. 98-107</biblScope>
+                </bibl>
+                
+                <bibl type="journalArticle" xml:id="Jordanov1993a">
+                    <bibl type="abbrev">Jordanov, 1993</bibl>
+                    <author><forename>Iv.</forename>
+                        <surname>Jordanov</surname></author>
+                    <title level="a">Unpublished Byzantine Seals from the Village of Zlati Voyvoda (District of Sliven, Bulgaria)</title>
+                    <title level="j">Studies in Byzantine Sigillography</title>
+                    <biblScope unit="volume">3</biblScope>
+                    <date>1993</date>
+                    <biblScope unit="page">p. 69-84</biblScope>
+                </bibl>
+                
                 <bibl type="book" xml:id="Jordanov1993"
                     corresp="http://zotero.org/users/3169239/items/IA5D2FYA">
                     <bibl type="abbrev">Jordanov, 1993</bibl>
@@ -2283,6 +2319,19 @@
 
                 <!-- ****************Maksimović**************** -->
 
+                <bibl type="journalArticle" xml:id="MaksimovićPopović1993">
+                    <bibl type="abbrev">Maksimović &amp; Popović, 1993</bibl>
+                    <title level="a">Les sceaux byzantins de la région danubienne en Serbie</title>
+                    <author><forename>Lj.</forename>
+                        <surname>Maksimović</surname></author>
+                    <author><forename>M.</forename>
+                        <surname>Popović</surname></author>
+                    <title level="j">Studies in Byzantine Sigillography</title>
+                    <biblScope unit="volume">3</biblScope>
+                    <biblScope unit="page">p. 113-142</biblScope>
+                    <date>1993</date>
+                </bibl>
+                
                 <bibl type="bookSection" xml:id="Maksimović1999"
                     corresp="http://zotero.org/users/3169239/items/6FHSCB26">
                     <bibl type="abbrev">Maksimović, 1999</bibl>
@@ -3741,8 +3790,6 @@
                     <date>2016</date>
                     <biblScope unit="page">p. 141-197</biblScope>
                 </bibl>
-                
-                
                 <bibl xml:id="AMCC">
                     <bibl type="abbrev">AMCC</bibl>
                     <title level="m">Ancient and Medieval Coins Canada</title>
@@ -3793,6 +3840,20 @@
 
                 <!-- ***************** REVIEWS ******************* -->
 
+                <bibl type="journalArticle" xml:id="Seibt1996">
+                    <bibl type="abbrev">Seibt, 1996</bibl>
+                    <author><forename>W.</forename>
+                        <surname>Seibt</surname></author>
+                    <title level="a">Review of <bibl>
+                        <author><forename>I.</forename>
+                            <surname>Jordanov</surname></author>
+                        <title level="m">Печатите от стратегията в Преслав (971-1088)</title>
+                    <title level="j">Byzantinische Zeitschrift</title>
+                        <biblScope unit="volume">89</biblScope>
+                        <date>1996</date>
+                    <biblScope unit="page">p. 134-138</biblScope>
+                </bibl>
+                
                 <bibl type="journalArticle" xml:id="SBS_Articles1986-1992">
                     <bibl type="abbrev">Scholarly Articles 1986-1992</bibl>
                     <title level="a">Seals published 1986-1992, I, Scholarly Articles</title>
@@ -3881,12 +3942,6 @@
                     <date>2018</date>
                     <biblScope unit="page">p. 1168-1169</biblScope>
                 </bibl>
-
-
-
-
-
-
             </listBibl>
         </body>
     </text>
