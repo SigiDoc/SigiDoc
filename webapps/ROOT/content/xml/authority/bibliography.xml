@@ -903,7 +903,17 @@
                 </bibl>
 
                 <!-- ***************Cheynet******************* -->
-
+               
+                <bibl type="journalArticle" xml:id="Cheynet2006">
+                    <bibl type="abbrev">Cheynet, 2006</bibl>
+                    <author><forename>J.-Cl.</forename>
+                        <surname>Cheynet</surname></author>
+                    <title level="a">De Tziliapert à Sébastè</title>
+                    <title level="j">Studies in Byzantine Sigillography</title>
+                    <biblScope unit="volume">9</biblScope>
+                    <date>2006</date>
+                    <biblScope unit="page">p. 213-226</biblScope>
+                </bibl>                
                 <bibl type="journalArticle" xml:id="Cheynet1983"
                     corresp="http://zotero.org/users/3169239/items/PQ4ALAQ6">
                     <bibl type="abbrev">Cheynet, 1983</bibl>
@@ -1008,7 +1018,7 @@
                     <author><forename>J.-Cl.</forename>
                         <surname>Cheynet</surname></author>
                     <title level="a">Par saint Georges, par saint Michel</title>
-                    <title level="j">Travaux et Mémoires (=Mélanges Gilbert Dagron)</title>
+                    <title level="j">Travaux et Mémoires (= Mélanges Gilbert Dagron)</title>
                     <biblScope unit="volume">14</biblScope>
                     <date>2002</date>
                     <biblScope unit="page">p. 115-134</biblScope>
@@ -1209,6 +1219,17 @@
 
                 <!-- ****************Cotsonis**************** -->
 
+                <bibl type="journalArticle" xml:id="Cotsonis2005">
+                    <bibl type="abbrev">Cotsonis, 2005</bibl>
+                    <author><forename>J.</forename>
+                        <surname>Cotsonis</surname></author>
+                    <title level="a">J. Cotsonis, The Contribution of Byzantine Lead Seals to the Study of the Cult of the Saints (Sixth-Twelfth Centuries)</title>
+                    <title level="j">Byzantion</title>
+                    <biblScope unit="volume">75</biblScope>
+                    <date>2005</date>
+                    <biblScope unit="page">p. 383-497</biblScope>
+                </bibl> 
+                
                 <bibl type="journalArticle" xml:id="Cotsonis2003"
                     corresp="http://zotero.org/users/3169239/items/K2CACI95">
                     <bibl type="abbrev">Cotsonis, 2003</bibl>
@@ -1388,7 +1409,32 @@
                     <date>2003</date>
                     <biblScope unit="page">p. 231-247</biblScope>
                 </bibl>
-
+                
+                <!-- ***************Follieri****************** -->
+                
+                <bibl type="book" xml:id="Follieri1967">
+                    <bibl type="abbrev">Follieri, 1967</bibl>
+                    <author><forename>E.</forename>
+                        <surname>Follieri</surname></author>
+                    <title level="m">Giovanni Mauropode metropolita di Eucaita: Otto canoni paracletici a N.S. Gesù Cristo</title>
+                    <pubPlace xml:lang="en">Rome</pubPlace>
+                    <pubPlace xml:lang="fr">Rome</pubPlace>
+                    <date>1967</date>
+                </bibl>
+                
+                <!-- ***************Galavaris****************** -->
+                
+                <bibl type="journalArticle" xml:id="Galavaris1959">
+                    <bibl type="abbrev">Galavaris, 1959</bibl>
+                    <author><forename>G.P.</forename>
+                        <surname>Galavaris</surname></author>
+                    <title level="a">The Mother of God, “Stabbed with a Knife”</title>
+                    <title level="j">Dumbarton Oaks Papers</title>
+                    <biblScope unit="volume">13</biblScope>
+                    <date>1959</date>
+                    <biblScope unit="page">p. 229-233</biblScope>
+                </bibl>
+                
                 <!-- ***************Garbarino****************** -->
 
                 <bibl type="book" xml:id="Garbarino1988"
@@ -1433,6 +1479,30 @@
                     <series><title level="s">Bilans de recherche 4</title></series>
                 </bibl>
 
+                <!-- **************Gautier************* -->
+
+                <bibl type="journalArticle" xml:id="Gautier1969">
+                    <bibl type="abbrev">Gautier, 1969</bibl>
+                    <author><forename>P.</forename>
+                        <surname>Gautier</surname></author>
+                    <title level="a">Le chartophylax Nicéphore. Œuvre canonique et notice bibliographique</title>
+                    <title level="j">Revue des études byzantines</title>
+                    <biblScope unit="volume">27</biblScope>
+                    <date>1969</date>
+                    <biblScope unit="page">p. 159-195</biblScope>
+                </bibl>
+                
+                <bibl type="journalArticle" xml:id="Gautier1971">
+                    <bibl type="abbrev">Gautier, 1971</bibl>
+                    <author><forename>P.</forename>
+                        <surname>Gautier</surname></author>
+                    <title level="a">Le synode des Blachernes (fin 1094).Étude prosopographique</title>
+                    <title level="j">Revue des études byzantines</title>
+                    <biblScope unit="volume">29</biblScope>
+                    <date>1971</date>
+                    <biblScope unit="page">p. 213-284</biblScope>
+                </bibl>
+                
                 <!-- **************Georgiou************ -->
 
                 <bibl type="journalArticle" xml:id="Georgiou2009"
@@ -1615,6 +1685,17 @@
 
                 <!-- **************Hunger************** -->
 
+                <bibl type="journalArticle" xml:id="Hunger1994">
+                    <bibl type="abbrev">Hunger, 1994</bibl>
+                    <author><forename>H.</forename>
+                        <surname>Hunger</surname></author>
+                    <title level="a">Zur Terminologie der Theotokosdarstellungen auf byzantinischen Siegeln</title>
+                    <title level="j">Aachener Kunstblätter</title>
+                    <biblScope unit="volume">60</biblScope>
+                    <date>1994</date>
+                    <biblScope unit="page">p. 131-142</biblScope>
+                </bibl>
+                
                 <bibl type="journalArticle" xml:id="Hunger1998"
                     corresp="http://zotero.org/users/3169239/items/FSWQUNW7">
                     <bibl type="abbrev">Hunger, 1998</bibl>
@@ -1992,6 +2073,16 @@
 
                 <!-- **************Laurent************** -->
 
+                <bibl type="journalArticle" xml:id="Laurent1930">
+                    <bibl type="abbrev">Laurent, 1930</bibl>
+                    <author><forename>V.</forename>
+                        <surname>Laurent</surname></author>
+                    <title level="a">Sceaux byzantins</title>
+                    <title level="j">Echos d'Orient</title>
+                    <biblScope unit="volume">29</biblScope>
+                    <date>1930</date>
+                    <biblScope unit="page">p. 314-333</biblScope></bibl>
+                
                 <bibl type="book" xml:id="Laurent1932"
                     corresp="http://zotero.org/users/3169239/items/THFVBAEX">
                     <bibl type="abbrev">Laurent, 1932</bibl>
@@ -2597,7 +2688,18 @@
                 </bibl>
 
                 <!-- ************Seibt****************** -->
-
+                
+                <bibl type="journalArticle" xml:id="Seibt2016">
+                    <bibl type="abbrev">Seibt, 2016</bibl>
+                    <author><forename>W.</forename>
+                        <surname>Seibt</surname></author>
+                    <title level="a"> The Sons of Senek’erim Yovhannes, the Last King of Vaspurakan</title>
+                    <title level="j">Revue des études arméniennes</title>
+                    <biblScope unit="volume">37</biblScope>
+                    <date>2016</date>
+                    <biblScope unit="page">p. 119-133</biblScope>
+                </bibl>
+                
                 <bibl type="book" xml:id="Seibt1976"
                     corresp="http://zotero.org/users/3169239/items/QTQPWCNE">
                     <bibl type="abbrev">Seibt, 1976</bibl>
@@ -2882,10 +2984,47 @@
                     <biblScope unit="page">p. 865-890</biblScope>
                 </bibl>
 
-                <!-- ***************************************SOURCES (not sigillographic)***************************** -->
+                <!-- *******************SOURCES (not sigillographic)****************** -->
                 <!-- BIBLIO ABBREV!!!!!!!!!!!!!!!!!! -->
-
-
+                
+                <bibl type="book" xml:id="McGrath2014">
+                    <bibl type="abbrev">Basil the Younger</bibl>
+                    <title level="m">The Life of Saint Basil the Younger</title>
+                    <editor><forename>S.</forename>
+                        <surname>McGrath</surname></editor>
+                    <editor><forename>D.F.</forename>
+                        <surname>Sullivan</surname></editor>
+                    <editor><forename>A.-M.</forename>
+                        <surname>Talbot</surname></editor>
+                    <pubPlace xml:lang="en">Washington, DC </pubPlace>
+                    <date>2014</date>
+                    <series><title level="s">Dumbarton Oaks Studies 45</title></series>
+                </bibl>
+                
+                <bibl type="book" xml:id="Schreiner1975">
+                    <bibl type="abbrev">Chronica Byzantina Breviora</bibl>
+                    <title level="m">Die byzantinischen Kleinchroniken</title>
+                    <author><forename>P.</forename>
+                        <surname>Schreiner</surname></author>
+                    <biblScope unit="part">1, Einleitung und Text</biblScope>
+                    <pubPlace xml:lang="en">Vienna</pubPlace>
+                    <pubPlace xml:lang="fr">Vienne</pubPlace>
+                    <pubPlace xml:lang="de">Wien</pubPlace>
+                    <date>1975-1979</date>
+                    <series><title level="s">CFHB 12</title></series>
+                </bibl>
+         
+                <bibl type="book" xml:id="Skylitzes2010"
+                    corresp="http://zotero.org/users/3169239/items/ZWQU3SBH">
+                    <author><name><forename>Ioannes</forename> <surname>Skylitzes</surname></name></author>
+                    <bibl type="abbrev">Ioannes Skylitzes, Synopsis (transl. J. Wortley) 2010</bibl>
+                    <title level="m">A Synopsis of Byzantine History, 811-1057, transl. J. Wortley</title>
+                    <editor><forename>J.</forename>
+                        <surname>Wortley</surname></editor>
+                    <pubPlace xml:lang="en">Cambridge</pubPlace>
+                    <date>2010</date>
+                </bibl>
+                
                 <bibl type="book" xml:id="AristakèsRécit1973"
                     corresp="http://zotero.org/users/3169239/items/43978AW4">
                     <bibl type="abbrev">Aristakès, Récit, 1973</bibl>
@@ -3395,8 +3534,21 @@
 
                 <!-- ****************THESAURI, DICTIONARIES, ENCYCLOPEDIAS, ETC.******************* -->
 
-                <!-- **************Oxford Dictionary of Byzantium************* -->
+                <!-- **************Lexikon der christlichen Ikonographie************* -->
 
+                <bibl type="book" xml:id="LCI">
+                    <bibl type="abbrev">LCI</bibl>
+                    <title level="m">Lexikon der christlichen Ikonographie</title>
+                    <editor><forename>E.</forename>
+                        <surname>Kirschbaum</surname></editor>
+                    <editor><forename>W.</forename>
+                        <surname>Braunfels</surname></editor>
+                    <pubPlace>Freiburg im Breisgau</pubPlace>
+                    <date>1978</date>
+                </bibl>
+                
+                <!-- **************Oxford Dictionary of Byzantium************* -->
+                
                 <bibl type="book" xml:id="ODB"
                     corresp="http://zotero.org/users/3169239/items/E786KBHT">
                     <bibl type="abbrev">ODB</bibl>
@@ -3409,7 +3561,7 @@
                     <editor><forename>A.</forename>
                         <surname>Cutler</surname></editor>
                     <pubPlace>New York – Oxford</pubPlace>
-                    <publisher>Oxford university Press</publisher>
+                    <publisher>Oxford University Press</publisher>
                     <date>1991</date>
                 </bibl>
                 <bibl type="book" xml:id="PLP"
@@ -3476,6 +3628,14 @@
 
                 <!-- **************** ONLINE RESOURCES ****************-->
 
+                <bibl type="book" xml:id="LBG">
+                    <bibl type="abbrev">LBG</bibl>
+                    <title level="m">Lexikon zur byzantinischen Gräzität</title>
+                    <editor><forename>E.</forename>
+                        <surname>Trapp</surname></editor>
+                     Available at <ref
+                         target="http://stephanus.tlg.uci.edu/lbg/">LBG Online</ref>. </bibl>
+                
                 <bibl type="book" xml:id="DOHagio"
                     corresp="http://zotero.org/users/3169239/items/4AKYE2G9">
                     <bibl type="abbrev">DO Hagiography Database</bibl>
