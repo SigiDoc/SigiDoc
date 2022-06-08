@@ -2964,6 +2964,17 @@
 
                 <!-- *******************Wassiliou-Seibt***************** -->
 
+                <bibl type="journalArticle" xml:id="Wassiliou2006">
+                    <bibl type="abbrev">Wassiliou, 2006</bibl>
+                    <author><forename>A.-K.</forename>
+                        <surname>Wassiliou</surname></author>
+                    <title level="a">Einige bisher unbekannte Namen auf byzantinischen Bleisiegeln</title>
+                    <title level="j">Studies in Byzantine Sigillography</title>
+                    <biblScope unit="volume">9</biblScope>
+                    <date>2006</date>
+                    <biblScope unit="page">p. 69-80</biblScope>
+                </bibl>
+                
                 <bibl type="book" xml:id="Wassiliou-Seibt2011"
                     corresp="http://zotero.org/users/3169239/items/8LCA9TB7">
                     <bibl type="abbrev">Wassiliou-Seibt, 2011</bibl>
