@@ -478,6 +478,15 @@
                     <!--<persName xml:lang="en"></persName>-->
                     <persName xml:lang="de">Orestes</persName>
                 </person>
+                <person sex="M" xml:id="Μοναστρᾶς_Μιχαὴλ">
+                    <!--Da completare!!!!!-->
+                    <persName xml:lang="grc">Μοναστρᾶς, Μιχαὴλ</persName>
+                    <persName xml:lang="en">Μοναστρᾶς, Μιχαὴλ</persName>
+                    <!--<persName xml:lang="en">Monastras, Michael</persName>-->
+                    <persName xml:lang="de">Monastras, Michael</persName>
+                    <idno type="PBW"/><ptr target="https://pbw2016.kdl.kcl.ac.uk/person/160140/"/>
+                    <note>Feind_SB358</note>
+                </person>
             </listPerson>
         </body>
     </text>
