@@ -511,8 +511,7 @@
 
                 <!-- ***************Seyrig********************* -->
 
-                <bibl type="book" xml:id="Seyrig"
-                    corresp="http://zotero.org/users/3169239/items/VQMJYEUR">
+                <bibl type="book" xml:id="Seyrig">
                     <bibl type="abbrev">Cheynet, Morrisson, Seibt, coll. Seyrig, 1991</bibl>
                     <author><forename>J.-Cl.</forename>
                         <surname>Cheynet</surname></author>
