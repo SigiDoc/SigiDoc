@@ -1515,6 +1515,17 @@
                 
                 <!-- **************Georgiou************ -->
 
+                <bibl type="journalArticle" xml:id="Georgiou2019">
+                    <bibl type="abbrev">Georgiou, 2019</bibl>
+                    <author><forename>S. G.</forename>
+                        <surname>Georgiou</surname></author>
+                    <title level="a">Σύμμεικτα για τη βυζαντινή Κύπρο Δʹ</title>
+                    <title level="j">Επετηρίδα Κέντρου Μελετών Ιεράς Μονής Κύκκου</title>
+                    <biblScope unit="volume">12</biblScope>
+                    <date>2019</date>
+                    <biblScope unit="page">p. 517-526</biblScope>
+                </bibl>
+                
                 <bibl type="journalArticle" xml:id="Georgiou2009"
                     corresp="http://zotero.org/users/3169239/items/6BMGFKW8">
                     <bibl type="abbrev">Georgiou, 2009</bibl>
@@ -1719,7 +1730,20 @@
                     <biblScope unit="page">p. 1-28</biblScope>
                 </bibl>
 
-                <!-- *******************Ivanišević****************** -->
+                <!-- **************Iberites************** -->
+                
+                <bibl type="journalArticle" xml:id="Iberites1940">
+                    <bibl type="abbrev">Iberites, 1940</bibl>
+                    <author><forename>I.</forename>
+                        <surname>Iberites</surname></author>
+                    <title level="a">Ἰωάννου Σταυρακίου λόγος εἰς τὰ θαύματα τοῦ ἁγίου Δημητρίου</title>
+                    <title level="j">Μακεδονικά</title>
+                    <biblScope unit="volume">1</biblScope>
+                    <date>1940</date>
+                    <biblScope unit="page">p. 324-376</biblScope>. Available at <ref type="https://doi.org/10.12681/makedonika.9146"/>.
+                </bibl>
+                
+                <!-- *************Ivanišević************* -->
 
                 <bibl type="journalArticle" xml:id="Ivanišević2013"
                     corresp="http://zotero.org/users/3169239/items/9KP35XB6">
@@ -2103,8 +2127,31 @@
                             et civilisation de Byzance 13</title></series>
                 </bibl>
 
+                <!-- **************Laourdas************* -->
+                
+                <bibl type="journalArticle" xml:id="Laourdas1951">
+                    <bibl type="abbrev">Laourdas, 1951</bibl>
+                    <author><forename>B.</forename>
+                        <surname>Laourdas</surname></author>
+                    <title level="a">Κρητικὰ Παλαιογραφικά</title>
+                    <title level="j">Κρητικά Χρονικὰ</title>
+                    <biblScope unit="volume">5</biblScope>
+                    <date>1951</date>
+                    <biblScope unit="page">p. 252-262</biblScope></bibl>
+                
                 <!-- **************Laurent************** -->
 
+                <bibl type="journalArticle" xml:id="Laurent1948">
+                    <bibl type="abbrev">Laurent, 1948</bibl>
+                    <author><forename>V.</forename>
+                        <surname>Laurent</surname></author>
+                    <title level="a">Les fastes épiscopaux de l’Église de Chypre</title>
+                    <title level="j">Revue des études byzantines</title>
+                    <biblScope unit="volume">6</biblScope>
+                    <date>1948</date>
+                    <biblScope unit="page">p. 153-166</biblScope>. Available at <ref
+                        target="https://www.persee.fr/doc/rebyz_0766-5598_1948_num_6_1_977">Persée</ref>.</bibl>
+                
                 <bibl type="journalArticle" xml:id="Laurent1930">
                     <bibl type="abbrev">Laurent, 1930</bibl>
                     <author><forename>V.</forename>
@@ -2198,7 +2245,7 @@
                     <date>2011</date>
                     <biblScope unit="page">p. 361-410</biblScope>
                 </bibl>
-                
+                                     
                 <!-- *******************Leontaritou***************** -->
                 
                 <bibl type="book" xml:id="Leontaritou1996">
@@ -2887,10 +2934,21 @@
 
                 <!-- ************Stepanova************** -->
 
+                <bibl type="journalArticle" xml:id="Stepanova2016">
+                    <bibl type="abbrev">Stepanova, 2016</bibl>
+                    <author><forename>E.</forename>
+                        <surname>Stepanova</surname></author>
+                    <title level="a">Seals of Cyprus from the Hermitage Collection</title>
+                    <title level="j">Studies in Byzantine Sigillography</title>
+                    <biblScope unit="volume">12</biblScope>
+                    <date>2016</date>
+                    <biblScope unit="page">p. 83-92</biblScope>
+                </bibl>
+                
                 <bibl type="bookSection" xml:id="Stepanova2001"
                     corresp="http://zotero.org/users/3169239/items/H4EZV5HM">
                     <bibl type="abbrev">Stepanova, 2001</bibl>
-                    <author><forename>El.</forename>
+                    <author><forename>E.</forename>
                         <surname>Stepanova</surname></author>
                     <title level="a">Образы восточнохристианских святых на печатях Италии XI-XIII
                         веков</title>
@@ -2905,7 +2963,7 @@
                 <bibl type="book" xml:id="Stepanova2006"
                     corresp="http://zotero.org/users/3169239/items/Z8CRNSBE">
                     <bibl type="abbrev">Stepanova, 2006</bibl>
-                    <author><forename>El.</forename>
+                    <author><forename>E.</forename>
                         <surname>Stepanova</surname></author>
                     <title level="m">Печати с латинскими и греко-латинскими надписями VI-VIII вв. из
                         собрания Эрмитажа</title>
@@ -2916,14 +2974,14 @@
                 <bibl type="journalArticle" xml:id="Stepanova2017"
                     corresp="http://zotero.org/users/3169239/items/SLAS4X7D">
                     <bibl type="abbrev">Stepanova, 2017</bibl>
-                    <author><forename>El.</forename>
+                    <author><forename>E.</forename>
                         <surname>Stepanova</surname></author>
                     <title level="a">Le bullaire de l’église de la Néa</title>
                     <editor><forename>B.</forename>
                         <surname>Caseau</surname></editor>
                     <editor><forename>V.</forename>
                         <surname>Prigent</surname></editor>
-                    <editor><forename>Al.</forename>
+                    <editor><forename>A.</forename>
                         <surname>Sopracasa</surname></editor>
                     <title level="j">Travaux et Mémoires (=Οὗ δῶρόν εἰμι τὰς γραφὰς βλέπων νόει.
                         Mélanges Jean-Claude Cheynet)</title>
@@ -3041,6 +3099,37 @@
                 </bibl>
 
                 <!-- *******************SOURCES (not sigillographic)****************** -->
+                
+                <!-- Archives de l’Athos -->
+                
+                <bibl type="book" xml:id="Iviron3">
+                    <bibl type="abbrev">Actes d’Iviron III</bibl>
+                    <title level="m">Actes d’Iviron. III, De 1204 à 1328 </title>
+                    <editor><forename>V.</forename>
+                        <surname>Kravari</surname></editor>
+                    <editor><forename>J.</forename>
+                        <surname>Lefort</surname></editor>
+                    <editor><forename>H.</forename>
+                        <surname>Métrévéli</surname></editor>
+                    <editor><forename>N.</forename>
+                        <surname>Oikonomidès</surname></editor>
+                    <editor><forename>D.</forename>
+                        <surname>Papachryssanthou</surname></editor>
+                    <pubPlace xml:lang="en">Paris</pubPlace>
+                    <date>1994</date>
+                    <series><title level="s">Archives de l’Athos 18</title></series>
+                </bibl>
+                
+                <bibl type="book" xml:id="Esphigmenou">
+                    <bibl type="abbrev">Actes d’Esphigménou</bibl>
+                    <title level="m">Actes d’Esphigménou</title>
+                    <editor><forename>J.</forename>
+                        <surname>Lefort</surname></editor>
+                    <pubPlace xml:lang="en">Paris</pubPlace>
+                    <date>1973</date>
+                    <series><title level="s">Archives de l’Athos 6</title></series>
+                </bibl>
+                
                 <!-- BIBLIO ABBREV!!!!!!!!!!!!!!!!!! -->
                 
                 <bibl type="book" xml:id="McGrath2014">
