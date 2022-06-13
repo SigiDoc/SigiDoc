@@ -73,6 +73,6 @@
     <!--<item label="Byzantine Greek" language_switch="grc" i18n:key="grc"/>-->
     <item label="English" i18n:key="en" language_switch="en"/>
     <item label="French" i18n:key="fr" language_switch="fr"/>
-    <!--<item label="Deutsch" i18n:key="de" language_switch="de"/>-->
+    <item label="Deutsch" i18n:key="de" language_switch="de"/>
   </menu>
 </root>
