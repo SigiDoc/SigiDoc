@@ -303,6 +303,7 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2022-06-28" who="#MF">proofreading, new links to bibliography</change>
             <change when="2022-06-22" who="#PE">diplomatic edition + interpretive edition
                 markup</change>
             <change when="2022-06-12" who="#PE">review bibliography</change>
@@ -315,14 +316,14 @@
         <surface type="obverse">
             <desc>Obverse</desc>
             <!--Bilder noch hinterlegen-->
-            <graphic url="15.jpg" scale="1.5">
+            <graphic url="SB_262a.jpg" scale="1.5">
                 <desc xml:lang="en">Obverse (2022).</desc>
                 <desc xml:lang="de">Avers (2022).</desc>
             </graphic>
         </surface>
         <surface type="reverse">
             <desc>Reverse</desc>
-            <graphic url="15b.jpg" scale="1.5">
+            <graphic url="SB_262b.jpg" scale="1.5">
                 <desc xml:lang="en">Reverse (2022).</desc>
                 <desc xml:lang="de">Revers (2022).</desc>
             </graphic>
@@ -365,7 +366,6 @@
                           <cb n="b"/>θυ
                           <cb n="c"/>Η|Μ̣Α|.ΑΙ
                           <cb n="d"/>Ρ|ΘΕΙ|ΣΑ
-                         
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
@@ -382,7 +382,6 @@
             <div type="apparatus">
                   <listApp>
                       <app>
-                          
                           <note xml:lang="en"/>
                           <note xml:lang="fr"/>
                       </app>
@@ -414,11 +413,10 @@
                     [6]. See <bibl><ptr target="Gautier1969"/>, <citedRange unit="page">here p. 160-161</citedRange></bibl>. See also the commentary to seal no. 261 published in <bibl><ptr target="ZacosGenève"/></bibl>, with earlier bibliography.
                 </p>
               </div>
-            <div type="bibliography" subtype="edition"><bibl><ptr target="CatalanoFilosaSode2021"/>, <citedRange unit="page">p. 317-319</citedRange>.</bibl></div>
+            <div type="bibliography" subtype="edition"><p><bibl><ptr target="CatalanoFilosaSode2021"/>, <citedRange unit="page">p. 317-319</citedRange>.</bibl></p></div>
             <div type="bibliography" subtype="parallels">
                 <!-- Laurent-Verweis wirklich richtig?-->
-                <p>(1) Dumbarton Oaks BZS.1958.106.1805; (2) BZS.1947.2.291; (3) Geneva, CdN 2004-192; (4) IFEB 623. Edition of (1, 2) <bibl><ptr target="Galavaris1959"/>, <citedRange unit="page">p. 229-233, fig. 1 and 2</citedRange></bibl>; <bibl><ptr target="LaurentCorpus5.1"/>, <citedRange unit="page">p. 76-77, no. 95</citedRange></bibl>; (3) <bibl><ptr target="ZacosGenève"/>, <citedRange unit="page">p. 298, no. 262</citedRange></bibl>; <bibl><ptr target="Zacos2"/>, <citedRange unit="page">p. 323-324, no. 668</citedRange></bibl>; (4) mentioned in <bibl><ptr target="ZacosGenève"/>, <citedRange unit="page">p. 298</citedRange></bibl>.</p></div>
-
+                <p>(1) Dumbarton Oaks BZS.1958.106.1805; (2) BZS.1947.2.291; (3) Geneva, CdN 2004-192; (4) IFEB 623. Edition of (1) <bibl><ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.1805/view">BZS.1958.106.1805</ref></citedRange></bibl> (2) <bibl><ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.291/view">BZS.1947.2.291</ref></citedRange></bibl>; (1, 2) <bibl><ptr target="Galavaris1959"/>, <citedRange unit="page">p. 229-233, fig. 1 and 2</citedRange></bibl>; <bibl><ptr target="LaurentCorpus5.1"/>, <citedRange unit="page">p. 76-77, no. 95</citedRange></bibl>; (3) <bibl><ptr target="ZacosGenève"/>, <citedRange unit="page">p. 298, no. 262</citedRange></bibl>; <bibl><ptr target="Zacos2"/>, <citedRange unit="page">p. 323-324, no. 668</citedRange></bibl>; (4) mentioned in <bibl><ptr target="ZacosGenève"/>, <citedRange unit="page">p. 298</citedRange></bibl>.</p></div>
         </body>
     </text>
 </TEI>
