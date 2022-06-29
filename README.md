@@ -1,4 +1,4 @@
-# SigiDoc_Latest
+# SigiDoc
 
 Latest SigiDoc Source Code AS - MF
 
