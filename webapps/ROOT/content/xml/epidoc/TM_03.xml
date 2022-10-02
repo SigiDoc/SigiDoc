@@ -141,7 +141,7 @@
                         <origin>
                             <origPlace>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography lettering titulature parallel" cert="high">
+                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography lettering titulature parallel" cert="high"> alessio
                                 <seg xml:lang="en">11th C., third quarter</seg>
                                 <seg xml:lang="fr">XIe s., troisième quart</seg>
                                 <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
