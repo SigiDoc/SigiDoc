@@ -870,7 +870,7 @@
       
         <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
       <dl class="iospe">  
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><u>Edition(s)</u></i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></dt>
         <dd id="biblioEditions">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
