@@ -8,7 +8,7 @@
 
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <!-- LAST MODIFIED: 2021-08-10 -->
+  <!-- LAST MODIFIED: 2022-10-02 -->
 
   <xsl:template name="sigidoc-body-structure">
     <xsl:call-template name="navigation"/>
