@@ -868,16 +868,16 @@
         <xsl:apply-templates select="$transtxt" mode="sqbrackets"/>
       </div>
       <dl class="iospe">
-        <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></i></h4>
+        <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
         <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></h4>
-        <dd id="biblioEditions">
+        <dt id="biblioEditions">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
               <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-unpublished">Unpublished</i18n:text></i></xsl:otherwise>
           </xsl:choose>
-        </dd>
+        </dt>
         <!--<dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on edition(s)</i18n:text></dt>
         <dd id="biblioCommEditions">
           <xsl:choose>
