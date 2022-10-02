@@ -871,7 +871,7 @@
       <div id="bibliography"> <!--is a div here necessary?????-->
         <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
       <br/><dl class="iospe">  
-        <p><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></p>
+        <br/><p><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></p>
         <dd id="biblioEditions">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
@@ -889,7 +889,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>-->
-        <p><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels"><i>Parallel(s)</i></i18n:text></p>
+        <br/><p><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels"><i>Parallel(s)</i></i18n:text></p>
         <dd id="biblioParallels">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()">
@@ -898,7 +898,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-no-parallels-known">No parallels known</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <p><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further discussion</i></i18n:text></p>
+        <br/><p><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further discussion</i></i18n:text></p>
         <dd id="biblioCommParallels">
           <xsl:choose> <!--da cambiare i subtype-->
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
