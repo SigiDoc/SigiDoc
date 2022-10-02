@@ -42,7 +42,7 @@
       <div class="row">
         <div class="large-4 columns">
           <form action="." id="search-form" method="get">
-<!--            <input name="q" placeholder="Search terms" type="search">-->
+<!--<input name="q" placeholder="Search terms" type="search">-->
             <input id="write" name="q" placeholder="Search terms" type="search">
               <xsl:attribute name="value">
                 <xsl:value-of select="$q_value" />
@@ -56,7 +56,7 @@
                     <xsl:attribute name="checked">checked</xsl:attribute>
                   </xsl:if>
                 </input>
-                <i18n:text i18n:key="search-lemmatised-text"><xsl:text> Search lemmatised text</xsl:text></i18n:text>
+                <i18n:text i18n:key="search-lemmatised-text"><xsl:text>Search lemmatised text</xsl:text></i18n:text>
               </label>
             </xsl:if>
             
@@ -427,7 +427,7 @@
 
             
             <h4>Date <span id="date-slider-label"></span></h4>
-            <div id="date-slider-widget" data-range-min="400" data-range-max="1500" data-value-min="400" data-value-max="1500" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
+            <div id="date-slider-widget" data-range-min="400" data-range-max="1500" data-value-min="400" data-value-max="1500" data-step="20" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />
