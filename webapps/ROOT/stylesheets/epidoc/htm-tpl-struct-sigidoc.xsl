@@ -867,7 +867,7 @@
         <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
         <xsl:apply-templates select="$transtxt" mode="sqbrackets"/>
       </div>
-      <div id="bibliography">
+      <dl class="iospe">
         <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
         <dt class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></dt>
         <dd id="biblioEditions">
@@ -898,53 +898,14 @@
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further discussion</i></i18n:text></dt>
         <dd id="biblioCommParallels">
-          <xsl:choose> <!-\-da cambiare i subtype-\->
+          <xsl:choose> <!--da cambiare i subtype-->
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
               <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-      </div>
-      <!--<dl class="iospe">
-        <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
-        <dt class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></dt>
-        <dd id="biblioEditions">
-          <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()"/>
-            </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-unpublished">Unpublished</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
-        </dd>
-        <!-\-<dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on edition(s)</i18n:text></dt>
-        <dd id="biblioCommEditions">
-          <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionCurrent']/t:p/node()">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussionCurrent']/t:p/node()"/>
-            </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
-        </dd>-\->
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels"><i>Parallel(s)</i></i18n:text></dt>
-        <dd id="biblioParallels">
-          <xsl:choose>
-            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()"/>
-            </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-no-parallels-known">No parallels known</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
-        </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further discussion</i></i18n:text></dt>
-        <dd id="biblioCommParallels">
-          <xsl:choose> <!-\-da cambiare i subtype-\->
-            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()"/>
-            </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
-        </dd>
-      </dl>-->
+      </dl>
       <div id="commentary">
         <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary">Commentary</i18n:text></i></h4>
         <!-- Commentary text output -->
