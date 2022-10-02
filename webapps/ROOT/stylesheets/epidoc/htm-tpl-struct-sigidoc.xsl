@@ -869,7 +869,7 @@
       </div>
       <dl class="iospe">
         <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></i></h4>
-        <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></h3>
+        <h6 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></h6>
         <dd id="biblioEditions">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
