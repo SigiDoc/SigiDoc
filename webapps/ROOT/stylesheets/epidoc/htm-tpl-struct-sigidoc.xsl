@@ -869,7 +869,7 @@
       </div>
       
       <div id="text">
-        <h5 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h5>
+        <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
       <dl class="iospe">  
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></dt>
         <dd id="biblioEditions">
