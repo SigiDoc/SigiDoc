@@ -472,6 +472,14 @@
       <div id="text-field">
         <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-field-obverse">Inscribed field - Obverse</i18n:text></h3><!-- *******inscribed field - obverse *********** -->
         <dl class="iospe"> 
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Language(s)</i18n:text></dt>
+          <dd>
+            <xsl:choose>
+              <xsl:when test="//t:msContents//t:textLang//t:seg//text()">
+                <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
+              </xsl:when>
+              <xsl:otherwise><i>―</i></xsl:otherwise>
+            </xsl:choose>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-layout-field">Layout of field</i18n:text></dt>
           <dd>
             <xsl:choose xml:space="preserve">
@@ -702,16 +710,9 @@
         <!-- dating for assembled seals -->
       </dl>
     </div>
-
-    <dl class="iospe"><!-- don't touch this! -->
-        
-      </dl>
-    
-
-    
-
+    <dl class="iospe"><!-- don't touch this! --></dl>
     <div id="text">
-      <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-text">Text</i18n:text></h3>
+      <!--<h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-text">Text</i18n:text></h3>-->
       <dl class="iospe">
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Language(s)</i18n:text></dt>
         <dd>
@@ -915,7 +916,8 @@
         <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
       </div>
       
-      <div class="fnseparator"/><!-- ************** FOOTNOTES ***************** -->
+      <!-- ************** FOOTNOTES ***************** -->
+      <div class="fnseparator"/>
       <div id="footnotes">
         <h4 class="iospe" id="notes"><i18n:text i18n:key="epidoc-xslt-sigidoc-footnotes">Footnotes</i18n:text></h4>
         <xsl:choose>
