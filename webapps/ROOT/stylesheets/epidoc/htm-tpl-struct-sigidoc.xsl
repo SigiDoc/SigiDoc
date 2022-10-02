@@ -82,7 +82,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-physical-description">Physical description</i18n:text></i></h4><!-- ************* physical description *************** -->
           <dl class="iospe">
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Medium</i18n:text></dt>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-medium">Medium</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:objectType//t:interp[@type='workType']//text()">
@@ -292,7 +292,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-history">History</i18n:text></i></h4><!-- ***********History********* -->
         <dl class="iospe">
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-seal-context">Seal’s category</i18n:text></dt>
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-seal-category">Seal’s category</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:msContents//t:summary[@n='whole']//t:seg//text()">

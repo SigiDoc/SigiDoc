@@ -13,7 +13,7 @@
     <message key="epidoc-xslt-sigidoc-general-layout">Disposition d'ensemble</message>
     <message key="epidoc-xslt-sigidoc-matrix">Matrice</message>
     <message key="epidoc-xslt-sigidoc-physical-description">Description physique</message>
-    <message key="epidoc-xslt-sigidoc-work-type">Type d'empreinte</message>
+    <message key="epidoc-xslt-sigidoc-medium">Type d'empreinte</message>
     <message key="epidoc-xslt-sigidoc-original-impression">Empreinte originale</message>
     <message key="epidoc-xslt-sigidoc-material">Matériau</message>
     <message key="epidoc-xslt-sigidoc-lead">Lead</message>
@@ -41,7 +41,7 @@
     <message key="epidoc-xslt-sigidoc-alternative-dating">Date alternative</message>
     <message key="epidoc-xslt-sigidoc-alternative-dating-basedon">sur la base de</message>
     <message key="epidoc-xslt-sigidoc-history">Historique</message>
-    <message key="epidoc-xslt-sigidoc-seal-context">Catégorie</message>
+    <message key="epidoc-xslt-sigidoc-seal-category">Catégorie</message>
     <message key="epidoc-xslt-sigidoc-issuer">Émetteur</message>
     <message key="epidoc-xslt-sigidoc-issuer-milieu">Milieu de l'émetteur</message>
     <message key="epidoc-xslt-sigidoc-place-origin">Lieu d'émission</message>
