@@ -10,7 +10,7 @@
     
   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2021-08-14 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2022-10-02 -->
   
   <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
@@ -16634,18 +16634,111 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs:attribute name="type" use="required">
+      <xs:attribute name="type" use="required"><!-- documentation to be added -->
         <xs:simpleType>
-          <xs:restriction base="xs:token">
-            <xs:enumeration value="imperial"/>
-            <xs:enumeration value="civil"/>
-            <xs:enumeration value="military"/>
-            <xs:enumeration value="layAristocracy"/>
-            <xs:enumeration value="secularChurch"/>
-            <xs:enumeration value="monastic"/>
-            <xs:enumeration value="civic"/>
-            <xs:enumeration value="private"/>
-            <xs:enumeration value="undetermined"/>
+          <xs:restriction>
+            <xs:simpleType>
+              <xs:list>
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:union>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="imperial">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="civil">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="military">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="aristocracy">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="secularChurch">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="monastic">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="civic">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="private">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="corporate">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="undetermined">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:union>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:list>
+            </xs:simpleType>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
