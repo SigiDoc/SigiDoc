@@ -889,7 +889,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>-->
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels"><i>Parallel(s)</i></i18n:text></dt>
+        <p><i18n:text i18n:key="epidoc-xslt-sigidoc-parallels"><i>Parallel(s)</i></i18n:text></p>
         <dd id="biblioParallels">
           <xsl:choose>
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='parallels']/t:p/node()">
@@ -898,7 +898,7 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-no-parallels-known">No parallels known</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further discussion</i></i18n:text></dt>
+        <p><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further discussion</i></i18n:text></p>
         <dd id="biblioCommParallels">
           <xsl:choose> <!--da cambiare i subtype-->
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
