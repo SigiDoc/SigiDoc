@@ -15465,20 +15465,165 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="tei:p"/>
       </xs:sequence>
-      <xs:attribute name="rend">
+      <xs:attribute name="rend"><!-- documentation to be added -->
         <xs:simpleType>
-          <xs:restriction base="xs:token">
-            <xs:enumeration value="blankTooSmall"/>
-            <xs:enumeration value="broken"/>
-            <xs:enumeration value="clipped"/>
-            <xs:enumeration value="cut"/>
-            <xs:enumeration value="deformedBlank"/>
-            <xs:enumeration value="notCentered"/>
-            <xs:enumeration value="overstruck"/>
-            <xs:enumeration value="pierced"/>
-            <xs:enumeration value="wornEdge"/>
-            <xs:enumeration value="obliterated"/>
-            <xs:enumeration value="crushed"/><!-- and so on... -->
+          <xs:restriction>
+            <xs:simpleType>
+              <xs:list>
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:union>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="blankTooSmall">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="broken">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="clipped">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="cut">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="deformedBlank">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="notCentered">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="overstruck">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="pierced">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="wornEdge">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="obliterated">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="crushed">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="wellPreserved">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="blankTooLarge">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="corroded">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="tornChannel">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
+                            <xs:enumeration value="chipped">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:union>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:list>
+            </xs:simpleType>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
