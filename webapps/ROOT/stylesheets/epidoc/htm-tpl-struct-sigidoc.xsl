@@ -82,7 +82,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-physical-description">Physical description</i18n:text></i></h4><!-- ************* physical description *************** -->
           <dl class="iospe">
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Type of impression</i18n:text></dt>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-work-type">Medium</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:objectType//t:interp[@type='workType']//text()">
@@ -100,6 +100,15 @@
             <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-lead">Lead</i18n:text></xsl:otherwise>
           </xsl:choose>
         </dd>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-shape">Shape</i18n:text></dt>
+            <dd>
+              <xsl:choose>
+                <xsl:when test="//t:layout//t:rs[@type='shape']//t:seg//text()">
+                  <xsl:apply-templates select="//t:layout//t:rs[@type='shape']//t:seg"/>
+                </xsl:when>
+                <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-round">Round</i18n:text></xsl:otherwise>
+              </xsl:choose>
+            </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-dimensions">Dimensions (mm)</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
@@ -211,15 +220,6 @@
                 <xsl:otherwise><i>―</i></xsl:otherwise>
               </xsl:choose>
             </dd>
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-shape">Shape</i18n:text></dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:layout//t:rs[@type='shape']//t:seg//text()">
-              <xsl:apply-templates select="//t:layout//t:rs[@type='shape']//t:seg"/>
-            </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-round">Round</i18n:text></xsl:otherwise>
-          </xsl:choose>
-        </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-condition">Condition</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
@@ -292,7 +292,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-history">History</i18n:text></i></h4><!-- ***********History********* -->
         <dl class="iospe">
-          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-seal-context">Seal's context</i18n:text></dt>
+          <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-seal-context">Seal’s category</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:msContents//t:summary[@n='whole']//t:seg//text()">
