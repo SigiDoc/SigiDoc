@@ -868,6 +868,7 @@
         <xsl:apply-templates select="$transtxt" mode="sqbrackets"/>
       </div>
       
+      <div id="bibliography">
         <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-references">References</i18n:text></h4>
       <dl class="iospe">  
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-editions"><i>Edition(s)</i></i18n:text></dt>
@@ -907,6 +908,7 @@
           </xsl:choose>
         </dd>
       </dl>
+      </div>
       
       <div id="commentary">
         <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary">Commentary</i18n:text></i></h4>
