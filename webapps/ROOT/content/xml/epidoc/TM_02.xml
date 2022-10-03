@@ -323,7 +323,7 @@
                           <rs type="legendsCases" ref="legendsCases.xml#Nom">
                                   <lb n="1"/>
                                   +
-                                  <persName type="attested" ref="prosopography.xml#Κωνσταντῖνος_Δ">
+                                  <persName type="attested" ref="prosopography-trial-run.xml#ConstantineIV">
                                       <name>Const
                                   <lb n="2" break="no"/>antinos</name>
                                   </persName>
