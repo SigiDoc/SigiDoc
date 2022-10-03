@@ -336,7 +336,7 @@
                                           <expan><abbr>n</abbr><ex>oster</ex></expan>
                                       </w>
                                   </rs>
-                                  <persName type="attested" ref="prosopography-trial-run.xml#JustinianI">
+                                  <persName type="attested" ref="prosopography.xml#Iustinianus_I">
                                       <name>Iustini<supplied reason="lost">anus</supplied></name>
                                   </persName>
                                       <rs type="title" ref="titles.xml#augustus">
