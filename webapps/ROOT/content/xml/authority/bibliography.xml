@@ -3727,7 +3727,6 @@
                     <author><forename>J. R.</forename>
                         <surname>Martindale</surname></author>
                     <title level="m">The prosopography of the later Roman Empire</title>
-                    <!--<idno type="ISBN">0-521-20160-8</idno>-->
                     <biblScope unit="part">III, A.D. 527-641</biblScope>
                     <pubPlace>Cambridge</pubPlace>
                     <publisher>Cambridge university press</publisher>
@@ -3808,8 +3807,7 @@
                     <title level="m">Papyri.info</title>
                     <date>2010</date> Available at <ref target="https://papyri.info/"
                         >Papyri.info</ref>. </bibl>
-                <bibl type="book" xml:id="PBE1"
-                    corresp="http://zotero.org/users/3169239/items/J6MKGAHR">
+                <bibl type="book" xml:id="PBE1">
                     <bibl type="abbrev">PBE, 1</bibl>
                     <title level="m">Prosopography of the Byzantine Empire</title>
                     <biblScope unit="part">1, (641-867)</biblScope>
@@ -3843,6 +3841,8 @@
                     <date>2013</date> Available at <ref target="https://doi.org/10.1515/pmbz">PmbZ
                         Online</ref>
                 </bibl>
+                
+                
 
                 <!-- *****************AUCTIONS' CATALOGUES AND ONLINE CATALOGUES********************************** -->
 
