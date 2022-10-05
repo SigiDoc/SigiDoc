@@ -10,7 +10,7 @@
     
   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2022-10-02 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2022-10-04 -->
   
   <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
