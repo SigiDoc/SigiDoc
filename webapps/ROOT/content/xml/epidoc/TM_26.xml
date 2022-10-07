@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Seal of Andrea Michiel, imperial protonobelissimos</seg>
+                    <seg xml:lang="fr">Sceau d'Andrea Michiel, protonobélissime impérial</seg>
+                </title>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg>Digital conversion</seg>
+                </edition>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">TM_26</idno>
+                <idno type="SigiDocID">26</idno>
+                <idno type="sequence">0029</idno>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">Italy</seg>
+                            <seg xml:lang="fr">Italie</seg>
+                        </country>
+                        <settlement>
+                            <seg></seg>
+                        </settlement>
+                        <institution></institution>
+                        <repository></repository>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
+                        <idno>6</idno>
+                        <altIdentifier xml:lang="en">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Seals of dignitaries</seg>
+                            <seg xml:lang="fr">Sceaux de dignitaires</seg>
+                        </summary>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Byzantine greek</seg>
+                            <seg xml:lang="fr">Grec byzantin</seg>
+                        </textLang>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="layAristocracy">
+                                    <seg xml:lang="la">Andreas Michael</seg>
+                                    <seg xml:lang="en">Andrea Michiel</seg>
+                                    <seg xml:lang="fr">Andrea Michiel</seg>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">21</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                </support>
+                                <condition rend="wornEdge">
+                                    <p>Flan rogné sur le pourtour, en particulier dans la moitié supérieure ; bon état de conservation</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Iconography and legend</seg>
+                                        <seg xml:lang="fr">Iconographie et légende</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="en">Round</seg>
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">24</idno>
+                                    </rs>                                  
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="whole"><seg>Le P de début de quatrième ligne est doté d’un appendice horizontal qui marque
+                                l’abréviation. Ce signe est distinct du  de troisième ligne. Les deux signes se retrouvent
+                                sur la matrice presque identique et certainement produite simultanément (suite à une
+                                promotion intervenue au même moment ?) de Vitale Marcello [1]. La perle visible au
+                                centre de la troisième ligne, légèrement plus bas que le niveau de la ligne, n’appartient
+                                peut-être pas à la légende. Les flans vierges présentent fréquemment une sorte de petit
+                                bouton en leur centre et il est possible qu’une frappe trop faible ne l’ait pas oblitéré. Deux
+                                éléments plaident toutefois à l’encontre de cette hypothèse. Tout d’abord, on aperçoit
+                                un second bouton, moins distinct, juste au-dessus à gauche, qui a plus de chances d’être
+                                l’ombilic du flanc. Ensuite, la même perle est visible sur la pièce parallèle Klimanov [2].
+                                Sur la dernière ligne, le O est un peu excentré et il semble possible de voir les restes d’une
+                                autre lettre à gauche, semblable à un Π. Le décentrage s’explique sans doute par le souci
+                                d’aligner la dernière lettre avec la première, l’initiale A, bien à l’aplomb du O. Le Π est
+                                sans doute une chimère ou l’indice d’une première frappe sous-jacente.</seg></handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" ana="iconography.xml#St_John_Chrysostomos" xml:lang="en">Bust of St John Chrysostomos</figDesc>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg></seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1081" notAfter="1120" evidence="prosopography lettering titulature parallel" cert="high">
+                                <seg xml:lang="en">11th C, end-12th C., first 2 decades</seg>
+                                <seg xml:lang="fr">XIe s., fin - XIIe s., deux premières décennies</seg>
+                                <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering, parallel</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie, parallel</interp>
+                            </origDate>
+                        </origin>
+                        <provenance type="found"/>
+                        <provenance type="observed"/>
+                        <provenance type="not-observed"/>
+                        <provenance type="transferred"/>
+                        <acquisition>
+                            <p xml:lang="en">Artemide Aste (San Marino), Auction 22E, <date when="2013-04-25">25th of April 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/141/407">407</ref></p>
+                            <p xml:lang="fr">Artemide Aste (San Marino), Vente 22E, <date when="2013-04-25">25 Avril 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/141/407">407</ref></p>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography</seg>
+                                            <seg xml:lang="fr">Iconographie</seg>
+                                        </rs>
+                                        <p xml:lang="en">Iconography</p>
+                                        <p xml:lang="fr">Iconographie</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r">Buste de saint Jean
+                                            Chrysostome nimbé, barbu et de face, portant un phélonion et omophorion décoré ;
+                                            le saint bénit de la main droite et tient de la gauche l’Évangile ; de part et d’autre de
+                                            l’effigie, inscription en deux colonnes</figDesc>
+                                        <figDesc n="decoR">Bordure linéaire partiellement conservée</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
+                                            <seg xml:lang="fr">Légende sur 6 lignes</seg>
+                                        </rs>
+                                        <p xml:lang="en">Legend of 6 lines</p>
+                                        <p xml:lang="fr">Légende sur 6 lignes</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v"></figDesc>
+                                        <figDesc n="decoV">Bordure linéaire en partie conservée</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
+            <change when="2020-07-26" who="AS">Bibliographic references improved and footnotes added</change>
+            <change when="2020-06-08" who="AS">Id for the dignity modified, line 328</change>
+            <change when="2018-08-14" who="AS">First version of the record</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+              <surface type="obverse">
+                  <desc>Obverse</desc>
+                  <graphic url="6.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
+                      <desc xml:lang="fr">Reproduction numérique de l'avers (2015)</desc>
+                  </graphic>
+              </surface>
+              <surface type="reverse">
+                  <desc>Reverse</desc>
+                  <graphic url="6b.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
+                      <desc xml:lang="fr">Reproduction numérique du revers (2015)</desc>
+                  </graphic>
+              </surface>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="la">
+                  <div type="textpart" subtype="label" n="obv" rend="columns">
+                      <ab>
+                          <cb n="a"/><rs type="saintsTerm" subtype="label" ref="saintsTerms.xml#Sanctus_Iohannes_Chrussostomos">
+                              <expan><abbr>S</abbr><ex>anctus</ex></expan> 
+                              <expan><abbr>I</abbr><ex>ohannes</ex></expan> 
+                              Chrus
+                          <cb n="b"/>
+                              sostomos
+                          </rs>
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <rs type="legendsCases" ref="legendsCases.xml#Nom">
+                                  <lb n="1"/>
+                                  +
+                                  <persName type="attested" ref="prosopography.xml#Michael_Andreas">
+                                      <name type="forename">
+                                          <expan><abbr>A</abbr><ex>ndreas</ex></expan>
+                                      </name>
+                                  <lb n="2"/>
+                                      <name type="surname">
+                                          Michael
+                                      </name>
+                                  </persName>
+                                  <lb n="3"/>
+                                  <rs type="dignity" ref="dignities.xml#protonobilissimus_imperialis">
+                                      <expan><abbr>imp</abbr><ex>er</ex><abbr>ial</abbr><ex>is</ex></expan>
+                                  <lb n="4"/>
+                                      <expan><abbr>p</abbr><ex>ro</ex><abbr>tonobi
+                                  <lb n="5" break="no"/>lissim
+                                  <lb n="6" break="no"/>o</abbr></expan>
+                                  </rs>
+                          </rs>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
+                  <div type="textpart" subtype="label" n="obv" rend="columns">
+                      <ab>
+                          <cb n="a"/>S|̅ I|̅CH|RV |S
+                          <cb n="b"/>SO|STO|MO|S
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <lb n="1"/>
+                          <lb n="2"/>MICHEL
+                          <lb n="3"/>IMIL<!-- abbrev. per L non visualizzata -->
+                          <lb n="4"/>PTONOBI<!-- abbrev. per P non visualizzata -->
+                          <lb n="5"/>LISSIM
+                          <lb n="6"/>O
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app loc="1">
+                          <lem></lem><rdg></rdg><note>dans son édition de la pièce parallèle, Klimanov donne une solution erronée du , interprété comme « adjuva ». 
+                              Si l’on en croit le dessin donné dans <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="page">6, p. 549-550</citedRange></bibl>, la pièce éditée par Klimanov est distincte de celle de la collection Schlumberger, mais les notes de Likhačev identifient bien les deux sceaux.</note>
+                      </app>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Sanctus Iohannes Chrussostomos. / +Andreas Michael imperialis protonobilissimo.</p>
+                  <p xml:lang="en">St John Chrysostomos. Andrea Michiel, imperial protonobelissimos.</p>
+                  <p xml:lang="fr">Saint Jean Chrysostome. / Andrea Michiel, protonobélissime impérial.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p>Ce sceau fait partie du groupe restreint des plus anciens sceaux vénitiens de style byzantin à présent connus.</p>
+                      <p>L’iconographie de saint Jean Chrysostome s’explique
+                          par le fait que la famille Michiel possédait des biens dans cette paroisse de la ville de
+                          Venise [3], une hypothèse confirmée par la bulle d’un représentant d’une autre famille de ce
+                          quartier, Giacomo Baseggio, qui arbore également une effigie de saint Jean Chrysostome [4].</p>
+                  <p>Le titre de protonobélissime, ancienne épithète impériale devenue l’apanage des
+                      membres de la famille impériale avant d’être offert aux plus hauts dignitaires de l’Empire
+                      au xie siècle, subit de plein fouet la fameuse « dévaluation » des dignités bien étudiée
+                      par Jean-Claude Cheynet, qui mit en lumière son lien à la dévaluation monétaire [5].
+                      L’attribution de titres auliques byzantins aux doges de Venise est un fait bien connu [6],
+                      mais dans un certain nombre de cas, qui semblent avoir été numériquement plutôt
+                      limités [7], des titres étaient donnés également à de simples citoyens. Le protonobélissimat
+                      honora ainsi au XIIe siècle plusieurs Italiens, et notamment des Vénitiens [8]. L’ajout de l’épithète « imperialis » à ce titre est contraire aux usages byzantins mais typique de l’Italie [9].</p>
+                              <p>Le personnage ainsi titré sur notre bulle, Andrea Michiel [10], est connu par ailleurs. Il
+                                  est mentionné dans le testament rédigé en 1119 par un homonyme [11], ambassadeur auprès
+                                  du roi de Hongrie, qui le mentionne comme son <hi rend="italic">nepos</hi> : <hi rend="italic">volo ut predicta uxor mea recipiat
+                                  libras denariorum ducentas quadraginta ab Andrea Michaele et imperiali protonobilissimo
+                                  nepoti meo in ista prima ventura festivitate Sancti Petri, sicut ille iamdictus Andreas michi
+                                  obligatus est dare</hi> [12].</p>
+                              <p>Le titre de protonobélissime pourrait se justifier par l’appartenance de
+                                  notre Andrea à la branche ducale de la famille [13]. En effet, tant Vitale Ier Michiel (1096-1102) que Domenico Michiel (1118-1130) furent élus doges avant la date du testament.
+                                  Pendant le règne d’Alexis Ier, la dignité de protonobélissime était la plus élevée de celles
+                                  ouvertes aux fonctionnaires ne faisant pas partie de la famille impériale [14] et l’on pourrait
+                                  envisager que l’octroi du titre de protosébaste au doge se soit accompagné de collations
+                                  de dignités à ses proches, peut-être même de façon indirecte, à la façon de ce qui advint
+                                  sous Michel VII avec Robert Guiscard [15]. Cela contribuerait également à expliquer la
+                                  production manifestement simultanée du sceau presque identique de Vitale Marcello,
+                                  également protonobélissime [16].</p>
+                      <p>Contrairement à ce qu’avait envisagé Vivien Prigent, le recours à une légende au datif ne
+                          serait pas nécessairement une imitation des usages grecs, puisque les documents vénitiens
+                          sont susceptibles d’utiliser <hi rend="italic">protonobellissimo</hi> même au nominatif [17].</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="part">3, p. 579-583</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-2">
+                      [2]. Il demeure possible que les deux pièces aient été faiblement frappées mais le beau relief n’incite
+                          pas à se rallier à cette position. On ne peut que regretter que le sceau de Vitale Marcello soit percé en
+                          cet endroit et ne permette pas de comparaison sur ce point.
+                  </p>
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 830</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-4">
+                      [4]. Voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange unit="page">p. 607-612</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Cheynet1983"/></bibl>.
+                  </p>
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Ravegnani1992"/></bibl>.
+                  </p>
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 825</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-8">
+                      [8]. Mentions réunies dans <bibl><ptr target="Falkenhausen2013"/>, <citedRange unit="page">p. 827-830</citedRange></bibl> 
+                      et plus généralement <bibl><ptr target="Martin2010"/></bibl>.
+                  </p>
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 623</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-11">
+                      [11]. Un Andrea Michiel, peut-être à identifier avec l’Andrea Michiel testateur (oncle ou grand-père
+                          du propriétaire du sceau), a été ambassadeur auprès d’Alexis Ier en 1084, comme le relate la chronique
+                          d’Andrea Dandolo : <hi rend="italic">Qui [= le doge Vitale Falier], augusti ortacione, Andream Michaelem, Dominicum
+                          Dandulo et Iacobum Aurio legatos Constantinopolim missit, ut iurisdiciones Dalmacie et Choracie [sic], sibi
+                          ab incolis traditas, optineret, quam constantinopolitano imperio pertinere noverat</hi> (<bibl><ptr target="DanduliChronica1938"/>, <citedRange unit="page">p. 217</citedRange></bibl>). 
+                      La date de cette ambassade est sujette à caution, 
+                      voir <bibl><ptr target="Saint-Guillain2017"/>, <citedRange>p. 586-587</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Pozza1983"/>, <citedRange unit="page">p. 230</citedRange></bibl>. Le latin <hi rend="italic">nepos</hi> peut être interprété à la fois comme neveu
+                          et comme petit-fils : le fait que les deux personnes aient eu le même prénom ferait plutôt penser à un
+                          petit-fils qui aurait hérité du prénom du grand-père, usage très répandu à Venise comme à Byzance,
+                          mais on ne peut pas en avoir la certitude.
+                  </p>
+                  <p xml:id="footnote-13">
+                      [13]. Voir <bibl><ptr target="Pozza1983"/>, <citedRange>p. 228, n. 20</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-14">
+                      [14]. <bibl><ptr target="Cheynet1983"/>, <citedRange unit="page">p. 473-475</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-15">
+                      [15]. <bibl><ptr target="Bibicou1959"/></bibl>.
+                  </p>
+                  <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Stepanova2001"/>, <citedRange unit="part">9, p. 62</citedRange></bibl>, identifié dans 
+                      <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 625</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Prigent2012"/>, <citedRange unit="page">p. 622</citedRange></bibl>. Erreur
+                      corrigée dans <bibl><ptr target="Saint-Guillain2017"/>, <citedRange>p. 580 et n. 98</citedRange></bibl>.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange unit="part">26, p. 732-735</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="Klimanov1999"/>, <citedRange unit="part">33, p. 235-236</citedRange></bibl>.</p>
+              </div>
+          </body>
+      </text>
+</TEI>             

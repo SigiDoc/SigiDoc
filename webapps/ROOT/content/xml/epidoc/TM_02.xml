@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Seal of Constantine IV and Anastasia, basileis
+                        of the Romans</seg>
+                    <seg xml:lang="fr">Sceau de Constantin IV et Anastasie, basileis
+                        des Romains</seg>
+                </title>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename>
+                        <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename>
+                        <surname>Prigent</surname></persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg>Digital conversion</seg>
+                </edition>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename>
+                        <surname>Sopracasa</surname></persName>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">TM_02</idno>
+                <idno type="SigiDocID">2</idno>
+                <idno type="sequence">0002</idno>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                        Commons Attributions-NonCommercial-ShareAlike 4.0 International
+                        License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">Italy</seg>
+                            <seg xml:lang="fr">Italie</seg>
+                        </country>
+                        <settlement>
+                            <seg/>
+                        </settlement>
+                        <institution/>
+                        <repository/>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
+                        <idno>56</idno>
+                        <altIdentifier xml:lang="en">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Imperial seals</seg>
+                            <seg xml:lang="fr">Sceaux impértaux</seg>
+                        </summary>
+                        <textLang mainLang="grc-Latn">
+                            <seg xml:lang="en">Byzantine Greek in Latin script</seg>
+                            <seg xml:lang="fr">Grec byzantin en alphabet latin</seg>
+                        </textLang>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="imperial">
+                                    <seg xml:lang="grc">Κωνσταντῖνος Δ΄, </seg>
+                                    <seg xml:lang="en">Constantine IV, </seg>
+                                    <seg xml:lang="fr">Constantin IV, </seg>
+                                    <seg xml:lang="grc">Αναστασία</seg>
+                                    <seg xml:lang="en">Anastasia</seg>
+                                    <seg xml:lang="fr">Anastasie</seg>
+                                    <interp type="milieu" xml:lang="en">Imperial</interp>
+                                    <interp type="milieu" xml:lang="fr">Impérial</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">32</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="wornEdge">
+                                    <p>Bon état de conservation; large flan rogné sur le
+                                        pourtour</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Iconography and legend</seg>
+                                        <seg xml:lang="fr">Iconographie et légende</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="en">Round</seg>
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">19</idno>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="whole">
+                                <seg>Les lettres de la légende au revers présentent des empattements
+                                    marqués.</seg>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" ana="iconography.xml#Virgin" xml:lang="en">Bust of the
+                                        Virgin</figDesc>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg/>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0668" notAfter="0685"
+                                evidence="prosopography titulature lettering" cert="high">
+                                <seg>668-685</seg>
+                                <interp type="datingCriteria" xml:lang="en">prosopography,
+                                    titulature, lettering</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie,
+                                    titulature, épigraphie</interp>
+                            </origDate>
+                        </origin>
+                        <provenance type="found"/>
+                        <provenance type="observed"/>
+                        <provenance type="not-observed"/>
+                        <provenance type="transferred"/>
+                        <acquisition>
+                            <p/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography</seg>
+                                            <seg xml:lang="fr">Iconographie</seg>
+                                        </rs>
+                                        <p xml:lang="en">Iconography</p>
+                                        <p xml:lang="fr">Iconographie</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r">Buste de la Vierge, avec nimbe de grènetis,
+                                            habillée avec chiton et maphorion, tenant des deux mains
+                                            devant la poitrine l’Enfant au nimbe de grènetis
+                                            crucifère, vêtu d’un himation et de quatre perles
+                                            disposées en croix sur la poitrine. Comme le souligne
+                                            Werner Seibt, l’enfant n’est pas dans le clipeus
+                                            habituel [1].</figDesc>
+                                        <figDesc n="decoR">Au pourtour, cercle de feuilles de
+                                            laurier partiellement conservé; deux grandes croix
+                                            latines placées à droite et à gauche du buste de la
+                                            Vierge</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Legend of 6 lines</seg>
+                                            <seg xml:lang="fr">Légende sur 6 lignes</seg>
+                                        </rs>
+                                        <p xml:lang="en">Legend of 6 lines preceded by a small
+                                            cross</p>
+                                        <p xml:lang="fr">Légende sur 6 lignes précédée d’une
+                                            croisette</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v"/>
+                                        <figDesc n="decoV">Au pourtour, cercle de feuilles de
+                                            laurier partiellement conservé</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
+            <change when="2021-03-12" who="AS">Bibliographic referencing system changed</change>
+            <change when="2020-08-08" who="AS">Legend and translation added</change>
+            <change when="2020-05-29" who="AS">Bibliographic references improved and footnotes
+                added</change>
+            <change when="2018-08-13" who="AS">First version of the record</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="obverse">
+            <desc>Obverse</desc>
+            <graphic url="56.jpg" scale="1.5">
+                <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
+                <desc xml:lang="fr">Reproduction numérique de l'avers (2015).</desc>
+            </graphic>
+        </surface>
+        <surface type="reverse">
+            <desc>Reverse</desc>
+            <graphic url="56b.jpg" scale="1.5">
+                <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
+                <desc xml:lang="fr">Reproduction numérique du revers (2015).</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc-Latn">
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <rs type="legendsCases" ref="legendsCases.xml#Nom">
+                                  <lb n="1"/>
+                                  +
+                                  <persName type="attested" ref="prosopography.xml#Κωνσταντῖνος_Δ">
+                                      <name>Const
+                                  <lb n="2" break="no"/>antinos</name>
+                                  </persName>
+                                  <lb n="3"/>
+                                  <persName type="attested" ref="prosopography.xml#Κώνστας_Β">
+                                      <name>
+                                          <expan><abbr>Constant</abbr><ex>inou</ex></expan>
+                                      </name>
+                                  </persName>
+                                  <lb n="4"/>
+                                  <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
+                                      <expan><ex>καὶ</ex></expan>
+                                  </w> 
+                                  <persName type="attested" ref="prosopography.xml#Ἀναστασία">
+                                      <name>
+                                          <expan><abbr>Anastasi</abbr><ex>a</ex></expan>
+                                      </name>
+                                  </persName>
+                                  <lb n="5"/>
+                                  <w lemma="ἐκ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=ek&amp;la=greek">ec</w> 
+                                  <w lemma="θεός" lemmaRef="http://www.perseus.tufts.edu/hopper/resolveform?type=exact&amp;lookup=qeos&amp;lang=greek">
+                                      <expan><abbr>Θ</abbr><ex>eu</ex></expan></w> 
+                                  <rs type="title" ref="titles.xml#βασιλεύς">
+                                      <expan><abbr>basil</abbr><ex>eis</ex></expan>
+                                  <lb n="6"/>
+                                      <w lemma="Ῥωμαῖος" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=rwmaioi&amp;la=greek">Romaio<supplied reason="lost">n</supplied></w>
+                                  </rs>
+                          </rs>
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc-Latn"><!-- at the end of the 4th line, not the right abbrev. sign -->
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <lb n="1"/><c type="glyph" ana="glyphs.xml#uniE745" subtype="decoration"></c><c type="glyph" ana="glyphs.xml#uniE805" subtype="decoration"></c><c type="glyph" ana="glyphs.xml#C">C</c><c type="glyph" ana="glyphs.xml#O">O</c><c type="glyph" ana="glyphs.xml#N.1"></c><c type="glyph" ana="glyphs.xml#S">S</c><c type="glyph" ana="glyhps.xml#T.1"></c>
+                          <lb n="2"/><c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ana="glyphs.xml#N.1"></c><c type="glyph" ana="glyhps.xml#T.1"></c><c type="glyph" ana="glyphs.xml#I">I</c><c type="glyph" ana="glyphs.xml#N.1"></c>̣<c type="glyph" ana="glyphs.xml#O">O</c><c type="glyph" ana="glyphs.xml#S">S</c><c type="glyph" ana="glyphs.xml#uniE745" subtype="decoration"></c>
+                          <lb n="3"/><c type="glyph" ana="glyphs.xml#C">C</c><c type="glyph" ana="glyphs.xml#O">O</c><c type="glyph" ana="glyphs.xml#N.1"></c><c type="glyph" ana="glyphs.xml#S">S</c><c type="glyph" ana="glyhps.xml#T.1"></c>̣<c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c>̣<c type="glyph" ana="glyphs.xml#N.1"></c><c type="glyph" ana="glyhps.xml#T.1"></c><c type="glyph" ana="glyphs.xml#uni2E09.1" subtype="abbreviation"></c>
+                          <lb n="4"/><c type="glyph" ana="glyphs.xml#Kappa_Alpha_Iota" subtype="greekLigatures"></c><c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ana="glyphs.xml#N.1"></c><c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ana="glyphs.xml#S">S</c><c type="glyph" ana="glyhps.xml#T.1"></c><c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ana="glyphs.xml#S">S</c><c type="glyph" ana="glyphs.xml#I">I</c><c type="glyph" ana="glyphs.xml#uni002F" subtype="abbreviation">/</c>
+                          <lb n="5"/><c type="glyph" ana="glyphs.xml#E">E</c><c type="glyph" ana="glyphs.xml#C">C</c><c type="glyph" ana="glyphs.xml#Theta.2" subtype="Θ"></c><c type="glyph" ana="glyphs.xml#uni02CA" subtype="abbreviation">ʹ</c><c type="glyph" ana="glyphs.xml#B.1"></c><c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c><c type="glyph" ana="glyphs.xml#S">S</c><c type="glyph" ana="glyphs.xml#I">I</c><c type="glyph" ana="glyiphs.xml#L">L</c><c type="glyph" ana="glyphs.xml#uni2E09.1" subtype="abbreviation"></c>
+                          <lb n="6"/><c type="glyph" ana="glyphs.xml#R">R</c>̣<c type="glyph" ana="glyphs.xml#O">O</c>̣<c type="glyph" ana="glyphs.xml#M.2"></c>̣<c type="glyph" ana="glyphs.xml#Alpha.20" subtype="Α"></c>̣<c type="glyph" ana="glyphs.xml#I">I</c>̣<c type="glyph" ana="glyphs.xml#O">O</c>̣<c type="glyph" ana="glyphs.xml#period" subtype="editorial">.</c>
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                      <p/>
+              </div>
+            <div type="translation">
+                  <p>+Constantinos Constantinou καὶ Anastasia ec Θeu basileis Romaion.</p>
+                  <p xml:lang="en">Constantine son of Constantine, and Anastasia, in God emperors of the Romans.</p>
+                <p xml:lang="fr">Constantin fils de Constantin, et Anastasie, en Dieu empereurs des Romains.</p>
+              </div>
+            <div type="commentary" subtype="text">
+                                  <p>L’absence de représentations impériales sur ce sceau [2] est tout à fait singulière, n’ayant
+                                      ni précédent, ni postérité avant l’époque iconoclaste. On en connaît deux versions
+                                      légèrement différentes. Notre pièce se rattache à deux sceaux de l’ancienne collection
+                                      Zacos, dont les matrices sont néanmoins légèrement différentes. De son côté, Ion Barnea
+                                      a édité un exemplaire sur lequel la légende se lit CONS|TANTINOS|CONSTANTOS
+                                      |KEANASTASI.|.ASILISRO.</p>
+                                  <p>Zacos et Veglery ont proposé d’attribuer leur pièce à Constans II, mais se sont
+                                      heurtés au problème de la date du mariage de Constantin IV avec Anastasie, laquelle
+                                      placerait le sceau dans les toutes dernières années du règne de Constant II, alors que
+                                      Tibère et Héraclius avaient rejoint le collège impérial. Leur solution – l’adoption du nom
+                                      d’Anastasie par Fausta, femme de Constant II – peine évidemment à emporter l’adhésion.</p>
+                                  <p>I. Barnea, quant à lui, reprit une identification proposée par Vitalien Laurent qui avait
+                                      opté pour une attribution à Constantin IV. Werner Seibt et Constantin Zuckerman se
+                                      sont ralliés à cette position avec des divergences dans le détail. Sans éliminer entièrement
+                                      la possibilité que cette pièce soit à attribuer à Constant II (qui aurait épousé en secondes
+                                      noces une Anastasie inconnue par ailleurs), le premier se prononcerait plutôt en faveur
+                                      d’une bulle du début du règne de Constantin IV [3]. 
+                                      Selon C. Zuckerman, en revanche,
+                                      l’absence des frères de Constantin IV amène à dater la bulle des années postérieures au
+                                      concile de Constantinople III, qui vit leur déposition et l’affirmation du pouvoir unique
+                                      de Constantin IV [4].</p>
+                                  <p>Une première remarque tient au fait que Constant II ne porta jamais d’autre nom
+                                      officiel que Constantin après son avènement. Il faut donc sans doute développer le début
+                                      de la légende de notre bulle en « Constantinos Constantinou » [5]. Il en va certainement
+                                      de même pour la bulle découverte sur les bords du Danube et publiée par Barnea [6]. Bien
+                                      évidemment, cela peut sembler étonnant puisqu’on y lit clairement COSO, mais
+                                      les légendes monétaires du règne de Constantin IV montrent des déformations tout aussi
+                                      importantes du nom impérial : CONSAIUS ou CONSANUS [7].</p><!-- in commentary, only variants are visualised with Athena Ruby -->
+                                  <p>Le rapprochement de la légende du sceau avec celles des émissions monétaires de
+                                      Constantin IV est d’un intérêt plus large. En effet, comme l’a souligné le premier
+                                      H. Goodacre [8], la formule NCONSAIUSCCOS en usage sur les solidi de classe I et une
+                                      partie des spécimens de la classe II, sans doute les premiers de la série, fait référence à deux
+                                      Constantin. Plutôt que postuler une erreur de gravure (qui aurait affecté uniformément
+                                      tous les coins !), il faut sans doute admettre que l’on souhaitait insister sur la légitimité
+                                      dynastique dont pouvait se prévaloir Constantin IV [9], en raison de l’existence d’un
+                                      empereur rival en Sicile au début de son règne. Cela incite à dater la bulle de cette
+                                      période [10].</p>
+                                  <p>On connaît par ailleurs une bulle qui ne diffère de la précédente que par l’absence
+                                      d’Anastasie dans la légende. C. Zuckerman, qui reconnaît qu’une continuité doit
+                                      exister dans l’utilisation des deux bulles, se voit contraint d’admettre une erreur des
+                                      plus étonnantes : dans son hypothèse de datation, Constantin IV est seul empereur et
+                                      le titre impérial libellé au pluriel serait « a residual form » après l’éviction d’Anastasie de
+                                      la légende [11].</p>
+                                  <p>Il existe toutefois une solution qui ne nécessite pas de postuler d’erreur et est
+                                      parfaitement en accord avec le parallèle des légendes monétaires. Les sceaux ne mentionnant
+                                      pas Anastasie sont au nom de Constant II et Constantin IV, « basileis rhômaiôn » : sur un
+                                      exemplaire de la collection Zacos, la conjonction S entre les deux prénoms est clairement
+                                      visible [12]. Puis, à la mort de Constant II, l’adjonction d’Anastasie s’est accompagnée
+                                      d’une reformulation du début de la légende en « Constantinos Constantinou », dans
+                                      l’esprit des légendes monétaires contemporaines qui insistent sur la filiation. On a donc
+                                      simplement transition entre les types Zacos 18 et Zacos 19 d’un règne à l’autre.</p>
+                                  <p>Si elle invalide une hypothèse de C. Zuckerman, cette reconstruction en confirme une autre.
+                                      Selon cet auteur, le titre de basileus correspond à celui d’imperator maior et doit être
+                                      bien distingué d’augustus [13]. En mars 666, seul Constant II en bénéficie, si l’on en croit
+                                      le fameux privilège concédant l’autocéphalie au siège de Ravenne [14]. En revanche, la bulle
+                                      Zacos 18 indiquerait que Constantin IV fut promu avant la mort de son père ; elle daterait
+                                      donc des années 667-668 [15]. Ceci confirmerait l’interprétation de la révolte des troupes
+                                      des Anatoliques sous Constantin IV comme l’expression du désir d’une promotion des
+                                      cadets au rang de basileus, à égalité avec leur aîné [16]. Une lettre pontificale du 23 décembre
+                                      673 indique bien que les frères de Constantin IV n’étaient qu’augusti et non basileis [17].
+                                      La revendication de l’armée est d’ailleurs encore plus simple à comprendre si le titre
+                                      de basileus avait déjà cessé d’être l’apanage d’un unique empereur « supérieur » comme
+                                      l’indique l’attribution de la bulle Zacos 18 à Constans II et Constantin IV. Quoi qu’il
+                                      en soit de ce dernier point, Tibère et Héraclius, simples augustes, n’avaient pas à figurer
+                                      sur les bulles mentionnant ce titre et il n’y a pas lieu d’en tirer argument pour dater la
+                                      pièce qui nous intéresse ici des années postérieures au concile de Constantinople III. En
+                                      ce qui concerne les bulles anépigraphes qui représentent les trois frères, deux solutions
+                                      peuvent être avancées : soit, ces bulles servaient au collège impérial, parallèlement à celle
+                                      réservée au basileus, soit Constantin IV fit usage initialement de la bulle ne mentionnant
+                                      que lui avant que la grogne autour du statut de ses frères ne l’incite à en changer pour
+                                      le modèle collégial anépigraphe, qui ne distingue entre le <hi rend="italic">basileus</hi> et les <hi rend="italic">augusti</hi> que par
+                                      les détails du portrait [18]. Notre préférence irait pour cette dernière solution mais rien ne
+                                      permet de trancher.</p>
+                                  <p>Notons que puisque l’absence ou la présence de Tibère et Héraclius n’est plus un
+                                      critère de datation, on pourrait dater Zacos 19 de la toute fin de règne de Constant II.
+                                      Constantin IV n’étant pas encore basileus en 666, il faudrait toutefois placer les deux
+                                      modèles de bulles (avec et sans Anastasie) dans l’intervalle courant de mars 666 à
+                                      l’assassinat de Constant II durant l’été 668. Cela semble moins probable qu’attribuer au
+                                      seul règne de Constantin IV la bulle mentionnant Anastasie. Seule une bulle présentant
+                                      cette légende et une conjonction claire entre les deux mentions du prénom Constantin
+                                      permettrait de trancher définitivement la question en faveur d’une attribution au règne
+                                      de Constant II.</p>
+              </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:id="footnote-1">
+                      [1].  <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-2"> 
+                      [2]. Ce sceau, à strictement parler, n'a aucun parallèle, mais les bulles <bibl><ptr target="Zacos1"/>, <citedRange unit="part">19a-b</citedRange></bibl>, sont de même conception. Les trois matrices sont néanmoins différentes. Des différences plus nettes apparaissent
+                      avec un quatrième boullotèrion : <bibl><ptr target="Laurent1939"/>, <citedRange unit="page">p. 359</citedRange></bibl> (description de l’effigie et transcription de la légende) = 
+                      <bibl><ptr target="Laurent1940"/>, <citedRange unit="page">p. 207</citedRange></bibl> (description de l’effigie et transcription de la légende) = <bibl><ptr target="Barnea1981"/></bibl> = 
+                      <bibl><ptr target="Barnea1982"/>, <citedRange>4, p. 203-206</citedRange></bibl> = <bibl><ptr target="JordanovCorpus3"/>, <citedRange> 51</citedRange></bibl>.</p>
+                <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 75-76</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>; après avoir corrigé de manière substantielle la lecture et
+                      l’interprétation du sceau <bibl><ptr target="Zacos1"/>, <citedRange>18</citedRange></bibl> (qui ne porte pas le nom d’Anastasie), il conclut
+                      que « these specimens from the early 680s represent the first case of the transposition of title basileus
+                      on the imperial seals ».
+                  </p>
+                <p xml:id="footnote-5">
+                      [5]. Seule la déformation du flan permet d’écrire que « the photograph supports Constantos
+                      in line 3 » : <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>. La position de la dernière lettre de la
+                          deuxième ligne permet de déterminer où s’arrêtait la troisième et il est clair que l’on a la place que pour
+                          l’abréviation. De même, on ne peut suivre l’auteur lorsqu’il indique que le sceau <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18b</citedRange></bibl> ne présente pas le S entre les deux mentions du nom Constantin. L’état de conservation de la bulle ne
+                          permet pas de postuler son absence.
+                  </p>
+                <p xml:id="footnote-6">
+                      [6]. Comme l’a fait remarquer <bibl><ptr target="Barnea1981"/>, <citedRange unit="page">p. 627</citedRange></bibl> ; voir aussi <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="DOC2.2"/>, <citedRange>1, 12, p. 525, 530</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Goodacre1945"/>, <citedRange>p. 37-38</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 883</citedRange></bibl> propose d’interpréter le premier C comme un F
+                          pour filius, mais les monnaies de Filippicus présentent une forme tout à fait différente de cette lettre.
+                  </p>
+                <p xml:id="footnote-10">
+                      [10]. Point souligné par <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 76</citedRange></bibl>. Voir, en dernier lieu, <bibl><ptr target="Prigent2016"/></bibl>.
+                  </p>
+                <p xml:id="footnote-11">
+                      [11]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 882</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-12">
+                      [12]. <bibl><ptr target="Zacos1"/>, <citedRange unit="part">18a</citedRange></bibl>. Le signe d’abréviation en fin de première ligne est clair et on ne
+                          saurait admettre qu’il n’est là que pour la seule voyelle U (Constantin[u]s) ; le S est donc bien ici une
+                          conjonction.
+                  </p>
+                <p xml:id="footnote-13">
+                      [13]. <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 880-881</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-14">
+                      [14]. En dernier lieu, <bibl><ptr target="Cosentino2014"/><citedRange/></bibl>; on trouvera le texte accompagné
+                      d’une traduction anglaise, <bibl><ptr target="Cosentino2014"/>, <citedRange unit="page">p. 167-169</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-15">
+                      [15]. On renoncera donc à voir dans l’inscription de Bizye la première attestation collégiale du
+                      titre de basileus, <bibl><ptr target="Zuckerman2010"/>, <citedRange unit="page">p. 884</citedRange></bibl>. <bibl><ptr target="Cosentino2014"/>, <citedRange unit="page">p. 161-166</citedRange></bibl>, 
+                      a proposé de lire <hi rend="italic">Constantinus maior imperator Heraclii et Tiberii imperator(um)</hi> l’inscription
+                          reconstruite de San Apollinare in Classe et d’y voir la célébration d’une confirmation par Constantin IV
+                          des privilèges octroyés par son père. Néanmoins, comme le souligne l’auteur, toute reconstruction est
+                          hypothétique puisque tout repose en réalité sur la version du texte transmise dans le <hi rend="italic">Liber pontificalis
+                          Ecclesiae Ravennatis</hi> d’Agnellus. En effet, à la fin du XVIIe siècle, il ne restait rien de l’inscription originelle
+                          qui a été reconstituée ultérieurement, sans doute à partir de la source littéraire. On n’insistera donc
+                          pas trop sur ce document.
+                  </p>
+                <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Theophanes"/>, <citedRange unit="page">p. 352</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Thomas_of_Elmham"/>, <citedRange unit="page">p. 244-245</citedRange></bibl>.
+                  </p>
+                <p xml:id="footnote-18">
+                      [18]. <bibl><ptr target="DOseals6"/>, <citedRange unit="part">22.1-3</citedRange></bibl> (dans l'ordre: <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4260/view">BZS.1955.1.4260</ref>,
+                      <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4259">BZS.1955.1.4259</ref>,
+                      <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4261">BZS.1955.1.4261</ref>). Sur ces bulles, la hiérarchie n’est indiquée que par le portrait imberbe qui,
+                          d’une certaine façon, peut renvoyer visuellement au titre de <hi rend="italic">novus augustus</hi> dans l’acception grecque
+                          de <hi rend="italic">novus</hi>, <hi rend="italic">neos</hi>, « jeune ».
+                  </p>
+              </div>
+            <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl><ptr target="Sopracasa2017"/>, <citedRange>2, p. 692-696</citedRange></bibl>
+                  </p>
+              </div>
+        </body>
+    </text>
+</TEI>

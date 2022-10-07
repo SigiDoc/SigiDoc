@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Seal of Constantine Erotikos, protospatharios</seg>
+                    <seg xml:lang="fr">Sceau de Constantin Érôtikos, protospathaire</seg>
+                </title>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg>Digital conversion</seg>
+                </edition>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">TM_28</idno>
+                <idno type="SigiDocID">28</idno>
+                <idno type="sequence">0031</idno>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">Italy</seg>
+                            <seg xml:lang="fr">Italie</seg>
+                        </country>
+                        <settlement>
+                            <seg></seg>
+                        </settlement>
+                        <institution></institution>
+                        <repository></repository>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
+                        <idno>77</idno>
+                        <altIdentifier xml:lang="en">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Seals of dignitaries</seg>
+                            <seg xml:lang="fr">Sceaux de dignitaires</seg>
+                        </summary>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Byzantine greek</seg>
+                            <seg xml:lang="fr">Grec byzantin</seg>
+                        </textLang>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="layAristocracy">
+                                    <seg xml:lang="grc">Κωνσταντῖνος Ἐρωτικός</seg>
+                                    <seg xml:lang="en">Konstantinos Erotikos</seg>
+                                    <seg xml:lang="fr">Constantin Érôtikos</seg>
+                                    <interp type="milieu" xml:lang="en">Lay aristocracy</interp>
+                                    <interp type="milieu" xml:lang="fr">Aristocratie laïque</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">23</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                </support>
+                                <condition rend="blankTooSmall">
+                                    <p>Bon état de conservation. Matrice légèrement plus petite que le flanc</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Iconography and legend</seg>
+                                        <seg xml:lang="fr">Iconographie et légende</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="en">Round</seg>
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="notSurviving">
+                                        <idno type="SigiDoc">26</idno>
+                                    </rs>                                  
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="whole">
+                                <seg></seg>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" ana="iconography.xml#Virgin_Nikopoios" xml:lang="en">Bust of the Virgin Nikopoios</figDesc>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg></seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="prosopography lettering" cert="high">
+                                <seg xml:lang="en">11th C., first half</seg>
+                                <seg xml:lang="fr">XIe s., première moitié</seg>
+                                <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie</interp>
+                            </origDate>
+                        </origin>
+                        <provenance type="found"/>
+                        <provenance type="observed"/>
+                        <provenance type="not-observed"/>
+                        <provenance type="transferred"/>
+                        <acquisition>
+                            <p xml:lang="fr"><ref target="https://www.biddr.ch/auctions/numismatiknaumann/browse?a=116&amp;c=2049&amp;l=101690">Numismatik Naumann, enchère 53, lot 958</ref>, <date when="2017-05-07">7 mai 2017</date> [1].</p>
+                            <p xml:lang="en"><ref target="https://www.biddr.ch/auctions/numismatiknaumann/browse?a=116&amp;c=2049&amp;l=101690">Numismatik Naumann, auction 53, lot 958</ref>, <date when="2017-05-07">7th of May 2017</date>[1].</p>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography</seg>
+                                            <seg xml:lang="fr">Iconographie</seg>
+                                        </rs>
+                                        <p xml:lang="en">Iconography</p>
+                                        <p xml:lang="fr">Iconographie</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r">Buste de la Théotokos
+                                            Nikopoios [2] au nimbe de grènetis. La Vierge porte un maphorion décoré de losanges de
+                                            perles sur les épaules et sur le front, tenant devant sa poitrine le médaillon de l’Enfant au
+                                            nimbe crucigère. De part et d’autre de l’effigie, sigle</figDesc>
+                                        <figDesc n="decoR">Cercle de grènetis très partiellement conservé</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Legend of 5 lines</seg>
+                                            <seg xml:lang="fr">Légende sur 5 lignes</seg>
+                                        </rs>
+                                        <p xml:lang="fr">Légende sur 5 lignes précédée par une croisette</p>
+                                        <p xml:lang="en">Legend of 5 lines preceded by a small cross</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v"/>
+                                        <figDesc n="decoV">Cercle de grènetis très partiellement conservé</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
+            <change when="2021-03-18" who="AS">Bibliographic referencing system changed</change>
+            <change when="2020-07-27" who="AS">Bibliographic references improved and footnotes added</change>
+            <change when="2019-01-13" who="AS">Changes for EFES</change>
+            <change when="2018-08-14" who="AS">First version of the record</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+              <surface type="obverse">
+                  <desc>Obverse</desc>
+                  <graphic url="77_R.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the obverse.</desc>
+                      <desc xml:lang="fr">Reproduction numérique de l'avers (2015)</desc>
+                  </graphic>
+              </surface>
+              <surface type="reverse">
+                  <desc>Reverse</desc>
+                  <graphic url="77_V.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the reverse.</desc>
+                      <desc xml:lang="fr">Reproduction numérique du revers (2015)</desc>
+                  </graphic>
+              </surface>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns">
+                      <ab>
+                          <cb n="a"/><rs type="marianTerm" subtype="sigla" ref="marianTerms.xml#Μήτηρ_Θεοῦ">
+                              <w lemma="μήτηρ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=mhthr&amp;la=greek">
+                                  <expan><abbr><supplied reason="lost">Μ</supplied></abbr><supplied reason="lost"><ex>ήτη</ex></supplied><abbr>ρ</abbr></expan>
+                              </w>
+                          <cb n="b"/>
+                              <w lemma="θεός" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=*qeou=&amp;la=greek"><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+                              </w>
+                          </rs>
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <rs type="legendsCases" ref="legendsCases.xml#Nom">
+                                  <lb n="1"/>
+                                  +
+                                  <persName type="unattested" ref="prosopography.xml#Ἐρωτικός_Κωνσταντῖνος">
+                                      <name type="forename">
+                                          <expan><abbr>Κων
+                                  <lb n="2" break="no"/>σταντ</abbr><ex>ῖνος</ex></expan>
+                                      </name>
+                                  <lb n="3"/>
+                                      <rs type="dignity" ref="dignities.xml#πρωτοσπαθάριος">
+                                          <expan><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>άριος</ex></expan>
+                                      </rs> 
+                                      <w lemma="ὁ" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=o&amp;la=greek">
+                                          ὁ
+                                      </w>
+                                  <lb n="4"/>
+                                      <name type="surname">
+                                          Ἐρωτι
+                                  <lb n="5" break="no"/>
+                                          κός
+                                      </name>
+                                  </persName>
+                          </rs>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns">
+                      <ab>
+                          <cb n="a"/>.ρ̣̅
+                          <cb n="b"/>θυ
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <lb n="1"/>ν
+                          <lb n="2"/>Στντ͵
+                          <lb n="3"/>̅Σπθ͵ο
+                          <lb n="4"/>ερτι
+                          <lb n="5"/>οΣ
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
+                      </app>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. / +Κωνσταντῖνος πρωτοσπαθάριος ὁ Ἐρωτικός.</p>
+                      <p xml:lang="en">Mother of God. / Constantine Erotikos, protospatharios.</p>
+                  <p xml:lang="fr">Mère de Dieu. / Constantin Érôtikos, protospathaire.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                              <p>Divers témoignages littéraires établissent un lien entre les Érôtikoi et les Comnènes :</p>
+                              <p>Jean Skylitzès: ἤδη δὲ τῶν κατὰ θάλατταν ἐχόντων καλῶς ὁ παρακοιμώμενος τῶν κατὰ τὴν
+                                  ἤπειρον ἐτίθετο ἐπιμέλειαν. καὶ δὴ Μανουὴλ πατρίκιον τὸν Ἐρωτικόν, ἐκ γένους τε ἄνδρα
+                                  καὶ ἐπ’ ἀρετῇ διαβόητον καὶ ἀνδρείᾳ, φρουρεῖν ἐκπέμπει
+                                  τὴν Νίκαιαν [3].</p>
+                              <p>Nicéphore Bryennios: Μανουὴλ ἐκείνου τοῦ πάνυ, ὃς ἐς Κομνηνοὺς ἀναφέρων τὸ γένος, τῶν
+                                  μεταξὺ συμβάσεων καὶ σπονδῶν τοῦ τε τηνικαῦτα τὰ Ῥωμαίων σκῆπτρα ἰθύνοντος Βασιλείου καὶ
+                                  Βάρδα ἐκείνου τοῦ Σκληροῦ [...], Μανουὴλ οὖν τούτου γίνονται παῖδες δύο, ὧν ὁ μὲν πρεσβύτερος
+                                  Ἰσαάκιος, ὁ δὲ νεώτερος Ἰωάννης ἐκέκλητο [4].</p>
+                              <p>Anne Comnène: Μανουὴλ ἐκεῖνος, ὁ τοῦ προβεβασιλευκότος Ἰσαακίου τοῦ Κομνηνοῦ πατὴρ καὶ τοῦ
+                                  ἀδελφοῦ αὐτοῦ Ἰωάννου τοῦ πρὸς πατρὸς ἐμοῦ πάππου, στρατηγὸς αὐτοκράτωρ τῆς
+                                  ἑῴας ἁπάσης παρὰ τοῦ τότε βασιλεύοντος Βασιλείου προὐβέβλητο ἐφ’ ᾧ τὴν μετὰ τοῦ
+                                  Σκληροῦ ἔχθραν διαλῦσαι [5].</p>
+                              <p>Il est bien connu que les origines des Comnènes demeurent mystérieuses [6], tout
+                                  comme la famille des Érôtikoi elle-même : c’est par le biais des passages qui viennent
+                                  d’être cités qu’un lien entre les Érôtikoi et les Comnènes a été proposé – lien qui
+                                  implique l’identification de Manuel Érôtikos et de Manuel Comnène, un point qui a été
+                                  récemment remis en question sans apporter toutefois d’arguments pleinement décisifs [7].
+                                  Les premières attestations de la famille Érôtikos remontent au xe siècle, Manuel semblant
+                                  être le premier de sa lignée à s’illustrer réellement : en 978 il défend la cause de l’empereur
+                                  Basile II contre Bardas Sklèros, et ce même empereur prend soin de l’éducation militaire
+                                  des deux fils de Manuel, Isaac et Jean, probablement restés orphelins assez tôt [8]. Tant
+                                  Anne Comnène que Nicéphore Bryennios font de Manuel le père de l’empereur Isaac Ier
+                                  Comnène et le grand-père de l’empereur Alexis Ier Comnène [9] : Manuel pourrait donc
+                                  avoir emprunté à sa mère le patronyme Érôtikos, plus prestigieux à l’époque. Il semblerait
+                                  que de ce même Manuel nous soient parvenus deux sceaux, sur lesquels il figure en tant
+                                  qu’<hi rend="italic">anthypatos</hi>, patrice et <hi rend="italic">vestès</hi>, ayant choisi la protection de saint Georges [10].</p>
+                              <p>Le dossier des Érôtikoi est certes assez limité en termes de quantité, mais il présente
+                                  aussi une belle variété quand on considère la typologie des sources qui nous ont transmis
+                                  la mémoire des membres de cette famille : sources littéraires, juridiques, épigraphiques
+                                  et, bien sûr, sigillographiques. Nous en donnerons ici un très bref aperçu [11].</p>
+                              <p>Un nombre important de témoignages concerne le prénom Nicéphore : peu avant
+                                  Manuel, en 969, on signale le patrice Nicéphore Érôtikos envoyé comme ambassadeur
+                                  auprès des Bulgares par Nicéphore Phocas [12]. 
+                                  Un patrice Nicéphore – qu’il a été proposé d’identifier avec les précédents – était en charge de l’enseignement de la géométrie dans
+                                  l’institution fondée par Constantin VII : la <hi rend="italic">Continuation de Théophane</hi> nous le présente
+                                  comme Νικηφόρον πατρίκιον τὸν γαμβρὸν Θεοφίλου ἐπάρχου τοῦ Ἐρωτικοῦ [13], mais Syméon Logothète offre une version légèrement différente : Νικηφόρῳ πατρικίῳ τῷ
+                                  Ἐρωτικῷ, τῷ γαμβρῷ Θεοφίλου ἐπάρχου [14]. Par conséquent, l’appartenance de l’éparque
+                                  Théophile (personnage assez bien connu, y compris par un certain nombre de sceaux [15])
+                                  à la famille Érôtikos n’est pas certaine. Un Nicéphore Érôtikos protospathaire impérial et
+                                  épi tôn oikeiakôn a fondé un monastère sur le mont Tmolos, dont le <hi rend="italic">typikon</hi> – qui présente
+                                  la particularité d’avoir été conservé sous forme d’inscription monumentale – est daté des
+                                  années 975-1000 [16]. À la seconde moitié du Xe siècle appartient le sceau mentionnant
+                                  un Nicéphore Érôtikos, protospathaire impérial et <hi rend="italic">épi tou Chrysotriklinou</hi>. Toutefois,
+                                  la lecture du nom de famille n’est pas assurée : les éditeurs de cette bulle signalent par
+                                  ailleurs l’existence, dans l’ancienne collection Zacos (nos 195-196), de deux sceaux d’un
+                                  Nicéphore Érôtikos, sans titre ni fonction, issus de <hi rend="italic">boullôtèria</hi> différents, et datables
+                                  également à la seconde moitié du Xe siècle [17].</p>
+                              <p>Dans la première moitié du XIe siècle, on connaît un Théophile Érôtikos, protospathaire
+                                  impérial, qui exerça les fonctions de stratège [18] et que l’on a été identifié avec le stratège de
+                                  Chypre qui se révolta en 1042 mais fut capturé par Constantin Chagè. Il subit le triomphe
+                                  ridicule, habillé en femme, à l’hippodrome de Constantinople, un jour de courses et ses
+                                  biens lui furent confisqués, mais il fut ensuite libéré [19]. La <hi rend="italic">Peira</hi> mentionne également
+                                  un Théophile protospathaire, fils d’un <hi rend="italic">vestès</hi> Érôtikos [20]. On pourrait vouloir ajouter
+                                  un autre sceau mentionnant un Léon spathaire (ou protospathaire) et stratège, daté de
+                                  1030-1050, mais la lecture du nom est pour le moins incertaine [21]. Enfin, le bullaire
+                                  des premières décennies du XIe siècle s’enrichit de la pièce publiée ici, un Constantin
+                                  Érôtikos jusque-là inconnu.</p>
+                              <p>Après l’échec de la rébellion chypriote, les Érôtikoi semblent s’être plutôt consacrés aux
+                                  fonctions civiles [22]. Dans la seconde moitié du XIe siècle, on connaît de nombreux sceaux
+                                  ayant appartenu à Basile Érôtikos. Ils évoquent une assez belle carrière puisqu’après le
+                                  poste relativement mineur de juge de l’Hellade et du Péloponnèse (cinq bulles datées du
+                                  troisième quart du XIe siècle [23]), ce fonctionnaire obtint avec le titre de patrice la charge
+                                  du richissime thème des Thracèsiens, pré carré des grandes fortunes aristocratiques et
+                                  monastiques de Constantinople (deux bulles) [24]. Les Érôtikoi y étaient d’ailleurs peut-être
+                                  possessionnés puisque c’est près de Philadelphie que le protospathaire Nicéphore avait
+                                  fondé son monastère.</p>
+                              <p>Enfin, le sceau le plus tardif semble être celui de Bardas, dont la bulle, qui ne mentionne
+                                  ni dignité ni fonction, a été datée de la fin XIe-début XIIe siècle [25]. Apparemment déclassés,
+                                  les Érôtikoi ne survécurent pas à la crise qui déboucha sur l’établissement de la dynastie
+                                  des Comnènes, ce qui est assez paradoxal au vu du lien originel entre les deux familles.
+                                  Sans pour autant provoquer son élimination, il est néanmoins probable que l’échec de
+                                  la révolte du stratège de Chypre ait été fatal au statut de la famille dont le sort divergea
+                                  dès lors de celui de ses anciens alliés.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:id="footnote-1">
+                      [1]. Nous tenons à remercier Jean-François Vannier pour nous avoir signalé la mise en vente de ce sceau et pour nous avoir donné son avis éclairé sur la famille Érôtikos.
+                  </p>
+                  <p xml:id="footnote-2">
+                      [2]. Le type n’est pas absolument certain mais les zones écrasées ne semblent pas pouvoir avoir comporté les bras en oraison.
+                  </p>
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="ScylitzaeSynopsis1973"/>, <citedRange unit="page">p. 322, l. 98; 323, l. 1-7</citedRange></bibl>: Trad.: «Une fois que sa situation fut bonne du côté de la mer, le parakoimomène [Basile] s’occupa
+                          de la terre. Il envoya le patrice Manuel Érôtikos, un homme très connu pour sa naissance, sa valeur et
+                          sa bravoure, afin de garder Nicée» (contre Bardas Sklèros en 978): <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 270</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange unit="chapter">I.1, p. 75, l. 1-3, 7-8</citedRange></bibl>. Trad.: «Le célèbre Manuel, rejeton de la famille des Comnène, qui fut nommé plénipotentiaire pour
+                          conclure conventions et accords entre Basile, qui tenait le sceptre des Romains, et le fameux Bardas
+                          Sklèros […], ce Manuel donc avait deux enfants : l’aîné s’appelait Isaac et le cadet Jean»: <bibl><ptr target="BryenniosHistoire1975"/>, <citedRange>I.1, p. 74</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">XI.I.6, p. 324</citedRange></bibl>. Trad.: «[...] le fameux Manuel, le père du précédent basileus Isaac Comnène et de son frère Jean,
+                          mon aïeul paternel, avait été promu stratège autocrator de tout l’Orient par l’empereur d’alors Basile,
+                          avec mission de mettre un terme aux hostilités avec Skléros […]»: <bibl><ptr target="Alexiade1937"/>, <citedRange unit="chapter">XI.I.6, p. 9-10</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-6">
+                      [6]. Voir <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-7">
+                      [7]. Comme déjà signalé dans <bibl><ptr target="Settipani2017"/>, <citedRange unit="page">p. 665-667 et n. 39</citedRange></bibl>. 
+                      Voir <bibl><ptr target="Koytcheva2014"/>, <citedRange unit="page">p. 99</citedRange></bibl>, qui conclut: «the name of the progenitor of the Komnenian dynasty
+                          was Manuel Komnenos, not Manuel Erotikos, and this name was preserved with dignity and handed
+                          down to the future generations. These considerations do not rule out the possibility that the appellation
+                          Manuel Erotikos existed, too, and that its bearer played a certain role in Byzantine history at the turn
+                          of the eleventh century. Nevertheless, this does not justify the identification of the two surnames and
+                          their progenitors and requires deeper and more detailed research into their family roots.»
+                  </p>
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90</citedRange></bibl>; 
+                      <bibl><ptr target="Stanković2013"/>, <citedRange unit="page">p. 9-12</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-9">
+                      [9]. Voir <bibl><ptr target="Cheynet1990"/>, <citedRange unit="page">p. 218-219</citedRange></bibl>; 
+                      <bibl><ptr target="Barzós1984a"/>, <citedRange unit="part">2, p. 38-39</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27039">24885</ref></citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-10">
+                      [10]. <bibl><ptr target="Schlumberger1884"/>, <citedRange unit="part">20, p. 643</citedRange></bibl> (sans image); 
+                      <bibl><ptr target="Cheynet2005"/>, <citedRange>p. 54 et fig. 1</citedRange></bibl> (Inv. Zacos BnF 249).
+                  </p>
+                  <p xml:id="footnote-11">
+                      [11]. Nous nous abstiendrons de traiter ici le problème très complexe de l’identification ou de
+                          l’homonymie de tous les personnages connus de cette famille, en particulier des Nicéphore et des
+                          Théophile. On mentionnera que l’on retrouve le nom au génitif – Ἐρωτίκου – dans la Calabre du
+                          Xe siècle, cité dans un épisode de la <hi rend="italic">Vie</hi> d’Élie le Spéléote : πολλὰ δὲ παράδοξα σημεῖα πεποίηκεν ὁ κύριος
+                          διὰ τούτου [lege : τοῦ or &lt;τοῦ&gt;] ἁγίου λειψάνου τοῦ ὁσίου πατρὸς ἡμῶν Ἡλίου, οὐ μὴν δέ, ἀλλὰ καὶ διὰ
+                          τῶν ἀμφίων αὐτοῦ, ἐξ ὧν ἐκ πολλῶν ὁλίγα ὑδιωτικῶς συν{τ}άξω. Πέτρος εὐλαβέστατος καὶ περιβόητος
+                          ἱερεὺς ὁ τῇ ἐπικλήσει Ῥοφὴς [lege : Ῥαφὴς or Ῥοῦφος ?] πίστει ἀδιστάκτῳ φερόμενος καὶ τῇ τοῦ ὁσίου
+                          ἀγάπῃ ἐκ πάλαι τετρωμένος, λαβὼν τὴν βακτηρίαν αὐτοῦ, ἐν ᾗπερ ἐν ἀσθενείᾳ μικρὸν ἐπεστήρικται ὁ
+                          ἅγιος, προσεκόμισεν ὡς παθῶν ἀλεξητήριον·, καὶ ταύτην ἀποπλύνας ὕδατι καθαρῷ, τὸν ὅλως παρειμένον
+                          καὶ παραλελυμένον ἅπαν τὸ σῶμα Νικήταν τοῦ Ἐρωτίκου [lege : Ἐρωτικοῦ] υἱὸν ποτίσας, τὴν βακτηρίαν
+                          ἐπάνω αὐτοῦ τέθηκεν. θᾶττον οὖν ἡ ῥῶσις ἐπηκολούθησεν τῷ κάμνοντι, καὶ ἀπήλλακται τῆς χαλεπῆς
+                          καὶ δεινῆς ἀρρωστείας ὁ ἄνθρωπος : <bibl><ptr target="VitaEliaeSpelaeotae"/>, <citedRange unit="chapter">§ 81, p. 881B-C</citedRange></bibl>; 
+                          les corrections indiquées entre crochets sont reprises de l’édition en ligne offerte par
+                          la <bibl><ptr target="DOHagio"/>, <citedRange><ref target="https://www.doaks.org/research/byzantine/resources/hagiography/database/texts/58.html">Elias Spelaiotes</ref></citedRange></bibl>. 
+                      Voir aussi <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ23896">21743</ref></citedRange></bibl>, 
+                      qui souligne qu’une appartenance à la famille qui nous intéresse ici est peu probable. Un document sans date mais que son éditeur tend à placer dans la seconde moitié du XIe siècle, mentionne à nouveau
+                          le patronyme en Calabre : la nonne Komètô, veuve de Jean Érotikès, descendant d’Élie Érotikès, fait
+                          une donation au bénéfice de la Théotokos du kastron d’Oppido : Σίγνον [χειρὸς] Κομητοῦς μοναχή,
+                          γυνὴ Ἰωάννου ἔγγων Ἠλίου τοῦ ἐπιλεγωμένου τοῦ Ἐροτίκη (<bibl><ptr target="Guillou1972"/>, <citedRange unit="page">p. 183-184</citedRange></bibl>) ; le document est mentionné par
+                      <bibl><ptr target="Koytcheva2014"/>, <citedRange unit="page">p. 94</citedRange></bibl>. On rappellera, pour bien
+                          évaluer ces témoignages, que les noms de grandes familles se diffusèrent en Italie du Sud, sans doute
+                          par le biais de liens de clientèle avec de puissants personnages.
+                  </p>
+                  <p xml:id="footnote-12">
+                      [12]. « Il dépêcha donc vers eux comme ambassadeurs le patrice Nicéphore, ayant pour nom
+                      Érôtikos […] » : <bibl><ptr target="LéonEmpereurs2014"/>, <citedRange unit="chapter">V.3, p. 116</citedRange></bibl>; 
+                      <bibl><ptr target="LeonisHistoriae1828"/>, <citedRange unit="chapter">V.3, p. 79, l. 15-16</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-13">
+                      [13]. <bibl><ptr target="TheophanesContinuatus1838"/>, <citedRange unit="chapter">VI.14, p. 446, l. 13-14</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-14">
+                      [14]. <bibl><ptr target="Markopoulos1979"/>, <citedRange unit="page">p. 92, § 5, l. 5-6</citedRange></bibl>. 
+                      À ce propos, <bibl><ptr target="Cheynet2003"/>, <citedRange unit="page">p. 90, n. 86</citedRange></bibl> écrit : « It is unlikely, though not
+                          impossible, that the two men, united by the relation of gambros (generally, son- or brother-in-law) had
+                          the same family name. We should probably correct one of the manuscripts, perhaps that of Theophanes
+                          Continuatus. » Voir aussi <bibl><ptr target="Cheynet1990"/>, <citedRange unit="page">p. 218</citedRange></bibl>, qui, concernant l’identification entre le
+                          proche de Constantin VII et l’envoyé de Nicéphore Phocas, parle d’identité ou de simple homonymie.
+                          Cf. <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27737">25583</ref></citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-15">
+                      [15]. Voir <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ30309">28154</ref></citedRange></bibl> ; 
+                      <bibl><ptr target="Guilland1980"/>, <citedRange unit="page">p. 154</citedRange></bibl>; pour les sceaux
+                      voir <bibl><ptr target="Zacos2"/>, <citedRange unit="part">328</citedRange> (ici le commentaire fait de Théophile le beau-fils de Nicéphore, en inversant le
+                          propos de la <hi rend="italic">Continuation de Théophane</hi>), <citedRange unit="part">332, 1088</citedRange></bibl>; 
+                      <bibl><ptr target="LaurentCorpus2"/>, <citedRange>1107-1108</citedRange></bibl>; <bibl><ptr target="Nesbitt1998"/>, <citedRange unit="part">23, p. 179-180</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-16">
+                      [16]. <bibl><ptr target="Drew-Bear1998"/></bibl>; <bibl><ptr target="BMFD"/>, <citedRange unit="part">16, p. 310-312</citedRange></bibl>; 
+                      <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://db.degruyter.com/view/PMBZ/PMBZ27786">25632</ref></citedRange></bibl>. Les éditeurs du <hi rend="italic">typikon</hi> établissent un lien entre ce fondateur et l’homonyme précédemment
+                      mentionné : <bibl><ptr target="Drew-Bear1998"/>, <citedRange unit="page">p. 206-207</citedRange></bibl>. Or, dans ce cas la
+                          datation du document devrait nécessairement être remontée de plusieurs décennies, puisque Nicéphore
+                          était déjà patrice sous Constantin VII.
+                  </p>
+                  <p xml:id="footnote-17">
+                      [17]. <bibl><ptr target="Istanbul"/>, <citedRange unit="part">5.161</citedRange></bibl>. Si on voulait rapprocher les deux derniers Nicéphore cités,
+                          on pourrait envisager que, anciennement dignitaire attaché au <hi rend="italic">épi tôn oikeiakôn</hi>, Nicéphore ait par la
+                          suite accédé au groupe plus prestigieux des dignitaires du Chrysotriklinos.
+                  </p>
+                  <p xml:id="footnote-18">
+                      [18]. <bibl><ptr target="Istanbul"/>, <citedRange>2.242</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-19">
+                      [19]. <bibl><ptr target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p. 356-357</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/102/">Theophilos 102</ref></citedRange></bibl>. 
+                      Sur cette révolte voir <bibl><ptr target="Cheynet1990"/>, <citedRange>59, p. 56 et p. 410</citedRange></bibl>; 
+                      <bibl><ptr target="Bourdara1981"/>, <citedRange unit="part">71, p. 119-120</citedRange></bibl>;
+                      <bibl><ptr target="Georgiou2009"/></bibl>.
+                  </p>
+                  <p xml:id="footnote-20">
+                      [20]. <bibl><ptr target="Peira1856"/>, <citedRange unit="chapter">LIII.2, p. 253</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Theophilos/12101/">Theophilos 12101</ref></citedRange></bibl>. 
+                      Selon <bibl><ptr target="Istanbul"/>, <citedRange unit="page">p. 239</citedRange></bibl>, ce <hi rend="italic">vestès</hi> Érôtikos serait le Manuel
+                          Érôtikos-Comnène partisan de Basile II lors des guerres civiles.
+                  </p>
+                  <p xml:id="footnote-21">
+                      [21]. <bibl><ptr target="Chkhaidze2015"/>, <citedRange unit="page">p. 63</citedRange></bibl> : « In Professor Seibt’s opinion,
+                      these two lines might be read as ΤΟΝ ΕΡO-ΤΙΚ(ΟΝ) = Ἐρωτικῶν. » ; la photo du sceau est publiée dans
+                      <bibl><ptr target="Chkhaidze2013"/>, <citedRange>p. 40-41 et fig. 1</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-22">
+                      [22]. <bibl><ptr target="Selçuk"/>, <citedRange unit="page">p. 332</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-23">
+                      [23]. Réunies dans <bibl><ptr target="Karagiorgou2009"/>, <citedRange unit="page">p. 28-29</citedRange></bibl> (où la date indiquée pour ces sceaux est 1080-1120). La datation au troisième quart du
+                      XIe siècle est donnée par <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">796</citedRange></bibl>. 
+                      Éditions dans : <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4920/view">8.18</ref></citedRange></bibl>; 
+                      <bibl><ptr target="Athens2000"/>, <citedRange unit="part">84</citedRange></bibl>;
+                      <bibl><ptr target="Corinth12"/>, <citedRange>2810, p. 327</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-24">
+                      [24]. <bibl><ptr target="Selçuk"/>, <citedRange unit="part">22, p. 331-332</citedRange></bibl>, qui préfère
+                      néanmoins l’ordre inverse pour ces postes ; <bibl><ptr target="Münz"/>, <citedRange>enchère 81, lot 1517</citedRange></bibl> : 
+                      voir <bibl><ptr target="SBS_Auctions1991-1996"/>, <citedRange unit="page">p. 154</citedRange></bibl>; voir aussi <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="part">192</citedRange></bibl>. 
+                      Les bulles sont datées des années 1050-1080, mais le patriciat incite
+                          à ne pas trop descendre étant donné l’importance du poste. Pour la même raison, si l’on retenait la
+                          datation proposée par Olga Karagiorgou pour la bulle de juge de l’Hellade et du Péloponnèse, il faudrait
+                          sans doute distinguer les deux personnages.
+                  </p>
+                  <p xml:id="footnote-25">
+                      [25]. <bibl><ptr target="Athens2000"/>, <citedRange unit="part">83</citedRange></bibl>; 
+                      <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Bardas/20112/">Bardas 20112</ref></citedRange></bibl>.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>28, p. 739-744</citedRange></bibl>.</p>
+              </div>
+              <div type="bibliography" subtype="parallels">
+                  <p><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part">5.81</citedRange></bibl>.</p>
+              </div>
+          </body>
+      </text>
+</TEI>             

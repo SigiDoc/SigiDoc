@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Seal of Konstantinos Baboskometes</seg>
+                    <seg xml:lang="fr">Sceau de Constantin Babôskomètès</seg>
+                </title>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg>Digital conversion</seg>
+                </edition>
+                <editor>
+                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">TM_38</idno>
+                <idno type="SigiDocID">38</idno>
+                <idno type="sequence">0041</idno>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">Italy</seg>
+                            <seg xml:lang="fr">Italie</seg>
+                        </country>
+                        <settlement><seg></seg></settlement>
+                        <institution></institution>
+                        <repository></repository>
+                        <collection xml:lang="en">Sopracasa collection</collection>
+                        <collection xml:lang="fr">Collection Sopracasa</collection>
+                        <idno>10</idno>
+                        <altIdentifier xml:lang="en">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Private patronymic seals</seg>
+                            <seg xml:lang="fr">Sceaux patronymiques privés</seg>
+                        </summary>
+                        <textLang mainLang="grc">
+                            <seg xml:lang="en">Byzantine greek</seg>
+                            <seg xml:lang="fr">Grec byzantin</seg>
+                        </textLang>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="private">
+                                    <seg xml:lang="grc">Κωνσταντῖνος Βαβωσκομήτης</seg>
+                                    <seg xml:lang="en">Konstantinos Baboskometes</seg>
+                                    <seg xml:lang="fr">Constantin Babôskomètès</seg>
+                                    <interp type="milieu" xml:lang="en">Private</interp>
+                                    <interp type="milieu" xml:lang="fr">Privé</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">19</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                </support>
+                                <condition>
+                                    <p>Bon état de conservation ; légères échancrures aux orifices du canal ; non nettoyé</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Bilateral legend</seg>
+                                        <seg xml:lang="fr">Légende bilatérale</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="en">Round</seg>
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="notSurviving" ref="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1228/">
+                                        <idno type="SigiDoc">17</idno>
+                                    </rs>                                  
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="whole"><seg>Epigraphie grossière</seg></handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole"/>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg></seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1001" notAfter="1200" evidence="prosopography lettering" cert="high">
+                                <seg xml:lang="en">11th-12th C.</seg>
+                                <seg xml:lang="fr">XIe-XIIe s.</seg>
+                                <interp type="datingCriteria" xml:lang="en">prosopography, lettering</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie, épigraphie</interp>
+                            </origDate>
+                        </origin>
+                        <provenance type="found"/>
+                        <provenance type="observed"/>
+                        <provenance type="not-observed"/>
+                        <provenance type="transferred"/>
+                        <acquisition>
+                            <p xml:lang="en">Artemide Aste (San Marino), Auction 21E, <date when="2013-03-23">23rd-24th of March 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/133/522">522</ref></p>
+                            <p xml:lang="fr">Artemide Aste (San Marino), Enchère 21E, <date when="2013-03-23">23-24 Mars 2013</date>, lot <ref target="https://www.artemideaste.com/auction/view/133/522">522</ref></p>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Legend of 3 lines</seg>
+                                            <seg xml:lang="fr">Légende sur 3 lignes</seg>
+                                        </rs>
+                                        <p xml:lang="en">Legend of 3 lines</p>
+                                        <p xml:lang="fr">Légende sur 3 lignes</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r"><seg></seg></handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r"/>
+                                        <figDesc n="decoR">Cercle de grènetis</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Legend of 3 lines</seg>
+                                            <seg xml:lang="fr">Légende sur 3 lignes</seg>
+                                        </rs>
+                                        <p xml:lang="en">Legend of 3 lines</p>
+                                        <p xml:lang="fr">Légende sur 3 lignes</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v"><seg></seg></handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v"/>
+                                        <figDesc n="decoV">Cercle de grènetis</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
+            <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
+            <change when="2021-03-19" who="AS">Bibliographic referencing system changed</change>
+            <change when="2020-08-02" who="AS">Bibliographic references improved and footnotes added</change>
+            <change when="2019-01-19" who="AS">Changes for EFES</change>
+            <change when="2018-08-13" who="AS">First version of the record</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+              <surface type="obverse">
+                  <desc>Obverse</desc>
+                  <graphic url="10b.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
+                      <desc xml:lang="fr">Reproduction numérique de l'avers (2015)</desc>
+                  </graphic>
+              </surface>
+              <surface type="reverse">
+                  <desc>Reverse</desc>
+                  <graphic url="10.jpg" scale="1.5">
+                      <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
+                      <desc xml:lang="fr">Reproduction numérique du revers (2015)</desc>
+                  </graphic>
+              </surface>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
+                  <div type="textpart" subtype="face" n="obv" rend="linear">
+                      <ab>
+                          <rs type="legendsCases" ref="legendsCases.xml#Gen">
+                                  <lb n="1"/>
+                                  <persName type="unattested" ref="prosopography.xml#Βαβωσκομήτης_Κωνσταντῖνος">
+                                      <name type="forename">
+                                          <expan><abbr>Κων</abbr><ex>σταντίνου</ex></expan>
+                                      </name>
+                                  </persName>
+                                  <lb n="2"/>
+                                  <w lemma="σφράγισμα" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=sfragisma&amp;la=greek">
+                                      σφράγι
+                                  <lb n="3" break="no"/>
+                                      σμα
+                                  </w>
+                          </rs>
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <rs type="legendsCases">
+                                  <lb n="4"/>
+                                  <persName>
+                                      <name type="surname">
+                                          Βα
+                                  <lb n="5" break="no"/>
+                                          βωσκο
+                                  <lb n="6" break="no"/>
+                                          μίτου
+                                      </name>
+                                  </persName>
+                          </rs>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
+                   <div type="textpart" subtype="face" n="obv" rend="linear">
+                       <ab>
+                           <lb n="1"/>Κ̅
+                           <lb n="2"/>σργι
+                           <lb n="3"/>σ
+                       </ab>
+                   </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>
+                          <lb n="4"/>
+                          <lb n="5"/>σκ̣ο̣
+                          <lb n="6"/>ιτου
+                          <lb n="0"/>.  .
+                      </ab>
+                  </div><!-- without dot on the last line -->
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
+                      </app>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Κωνσταντίνου σφράγισμα / Βαβωσκομίτου.</p>
+                  <p xml:lang="en">Seal of Constantine Baboskometes.</p>
+                  <p xml:lang="fr">Sceau de Constantin Babôskomètès.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p>Comme tant d’autres au XIe siècle [1], le nom de famille Βαβωσκομήτης est formé sur un toponyme, ici Βαβωσκόμη, que nous n’avons pas été en mesure de localiser.
+                      On retrouve des modèles de formation proche avec les familles Pano(u)komètès [2], Laukokomitès [3],
+                          Lautokomitès [4] (peut-être deux formes du même nom) ou Laptoukomètès [5].</p>
+                  <p>Le nom de famille Βαβωσκομήτης est attesté sous une forme très proche en 1191, quand un Βαβουσκωμίτης prénommé peut-être Nicolas,
+                      référendaire de Sainte-Sophie, assiste à un synode [6]. Vers le milieu du XIIIe siècle Georges Βαβουσκωμίτης est un enseignant de rhétorique et philosophie dans l'Empire de Nicée:
+                      il a laissé un petit corpus de onze lettres (écrites ou reçues) et parmi ses correspondants on retrouve le futur patriarche de Constantinople Jean Bekkos, à un moment de sa vie
+                      au cours duquel Jean était un jeune homme qui poursuivait sa formation intellectuelle, à laquelle Georges a donc contribué [7].
+                      Ensuite, en 1316, un familier de l'empereur Andronic II appelé Théodore Βαβουσκωμίτης obtient un acte synodal
+                      lui garantissant l'administration du patrimoine de ses petits-fils mineurs: cet acte montre l'alliance entre les familles Babouskomitès, Kaballarios et Euphèmianos [8].
+                      Peu après, le notaire impérial Nicolas Βαβισκωμίτης est responsable de la version grecque
+                  d'un traité passé entre l'Empire et Venise en 1332 [9].</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:id="footnote-1">
+                      [1]. <bibl><ptr target="Cheynet2016"/></bibl>.
+                  </p>
+                  <p xml:id="footnote-2">
+                      [2]. Sceau inédit conservé au musée de Philadelphie, numéro d’inventaire 29-226-302 : Nicétas
+                      Panokomètès, magistre. <bibl><ptr target="Alexias2001"/>, <citedRange unit="chapter">IV.IV.3, XII.I.3</citedRange></bibl> mentionne Nicétas Panoukômitès: combattant aux côtés d'Alexis Ier à la bataille de Dyrrachion de 1081, il fut ensuite l'envoyé d'Alexis auprès du sultan d'Égypte (voir <bibl><ptr target="Skoulatos1980"/>, <citedRange unit="part">156, p. 250</citedRange></bibl> et la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/15002/">Niketas 15002</ref></citedRange></bibl>).
+                  </p>
+                  <p xml:id="footnote-3">
+                      [3]. <bibl><ptr target="CheynetTheodoridis"/>, <citedRange>121</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-4">
+                      [4]. <bibl><ptr target="Lihačev1991"/>, <citedRange unit="page">p. 95</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-5">
+                      [5]. <bibl><ptr target="Buckler1929"/>, <citedRange unit="page">p. 647</citedRange></bibl>. D'autres exemples sont donnés par <bibl><ptr target="Laurent1935"/>, <citedRange unit="page">p. 89, n. 1</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-6">
+                      [6]. <bibl><ptr target="Papadopoulos-Kerameus1894"/>, <citedRange unit="page">p. 370</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-7">
+                      [7]. <bibl><ptr target="Laurent1935"/><citedRange></citedRange></bibl>; voir aussi <bibl><ptr target="Constantinides1982"/>, <citedRange unit="page">pp. 15-17</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-8">
+                      [8]. <bibl><ptr target="MM1"/>, <citedRange unit="page">pp. 61-62</citedRange></bibl>; <bibl><ptr target="DarrouzèsRegestes1.5"/>, <citedRange unit="part">2072, p. 51</citedRange></bibl>; <bibl><ptr target="PLP"/>, <citedRange>2011</citedRange></bibl>.
+                  </p>
+                  <p xml:id="footnote-9">
+                      [9]. <bibl><ptr target="MM3"/>, <citedRange>p. 111</citedRange></bibl>; <bibl><ptr target="DVL1"/>, <citedRange unit="page">p. 234</citedRange></bibl>
+                      (où le nom est rendu en latin comme <hi rend="italic">Vauoscomiti</hi>); <bibl><ptr target="PLP"/>, <citedRange>2010</citedRange></bibl>.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>38, p. 753-754</citedRange></bibl>.</p>
+              </div>
+          </body>
+      </text>
+</TEI>             
