@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 2022-06-08 -->
+<!-- LAST MODIFIED: 2022-10-25 -->
 
 <!-- This bibliography is structured as follows:-->
 
-<!-- ***************COLLECTIONS******************* -->
-<!-- ***************BOOKS AND ARTICLES by author's name***** -->
-<!-- ***************SOURCES (not sigillographic)************* -->
-<!-- ***************THESAURI, DICTIONARIES, ENCYCLOPEDIAS, ETC.*********************** -->
-<!-- ***************ONLINE RESOURCES ****************-->
-<!-- ***************AUCTIONS' CATALOGUES AND ONLINE CATALOGUES********************************** -->
-<!-- ***************REVIEWS ******************* -->
+<!-- COLLECTIONS -->
+<!-- BOOKS AND ARTICLES by author's name -->
+<!-- SOURCES (not sigillographic) -->
+<!-- THESAURI, DICTIONARIES, ENCYCLOPEDIAS, ETC. -->
+<!-- ONLINE RESOURCES -->
+<!-- AUCTIONS' CATALOGUES AND ONLINE CATALOGUES -->
+<!-- REVIEWS  -->
 
 <!-- <name> instead of <forename><surname> for ancient authors known by a single name -->
-<!-- ref. organised under the name of the first author only
--->
+<!-- ref. organised under the name of the first author only -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -33,8 +32,8 @@
     <text>
         <body>
             <listBibl>
-                <!-- ****************COLLECTIONS******************* -->
-                <!-- ****************Athens, Numismatic Museum******************** -->
+                <!-- COLLECTIONS -->
+                <!-- Athens, Numismatic Museum -->
                 <bibl type="book" xml:id="Athens1917"
                     corresp="http://zotero.org/users/3169239/items/Z26AHJ9V">
                     <bibl type="abbrev">Konstantopoulos, coll. Athens, 1917</bibl>
@@ -76,7 +75,7 @@
                         4</title></series>
                 </bibl>
 
-                <!-- ****************Dumbarton Oaks seals collection***************** -->
+                <!-- Dumbarton Oaks seals collection -->
 
                 <bibl type="book" xml:id="DOseals1"
                     corresp="http://zotero.org/users/3169239/items/E23FULRT">
@@ -164,7 +163,7 @@
                     <date>2009</date>
                 </bibl>
 
-                <!-- *******************Dumbarton Oaks coin collection******************** -->
+                <!-- Dumbarton Oaks coin collection -->
 
                 <bibl type="book" xml:id="Grierson1993a"
                     corresp="http://zotero.org/users/3169239/items/WANCHGA8">
@@ -251,7 +250,7 @@
                     <series><title level="s">Dumbarton Oaks catalogues</title></series>
                 </bibl>
 
-                <!-- ****************** BBÖ ************************* -->
+                <!--  BBÖ  -->
 
                 <bibl type="book" xml:id="BBÖ1"
                     corresp="http://zotero.org/users/3169239/items/TB59AXZC">
@@ -279,7 +278,7 @@
                     <date>2004</date>
                 </bibl>
 
-                <!-- ***************Bibliothèque Nationale de France************* -->
+                <!-- Bibliothèque Nationale de France -->
 
                 <bibl type="book" xml:id="Rostowtsew1900"
                     corresp="http://zotero.org/users/3169239/items/39XENEX4">
@@ -296,7 +295,7 @@
                         target="http://gallica.bnf.fr/ark:/12148/bpt6k3990656">Gallica</ref>
                 </bibl>
 
-                <!-- ***************British Museum, British Library************** -->
+                <!-- British Museum, British Library -->
 
                 <bibl type="book" xml:id="Birch1898"
                     corresp="http://zotero.org/users/3169239/items/NBSNTNPN">
@@ -310,7 +309,7 @@
                     <date>1898</date>
                 </bibl>
 
-                <!-- ***************Corinth********************** -->
+                <!-- Corinth -->
 
                 <bibl type="book" xml:id="Corinth12"
                     corresp="http://zotero.org/users/3169239/items/JA5S9DPU">
@@ -327,7 +326,7 @@
                         >American School of Classical Studies at Athens</ref>
                 </bibl>
 
-                <!-- ***************Istanbul******************* -->
+                <!-- Istanbul -->
 
                 <bibl type="book" xml:id="Istanbul"
                     corresp="http://zotero.org/users/3169239/items/4NNLLGBY">
@@ -345,7 +344,7 @@
                         4</title></series>
                 </bibl>
 
-                <!-- ***************Jordanov Bulgaria*********** -->
+                <!-- Jordanov Bulgaria -->
 
                 <bibl type="book" xml:id="JordanovCorpus1"
                     corresp="http://zotero.org/users/3169239/items/W4B6INQG">
@@ -378,7 +377,7 @@
                     <date>2009</date>
                 </bibl>
 
-                <!-- ****************Khoury****************** -->
+                <!-- Khoury -->
 
                 <bibl type="journalArticle" xml:id="Khoury"
                     corresp="http://zotero.org/users/3169239/items/4MHLLZ8K">
@@ -392,7 +391,7 @@
                     <biblScope unit="page">p. 419-456</biblScope>
                 </bibl>
 
-                <!-- ****************Kofopoulos*************** -->
+                <!-- Kofopoulos -->
 
                 <bibl type="journalArticle" xml:id="Nikolau2012"
                     corresp="http://zotero.org/users/3169239/items/WTHCIMSS">
@@ -406,7 +405,7 @@
                     <biblScope unit="page">p. 119-123</biblScope>
                 </bibl>
 
-                <!-- ****************Laurent Corpus************ -->
+                <!-- Laurent Corpus -->
 
                 <bibl type="book" xml:id="LaurentCorpus2"
                     corresp="http://zotero.org/users/3169239/items/8KM8C3V8">
@@ -462,7 +461,7 @@
                             byzantines</title></series>
                 </bibl>
 
-                <!-- ***************Metcalf Cyprus**************** -->
+                <!-- Metcalf Cyprus -->
 
                 <bibl type="book" xml:id="Metcalf2004"
                     corresp="http://zotero.org/users/3169239/items/4JQF5BW2">
@@ -482,7 +481,7 @@
                         47</title></series>
                 </bibl>
 
-                <!-- ***************Orghidan********************* -->
+                <!-- Orghidan -->
 
                 <bibl type="book" xml:id="Orghidan"
                     corresp="http://zotero.org/users/3169239/items/S3TCJJE9">
@@ -495,7 +494,7 @@
                     <series><title level="s">Bibliothèque byzantine 1</title></series>
                 </bibl>
 
-                <!-- ***************Selçuk*********************** -->
+                <!-- Selçuk -->
 
                 <bibl type="journalArticle" xml:id="Selçuk"
                     corresp="http://zotero.org/users/3169239/items/36VI2BT7">
@@ -509,7 +508,7 @@
                     <biblScope unit="page">p. 317-352</biblScope>
                 </bibl>
 
-                <!-- ***************Seyrig********************* -->
+                <!-- Seyrig -->
 
                 <bibl type="book" xml:id="Seyrig">
                     <bibl type="abbrev">Cheynet, Morrisson, Seibt, coll. Seyrig, 1991</bibl>
@@ -525,7 +524,7 @@
                     <date>1991</date>
                 </bibl>
 
-                <!-- ***************Shumen********************* -->
+                <!-- Shumen -->
 
                 <bibl type="book" xml:id="Shumen"
                     corresp="http://zotero.org/users/3169239/items/VQMJYEUR">
@@ -541,7 +540,7 @@
                     <date>2007</date>
                 </bibl>
 
-                <!-- ************Sopracasa************** -->
+                <!-- Sopracasa -->
 
                 <bibl type="journalArticle" xml:id="Sopracasa2017"
                     corresp="http://zotero.org/users/3169239/items/XZ6ENKJR">
@@ -564,7 +563,7 @@
                     <biblScope unit="page">p. 691-758</biblScope>
                 </bibl>
 
-                <!-- *****************Speck Berlin**************** -->
+                <!-- Speck Berlin -->
 
                 <bibl type="book" xml:id="Speck1986"
                     corresp="http://zotero.org/users/3169239/items/VKTSCIEJ">
@@ -579,7 +578,7 @@
                     <series><title level="s">Poikila byzantina 5</title></series>
                 </bibl>
                 
-                <!-- ***************** -->
+                <!--  -->
                 
                 <bibl type="book" xml:id="CheynetTatış">
                     <bibl type="abbrev">Cheynet, coll. Tatış</bibl>
@@ -591,7 +590,7 @@
                     <date>2019</date>
                 </bibl>
 
-                <!-- ****************Theodoridis****************** -->
+                <!-- Theodoridis -->
 
                 <bibl type="book" xml:id="CheynetTheodoridis"
                     corresp="http://zotero.org/users/3169239/items/DQWSQ982">
@@ -609,7 +608,7 @@
                     <series><title level="s">Monographies 33</title></series>
                 </bibl>
 
-                <!-- ****************Zacos********************** -->
+                <!-- Zacos -->
 
                 <bibl type="book" xml:id="Zacos1"
                     corresp="http://zotero.org/users/3169239/items/JX9QBXEC">
@@ -671,7 +670,7 @@
                         5</title></series>
                 </bibl>
 
-                <!-- ***************Zarnitz************************************* -->
+                <!-- Zarnitz -->
                 <!-- TO BE DONE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! not as published collection though -->
                 <bibl xml:id="Zarnitz">
                     <bibl type="abbrev">Zarnitz</bibl>
@@ -679,10 +678,10 @@
                     <biblScope/>
                 </bibl>
 
-                <!-- ***************BOOKS AND ARTICLES by author's name***** -->
+                <!-- BOOKS AND ARTICLES by author's name -->
                 <!-- in case of multiple authors, the reference is under the first one -->
 
-                <!-- *****************Alekseenko******************* -->
+                <!-- Alekseenko -->
 
                 <bibl type="bookSection" xml:id="Alekseenko2010"
                     corresp="http://zotero.org/users/3169239/items/5CRXT4XY">
@@ -701,7 +700,7 @@
                         51</title></series>
                 </bibl>
 
-                <!-- ***************Andriollo****************** -->
+                <!-- Andriollo -->
 
                 <bibl type="journalArticle" xml:id="Andriollo2012"
                     corresp="http://zotero.org/users/3169239/items/H5HCDVQK">
@@ -715,7 +714,7 @@
                     <biblScope unit="page">p. 57-87</biblScope>
                 </bibl>
 
-                <!-- ******************Banaji******************* -->
+                <!-- Banaji -->
 
                 <bibl type="book" xml:id="Banaji2001"
                     corresp="http://zotero.org/users/3169239/items/LYXDILXL">
@@ -731,7 +730,7 @@
                     <series><title level="s">The Oxford classical monograph series</title></series>
                 </bibl>
 
-                <!-- ***************Barnea******************** -->
+                <!-- Barnea -->
 
                 <bibl type="journalArticle" xml:id="Barnea1981"
                     corresp="http://zotero.org/users/3169239/items/MLZFECEH">
@@ -758,7 +757,7 @@
                     <biblScope unit="page">p. 201-212</biblScope>
                 </bibl>
 
-                <!-- ****************Barzos****************** -->
+                <!-- Barzos -->
 
                 <bibl type="book" xml:id="Barzós1984a"
                     corresp="http://zotero.org/users/3169239/items/S2SDD2W5">
@@ -789,7 +788,7 @@
                             Studies = Textus Bizantini et Dissertationes 20β</title></series>
                 </bibl>
 
-                <!-- ***************Bibicou******************* -->
+                <!-- Bibicou -->
 
                 <bibl type="journalArticle" xml:id="Bibicou1959"
                     corresp="http://zotero.org/users/3169239/items/I4CLXPJS">
@@ -804,7 +803,7 @@
                     <biblScope unit="page">p. 43-75</biblScope>
                 </bibl>
 
-                <!-- *************Bilik************** -->
+                <!-- Bilik -->
                 
                 <bibl type="journalArticle" xml:id="Bilik1998">
                     <bibl type="abbrev">Bilik, 1998</bibl>
@@ -818,7 +817,7 @@
                     <biblScope unit="page">p. 50-66</biblScope>
                 </bibl>
                 
-                <!-- *************Bourdara************** -->
+                <!-- Bourdara -->
 
                 <bibl type="book" xml:id="Bourdara1981"
                     corresp="http://zotero.org/users/3169239/items/PDWUKJEJ">
@@ -832,7 +831,7 @@
                     <date>1981</date>
                 </bibl>
 
-                <!-- *******************Brubaker******************** -->
+                <!-- Brubaker -->
 
                 <bibl type="book" xml:id="Brubaker2011"
                     corresp="http://zotero.org/users/3169239/items/XA4NKSNG">
@@ -848,7 +847,7 @@
                     <date>2011</date>
                 </bibl>
 
-                <!-- ******************Buckler********************** -->
+                <!-- Buckler -->
 
                 <bibl type="journalArticle" xml:id="Buckler1929"
                     corresp="http://zotero.org/users/3169239/items/9CS7Z8QY">
@@ -863,7 +862,7 @@
                     <biblScope unit="page">p. 646-648</biblScope>
                 </bibl>
 
-                <!-- ******************Campagnolo-Pothitou************* -->
+                <!-- Campagnolo-Pothitou -->
 
                 <bibl type="journalArticle" xml:id="Campagnolo2019">
                     <bibl type="abbrev">Campagnolo-Pothitou, Charalampakis, 2019</bibl>
@@ -879,7 +878,7 @@
                     <biblScope unit="page">p. 5-106</biblScope>
                 </bibl>
 
-                <!-- ******************Cantacuzène G.****************** -->
+                <!-- Cantacuzène G. -->
 
                 <bibl type="journalArticle" xml:id="Cantacuzène1927"
                     corresp="http://zotero.org/users/3169239/items/8YC6HU2Y">
@@ -895,7 +894,7 @@
                         >Cimec</ref>
                 </bibl>
                 
-                <!-- ******************Catalano****************** -->
+                <!-- Catalano -->
                 
                 <bibl type="journalArticle" xml:id="CatalanoFilosaSode2021">
                     <bibl type="abbrev">Catalano-Filosa-Sode, 2021</bibl>
@@ -912,7 +911,7 @@
                     <biblScope unit="page">p. 297-322</biblScope>
                 </bibl>
 
-                <!-- ***************Cheynet******************* -->
+                <!-- Cheynet -->
                
                 <bibl type="journalArticle" xml:id="Cheynet2006">
                     <bibl type="abbrev">Cheynet, 2006</bibl>
@@ -1147,7 +1146,7 @@
                     <biblScope unit="page">p. 1-12</biblScope>
                 </bibl>
 
-                <!-- *************Chkhaidze**************** -->
+                <!-- Chkhaidze -->
 
                 <bibl type="bookSection" xml:id="Chkhaidze2013"
                     corresp="http://zotero.org/users/3169239/items/2WVDSVHG">
@@ -1181,7 +1180,7 @@
                     <biblScope unit="page">p. 61-70</biblScope>
                 </bibl>
                 
-                <!-- **************Constantelos********* -->
+                <!-- Constantelos -->
 
                 <bibl type="book" xml:id="Constantelos1991">
                     <bibl type="abbrev">Constantelos, 1991</bibl>
@@ -1192,7 +1191,7 @@
                     <date>1991</date>
                 </bibl> <!--aggiungere che è seconda edizione!!!!-->
 
-                <!-- **************Constantinides********* -->
+                <!-- Constantinides -->
                 <bibl type="book" xml:id="Constantinides1982">
                     <bibl type="abbrev">Constantinides, 1982</bibl>
                     <author><forename>C. N.</forename>
@@ -1206,7 +1205,7 @@
                         XI</title></series>
                 </bibl>
 
-                <!-- **************Cosentino************ -->
+                <!-- Cosentino -->
 
                 <bibl type="bookSection" xml:id="Cosentino2014"
                     corresp="http://zotero.org/users/3169239/items/D348IHPS">
@@ -1227,7 +1226,7 @@
                     <biblScope unit="page">p. 153-169</biblScope>
                 </bibl>
 
-                <!-- ****************Cotsonis**************** -->
+                <!-- Cotsonis -->
 
                 <bibl type="journalArticle" xml:id="Cotsonis2005">
                     <bibl type="abbrev">Cotsonis, 2005</bibl>
@@ -1266,7 +1265,7 @@
                         target="https://doi.org/10.3406/numi.2013.3215">Persée</ref>
                 </bibl>
 
-                <!-- **************Dédéyan************ -->
+                <!-- Dédéyan -->
 
                 <bibl type="book" xml:id="Dédéyan2003a"
                     corresp="http://zotero.org/users/3169239/items/5JN88Q99">
@@ -1303,7 +1302,7 @@
                             Gulbenkian</title></series>
                 </bibl>
 
-                <!-- **************Diehl*************** -->
+                <!-- Diehl -->
 
                 <bibl type="bookSection" xml:id="Diehl1924"
                     corresp="http://zotero.org/users/3169239/items/SG3M4QQ9">
@@ -1318,7 +1317,7 @@
                     <biblScope unit="page">p. 105-117</biblScope>
                 </bibl>
 
-                <!-- *************Drew-Bear**************** -->
+                <!-- Drew-Bear -->
 
                 <bibl type="journalArticle" xml:id="Drew-Bear1998"
                     corresp="http://zotero.org/users/3169239/items/A67HX9U3">
@@ -1335,7 +1334,7 @@
                     <biblScope unit="page">p. 197-215</biblScope>
                 </bibl>
 
-                <!-- **************Durliat************** -->
+                <!-- Durliat -->
 
                 <bibl type="journalArticle" xml:id="Durliat1979"
                     corresp="http://zotero.org/users/3169239/items/3YIUMUM6">
@@ -1350,7 +1349,7 @@
                     <biblScope unit="page">p. 306-320</biblScope>
                 </bibl>
 
-                <!-- ***************Failler*************** -->
+                <!-- Failler -->
 
                 <bibl type="journalArticle" xml:id="Failler2000"
                     corresp="http://zotero.org/users/3169239/items/QNRBZYWD">
@@ -1365,7 +1364,7 @@
                         target="https://doi.org/10.3406/rebyz.2000.1991">Persée</ref>
                 </bibl>
 
-                <!-- *****************Falkenhausen**************** -->
+                <!-- Falkenhausen -->
 
                 <bibl type="bookSection" xml:id="Falkenhausen2013"
                     corresp="http://zotero.org/users/3169239/items/U3XRU2MP">
@@ -1384,7 +1383,7 @@
                     <biblScope unit="page">p. 821-832</biblScope>
                 </bibl>
 
-                <!-- ***************Fedalto*************** -->
+                <!-- Fedalto -->
 
                 <bibl type="book" xml:id="Fedalto1988"
                     corresp="http://zotero.org/users/3169239/items/DAD7LDWP">
@@ -1401,7 +1400,7 @@
                     <date>1988</date>
                 </bibl>
 
-                <!-- ***************Feissel*************** -->
+                <!-- Feissel -->
 
                 <bibl type="bookSection" xml:id="Feissel2003"
                     corresp="http://zotero.org/users/3169239/items/SJBENGQR">
@@ -1420,7 +1419,7 @@
                     <biblScope unit="page">p. 231-247</biblScope>
                 </bibl>
                 
-                <!-- ***************Follieri****************** -->
+                <!-- Follieri -->
                 
                 <bibl type="book" xml:id="Follieri1967">
                     <bibl type="abbrev">Follieri, 1967</bibl>
@@ -1432,7 +1431,7 @@
                     <date>1967</date>
                 </bibl>
                 
-                <!-- ***************Galavaris****************** -->
+                <!-- Galavaris -->
                 
                 <bibl type="journalArticle" xml:id="Galavaris1959">
                     <bibl type="abbrev">Galavaris, 1959</bibl>
@@ -1445,7 +1444,7 @@
                     <biblScope unit="page">p. 229-233</biblScope>
                 </bibl>
                 
-                <!-- ***************Garbarino****************** -->
+                <!-- Garbarino -->
 
                 <bibl type="book" xml:id="Garbarino1988"
                     corresp="http://zotero.org/users/3169239/items/JAUJ4U9A">
@@ -1462,7 +1461,7 @@
                             Serie 3 memoria 26</title></series>
                 </bibl>
 
-                <!-- **************Gascou************* -->
+                <!-- Gascou -->
 
                 <bibl type="journalArticle" xml:id="Gascou1972"
                     corresp="http://zotero.org/users/3169239/items/86UK3H7Z">
@@ -1489,7 +1488,7 @@
                     <series><title level="s">Bilans de recherche 4</title></series>
                 </bibl>
 
-                <!-- **************Gautier************* -->
+                <!-- Gautier -->
 
                 <bibl type="journalArticle" xml:id="Gautier1969">
                     <bibl type="abbrev">Gautier, 1969</bibl>
@@ -1513,7 +1512,7 @@
                     <biblScope unit="page">p. 213-284</biblScope>
                 </bibl>
                 
-                <!-- **************Georgiou************ -->
+                <!-- Georgiou -->
 
                 <bibl type="journalArticle" xml:id="Georgiou2019">
                     <bibl type="abbrev">Georgiou, 2019</bibl>
@@ -1539,7 +1538,7 @@
                     <biblScope unit="page">p. 151-162</biblScope>
                 </bibl>
 
-                <!-- ***************Gkoutzioukostas******************** -->
+                <!-- Gkoutzioukostas -->
 
                 <bibl type="bookSection" xml:id="Gkoutzioukostas2008"
                     corresp="http://zotero.org/users/3169239/items/7BENLU6K">
@@ -1569,7 +1568,7 @@
                     <series><title level="s">Εταιρεία βυζαντινών ερευνών 22</title></series>
                 </bibl>
 
-                <!-- **************Goodacre************ -->
+                <!-- Goodacre -->
 
                 <bibl type="journalArticle" xml:id="Goodacre1945"
                     corresp="http://zotero.org/users/3169239/items/8YWG9ABR">
@@ -1585,7 +1584,7 @@
                     <biblScope unit="page">p. 34-40</biblScope>
                 </bibl>
 
-                <!-- ****************Guilland***************** -->
+                <!-- Guilland -->
 
                 <bibl type="journalArticle" xml:id="Guilland1980"
                     corresp="http://zotero.org/users/3169239/items/C3JFTZSM">
@@ -1601,7 +1600,7 @@
                     <biblScope unit="page">p. 45-180</biblScope>
                 </bibl>
 
-                <!-- ***************Guillou*************** -->
+                <!-- Guillou -->
 
                 <bibl type="book" xml:id="Guillou1972"
                     corresp="http://zotero.org/users/3169239/items/96ZIVHIN">
@@ -1617,7 +1616,7 @@
                             recherches d'histoire et de géographie 3</title></series>
                 </bibl>
 
-                <!-- ***************Haldon************************* -->
+                <!-- Haldon -->
 
                 <bibl type="book" xml:id="Haldon1984"
                     corresp="http://zotero.org/users/3169239/items/RSJZMEZ8">
@@ -1633,7 +1632,7 @@
                     <series><title level="s">Poikila byzantina 3</title></series>
                 </bibl>
 
-                <!-- *****************Hermay********************* -->
+                <!-- Hermay -->
 
                 <bibl type="journalArticle" xml:id="Hermay2017"
                     corresp="http://zotero.org/users/3169239/items/LW3M6P5F">
@@ -1655,7 +1654,7 @@
                     <biblScope unit="page">p. 277-284</biblScope>
                 </bibl>
 
-                <!-- *****************Honigmann****************** -->
+                <!-- Honigmann -->
 
                 <bibl type="book" xml:id="Honigmann1935"
                     corresp="http://zotero.org/users/3169239/items/Y9L9S4GN">
@@ -1675,7 +1674,7 @@
                         3</title></series>
                 </bibl>
 
-                <!-- *****************Hornickel****************** -->
+                <!-- Hornickel -->
 
                 <bibl type="book" xml:id="Hornickel1930"
                     corresp="http://zotero.org/users/3169239/items/2R96VQJD">
@@ -1689,7 +1688,7 @@
                     <date>1930</date>
                 </bibl>
 
-                <!-- ***************Howard-Johnston**************** -->
+                <!-- Howard-Johnston -->
 
                 <bibl type="journalArticle" xml:id="Howard-Johnston1995"
                     corresp="http://zotero.org/users/3169239/items/MAM2LZQG">
@@ -1704,7 +1703,7 @@
                     <biblScope unit="page">p. 75-100</biblScope>
                 </bibl>
 
-                <!-- **************Hunger************** -->
+                <!-- Hunger -->
 
                 <bibl type="journalArticle" xml:id="Hunger1994">
                     <bibl type="abbrev">Hunger, 1994</bibl>
@@ -1730,7 +1729,7 @@
                     <biblScope unit="page">p. 1-28</biblScope>
                 </bibl>
 
-                <!-- **************Iberites************** -->
+                <!-- Iberites -->
                 
                 <bibl type="journalArticle" xml:id="Iberites1940">
                     <bibl type="abbrev">Iberites, 1940</bibl>
@@ -1743,7 +1742,7 @@
                     <biblScope unit="page">p. 324-376</biblScope>. Available at <ref type="https://doi.org/10.12681/makedonika.9146"/>.
                 </bibl>
                 
-                <!-- *************Ivanišević************* -->
+                <!-- Ivanišević -->
 
                 <bibl type="journalArticle" xml:id="Ivanišević2013"
                     corresp="http://zotero.org/users/3169239/items/9KP35XB6">
@@ -1759,7 +1758,7 @@
                     <biblScope unit="page">p. 449-460</biblScope>
                 </bibl>
 
-                <!-- **************Janin**************** -->
+                <!-- Janin -->
 
                 <bibl type="book" xml:id="Janin1950"
                     corresp="http://zotero.org/users/3169239/items/3UHRPNWY">
@@ -1785,7 +1784,7 @@
                     <date>1953</date>
                 </bibl>
 
-                <!-- **************Jankowiak**************** -->
+                <!-- Jankowiak -->
 
                 <bibl type="journalArticle" xml:id="Jankowiak2013"
                     corresp="http://zotero.org/users/3169239/items/7ELA2HS8">
@@ -1801,7 +1800,7 @@
                     <biblScope unit="page">p. 435-461</biblScope>
                 </bibl>
 
-                <!-- ***************Jeffreys************* -->
+                <!-- Jeffreys -->
 
                 <bibl type="book" xml:id="Jeffreys2017"
                     corresp="http://zotero.org/users/3169239/items/HBUC6QEL">
@@ -1818,7 +1817,7 @@
                     <series><title level="s">Oxford Studies in Byzantium</title></series>
                 </bibl>
 
-                <!-- ***************Jones*************** -->
+                <!-- Jones -->
 
                 <bibl type="book" xml:id="Jones1964"
                     corresp="http://zotero.org/users/3169239/items/QLXCU2HU">
@@ -1832,7 +1831,7 @@
                     <date>1964</date>
                 </bibl>
 
-                <!-- **************Jordanov************ -->
+                <!-- Jordanov -->
 
                 <bibl type="journalArticle" xml:id="Jordanov1985">
                     <bibl type="abbrev">Jordanov, 1985</bibl>
@@ -1936,7 +1935,7 @@
                     <biblScope unit="page">p. 33-59</biblScope>
                 </bibl>
                 
-                <!-- **************Kaplan********** -->
+                <!-- Kaplan -->
 
                 <bibl type="book" xml:id="Kaplan1976"
                     corresp="http://zotero.org/users/3169239/items/IA5D2FYA">
@@ -1975,7 +1974,7 @@
                     <biblScope unit="page">p. 167-183</biblScope>
                 </bibl>
 
-                <!-- **************Karagiorgou********** -->
+                <!-- Karagiorgou -->
 
                 <bibl type="bookSection" xml:id="Karagiorgou2008"
                     corresp="http://zotero.org/users/3169239/items/8QQHH6LQ">
@@ -2009,7 +2008,7 @@
                     <biblScope unit="page">p. 24-31</biblScope>
                 </bibl>
 
-                <!-- **************Kislinger************* -->
+                <!-- Kislinger -->
 
                 <bibl type="journalArticle" xml:id="Kislinger2011"
                     corresp="http://zotero.org/users/3169239/items/7K6JCVGA">
@@ -2025,7 +2024,7 @@
                     <biblScope unit="page">p. 313-352</biblScope>
                 </bibl>
 
-                <!-- **************Klimanov*************** -->
+                <!-- Klimanov -->
 
                 <bibl type="book" xml:id="Klimanov1999"
                     corresp="http://zotero.org/users/3169239/items/D9ZFAHMW">
@@ -2041,7 +2040,7 @@
                     <series><title level="s">Византийская библиотека. Исследования</title></series>
                 </bibl>
 
-                <!-- **************Koltsida-Makri************** -->
+                <!-- Koltsida-Makri -->
 
                 <bibl type="journalArticle" xml:id="Koltsida-Makri2003">
                     <bibl type="abbrev">Koltsida-Makri, 2003</bibl>
@@ -2055,7 +2054,7 @@
                     <biblScope unit="page">p. 27-38</biblScope>
                 </bibl>
 
-                <!-- **************Kouroupou***************** -->
+                <!-- Kouroupou -->
 
                 <bibl type="journalArticle" xml:id="Kouroupou2005"
                     corresp="http://zotero.org/users/3169239/items/JIWFFDUH">
@@ -2072,7 +2071,7 @@
                     <biblScope unit="page">p. 41-69</biblScope>
                 </bibl>
 
-                <!-- **************Koytcheva************** -->
+                <!-- Koytcheva -->
 
                 <bibl type="bookSection" xml:id="Koytcheva2014"
                     corresp="http://zotero.org/users/3169239/items/JBZGW6MR">
@@ -2092,7 +2091,7 @@
                     <series><title level="s">Miscellanea Bulgarica 21</title></series>
                 </bibl>
 
-                <!-- ****************Kühn******************* -->
+                <!-- Kühn -->
 
                 <bibl type="book" xml:id="Kühn1991"
                     corresp="http://zotero.org/users/3169239/items/MGJ844Z3">
@@ -2109,7 +2108,7 @@
                     <series><title level="s">Byzantinische Geschichtsschreiber 2</title></series>
                 </bibl>
 
-                <!-- *******************Laniado******************* -->
+                <!-- Laniado -->
 
                 <bibl type="book" xml:id="Laniado2002"
                     corresp="http://zotero.org/users/3169239/items/K7AXR228">
@@ -2127,7 +2126,7 @@
                             et civilisation de Byzance 13</title></series>
                 </bibl>
 
-                <!-- **************Laourdas************* -->
+                <!-- Laourdas -->
                 
                 <bibl type="journalArticle" xml:id="Laourdas1951">
                     <bibl type="abbrev">Laourdas, 1951</bibl>
@@ -2139,7 +2138,7 @@
                     <date>1951</date>
                     <biblScope unit="page">p. 252-262</biblScope></bibl>
                 
-                <!-- **************Laurent************** -->
+                <!-- Laurent -->
 
                 <bibl type="journalArticle" xml:id="Laurent1948">
                     <bibl type="abbrev">Laurent, 1948</bibl>
@@ -2213,7 +2212,7 @@
                     <biblScope unit="page">p. 221-254</biblScope>
                 </bibl>
 
-                <!-- ******************Lebeniotes********************** -->
+                <!-- Lebeniotes -->
 
                 <bibl type="book" xml:id="Lebeniotes2004"
                     corresp="http://zotero.org/users/3169239/items/UMHB4CGR">
@@ -2246,7 +2245,7 @@
                     <biblScope unit="page">p. 361-410</biblScope>
                 </bibl>
                                      
-                <!-- *******************Leontaritou***************** -->
+                <!-- Leontaritou -->
                 
                 <bibl type="book" xml:id="Leontaritou1996">
                     <bibl type="abbrev">Leontaritou, 1996</bibl>
@@ -2258,7 +2257,7 @@
                     <date>1996</date>
                 </bibl>
 
-                <!-- *******************Lihačev***************** -->
+                <!-- Lihačev -->
 
                 <bibl type="book" xml:id="Lihačev1991"
                     corresp="http://zotero.org/users/3169239/items/7G2W8FRW">
@@ -2276,7 +2275,7 @@
                     <series><title level="s">Научное наследство 19</title></series>
                 </bibl>
 
-                <!-- ******************Lounghis***************** -->
+                <!-- Lounghis -->
 
                 <bibl type="journalArticle" xml:id="Lounghis1991"
                     corresp="http://zotero.org/users/3169239/items/BI4YSJHJ">
@@ -2306,7 +2305,7 @@
                     >EKT</ref><!-- EKT????????????????????????????????????????????????????????????????????????????????????? -->
                 </bibl>
 
-                <!-- *************Magdalino************** -->
+                <!-- Magdalino -->
 
                 <bibl type="journalArticle" xml:id="Magdalino1987"
                     corresp="http://zotero.org/users/3169239/items/AW5M92L3">
@@ -2360,7 +2359,7 @@
                     <biblScope unit="page">p. 141-150</biblScope>
                 </bibl>
 
-                <!-- ****************Maksimović**************** -->
+                <!-- Maksimović -->
 
                 <bibl type="journalArticle" xml:id="MaksimovićPopović1993">
                     <bibl type="abbrev">Maksimović &amp; Popović, 1993</bibl>
@@ -2389,7 +2388,7 @@
                     <biblScope unit="page">p. 437-438</biblScope>
                 </bibl>
 
-                <!-- ****************Markopoulos*********** -->
+                <!-- Markopoulos -->
 
                 <bibl type="journalArticle" xml:id="Markopoulos1979"
                     corresp="http://zotero.org/users/3169239/items/ZGBQLBGM">
@@ -2406,7 +2405,7 @@
                         (ΕΙΕ)</ref>
                 </bibl>
 
-                <!-- ****************Martin**************** -->
+                <!-- Martin -->
 
                 <bibl type="journalArticle" xml:id="Martin2010"
                     corresp="http://zotero.org/users/3169239/items/5VFDQI6Q">
@@ -2421,7 +2420,7 @@
                     <biblScope unit="page">p. 533-548</biblScope>
                 </bibl>
 
-                <!-- *************Messis**************** -->
+                <!-- Messis -->
 
                 <bibl type="journalArticle" xml:id="Messis2015"
                     corresp="http://zotero.org/users/3169239/items/8F2KCBJ8">
@@ -2436,7 +2435,7 @@
                     <biblScope unit="page">p. 99-122</biblScope>
                 </bibl>
 
-                <!-- *************Morrisson************* -->
+                <!-- Morrisson -->
 
                 <bibl type="bookSection" xml:id="Morrisson2017"
                     corresp="http://zotero.org/users/3169239/items/HF8PUEF8">
@@ -2459,7 +2458,7 @@
                     <biblScope unit="page">p. 471-486</biblScope>
                 </bibl>
 
-                <!-- *************Mušmov**************** -->
+                <!-- Mušmov -->
 
                 <bibl type="journalArticle" xml:id="Mušmov1934">
                     <title level="a">Vizantijski olovni pečati ot sbirkata na Narodnija Muzej</title>
@@ -2471,7 +2470,7 @@
                     <note type="tags"><note type="tag">Mušmov1934</note></note>
                 </bibl>
 
-                <!-- *************Nesbitt**************** -->
+                <!-- Nesbitt -->
 
                 <bibl type="journalArticle" xml:id="Nesbitt1990"
                     corresp="http://zotero.org/users/3169239/items/YN2LBVX9">
@@ -2514,7 +2513,7 @@
                     <series><title level="s">Berliner byzantinistische Studien 7</title></series>
                 </bibl>
 
-                <!-- *************Oikonomides*********** -->
+                <!-- Oikonomides -->
 
                 <bibl type="book" xml:id="Oikonomides1972"
                     corresp="http://zotero.org/users/3169239/items/GNYXS45K">
@@ -2580,7 +2579,7 @@
                     <biblScope unit="page">p. 71-79</biblScope>
                 </bibl>
 
-                <!-- ************Pozza****************** -->
+                <!-- Pozza -->
 
                 <bibl type="journalArticle" xml:id="Pozza1983"
                     corresp="http://zotero.org/users/3169239/items/VYQ3QN8Y">
@@ -2595,7 +2594,7 @@
                     <biblScope unit="page">p. 223-232</biblScope>
                 </bibl>
 
-                <!-- ************Prigent***************** -->
+                <!-- Prigent -->
 
                 <bibl type="journalArticle" xml:id="Prigent2006"
                     corresp="http://zotero.org/users/3169239/items/G7WLK3ZG">
@@ -2699,7 +2698,7 @@
                     <series><title level="s">Byzantina Sorbonensia 29</title></series>
                 </bibl>
 
-                <!-- *********************Ravegnani******************** -->
+                <!-- Ravegnani -->
 
                 <bibl type="bookSection" xml:id="Ravegnani1992"
                     corresp="http://zotero.org/users/3169239/items/RFG2W72Q">
@@ -2714,7 +2713,7 @@
                     <biblScope unit="page">p. 19-29</biblScope>
                 </bibl>
 
-                <!-- *******************Saint-Guillain***************** -->
+                <!-- Saint-Guillain -->
 
                 <bibl type="journalArticle" xml:id="Saint-Guillain2017"
                     corresp="http://zotero.org/users/3169239/items/3SZGYRLD">
@@ -2738,7 +2737,7 @@
                     <biblScope unit="page">p. 561-636</biblScope>
                 </bibl>
 
-                <!-- *********************Šandrovskaya***************** -->
+                <!-- Šandrovskaya -->
 
                 <bibl type="journalArticle" xml:id="Šandrovskaya1977"
                     corresp="http://zotero.org/users/3169239/items/NJNXBVMM">
@@ -2766,7 +2765,7 @@
                     <biblScope unit="page">p. 82-92</biblScope>
                 </bibl>
 
-                <!-- ************Schlumberger********** -->
+                <!-- Schlumberger -->
 
                 <bibl type="journalArticle" xml:id="Schlumberger1881"
                     corresp="http://zotero.org/users/3169239/items/6IE2NG8N">
@@ -2791,7 +2790,7 @@
                     <date>1884</date>
                 </bibl>
 
-                <!-- ************Seibt****************** -->
+                <!-- Seibt -->
                 
                 <bibl type="journalArticle" xml:id="Seibt2016">
                     <bibl type="abbrev">Seibt, 2016</bibl>
@@ -2856,7 +2855,7 @@
                     <biblScope unit="page">p. 89-96</biblScope>
                 </bibl>
 
-                <!-- ************Settipani*************** -->
+                <!-- Settipani -->
 
                 <bibl type="journalArticle" xml:id="Settipani2017"
                     corresp="http://zotero.org/users/3169239/items/SEAFI59A">
@@ -2879,7 +2878,7 @@
                     <biblScope unit="page">p. 657-674</biblScope>
                 </bibl>
 
-                <!-- ************Shepard*************** -->
+                <!-- Shepard -->
 
                 <bibl type="journalArticle" xml:id="Shepard1993"
                     corresp="http://zotero.org/users/3169239/items/ME6I3DIF">
@@ -2893,7 +2892,7 @@
                     <biblScope unit="page">p. 275-305</biblScope>
                 </bibl>
 
-                <!-- ************Sinclair************** -->
+                <!-- Sinclair -->
 
                 <bibl type="book" xml:id="Sinclair1989"
                     corresp="http://zotero.org/users/3169239/items/XY8NQXKY">
@@ -2910,7 +2909,7 @@
                     <date>1989</date>
                 </bibl>
 
-                <!-- ************Skoulatos************** -->
+                <!-- Skoulatos -->
 
                 <bibl type="book" xml:id="Skoulatos1980"
                     corresp="http://zotero.org/users/3169239/items/X7X5IUWN">
@@ -2924,7 +2923,7 @@
                     <date>1980</date>
                 </bibl>
 
-                <!-- ***************Stanković******************* -->
+                <!-- Stanković -->
 
                 <bibl type="bookSection" xml:id="Stanković2013"
                     corresp="http://zotero.org/users/3169239/items/4GI6IVTE">
@@ -2944,7 +2943,7 @@
                     <series><title level="s">Byzantinisches Archiv 27</title></series>
                 </bibl>
 
-                <!-- ************Stepanova************** -->
+                <!-- Stepanova -->
 
                 <bibl type="journalArticle" xml:id="Stepanova2016">
                     <bibl type="abbrev">Stepanova, 2016</bibl>
@@ -3003,7 +3002,7 @@
                     <biblScope unit="page">p. 777-787</biblScope>
                 </bibl>
                 
-                <!-- *******************Talbot***************** -->
+                <!-- Talbot -->
                 
                 <bibl type="journalArticle" xml:id="Talbot1984">
                     <bibl type="abbrev">Talbot, 1984</bibl>
@@ -3016,7 +3015,7 @@
                     <biblScope unit="page">p. 267-278</biblScope>
                 </bibl>
                 
-                <!-- *******************Volk***************** -->
+                <!-- Volk -->
 
                 <bibl type="book" xml:id="Volk1983">
                     <bibl type="abbrev">Volk, 1983</bibl>
@@ -3028,7 +3027,7 @@
                     <date>1983</date>
                 </bibl>
 
-                <!-- *******************Wassiliou-Seibt***************** -->
+                <!-- Wassiliou-Seibt -->
 
                 <bibl type="journalArticle" xml:id="Wassiliou2006">
                     <bibl type="abbrev">Wassiliou, 2006</bibl>
@@ -3084,7 +3083,7 @@
                         target="https://doi.org/10.2298/ZRVI2057007W">doiSerbia</ref>
                 </bibl>
 
-                <!-- ************Zuckerman************* -->
+                <!-- Zuckerman -->
 
                 <bibl type="journalArticle" xml:id="Zuckerman2005"
                     corresp="http://zotero.org/users/3169239/items/3GSSDUW4">
@@ -3110,7 +3109,7 @@
                     <biblScope unit="page">p. 865-890</biblScope>
                 </bibl>
 
-                <!-- *******************SOURCES (not sigillographic)****************** -->
+                <!-- SOURCES (not sigillographic) -->
                 
                 <!-- Archives de l’Athos -->
                 
@@ -3689,9 +3688,9 @@
                         50</title></series>
                 </bibl>
 
-                <!-- ****************THESAURI, DICTIONARIES, ENCYCLOPEDIAS, ETC.******************* -->
+                <!-- THESAURI, DICTIONARIES, ENCYCLOPEDIAS, ETC. -->
 
-                <!-- **************Lexikon der christlichen Ikonographie************* -->
+                <!-- Lexikon der christlichen Ikonographie -->
 
                 <bibl type="book" xml:id="LCI">
                     <bibl type="abbrev">LCI</bibl>
@@ -3704,7 +3703,7 @@
                     <date>1978</date>
                 </bibl>
                 
-                <!-- **************Oxford Dictionary of Byzantium************* -->
+                <!-- Oxford Dictionary of Byzantium -->
                 
                 <bibl type="book" xml:id="ODB"
                     corresp="http://zotero.org/users/3169239/items/E786KBHT">
@@ -3782,7 +3781,7 @@
                         >DigTIB</ref>
                 </bibl>
 
-                <!-- **************** ONLINE RESOURCES ****************-->
+                <!--  ONLINE RESOURCES -->
 
                 <bibl type="book" xml:id="LBG">
                     <bibl type="abbrev">LBG</bibl>
@@ -3856,7 +3855,7 @@
                 
                 
 
-                <!-- *****************AUCTIONS' CATALOGUES AND ONLINE CATALOGUES********************************** -->
+                <!-- AUCTIONS' CATALOGUES AND ONLINE CATALOGUES -->
 
                 <bibl type="journalArticle" xml:id="SBS_Auctions1986-1992">
                     <bibl type="abbrev">Auctions 1986-1992</bibl>
@@ -3946,7 +3945,7 @@
                     <date>1999</date>
                 </bibl>
 
-                <!-- ***************** REVIEWS ******************* -->
+                <!--  REVIEWS  -->
 
                 <bibl type="journalArticle" xml:id="Seibt1996">
                     <bibl type="abbrev">Seibt, 1996</bibl>
