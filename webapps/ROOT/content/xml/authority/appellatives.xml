@@ -33,7 +33,7 @@
             
             <!--*** christTerms ***-->
             
-            <list type="appellatives" subtype="christTerms">
+            <list type="christTerms">
                 <item xml:id="christ">
                     <term xml:lang="grc">Ἰησοῦς Χριστός</term>
                     <term xml:lang="en">Jesus Christ</term>
@@ -56,7 +56,7 @@
             
             <!--*** marianTerms ***-->
             
-            <list type="appellatives" subtype="marianTerms">
+            <list type="marianTerms">
                 <item xml:id="theotokos">
                     <term xml:lang="grc">Θεοτόκος</term>
                     <term xml:lang="en">Mother of God</term>
@@ -79,7 +79,7 @@
             
             <!--*** saintsTerms ***-->
             
-            <list type="appellatives" subtype="saintsTerms">
+            <list type="saintsTerms">
                 <item xml:id="unidentified"><!-- word choice not consistent with, for ex., iconography!!!!!!! -->
                     <term xml:lang="grc">Unidentified</term>
                     <term xml:lang="en">Unidentified</term>
