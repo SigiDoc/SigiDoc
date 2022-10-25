@@ -469,7 +469,7 @@
               <xsl:when test="//t:msContents//t:textLang//t:seg//text()">
                 <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>Byzantine Greek</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-layout-field">Layout of field</i18n:text></dt>
@@ -606,7 +606,7 @@
             <xsl:when test="//t:msContents//t:textLang//t:seg//text()">
               <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>Byzantine Greek</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-layout-field">Layout of field</i18n:text></dt>
