@@ -341,7 +341,7 @@
                                   <w lemma="καί" lemmaRef="http://www.perseus.tufts.edu/hopper/morph?l=kai&amp;la=greek">
                                       <expan><ex>καὶ</ex></expan>
                                   </w> 
-                                  <rs type="officeMilitary" ref="officeMilitary.xml#στρατοπεδάρχης">
+                                  <rs type="office" subtype="military" ref="offices.xml#στρατοπεδάρχης">
                                       στρατοπε
                                   <lb n="5" break="no"/>
                                       δάρχῃ
