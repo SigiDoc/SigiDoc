@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- LAST MODIFIED: 2022-10-25 -->
+
 <catalogue xml:lang="de">
     <message key="epidoc-xslt-sigidoc-artifact">Objekt</message>
     <message key="epidoc-xslt-sigidoc-type">Typ</message>
@@ -28,6 +31,7 @@
     <message key="epidoc-xslt-sigidoc-find-circumstances"></message>
     <message key="epidoc-xslt-sigidoc-find-datum">Funddatum</message>
     <message key="epidoc-xslt-sigidoc-find-discoverers">Entdecker</message>
+    <message key="epidoc-xslt-sigidoc-references">Literatur</message>
     
     
     
