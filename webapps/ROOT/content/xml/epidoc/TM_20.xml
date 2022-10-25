@@ -345,7 +345,7 @@
                                       στρατοπε
                                   <lb n="5" break="no"/>
                                       δάρχῃ
-                                  </rs> <rs type="christTerms" ref="#christ">ciao</rs>
+                                  </rs> <rs type="christTerm" subtype="label" ref="#christ">ciao</rs>
                           </rs>
                       </ab>
                   </div>
