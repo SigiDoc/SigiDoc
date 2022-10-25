@@ -467,7 +467,7 @@
           <dd>
             <xsl:choose>
               <xsl:when test="//t:msContents//t:textLang[@n='r']//t:seg//text()">
-                <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
+                <xsl:apply-templates select="//t:msContents//t:textLang[@n='r']//t:seg"/>
               </xsl:when>
               <xsl:otherwise>Byzantine Greek</xsl:otherwise>
             </xsl:choose>
@@ -604,7 +604,7 @@
         <dd>
           <xsl:choose>
             <xsl:when test="//t:msContents//t:textLang[@n='v']//t:seg//text()">
-              <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
+              <xsl:apply-templates select="//t:msContents//t:textLang[@n='v']//t:seg"/>
             </xsl:when>
             <xsl:otherwise>Byzantine Greek</xsl:otherwise>
           </xsl:choose>
