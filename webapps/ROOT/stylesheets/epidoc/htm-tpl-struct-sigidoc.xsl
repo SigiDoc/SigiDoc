@@ -907,11 +907,11 @@
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-no-parallels-known">No parallels known</i18n:text></i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-further-discussion"><i>Further references</i></i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-further-references"><i>Further references</i></i18n:text></dt>
         <dd id="biblioCommParallels">
           <xsl:choose> <!--da cambiare i subtype-->
-            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()">
-              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussionParallels']/t:p/node()"/>
+            <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussion']/t:p/node()">
+              <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussion']/t:p/node()"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
           </xsl:choose>
