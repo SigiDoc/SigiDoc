@@ -13,9 +13,9 @@
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
 
-  <xsl:template match="/">
+<xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:rs[@type='officeCivil'][@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
+      <xsl:for-each-group select="//tei:rs[@type='office'][@subtype='civil'][@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
