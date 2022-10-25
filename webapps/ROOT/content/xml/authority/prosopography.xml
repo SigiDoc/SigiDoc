@@ -28,6 +28,22 @@
     <text>
         <body>
             <listPerson>
+                <person sex="m" xml:id="ciao" source="TM_01" resp="#AS">
+                    <persName>
+                        <reg xml:lang="grc">Ἰουστινιανός Α΄</reg>
+                        <reg xml:lang="la">Iustinianus I</reg>
+                        <reg xml:lang="en">Justinian I</reg>
+                        <orig>Iustinianus</orig>
+                    </persName>
+                    <birth cert="low" when="0482">
+                        <seg>482</seg>
+                    </birth>
+                    <death when="0565-11-15">
+                        <seg>15th of November 565</seg>
+                    </death>
+                    <floruit notBefore="0500" notAfter="0560">Early 6th/Mid 6th century</floruit>
+                    <bibl><ptr target="PLRE3"/><citedRange unit="entry" n="0001"/></bibl>
+                </person>
                 <person sex="m" xml:id="JustinianI" source="TM_01" resp="#AS">
                     <persName>
                         <reg xml:lang="grc">Ἰουστινιανός Α΄</reg>
