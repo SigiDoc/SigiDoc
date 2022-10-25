@@ -4050,6 +4050,19 @@
                     <date>2018</date>
                     <biblScope unit="page">p. 1168-1169</biblScope>
                 </bibl>
+                <bibl type="journalArticle" xml:id="Wassiliou-Seibt2011a">
+                    <bibl type="abbrev">Wassiliou-Seibt, 2011</bibl>
+                    <author><forename>A. K.</forename>
+                        <surname>Wassiliou-Seibt</surname></author>
+                    <title level="a">Review of <bibl>
+                        <author><forename>R.</forename>
+                            <surname>Feind</surname></author>
+                        <title level="m">Byzantinische Siegelkunde. Eine Einführung in die Sigillographie von Byzanz</title></bibl></title>
+                    <title level="j">Jahrbuch der Österreichischen Byzantinistik</title>
+                    <biblScope unit="volume">61</biblScope>
+                    <date>2011</date>
+                    <biblScope unit="page">p. 253-255</biblScope>
+                </bibl>
             </listBibl>
         </body>
     </text>
