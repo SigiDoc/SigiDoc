@@ -118,12 +118,10 @@
                                         <seg xml:lang="fr">Iconographie bilatérale</seg>
                                     </rs>
                                     <rs type="execution">
-                                        <seg xml:lang="en">Struck</seg>
-                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg/>
                                     </rs>
                                     <rs type="shape">
-                                        <seg xml:lang="en">Round</seg>
-                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg/>
                                     </rs>
                                     <rs type="matrix" subtype="notSurviving">
                                         <idno type="SigiDoc">18</idno>
@@ -180,6 +178,9 @@
                             <summary n="r">
                                 <seg xml:lang="en">Obverse</seg>
                             </summary>
+                            <textLang mainLang="la">
+                                <seg>miao miao </seg>
+                            </textLang>
                         </msContents>
                         <physDesc>
                             <objectDesc>
