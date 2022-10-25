@@ -63,8 +63,7 @@
                             <seg xml:lang="fr">Sceaux impériaux</seg>
                         </summary>
                         <textLang mainLang="la">
-                            <seg xml:lang="en">Latin</seg>
-                            <seg xml:lang="fr">Latin</seg>
+                            <seg/>
                         </textLang>
                         <msItem>
                             <author>
