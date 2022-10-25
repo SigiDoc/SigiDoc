@@ -179,7 +179,7 @@
                                 <seg xml:lang="en">Obverse</seg>
                             </summary>
                             <textLang mainLang="la" n="r">
-                                <seg>miao miao </seg>
+                                <seg  xml:lang="en">Latin</seg>
                             </textLang>
                         </msContents>
                         <physDesc>
@@ -238,7 +238,7 @@
                                 <seg xml:lang="en">Reverse</seg>
                             </summary>
                             <textLang mainLang="la" n="v">
-                                <seg>ciao Alessio</seg>
+                                <seg  xml:lang="en">Latin</seg>
                             </textLang>
                         </msContents>
                         <physDesc>
