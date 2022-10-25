@@ -62,9 +62,9 @@
                             <seg xml:lang="en">Imperial seals</seg>
                             <seg xml:lang="fr">Sceaux impériaux</seg>
                         </summary>
-                        <textLang mainLang="la">
+                        <!--<textLang mainLang="la">
                             <seg/>
-                        </textLang>
+                        </textLang>-->
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="imperial">
