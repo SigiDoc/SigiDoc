@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:rs[@type='christTerms'][@subtype][@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
         <xsl:variable name="ref-id" select="normalize-unicode(substring-after(@ref, '#'))"/>
-        <xsl:variable name="ref" select="document('../../content/xml/authority/appellatives.xml')//tei:list[@type='appellatives'][@subytpe='christTerms']/tei:term[@xml:id=$ref-id]"/>
+        <xsl:variable name="ref" select="document('../../content/xml/authority/appellatives.xml')//tei:list[@subytpe='christTerms']/tei:term[@xml:id=$ref-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
