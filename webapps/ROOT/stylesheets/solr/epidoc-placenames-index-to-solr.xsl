@@ -27,7 +27,7 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="concat ($base-uri, @ref)" />
+            <xsl:value-of select="$ref-id" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
