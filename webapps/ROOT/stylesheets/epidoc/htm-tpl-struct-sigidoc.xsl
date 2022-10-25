@@ -582,8 +582,8 @@
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-lettering">Lettering</i18n:text></dt>
           <dd id="lettering">
             <xsl:choose> <!--cambiare @n='whole' in 'r' e 'v'-->
-              <xsl:when test="//t:handDesc//t:handNote[@n='whole']//t:seg//text()">
-                <xsl:apply-templates select="//t:handDesc//t:handNote[@n='whole']//t:seg"/>
+              <xsl:when test="//t:handDesc//t:handNote[@n='r']//t:seg//text()">
+                <xsl:apply-templates select="//t:handDesc//t:handNote[@n='r']//t:seg"/>
               </xsl:when>
               <xsl:otherwise><i>―</i></xsl:otherwise>
             </xsl:choose>
@@ -719,8 +719,8 @@
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-lettering">Lettering</i18n:text></dt>
         <dd id="lettering">
           <xsl:choose> <!--cambiare @n='whole' in 'r' e 'v'-->
-            <xsl:when test="//t:handDesc//t:handNote[@n='whole']//t:seg//text()">
-              <xsl:apply-templates select="//t:handDesc//t:handNote[@n='whole']//t:seg"/>
+            <xsl:when test="//t:handDesc//t:handNote[@n='v']//t:seg//text()">
+              <xsl:apply-templates select="//t:handDesc//t:handNote[@n='v']//t:seg"/>
             </xsl:when>
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
