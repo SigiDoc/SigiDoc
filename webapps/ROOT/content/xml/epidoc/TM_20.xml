@@ -327,7 +327,7 @@
                                   <lb n="2" break="no"/>ήθει
                                       </w>
                                   </rs> 
-                                  <persName ref="#ciao">
+                                  <persName type="attested" ref="prosopography.xml#Οὐρσέλιος_1">
                                       <name type="forename">
                                           Οὐρσέ
                                   <lb n="3" break="no"/>
