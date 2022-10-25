@@ -15,7 +15,15 @@
     <text>
         <body>
             <list type="dignities">
-        <item xml:id="ἀνθύπατος">
+                <item xml:id="ciao">
+                    <term xml:lang="grc">ἀνθύπατος</term>
+                    <term xml:lang="en">ἀνθύπατος</term>
+                    <!--<term xml:lang="en">anthypatos</term>-->
+                    <!--<term xml:lang="fr">anthypatos</term>
+            <term xml:lang="it">anthypatos</term>-->
+                    <gloss xml:lang="en"></gloss>
+                </item>
+                <item xml:id="ἀνθύπατος">
             <term xml:lang="grc">ἀνθύπατος</term>
             <term xml:lang="en">ἀνθύπατος</term>
             <!--<term xml:lang="en">anthypatos</term>-->
