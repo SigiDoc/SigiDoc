@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 2021-08-10 -->
+<!-- LAST MODIFIED: 2022-10-25 -->
 
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="epidoc-xslt-sigidoc-artifact">Artéfact</message>
@@ -74,6 +74,7 @@
     <message key="epidoc-xslt-sigidoc-interpretive">Interprétative</message>
     <message key="epidoc-xslt-sigidoc-diplomatic">Diplomatique</message>
     <message key="epidoc-xslt-sigidoc-legend-translation">Légende et Traduction</message>
+    <message key="epidoc-xslt-sigidoc-references">Bibliographie</message>
     <message key="epidoc-xslt-sigidoc-commentary">Commentaire</message>
     <message key="epidoc-xslt-sigidoc-apparatus">Apparat</message>
     <message key="epidoc-xslt-sigidoc-footnotes">Notes</message>
