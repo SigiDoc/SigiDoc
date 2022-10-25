@@ -2459,6 +2459,18 @@
                     <biblScope unit="page">p. 471-486</biblScope>
                 </bibl>
 
+                <!-- *************Mušmov**************** -->
+
+                <bibl type="journalArticle" xml:id="Mušmov1934">
+                    <title level="a">Vizantijski olovni pečati ot sbirkata na Narodnija Muzej</title>
+                    <author><forename>N. A.</forename><surname>Mušmov</surname></author>
+                    <title level="j">BIBA</title>
+                    <biblScope unit="volume">8</biblScope>
+                    <biblScope unit="page">331-349</biblScope>
+                    <date>1934</date>
+                    <note type="tags"><note type="tag">Mušmov1934</note></note>
+                </bibl>
+
                 <!-- *************Nesbitt**************** -->
 
                 <bibl type="journalArticle" xml:id="Nesbitt1990"
