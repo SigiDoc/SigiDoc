@@ -41,17 +41,17 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='officeCivil']/@ref" mode="facet_civil_offices">
+  <xsl:template match="tei:rs[@type='office'][@subtype='civil']/@ref" mode="facet_civil_offices">
     <field name="civil_offices">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='officeEcclesiastical']/@ref" mode="facet_ecclesiastical_offices">
+  <xsl:template match="tei:rs[@type='office'][@subtype='ecclesiastical']/@ref" mode="facet_ecclesiastical_offices">
     <field name="ecclesiastical_offices">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='officeMilitary']/@ref" mode="facet_military_offices">
+  <xsl:template match="tei:rs[@type='office'][@subtype='military']/@ref" mode="facet_military_offices">
     <field name="military_offices">
       <xsl:value-of select="."/>
     </field>
@@ -61,17 +61,17 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='marianTerm']/@ref" mode="facet_marian_terms">
+  <xsl:template match="tei:rs[@type='marianTerms']/@ref" mode="facet_marian_terms">
     <field name="marian_terms">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='christTerm']/@ref" mode="facet_christ-related_terms">
+  <xsl:template match="tei:rs[@type='christTerms']/@ref" mode="facet_christ-related_terms">
     <field name="christ-related_terms">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='saintsTerm']/@ref" mode="facet_saints-related_terms">
+  <xsl:template match="tei:rs[@type='saintsTerms']/@ref" mode="facet_saints-related_terms">
     <field name="saints-related_terms">
       <xsl:value-of select="."/>
     </field>
@@ -113,25 +113,25 @@
     <xsl:apply-templates mode="facet_dignities" select="//tei:rs[@type='dignity']/@ref"/>
   </xsl:template>
   <xsl:template name="field_civil_offices">
-    <xsl:apply-templates mode="facet_civil_offices" select="//tei:rs[@type='officeCivil']/@ref"/>
+    <xsl:apply-templates mode="facet_civil_offices" select="//tei:rs[@type='office'][@subtype='civil']/@ref"/>
   </xsl:template>
   <xsl:template name="field_ecclesiastical_offices">
-    <xsl:apply-templates mode="facet_ecclesiastical_offices" select="//tei:rs[@type='officeEcclesiastical']/@ref"/>
+    <xsl:apply-templates mode="facet_ecclesiastical_offices" select="//tei:rs[@type='office'][@subtype='ecclesiastical']/@ref"/>
   </xsl:template>
   <xsl:template name="field_military_offices">
-    <xsl:apply-templates mode="facet_military_offices" select="//tei:rs[@type='officeMilitary']/@ref"/>
+    <xsl:apply-templates mode="facet_military_offices" select="//tei:rs[@type='office'][@subtype='military']/@ref"/>
   </xsl:template>
   <xsl:template name="field_titles">
     <xsl:apply-templates mode="facet_titles" select="//tei:rs[@type='title']/@ref"/>
   </xsl:template>
   <xsl:template name="field_marian_terms">
-    <xsl:apply-templates mode="facet_marian_terms" select="//tei:rs[@type='marianTerm']/@ref"/>
+    <xsl:apply-templates mode="facet_marian_terms" select="//tei:rs[@type='marianTerms']/@ref"/>
   </xsl:template>
   <xsl:template name="field_christ-related_terms">
-    <xsl:apply-templates mode="facet_christ-related_terms" select="//tei:rs[@type='christTerm']/@ref"/>
+    <xsl:apply-templates mode="facet_christ-related_terms" select="//tei:rs[@type='christTerms']/@ref"/>
   </xsl:template>
   <xsl:template name="field_saints-related_terms">
-    <xsl:apply-templates mode="facet_saints-related_terms" select="//tei:rs[@type='saintsTerm']/@ref"/>
+    <xsl:apply-templates mode="facet_saints-related_terms" select="//tei:rs[@type='saintsTerms']/@ref"/>
   </xsl:template>
   <xsl:template name="field_iconography">
     <xsl:apply-templates mode="facet_iconography" select="//tei:figDesc[@n='whole']/@ref"/>
