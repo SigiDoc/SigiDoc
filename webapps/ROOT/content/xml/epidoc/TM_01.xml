@@ -237,6 +237,9 @@
                             <summary n="v">
                                 <seg xml:lang="en">Reverse</seg>
                             </summary>
+                            <textLang mainLang="la">
+                                <seg>ciao Alessio</seg>
+                            </textLang>
                         </msContents>
                         <physDesc>
                             <objectDesc>
