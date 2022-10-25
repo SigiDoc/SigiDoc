@@ -466,7 +466,7 @@
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Language(s)</i18n:text></dt>
           <dd>
             <xsl:choose>
-              <xsl:when test="//t:msContents//t:textLang//t:seg//text()">
+              <xsl:when test="//t:msContents//t:textLang[@n='r']//t:seg//text()">
                 <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
               </xsl:when>
               <xsl:otherwise>Byzantine Greek</xsl:otherwise>
@@ -603,7 +603,7 @@
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Language(s)</i18n:text></dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:msContents//t:textLang//t:seg//text()">
+            <xsl:when test="//t:msContents//t:textLang[@n='v']//t:seg//text()">
               <xsl:apply-templates select="//t:msContents//t:textLang//t:seg"/>
             </xsl:when>
             <xsl:otherwise>Byzantine Greek</xsl:otherwise>

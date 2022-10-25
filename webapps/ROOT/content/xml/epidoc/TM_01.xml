@@ -178,7 +178,7 @@
                             <summary n="r">
                                 <seg xml:lang="en">Obverse</seg>
                             </summary>
-                            <textLang mainLang="la">
+                            <textLang mainLang="la" n="r">
                                 <seg>miao miao </seg>
                             </textLang>
                         </msContents>
@@ -237,7 +237,7 @@
                             <summary n="v">
                                 <seg xml:lang="en">Reverse</seg>
                             </summary>
-                            <textLang mainLang="la">
+                            <textLang mainLang="la" n="v">
                                 <seg>ciao Alessio</seg>
                             </textLang>
                         </msContents>
