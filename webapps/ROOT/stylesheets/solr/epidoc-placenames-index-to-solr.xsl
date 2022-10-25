@@ -17,7 +17,7 @@
     <add>
       <xsl:for-each-group select="//tei:placeName[@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
         <xsl:variable name="ref-id" select="normalize-unicode(substring-after(@ref, '#'))"/>
-        <xsl:variable name="ref" select="document('../../content/xml/authority/geography.xml')//tei:placeName[@xml:id=$ref-id]"/>
+        <xsl:variable name="ref" select="document('../../content/xml/authority/geography.xml')//tei:placeName[@xml:lang=$ref-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
