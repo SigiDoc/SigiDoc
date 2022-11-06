@@ -166,6 +166,15 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
+            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-channel-orientation">Channel orientation (clock)</i18n:text></dt>
+            <dd>
+              <xsl:choose>
+                <xsl:when test="//t:support//t:measure[@type='channelOrient'][@unit='clock']//text()">
+                  <xsl:apply-templates select="//t:support//t:measure[@type='channelOrient'][@unit='clock']"/>
+                </xsl:when>
+                <xsl:otherwise><i>―</i></xsl:otherwise>
+              </xsl:choose>
+            </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-axis">Axis (clock)</i18n:text></dt>
         <dd>
           <xsl:choose>
@@ -182,15 +191,6 @@
               <xsl:apply-templates select="//t:support//t:measure[@type='overstrikeOrient'][@unit='clock']"/>
             </xsl:when>
             <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
-          </xsl:choose>
-        </dd>
-            <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-channel-orientation">Channel orientation (clock)</i18n:text></dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:support//t:measure[@type='channelOrient'][@unit='clock']//text()">
-              <xsl:apply-templates select="//t:support//t:measure[@type='channelOrient'][@unit='clock']"/>
-            </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-execution">Execution</i18n:text></dt>
