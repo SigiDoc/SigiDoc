@@ -5,10 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <seg xml:lang="en">Seal of Justinian I</seg>
-                    <seg xml:lang="fr">Sceau de Justinien Ier</seg>
-                </title>
+                <title xml:lang="en">Seal of Justinian I</title>
+                <title xml:lang="fr">Sceau de Justinien Ier</title>
                 <editor>
                     <persName xml:lang="it"><forename>Alessio</forename>
                         <surname>Sopracasa</surname></persName>
@@ -130,9 +128,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote n="r">
-                                <seg/>
-                            </handNote>
+                            <handNote n="whole"/>
                         </handDesc>
                         <decoDesc>
                             <decoNote>
