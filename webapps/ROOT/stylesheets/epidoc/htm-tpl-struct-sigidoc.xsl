@@ -588,7 +588,6 @@
               <xsl:otherwise><i>―</i></xsl:otherwise>
             </xsl:choose>
           </dd>
-          <!-- lettering for assembled seals not included yet -->
           <!-- dating for assembled seals not included yet -->
         </dl>
       </div>
@@ -725,7 +724,6 @@
             <xsl:otherwise><i>―</i></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <!-- lettering for assembled seals -->
         <!-- dating for assembled seals -->
       </dl>
     </div>
