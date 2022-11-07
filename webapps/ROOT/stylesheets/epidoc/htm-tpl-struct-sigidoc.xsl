@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-++<!-- $Id$ -->
+<!-- $Id$ -->
 <xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" version="2.0"
@@ -8,7 +8,7 @@
 
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <!-- LAST MODIFIED: 2022-11-06 -->
+  <!-- LAST MODIFIED: 2022-11-07 -->
 
   <xsl:template name="sigidoc-body-structure">
     <xsl:call-template name="navigation"/>
