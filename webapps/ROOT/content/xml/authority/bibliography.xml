@@ -682,9 +682,19 @@
                 <!-- in case of multiple authors, the reference is under the first one -->
 
                 <!-- Alekseenko -->
+                
+                <bibl type="journalArticle" xml:id="Alexeenko2003">
+                    <bibl type="abbrev">Alekseenko, 2003</bibl>
+                    <author><forename>N. A.</forename>
+                        <surname>Alekseenko</surname></author>
+                    <title level="a">Печати главныч логофетов из Черсонского арчива</title>
+                    <title level="j">ADSV</title>
+                    <biblScope unit="volume">34</biblScope>
+                    <date>2003</date>
+                    <biblScope unit="page">p. 174-205</biblScope>
+                </bibl>
 
-                <bibl type="bookSection" xml:id="Alekseenko2010"
-                    corresp="http://zotero.org/users/3169239/items/5CRXT4XY">
+                <bibl type="bookSection" xml:id="Alekseenko2010">
                     <bibl type="abbrev">Alekseenko, 2010</bibl>
                     <author><forename>N. A.</forename>
                         <surname>Alekseenko</surname></author>
@@ -1833,9 +1843,31 @@
 
                 <!-- Jordanov -->
 
+                <bibl type="journalArticle" xml:id="Jordanov1992">
+                    <bibl type="abbrev">Jordanov, 1992</bibl>
+                    <author><forename>I.</forename>
+                        <surname>Jordanov</surname></author>
+                    <title level="a">Византийски оловни печати от Плиска</title>
+                    <title level="j">Pliska-Preslav</title>
+                    <biblScope unit="volume">5</biblScope>
+                    <date>1992</date>
+                    <biblScope unit="page">p. 281-298</biblScope>
+                </bibl>
+                
+                <bibl type="journalArticle" xml:id="Jordanov2006">
+                    <bibl type="abbrev">Jordanov, 2006</bibl>
+                    <author><forename>I.</forename>
+                        <surname>Jordanov</surname></author>
+                    <title level="a">The Seals of Byzantine Fiscal Institutions (815/6-971) Discovered in Bulgaria</title>
+                    <title level="j">Studies in Byzantine Sigillography</title>
+                    <biblScope unit="volume">9</biblScope>
+                    <date>2006</date>Византийски оловни печати от Плиска
+                    <biblScope unit="page">p. 97-143</biblScope>
+                </bibl>
+                
                 <bibl type="journalArticle" xml:id="Jordanov1985">
                     <bibl type="abbrev">Jordanov, 1985</bibl>
-                    <author><forename>Iv.</forename>
+                    <author><forename>I.</forename>
                         <surname>Jordanov</surname></author>
                     <title level="a">Неиздадени византийски оловни печати от Силистра (II)</title>
                     <title level="j">Известия на народния музей Варна</title>
@@ -2792,6 +2824,18 @@
 
                 <!-- Seibt -->
                 
+                <bibl type="book" xml:id="SeibtWassiliou2015">
+                    <bibl type="abbrev">Seibt &amp; Wassiliou-Seibt, 1976</bibl>
+                    <author><forename>W.</forename>
+                        <surname>Seibt</surname></author>
+                    <author><forename>A.-K.</forename>
+                        <surname>Wassiliou-Seibt</surname></author>
+                    <title level="m">Der byzantinische Mensch in seinem Umfeld: Weitere Bleisiegel der Sammlung Zarnitz im Museum August Kestner</title>
+                    <pubPlace>Hannover</pubPlace>
+                    <publisher>VML Vlg Marie Leidorf</publisher>
+                    <date>2015</date>
+                </bibl>
+                
                 <bibl type="journalArticle" xml:id="Seibt2016">
                     <bibl type="abbrev">Seibt, 2016</bibl>
                     <author><forename>W.</forename>
@@ -2810,7 +2854,6 @@
                         <surname>Seibt</surname></author>
                     <title level="m">Die Skleroi: eine prosopographisch-sigillographische
                         Studie</title>
-                    <!--<idno type="ISBN">3-7001-0180-5</idno>-->
                     <pubPlace xml:lang="en">Vienna</pubPlace>
                     <pubPlace xml:lang="fr">Vienne</pubPlace>
                     <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
