@@ -391,7 +391,7 @@
           <dd>
             <xsl:choose xml:space="preserve">
               <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution//text() and //t:sourceDesc//t:msDesc//t:msIdentifier//t:repository//text()">
-                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution"/>
+                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution"/>,
                 <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:repository"/>
               </xsl:when>
               <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution//text()">
