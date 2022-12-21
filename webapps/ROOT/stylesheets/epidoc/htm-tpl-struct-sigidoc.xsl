@@ -88,7 +88,7 @@
             <xsl:when test="//t:objectType//t:interp[@type='workType']//text()">
               <xsl:apply-templates select="//t:objectType//t:interp[@type='workType']"/>
             </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-original-impression">Original impression</i18n:text></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-material">Material</i18n:text></dt>
@@ -97,7 +97,7 @@
             <xsl:when test="//t:support//t:material//t:seg//text()">
               <xsl:apply-templates select="//t:support//t:material//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-lead">Lead</i18n:text></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-shape">Shape</i18n:text></dt>
@@ -106,7 +106,7 @@
                 <xsl:when test="//t:layout//t:rs[@type='shape']//t:seg//text()">
                   <xsl:apply-templates select="//t:layout//t:rs[@type='shape']//t:seg"/>
                 </xsl:when>
-                <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-round">Round</i18n:text></xsl:otherwise>
+                <xsl:otherwise>―</xsl:otherwise>
               </xsl:choose>
             </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-dimensions">Dimensions (mm)</i18n:text></dt>
@@ -154,7 +154,7 @@
               <i18n:text i18n:key="epidoc-xslt-sigidoc-thickness">Th. </i18n:text>
               <xsl:apply-templates select="//t:support/t:dimensions/t:depth"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-weight">Weight (g)</i18n:text></dt>
@@ -163,7 +163,7 @@
             <xsl:when test="//t:support//t:measure[@type='weight'][@unit='g']//text()">
               <xsl:apply-templates select="//t:support//t:measure[@type='weight'][@unit='g']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-channel-orientation">Channel orientation (clock)</i18n:text></dt>
@@ -172,7 +172,7 @@
                 <xsl:when test="//t:support//t:measure[@type='channelOrient'][@unit='clock']//text()">
                   <xsl:apply-templates select="//t:support//t:measure[@type='channelOrient'][@unit='clock']"/>
                 </xsl:when>
-                <xsl:otherwise><i>―</i></xsl:otherwise>
+                <xsl:otherwise>―</xsl:otherwise>
               </xsl:choose>
             </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-axis">Axis (clock)</i18n:text></dt>
@@ -181,7 +181,7 @@
             <xsl:when test="//t:support//t:measure[@type='axis'][@unit='clock']//text()">
               <xsl:apply-templates select="//t:support//t:measure[@type='axis'][@unit='clock']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-overstrike-orientation">Overstrike orientation (clock)</i18n:text></dt>
@@ -199,7 +199,7 @@
             <xsl:when test="//t:layout//t:rs[@type='execution']//t:seg//text()">
               <xsl:apply-templates select="//t:layout//t:rs[@type='execution']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-struck">Struck</i18n:text></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-countermark">Countermark</i18n:text></dt>
@@ -217,9 +217,7 @@
             <xsl:when test="//t:supportDesc//t:condition">
               <xsl:apply-templates select="//t:supportDesc//t:condition//t:p//text()"/>
             </xsl:when>
-            <xsl:otherwise>
-              <i>―</i>
-            </xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           </dl>
@@ -233,7 +231,7 @@
             <xsl:when test="//t:origin//t:origDate[@type='analysis']//t:seg/text()">
               <xsl:apply-templates select="//t:origin//t:origDate[@type='analysis']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-internal-date">Internal date</i18n:text></dt>
@@ -251,9 +249,7 @@
             <xsl:when test="//t:origin//t:origDate//t:interp/text()">
               <xsl:apply-templates select="//t:origin//t:origDate//t:interp"/>
             </xsl:when>
-            <xsl:otherwise>
-              <i>―</i>
-            </xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
           <!-- <xsl:choose>
             <xsl:when test="//t:origin/t:origDate/@evidence">
@@ -275,7 +271,7 @@
               <xsl:when test="//t:origin//t:date//t:choice">
                 <xsl:apply-templates select="//t:origin//t:date//t:choice//t:corr"/> (<xsl:apply-templates select="//t:origin//t:date//t:choice//t:corr/@resp"/>), <i18n:text i18n:key="epidoc-xslt-sigidoc-alternative-dating-basedon">based on</i18n:text>: <xsl:apply-templates select="//t:origin//t:date//t:interp[@type='datingCriteria']"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
         </dl>
@@ -289,7 +285,7 @@
             <xsl:when test="//t:msContents//t:summary[@n='whole']//t:seg//text()">
               <xsl:apply-templates select="//t:msContents//t:summary[@n='whole']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-issuer">Issuer</i18n:text></dt>
@@ -298,7 +294,7 @@
             <xsl:when test="//t:author//t:roleName//t:seg//text()">
               <xsl:apply-templates select="//t:author//t:roleName//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-issuer-milieu">Issuer's milieu</i18n:text></dt>
@@ -307,7 +303,7 @@
             <xsl:when test="//t:author//t:roleName//t:interp//text()">
               <xsl:apply-templates select="//t:author//t:roleName//t:interp"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-place-origin">Place of origin</i18n:text></dt>
@@ -316,7 +312,7 @@
             <xsl:when test="//t:origPlace//t:seg//t:placeName//text()">
               <xsl:apply-templates select="//t:origPlace//t:seg//t:placeName"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-place">Find place</i18n:text></dt>
@@ -331,7 +327,7 @@
             <xsl:when test="//t:history//t:provenance[@type='found']//t:placeName[@type='modernFindspot']//text()">
               <xsl:apply-templates select="//t:history//t:provenance[@type='found']//t:placeName[@type='modernFindspot']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-date">Find date</i18n:text></dt>
@@ -349,7 +345,7 @@
               <xsl:when test="//t:provenance[@type='found']/@notAfter">
                 <i18n:text i18n:key="epidoc-xslt-sigidoc-not-after">Not after</i18n:text> <xsl:apply-templates select="//t:provenance[@type='found']/@notAfter"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-find-circumstances">Find circumstances</i18n:text></dt>
@@ -358,7 +354,7 @@
             <xsl:when test="//t:provenance[@type='found']//t:rs[@type='circumstances']//text()">
               <xsl:apply-templates select="//t:provenance[@type='found']//t:rs[@type='circumstances']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-modern-location">Modern location</i18n:text></dt>
@@ -376,7 +372,7 @@
                           <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:country//t:seg"/>
                           <xsl:text></xsl:text>
                         </xsl:when>
-                        <xsl:otherwise><i>―</i></xsl:otherwise>
+                        <xsl:otherwise>―</xsl:otherwise>
                     </xsl:choose>
         </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-institution-repository">Institution and repository</i18n:text></dt>
@@ -402,7 +398,7 @@
               <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:repository"/>
               <xsl:text></xsl:text>
             </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-collection-inventory">Collection and inventory</i18n:text></dt>
@@ -420,7 +416,7 @@
               <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:idno"/>
               <xsl:text></xsl:text>
             </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-acquisition">Acquisition</i18n:text></dt>
@@ -429,7 +425,7 @@
               <xsl:when test="//t:acquisition//t:p//text()">
                 <xsl:apply-templates select="//t:acquisition//t:p"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-previous-locations">Previous locations</i18n:text></dt>
@@ -438,7 +434,7 @@
               <xsl:when test="//t:provenance[@type='transferred']//t:p//text()">
                 <xsl:apply-templates select="//t:provenance[@type='transferred']//t:p"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-modern-observations">Modern observations</i18n:text></dt>
@@ -454,7 +450,7 @@
               <xsl:when test="//t:provenance[@type='not-observed']//t:p//text()">
                 <xsl:apply-templates select="//t:provenance[@type='not-observed']//t:p"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
         </dl>
@@ -526,7 +522,7 @@
                 <i18n:text i18n:key="epidoc-xslt-sigidoc-thickness">Th. </i18n:text>
                 <xsl:apply-templates select="//t:layout[@n='r']/t:dimensions/t:depth"/>
               </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix</i18n:text></dt>
@@ -567,7 +563,7 @@
               <xsl:when test="//t:figure//t:figDesc[@n='r']//text()">
                 <xsl:apply-templates select="//t:figure//t:figDesc[@n='r']"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-decoration">Decoration</i18n:text></dt>
@@ -576,7 +572,7 @@
               <xsl:when test="//t:figure//t:figDesc[@n='decoR']//text()">
                 <xsl:apply-templates select="//t:figure//t:figDesc[@n='decoR']"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-lettering">Lettering</i18n:text></dt>
@@ -585,7 +581,7 @@
               <xsl:when test="//t:handDesc//t:handNote[@n='r']//t:seg//text()">
                 <xsl:apply-templates select="//t:handDesc//t:handNote[@n='r']//t:seg"/>
               </xsl:when>
-              <xsl:otherwise><i>―</i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <!-- dating for assembled seals not included yet -->
@@ -662,7 +658,7 @@
                 <i18n:text i18n:key="epidoc-xslt-sigidoc-thickness">Th. </i18n:text>
                 <xsl:apply-templates select="//t:layout[@n='v']/t:dimensions/t:depth"/>
               </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix</i18n:text></dt>
@@ -703,7 +699,7 @@
             <xsl:when test="//t:figure//t:figDesc[@n='v']//text()">
               <xsl:apply-templates select="//t:figure//t:figDesc[@n='v']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-decoration">Decoration</i18n:text></dt>
@@ -712,7 +708,7 @@
             <xsl:when test="//t:figure//t:figDesc[@n='decoV']//text()">
               <xsl:apply-templates select="//t:figure//t:figDesc[@n='decoV']"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-lettering">Lettering</i18n:text></dt>
@@ -721,7 +717,7 @@
             <xsl:when test="//t:handDesc//t:handNote[@n='v']//t:seg//text()">
               <xsl:apply-templates select="//t:handDesc//t:handNote[@n='v']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <!-- dating for assembled seals -->
@@ -742,8 +738,6 @@
             <xsl:value-of select="//t:facsimile//t:surface[@type='obverse']//t:graphic//t:desc"/>
           </dt>
         </dl>
-        
-        
         <dl class="box">
           <xsl:for-each select="//t:facsimile//t:surface[@type='reverse']//t:graphic">
             <dd>
