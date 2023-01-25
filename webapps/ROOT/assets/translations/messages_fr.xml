@@ -119,7 +119,7 @@
     <message key="ed"> (éd.),</message>
     <message key="not-before">Pas avant</message>
     <message key="not-after">Pas après</message>
-    <message key="arrow_left">&#x021D0; précédent</message>
-    <message key="arrow_right">suivant &#x021D2;</message>
+    <message key="arrow-left">&#x021D0; précédent</message>
+    <message key="arrow-right">suivant &#x021D2;</message>
     <message key="inscription-index-seals">Sceaux</message>
 </catalogue>

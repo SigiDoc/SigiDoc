@@ -1065,7 +1065,7 @@
                     <xsl:value-of select="$prev"/>
                     <xsl:text>.html</xsl:text>
                   </xsl:attribute>
-                  <i18n:text i18n:key="arrow_left"><xsl:text>&#x021D0; previous</xsl:text></i18n:text>
+                  <i18n:text i18n:key="arrow-left"><xsl:text>&#x021D0; previous</xsl:text></i18n:text>
                 </a>
               </li>
             </xsl:if>
@@ -1078,7 +1078,7 @@
                     <xsl:value-of select="$next"/>
                     <xsl:text>.html</xsl:text>
                   </xsl:attribute>
-                  <i18n:text i18n:key="arrow_right"><xsl:text>next &#x021D2;</xsl:text></i18n:text>
+                  <i18n:text i18n:key="arrow-right"><xsl:text>next &#x021D2;</xsl:text></i18n:text>
                 </a>
               </li>
             </xsl:if>
