@@ -3,35 +3,35 @@
 <!-- LAST MODIFIED: 2022-10-25 -->
 
 <catalogue xml:lang="de">
-    <message key="epidoc-xslt-sigidoc-artifact">Objekt</message>
-    <message key="epidoc-xslt-sigidoc-type">Typ</message>
-    <message key="epidoc-xslt-sigidoc-not-specified">Unbekannt</message>
-    <message key="epidoc-xslt-sigidoc-general-layout">Layout</message>
-    <message key="epidoc-xslt-sigidoc-matrix">Matrix</message>
-    <message key="epidoc-xslt-sigidoc-physical-description">Äußere Beschreibung</message>
-    <message key="epidoc-xslt-sigidoc-medium">Format</message>
-    <message key="epidoc-xslt-sigidoc-material">Material</message>
-    <message key="epidoc-xslt-sigidoc-diameter">Durchmesser (mm)</message>
-    <message key="epidoc-xslt-sigidoc-weight">Gewicht (g)</message>
-    <message key="epidoc-xslt-sigidoc-axis">Achse (Uhr)</message> <!-- corretto? -->
-    <message key="epidoc-xslt-sigidoc-overstrike">Ausricht. Overstrike</message>
-    <message key="epidoc-xslt-sigidoc-channel">Fadenkanal (Uhr)</message>
-    <message key="epidoc-xslt-sigidoc-execution">Ausführung</message> <!-- chiedere a Claudia -->
-    <message key="epidoc-xslt-sigidoc-shape">Form</message>
-    <message key="epidoc-xslt-sigidoc-round">Rund</message>
-    <message key="epidoc-xslt-sigidoc-condition">Zustand</message>
-    <message key="epidoc-xslt-sigidoc-dating">Datierung</message>
-    <message key="epidoc-xslt-sigidoc-date">Date</message>
-    <message key="epidoc-xslt-sigidoc-dating-criteria">Datierungskriterien</message>
-    <message key="epidoc-xslt-sigidoc-history">Historie</message> <!-- rivedere -->
-    <message key="epidoc-xslt-sigidoc-seal-category">Grundinformationen</message> <!-- rivedere -->
-    <message key="epidoc-xslt-sigidoc-seal-issuer">Siegelinhaber</message>
-    <message key="epidoc-xslt-sigidoc-issuer's-milieu">Info über Siegelinhaber</message> <!-- rivedere -->
-    <message key="epidoc-xslt-sigidoc- place-of-origin">Ursprungsort</message> <!-- rivedere -->
-    <message key="epidoc-xslt-sigidoc-find-circumstances"></message>
-    <message key="epidoc-xslt-sigidoc-find-datum">Funddatum</message>
-    <message key="epidoc-xslt-sigidoc-find-discoverers">Entdecker</message>
-    <message key="epidoc-xslt-sigidoc-references">Literatur</message>
+    <message key="artifact">Objekt</message>
+    <message key="type">Typ</message>
+    <message key="not-specified">Unbekannt</message>
+    <message key="general-layout">Layout</message>
+    <message key="matrix">Matrix</message>
+    <message key="physical-description">Äußere Beschreibung</message>
+    <message key="medium">Format</message>
+    <message key="material">Material</message>
+    <message key="diameter">Durchmesser (mm)</message>
+    <message key="weight">Gewicht (g)</message>
+    <message key="axis">Achse (Uhr)</message> <!-- corretto? -->
+    <message key="overstrike">Ausricht. Overstrike</message>
+    <message key="channel">Fadenkanal (Uhr)</message>
+    <message key="execution">Ausführung</message> <!-- chiedere a Claudia -->
+    <message key="shape">Form</message>
+    <message key="round">Rund</message>
+    <message key="condition">Zustand</message>
+    <message key="dating">Datierung</message>
+    <message key="date">Date</message>
+    <message key="dating-criteria">Datierungskriterien</message>
+    <message key="history">Historie</message> <!-- rivedere -->
+    <message key="seal-category">Grundinformationen</message> <!-- rivedere -->
+    <message key="seal-issuer">Siegelinhaber</message>
+    <message key="issuer's-milieu">Info über Siegelinhaber</message> <!-- rivedere -->
+    <message key=" place-of-origin">Ursprungsort</message> <!-- rivedere -->
+    <message key="find-circumstances"></message>
+    <message key="find-datum">Funddatum</message>
+    <message key="find-discoverers">Entdecker</message>
+    <message key="references">Literatur</message>
     
     
     
