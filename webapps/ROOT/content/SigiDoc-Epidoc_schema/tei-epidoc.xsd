@@ -15962,7 +15962,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                       <xs:union>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="blankTooSmall">
+                            <xs:enumeration value="blank-too-small">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -15998,7 +15998,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="deformedBlank">
+                            <xs:enumeration value="deformed-blank">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -16007,7 +16007,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="notCentered">
+                            <xs:enumeration value="not-centered">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -16034,7 +16034,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="wornEdge">
+                            <xs:enumeration value="worn-edge">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -16061,7 +16061,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="wellPreserved">
+                            <xs:enumeration value="well-preserved">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -16070,7 +16070,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="blankTooLarge">
+                            <xs:enumeration value="blank-too-large">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -16088,7 +16088,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="tornChannel">
+                            <xs:enumeration value="torn-channel">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
@@ -16165,7 +16165,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
               <xs:simpleType>
                 <xs:restriction base="xs:token">
                   <xs:enumeration value="surviving"/>
-                  <xs:enumeration value="notSurviving"/>
+                  <xs:enumeration value="not-surviving"/>
                 </xs:restriction>
               </xs:simpleType>
             </xs:attribute>
@@ -17167,7 +17167,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
-                            <xs:enumeration value="secularChurch">
+                            <xs:enumeration value="secular-church">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
                               </xs:annotation>
