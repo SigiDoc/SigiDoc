@@ -19,7 +19,7 @@
           <xsl:when test="//t:publicationStmt//t:idno[@type='SigiDocID']//text()">
             <xsl:apply-templates select="//t:publicationStmt//t:idno[@type='SigiDocID']"/>
           </xsl:when>
-          <xsl:otherwise><i>―</i></xsl:otherwise>
+          <xsl:otherwise>―</xsl:otherwise>
         </xsl:choose>
       </h6>
     
@@ -33,7 +33,7 @@
             <xsl:when test="//t:objectType//t:term//t:seg//text()">
               <xsl:apply-templates select="//t:objectType//t:term//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-sigidoc-seal">Seal</i18n:text></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-general-layout">General layout</i18n:text></dt>
@@ -42,7 +42,7 @@
             <xsl:when test="//t:TEI//t:teiHeader//t:fileDesc//t:sourceDesc//t:msDesc//t:physDesc//t:objectDesc//t:layoutDesc//t:layout[@n='whole']//t:rs[@type='layout']//t:seg">
               <xsl:apply-templates select="//t:TEI//t:teiHeader//t:fileDesc//t:sourceDesc//t:msDesc//t:physDesc//t:objectDesc//t:layoutDesc//t:layout[@n='whole']//t:rs[@type='layout']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise><i>―</i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-matrix">Matrix</i18n:text></dt>
@@ -80,7 +80,8 @@
       </dl>
     </div>
         <div id="stone">
-          <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-physical-description">Physical description</i18n:text></i></h4><!-- ************* physical description *************** -->
+          <h4 class="iospe"><i><i18n:text i18n:key="epidoc-xslt-sigidoc-physical-description">Physical description</i18n:text></i></h4>
+          <!-- ************* physical description *************** -->
           <dl class="iospe">
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-medium">Medium</i18n:text></dt>
         <dd>
@@ -190,7 +191,7 @@
             <xsl:when test="//t:support//t:measure[@type='overstrikeOrient'][@unit='clock']//text()">
               <xsl:apply-templates select="//t:support//t:measure[@type='overstrikeOrient'][@unit='clock']"/>
             </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-execution">Execution</i18n:text></dt>
@@ -208,7 +209,7 @@
                 <xsl:when test="//t:support//t:measure[@type='countermark']//text()">
                   <xsl:apply-templates select="//t:support//t:measure[@type='countermark']"/>
                 </xsl:when>
-                <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
+                <xsl:otherwise>―</xsl:otherwise>
               </xsl:choose>
             </dd>
             <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-condition">Condition</i18n:text></dt>
@@ -240,7 +241,7 @@
               <xsl:when test="//t:origin//t:origDate[@type='internal']//t:seg/text()">
                 <xsl:apply-templates select="//t:origin//t:origDate[@type='internal']//t:seg"/>
               </xsl:when>
-              <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-dating-criteria">Dating criteria</i18n:text></dt>
@@ -457,7 +458,8 @@
         </div>
         
       <div id="text-field">
-        <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-field-obverse">Inscribed field - Obverse</i18n:text></h3><!-- *******inscribed field - obverse *********** -->
+        <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-field-obverse">Inscribed field - Obverse</i18n:text></h3>
+        <!-- *******inscribed field - obverse *********** -->
         <dl class="iospe"> 
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-languages">Language(s)</i18n:text></dt>
           <dd>
@@ -474,7 +476,7 @@
                         <xsl:when test="//t:layoutDesc//t:layout[@n='r']">
                             <xsl:apply-templates select="//t:layoutDesc//t:layout[@n='r']//t:p"/>
                         </xsl:when>
-                        <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-undetermined">Undetermined</i18n:text></i></xsl:otherwise>
+                        <xsl:otherwise>―</xsl:otherwise>
                     </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-field-dimensions">Field's dimensions (mm)</i18n:text></dt>
@@ -554,7 +556,7 @@
                   </xsl:when>
                 </xsl:choose>
               </xsl:when>
-              <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-iconography">Iconography</i18n:text></dt>
@@ -588,10 +590,8 @@
         </dl>
       </div>
 
-    <dl class="iospe"><!-- don't touch this! -->
+    <dl class="iospe"></dl><!-- don't touch this! -->
       
-    </dl>
-
     <div id="text-field">
       <h3 class="iospe"><i18n:text i18n:key="epidoc-xslt-sigidoc-field-reverse">Inscribed field - Reverse</i18n:text></h3><!-- *******inscribed field - reverse *********** -->
       <dl class="iospe"> 
@@ -601,7 +601,7 @@
             <xsl:when test="//t:msContents//t:textLang[@n='v']//t:seg//text()">
               <xsl:apply-templates select="//t:msContents//t:textLang[@n='v']//t:seg"/>
             </xsl:when>
-            <xsl:otherwise>Byzantine Greek</xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-layout-field">Layout of field</i18n:text></dt>
@@ -610,7 +610,7 @@
                         <xsl:when test="//t:layoutDesc//t:layout[@n='v']">
                             <xsl:apply-templates select="//t:layoutDesc//t:layout[@n='v']//t:p"/>
                         </xsl:when>
-                        <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-undetermined">Undetermined</i18n:text></i></xsl:otherwise>
+                        <xsl:otherwise>―</xsl:otherwise>
                     </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-field-dimensions">Field's dimensions (mm)</i18n:text></dt>
@@ -690,7 +690,7 @@
                   </xsl:when>
                 </xsl:choose>
               </xsl:when>
-              <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-not-applicable">Not applicable</i18n:text></i></xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
         </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-iconography">Iconography</i18n:text></dt>
@@ -878,7 +878,7 @@
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()">
               <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='edition']/t:p/node()"/>
             </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-unpublished">Unpublished</i18n:text></i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
         <!--<dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-sigidoc-commentary-edition">Commentary on edition(s)</i18n:text></dt>
@@ -905,7 +905,7 @@
             <xsl:when test="//t:body//t:div[@type='bibliography'][@subtype='discussion']/t:p/node()">
               <xsl:apply-templates select="//t:body//t:div[@type='bibliography'][@subtype='discussion']/t:p/node()"/>
             </xsl:when>
-            <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
       </dl>
@@ -929,7 +929,7 @@
           <xsl:when test="//t:div[@type='commentary'][@subtype='footnotes']//t:p">
             <xsl:apply-templates select="//t:div[@type='commentary'][@subtype='footnotes']//t:p"/>
           </xsl:when>
-          <xsl:otherwise><i><i18n:text i18n:key="epidoc-xslt-sigidoc-none">None</i18n:text></i></xsl:otherwise>
+          <xsl:otherwise>―</xsl:otherwise>
         </xsl:choose>
       </div>
       
