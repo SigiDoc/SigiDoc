@@ -7,12 +7,10 @@
     TEI Edition: Version 4.1.0. Last updated on
     	19th August 2020, revision b414ba550
     TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
-    
-  -->
+   -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2022-11-07 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2023-01-25 -->
   
-  <!---->
   <xs:complexType name="tei_macro.paraContent" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
       <xs:element ref="tei:tei_model.gLike"/>
