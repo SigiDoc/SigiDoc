@@ -16005,6 +16005,15 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
+                            <xs:enumeration value="graffitied">
+                              <xs:annotation>
+                                <xs:documentation></xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
                             <xs:enumeration value="not-centered">
                               <xs:annotation>
                                 <xs:documentation></xs:documentation>
