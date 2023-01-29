@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2021-07-02 -->
+
+<!-- LAST MODIFIED: 2023-01-29 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of adresses of invocative expressions in SIGIDOC</title>
+                <title>Authority list of adresses of invocative expressions in SigiDoc</title>
+                <editor>
+                    <persName xml:id="AS">
+                        <forename>Alessio</forename>
+                        <surname>Sopracasa</surname>
+                    </persName>
+                    <persName xml:id="MF">
+                        <forename>Martina</forename>
+                        <surname>Filosa</surname>
+                    </persName>
+                </editor>
             </titleStmt>
             <publicationStmt><ab/></publicationStmt>
             <sourceDesc><ab/></sourceDesc>
@@ -15,60 +26,23 @@
     <text>
         <body>
             <list type="invocation">
-                <item xml:id="Θεοτόκε1">
+                <item xml:id="inv001">
                     <term xml:lang="grc">Θεοτόκε βοήθει</term>
-                    <term xml:lang="en">Θεοτόκε βοήθει</term>
-                    <!--<term xml:lang="en"></term>-->
-                    <!-- <term xml:lang="fr"></term>
-                    <term xml:lang="it"></term>-->
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="Θεοτόκε2">
+                <item xml:id="inv002">
                     <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
-                    <term xml:lang="en">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
-                    <!--<term xml:lang="en"></term>-->
-                    <!-- <term xml:lang="fr"></term>
-                    <term xml:lang="it"></term>-->
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="Κύριε1">
+                <item xml:id="inv003">
                     <term xml:lang="grc">Κύριε βοήθει</term>
-                    <term xml:lang="en">Κύριε βοήθει</term>
-                    <!--<term xml:lang="en">Lord</term>-->
-                    <!--<term xml:lang="fr">Seigneur</term>
-                    <term xml:lang="it">Signore</term>-->
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="Κύριε2">
+                <item xml:id="inv004">
                     <term xml:lang="grc">Κύριε βοήθει τῷ σῷ δούλῳ</term>
-                    <term xml:lang="en">Κύριε βοήθει τῷ σῷ δούλῳ</term>
-                    <!--<term xml:lang="en">Lord</term>-->
-                    <!--<term xml:lang="fr">Seigneur</term>
-                    <term xml:lang="it">Signore</term>-->
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="Σωτήρ1">
+                <item xml:id="inv005">
                     <term xml:lang="grc">Σωτήρ φύλατε</term>
-                    <term xml:lang="en">Σωτήρ φύλατε</term>
-                    <!--<term xml:lang="en">Saviour</term>-->
-                    <!--<term xml:lang="fr">Sauveur</term>
-                    <term xml:lang="it">Salvatore</term>-->
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="undetermined1">
+                <item xml:id="inv006">
                     <term xml:lang="grc">[...] τῷ σῷ δούλῳ</term>
-                    <term xml:lang="en">[...] τῷ σῷ δούλῳ</term>
-                    <!--<term xml:lang="en">undetermined</term>-->
-                    <!--<term xml:lang="fr">indéterminé</term>
-                    <term xml:lang="it">indeterminato</term>-->
-                    <gloss xml:lang="en"></gloss>
-                </item>
-                <item xml:id="">
-                    <term xml:lang="grc"></term>
-                    <term xml:lang="en"></term>
-                    <term xml:lang="fr"></term>
-                    <term xml:lang="it"></term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
     </list>
         </body>
