@@ -610,8 +610,7 @@
 
                 <!-- Zacos -->
 
-                <bibl type="book" xml:id="Zacos1"
-                    corresp="http://zotero.org/users/3169239/items/JX9QBXEC">
+                <bibl type="book" xml:id="Zacos1">
                     <bibl type="abbrev">Zacos, 1</bibl>
                     <author><forename>G.</forename>
                         <surname>Zacos</surname></author>
@@ -623,8 +622,7 @@
                     <pubPlace xml:lang="fr">Bâle</pubPlace>
                     <date>1972</date>
                 </bibl>
-                <bibl type="book" xml:id="Zacos2"
-                    corresp="http://zotero.org/users/3169239/items/5AE9APUI">
+                <bibl type="book" xml:id="Zacos2">
                     <bibl type="abbrev">Zacos, 2</bibl>
                     <author><forename>G.</forename>
                         <surname>Zacos</surname></author>
@@ -636,8 +634,7 @@
                     <pubPlace xml:lang="fr">Berne</pubPlace>
                     <date>1984</date>
                 </bibl>
-                <bibl type="book" xml:id="ZacosOrient"
-                    corresp="http://zotero.org/users/3169239/items/LAP5Y3L7">
+                <bibl type="book" xml:id="ZacosOrient">
                     <bibl type="abbrev">Zacos Orient</bibl>
                     <author><forename>J.-Cl.</forename>
                         <surname>Cheynet</surname></author>
@@ -653,8 +650,7 @@
                         byzantines</publisher>
                     <date>2001</date>
                 </bibl>
-                <bibl type="book" xml:id="ZacosGenève"
-                    corresp="http://zotero.org/users/3169239/items/6D6H3J7Q">
+                <bibl type="book" xml:id="ZacosGenève">
                     <bibl type="abbrev">Zacos Genève</bibl>
                     <author><forename>M.</forename>
                         <surname>Campagnolo-Pothitou</surname></author>
