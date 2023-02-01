@@ -32,7 +32,6 @@
                     <persName>
                         <reg xml:lang="grc">Ἰουστινιανός Α΄</reg>
                         <reg xml:lang="la">Iustinianus I</reg>
-                        <reg xml:lang="en">Justinian I</reg>
                         <orig>Iustinianus</orig>
                     </persName>
                     <birth cert="low" when="0482">
@@ -240,109 +239,156 @@
                     <bibl><ptr target="PBW"/><citedRange>Niketas 20222</citedRange></bibl>
                     <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20222/"/>
                 </person>
-                <person sex="M" xml:id="Οὐρσέλιος_1">
-                    <persName xml:lang="grc">Οὐρσέλιος</persName>
-                    <persName xml:lang="en">Οὐρσέλιος</persName>
-                    <!--<persName xml:lang="en">Oursel (Roussel) de Bailleul</persName>-->
-                    <!--<persName xml:lang="fr">Oursel (Roussel) de Bailleul</persName>-->
-                    <floruit>M/L XI</floruit>
-                    <note>PBWRoussel61</note>
-                    <note>SigiDocID20</note>
+                <person sex="m" xml:id="Ourselios1" resp="#AS">
+                    <persName>
+                        <reg xml:lang="grc">Οὐρσέλιος</reg>
+                        <orig source="TM_20">Οὐρσέλῃ</orig>
+                    </persName>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
+                    <bibl><ptr target="PBW"/><citedRange>Roussel 61</citedRange></bibl>
+                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/"/>
                 </person>
-                <person sex="M" xml:id="Φράγγος_Χουρσέλιος">
-                    <persName xml:lang="grc">Φράγγος, Χουρσέλιος</persName>
-                    <persName xml:lang="en">Φράγγος, Χουρσέλιος</persName>
-                    <!--<persName xml:lang="en">Chourselios Phrangos</persName>-->
-                    <!--<persName xml:lang="fr">Phrangos, Choursélios</persName>-->
-                    <floruit>M/L XI</floruit>
-                    <note>SigiDocID43</note>
+                <person sex="m" xml:id="ChourseliosFraggos" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Χουρσέλιος</reg>
+                            <orig source="TM_20bis">Χουρσελίῳ</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Φράγγος</reg>
+                            <orig source="TM_20bis">Φράγγῳ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
                 </person>
-                <person sex="M" xml:id="Φράγγος_Ζαχαρίας">
-                    <persName xml:lang="grc">Φράγγος, Ζαχαρίας</persName>
-                    <persName xml:lang="en">Φράγγος, Ζαχαρίας</persName>
-                    <!--<persName xml:lang="en">Zacharias Phrangos</persName>-->
-                    <!--<persName xml:lang="fr">Phrangos, Zacharie</persName>-->
-                    <floruit>M/L XI</floruit>
-                    <note>PBWZacharias15001</note>
-                    <note>SigiDocID44</note>
+                <person sex="m" xml:id="ZachariasFraggos" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Ζαχαρίας</reg>
+                            <orig source="TM_20ter">Ζαχαρίᾳ</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Φράγγος</reg>
+                            <orig source="TM_20ter">Φράγγῳ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
+                    <bibl><ptr target="PBW"/><citedRange>Zacharias 15001</citedRange></bibl>
+                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/"/>
                 </person>
-                <person sex="M" xml:id="Βουλκασιότης_Παγκράτιος">
-                    <persName xml:lang="grc">Βουλκασιότης, Παγκράτιος</persName>
-                    <persName xml:lang="en">Βουλκασιότης, Παγκράτιος</persName>
-                    <!--<persName xml:lang="en">Pankratios Boulkasiotes</persName>-->
-                    <!--<persName xml:lang="fr">Boulkasiotès, Pancrace</persName>-->
-                    <floruit>M XI</floruit>
-                    <note>SigiDocID21</note>
+                <person sex="m" xml:id="PagkratiosBoulkasiotes" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Παγκράτιος</reg>
+                            <orig source="TM_21">Παγκράτιος</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Βουλκασιότης</reg>
+                            <orig source="TM_21">Βουλκασιότης</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                 </person>
-                <person sex="M" xml:id="Ἰσμαίλ_Ῥωμανός">
-                    <persName xml:lang="grc">Ἰσμαίλ, Ῥωμανός</persName>
-                    <persName xml:lang="en">Ἰσμαίλ, Ῥωμανός</persName>
-                    <!--<persName xml:lang="en">Romanos Ismail</persName>-->
-                    <!--<persName xml:lang="fr">Ismail, Romain</persName>-->
-                    <floruit>M XI</floruit>
-                    <note>SigiDocID22</note>
+                <person sex="m" xml:id="RomanosIsmael" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Ῥωμανός</reg>
+                            <orig source="TM_22">Ῥομανῷ</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Ἰσμαήλ</reg>
+                            <orig source="TM_22">Ἰσμαΐλ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                 </person>
-                <person sex="M" xml:id="Κουρκούας_Ῥωμανός">
-                    <persName xml:lang="grc">Κουρκούας, Ῥωμανός</persName>
-                    <persName xml:lang="en">Κουρκούας, Ῥωμανός</persName>
-                    <!--<persName xml:lang="en">Romanos Kourkouas</persName>-->
-                    <!--<persName xml:lang="fr">Kourkouas, Romain</persName>-->
-                    <floruit>E XI</floruit>
-                    <note>PBWRomanos102</note>
-                    <note>SigiDocID23</note>
+                <person sex="m" xml:id="RomanosKourkouas" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Ῥωμανός</reg>
+                            <orig source="TM_23">Ῥωμανῷ</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Κουρκούας</reg>
+                            <orig source="TM_23">Κουρκούᾳ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1000" notAfter="1020">Early 11th century</floruit>
+                    <bibl><ptr target="PBW"/><citedRange>Romanos 102</citedRange></bibl>
+                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/"/>
                 </person>
-                <person sex="M" xml:id="Theodorus_1">
-                    <persName xml:lang="grc">Theodorus</persName>
-                    <persName xml:lang="la">Theodorus</persName>
-                    <persName xml:lang="en">Theodorus</persName>
-                    <!--<persName xml:lang="en">Theodore</persName>-->
-                    <!--<persName xml:lang="fr">Théodore</persName>-->
-                    <floruit>VI</floruit>
-                    <note>SigiDocID24</note>
+                <person sex="m" xml:id="Theodorus1" resp="#AS">
+                    <persName>
+                        <reg xml:lang="la">Theodorus</reg>
+                        <orig source="TM_24">Theodoro</orig>
+                    </persName>
+                    <floruit notBefore="0501" notAfter="0600">6th century</floruit>
                 </person>
-                <person sex="M" xml:id="Κομνηνός_Ἀλέξιος">
-                    <persName xml:lang="grc">Κομνηνός, Ἀλέξιος</persName>
-                    <persName xml:lang="en">Κομνηνός, Ἀλέξιος</persName>
-                    <!--<persName xml:lang="en">Alexios Komnenos</persName>-->
-                    <!--<persName xml:lang="fr">Comnène, Alexis</persName>-->
-                    <floruit>E/M XII</floruit>
-                    <note>PBWAlexios20125</note>
-                    <note>SigiDocID25</note>
+                <person sex="m" xml:id="AlexiosKomnenos" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Ἀλέξιος</reg>
+                            <orig source="TM_25">Ἀλέξιον</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Κομνηνός</reg>
+                            <orig source="TM_25"><surname type="patronymic">ἐκ Νικηφόρου</surname> Κομνηνοῦ</orig>
+                            <!--how and/or where to put the patronymic?-->
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1100" notAfter="1150">Early 12th century/Mid 12th century</floruit>
+                    <bibl><ptr target="PBW"/><citedRange>Alexios 20125</citedRange></bibl>
+                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/20125/"/>
                 </person>
-                <person sex="M" xml:id="Κομνηνός_Νικηφόρος">
-                    <persName xml:lang="grc">Κομνηνός, Νικηφόρος</persName>
-                    <persName xml:lang="en">Κομνηνός, Νικηφόρος</persName>
-                    <!--<persName xml:lang="en">Nikephoros Komnenos</persName>-->
-                    <!--<persName xml:lang="fr">Comnène, Nicéphore</persName>-->
-                    <floruit>E XII</floruit>
-                    <note>PBWNikephoros116</note>
-                    <note>SigiDocID41</note>
+                <person sex="m" xml:id="NikephorosKomnenos" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Νικηφόρος</reg>
+                            <orig source="TM_25bis">Νικηφόρῳ</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Κομνηνός</reg>
+                            <orig source="TM_25bis">Κομνηνῷ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1100" notAfter="1120">Early 12th century</floruit>
+                    <bibl><ptr target="PBW"/><citedRange>Nikephoros 116</citedRange></bibl>
+                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/116/"/>
                 </person>
-                <person sex="M" xml:id="Michael_Andreas">
-                    <persName xml:lang="grc">Michael, Andreas</persName>
-                    <persName xml:lang="la">Michael, Andreas</persName>
-                    <persName xml:lang="en">Michael, Andreas</persName>
-                    <!--<persName xml:lang="en">Andrea Michiel</persName>-->
-                    <!--<persName xml:lang="fr">Michiel, Andrea</persName>-->
-                    <floruit>L XI-E XII</floruit>
-                    <note>SigiDocID26</note>
+                <person sex="m" xml:id="AndreasMichael" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="la">Andreas</reg>
+                            <orig source="TM_26">Andreas</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="la">Michiel</reg>
+                            <orig source="TM_26">Michael</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1080" notAfter="1120">Late 11th century/Early 12th century</floruit>
                 </person>
-                <person sex="M" xml:id="Ἀψίμαρος_1">
-                    <persName xml:lang="grc">Ἀψίμαρος</persName>
-                    <persName xml:lang="en">Ἀψίμαρος</persName>
-                    <!--<persName xml:lang="en">Apsimar</persName>-->
-                    <!--<persName xml:lang="fr">Apsimar</persName>-->
-                    <floruit>M/L VII</floruit>
-                    <note>PMBZ8483</note>
-                    <note>SigiDocID27</note>
+                <person sex="m" xml:id="Apsimaros1" resp="#AS">
+                    <persName>
+                        <reg xml:lang="grc">Ἀψίμαρος</reg>
+                        <orig source="TM_27">Ἀψιμάρου</orig>
+                    </persName>
+                    <floruit notBefore="0650" notAfter="0800">Mid 7th century/Late 7th century</floruit>
+                    <bibl><ptr target="PmbZOnline"/><citedRange>8483/corr.</citedRange></bibl>
+                    <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ19751/"/>
                 </person>
-                <person sex="M" xml:id="Ἐρωτικός_Κωνσταντῖνος">
-                    <persName xml:lang="grc">Ἐρωτικός, Κωνσταντῖνος</persName>
-                    <persName xml:lang="en">Ἐρωτικός, Κωνσταντῖνος</persName>
-                    <!--<persName xml:lang="en">Konstantinos Erotikos</persName>-->
-                    <!--<persName xml:lang="fr">Érôtikos, Constantin</persName>-->
-                    <floruit>E XI</floruit>
-                    <note>SigiDocID28</note>
+                <person sex="m" xml:id="KonstantinosErotikos" resp="#AS">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Κωνσταντῖνος</reg>
+                            <orig source="TM_28">Κωνσταντῖνος</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Ἐρωτικός</reg>
+                            <orig source="TM_28">Ἐρωτικός</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1000" notAfter="1020">Early 11th century</floruit>
                 </person>
                 <person sex="F" xml:id="Μακρεμβολίτισσα_Μαρία">
                     <persName xml:lang="grc">Μακρεμβολίτισσα, Μαρία</persName>
