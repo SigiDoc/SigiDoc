@@ -335,7 +335,7 @@
                                       </w>
                                   <lb n="5"/>
                                       <name type="surname">
-                                          <expan><abbr>Φρά</abbr><ex>γ</ex><abbr>γ<choice xml:id="choice1"><orig>ο</orig><reg>ῷ</reg></choice></abbr></expan>
+                                          <expan><abbr>Φρά</abbr><ex>γ</ex><abbr>γ<choice xml:id="choice1"><orig>ο</orig><reg>ῳ</reg></choice></abbr></expan>
                                       </name>
                                   </persName>
                           </rs>
@@ -368,11 +368,11 @@
                               dernière solution est d’ailleurs sans doute plus satisfaisante du point de vue phonétique,
                               l’évolution étant dans ce cas la même que celle constatée pour l’Arménien Ochin, transcrit
                               Χοσίνης (voir par exemple le sceau <ref target="TM_40.html">SigiDoc ID 40</ref>).</note></app>
-                          <app loc="5" from="#choice1"><note>Sur le sceau Φράγγῷ est gravé avec omicron.</note></app>
+                          <app loc="5" from="#choice1"><note>Sur le sceau Φράγγῳ est gravé avec omicron.</note></app>
                       </listApp>
               </div>
               <div type="translation">
-                  <p>Μήτηρ Θεοῦ. / +Θεοτόκε βοήθει τῷ σῷ δούλῳ Χουρσελίῳ βέστῃ τῷ Φράγγῷ.</p>
+                  <p>Μήτηρ Θεοῦ. / +Θεοτόκε βοήθει τῷ σῷ δούλῳ Χουρσελίῳ βέστῃ τῷ Φράγγῳ.</p>
                   <p xml:lang="en">Mother of God. / Mother of God aid your servant Chourselios Phrangos, vestes.</p>
                   <p xml:lang="fr">Mère de Dieu. / Mère de Dieu aide ton serviteur Chourselios Phrangos, <hi rend="italic">vestès</hi>.</p>
               </div>
