@@ -27,3 +27,5 @@ In order to make use of Kiln’s RDF capabilities, some setup is required. You n
   - Click the `Index all (search)`
 
 - Go to http://127.0.0.1:9999 and you should see the data in the indecies.
+
+Test
