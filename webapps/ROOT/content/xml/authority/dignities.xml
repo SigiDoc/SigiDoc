@@ -6,7 +6,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of dignities in SIGIDOC</title>
+                <title>Authority list of dignities in SigiDoc</title>
+                <editor>
+                    <persName xml:id="AS">
+                        <forename>Alessio</forename>
+                        <surname>Sopracasa</surname>
+                    </persName>
+                    <persName xml:id="MF">
+                        <forename>Martina</forename>
+                        <surname>Filosa</surname>
+                    </persName>
+                </editor>
             </titleStmt>
             <publicationStmt><ab/></publicationStmt>
             <sourceDesc><ab/></sourceDesc>

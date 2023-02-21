@@ -118,7 +118,7 @@
                     </persName>
                     <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
                 </person>
-                <person sex="m" xml:id="DavidTzipoureles" resp="#AS">
+                <person sex="m" xml:id="david-tzipoureles" resp="#AS">
                     <persName>
                         <forename>
                             <reg xml:lang="grc">Δαυίδ</reg>

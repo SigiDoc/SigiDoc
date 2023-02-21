@@ -6,7 +6,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of monograms in SIGIDOC</title>
+                <title>Authority list of monograms in SigiDoc</title>
+                <editor>
+                    <persName xml:id="AS">
+                        <forename>Alessio</forename>
+                        <surname>Sopracasa</surname>
+                    </persName>
+                    <persName xml:id="MF">
+                        <forename>Martina</forename>
+                        <surname>Filosa</surname>
+                    </persName>
+                </editor>
             </titleStmt>
             <publicationStmt><ab/></publicationStmt>
             <sourceDesc><ab/></sourceDesc>
@@ -15,44 +25,18 @@
     <text>
         <body>
             <list type="monogram">
-                <item xml:id="mg1">
-                    <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ (Zacos 46)</term>
-                    <term xml:lang="en">Θεοτόκε βοήθει τῷ σῷ δούλῳ (Zacos 46)</term>
-                   <!-- <term xml:lang="en">Theotokos aid your servant (Zacos 46)</term>
-                    <term xml:lang="fr">Théotokos aide ton serviteur (Zacos 46)</term>
-                    <term xml:lang="it">Theotokos aiuta il tuo servitore (Zacos 46)</term>-->
-                    <gloss xml:lang="en"></gloss>
+                <item xml:id="mg001">
+                    <term xml:lang="grc" ana="Zacos 46">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
+                   <graphic url="1.jpg"></graphic>
                 </item>
-                <item xml:id="mg2">
-                    <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ (undetermined)</term>
-                    <term xml:lang="en">Θεοτόκε βοήθει τῷ σῷ δούλῳ (undetermined)</term>
-                    <!--<term xml:lang="en">Theotokos aid your servant (undetermined)</term>
-                    <term xml:lang="fr">Théotokos aide ton serviteur (undetermined)</term>
-                    <term xml:lang="it">Theotokos aiuta il tuo servitore (undetermined)</term>-->
-                    <gloss xml:lang="en"></gloss>
+                <item xml:id="mg002">
+                    <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
                 </item>
-                <item xml:id="mg3"><!-- image or something to be added --><!-- unclassified???????????????? -->
-                    <term xml:lang="grc">Θεοτόκε βοήθει (unclassified)</term>
-                    <term xml:lang="en">Θεοτόκε βοήθει (unclassified)</term>
-                    <!--<term xml:lang="en">Theotokos aid (unclassified)</term>
-                    <term xml:lang="fr">Théotokos aide (non répertorié)</term>
-                    <term xml:lang="it">Theotokos aiuta (non catalogato)</term>-->
-                    <gloss xml:lang="en"></gloss>
+                <item xml:id="mg003">
+                    <term xml:lang="grc">Θεοτόκε βοήθει</term>
                 </item>
-                <item xml:id="mg4">
+                <item xml:id="mg004">
                     <term xml:lang="grc">Ἀθανασίου</term>
-                    <term xml:lang="en">Ἀθανασίου</term>
-                    <!--<term xml:lang="en">Athanasios</term>
-                    <term xml:lang="fr">Athanase</term>
-                    <term xml:lang="it">Atanasio</term>-->
-                    <gloss xml:lang="en"></gloss>
-                </item>
-                <item xml:id="">
-                    <term xml:lang="grc"></term>
-                    <term xml:lang="en"></term>
-                    <term xml:lang="fr"></term>
-                    <term xml:lang="it"></term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
             </list>
         </body>

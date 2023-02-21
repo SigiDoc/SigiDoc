@@ -8,7 +8,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of placenames in SIGIDOC</title>
+                <title>Authority list of placenames in SigiDoc</title>
+                <editor>
+                    <persName xml:id="AS">
+                        <forename>Alessio</forename>
+                        <surname>Sopracasa</surname>
+                    </persName>
+                    <persName xml:id="MF">
+                        <forename>Martina</forename>
+                        <surname>Filosa</surname>
+                    </persName>
+                </editor>
             </titleStmt>
             <publicationStmt><ab/></publicationStmt>
             <sourceDesc><ab/></sourceDesc>
@@ -17,7 +27,7 @@
     <text>
         <body>
             <listPlace>
-             <place xml:id="Ἀντιόχεια">
+             <place xml:id="geo0001">
             <placeName xml:lang="grc">Ἀντιόχεια</placeName>
             <placeName xml:lang="en">Ἀντιόχεια</placeName>
             <!--<placeName xml:lang="en">Antioch</placeName>-->
@@ -25,7 +35,7 @@
             <placeName xml:lang="it">Antiochia</placeName>-->
             <idno></idno>
         </place>
-            <place xml:id="Ὀψίκιον">
+            <place xml:id="geo0002">
             <placeName xml:lang="grc">Ὀψίκιον</placeName>
             <placeName xml:lang="en">Ὀψίκιον</placeName>
             <!--<placeName xml:lang="en">Opsikion</placeName>-->
@@ -33,7 +43,7 @@
             <placeName xml:lang="it">Opsikion</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Βουκελλαρίων">
+             <place xml:id="geo0003">
              <placeName xml:lang="grc">Βουκελλαρίων</placeName>
              <placeName xml:lang="en">Βουκελλαρίων</placeName>
             <!--<placeName xml:lang="en">Boukellarion</placeName>-->
@@ -41,7 +51,7 @@
             <placeName xml:lang="it">(tema dei) Bucellari</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Δυρράχιον">
+             <place xml:id="geo0004">
             <placeName xml:lang="grc">Δυρράχιον</placeName>
                  <placeName xml:lang="en">Δυρράχιον</placeName>
             <!--<placeName xml:lang="en">Dyrrachion</placeName>-->
@@ -50,7 +60,7 @@
             <placeName xml:lang="sq">Durrës</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Πελοπόννησος_καὶ_Ἑλλάς">
+             <place xml:id="geo0005">
             <placeName xml:lang="grc">Πελοπόννησος καὶ Ἑλλάς</placeName>
              <placeName xml:lang="en">Πελοπόννησος καὶ Ἑλλάς</placeName>
             <!--<placeName xml:lang="en">Peloponnese and Hellas</placeName>-->
@@ -59,7 +69,7 @@
             <placeName xml:lang="el">Πελοπόννησος καὶ Ελλάς</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Θρᾳκησίων">
+             <place xml:id="geo0006">
             <placeName xml:lang="grc">Θρᾳκησίων</placeName>
              <placeName xml:lang="en">Θρᾳκησίων</placeName>
             <!--<placeName xml:lang="en">Thrakesion</placeName>-->
@@ -67,7 +77,7 @@
             <placeName xml:lang="it">(tema dei) Tracesiani</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Σελεύκεια">
+             <place xml:id="geo0007">
             <placeName xml:lang="grc">Σελεύκεια</placeName>
             <placeName xml:lang="en">Σελεύκεια</placeName>
             <!--<placeName xml:lang="en">Seleukeia</placeName>-->
@@ -75,7 +85,7 @@
             <placeName xml:lang="it">Seleucia</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Ἀτακᾶτζ">
+             <place xml:id="geo0008">
             <placeName xml:lang="grc">Ἀτακᾶτζ</placeName>
              <placeName xml:lang="en">Ἀτακᾶτζ</placeName>
             <!--<placeName xml:lang="en">At‘akh</placeName>--><!-- ????????????????????? -->
@@ -83,7 +93,7 @@
             <placeName xml:lang="hy"></placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Insulae">
+             <place xml:id="geo0009">
             <placeName xml:lang="la">Insulae</placeName>
              <placeName xml:lang="en">Insulae</placeName>
              <placeName xml:lang="grc">Insulae</placeName>
@@ -92,7 +102,7 @@
             <placeName xml:lang="it">Isole</placeName>-->
             <idno></idno>
         </place>
-             <place xml:id="Παρνασσός">
+             <place xml:id="geo0010">
             <placeName xml:lang="grc">Παρνασσός</placeName>
              <placeName xml:lang="en">Παρνασσός</placeName>
             <!--<placeName xml:lang="en">Parnassos</placeName>-->

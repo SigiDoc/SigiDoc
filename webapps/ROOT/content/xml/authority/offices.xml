@@ -29,21 +29,14 @@
     <text>
         <body>
             <list type="office" subtype="civil">
-                <item xml:id="κριτὴς_τοῦ_βήλου">
-                    <term xml:lang="grc">κριτὴς τοῦ βήλου</term>
-                    <term xml:lang="en">κριτὴς τοῦ βήλου</term>
-                    <!--<term xml:lang="en">judge of the Velum</term>-->
-                    <!--<term xml:lang="fr">juge du Vélum</term>-->
-                    <term xml:lang="it"/>
-                    <gloss xml:lang="en"/>
+                <item xml:id="krites" ana="κριτής">
+                    <term xml:id="krites_001" xml:lang="grc">κριτής</term>
+                    <term xml:id="krites_002" xml:lang="grc">κριτὴς τοῦ βήλου</term>
+                    <term xml:id="krites_003" xml:lang="grc">κριτὴς τοῦ Ἱπποδρόμου</term>
                 </item>
-                <item xml:id="μέγας_οἰκονόμος_τῶν_εὐαγῶν_οἶκων">
-                    <term xml:lang="grc">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
-                    <term xml:lang="en">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
-                    <!--<term xml:lang="en">megas oikonomos of the charitable foundations</term>-->
-                    <!--<term xml:lang="fr">grand économe des fondations pieuses</term>
-            <term xml:lang="it">grande economo delle 'case pie'</term>--><!-- ???????????????????????????????? -->
-                    <gloss xml:lang="en"/>
+                <item xml:id="megasoik" ana="μέγας οἰκονόμος">
+                    <term xml:id="megasoik_001" xml:lang="grc">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
+                    <term xml:id="megasoik_002" xml:lang="grc">μέγας οἰκονόμος τῆς Νέας</term>
                 </item>
                 <item xml:id="οἰκονόμος_τῆς_Νέας">
                     <term xml:lang="grc">οἰκονόμος τῆς Νέας</term>
