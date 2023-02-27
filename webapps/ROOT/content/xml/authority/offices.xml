@@ -29,15 +29,15 @@
     <text>
         <body>
             <list type="office" subtype="civil">
-                <item xml:id="krites" ana="κριτής">
+                <!--<item xml:id="krites" ana="κριτής">
                     <term xml:id="krites_001" xml:lang="grc">κριτής</term>
                     <term xml:id="krites_002" xml:lang="grc">κριτὴς τοῦ βήλου</term>
                     <term xml:id="krites_003" xml:lang="grc">κριτὴς τοῦ Ἱπποδρόμου</term>
-                </item>
-                <item xml:id="megasoik" ana="μέγας οἰκονόμος">
+                </item>-->
+                <!--<item xml:id="megasoik" ana="μέγας οἰκονόμος">
                     <term xml:id="megasoik_001" xml:lang="grc">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
                     <term xml:id="megasoik_002" xml:lang="grc">μέγας οἰκονόμος τῆς Νέας</term>
-                </item>
+                </item>-->
                 <item xml:id="οἰκονόμος_τῆς_Νέας">
                     <term xml:lang="grc">οἰκονόμος τῆς Νέας</term>
                     <term xml:lang="en">οἰκονόμος τῆς Νέας</term>
