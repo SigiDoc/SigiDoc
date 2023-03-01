@@ -29,21 +29,21 @@
     <text>
         <body>
             <list type="office" subtype="civil">
-                <item xml:id="krites" ana="κριτής">
-                    <term xml:id="krites_001" xml:lang="grc">κριτής</term>
-                    <term xml:id="krites_002" xml:lang="grc">κριτὴς τοῦ βήλου</term>
-                    <term xml:id="krites_003" xml:lang="grc">κριτὴς τοῦ Ἱπποδρόμου</term>
+                <item xml:id="krites" ana="κριτής" xml:lang="grc">
+                    <term xml:id="krites_001">κριτής</term>
+                    <term xml:id="krites_002">κριτὴς τοῦ βήλου</term>
+                    <term xml:id="krites_003">κριτὴς τοῦ Ἱπποδρόμου</term>
                 </item>
-                <item xml:id="megasoik" ana="μέγας οἰκονόμος">
-                    <term xml:id="megasoik_001" xml:lang="grc">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
-                    <term xml:id="megasoik_002" xml:lang="grc">μέγας οἰκονόμος τῆς Νέας</term>
+                <item xml:id="megasoik" ana="μέγας οἰκονόμος" xml:lang="grc">
+                    <term xml:id="megasoik_001">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
+                    <term xml:id="megasoik_002">μέγας οἰκονόμος τῆς Νέας</term>
                 </item>
                 <item xml:id="oikonomos" ana="οἰκονόμος" xml:lang="grc">
                     <term xml:id="oikonomos_001">οἰκονόμος</term>
                     <term xml:id="oikonomos_002">οἰκονόμος τῆς Νέας</term>
                 </item>
-                <item xml:id="epi-tou-koitonos" ana="ἐπὶ τοῦ κοιτῶνος">
-                    <term xml:id="epi-tou-koitonos_001" xml:lang="grc">ἐπὶ τοῦ κοιτῶνος</term>
+                <item xml:id="epi-tou-koitonos" ana="ἐπὶ τοῦ κοιτῶνος" xml:lang="grc">
+                    <term xml:id="epi-tou-koitonos_001">ἐπὶ τοῦ κοιτῶνος</term>
                 </item>
                 <item xml:id="δομέστικος_τών_Ἐξκουβίτων">
                     <term xml:lang="grc">δομέστικος τών Ἐξκουβίτων</term>
