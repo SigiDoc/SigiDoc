@@ -30,6 +30,7 @@
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
             <script src="{$kiln:assets-path}/scripts/footnotes.js">&#160;</script>
+            <script src="{$kiln:assets-path}/scripts/cookieinfo.min.js" type="text/javascript" id="cookieinfo"></script>
           </kiln:block>
           <kiln:block name="head-extra" />
         </head>
