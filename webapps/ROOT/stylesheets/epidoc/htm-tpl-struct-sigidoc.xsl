@@ -280,7 +280,7 @@
         <div id="stone">
           <h4 class="iospe"><i><i18n:text i18n:key="history">History</i18n:text></i></h4><!-- ***********History********* -->
         <dl class="iospe">
-          <dt width="150" align="left"><i18n:text i18n:key="seal-category">Seal’s category</i18n:text></dt>
+          <dt width="150" align="left"><i18n:text i18n:key="seal-category">Category</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:msContents//t:summary[@n='whole']//t:seg//text()">
