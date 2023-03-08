@@ -8,7 +8,7 @@
 
   <!-- Called from htm-tpl-structure.xsl -->
   
-  <!-- LAST MODIFIED: 2022-11-07 -->
+  <!-- LAST MODIFIED: 2023-03-08 -->
 
   <xsl:template name="sigidoc-body-structure">
     <xsl:call-template name="navigation"/>
@@ -458,7 +458,7 @@
         </div>
         
       <div id="text-field">
-        <h3 class="iospe"><i18n:text i18n:key="field-obverse">Inscribed field - Obverse</i18n:text></h3>
+        <h3 class="iospe"><i18n:text i18n:key="field-obverse">Obverse</i18n:text></h3>
         <!-- *******inscribed field - obverse *********** -->
         <dl class="iospe"> 
           <dt width="150" align="left"><i18n:text i18n:key="languages">Language(s)</i18n:text></dt>
@@ -593,7 +593,7 @@
     <dl class="iospe"></dl><!-- don't touch this! -->
       
     <div id="text-field">
-      <h3 class="iospe"><i18n:text i18n:key="field-reverse">Inscribed field - Reverse</i18n:text></h3><!-- *******inscribed field - reverse *********** -->
+      <h3 class="iospe"><i18n:text i18n:key="field-reverse">Reverse</i18n:text></h3><!-- *******inscribed field - reverse *********** -->
       <dl class="iospe"> 
         <dt width="150" align="left"><i18n:text i18n:key="languages">Language(s)</i18n:text></dt>
         <dd>

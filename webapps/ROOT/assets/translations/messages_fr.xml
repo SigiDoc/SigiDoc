@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 2023-03-07 -->
+<!-- LAST MODIFIED: 2023-03-08 -->
 
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="artifact">Artéfact</message>
@@ -54,12 +54,12 @@
     <message key="acquisition">Acquisition</message>
     <message key="previous-locations">Localisations précédentes</message>
     <message key="modern-observations">Observations modernes</message>
-    <message key="field-obverse">Champ - Avers</message>
+    <message key="field-obverse">Avers</message>
     <message key="layout-field">Conception du champ</message>
     <message key="field-dimensions">Dimensions du champ</message>
     <message key="iconography">Iconographie</message>
     <message key="decoration">Décoration</message>
-    <message key="field-reverse">Champ - Revers</message>
+    <message key="field-reverse">Revers</message>
     <message key="text">Texte</message>
     <message key="languages">Langue(s)</message>
     <message key="images">Images</message>
