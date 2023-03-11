@@ -5,7 +5,6 @@
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="artifact">Artéfact</message>
     <message key="type">Type d'objet</message>
-    <message key="seal">Sceau</message>
     <message key="not-specified">Non précisé(e)</message><!-- ajouter d'autres façons d'indiquer cela -->
     <message key="not-available">Non disponible</message>
     <message key="undetermined">Indéterminé(e)</message>
@@ -14,9 +13,7 @@
     <message key="matrix">Matrice</message>
     <message key="physical-description">Description physique</message>
     <message key="medium">Type d'empreinte</message>
-    <message key="original-impression">Empreinte originale</message>
     <message key="material">Matériau</message>
-    <message key="lead">Lead</message>
     <message key="dimensions">Dimensions (mm)</message>
     <message key="diameter">Diam. </message>
     <message key="height">H. </message>
@@ -28,7 +25,6 @@
     <message key="overstrike-orientation">Orient. de la surfrappe (cadran)</message><!-- abrégé!!!??? -->
     <message key="channel-orientation">Orient. du canal (cadran)</message><!-- abrégé!!!??? -->
     <message key="execution">Exécution</message>
-    <message key="struck">Frappé</message>
     <message key="countermark">Contremarque</message>
     <message key="epigraphy">Épigraphie</message>
     <message key="shape">Forme</message>
