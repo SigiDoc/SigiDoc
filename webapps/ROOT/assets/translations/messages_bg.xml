@@ -5,7 +5,7 @@
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="artifact">Artéfact</message>
     <message key="type">Type d'objet</message>
-    <message key="not-specified">Non précisé(e)</message><!-- ajouter d'autres façons d'indiquer cela -->
+    <message key="not-specified">Non précisé(e)</message>
     <message key="not-available">Non disponible</message>
     <message key="undetermined">Indéterminé(e)</message>
     <message key="not-applicable">Sans objet</message>
@@ -19,11 +19,11 @@
     <message key="height">H. </message>
     <message key="width">L. </message>
     <message key="thickness">É. </message>
-    <message key="unknown">Inconnu</message><!-- pluriel+féminin?????? -->
+    <message key="unknown">Inconnu</message>
     <message key="weight">Poids (g)</message>
     <message key="axis">Axe (cadran)</message>
-    <message key="overstrike-orientation">Orient. de la surfrappe (cadran)</message><!-- abrégé!!!??? -->
-    <message key="channel-orientation">Orient. du canal (cadran)</message><!-- abrégé!!!??? -->
+    <message key="overstrike-orientation">Orient. de la surfrappe (cadran)</message>
+    <message key="channel-orientation">Orient. du canal (cadran)</message>
     <message key="execution">Exécution</message>
     <message key="countermark">Contremarque</message>
     <message key="epigraphy">Épigraphie</message>
@@ -68,7 +68,7 @@
     <message key="none">Aucun(e)</message>
     <message key="parallels">Parallèle(s)</message>
     <message key="no-parallels-known">Aucun parallèle connu</message>
-    <message key="further-references">Bibliographie additionnelle</message><!-- ?????????????????????? -->
+    <message key="further-references">Bibliographie additionnelle</message>
     <message key="commentary">Commentaire</message>
     <message key="apparatus">Apparat</message>
     <message key="footnotes">Notes</message>
