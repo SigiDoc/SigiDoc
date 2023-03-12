@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 -->
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0"><!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <editor xml:id=""/>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg/>
+                </edition>
+                <editor xml:id=""/>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when=""/>
+                <availability>
+                    <licence target="URI"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang=""/>
+                        </country>
+                        <settlement>
+                            <seg xml:lang=""/>
+                        </settlement>
+                        <institution/>
+                        <repository/>
+                        <collection xml:lang="" ref="URI"/>
+                        <idno/>
+                        <altIdentifier xml:lang="">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang=""/>
+                        </summary>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="">
+                                    <seg xml:lang=""/>
+                                    <interp type="milieu" xml:lang=""/>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang=""/>
+                                        </term>
+                                        <interp type="workType" xml:lang=""/>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang=""/>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter"/>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang=""/>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang=""/>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang=""/>
+                                    </rs>
+                                    <rs type="matrix" subtype="">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW" corresp="URI"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" xml:lang=""/>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="">
+                                    <placeName ref="URI"/>
+                                </seg>
+                            </origPlace>
+                            <!-- possible alternatives for dates:
+                            for a precise year:
+                            -->
+                            <origDate type="analysis" when="" evidence="" cert="" resp="">
+                                <seg/>
+                                <interp type="datingCriteria" xml:lang=""/>
+                            </origDate>
+                            <!-- for a date range or centuries-->
+                            <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="" resp="">
+                                <seg/>
+                                <interp type="datingCriteria" xml:lang=""/>
+                            </origDate>
+                            <!-- for an internal date -->
+                            <origDate type="internal" when="" when-custom="" datingMethod="">
+                                <seg xml:lang=""/>
+                                <interp type="datingCriteria" xml:lang=""/>
+                            </origDate>
+                                <!-- for erroneous dating and corrections: -->
+                                <date>
+                                    <choice>
+                                        <sic resp=""/>
+                                        <corr resp="" evidence="" cert=""/>
+                                    </choice>
+                                    <interp type="datingCriteria" xml:lang=""/>
+                                </date>
+                        </origin>
+                        <provenance type="found" subtype="" when="" xml:lang="" source="" cert="">
+                            <placeName type="ancientFindspot" ref="URI"/>
+                            <placeName type="modernFindspot" ref="URI"/>
+                            <rs type="circumstances"/>
+                        </provenance>
+                        <provenance type="observed" subtype="" xml:lang="">
+                            <p/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="" xml:lang="">
+                            <p/>
+                        </provenance>
+                        <provenance type="transferred" subtype="" xml:lang="">
+                            <p/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r"> 
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout  n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="matrix" subtype="">
+                                            <idno type="SigiDoc"/>
+                                        </rs>
+                                        <rs type="layout">
+                                            <seg xml:lang=""/>
+                                        </rs>
+                                        <p/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang=""/>
+                                        <figDesc n="decoR" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg><!-- for nested elements, see previous <origDate/> --></seg>
+                                    <interp type="datingCriteria"/>
+                                </origDate>
+                                <date><!-- for nested elements, see previous <date/> --></date>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="matrix" subtype="">
+                                            <idno type="SigiDoc"/>
+                                        </rs>
+                                        <rs type="layout">
+                                            <seg xml:lang=""/>
+                                        </rs>
+                                        <p/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v"/>
+                                        <figDesc n="decoV"/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>
+                                    <seg><!-- for nested elements, see previous <origDate/> --></seg>
+                                    <interp type="datingCriteria"/>
+                                </origDate>
+                                <date><!-- for nested elements, see previous <date/> --></date>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <listPrefixDef>
+                <prefixDef matchPattern="" ident="" replacementPattern=""/>
+            </listPrefixDef>
+            <charDecl>
+                <glyph xml:id="">
+                    <charProp>
+                        <localName>glyph-display</localName>
+                        <value/>
+                    </charProp>
+                    <charProp>
+                        <localName>text-display</localName>
+                        <value/>
+                    </charProp>
+                </glyph>
+            </charDecl> 
+        </encodingDesc>
+        <revisionDesc>
+            <change when="" who=""/>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+              <surface type="obverse">
+                  <desc>Obverse</desc>
+                  <graphic url="" scale="">
+                      <desc xml:lang=""/>
+                  </graphic>
+              </surface>
+              <surface type="reverse">
+                  <desc>Reverse</desc>
+                  <graphic url="" scale="">
+                      <desc xml:lang=""/>
+                  </graphic>
+              </surface>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="">
+                  <div type="textpart" subtype="" n="obv" rend="">
+                      <ab>[text here]</ab>
+                  </div>
+                  <div type="textpart" subtype="" n="rev" rend="">
+                      <ab>[text here]</ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="">
+                  <!-- for nested elements, see the previous -->
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>[plain text here]</p>
+                  <p xml:lang="">[modern language text here]</p>
+              </div>
+              <div type="commentary" subtype="text">
+                   <p xml:lang=""/>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang=""/>
+              </div>
+              <div type="bibliography" subtype="">
+                  <p>
+                      <bibl>
+                          <ptr target=""/>, <citedRange unit=""/>
+                      </bibl>
+                  </p>
+              </div>
+          </body>
+      </text>
+</TEI>             
