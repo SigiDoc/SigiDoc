@@ -72,12 +72,12 @@
                     <floruit notBefore="0641" notAfter="0668">Mid 7th century</floruit>
                     <bibl>
                         <ptr target="PBE1"/>
-                        <citedRange>Konstans 1</citedRange>
+                        <citedRange>PBE Konstans 1</citedRange>
                         <link target="http://www.pbe.kcl.ac.uk/data/D43/F04.htm"/>
                     </bibl>
                     <bibl>
                         <ptr target="PmbZOnline"/>
-                        <citedRange>3691/corr.</citedRange>
+                        <citedRange>PmbZ 3691/corr.</citedRange>
                         <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14839/html"/>
                     </bibl>
                 </person>
