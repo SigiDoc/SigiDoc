@@ -27,7 +27,7 @@
     <text>
         <body>
             <listPerson>
-                <person sex="m" xml:id="justinan" resp="#AS">
+                <person sex="m" xml:id="justinian" resp="#AS">
                     <persName>
                         <!--<reg xml:lang="grc">Ἰουστινιανός Α΄</reg>-->
                         <reg xml:lang="la">Iustinianus I</reg>
