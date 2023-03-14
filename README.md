@@ -6,7 +6,7 @@ SigiDoc 1.0 - The XML-based and EpiDoc-compliant encoding standard for the schol
 
 # Guidelines
 
-The latest version of the guidelines (v1.0) are at https://github.com/SigiDoc/Guidelines.
+The latest version of the guidelines (v1.0) is at https://github.com/SigiDoc/Guidelines.
 
 # Development
 
