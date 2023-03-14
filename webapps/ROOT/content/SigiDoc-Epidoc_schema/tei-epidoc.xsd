@@ -1361,7 +1361,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
     <xs:attributeGroup ref="tei:tei_att.naming.attribute.role"/>
     <xs:attributeGroup ref="tei:tei_att.naming.attribute.nymRef"/>
   </xs:attributeGroup>
-  <xs:attributeGroup name="tei_att.naming.attribute.role"><!-- SigiDoc -->
+  <xs:attributeGroup name="tei_att.naming.attribute.role">
     <xs:attribute name="role">
       <xs:annotation>
         <xs:documentation>may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</xs:documentation>
@@ -1373,7 +1373,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
               <xs:simpleType>
                 <xs:restriction base="xs:token">
                   <xs:pattern value="[^\p{C}\p{Z}]+"/>
-                  <xs:enumeration value="issuer"/><!-- SigiDoc -->
                 </xs:restriction>
               </xs:simpleType>
             </xs:list>
@@ -17210,6 +17209,13 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
           </xs:complexType>
         </xs:element>
       </xs:sequence>
+      <xs:attribute name="role" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="issuer"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
       <xs:attribute name="type" use="required"><!-- documentation to be added -->
         <xs:simpleType>
           <xs:restriction>
@@ -17319,7 +17325,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
         </xs:simpleType>
       </xs:attribute>
       <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
-      <xs:attributeGroup ref="tei:tei_att.naming.attribute.role"/>
+      <!--<xs:attributeGroup ref="tei:tei_att.naming.attribute.role"/>-->
       <!--<xs:complexContent>
         <xs:extension base="tei:tei_macro.phraseSeq">
           <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
