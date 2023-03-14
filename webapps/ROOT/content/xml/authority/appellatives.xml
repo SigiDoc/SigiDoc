@@ -9,24 +9,23 @@
                 <title>Authority list of terms related to Christ, the Mother of God and further
                     Saints in SigiDoc</title>
                 <editor>
-                    <persName xml:id="AS">
-                        <forename>Alessio</forename>
-                        <surname>Sopracasa</surname>
-                    </persName>
-                    <persName xml:id="MF">
-                        <forename>Martina</forename>
-                        <surname>Filosa</surname>
-                    </persName>
+                    <persName xml:id="AS">Alessio Sopracasa</persName>
+                    <persName xml:id="MF">Martina Filosa</persName>
                 </editor>
             </titleStmt>
             <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
                 <ab>This list contains sublists of terms related to Christ, the Mother of God and
                     further Saints; see <!--<list type="appellatives" subtype="christTerms">-->;
                     <!--<list type="appellatives" subtype="marianTerms">-->;
                     <!--<list type="appellatives" subtype="saintsTerms">--></ab>
-            </publicationStmt>
-            <sourceDesc>
-                <ab/>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
