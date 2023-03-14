@@ -22,107 +22,115 @@
                         Attribution 4.0 International License</licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc><ab/></sourceDesc>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-             <place xml:id="geo0001">
-            <placeName xml:lang="grc">Ἀντιόχεια</placeName>
-           <placeName xml:lang="en">Antioch</placeName>
-          <placeName xml:lang="fr">Antioche</placeName>
-            <placeName xml:lang="it">Antiochia</placeName>
-                 <idno type="pleiades">658381</idno><!--<link target="https://pleiades.stoa.org/places/658381"/>-->
-        </place>
-            <place xml:id="geo0002">
-            <placeName xml:lang="grc">Ὀψίκιον</placeName>
-            <placeName xml:lang="en">Opsikion</placeName>
-            <placeName xml:lang="fr">Opsikion</placeName>
-            <placeName xml:lang="it">Opsikion</placeName>
-        </place>
-             <place xml:id="geo0003">
-             <placeName xml:lang="grc">Βουκελλαρίων</placeName>
-            <placeName xml:lang="en">Boukellarion</placeName>
-            <placeName xml:lang="fr">(thème des) Bucellaires</placeName>
-            <placeName xml:lang="it">(tema dei) Bucellari</placeName>
-        </place>
-             <place xml:id="geo0004">
-            <placeName xml:lang="grc">Δυρράχιον</placeName>
-            <placeName xml:lang="en">Dyrrachion</placeName>
-            <placeName xml:lang="fr">Dyrrachion</placeName>
-            <placeName xml:lang="it">Durazzo</placeName>
-            <placeName xml:lang="sq">Durrës</placeName>
-                 <idno type="pleiades">573193</idno><!--<link target="https://pleiades.stoa.org/places/573193"/>-->
-        </place>
-             <place xml:id="geo0005">
-            <placeName xml:lang="grc">Πελοπόννησος καὶ Ἑλλάς</placeName>
-            <placeName xml:lang="en">Peloponnese and Hellas</placeName>
-            <placeName xml:lang="fr">Péloponnèse et Hellade</placeName>
-            <placeName xml:lang="it">Peloponneso ed Ellade</placeName>
-        </place>
-             <place xml:id="geo0006">
-            <placeName xml:lang="grc">Θρᾳκησίων</placeName>
-            <placeName xml:lang="en">Thrakesion</placeName>
-            <placeName xml:lang="fr">(thème des) Thracésiens</placeName>
-            <placeName xml:lang="it">(tema dei) Tracesiani</placeName>
-        </place>
-             <place xml:id="geo0007">
-            <placeName xml:lang="grc">Σελεύκεια</placeName>
-            <placeName xml:lang="en">Seleukeia</placeName>
-            <placeName xml:lang="fr">Séleucie</placeName>
-            <placeName xml:lang="it">Seleucia</placeName>
-                 <idno type="pleiades">648771</idno><!--<link target="https://pleiades.stoa.org/places/648771"/>-->
-        </place>
-             <place xml:id="geo0008">
-            <placeName xml:lang="grc">Ἀτακᾶτζ</placeName>
-             <placeName xml:lang="en">Ἀτακᾶτζ</placeName>
-            <placeName xml:lang="en">At‘akh</placeName>
-            <placeName xml:lang="fr">At‘akh</placeName>
-        </place>
-             <place xml:id="geo0009">
-            <placeName xml:lang="la">Insulae</placeName>
-             <placeName xml:lang="en">Insulae</placeName>
-            <placeName xml:lang="en">Islands</placeName>
-            <placeName xml:lang="fr">Îles</placeName>
-            <placeName xml:lang="it">Isole</placeName>
-        </place>
-             <place xml:id="geo0010">
-            <placeName xml:lang="grc">Παρνασσός</placeName>
-             <placeName xml:lang="en">Παρνασσός</placeName>
-            <placeName xml:lang="en">Parnassos</placeName>
-            <placeName xml:lang="fr">Parnassos</placeName>
-            <placeName xml:lang="it">Parnasso</placeName>
-                 <idno type="pleiades">619235</idno><!--<link target="https://pleiades.stoa.org/places/619235"/>-->
-        </place>
+                <place xml:id="geo0001">
+                    <placeName xml:lang="grc">Ἀντιόχεια</placeName>
+                    <placeName xml:lang="en">Antioch</placeName>
+                    <placeName xml:lang="fr">Antioche</placeName>
+                    <placeName xml:lang="it">Antiochia</placeName>
+                    <idno type="pleiades">658381</idno>
+                    <!--<link target="https://pleiades.stoa.org/places/658381"/>-->
+                </place>
+                <place xml:id="geo0002">
+                    <placeName xml:lang="grc">Ὀψίκιον</placeName>
+                    <placeName xml:lang="en">Opsikion</placeName>
+                    <placeName xml:lang="fr">Opsikion</placeName>
+                    <placeName xml:lang="it">Opsikion</placeName>
+                </place>
+                <place xml:id="geo0003">
+                    <placeName xml:lang="grc">Βουκελλαρίων</placeName>
+                    <placeName xml:lang="en">Boukellarion</placeName>
+                    <placeName xml:lang="fr">(thème des) Bucellaires</placeName>
+                    <placeName xml:lang="it">(tema dei) Bucellari</placeName>
+                </place>
+                <place xml:id="geo0004">
+                    <placeName xml:lang="grc">Δυρράχιον</placeName>
+                    <placeName xml:lang="en">Dyrrachion</placeName>
+                    <placeName xml:lang="fr">Dyrrachion</placeName>
+                    <placeName xml:lang="it">Durazzo</placeName>
+                    <placeName xml:lang="sq">Durrës</placeName>
+                    <idno type="pleiades">573193</idno>
+                    <!--<link target="https://pleiades.stoa.org/places/573193"/>-->
+                </place>
+                <place xml:id="geo0005">
+                    <placeName xml:lang="grc">Πελοπόννησος καὶ Ἑλλάς</placeName>
+                    <placeName xml:lang="en">Peloponnese and Hellas</placeName>
+                    <placeName xml:lang="fr">Péloponnèse et Hellade</placeName>
+                    <placeName xml:lang="it">Peloponneso ed Ellade</placeName>
+                </place>
+                <place xml:id="geo0006">
+                    <placeName xml:lang="grc">Θρᾳκησίων</placeName>
+                    <placeName xml:lang="en">Thrakesion</placeName>
+                    <placeName xml:lang="fr">(thème des) Thracésiens</placeName>
+                    <placeName xml:lang="it">(tema dei) Tracesiani</placeName>
+                </place>
+                <place xml:id="geo0007">
+                    <placeName xml:lang="grc">Σελεύκεια</placeName>
+                    <placeName xml:lang="en">Seleukeia</placeName>
+                    <placeName xml:lang="fr">Séleucie</placeName>
+                    <placeName xml:lang="it">Seleucia</placeName>
+                    <idno type="pleiades">648771</idno>
+                    <!--<link target="https://pleiades.stoa.org/places/648771"/>-->
+                </place>
+                <place xml:id="geo0008">
+                    <placeName xml:lang="grc">Ἀτακᾶτζ</placeName>
+                    <placeName xml:lang="en">Ἀτακᾶτζ</placeName>
+                    <placeName xml:lang="en">At‘akh</placeName>
+                    <placeName xml:lang="fr">At‘akh</placeName>
+                </place>
+                <place xml:id="geo0009">
+                    <placeName xml:lang="la">Insulae</placeName>
+                    <placeName xml:lang="en">Insulae</placeName>
+                    <placeName xml:lang="en">Islands</placeName>
+                    <placeName xml:lang="fr">Îles</placeName>
+                    <placeName xml:lang="it">Isole</placeName>
+                </place>
+                <place xml:id="geo0010">
+                    <placeName xml:lang="grc">Παρνασσός</placeName>
+                    <placeName xml:lang="en">Παρνασσός</placeName>
+                    <placeName xml:lang="en">Parnassos</placeName>
+                    <placeName xml:lang="fr">Parnassos</placeName>
+                    <placeName xml:lang="it">Parnasso</placeName>
+                    <idno type="pleiades">619235</idno>
+                    <!--<link target="https://pleiades.stoa.org/places/619235"/>-->
+                </place>
                 <place xml:id="geo0011">
-            <placeName xml:lang="grc">Ἔφεσος</placeName>
-            <placeName xml:lang="en">Ephesos</placeName>
-            <placeName xml:lang="fr">Éphèse</placeName>
-            <placeName xml:lang="it">Efeso</placeName>
-                    <idno type="pleiades">599612</idno><!--<link target="https://pleiades.stoa.org/places/599612"/>-->
-        </place>
+                    <placeName xml:lang="grc">Ἔφεσος</placeName>
+                    <placeName xml:lang="en">Ephesos</placeName>
+                    <placeName xml:lang="fr">Éphèse</placeName>
+                    <placeName xml:lang="it">Efeso</placeName>
+                    <idno type="pleiades">599612</idno>
+                    <!--<link target="https://pleiades.stoa.org/places/599612"/>-->
+                </place>
                 <place xml:id="geo0012">
-            <placeName xml:lang="grc">Σάμος</placeName>
-            <placeName xml:lang="en">Samos</placeName>
-            <placeName xml:lang="fr">Samos</placeName>
-            <placeName xml:lang="it">Samo</placeName>
-            <placeName xml:lang="el">Σάμος</placeName>
-                    <idno type="pleiades">599926</idno><!--<link target="https://pleiades.stoa.org/places/599926"/>-->
-        </place>
+                    <placeName xml:lang="grc">Σάμος</placeName>
+                    <placeName xml:lang="en">Samos</placeName>
+                    <placeName xml:lang="fr">Samos</placeName>
+                    <placeName xml:lang="it">Samo</placeName>
+                    <placeName xml:lang="el">Σάμος</placeName>
+                    <idno type="pleiades">599926</idno>
+                    <!--<link target="https://pleiades.stoa.org/places/599926"/>-->
+                </place>
                 <place xml:id="geo0013">
-            <placeName xml:lang="grc">Σεβαστή</placeName>
-            <placeName xml:lang="en">Sebaste</placeName>
-            <placeName xml:lang="fr">Sebastè</placeName>
-            <placeName xml:lang="it">Sebaste</placeName>
-        </place>
+                    <placeName xml:lang="grc">Σεβαστή</placeName>
+                    <placeName xml:lang="en">Sebaste</placeName>
+                    <placeName xml:lang="fr">Sebastè</placeName>
+                    <placeName xml:lang="it">Sebaste</placeName>
+                </place>
                 <place xml:id="geo0014">
-            <placeName xml:lang="grc">τὰ Πικριδίου</placeName>
-            <placeName xml:lang="en">ta Pikridiou</placeName>
-            <placeName xml:lang="fr">ta Pikridiou</placeName>
-            <placeName xml:lang="it">ta Pikridiou</placeName>
-        </place>
-            <!--<place xml:id="βῆλον">
+                    <placeName xml:lang="grc">τὰ Πικριδίου</placeName>
+                    <placeName xml:lang="en">ta Pikridiou</placeName>
+                    <placeName xml:lang="fr">ta Pikridiou</placeName>
+                    <placeName xml:lang="it">ta Pikridiou</placeName>
+                </place>
+                <!--<place xml:id="βῆλον">
             <placeName xml:lang="grc">βῆλον</placeName>
              <placeName xml:lang="en">βῆλον</placeName>
             <!-\-<placeName xml:lang="en">velum</placeName>-\->
@@ -162,42 +170,7 @@
             <placeName xml:lang="it">Crisotriclinio</placeName>-\->
             <idno></idno>
         </place>-->
-    </listPlace>
+            </listPlace>
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
