@@ -24,10 +24,19 @@ editorial interventions: l. 3118
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of Athena Ruby characters in SIGIDOC</title>
+                <title>Authority list of Athena Ruby characters in SigiDoc</title>
             </titleStmt>
+            <editor>
+                <persName xml:id="AS">Alessio Sopracasa</persName>
+                <persName xml:id="MF">Martina Filosa</persName>
+            </editor>
             <publicationStmt>
-                <ab/>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <ab/>
@@ -38,7 +47,6 @@ editorial interventions: l. 3118
     <text>
         <body>
             <list type="glyphs">
-
 
                 <!-- ABBREVIATIONS (see also uni0375) -->
 
