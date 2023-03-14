@@ -7,14 +7,8 @@
             <titleStmt>
                 <title>Authority list of mentioned and attested people in SigiDoc</title>
                 <editor>
-                    <persName xml:id="AS">
-                        <forename>Alessio</forename>
-                        <surname>Sopracasa</surname>
-                    </persName>
-                    <persName xml:id="MF">
-                        <forename>Martina</forename>
-                        <surname>Filosa</surname>
-                    </persName>
+                    <persName xml:id="AS">Alessio Sopracasa</persName>
+                    <persName xml:id="MF">Martina Filosa</persName>
                 </editor>
             </titleStmt>
             <publicationStmt>
@@ -30,7 +24,7 @@
             <listPerson>
                 <person sex="m" xml:id="justinan" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Ἰουστινιανός Α΄</reg>
+                        <!--<reg xml:lang="grc">Ἰουστινιανός Α΄</reg>-->
                         <reg xml:lang="la">Iustinianus I</reg>
                         <orig>Iustinianus</orig>
                     </persName>
@@ -41,33 +35,48 @@
                         <seg>15th of November 565</seg>
                     </death>
                     <floruit notBefore="0500" notAfter="0560">Early 6th/Mid 6th century</floruit>
-                    <bibl><ptr target="PLRE3"/><citedRange unit="entry" n="0001"/></bibl>
+                    <bibl>
+                        <ptr target="PLRE3"/>
+                        <citedRange unit="entry" n="0001"/>
+                    </bibl>
                 </person>
-                <person sex="m" xml:id="constantine-IV"  resp="#AS">
+                <person sex="m" xml:id="constantine-IV" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Κωνσταντῖνος Δ΄</reg>
+                        <!--<reg xml:lang="grc">Κωνσταντῖνος Δ΄</reg>-->
                         <reg xml:lang="la">Constantinus IV</reg>
                         <reg xml:lang="en">Constantine IV</reg>
                         <orig>Constantinos</orig>
                     </persName>
                     <floruit notBefore="0668" notAfter="0685">Mid 7th/Late 7th century</floruit>
-                    <bibl><ptr target="PBE1"/><citedRange>Konstantinos 2</citedRange></bibl>
-                    <link target="http://www.pbe.kcl.ac.uk/data/D43/F13.htm"/>
-                    <bibl><ptr target="PmbZOnline"/><citedRange>3702/corr.</citedRange></bibl>
-                    <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14851/html"/>
+                    <bibl>
+                        <ptr target="PBE1"/>
+                        <citedRange>Konstantinos 2</citedRange>
+                        <link target="http://www.pbe.kcl.ac.uk/data/D43/F13.htm"/>
+                    </bibl>
+                    <bibl>
+                        <ptr target="PmbZOnline"/>
+                        <citedRange>3702/corr.</citedRange>
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14851/html"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="constans-II" source="TM_02" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Κώνστας Β΄</reg>
+                        <!--<reg xml:lang="grc">Κώνστας Β΄</reg>-->
                         <reg xml:lang="la">Constans II</reg>
                         <reg xml:lang="en">Constans II</reg>
                         <orig>Constantinos <surname type="patronymic">Constantinou</surname></orig>
                     </persName>
                     <floruit notBefore="0641" notAfter="0668">Mid 7th century</floruit>
-                    <bibl><ptr target="PBE1"/><citedRange>Konstans 1</citedRange></bibl>
-                    <link target="http://www.pbe.kcl.ac.uk/data/D43/F04.htm"/>
-                    <bibl><ptr target="PmbZOnline"/><citedRange>3691/corr.</citedRange></bibl>
-                    <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14839/html"/>
+                    <bibl>
+                        <ptr target="PBE1"/>
+                        <citedRange>Konstans 1</citedRange>
+                        <link target="http://www.pbe.kcl.ac.uk/data/D43/F04.htm"/>
+                    </bibl>
+                    <bibl>
+                        <ptr target="PmbZOnline"/>
+                        <citedRange>3691/corr.</citedRange>
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14839/html"/>
+                    </bibl>
                 </person>
                 <person sex="f" xml:id="anastasia" resp="#AS">
                     <persName>
@@ -77,19 +86,28 @@
                         <orig>Anastasia</orig>
                     </persName>
                     <floruit notBefore="0680" notAfter="0720">Mid 7th/Early 8th century</floruit>
-                    <bibl><ptr target="PBE1"/><citedRange>Anastasia 1</citedRange></bibl>
-                    <link target="http://www.pbe.kcl.ac.uk/data/D02/F25.htm"/>
-                    <bibl><ptr target="PmbZOnline"/><citedRange>228</citedRange></bibl>
-                    <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11310/html"/>
+                    <bibl>
+                        <ptr target="PBE1"/>
+                        <citedRange>Anastasia 1</citedRange>
+                        <link target="http://www.pbe.kcl.ac.uk/data/D02/F25.htm"/>
+                    </bibl>
+                    <bibl>
+                        <ptr target="PmbZOnline"/>
+                        <citedRange>228</citedRange>
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11310/html"/>
+                    </bibl>
                 </person>
-                <person sex="m" xml:id="georgios-1" source='TM_03' resp="#AS">
+                <person sex="m" xml:id="georgios-1" source="TM_03" resp="#AS">
                     <persName>
                         <reg xml:lang="grc">Γεώργιος</reg>
-                        <orig >Γεωργίῳ</orig>
+                        <orig>Γεωργίῳ</orig>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Georgios 20126</citedRange></bibl>
-                    <link target="https://pbw2016.kdl.kcl.ac.uk/person/152846/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Georgios 20126</citedRange>
+                        <link target="https://pbw2016.kdl.kcl.ac.uk/person/152846/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="gregoras-1" resp="#AS" cert="low">
                     <persName>
@@ -116,7 +134,8 @@
                             <orig source="TM_06">Σαρωνίτου</orig>
                         </surname>
                     </persName>
-                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
+                        century</floruit>
                 </person>
                 <person sex="m" xml:id="david-tzipoureles" resp="#AS">
                     <persName>
@@ -130,15 +149,19 @@
                         </surname>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>David 20104</citedRange></bibl>
-                    <link target="https://pbw2016.kdl.kcl.ac.uk/person/David/20104/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>David 20104</citedRange>
+                        <link target="https://pbw2016.kdl.kcl.ac.uk/person/David/20104/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="niketas-1" resp="#AS">
                     <persName>
                         <reg xml:lang="grc">Νικήτας</reg>
                         <orig source="TM_07">Νηκίτα</orig>
                     </persName>
-                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
+                        century</floruit>
                 </person>
                 <person sex="m" xml:id="theodoros-1" resp="#AS">
                     <persName>
@@ -153,9 +176,12 @@
                         <orig source="TM_10">Στεφάνου</orig>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Stephanos 20116</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/"/>
-                </person> 
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Stephanos 20116</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/"/>
+                    </bibl>
+                </person>
                 <person sex="m" xml:id="ioannes-radenos" resp="#AS">
                     <persName>
                         <forename>
@@ -167,16 +193,21 @@
                             <orig source="TM_11">Ῥαδινῷ</orig>
                         </surname>
                     </persName>
-                    <floruit notBefore="1080" notAfter="1020">Late 10th century/Early 11th century</floruit>
+                    <floruit notBefore="1080" notAfter="1020">Late 10th century/Early 11th
+                        century</floruit>
                 </person>
                 <person sex="m" xml:id="ioannes-1" resp="#AS">
                     <persName>
                         <reg xml:lang="grc">Ἰωάννης</reg>
                         <orig source="TM_12">Ἰωάννης</orig>
                     </persName>
-                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Ioannes 20159</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20159/"/>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
+                        century</floruit>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Ioannes 20159</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20159/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="justinian-1" resp="#AS">
                     <persName>
@@ -191,8 +222,11 @@
                         <orig source="TM_14">Λέοντος</orig>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Leon 20290</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20290/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Leon 20290</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20290/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="leon-2" resp="#AS">
                     <persName>
@@ -227,8 +261,11 @@
                         <orig source="TM_18">Νικήτα</orig>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Niketas 20196</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20196/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Niketas 20196</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20196/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="niketas-3" resp="#AS">
                     <persName>
@@ -236,17 +273,24 @@
                         <orig source="TM_19">Νικήτᾳ</orig>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Niketas 20222</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20222/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Niketas 20222</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20222/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="ourselios-1" resp="#AS">
                     <persName>
                         <reg xml:lang="grc">Οὐρσέλιος</reg>
                         <orig source="TM_20">Οὐρσέλῃ</orig>
                     </persName>
-                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Roussel 61</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/"/>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
+                        century</floruit>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Roussel 61</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="chourselios-fraggos" resp="#AS">
                     <persName>
@@ -259,7 +303,8 @@
                             <orig source="TM_20bis">Φράγγῳ</orig>
                         </surname>
                     </persName>
-                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
+                        century</floruit>
                 </person>
                 <person sex="m" xml:id="zacharias-fraggos" resp="#AS">
                     <persName>
@@ -272,9 +317,13 @@
                             <orig source="TM_20ter">Φράγγῳ</orig>
                         </surname>
                     </persName>
-                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Zacharias 15001</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/"/>
+                    <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
+                        century</floruit>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Zacharias 15001</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="pagkratios-boulkasiotes" resp="#AS">
                     <persName>
@@ -314,8 +363,11 @@
                         </surname>
                     </persName>
                     <floruit notBefore="1000" notAfter="1020">Early 11th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Romanos 102</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Romanos 102</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="theodorus-1" resp="#AS">
                     <persName>
@@ -332,13 +384,18 @@
                         </forename>
                         <surname>
                             <reg xml:lang="grc">Κομνηνός</reg>
-                            <orig source="TM_25"><surname type="patronymic">ἐκ Νικηφόρου</surname> Κομνηνοῦ</orig>
+                            <orig source="TM_25"><surname type="patronymic">ἐκ Νικηφόρου</surname>
+                                Κομνηνοῦ</orig>
                             <!--how and/or where to put the patronymic?-->
                         </surname>
                     </persName>
-                    <floruit notBefore="1100" notAfter="1150">Early 12th century/Mid 12th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Alexios 20125</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/20125/"/>
+                    <floruit notBefore="1100" notAfter="1150">Early 12th century/Mid 12th
+                        century</floruit>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Alexios 20125</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/20125/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="nikephoros-komnenos" resp="#AS">
                     <persName>
@@ -352,8 +409,11 @@
                         </surname>
                     </persName>
                     <floruit notBefore="1100" notAfter="1120">Early 12th century</floruit>
-                    <bibl><ptr target="PBW"/><citedRange>Nikephoros 116</citedRange></bibl>
-                    <link target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/116/"/>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>Nikephoros 116</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/116/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="andreas-michael" resp="#AS">
                     <persName>
@@ -366,16 +426,21 @@
                             <orig source="TM_26">Michael</orig>
                         </surname>
                     </persName>
-                    <floruit notBefore="1080" notAfter="1120">Late 11th century/Early 12th century</floruit>
+                    <floruit notBefore="1080" notAfter="1120">Late 11th century/Early 12th
+                        century</floruit>
                 </person>
                 <person sex="m" xml:id="apsimaros-1" resp="#AS">
                     <persName>
                         <reg xml:lang="grc">Ἀψίμαρος</reg>
                         <orig source="TM_27">Ἀψιμάρου</orig>
                     </persName>
-                    <floruit notBefore="0650" notAfter="0800">Mid 7th century/Late 7th century</floruit>
-                    <bibl><ptr target="PmbZOnline"/><citedRange>8483/corr.</citedRange></bibl>
-                    <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ19751/"/>
+                    <floruit notBefore="0650" notAfter="0800">Mid 7th century/Late 7th
+                        century</floruit>
+                    <bibl>
+                        <ptr target="PmbZOnline"/>
+                        <citedRange>8483/corr.</citedRange>
+                        <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ19751/"/>
+                    </bibl>
                 </person>
                 <person sex="m" xml:id="konstantinos-erotikos" resp="#AS">
                     <persName>
