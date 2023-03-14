@@ -40,7 +40,7 @@
                     <floruit notBefore="0500" notAfter="0560">Early 6th/Mid 6th century</floruit>
                     <bibl>
                         <ptr target="PLRE3"/>
-                        <citedRange unit="entry" n="0001"/>
+                        <citedRange unit="entry" n="0001">PLRE III, 1</citedRange>
                     </bibl>
                 </person>
                 <person sex="m" xml:id="constantine-IV" resp="#AS">
@@ -53,12 +53,12 @@
                     <floruit notBefore="0668" notAfter="0685">Mid 7th/Late 7th century</floruit>
                     <bibl>
                         <ptr target="PBE1"/>
-                        <citedRange>Konstantinos 2</citedRange>
+                        <citedRange>PBE Konstantinos 2</citedRange>
                         <link target="http://www.pbe.kcl.ac.uk/data/D43/F13.htm"/>
                     </bibl>
                     <bibl>
                         <ptr target="PmbZOnline"/>
-                        <citedRange>3702/corr.</citedRange>
+                        <citedRange>PmbZ 3702/corr.</citedRange>
                         <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14851/html"/>
                     </bibl>
                 </person>
@@ -91,12 +91,12 @@
                     <floruit notBefore="0680" notAfter="0720">Mid 7th/Early 8th century</floruit>
                     <bibl>
                         <ptr target="PBE1"/>
-                        <citedRange>Anastasia 1</citedRange>
+                        <citedRange>PBE Anastasia 1</citedRange>
                         <link target="http://www.pbe.kcl.ac.uk/data/D02/F25.htm"/>
                     </bibl>
                     <bibl>
                         <ptr target="PmbZOnline"/>
-                        <citedRange>228</citedRange>
+                        <citedRange>PmbZ 228</citedRange>
                         <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11310/html"/>
                     </bibl>
                 </person>
@@ -108,7 +108,7 @@
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Georgios 20126</citedRange>
+                        <citedRange>PBW Georgios 20126</citedRange>
                         <link target="https://pbw2016.kdl.kcl.ac.uk/person/152846/"/>
                     </bibl>
                 </person>
@@ -154,7 +154,7 @@
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>David 20104</citedRange>
+                        <citedRange>PBW David 20104</citedRange>
                         <link target="https://pbw2016.kdl.kcl.ac.uk/person/David/20104/"/>
                     </bibl>
                 </person>
@@ -181,7 +181,7 @@
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Stephanos 20116</citedRange>
+                        <citedRange>PBW Stephanos 20116</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20116/"/>
                     </bibl>
                 </person>
@@ -208,7 +208,7 @@
                         century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Ioannes 20159</citedRange>
+                        <citedRange>PBW Ioannes 20159</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20159/"/>
                     </bibl>
                 </person>
@@ -227,7 +227,7 @@
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Leon 20290</citedRange>
+                        <citedRange>PBW Leon 20290</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20290/"/>
                     </bibl>
                 </person>
@@ -266,7 +266,7 @@
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Niketas 20196</citedRange>
+                        <citedRange>PBW Niketas 20196</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20196/"/>
                     </bibl>
                 </person>
@@ -278,7 +278,7 @@
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Niketas 20222</citedRange>
+                        <citedRange>PBW Niketas 20222</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20222/"/>
                     </bibl>
                 </person>
@@ -291,7 +291,7 @@
                         century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Roussel 61</citedRange>
+                        <citedRange>PBW Roussel 61</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Roussel/61/"/>
                     </bibl>
                 </person>
@@ -324,7 +324,7 @@
                         century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Zacharias 15001</citedRange>
+                        <citedRange>PBW Zacharias 15001</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Zacharias/15001/"/>
                     </bibl>
                 </person>
@@ -368,7 +368,7 @@
                     <floruit notBefore="1000" notAfter="1020">Early 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Romanos 102</citedRange>
+                        <citedRange>PBW Romanos 102</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/102/"/>
                     </bibl>
                 </person>
@@ -396,7 +396,7 @@
                         century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Alexios 20125</citedRange>
+                        <citedRange>PBW Alexios 20125</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/20125/"/>
                     </bibl>
                 </person>
@@ -414,7 +414,7 @@
                     <floruit notBefore="1100" notAfter="1120">Early 12th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>Nikephoros 116</citedRange>
+                        <citedRange>PBW Nikephoros 116</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/116/"/>
                     </bibl>
                 </person>
@@ -441,7 +441,7 @@
                         century</floruit>
                     <bibl>
                         <ptr target="PmbZOnline"/>
-                        <citedRange>8483/corr.</citedRange>
+                        <citedRange>PmbZ 8483/corr.</citedRange>
                         <link target="https://www.degruyter.com/database/PMBZ/entry/PMBZ19751/"/>
                     </bibl>
                 </person>
