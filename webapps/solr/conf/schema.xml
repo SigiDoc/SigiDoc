@@ -158,6 +158,8 @@
      multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
    <field name="index_AR" stored="true" indexed="false"
      multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
+   <field name="index_ext_reference" stored="true" indexed="false"
+     multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
    <field name="index_instance_location" stored="true" indexed="false"
           multiValued="true" required="false" type="string" />
    <field name="index_abbreviation_expansion" stored="true"
