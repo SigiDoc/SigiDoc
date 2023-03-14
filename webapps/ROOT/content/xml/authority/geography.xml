@@ -99,7 +99,7 @@
                     <placeName xml:lang="fr">Parnassos</placeName>
                     <placeName xml:lang="it">Parnasso</placeName>
                     <idno type="pleiades">619235</idno>
-                    <!--<link target="https://pleiades.stoa.org/places/619235"/>-->
+                    <link target="https://pleiades.stoa.org/places/619235"/>
                 </place>
                 <place xml:id="geo0011">
                     <placeName xml:lang="grc">Ἔφεσος</placeName>
