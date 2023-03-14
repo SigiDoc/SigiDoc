@@ -29,6 +29,15 @@
             <xsl:variable name="geo-id" select="substring-after(@ref,'#')"/>
             <xsl:value-of select="string-join($geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />
           </field>
+          <field name="index_ext_reference">
+            <xsl:variable name="geo-id" select="substring-after(@ref,'#')"/>
+            <xsl:variable name="geo-string">
+              <xsl:for-each select="$geography//tei:place[@xml:id = $geo-id][tei:link]">
+                <val><xsl:value-of select="concat(./tei:idno,'_',./tei:link/@target)"/></val>
+              </xsl:for-each>
+            </xsl:variable> 
+            <xsl:value-of select="string-join($geo-string/val,'|')"/>
+          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
