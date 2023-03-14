@@ -9,7 +9,7 @@
     TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
    -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2023-03-07 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2023-03-14 -->
   
   <xs:complexType name="tei_macro.paraContent" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -9253,7 +9253,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
         <xs:annotation>
           <xs:documentation>categorizes the identifier, for example as an ISBN, Social Security number, etc.
             Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC; 8] filename;
-            9] SigiDocID; 10] sequence; 11] SigiDoc; 12] PBW</xs:documentation><!-- SigiDoc added 8 to 10 -->
+            9] SigiDocID; 10] sequence; 11] SigiDoc; 12] PBW</xs:documentation><!-- 8 to 12 added by SigiDoc -->
         </xs:annotation>
         <xs:simpleType>
           <xs:union>
@@ -14598,7 +14598,7 @@ Suggested values include: 1] 1.0.1; 2] 1.1; 3] 2.0; 4] 2.1; 5] 3.0; 6] 3.1; 7] 3
       <xs:attributeGroup ref="tei:tei_att.typed.attribute.subtype"/>
       <xs:attribute name="type" use="required">
         <xs:annotation>
-          <xs:documentation>TO BE DONE</xs:documentation><!-- ???????????????????????? -->
+          <xs:documentation>The dimensions of the whole seal or of the imprint.</xs:documentation>
         </xs:annotation>
         <xs:simpleType>
           <xs:restriction base="xs:token">
@@ -14610,7 +14610,7 @@ Suggested values include: 1] 1.0.1; 2] 1.1; 3] 2.0; 4] 2.1; 5] 3.0; 6] 3.1; 7] 3
       </xs:attribute>
       <xs:attribute name="unit" use="required">
         <xs:annotation>
-          <xs:documentation>TO BE DONE</xs:documentation><!-- ???????????????????????? -->
+          <xs:documentation>Indicates the unit used for the measurement (millimetre is the default value).</xs:documentation>
         </xs:annotation>
         <xs:simpleType>
           <xs:restriction base="xs:token">
@@ -14763,7 +14763,7 @@ Suggested values include: 1] 1.0.1; 2] 1.1; 3] 2.0; 4] 2.1; 5] 3.0; 6] 3.1; 7] 3
         <xs:element ref="tei:term"/>
         <xs:element maxOccurs="unbounded" name="interp">
           <xs:complexType mixed="true">
-            <xs:attribute name="type">
+            <xs:attribute name="type" use="required"><!-- @use added by SigiDoc -->
               <xs:simpleType>
                 <xs:restriction base="xs:token">
                   <xs:enumeration value="workType"/>
@@ -16690,11 +16690,72 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
       <xs:documentation>contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript, manuscript part, or other object after its creation but before its acquisition. [10.8. History]</xs:documentation>
     </xs:annotation>
     <xs:complexType>
+      <xs:choice>
+        <xs:sequence>
+          <xs:element ref="tei:placeName" maxOccurs="unbounded"/>
+          <xs:sequence minOccurs="0">
+            <xs:element ref="tei:rs" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="tei:p" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:sequence>
+        <xs:sequence>
+          <xs:element ref="tei:rs" maxOccurs="unbounded"/>
+          <xs:sequence minOccurs="0">
+            <xs:element ref="tei:placeName" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="tei:p" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:sequence>
+        <xs:sequence>
+          <xs:element ref="tei:p" maxOccurs="unbounded"/>
+          <xs:sequence minOccurs="0">
+            <xs:element ref="tei:placeName" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="tei:rs" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:sequence>
+      </xs:choice>      
+      <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.datable.attributes"/>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="found"/>
+            <xs:enumeration value="observed"/>
+            <xs:enumeration value="not-observed"/>
+            <xs:enumeration value="transferred"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="subtype"/>
+      <!--<xs:complexContent>
+        <xs:extension base="tei:tei_macro.specialPara">
+          <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+          <xs:attributeGroup ref="tei:tei_att.datable.attributes"/>
+          <!-\-<xs:attributeGroup ref="tei:tei_att.typed.attributes"/>-\->
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="found"/>
+                <xs:enumeration value="observed"/>
+                <xs:enumeration value="not-observed"/>
+                <xs:enumeration value="transferred"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="subtype"/>
+        </xs:extension>
+      </xs:complexContent>-->
+    </xs:complexType>
+  </xs:element>
+  <!--<xs:element name="provenance"><!-\- SigiDoc -\->
+    <xs:annotation>
+      <xs:documentation>contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript, manuscript part, or other object after its creation but before its acquisition. [10.8. History]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
       <xs:complexContent>
         <xs:extension base="tei:tei_macro.specialPara">
           <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
           <xs:attributeGroup ref="tei:tei_att.datable.attributes"/>
-          <!--<xs:attributeGroup ref="tei:tei_att.typed.attributes"/>-->
+          <!-\-<xs:attributeGroup ref="tei:tei_att.typed.attributes"/>-\->
           <xs:attribute name="type" use="required">
             <xs:simpleType>
               <xs:restriction base="xs:token">
@@ -16709,7 +16770,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
-  </xs:element>
+  </xs:element>-->
   <xs:element name="acquisition"><!-- SigiDoc -->
     <xs:annotation>
       <xs:documentation>contains any descriptive or other information concerning the process by which a manuscript or manuscript part or other object entered the holding institution. [10.8. History]</xs:documentation>
@@ -17244,7 +17305,7 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</xs:documenta
         <xs:element maxOccurs="unbounded" ref="tei:seg"/>
         <xs:element maxOccurs="unbounded" name="interp">
           <xs:complexType mixed="true">
-            <xs:attribute name="type">
+            <xs:attribute name="type" use="required"><!-- @use added by SigiDoc -->
               <xs:simpleType>
                 <xs:restriction base="xs:token">
                   <xs:enumeration value="milieu"/>
