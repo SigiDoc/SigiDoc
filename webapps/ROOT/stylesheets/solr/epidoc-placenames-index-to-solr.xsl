@@ -12,12 +12,11 @@
 
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
+  <xsl:variable name="geography" select="doc('../../content/xml/authority/geography.xml')"/>
 
   <xsl:template match="/">
     <add>
       <xsl:for-each-group select="//tei:placeName[@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
-        <xsl:variable name="ref-id" select="normalize-unicode(substring-after(@ref, '#'))"/>
-        <xsl:variable name="ref" select="document('../../content/xml/authority/geography.xml')//tei:placeName[@xml:lang=$ref-id]"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -27,7 +26,8 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="$ref-id" />
+            <xsl:variable name="geo-id" select="substring-after(@ref,'#')"/>
+            <xsl:value-of select="string-join($geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
