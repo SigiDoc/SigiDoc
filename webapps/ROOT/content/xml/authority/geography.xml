@@ -9,10 +9,8 @@
         <fileDesc>
             <titleStmt>
                 <title>Authority list of placenames in SigiDoc</title>
-                <editor>
-                    <persName xml:id="AS">Alessio Sopracasa</persName>
-                    <persName xml:id="MF">Martina Filosa</persName>
-                </editor>
+                <editor xml:id="AS">Alessio Sopracasa</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
