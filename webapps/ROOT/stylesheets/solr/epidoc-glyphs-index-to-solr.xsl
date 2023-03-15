@@ -27,7 +27,7 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:variable name="ar-id" select="substring-after(@ref,'#')"/>
-            <xsl:value-of select="string-join($glyph//tei:item[@xml:id = $ar-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />
+            <xsl:value-of select="$glyph//tei:item[@xml:id = $ar-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
           </field>
           <field name="index_AR">
             <xsl:value-of select="@subtype"/>
