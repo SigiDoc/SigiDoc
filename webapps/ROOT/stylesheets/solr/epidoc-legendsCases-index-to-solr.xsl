@@ -28,6 +28,7 @@
           <field name="index_item_name">
             <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
             <xsl:value-of select="$cases//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']" />
+            <!--here as well as in iconography we could find a way to change the language according to the main language of the page-->
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
