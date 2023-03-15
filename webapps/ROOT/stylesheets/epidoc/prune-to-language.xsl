@@ -5,9 +5,9 @@
 
   <!-- EpiDoc specific extension to stylesheets/prune-to-language.xsl. -->
 
-  <xsl:import href="../prune-to-language.xsl" />
-
-  <xsl:template priority="10" match="tei:div[@type='edition']">
+  <xsl:import href="../prune-to-language.xsl" />  
+  
+  <xsl:template priority="10" match="tei:div[@type='edition']|tei:div[@type='edition']//tei:div[@type='textpart']|tei:div[@type='edition']//tei:ab">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
