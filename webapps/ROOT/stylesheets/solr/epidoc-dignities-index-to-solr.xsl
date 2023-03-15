@@ -27,7 +27,7 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
               <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
-              <xsl:value-of select="string-join($dignities//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />
+              <xsl:value-of select="$dignities//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
