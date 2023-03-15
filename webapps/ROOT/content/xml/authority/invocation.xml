@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- LAST MODIFIED: 2023-01-29 -->
+<!-- LAST MODIFIED: 2023-03-15 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of adresses of invocative expressions in SigiDoc</title>
-                <editor>
-                    <persName xml:id="AS">
-                        <forename>Alessio</forename>
-                        <surname>Sopracasa</surname>
-                    </persName>
-                    <persName xml:id="MF">
-                        <forename>Martina</forename>
-                        <surname>Filosa</surname>
-                    </persName>
-                </editor>
+                <title>Authority list of invocations in SigiDoc</title>
+                <editor xml:id="AS">Alessio Sopracasa</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
             <sourceDesc><ab/></sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -30,7 +29,7 @@
                     <term xml:lang="grc">Θεοτόκε βοήθει</term>
                 </item>
                 <item xml:id="inv002">
-                    <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
+                    <term xml:lang="la">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
                 </item>
                 <item xml:id="inv003">
                     <term xml:lang="grc">Κύριε βοήθει</term>
