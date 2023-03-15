@@ -85,14 +85,6 @@
           <kiln:block name="footer">
             <footer>
               <p>Built on <a href="https://epidoc.stoa.org/">EpiDoc</a> and delivered by <a href="https://github.com/EpiDoc/EFES">EFES</a>.</p>
-              <!--<p>
-                Powered by
-                <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>
-              </p>-->
-              <!--<p>
-                Theme by
-                <a href="http://foundation.zurb.com/">Foundation</a>
-              </p>-->
             </footer>
           </kiln:block>
           <kiln:block name="end-js">
