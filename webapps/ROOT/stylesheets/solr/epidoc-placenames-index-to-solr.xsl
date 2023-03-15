@@ -27,7 +27,7 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:variable name="geo-id" select="substring-after(@ref,'#')"/>
-            <xsl:value-of select="string-join($geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />
+            <xsl:value-of select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la']" />
           </field>
           <field name="index_ext_reference">
             <xsl:variable name="geo-id" select="substring-after(@ref,'#')"/>
