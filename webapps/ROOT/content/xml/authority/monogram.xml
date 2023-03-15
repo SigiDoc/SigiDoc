@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2021-07-01 -->
+<!-- LAST MODIFIED: 2023-03-15 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Authority list of monograms in SigiDoc</title>
-                <editor>
-                    <persName xml:id="AS">
-                        <forename>Alessio</forename>
-                        <surname>Sopracasa</surname>
-                    </persName>
-                    <persName xml:id="MF">
-                        <forename>Martina</forename>
-                        <surname>Filosa</surname>
-                    </persName>
-                </editor>
+                <editor xml:id="AS">Alessio Sopracasa</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
             <sourceDesc><ab/></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <list type="monogram">
-                <item xml:id="mg001">
+                <item xml:id="mg0001">
                     <term xml:lang="grc" ana="Zacos 46">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
-                   <graphic url="1.jpg"></graphic>
+                   <graphic url="1.jpg"/>
                 </item>
-                <item xml:id="mg002">
+                <item xml:id="mg0002">
                     <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
+                    <graphic url="3.jpg">
+                        <desc>Zacos 46</desc>
+                    </graphic>
                 </item>
-                <item xml:id="mg003">
+                <item xml:id="mg0003">
                     <term xml:lang="grc">Θεοτόκε βοήθει</term>
                 </item>
-                <item xml:id="mg004">
+                <item xml:id="mg0004">
                     <term xml:lang="grc">Ἀθανασίου</term>
                 </item>
             </list>
