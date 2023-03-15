@@ -12,6 +12,7 @@
 
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
+  <xsl:variable name="cases" select="doc('../../content/xml/authority/legendsCases.xml')"/>
 
   <xsl:template match="/">
     <add>
@@ -25,7 +26,8 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="concat ($base-uri, @ref)" />
+            <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
+            <xsl:value-of select="$cases//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
