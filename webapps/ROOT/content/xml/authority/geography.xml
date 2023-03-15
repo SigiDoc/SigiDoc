@@ -36,7 +36,7 @@
                     <placeName xml:lang="fr">Antioche</placeName>
                     <placeName xml:lang="it">Antiochia</placeName>
                     <idno type="pleiades">658381</idno>
-                    <!--<link target="https://pleiades.stoa.org/places/658381"/>-->
+                    <link target="https://pleiades.stoa.org/places/658381"/>
                 </place>
                 <place xml:id="geo0002">
                     <placeName xml:lang="grc">Ὀψίκιον</placeName>
@@ -57,7 +57,7 @@
                     <placeName xml:lang="it">Durazzo</placeName>
                     <placeName xml:lang="sq">Durrës</placeName>
                     <idno type="pleiades">573193</idno>
-                    <!--<link target="https://pleiades.stoa.org/places/573193"/>-->
+                    <link target="https://pleiades.stoa.org/places/573193"/>
                 </place>
                 <place xml:id="geo0005">
                     <placeName xml:lang="grc">Πελοπόννησος καὶ Ἑλλάς</placeName>
@@ -77,7 +77,7 @@
                     <placeName xml:lang="fr">Séleucie</placeName>
                     <placeName xml:lang="it">Seleucia</placeName>
                     <idno type="pleiades">648771</idno>
-                    <!--<link target="https://pleiades.stoa.org/places/648771"/>-->
+                    <link target="https://pleiades.stoa.org/places/648771"/>
                 </place>
                 <place xml:id="geo0008">
                     <placeName xml:lang="grc">Ἀτακᾶτζ</placeName>
@@ -107,7 +107,7 @@
                     <placeName xml:lang="fr">Éphèse</placeName>
                     <placeName xml:lang="it">Efeso</placeName>
                     <idno type="pleiades">599612</idno>
-                    <!--<link target="https://pleiades.stoa.org/places/599612"/>-->
+                    <link target="https://pleiades.stoa.org/places/599612"/>
                 </place>
                 <place xml:id="geo0012">
                     <placeName xml:lang="grc">Σάμος</placeName>
@@ -116,7 +116,7 @@
                     <placeName xml:lang="it">Samo</placeName>
                     <placeName xml:lang="el">Σάμος</placeName>
                     <idno type="pleiades">599926</idno>
-                    <!--<link target="https://pleiades.stoa.org/places/599926"/>-->
+                    <link target="https://pleiades.stoa.org/places/599926"/>
                 </place>
                 <place xml:id="geo0013">
                     <placeName xml:lang="grc">Σεβαστή</placeName>
