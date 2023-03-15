@@ -1,145 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2020-06-09 -->
+<!-- LAST MODIFIED: 2023-03-15 -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of iconography in SIGIDOC</title>
+                <title>Authority list of the iconographic types in SigiDoc</title>
+                <editor xml:id="AS">Alessio Sopracasa</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
-            <sourceDesc><ab/></sourceDesc>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <list type="iconography">
-                <item xml:id="Justinian_I">
-                    <term xml:lang="grc">Justinian I</term>
+                <item xml:id="justinian_I">
                     <term xml:lang="en">Justinian I</term>
                     <term xml:lang="fr">Justinien Ier</term>
                     <term xml:lang="it">Giustiniano I</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-            <item xml:id="Victory">
-                <term xml:lang="grc">Victory</term>
-                <term xml:lang="en">Victory</term>
-                <term xml:lang="fr">Victoire</term>
-                <term xml:lang="it">Vittoria</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="Virgin">
-                <term xml:lang="grc">Virgin</term>
-                <term xml:lang="en">Virgin</term>
-                <term xml:lang="fr">Vierge</term>
-                <term xml:lang="it">Vergine</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="St_George">
-                <term xml:lang="grc">St George</term>
-                <term xml:lang="en">St George</term>
-                <term xml:lang="fr">Saint Georges</term>
-                <term xml:lang="it">San Giorgio</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="Cross_patriarcal">
-                <term xml:lang="grc">Cross, patriarcal</term>
-                <term xml:lang="en">Cross, patriarcal</term>
-                <term xml:lang="fr">Croix patriarcale</term>
-                <term xml:lang="it">Croce patriarcale</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="St_Michael">
-                <term xml:lang="grc">St Michael</term>
-                <term xml:lang="en">St Michael</term>
-                <term xml:lang="fr">Saint Michel</term>
-                <term xml:lang="it">San Michele</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="St_Theodore">
-                <term xml:lang="grc">St Theodore</term>
-                <term xml:lang="en">St Theodore</term>
-                <term xml:lang="fr">Saint Théodore</term>
-                <term xml:lang="it">San Teodoro</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="Virgin_Nikopoios">
-                <term xml:lang="grc">Virgin Nikopoios</term>
-                <term xml:lang="en">Virgin Nikopoios</term>
-                <term xml:lang="fr">Vierge Nikopoios</term>
-                <term xml:lang="it">Vergine Nikopoios</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-            <item xml:id="Virgin_Blachernitissa">
-                <term xml:lang="grc">Virgin Blachernitissa</term>
-                <term xml:lang="en">Virgin Blachernitissa</term>
-                <term xml:lang="fr">Vierge Blachernitissa</term>
-                <term xml:lang="it">Vergine Blachernitissa</term>
-                <gloss xml:lang="en"></gloss>
-            </item>
-                <item xml:id="St_Nicholas">
-                    <term xml:lang="grc">St Nicholas</term>
-                    <term xml:lang="en">St Nicholas</term>
+                <item xml:id="victory">
+                    <term xml:lang="en">Victory</term>
+                    <term xml:lang="fr">Victoire</term>
+                    <term xml:lang="it">Vittoria</term>
+                </item>
+                <item xml:id="virgin">
+                    <term xml:lang="en">Virgin</term>
+                    <term xml:lang="fr">Vierge</term>
+                    <term xml:lang="it">Vergine</term>
+                </item>
+                <item xml:id="st-george">
+                    <term xml:lang="en">Saint George</term>
+                    <term xml:lang="fr">Saint Georges</term>
+                    <term xml:lang="it">San Giorgio</term>
+                </item>
+                <item xml:id="cross-patriarcal">
+                    <term xml:lang="en">Cross, patriarcal</term>
+                    <term xml:lang="fr">Croix patriarcale</term>
+                    <term xml:lang="it">Croce patriarcale</term>
+                </item>
+                <item xml:id="st-michael">
+                    <term xml:lang="en">St Michael</term>
+                    <term xml:lang="fr">Saint Michel</term>
+                    <term xml:lang="it">San Michele</term>
+                </item>
+                <item xml:id="st-theodore">
+                    <term xml:lang="en">Saint Theodore</term>
+                    <term xml:lang="fr">Saint Théodore</term>
+                    <term xml:lang="it">San Teodoro</term>
+                </item>
+                <item xml:id="nikopoios">
+                    <term xml:lang="en">Virgin Nikopoios</term>
+                    <term xml:lang="fr">Vierge Nikopoios</term>
+                    <term xml:lang="it">Vergine Nikopoios</term>
+                </item>
+                <item xml:id="blachernitissa">
+                    <term xml:lang="en">Virgin Blachernitissa</term>
+                    <term xml:lang="fr">Vierge Blachernitissa</term>
+                    <term xml:lang="it">Vergine Blachernitissa</term>
+                </item>
+                <item xml:id="st-nicholas">
+                    <term xml:lang="en">Saint Nicholas</term>
                     <term xml:lang="fr">Saint Nicolas</term>
                     <term xml:lang="it">San Nicola</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="Virgin_Episkepsis">
-                    <term xml:lang="grc">Virgin Episkepsis</term>
+                <item xml:id="episkepsis">
                     <term xml:lang="en">Virgin Episkepsis</term>
                     <term xml:lang="fr">Vierge Episkepsis</term>
                     <term xml:lang="it">Vergine Episkepsis</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="St_Demetrios">
-                    <term xml:lang="grc">St Demetrios</term>
-                    <term xml:lang="en">St Demetrios</term>
+                <item xml:id="st-demetrios">
+                    <term xml:lang="en">Saint Demetrios</term>
                     <term xml:lang="fr">Saint Dèmètrios</term>
                     <term xml:lang="it">San Demetrio</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="St_John_Chrysostomos">
-                    <term xml:lang="grc">St John Chrysostomos</term>
-                    <term xml:lang="en">St John Chrysostomos</term>
+                <item xml:id="chrysostomos">
+                    <term xml:lang="en">Saint John Chrysostomos</term>
                     <term xml:lang="fr">Saint Jean Chrysostome</term>
                     <term xml:lang="it">San Giovanni Crisostomo</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="St_undetermined">
-                    <term xml:lang="grc">Saint, undetermined</term>
+                <item xml:id="st-undetermined">
                     <term xml:lang="en">Saint, undetermined</term>
                     <term xml:lang="fr">Saint, non identifié</term>
                     <term xml:lang="it">Santo, non identificato</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="St_military_undetermined">
-                    <term xml:lang="grc">St, military, undetermined</term>
-                    <term xml:lang="en">St, military, undetermined</term>
+                <item xml:id="st-military-undetermined">
+                    <term xml:lang="en">Saint, military, undetermined</term>
                     <term xml:lang="fr">Saint, militare, indeterminé</term>
                     <term xml:lang="it">Santo, militare, indeterminato</term>
-                    <gloss xml:lang="en"></gloss>
+                    <gloss xml:lang="en"/>
                 </item>
-                <item xml:id="St_Theodore_Stratelates">
-                    <term xml:lang="grc">St Theodore Stratelates</term>
-                    <term xml:lang="en">St Theodore Stratelates</term>
+                <item xml:id="stratelates">
+                    <term xml:lang="en">Saint Theodore Stratelates</term>
                     <term xml:lang="fr">Saint Théodore Stratèlatès</term>
                     <term xml:lang="it">San Teodoro Stratelate</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="Christ">
-                    <term xml:lang="grc">Christ</term>
+                <item xml:id="christ">
                     <term xml:lang="en">Christ</term>
                     <term xml:lang="fr">Christ</term>
                     <term xml:lang="it">Cristo</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="St_John_Prodromos">
-                    <term xml:lang="grc">St John Prodromos</term>
-                    <term xml:lang="en">St John Prodromos</term>
+                <item xml:id="prodromos">
+                    <term xml:lang="en">Saint John Prodromos</term>
                     <term xml:lang="fr">Saint Jean Prodrome</term>
                     <term xml:lang="it">San Giovanni Prodromo</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
             </list>
         </body>
