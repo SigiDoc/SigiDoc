@@ -14,12 +14,8 @@
     <!--Dignities and offices-->
     <item label="Dignities" match="local-index-display-html" params="epidoc dignities"
       i18n:key="menu-index-dignities"/>
-    <item label="Civil offices" match="local-index-display-html" params="epidoc officeCivil"
-      i18n:key="menu-index-officeCivil"/>
-    <item label="Military offices" match="local-index-display-html" params="epidoc officeMilitary"
-      i18n:key="menu-index-officeMilitary"/>
-    <item label="Ecclesiastical offices" match="local-index-display-html"
-      params="epidoc officeEcclesiastical" i18n:key="menu-index-officeEcclesiastical"/>
+    <item label="Offices" match="local-index-display-html" params="epidoc offices"
+      i18n:key="menu-index-offices"/>
     <item label="Titles" match="local-index-display-html" params="epidoc titles"
       i18n:key="menu-index-titles"/>
 
@@ -74,5 +70,7 @@
     <item label="English" i18n:key="en" language_switch="en"/>
     <item label="French" i18n:key="fr" language_switch="fr"/>
     <item label="Deutsch" i18n:key="de" language_switch="de"/>
+    <item label="Ελληνικά" i18n:key="el" language_switch="el"/>
+    <item label="Български" i18n:key="bg" language_switch="bg"/>
   </menu>
 </root>
