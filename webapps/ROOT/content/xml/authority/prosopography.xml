@@ -83,7 +83,7 @@
                 </person>
                 <person sex="f" xml:id="anastasia" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Ἀναστασία</reg>
+                        <!--<reg xml:lang="grc">Ἀναστασία</reg>-->
                         <reg xml:lang="la">Anastasia</reg>
                         <reg xml:lang="en">Anastasia</reg>
                         <orig>Anastasia</orig>
