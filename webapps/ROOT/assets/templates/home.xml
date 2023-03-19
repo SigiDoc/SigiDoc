@@ -17,9 +17,7 @@
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <!--<span class="round label">-->
-            <i18n:text i18n:key="home-title">SigiDoc 1.0: a sample corpus</i18n:text>
-            <!--</span>-->
+            <i18n:text i18n:key="home-title">SigiDoc 1.1<i>dev</i></i18n:text>
           </h1>
         </div>
       </div>
