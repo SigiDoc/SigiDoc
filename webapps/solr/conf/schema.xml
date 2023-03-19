@@ -179,7 +179,7 @@
           multiValued="true" required="false" type="string" />
    <field name="sigidoc_id_number" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
-   <field name="personal_names" stored="true" indexed="true"
+   <field name="persons" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
    <field name="place_names" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
@@ -200,6 +200,8 @@
    <field name="saints-related_terms" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="iconography" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="legend_case" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
 
    <!-- catchall field, containing all other searchable text fields

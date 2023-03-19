@@ -26,8 +26,8 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:persName/@ref" mode="facet_personal_names">
-    <field name="personal_names">
+  <xsl:template match="tei:persName/@ref" mode="facet_persons">
+    <field name="persons">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
@@ -81,13 +81,18 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
+  <xsl:template match="tei:rs[@type='legendsCases']/@ref" mode="facet_legend_case">
+    <field name="legend_case">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
   <xsl:template name="extra_fields" >
     <xsl:call-template name="field_sigidoc_id_number"/>
-    <xsl:call-template name="field_personal_names"/>
+    <xsl:call-template name="field_persons"/>
     <xsl:call-template name="field_place_names"/>
     <xsl:call-template name="field_dignities"/>
     <xsl:call-template name="field_civil_offices"/>
@@ -98,13 +103,14 @@
     <xsl:call-template name="field_christ-related_terms"/>
     <xsl:call-template name="field_saints-related_terms"/>
     <xsl:call-template name="field_iconography"/>
+    <xsl:call-template name="field_legend_case"/>
     
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type='SigiDocID']"/>
   </xsl:template>
-  <xsl:template name="field_personal_names">
-    <xsl:apply-templates mode="facet_personal_names" select="//tei:persName/@ref"/>
+  <xsl:template name="field_persons">
+    <xsl:apply-templates mode="facet_persons" select="//tei:persName/@ref"/>
   </xsl:template>
   <xsl:template name="field_place_names">
     <xsl:apply-templates mode="facet_place_names" select="//tei:placeName/@ref"/>
@@ -135,6 +141,9 @@
   </xsl:template>
   <xsl:template name="field_iconography">
     <xsl:apply-templates mode="facet_iconography" select="//tei:figDesc[@n='whole']/@ref"/>
+  </xsl:template> 
+  <xsl:template name="field_legend_case">
+    <xsl:apply-templates mode="facet_legend_case" select="//tei:rs[@type='legendsCases']/@ref"/>
   </xsl:template>
 
 </xsl:stylesheet>

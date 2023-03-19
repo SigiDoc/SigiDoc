@@ -14,33 +14,29 @@
   <map:components>
     <map:selectors>
       <map:selector logger="sitemap.selector.exception" name="exception"
-                    src="org.apache.cocoon.selection.ExceptionSelector">
-        <exception class="org.apache.cocoon.ResourceNotFoundException"
-                   name="not-found" />
+        src="org.apache.cocoon.selection.ExceptionSelector">
+        <exception class="org.apache.cocoon.ResourceNotFoundException" name="not-found"/>
         <exception class="org.apache.cocoon.components.flow.InvalidContinuationException"
-                   name="invalid-continuation" />
-        <exception class="java.lang.IllegalArgumentException"
-                   name="illegal-argument" />
+          name="invalid-continuation"/>
+        <exception class="java.lang.IllegalArgumentException" name="illegal-argument"/>
         <!-- The statement below tells the selector to unroll as much
              exceptions as possible -->
-        <exception class="java.lang.Throwable" unroll="true" />
+        <exception class="java.lang.Throwable" unroll="true"/>
       </map:selector>
     </map:selectors>
 
     <map:serializers>
-      <map:serializer logger="sitemap.serializer.xml"
-                      mime-type="text/xml" name="xml_nodecl"
-                      src="org.apache.cocoon.serialization.XMLSerializer">
+      <map:serializer logger="sitemap.serializer.xml" mime-type="text/xml" name="xml_nodecl"
+        src="org.apache.cocoon.serialization.XMLSerializer">
         <omit-xml-declaration>yes</omit-xml-declaration>
       </map:serializer>
     </map:serializers>
 
     <map:transformers>
       <map:transformer logger="sitemap.transformer.i18n" name="i18n"
-                       src="org.apache.cocoon.transformation.I18nTransformer">
+        src="org.apache.cocoon.transformation.I18nTransformer">
         <catalogues default="messages">
-          <catalogue id="messages" name="messages"
-                     location="../assets/translations" />
+          <catalogue id="messages" name="messages" location="../assets/translations"/>
         </catalogues>
         <untranslated-text>*untranslated*</untranslated-text>
       </map:transformer>
@@ -63,12 +59,13 @@
         <!-- If authentication tokens are required, provide them in
              the URL as per RFC 2396; eg,
              http://username:password@domain.name/ -->
-        <fedora-url></fedora-url>
+        <fedora-url/>
         <rdf-base-uri>http://localhost/rdf/</rdf-base-uri>
         <!-- Comma-separated names of Solr facet fields that must get
              the label for each facet value from the RDF store rather
              than using the Solr data directly. -->
-        <rdf-facet-lookup-fields>found_provenance,mentioned_people,mentioned_places,origin_place,source_repository,support_material,support_object_type,personal_names,place_names,dignities,civil_offices,ecclesiastical_offices,military_offices,titles,marian_terms,christ-related_terms,saints-related_terms,iconography</rdf-facet-lookup-fields>
+        <rdf-facet-lookup-fields>found_provenance,mentioned_people,mentioned_places,origin_place,source_repository,support_material,support_object_type,persons,place_names,dignities,civil_offices,ecclesiastical_offices,military_offices,titles,marian_terms,christ-related_terms,saints-related_terms,iconography,
+          legend_case</rdf-facet-lookup-fields>
         <sesame-server>http://localhost:9999/openrdf-sesame/</sesame-server>
         <sesame-server-repository>kiln</sesame-server-repository>
         <solr-server>http://localhost:9999/solr/</solr-server>
@@ -102,8 +99,7 @@
       <!-- Mount the main kiln sitemap, which in turn mounts the main
            project sitemap, main.xmap. -->
       <map:match pattern="**">
-        <map:mount check-reload="yes" src="../kiln/sitemaps/main.xmap"
-                   uri-prefix="" />
+        <map:mount check-reload="yes" src="../kiln/sitemaps/main.xmap" uri-prefix=""/>
       </map:match>
     </map:pipeline>
 
@@ -112,11 +108,11 @@
          recursion. Therefore, just create a plain HTML error
          page. -->
     <map:handle-errors>
-      <map:generate type="exception" />
+      <map:generate type="exception"/>
       <map:transform src="../stylesheets/error/default-to-html.xsl">
-        <map:parameter name="debug" value="{global:debug}" />
+        <map:parameter name="debug" value="{global:debug}"/>
       </map:transform>
-      <map:serialize />
+      <map:serialize/>
     </map:handle-errors>
 
   </map:pipelines>
