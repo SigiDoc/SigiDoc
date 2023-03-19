@@ -23,9 +23,9 @@
         <div class="large-12 columns">
           <xsl:apply-templates select="/aggregation/tei:TEI/tei:text/tei:front" />
           <!-- Display the list of indices. -->
-          <h4 class="iospe">
+          <h3 class="iospe">
             <i18n:text i18n:key="indices-type-prosopography-geography">Prosopography and geography</i18n:text>
-          </h4>
+          </h3>
           <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
@@ -35,9 +35,9 @@
               </li>
             </xsl:for-each>
           </ul>
-          <h4 class="iospe">
+          <h3 class="iospe">
             <i18n:text i18n:key="indices-type-dignities-offices">Dignities and offices</i18n:text>
-          </h4>
+          </h3>
           <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
@@ -47,9 +47,9 @@
               </li>
             </xsl:for-each>
           </ul>
-          <h4 class="iospe">
+          <h3 class="iospe">
             <i18n:text i18n:key="indices-type-religious-appellatives">Religious appellatives</i18n:text>
-          </h4>
+          </h3>
           <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
@@ -59,9 +59,9 @@
               </li>
             </xsl:for-each>
           </ul>
-          <h4 class="iospe">
+          <h3 class="iospe">
             <i18n:text i18n:key="indices-type-iconography-monograms">Iconography and monograms</i18n:text>
-          </h4>
+          </h3>
           <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
@@ -71,9 +71,9 @@
               </li>
             </xsl:for-each>
           </ul>
-          <h4 class="iospe">
+          <h3 class="iospe">
             <i18n:text i18n:key="indices-type-other-features">Other features</i18n:text>
-          </h4>
+          </h3>
           <ul class="no-bullet">
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
