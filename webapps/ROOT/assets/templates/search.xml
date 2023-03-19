@@ -46,7 +46,7 @@
         <div class="large-4 columns">
           <form action="." id="search-form" method="get">
             <!--<input name="q" placeholder="Search terms" type="search">-->
-            <input id="write" name="q" placeholder="Search terms" type="search">
+            <input id="write" name="q" placeholder="Search" type="search">
               <xsl:attribute name="value">
                 <xsl:value-of select="$q_value"/>
               </xsl:attribute>
@@ -67,7 +67,8 @@
 
             <label>
               <p>
-                <!--<a href="#" onclick="toggle_visibility('keyboard_box');">Athena Ruby keyboard</a> <xsl:text> | </xsl:text>-->
+                <a href="#" onclick="toggle_visibility('keyboard_box-ar');">Athena Ruby keyboard</a>
+                <xsl:text> | </xsl:text>
                 <!-- comment this line out if you do not want the Greek keyboard; if needed, see also base.css -->
                 <a href="#" onclick="toggle_visibility('keyboard_box');">
                   <i18n:text i18n:key="search-greek-keyboard">Greek keyboard</i18n:text>
@@ -75,7 +76,7 @@
                 <xsl:text> | </xsl:text>
                 <a href="{kiln:url-for-match('local-search', ($language), 0)}">
                   <i18n:text i18n:key="search-reset">
-                    <xsl:text>Reset search</xsl:text>
+                    <xsl:text>Reset</xsl:text>
                   </i18n:text>
                 </a>
               </p>
@@ -200,244 +201,376 @@
               </ul>
             </div>
 
-            <!--<div id="keyboard_box">
-              <ul id="keyboard">
-                
-                <!-\-                alpha                -\->
-                
-                <li class="letter">Α</li> <!-\-U+0391-\->
-                <li class="letter"></li> <!-\-U+E100-\->
-                <li class="letter"></li> <!-\-U+E101-\-> 
-                <li class="letter"></li> <!-\-U+E102-\->
-                <li class="letter"></li> <!-\-U+E103-\->
-                <li class="letter"></li> <!-\-U+E104-\->
-                <li class="letter"></li> <!-\-U+E105-\->
-                <li class="letter"></li> <!-\-U+E106-\->
-                <li class="letter"></li> <!-\-U+E107-\->
-                <li class="letter"></li> <!-\-U+E108-\->
-                <li class="letter"></li> <!-\-U+E109-\->
-                <li class="letter"></li> <!-\-U+E10A-\->
-                <li class="letter"></li> <!-\-U+E10B-\->
-                <li class="letter"></li> <!-\-U+E10C-\->
-                <li class="letter"></li> <!-\-U+E10D-\->
-                <li class="letter"></li> <!-\-U+E10E-\->
-                <li class="letter"></li> <!-\-U+E10F-\->
-                <li class="letter"></li> <!-\-U+E110-\->
-                <li class="letter"></li> <!-\-U+E111-\->
-                <li class="letter"></li> <!-\-U+E112-\->
-                <li class="letter"></li> <!-\-U+E113-\->
-                <li class="letter"></li> <!-\-U+E114-\->
-                <li class="letter"></li> <!-\-U+E115-\->
-                <li class="letter"></li> <!-\-U+E116-\->
-                <li class="letter"></li> <!-\-U+E117-\->
-                <li class="letter"></li> <!-\-U+E118-\->
-                <li class="letter"></li> <!-\-U+E119-\->
-                <li class="letter"></li> <!-\-U+E11A-\->
-                
-                <!-\-                beta                -\->
-              
-                <li class="letter">Β</li> <!-\-U+0392-\->
-                <li class="letter"></li> <!-\-U+E11B-\->
-                <li class="letter"></li> <!-\-U+E11C-\->
-                <li class="letter"></li> <!-\-U+E11D-\->
-                <li class="letter"></li> <!-\-U+E11E-\->
-                <li class="letter"></li> <!-\-U+E11F-\->
-                <li class="letter"></li> <!-\-U+E120-\->
-                <li class="letter"></li> <!-\-U+E121-\->
-                <li class="letter"></li> <!-\-U+E122-\->
-                <li class="letter"></li> <!-\-U+E123-\->
-                <li class="letter"></li> <!-\-U+E124-\->
-                
-                <!-\-                gamma                -\->
-                
-                <li class="letter">Γ</li> <!-\-U+0393-\->
-                <li class="letter"></li> <!-\-U+E125-\->
-                <li class="letter"></li> <!-\-U+E126-\->
-                <li class="letter"></li> <!-\-U+E127-\->
-                
-                <!-\-                delta                -\->
-                
-                <li class="letter">Δ</li> <!-\-U+0394-\->
-                <li class="letter"></li> <!-\-U+E128-\->
-                <li class="letter"></li> <!-\-U+E129-\->
-                <li class="letter"></li> <!-\-U+E12A-\->
-                <li class="letter"></li> <!-\-U+E12B-\->
-                <li class="letter"></li> <!-\-U+E12C-\->
-                <li class="letter"></li> <!-\-U+E12D-\->
-                <li class="letter"></li> <!-\-U+E12E-\->
-                <li class="letter"></li> <!-\-U+E12F-\->
-                <li class="letter"></li> <!-\-U+E130-\->
-                <li class="letter"></li> <!-\-U+E131-\->
-                <li class="letter"></li> <!-\-U+E132-\->
-                <li class="letter"></li> <!-\-U+E133-\->
-                <li class="letter"></li> <!-\-U+E134-\->
-                
-                <!-\-                epsilon                -\->
-                
-                <li class="letter">Ε</li> <!-\-U+0395-\->
-                <li class="letter"></li> <!-\-U+E135-\->
-                <li class="letter"></li> <!-\-U+E136-\->
-                <li class="letter"></li> <!-\-U+E137-\->
-                <li class="letter"></li> <!-\-U+E138-\->
-                <li class="letter"></li> <!-\-U+E139-\->
-                <li class="letter"></li> <!-\-U+E13A-\->
-                
-                <!-\-                zeta                -\->
-                
-                <li class="letter">Ζ</li> <!-\-U+0396-\->
-                <li class="letter"></li> <!-\-U+E13B-\->
-                <li class="letter"></li> <!-\-U+E13C-\->
-                <li class="letter"></li> <!-\-U+E13D-\->
-                
-                <!-\-                eta                -\->
-                
-                <li class="letter">Η</li> <!-\-U+0397-\->
-                <li class="letter"></li> <!-\-U+E13E-\->
-                
-                <!-\-                theta                -\->
-                
-                <li class="letter">Θ</li> <!-\-U+0398-\->
-                <li class="letter"></li> <!-\-U+E13F-\->
-                <li class="letter"></li> <!-\-U+E140-\->
-                <li class="letter"></li> <!-\-U+E141-\->
-                <li class="letter"></li> <!-\-U+E142-\->
-                
-                <!-\-                iota                -\->
-                
-                <li class="letter">Ι</li> <!-\-U+0399-\->
-                <li class="letter"></li> <!-\-U+E143-\->
-                
-                <!-\-                kappa                -\->
-                
-                <li class="letter">Κ</li> <!-\-U+039A-\->
-                <li class="letter"></li> <!-\-U+E144-\->
-                <li class="letter"></li> <!-\-U+E145-\->
-                <li class="letter"></li> <!-\-U+E146-\->
-                
-                <!-\-                lambda                -\->
-                
-                <li class="letter">Λ</li> <!-\-U+039B-\->
-                <li class="letter"></li> <!-\-U+E147-\->
-                <li class="letter"></li> <!-\-U+E148-\->
-                <li class="letter"></li> <!-\-U+E149-\->
-                <li class="letter"></li> <!-\-U+E14A-\->
-                <li class="letter"></li> <!-\-U+E14B-\->
-                <li class="letter"></li> <!-\-U+E14C-\->
-                
-                <!-\-                mu                -\->
-                
-                <li class="letter">Μ</li> <!-\-U+039C-\->
-                <li class="letter"></li> <!-\-U+E14D-\->
-                <li class="letter"></li> <!-\-U+E14E-\->
-                <li class="letter"></li> <!-\-U+E14F-\->
-                <li class="letter"></li> <!-\-U+E150-\->
-                <li class="letter"></li> <!-\-U+E151-\->
-                <li class="letter"></li> <!-\-U+E152-\->
-                <li class="letter"></li> <!-\-U+E153-\->
-                
-                <!-\-                nu                -\->
-                
-                <li class="letter">Ν</li> <!-\-U+039D-\->
-                <li class="letter"></li> <!-\-U+E154-\->
-                <li class="letter"></li> <!-\-U+E155-\->
-                <li class="letter"></li> <!-\-U+E156-\->
-                <li class="letter"></li> <!-\-U+E157-\->
-                <li class="letter"></li><!-\- U+E158-\->
-                
-                <!-\-                xi                -\->
-                
-                <li class="letter">Ξ</li> <!-\-U+039E-\->
-                <li class="letter"></li> <!-\-U+E159-\->
-                <li class="letter"></li> <!-\-U+E15A-\->
-                <li class="letter"></li> <!-\-U+E15B-\->
-                <li class="letter"></li> <!-\-U+E15C-\->
-                <li class="letter"></li> <!-\-U+E15D-\->
-                <li class="letter"></li> <!-\-U+E15E-\->
-                <li class="letter"></li> <!-\-U+E15F-\->
-                <li class="letter"></li> <!-\-U+E160-\->
-                <li class="letter"></li> <!-\-U+E161-\->
-                <li class="letter"></li> <!-\-U+E162-\->
-                <li class="letter"></li> <!-\-U+E163-\->
-                
-                <!-\-                omicron                -\->
-                
-                <li class="letter">Ο</li> <!-\-U+039F-\->
-                
-                <!-\-                pi                -\->
-                
-                <li class="letter">Π</li> <!-\-U+03A0-\->
-                <li class="letter"></li> <!-\-U+E164-\->
-                
-                <!-\-                rho                -\->
-                
-                <li class="letter">Ρ</li> <!-\-U+03A1-\->
-                <li class="letter"></li> <!-\-U+E165-\->
-                <li class="letter"></li> <!-\-U+E166-\->
-                <li class="letter"></li> <!-\-U+E167-\->
-                
-                <!-\-                sigma                -\->
-                
-                <li class="letter">Σ</li> <!-\-U+03A3-\->
-                <li class="letter"></li> <!-\-U+E168-\->
-                <li class="letter"></li> <!-\-U+E169-\->
-                <li class="letter"></li> <!-\-U+E16A-\->
-                <li class="letter"></li> <!-\-U+E16B-\->
-                
-                <!-\-                tau                -\->
-                
-                <li class="letter">Τ</li> <!-\-U+03A4-\->
-                
-                <!-\-                upsilon                -\->
-                
-                <li class="letter">Υ</li> <!-\-U+03A5-\->
-                <li class="letter"></li> <!-\-U+E16C-\->
-                <li class="letter"></li> <!-\-U+E16D-\->
-                <li class="letter"></li> <!-\-U+E16E-\->
-                
-                <!-\-                phi                -\->
-                
-                <li class="letter">Φ</li> <!-\-U+03A6-\->
-                <li class="letter"></li> <!-\-U+E16F-\->
-                <li class="letter"></li> <!-\-U+E170-\->
-                <li class="letter"></li> <!-\-U+E171-\->
-                <li class="letter"></li> <!-\-U+E172-\->
-                
-                <!-\-                chi                -\->
-                
-                <li class="letter">Χ</li> <!-\-U+03A7-\->
-                
-                <!-\-                psi                -\->
-                
-                <li class="letter">Ψ</li> <!-\-U+03A8-\->
-                <li class="letter"></li> <!-\-U+E173-\->
-                
-                <!-\-                omega                -\->
-                
-                <li class="letter">Ω</li> <!-\-U+03A9-\->
-                <li class="letter"></li> <!-\-U+E174-\->
-                <li class="letter"></li> <!-\-U+E175-\->
-                <li class="letter"></li> <!-\-U+E176-\->
-                <li class="letter"></li> <!-\-U+E177-\->
-                <li class="letter"></li> <!-\-U+E178-\->
-                <li class="letter"></li> <!-\-U+E179-\->
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                
+            <div id="keyboard_box-ar">
+              <ul id="keyboard-ar">
+
+                <!--                alpha                -->
+
+                <li class="letter">Α</li>
+                <!--U+0391-->
+                <li class="letter"></li>
+                <!--U+E100-->
+                <li class="letter"></li>
+                <!--U+E101-->
+                <li class="letter"></li>
+                <!--U+E102-->
+                <li class="letter"></li>
+                <!--U+E103-->
+                <li class="letter"></li>
+                <!--U+E104-->
+                <li class="letter"></li>
+                <!--U+E105-->
+                <li class="letter"></li>
+                <!--U+E106-->
+                <li class="letter"></li>
+                <!--U+E107-->
+                <li class="letter"></li>
+                <!--U+E108-->
+                <li class="letter"></li>
+                <!--U+E109-->
+                <li class="letter"></li>
+                <!--U+E10A-->
+                <li class="letter"></li>
+                <!--U+E10B-->
+                <li class="letter"></li>
+                <!--U+E10C-->
+                <li class="letter"></li>
+                <!--U+E10D-->
+                <li class="letter"></li>
+                <!--U+E10E-->
+                <li class="letter"></li>
+                <!--U+E10F-->
+                <li class="letter"></li>
+                <!--U+E110-->
+                <li class="letter"></li>
+                <!--U+E111-->
+                <li class="letter"></li>
+                <!--U+E112-->
+                <li class="letter"></li>
+                <!--U+E113-->
+                <li class="letter"></li>
+                <!--U+E114-->
+                <li class="letter"></li>
+                <!--U+E115-->
+                <li class="letter"></li>
+                <!--U+E116-->
+                <li class="letter"></li>
+                <!--U+E117-->
+                <li class="letter"></li>
+                <!--U+E118-->
+                <li class="letter"></li>
+                <!--U+E119-->
+                <li class="letter"></li>
+                <!--U+E11A-->
+
+                <!--                beta                -->
+
+                <li class="letter">Β</li>
+                <!--U+0392-->
+                <li class="letter"></li>
+                <!--U+E11B-->
+                <li class="letter"></li>
+                <!--U+E11C-->
+                <li class="letter"></li>
+                <!--U+E11D-->
+                <li class="letter"></li>
+                <!--U+E11E-->
+                <li class="letter"></li>
+                <!--U+E11F-->
+                <li class="letter"></li>
+                <!--U+E120-->
+                <li class="letter"></li>
+                <!--U+E121-->
+                <li class="letter"></li>
+                <!--U+E122-->
+                <li class="letter"></li>
+                <!--U+E123-->
+                <li class="letter"></li>
+                <!--U+E124-->
+
+                <!--                gamma                -->
+
+                <li class="letter">Γ</li>
+                <!--U+0393-->
+                <li class="letter"></li>
+                <!--U+E125-->
+                <li class="letter"></li>
+                <!--U+E126-->
+                <li class="letter"></li>
+                <!--U+E127-->
+
+                <!--                delta                -->
+
+                <li class="letter">Δ</li>
+                <!--U+0394-->
+                <li class="letter"></li>
+                <!--U+E128-->
+                <li class="letter"></li>
+                <!--U+E129-->
+                <li class="letter"></li>
+                <!--U+E12A-->
+                <li class="letter"></li>
+                <!--U+E12B-->
+                <li class="letter"></li>
+                <!--U+E12C-->
+                <li class="letter"></li>
+                <!--U+E12D-->
+                <li class="letter"></li>
+                <!--U+E12E-->
+                <li class="letter"></li>
+                <!--U+E12F-->
+                <li class="letter"></li>
+                <!--U+E130-->
+                <li class="letter"></li>
+                <!--U+E131-->
+                <li class="letter"></li>
+                <!--U+E132-->
+                <li class="letter"></li>
+                <!--U+E133-->
+                <li class="letter"></li>
+                <!--U+E134-->
+
+                <!--                epsilon                -->
+
+                <li class="letter">Ε</li>
+                <!--U+0395-->
+                <li class="letter"></li>
+                <!--U+E135-->
+                <li class="letter"></li>
+                <!--U+E136-->
+                <li class="letter"></li>
+                <!--U+E137-->
+                <li class="letter"></li>
+                <!--U+E138-->
+                <li class="letter"></li>
+                <!--U+E139-->
+                <li class="letter"></li>
+                <!--U+E13A-->
+
+                <!--                zeta                -->
+
+                <li class="letter">Ζ</li>
+                <!--U+0396-->
+                <li class="letter"></li>
+                <!--U+E13B-->
+                <li class="letter"></li>
+                <!--U+E13C-->
+                <li class="letter"></li>
+                <!--U+E13D-->
+
+                <!--                eta                -->
+
+                <li class="letter">Η</li>
+                <!--U+0397-->
+                <li class="letter"></li>
+                <!--U+E13E-->
+
+                <!--                theta                -->
+
+                <li class="letter">Θ</li>
+                <!--U+0398-->
+                <li class="letter"></li>
+                <!--U+E13F-->
+                <li class="letter"></li>
+                <!--U+E140-->
+                <li class="letter"></li>
+                <!--U+E141-->
+                <li class="letter"></li>
+                <!--U+E142-->
+
+                <!--                iota                -->
+
+                <li class="letter">Ι</li>
+                <!--U+0399-->
+                <li class="letter"></li>
+                <!--U+E143-->
+
+                <!--                kappa                -->
+
+                <li class="letter">Κ</li>
+                <!--U+039A-->
+                <li class="letter"></li>
+                <!--U+E144-->
+                <li class="letter"></li>
+                <!--U+E145-->
+                <li class="letter"></li>
+                <!--U+E146-->
+
+                <!--                lambda                -->
+
+                <li class="letter">Λ</li>
+                <!--U+039B-->
+                <li class="letter"></li>
+                <!--U+E147-->
+                <li class="letter"></li>
+                <!--U+E148-->
+                <li class="letter"></li>
+                <!--U+E149-->
+                <li class="letter"></li>
+                <!--U+E14A-->
+                <li class="letter"></li>
+                <!--U+E14B-->
+                <li class="letter"></li>
+                <!--U+E14C-->
+
+                <!--                mu                -->
+
+                <li class="letter">Μ</li>
+                <!--U+039C-->
+                <li class="letter"></li>
+                <!--U+E14D-->
+                <li class="letter"></li>
+                <!--U+E14E-->
+                <li class="letter"></li>
+                <!--U+E14F-->
+                <li class="letter"></li>
+                <!--U+E150-->
+                <li class="letter"></li>
+                <!--U+E151-->
+                <li class="letter"></li>
+                <!--U+E152-->
+                <li class="letter"></li>
+                <!--U+E153-->
+
+                <!--                nu                -->
+
+                <li class="letter">Ν</li>
+                <!--U+039D-->
+                <li class="letter"></li>
+                <!--U+E154-->
+                <li class="letter"></li>
+                <!--U+E155-->
+                <li class="letter"></li>
+                <!--U+E156-->
+                <li class="letter"></li>
+                <!--U+E157-->
+                <li class="letter"></li>
+                <!-- U+E158-->
+
+                <!--                xi                -->
+
+                <li class="letter">Ξ</li>
+                <!--U+039E-->
+                <li class="letter"></li>
+                <!--U+E159-->
+                <li class="letter"></li>
+                <!--U+E15A-->
+                <li class="letter"></li>
+                <!--U+E15B-->
+                <li class="letter"></li>
+                <!--U+E15C-->
+                <li class="letter"></li>
+                <!--U+E15D-->
+                <li class="letter"></li>
+                <!--U+E15E-->
+                <li class="letter"></li>
+                <!--U+E15F-->
+                <li class="letter"></li>
+                <!--U+E160-->
+                <li class="letter"></li>
+                <!--U+E161-->
+                <li class="letter"></li>
+                <!--U+E162-->
+                <li class="letter"></li>
+                <!--U+E163-->
+
+                <!--                omicron                -->
+
+                <li class="letter">Ο</li>
+                <!--U+039F-->
+
+                <!--                pi                -->
+
+                <li class="letter">Π</li>
+                <!--U+03A0-->
+                <li class="letter"></li>
+                <!--U+E164-->
+
+                <!--                rho                -->
+
+                <li class="letter">Ρ</li>
+                <!--U+03A1-->
+                <li class="letter"></li>
+                <!--U+E165-->
+                <li class="letter"></li>
+                <!--U+E166-->
+                <li class="letter"></li>
+                <!--U+E167-->
+
+                <!--                sigma                -->
+
+                <li class="letter">Σ</li>
+                <!--U+03A3-->
+                <li class="letter"></li>
+                <!--U+E168-->
+                <li class="letter"></li>
+                <!--U+E169-->
+                <li class="letter"></li>
+                <!--U+E16A-->
+                <li class="letter"></li>
+                <!--U+E16B-->
+
+                <!--                tau                -->
+
+                <li class="letter">Τ</li>
+                <!--U+03A4-->
+
+                <!--                upsilon                -->
+
+                <li class="letter">Υ</li>
+                <!--U+03A5-->
+                <li class="letter"></li>
+                <!--U+E16C-->
+                <li class="letter"></li>
+                <!--U+E16D-->
+                <li class="letter"></li>
+                <!--U+E16E-->
+
+                <!--                phi                -->
+
+                <li class="letter">Φ</li>
+                <!--U+03A6-->
+                <li class="letter"></li>
+                <!--U+E16F-->
+                <li class="letter"></li>
+                <!--U+E170-->
+                <li class="letter"></li>
+                <!--U+E171-->
+                <li class="letter"></li>
+                <!--U+E172-->
+
+                <!--                chi                -->
+
+                <li class="letter">Χ</li>
+                <!--U+03A7-->
+
+                <!--                psi                -->
+
+                <li class="letter">Ψ</li>
+                <!--U+03A8-->
+                <li class="letter"></li>
+                <!--U+E173-->
+
+                <!--                omega                -->
+
+                <li class="letter">Ω</li>
+                <!--U+03A9-->
+                <li class="letter"></li>
+                <!--U+E174-->
+                <li class="letter"></li>
+                <!--U+E175-->
+                <li class="letter"></li>
+                <!--U+E176-->
+                <li class="letter"></li>
+                <!--U+E177-->
+                <li class="letter"></li>
+                <!--U+E178-->
+                <li class="letter"></li>
+                <!--U+E179-->
               </ul>
-            </div>-->
-
-
-
+            </div>
 
             <!-- comment the previous div out if you do not want to display the Greek keyboard -->
-
 
             <h4>Date <span id="date-slider-label"/></h4>
             <div id="date-slider-widget" data-range-min="400" data-range-max="1500"
@@ -468,11 +601,48 @@
         ["df"]; prepare_form(form, widget, inputs, checked_inputs); setup_slider(widget, label); }); </script>
 
       <!-- Greek keyboard -->
-      <script> $(function(){ var $write = $('#write'); $('#keyboard li').click(function(){ var $this
-        = $(this), character = $this.html(); if ($this.hasClass('delete')) { var html =
-        $write.val(); $write.val(html.substr(0, html.length - 1)); return false; } console.log("DO
-        IT ", character); $write.val($write.val() + character); }); }); </script>
+      <script>
+        $(function(){
+        var $write = $('#write');
+        
+        $('#keyboard li').click(function(){
+        var $this = $(this),
+        character = $this.html();
+        
+        if ($this.hasClass('delete')) {
+        var html = $write.val();
+        
+        $write.val(html.substr(0, html.length - 1));
+        return false;
+        }
+        
+        console.log("DO IT ", character);
+        $write.val($write.val() + character);
+        });
+        });
+      </script>
 
+      <!-- AR keyboard -->
+      <script>
+        $(function(){
+        var $write = $('#write');
+        
+        $('#keyboard-ar li').click(function(){
+        var $this = $(this),
+        character = $this.html();
+        
+        if ($this.hasClass('delete')) {
+        var html = $write.val();
+        
+        $write.val(html.substr(0, html.length - 1));
+        return false;
+        }
+        
+        console.log("DO IT ", character);
+        $write.val($write.val() + character);
+        });
+        });
+      </script>
 
       <!-- The following script enables to show or hide the facets items and the Greek keyboard. -->
       <script> function toggle_visibility(id) { var e = document.getElementById(id);
