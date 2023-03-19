@@ -28,7 +28,7 @@
           <field name="index_item_name">
             <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
             <xsl:value-of
-              select="$offices//tei:list[@type]//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+              select="$offices//tei:list//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
             />
           </field>
           <field name="index_entry_type">
