@@ -223,14 +223,13 @@
                     </item>
             </list>
             <list type="military">
-                    <item xml:id="τοποτηρητὴς_τοῦ_Ἀριθμοῦ">
-                        <term xml:lang="grc">τοποτηρητὴς τοῦ Ἀριθμοῦ</term>
-                        <term xml:lang="en">τοποτηρητὴς τοῦ Ἀριθμοῦ</term>
-                        <!--<term xml:lang="en">topoteretes of the Arithmos</term>-->
-                        <!--<term xml:lang="fr">topotèrètès de l’Arithmos</term>-->
-                        <!--<term xml:lang="it">topoterete</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
+                <item ana="τοποτηρητής" xml:lang="grc">
+                    <term xml:id="topoter_001">τοποτηρητής</term>
+                    <term xml:id="topoter_002">τοποτηρητὴς τοῦ Ἀριθμοῦ</term>
+                </item>
+                <item ana="στρατηγός" xml:lang="grc">
+                    <term xml:id="strateg_001">στρατηγός</term>
+                </item>
                     <item xml:id="δομέστικος_τῶν_Ἐξκουβίτων">
                         <term xml:lang="grc">δομέστικος τῶν Ἐξκουβίτων</term>
                         <term xml:lang="en">δομέστικος τῶν Ἐξκουβίτων</term>
