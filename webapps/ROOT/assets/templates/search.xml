@@ -1,54 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<kiln:root xmlns:h="http://apache.org/cocoon/request/2.0"
-           xmlns:xi="http://www.w3.org/2001/XInclude"
-           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
-           xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-           xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<kiln:root xmlns:h="http://apache.org/cocoon/request/2.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
 
-  <xsl:param name="base-uri" />
-  <xsl:param name="query-string" />
-  <xsl:param name="rdf-facet-lookup-fields" />
-  <xsl:param name="search-lemma" />
+  <xsl:param name="base-uri"/>
+  <xsl:param name="query-string"/>
+  <xsl:param name="rdf-facet-lookup-fields"/>
+  <xsl:param name="search-lemma"/>
 
   <!-- Imports stylesheet to convert Solr results into HTML. -->
-  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/solr/results-to-html.xsl" />
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/solr/results-to-html.xsl"/>
 
   <!-- Variables defining search parameter values. -->
-  <xsl:variable name="q_value" select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='q']/h:value)" />
-  <xsl:variable name="df_value" select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='df']/h:value)" />
+  <xsl:variable name="q_value"
+    select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='q']/h:value)"/>
+  <xsl:variable name="df_value"
+    select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='df']/h:value)"/>
 
   <kiln:parent>
-    <xi:include href="base.xml" />
+    <xi:include href="base.xml"/>
   </kiln:parent>
 
   <kiln:child>
     <kiln:block name="title">
-      <kiln:super />
-      <i18n:text i18n:key="search"><xsl:text>Search</xsl:text></i18n:text>
+      <kiln:super/>
+      <i18n:text i18n:key="search">
+        <xsl:text>Search</xsl:text>
+      </i18n:text>
     </kiln:block>
 
     <kiln:block name="css">
-      <kiln:super />
-      <link href="{$kiln:assets-path}/styles/jquery-ui/all.css"
-            rel="stylesheet" type="text/css" />
+      <kiln:super/>
+      <link href="{$kiln:assets-path}/styles/jquery-ui/all.css" rel="stylesheet" type="text/css"/>
     </kiln:block>
 
     <kiln:block name="page-heading">
-      <kiln:super />
-      <i18n:text i18n:key="search"><xsl:text>Search</xsl:text></i18n:text>
+      <kiln:super/>
+      <i18n:text i18n:key="search">
+        <xsl:text>Search</xsl:text>
+      </i18n:text>
     </kiln:block>
 
     <kiln:block name="content">
       <div class="row">
         <div class="large-4 columns">
           <form action="." id="search-form" method="get">
-<!--<input name="q" placeholder="Search terms" type="search">-->
+            <!--<input name="q" placeholder="Search terms" type="search">-->
             <input id="write" name="q" placeholder="Search terms" type="search">
               <xsl:attribute name="value">
-                <xsl:value-of select="$q_value" />
+                <xsl:value-of select="$q_value"/>
               </xsl:attribute>
             </input>
-            
+
             <xsl:if test="$search-lemma">
               <label>
                 <input name="df" type="checkbox" value="lemmatised_text">
@@ -56,18 +59,28 @@
                     <xsl:attribute name="checked">checked</xsl:attribute>
                   </xsl:if>
                 </input>
-                <i18n:text i18n:key="search-lemmatised-text"><xsl:text>Search lemmatised text</xsl:text></i18n:text>
+                <i18n:text i18n:key="search-lemmatised-text">
+                  <xsl:text>Search lemmatised text</xsl:text>
+                </i18n:text>
               </label>
             </xsl:if>
-            
+
             <label>
               <p>
-                <!--<a href="#" onclick="toggle_visibility('keyboard_box');">Athena Ruby keyboard</a> <xsl:text> | </xsl:text>--> <!-- comment this line out if you do not want the Greek keyboard; if needed, see also base.css -->
-                <a href="#" onclick="toggle_visibility('keyboard_box');"><i18n:text i18n:key="search-greek-keyboard">Greek keyboard</i18n:text></a> <xsl:text> | </xsl:text>
-                <a href="{kiln:url-for-match('local-search', ($language), 0)}"><i18n:text i18n:key="search-reset"><xsl:text>Reset search</xsl:text></i18n:text></a>
+                <!--<a href="#" onclick="toggle_visibility('keyboard_box');">Athena Ruby keyboard</a> <xsl:text> | </xsl:text>-->
+                <!-- comment this line out if you do not want the Greek keyboard; if needed, see also base.css -->
+                <a href="#" onclick="toggle_visibility('keyboard_box');">
+                  <i18n:text i18n:key="search-greek-keyboard">Greek keyboard</i18n:text>
+                </a>
+                <xsl:text> | </xsl:text>
+                <a href="{kiln:url-for-match('local-search', ($language), 0)}">
+                  <i18n:text i18n:key="search-reset">
+                    <xsl:text>Reset search</xsl:text>
+                  </i18n:text>
+                </a>
               </p>
             </label>
-            
+
             <div id="keyboard_box">
               <ul id="keyboard">
                 <li class="letter">α</li>
@@ -99,7 +112,7 @@
                 <li class="letter">ϛ</li>
                 <li class="letter">ϙ</li>
                 <li class="letter">ϡ</li>
-                
+
                 <li class="letter">ᾳ</li>
                 <li class="letter">ά</li>
                 <li class="letter">ὰ</li>
@@ -186,7 +199,7 @@
                 <li class="delete">⇐</li>
               </ul>
             </div>
-            
+
             <!--<div id="keyboard_box">
               <ul id="keyboard">
                 
@@ -419,80 +432,52 @@
                 
               </ul>
             </div>-->
-            
-            
-            
-            
+
+
+
+
             <!-- comment the previous div out if you do not want to display the Greek keyboard -->
 
-            
-            <h4>Date <span id="date-slider-label"></span></h4>
-            <div id="date-slider-widget" data-range-min="400" data-range-max="1500" data-value-min="400" data-value-max="1500" data-step="20" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
+
+            <h4>Date <span id="date-slider-label"/></h4>
+            <div id="date-slider-widget" data-range-min="400" data-range-max="1500"
+              data-value-min="400" data-value-max="1500" data-step="20" data-label-prefix=""
+              data-label-suffix="A.D." data-field-name="origin_date"/>
           </form>
           <!-- List of currently applied facets. -->
-          <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />
+          <xsl:apply-templates mode="search-results"
+            select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']"/>
           <!-- List available facets. -->
-          <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']"
-                               mode="search-results" />
+          <xsl:apply-templates
+            select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']"
+            mode="search-results"/>
         </div>
         <div class="large-8 columns">
-          <xsl:apply-templates select="/aggregation/response/result"
-                               mode="search-results" />
+          <xsl:apply-templates select="/aggregation/response/result" mode="search-results"/>
         </div>
       </div>
     </kiln:block>
 
     <kiln:block name="end-js">
-      <kiln:super />
-      <script src="{$kiln:assets-path}/scripts/jquery-ui.min.js" />
-      <script src="{$kiln:assets-path}/scripts/URI.js" />
-      <script src="{$kiln:assets-path}/scripts/slider.js" />
-      <script>
-      $(document).ready(function() {
-        var form = $("#search-form"),
-            widget = $("#date-slider-widget"),
-            label = $("#date-slider-label"),
-            inputs = ["q"],
-            checked_inputs = ["df"];
-        prepare_form(form, widget, inputs, checked_inputs);
-        setup_slider(widget, label);
-      });
-      </script>
-      
+      <kiln:super/>
+      <script src="{$kiln:assets-path}/scripts/jquery-ui.min.js"/>
+      <script src="{$kiln:assets-path}/scripts/URI.js"/>
+      <script src="{$kiln:assets-path}/scripts/slider.js"/>
+      <script> $(document).ready(function() { var form = $("#search-form"), widget =
+        $("#date-slider-widget"), label = $("#date-slider-label"), inputs = ["q"], checked_inputs =
+        ["df"]; prepare_form(form, widget, inputs, checked_inputs); setup_slider(widget, label); }); </script>
+
       <!-- Greek keyboard -->
-      <script>
-        $(function(){
-        var $write = $('#write');
-        
-        $('#keyboard li').click(function(){
-        var $this = $(this),
-        character = $this.html();
-        
-        if ($this.hasClass('delete')) {
-        var html = $write.val();
-        
-        $write.val(html.substr(0, html.length - 1));
-        return false;
-        }
-        
-        console.log("DO IT ", character);
-        $write.val($write.val() + character);
-        });
-        });
-      </script>
-      
-      
+      <script> $(function(){ var $write = $('#write'); $('#keyboard li').click(function(){ var $this
+        = $(this), character = $this.html(); if ($this.hasClass('delete')) { var html =
+        $write.val(); $write.val(html.substr(0, html.length - 1)); return false; } console.log("DO
+        IT ", character); $write.val($write.val() + character); }); }); </script>
+
+
       <!-- The following script enables to show or hide the facets items and the Greek keyboard. -->
-      <script>
-        function toggle_visibility(id) {
-        var e = document.getElementById(id);
-        if(e.style.display == 'block')
-        e.style.display = 'none';
-        else
-        e.style.display = 'block';
-        }
-      </script> 
-      
+      <script> function toggle_visibility(id) { var e = document.getElementById(id);
+        if(e.style.display == 'block') e.style.display = 'none'; else e.style.display = 'block'; } </script>
+
     </kiln:block>
   </kiln:child>
 
