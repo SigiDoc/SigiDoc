@@ -1,23 +1,23 @@
 /* Improve fonts */
 :root {
-  --base-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "athenaruby";
-  --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "athenaruby";
+    --base-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, 
+Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 
+"athenaruby";
+    --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+"Segoe UI Symbol", "athenaruby";
 
-  --fs-base: 16px;
-  --base-line-height: 1.666;
-  --fraction: 1.25;
+    --fs-base: 16px;
+    --base-line-height: 1.666;
+    --fraction: 1.25;
 
-  --fs-small: calc(var(--fs-base) / var(--fraction));
-  --fs-tiny: calc(var(--fs-small) / var(--fraction));
-  --fs-medium: calc(var(--fs-base) * var(--fraction));
-  --fs-large: calc(var(--fs-medium) * var(--fraction));
-  --fs-xlarge: calc(var(--fs-large) * var(--fraction));
-  --fs-xxlarge: calc(var(--fs-xlarge) * var(--fraction));
-  --fs-huge: calc(var(--fs-xxlarge) * var(--fraction));
+    --fs-small: calc(var(--fs-base)/var(--fraction));
+    --fs-tiny: calc(var(--fs-small)/var(--fraction));
+    --fs-medium: calc(var(--fs-base)* var(--fraction));
+    --fs-large: calc(var(--fs-medium)* var(--fraction));
+    --fs-xlarge: calc(var(--fs-large)* var(--fraction));
+    --fs-xxlarge: calc(var(--fs-xlarge)* var(--fraction));
+    --fs-huge: calc(var(--fs-xxlarge)* var(--fraction));
 }
 
 body,
@@ -32,15 +32,15 @@ li,
 ul,
 table thead,
 table tbody {
-  font-family: var(--base-font);
-  line-height: var(--base-line-height);
+    font-family: var(--base-font);
+    line-height: var(--base-line-height);
 }
 
 p,
 table,
 table thead,
 table tbody {
-  font-size: var(--fs-base);
+    font-size: var(--fs-base);
 }
 
 h1,
@@ -49,50 +49,50 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
-  line-height: var(--base-line-height);
-  font-weight: 700;
-  line-height: 1.2;
+    font-family: var(--heading-font);
+    line-height: var(--base-line-height);
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 h1 {
-  font-size: var(--fs-huge);
+    font-size: var(--fs-huge);
 }
 
 h2 {
-  font-size: var(--fs-xxlarge);
+    font-size: var(--fs-xxlarge);
 }
 
 h3 {
-  font-size: var(--fs-xlarge);
+    font-size: var(--fs-xlarge);
 }
 
 h4 {
-  font-size: var(--fs-large);
+    font-size: var(--fs-large);
 }
 
 h5 {
-  font-size: var(--fs-medium);
+    font-size: var(--fs-medium);
 }
 
 h6 {
-  font-size: var(--fs-base);
+    font-size: var(--fs-base);
 }
 
 /* Improve header background */
 #site-title {
-  background-size: cover;
-  color: #fff;
-  text-align: left;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
 }
 
 #site-title a {
-  color: #fff;
+    color: #fff;
 }
 
 /* Navigation – Sub-menus to be transparent */
 .top-bar-section ul li.active > a {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /* nav.top-bar {
@@ -102,65 +102,76 @@ h6 {
 } */
 
 .title-area a {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 45%;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItaG9tZSI+PHBhdGggZD0iTTMgOWw5LTcgOSA3djExYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yeiI+PC9wYXRoPjxwb2x5bGluZSBwb2ludHM9IjkgMjIgOSAxMiAxNSAxMiAxNSAyMiI+PC9wb2x5bGluZT48L3N2Zz4=);
-  text-indent: -9999px;
-  overflow: hidden;
-  filter: invert(1);
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItaG9tZSI+PHBhdGggZD0iTTMgOWw5LTcgOSA3djExYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yeiI+PC9wYXRoPjxwb2x5bGluZSBwb2ludHM9IjkgMjIgOSAxMiAxNSAxMiAxNSAyMiI+PC9wb2x5bGluZT48L3N2Zz4=);
+    text-indent: -9999px;
+    overflow: hidden;
+    filter: invert(1);
 }
 
 /* Export bar */
 .export-seal {
-  margin-top: 2em;
-  color: #000;
-  font-size: var(--fs-base);
-  font-weight: 400;
+    margin-top: 2em;
+    color: #000;
+    font-size: var(--fs-base);
+    font-weight: 400;
 }
 
 /* Pagination */
 ul.pagination {
-  display: flex;
-  gap: 0.5em;
-  height: auto;
-  margin: 0;
-  margin-bottom: 1em;
+    display: flex;
+    gap: 0.5em;
+    height: auto;
+    margin: 0;
+    margin-bottom: 1em;
 }
 
 ul.pagination li {
-  height: auto;
-  margin: 0;
-  float: none;
+    height: auto;
+    margin: 0;
+    float: none;
 }
 
 ul.pagination li a {
-  display: inline-block;
-  margin: 0;
-  padding: 0.25em 0.75em;
-  border: 1px solid #000;
-  border-radius: 3px;
-  color: #000;
+    display: inline-block;
+    margin: 0;
+    padding: 0.25em 0.75em;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #000;
 }
 
 /* Footer */
-footer {
-  display: flex;
+/*footer {
+  display:block;
   gap: 1em;
   padding-top: 0.5em;
+}*/
+
+/* Footer */
+footer {
+    display: flex;
+    gap: 1em;
+    padding-top: 0.5em;
+    flex-direction: column;
+    padding: 0.8em 2em;
+    margin: 1em;
+    line-height: 1em;
 }
 
 /* Indices list */
 .indices-list {
-  list-style: inside none;
-  margin-top: 1em;
+    list-style: inside none;
+    margin-top: 1em;
 }
 
 .indices-list li {
-  margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /* Seal page */
@@ -169,14 +180,14 @@ h4.iospe,
 dl.iospe dt,
 dl.iospe dd,
 h4#notes,
-*[lang="la"],
+*[lang = "la"],
 .textpartnumber {
-  font-family: var(--base-font);
-  font-size: inherit;
+    font-family: var(--base-font);
+    font-size: inherit;
 }
 
 dl.iospe dd p:last-of-type {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #apparatus,
@@ -185,94 +196,94 @@ dl.iospe dd p:last-of-type {
 #commentary p,
 div#footnotes p,
 .textpart {
-  font-family: var(--base-font);
+    font-family: var(--base-font);
 }
 
-#diplomatic *[lang="la"],
-#diplomatic *[lang="grc"],
+#diplomatic *[lang = "la"],
+#diplomatic *[lang = "grc"],
 #diplomatic .textpart {
-  font-family: "athenaruby";
+    font-family: "athenaruby";
 }
 
 /* Seal table */
 dl.iospe {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 0.25em 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.25em 1em;
 }
 
 dl.iospe dt {
-  width: 33%;
+    width: 33%;
 }
 
 dl.iospe dd {
-  width: 66%;
-  padding-left: 0;
+    width: 66%;
+    padding-left: 0;
 }
 
 h3.iospe {
-  float: none;
+    float: none;
 }
 
 dl.iospe {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 dl.iospe dt {
-  width: 300px;
-  max-width: 300px;
-  margin-right: 1em;
-  text-align: right;
+    width: 300px;
+    max-width: 300px;
+    margin-right: 1em;
+    text-align: right;
 }
 
 dl.iospe dd {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 /* Seal section titles */
 h3.iospe {
-  font-size: var(--fs-large);
+    font-size: var(--fs-large);
 }
 
 h3.iospe,
 h4.iospe {
-  width: auto;
-  max-width: inherit;
-  margin: 1em 0;
+    width: auto;
+    max-width: inherit;
+    margin: 1em 0;
 }
 
 h4.iospe i {
-  font-style: normal;
+    font-style: normal;
 }
 
 /* Footnote's tooltip */
 .footnote-tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 .footnote-tooltip .tooltiptext {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  visibility: hidden;
-  padding: 1em;
-  width: 400px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    visibility: hidden;
+    padding: 1em;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
 }
 
 .footnote-tooltip:hover .tooltiptext {
-  visibility: visible;
+    visibility: visible;
 }
 
 /* Footnotes */
 #footnotes a.back-to-ref {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* Font sizing on seal page */
@@ -280,19 +291,19 @@ dl.iospe dd,
 #apparatus,
 #commentary,
 #translation h4 {
-  font-size: var(--fs-base);
+    font-size: var(--fs-base);
 }
 
 #biblioEditions,
 #biblioCommEditions,
 #biblioParallels,
 #biblioCommParallels {
-  font-family: var(--base-font);
+    font-family: var(--base-font);
 }
 
 #lettering,
 #apparatus,
 #commentary,
 #footnotes {
-  font-family: var(--base-font);
+    font-family: var(--base-font);
 }
