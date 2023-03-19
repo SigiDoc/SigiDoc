@@ -28,8 +28,6 @@
             <xsl:variable name="geo-id" select="substring-after(@ref, '#')"/>
             <xsl:value-of
               select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la']"/>
-            <!--<xsl:value-of select="string-join($geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />-->
-            <!--do we want to display the Greek and Latin version of a placeName when available on the seals? In that case we should use the snippet commented out-->
           </field>
           <field name="index_ext_reference">
             <xsl:variable name="geo-id" select="substring-after(@ref, '#')"/>
