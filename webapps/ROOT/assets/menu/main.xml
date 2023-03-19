@@ -6,7 +6,7 @@
   <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
     
     <!--Prosopography and geography-->
-    <item label="Personal names" match="local-index-display-html" params="epidoc prosopography"
+    <item label="Persons" match="local-index-display-html" params="epidoc prosopography"
       i18n:key="menu-index-prosopography"/>
     <item label="Place names" match="local-index-display-html" params="epidoc placenames"
       i18n:key="menu-index-geography"/>
