@@ -67,7 +67,7 @@
 
             <label>
               <p>
-                <a href="#" onclick="toggle_visibility('keyboard_box-ar');">Athena Ruby keyboard</a>
+                <a href="#" onclick="toggle_visibility('keyboard_box-ar');">Athena Ruby</a>
                 <xsl:text> | </xsl:text>
                 <!-- comment this line out if you do not want the Greek keyboard; if needed, see also base.css -->
                 <a href="#" onclick="toggle_visibility('keyboard_box');">
@@ -76,7 +76,7 @@
                 <xsl:text> | </xsl:text>
                 <a href="{kiln:url-for-match('local-search', ($language), 0)}">
                   <i18n:text i18n:key="search-reset">
-                    <xsl:text>Reset</xsl:text>
+                    <xsl:text>Clear search</xsl:text>
                   </i18n:text>
                 </a>
               </p>
