@@ -5,7 +5,7 @@
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <kiln:parent>
-    <xi:include href="base.xml" />
+    <xi:include href="works.xml" />
   </kiln:parent>
 
   <kiln:child>

@@ -24,11 +24,11 @@
       <i18n:text i18n:key="inscription-index-seals"><xsl:text>Seals</xsl:text></i18n:text>
     </kiln:block>
 
-    <kiln:block name="css">
+    <!--<kiln:block name="css">
       <kiln:super />
       <link href="{$kiln:assets-path}/styles/tablesorter.css"
             rel="stylesheet" />
-    </kiln:block>
+    </kiln:block>-->
 
     <kiln:block name="page-heading">
       <kiln:super />
@@ -48,12 +48,12 @@
       </div>
     </kiln:block>
 
-    <kiln:block name="end-js">
+    <!--<kiln:block name="end-js">
       <kiln:super />
       <script src="{$kiln:assets-path}/scripts/jquery.tablesorter.js" />
       <script>
         <xsl:text>$(document).ready(function() {$(".tablesorter").tablesorter();});</xsl:text>
       </script>
-    </kiln:block>
+    </kiln:block>-->
   </kiln:child>
 </kiln:root>
