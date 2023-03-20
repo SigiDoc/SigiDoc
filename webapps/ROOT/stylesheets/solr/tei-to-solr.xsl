@@ -86,6 +86,16 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
+  <xsl:template match="tei:collection" mode="facet_collection">
+    <field name="collection">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  <xsl:template match="tei:repository" mode="facet_repository">
+    <field name="repository">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
@@ -104,6 +114,8 @@
     <xsl:call-template name="field_saints-related_terms"/>
     <xsl:call-template name="field_iconography"/>
     <xsl:call-template name="field_legend_case"/>
+    <xsl:call-template name="field_collection"/>
+    <xsl:call-template name="field_repository"/>
     
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
@@ -144,6 +156,12 @@
   </xsl:template> 
   <xsl:template name="field_legend_case">
     <xsl:apply-templates mode="facet_legend_case" select="//tei:rs[@type='legendsCases']/@ref"/>
+  </xsl:template>
+  <xsl:template name="field_collection">
+    <xsl:apply-templates mode="facet_collection" select="//tei:collection[@xml:lang='en']"/>
+  </xsl:template>
+  <xsl:template name="field_repository">
+    <xsl:apply-templates mode="facet_repository" select="//tei:msIdentifier/tei:repository[@xml:lang='en']"/>
   </xsl:template>
 
 </xsl:stylesheet>
