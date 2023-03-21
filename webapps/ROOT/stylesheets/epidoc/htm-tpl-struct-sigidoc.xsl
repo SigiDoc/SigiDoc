@@ -467,7 +467,7 @@
               <xsl:when test="//t:msContents//t:textLang[@n='r']//t:seg//text()">
                 <xsl:apply-templates select="//t:msContents//t:textLang[@n='r']//t:seg"/>
               </xsl:when>
-              <xsl:otherwise>Byzantine Greek</xsl:otherwise>
+              <xsl:otherwise>―</xsl:otherwise>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="layout-field">Layout of field</i18n:text></dt>
