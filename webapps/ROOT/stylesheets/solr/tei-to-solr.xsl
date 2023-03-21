@@ -31,9 +31,12 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:placeName/@ref" mode="facet_place_names">
+  <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_place_names">
     <field name="place_names">
-      <xsl:value-of select="."/>
+      <xsl:variable name="geography" select="doc('../../content/xml/authority/geography.xml')"/>
+      <xsl:variable name="geo-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la']"/>
     </field>
   </xsl:template>
   <xsl:template match="tei:rs[@type='dignity'][@ref][ancestor::tei:div/@type='textpart']" mode="facet_dignities">
@@ -157,7 +160,7 @@
     <xsl:apply-templates mode="facet_persons" select="//tei:persName/@ref"/>
   </xsl:template>
   <xsl:template name="field_place_names">
-    <xsl:apply-templates mode="facet_place_names" select="//tei:placeName/@ref"/>
+    <xsl:apply-templates mode="facet_place_names" select="//tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_dignities">
     <xsl:apply-templates mode="facet_dignities" select="//tei:rs[@type='dignity'][@ref][ancestor::tei:div/@type='textpart']"/>
