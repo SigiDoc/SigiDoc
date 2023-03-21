@@ -6,10 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <seg xml:lang="en">Seal of Romanos Ismail, protokentarchos of the Opsikion</seg>
-                    <seg xml:lang="fr">Sceau de Romain Ismaïl, protokentarque de l’Opsikion</seg>
-                </title>
+                <title  xml:lang="en">Seal of Romanos Ismail, protokentarchos of the Opsikion</title>
+                <title  xml:lang="fr">Sceau de Romain Ismaïl, protokentarque de l’Opsikion</title>
                 <editor>
                     <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
                     <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
@@ -43,10 +41,11 @@
                         <settlement>
                             <seg></seg>
                         </settlement>
-                        <institution></institution>
-                        <repository></repository>
-                        <collection xml:lang="en">Sopracasa collection</collection>
-                        <collection xml:lang="fr">Collection Sopracasa</collection>
+                        <institution/>
+                        <repository xml:lang="it">Biblioteca nazionale</repository>
+                        <repository xml:lang="en">National Library</repository>
+                        <collection/>
+                        
                         <idno>26</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -301,7 +300,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
-                          <rs type="legendsCases" ref="legendsCases.xml#Dat">
+                          <rs type="legendsCases" ref="#dat">
                                   <lb n="1"/>
                                   +
                                   <rs type="invocation" ref="invocation.xml#Κύριε1">
@@ -312,11 +311,17 @@
                                           <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                                       </w>
                                   </rs>
-                                  <lb n="2"/>
-                                  <persName type="unattested" ref="prosopography.xml#Ἰσμαίλ_Ῥωμανός">
-                                      <name type="forename">
+                                  <lb n="2"/> <placeName ref="#geo0003">asdfg</placeName><persName ref="#andreas-michael">asdfghj</persName> <rs type="saintsTerms" subtype="label" ref="#st-nicholas">asdfg</rs> <rs type="dignity" ref="#illoustrios">asdfghj</rs><placeName ref="#geo0004">asdfg</placeName> <rs type="title" ref="#dominus">asdfghj</rs>
+                              <rs type="title" ref="#basileus">asdfghj</rs> <rs type="office" subtype="civil" ref="#krites_001">sdfg</rs>
+                              <rs type="office" subtype="military" ref="#topoter_001">sdfg</rs> <rs type="office" subtype="ecclesiastical" ref="#vescovo">sdfg</rs>
+                              <persName ref="#apsimaros-1">adfghjk</persName>    <persName ref="#konstantinos-erotikos">asdfgh</persName>
+                              <persName ref="#nikephoros-komnenos">asdfghj</persName> <persName ref="#alexios-komnenos">asdfg</persName>
+<persName ref="#chourselios-fraggos">asdf</persName> <persName ref="#zacharias-fraggos">asdf</persName> <persName ref="#niketas-saronites">asd</persName> <persName ref="#niketas-1">asd</persName>                               
+                              <persName ref="#andreas-michael"> 
+                                      <!--<name type="forename">
                                           <expan><abbr>Ῥομαν</abbr><ex>ῷ</ex></expan>
-                                      </name> 
+                                      </name>--> 
+                                      <forename><expan><abbr>Ῥομαν</abbr><ex>ῷ</ex></expan></forename>
                                       <rs type="officeMilitary" ref="officeMilitary.xml#πρωτοκένταρχος_τοῦ_Ὀψικίου">
                                           <expan><ex>πρωτο</ex>
                                   <lb n="3" break="no"/><ex>κεν</ex><abbr>τάρχ</abbr><ex>ῳ</ex></expan> 
