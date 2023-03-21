@@ -36,62 +36,94 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='dignity']/@ref" mode="facet_dignities">
+  <xsl:template match="tei:rs[@type='dignity'][@ref][ancestor::tei:div/@type='textpart']" mode="facet_dignities">
     <field name="dignities">
-      <xsl:value-of select="."/>
+      <xsl:variable name="dignities" select="doc('../../content/xml/authority/dignities.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
+      <xsl:value-of select="$dignities//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='office'][@subtype='civil']/@ref" mode="facet_civil_offices">
+  <xsl:template match="tei:rs[@type = 'office'][@subtype='civil'][@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_civil_offices">
     <field name="civil_offices">
-      <xsl:value-of select="."/>
+      <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$offices//tei:list[@type = 'civil']//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+      />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='office'][@subtype='ecclesiastical']/@ref" mode="facet_ecclesiastical_offices">
+  <xsl:template match="tei:rs[@type = 'office'][@subtype='ecclesiastical'][@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_ecclesiastical_offices">
     <field name="ecclesiastical_offices">
-      <xsl:value-of select="."/>
+      <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
+      <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$offices//tei:list[@type = 'ecclesiastical']//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+      />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='office'][@subtype='military']/@ref" mode="facet_military_offices">
+  <xsl:template match="tei:rs[@type = 'office'][@subtype='military'][@ref][ancestor::tei:div/@type = 'textpart']"  mode="facet_military_offices">
     <field name="military_offices">
-      <xsl:value-of select="."/>
+      <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$offices//tei:list[@type = 'military']//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+      />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='title']/@ref" mode="facet_titles">
+  <xsl:template match="tei:rs[@type='title'][@ref][ancestor::tei:div/@type='textpart']" mode="facet_titles">
     <field name="titles">
-      <xsl:value-of select="."/>
+      <xsl:variable name="titles" select="doc('../../content/xml/authority/titles.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
+      <xsl:value-of select="$titles//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='marianTerms']/@ref" mode="facet_marian_terms">
+  <xsl:template match="tei:rs[@type='marianTerms'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_marian_terms">
     <field name="marian_terms">
-      <xsl:value-of select="."/>
+      <xsl:variable name="appellatives" select="doc('../../content/xml/authority/appellatives.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$appellatives//tei:list[@type = 'marianTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+      />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='christTerms']/@ref" mode="facet_christ-related_terms">
+  <xsl:template match="tei:rs[@type='christTerms'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_christ-related_terms">
     <field name="christ-related_terms">
-      <xsl:value-of select="."/>
+      <xsl:variable name="appellatives" select="doc('../../content/xml/authority/appellatives.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$appellatives//tei:list[@type = 'christTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+      />
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='saintsTerms']/@ref" mode="facet_saints-related_terms">
+  <xsl:template match="tei:rs[@type='saintsTerms'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_saints-related_terms">
     <field name="saints-related_terms">
-      <xsl:value-of select="."/>
+      <xsl:variable name="appellatives" select="doc('../../content/xml/authority/appellatives.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$appellatives//tei:list[@type = 'saintsTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+      />
     </field>
   </xsl:template>
-  <xsl:template match="tei:figDesc[@n='whole']/@ref" mode="facet_iconography">
+  <xsl:template match="tei:figDesc[@n='whole'][@xml:lang='en']" mode="facet_iconography">
     <field name="iconography">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type='legendsCases']/@ref" mode="facet_legend_case">
+  <xsl:template match="tei:rs[@type='legendsCases'][@ref][ancestor::tei:div/@type='textpart']" mode="facet_legend_case">
     <field name="legend_case">
-      <xsl:value-of select="."/>
+      <xsl:variable name="cases" select="doc('../../content/xml/authority/legendsCases.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
+      <xsl:value-of select="$cases//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']" />
+      <!--here as well as in iconography we could find a way to change the language according to the main language of the page-->
     </field>
   </xsl:template>
-  <xsl:template match="tei:collection" mode="facet_collection">
+  <xsl:template match="tei:collection[@xml:lang='en']" mode="facet_collection">
     <field name="collection">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:repository" mode="facet_repository">
+  <xsl:template match="tei:msIdentifier/tei:repository[@xml:lang='en']" mode="facet_repository">
     <field name="repository">
       <xsl:value-of select="."/>
     </field>
@@ -128,34 +160,34 @@
     <xsl:apply-templates mode="facet_place_names" select="//tei:placeName/@ref"/>
   </xsl:template>
   <xsl:template name="field_dignities">
-    <xsl:apply-templates mode="facet_dignities" select="//tei:rs[@type='dignity']/@ref"/>
+    <xsl:apply-templates mode="facet_dignities" select="//tei:rs[@type='dignity'][@ref][ancestor::tei:div/@type='textpart']"/>
   </xsl:template>
   <xsl:template name="field_civil_offices">
-    <xsl:apply-templates mode="facet_civil_offices" select="//tei:rs[@type='office'][@subtype='civil']/@ref"/>
+    <xsl:apply-templates mode="facet_civil_offices" select="//tei:rs[@type = 'office'][@subtype='civil'][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_ecclesiastical_offices">
-    <xsl:apply-templates mode="facet_ecclesiastical_offices" select="//tei:rs[@type='office'][@subtype='ecclesiastical']/@ref"/>
+    <xsl:apply-templates mode="facet_ecclesiastical_offices" select="//tei:rs[@type = 'office'][@subtype='ecclesiastical'][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_military_offices">
-    <xsl:apply-templates mode="facet_military_offices" select="//tei:rs[@type='office'][@subtype='military']/@ref"/>
+    <xsl:apply-templates mode="facet_military_offices" select="//tei:rs[@type = 'office'][@subtype='military'][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_titles">
-    <xsl:apply-templates mode="facet_titles" select="//tei:rs[@type='title']/@ref"/>
+    <xsl:apply-templates mode="facet_titles" select="//tei:rs[@type='title'][@ref][ancestor::tei:div/@type='textpart']"/>
   </xsl:template>
   <xsl:template name="field_marian_terms">
-    <xsl:apply-templates mode="facet_marian_terms" select="//tei:rs[@type='marianTerms']/@ref"/>
+    <xsl:apply-templates mode="facet_marian_terms" select="//tei:rs[@type='marianTerms'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_christ-related_terms">
-    <xsl:apply-templates mode="facet_christ-related_terms" select="//tei:rs[@type='christTerms']/@ref"/>
+    <xsl:apply-templates mode="facet_christ-related_terms" select="//tei:rs[@type='christTerms'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_saints-related_terms">
-    <xsl:apply-templates mode="facet_saints-related_terms" select="//tei:rs[@type='saintsTerms']/@ref"/>
+    <xsl:apply-templates mode="facet_saints-related_terms" select="//tei:rs[@type='saintsTerms'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_iconography">
-    <xsl:apply-templates mode="facet_iconography" select="//tei:figDesc[@n='whole']/@ref"/>
+    <xsl:apply-templates mode="facet_iconography" select="//tei:figDesc[@n='whole'][@xml:lang='en']"/>
   </xsl:template> 
   <xsl:template name="field_legend_case">
-    <xsl:apply-templates mode="facet_legend_case" select="//tei:rs[@type='legendsCases']/@ref"/>
+    <xsl:apply-templates mode="facet_legend_case" select="//tei:rs[@type='legendsCases'][@ref][ancestor::tei:div/@type='textpart']"/>
   </xsl:template>
   <xsl:template name="field_collection">
     <xsl:apply-templates mode="facet_collection" select="//tei:collection[@xml:lang='en']"/>
