@@ -26,9 +26,24 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:persName/@ref" mode="facet_persons">
+  <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_persons">
     <field name="persons">
-      <xsl:value-of select="."/>
+      <xsl:variable name="prosopography" select="doc('../../content/xml/authority/prosopography.xml')"/>
+      <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
+      <xsl:variable name="forename"
+        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+      <xsl:variable name="surname"
+        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:surname/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+      <xsl:choose>
+        <xsl:when test="$forename and $surname">
+          <xsl:value-of
+            select="concat($prosopography//tei:person[@xml:id = $pers-id]//$surname, ', ', $forename)"
+          />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of
+            select="$prosopography//tei:person[@xml:id = $pers-id]//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"
+          /></xsl:otherwise></xsl:choose>
     </field>
   </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']" mode="facet_place_names">
@@ -157,7 +172,7 @@
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type='SigiDocID']"/>
   </xsl:template>
   <xsl:template name="field_persons">
-    <xsl:apply-templates mode="facet_persons" select="//tei:persName/@ref"/>
+    <xsl:apply-templates mode="facet_persons" select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_place_names">
     <xsl:apply-templates mode="facet_place_names" select="//tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"/>
