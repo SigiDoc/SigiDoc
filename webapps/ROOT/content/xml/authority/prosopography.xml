@@ -103,8 +103,10 @@
                 </person>
                 <person sex="m" xml:id="georgios-1" source="TM_03" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Γεώργιος</reg>
-                        <orig>Γεωργίῳ</orig>
+                        <forename>
+                            <reg xml:lang="grc">Γεώργιος</reg>
+                            <orig>Γεωργίῳ</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
@@ -122,8 +124,11 @@
                 </person>
                 <person sex="m" xml:id="michael-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Μιχαήλ</reg>
+                        
+                        <forename>
+                            <reg xml:lang="grc">Μιχαήλ</reg>
                         <orig source="TM_05">Μιχαήλ</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                 </person>
@@ -161,8 +166,8 @@
                 </person>
                 <person sex="m" xml:id="niketas-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Νικήτας</reg>
-                        <orig source="TM_07">Νηκίτα</orig>
+                        <forename><reg xml:lang="grc">Νικήτας</reg>
+                        <orig source="TM_07">Νηκίτα</orig></forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
                         century</floruit>
@@ -202,8 +207,9 @@
                 </person>
                 <person sex="m" xml:id="ioannes-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Ἰωάννης</reg>
-                        <orig source="TM_12">Ἰωάννης</orig>
+                        
+                        <forename><reg xml:lang="grc">Ἰωάννης</reg>
+                        <orig source="TM_12">Ἰωάννης</orig></forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
                         century</floruit>
@@ -261,8 +267,9 @@
                 </person>
                 <person sex="m" xml:id="niketas-2" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Νικήτας</reg>
-                        <orig source="TM_18">Νικήτα</orig>
+                        <forename>
+                            <reg xml:lang="grc">Νικήτας</reg>
+                        <orig source="TM_18">Νικήτα</orig></forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>

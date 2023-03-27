@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
- xmlns="http://www.tei-c.org/ns/1.0">
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title  xml:lang="en">Seal of Romanos Ismail, protokentarchos of the Opsikion</title>
-                <title  xml:lang="fr">Sceau de Romain Ismaïl, protokentarque de l’Opsikion</title>
+                <title xml:lang="en">Seal of Romanos Ismail, protokentarchos of the Opsikion</title>
+                <title xml:lang="fr">Sceau de Romain Ismaïl, protokentarque de l’Opsikion</title>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
-                    <persName xml:lang="fr"><forename>Vivien</forename> <surname>Prigent</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename>
+                        <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="fr"><forename>Vivien</forename>
+                        <surname>Prigent</surname></persName>
                 </editor>
             </titleStmt>
             <editionStmt>
@@ -18,7 +20,8 @@
                     <seg>Digital conversion</seg>
                 </edition>
                 <editor>
-                    <persName xml:lang="it"><forename>Alessio</forename> <surname>Sopracasa</surname></persName>
+                    <persName xml:lang="it"><forename>Alessio</forename>
+                        <surname>Sopracasa</surname></persName>
                 </editor>
             </editionStmt>
             <publicationStmt>
@@ -28,7 +31,9 @@
                 <idno type="sequence">0024</idno>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License.</licence>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                        Commons Attributions-NonCommercial-ShareAlike 4.0 International
+                        License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -39,13 +44,13 @@
                             <seg xml:lang="fr">Italie</seg>
                         </country>
                         <settlement>
-                            <seg></seg>
+                            <seg/>
                         </settlement>
                         <institution/>
                         <repository xml:lang="it">Biblioteca nazionale</repository>
                         <repository xml:lang="en">National Library</repository>
                         <collection/>
-                        
+
                         <idno>26</idno>
                         <altIdentifier xml:lang="en">
                             <repository/>
@@ -82,8 +87,10 @@
                                             <seg xml:lang="en">Seal</seg>
                                             <seg xml:lang="fr">Sceau</seg>
                                         </term>
-                                        <interp type="workType" xml:lang="en">Original impression</interp>
-                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
                                     </objectType>
                                     <material>
                                         <seg xml:lang="en">Lead</seg>
@@ -98,7 +105,8 @@
                                     <measure type="channelOrient" unit="clock"/>
                                 </support>
                                 <condition rend="notCentered">
-                                    <p>Etat de conservation correct au droit et bon au revers ; frappe légèrement décentrée</p>
+                                    <p>Etat de conservation correct au droit et bon au revers ;
+                                        frappe légèrement décentrée</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -117,19 +125,21 @@
                                     </rs>
                                     <rs type="matrix" subtype="notSurviving">
                                         <idno type="SigiDoc">22</idno>
-                                    </rs>                                  
+                                    </rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote n="whole">
-                                <seg>Dans la légende au revers, le système d’abréviation du titre est audacieux</seg>
+                                <seg>Dans la légende au revers, le système d’abréviation du titre
+                                    est audacieux</seg>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" ana="iconography.xml#St_Nicholas" xml:lang="en">Bust of St Nicholas</figDesc>
+                                    <figDesc n="whole" ana="iconography.xml#St_Nicholas"
+                                        xml:lang="en">Bust of St Nicholas</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -137,13 +147,16 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <seg></seg>
+                                <seg/>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="prosopography lettering titulature" cert="high">
+                            <origDate type="analysis" notBefore="1041" notAfter="1060"
+                                evidence="prosopography lettering titulature" cert="high">
                                 <seg xml:lang="en">11th C., middle</seg>
                                 <seg xml:lang="fr">XIe s., milieu</seg>
-                                <interp type="datingCriteria" xml:lang="en">prosopography, titulature, lettering</interp>
-                                <interp type="datingCriteria" xml:lang="fr">prosopographie, titulature, épigraphie</interp>
+                                <interp type="datingCriteria" xml:lang="en">prosopography,
+                                    titulature, lettering</interp>
+                                <interp type="datingCriteria" xml:lang="fr">prosopographie,
+                                    titulature, épigraphie</interp>
                             </origDate>
                         </origin>
                         <provenance type="found"/>
@@ -182,16 +195,18 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="r">
-                                    <seg></seg>
+                                    <seg/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r">Buste de saint Nicolas au
-                                            nimbe de grènetis; le saint, en costume épiscopal, bénit de la main droite et tient de la
-                                            gauche les Évangiles; de part et d’autre de l’effigie, vocable.</figDesc>
-                                        <figDesc n="decoR">Cercle de grènetis partiellement conservé</figDesc>
+                                        <figDesc n="r">Buste de saint Nicolas au nimbe de grènetis;
+                                            le saint, en costume épiscopal, bénit de la main droite
+                                            et tient de la gauche les Évangiles; de part et d’autre
+                                            de l’effigie, vocable.</figDesc>
+                                        <figDesc n="decoR">Cercle de grènetis partiellement
+                                            conservé</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -232,14 +247,17 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="v">
-                                    <seg></seg>
+                                    <seg/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
                                         <figDesc n="v"/>
-                                        <figDesc n="decoV">Cercle de grènetis en partie conservé; croisette précédant la légende; losange de perles surmontant la légende; perle entre deux tirets suivant la légende</figDesc>
+                                        <figDesc n="decoV">Cercle de grènetis en partie conservé;
+                                            croisette précédant la légende; losange de perles
+                                            surmontant la légende; perle entre deux tirets suivant
+                                            la légende</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -257,38 +275,41 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl><p/></editorialDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
         </encodingDesc>
         <revisionDesc>
             <change when="2021-09-27" who="AS">Wikipedia style footnotes added</change>
             <change when="2021-08-10" who="AS">Lemmatisation added to saint's label</change>
             <change when="2021-08-02" who="AS">Divs for commentary and footnotes changed</change>
             <change when="2021-03-17" who="AS">Bibliographic referencing system changed</change>
-            <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes added</change>
+            <change when="2020-07-25" who="AS">Bibliographic references improved and footnotes
+                added</change>
             <change when="2020-06-08" who="AS">Minor adjustements to leidenisation</change>
             <change when="2019-01-09" who="AS">Changes for EFES</change>
             <change when="2018-08-14" who="AS">First version of the record</change>
         </revisionDesc>
-      </teiHeader>
-      <facsimile>
-              <surface type="obverse">
-                  <desc>Obverse</desc>
-                  <graphic url="26.jpg" scale="1.5">
-                      <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
-                      <desc xml:lang="fr">Reproduction numérique de l'avers (2015)</desc>
-                  </graphic>
-              </surface>
-              <surface type="reverse">
-                  <desc>Reverse</desc>
-                  <graphic url="26b.jpg" scale="1.5">
-                      <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
-                      <desc xml:lang="fr">Reproduction numérique du revers (2015)</desc>
-                  </graphic>
-              </surface>
-      </facsimile>
-      <text>
-          <body>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
+    </teiHeader>
+    <facsimile>
+        <surface type="obverse">
+            <desc>Obverse</desc>
+            <graphic url="26.jpg" scale="1.5">
+                <desc xml:lang="en">Digital reproduction of the obverse (2015).</desc>
+                <desc xml:lang="fr">Reproduction numérique de l'avers (2015)</desc>
+            </graphic>
+        </surface>
+        <surface type="reverse">
+            <desc>Reverse</desc>
+            <graphic url="26b.jpg" scale="1.5">
+                <desc xml:lang="en">Digital reproduction of the reverse (2015).</desc>
+                <desc xml:lang="fr">Reproduction numérique du revers (2015)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>
@@ -311,12 +332,26 @@
                                           <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                                       </w>
                                   </rs>
-                                  <lb n="2"/> <placeName ref="#geo0003">asdfg</placeName><persName ref="#andreas-michael">asdfghj</persName> <rs type="saintsTerms" subtype="label" ref="#st-nicholas">asdfg</rs> <rs type="dignity" ref="#illoustrios">asdfghj</rs><placeName ref="#geo0004">asdfg</placeName> <rs type="title" ref="#dominus">asdfghj</rs>
-                              <rs type="title" ref="#basileus">asdfghj</rs> <rs type="office" subtype="civil" ref="#krites_001">sdfg</rs>
-                              <rs type="office" subtype="military" ref="#topoter_001">sdfg</rs> <rs type="office" subtype="ecclesiastical" ref="#vescovo">sdfg</rs>
-                              <persName ref="#apsimaros-1">adfghjk</persName>    <persName ref="#konstantinos-erotikos">asdfgh</persName>
-                              <persName ref="#nikephoros-komnenos">asdfghj</persName> <persName ref="#alexios-komnenos">asdfg</persName>
-<persName ref="#chourselios-fraggos">asdf</persName> <persName ref="#zacharias-fraggos">asdf</persName> <persName ref="#niketas-saronites">asd</persName> <persName ref="#niketas-1">asd</persName>                               
+                                  <lb n="2"/> <placeName ref="#geo0003">asdfg</placeName>
+                              <persName ref="#andreas-michael">asdfghj</persName>
+                              <rs type="saintsTerms" subtype="label" ref="#st-nicholas">asdfg</rs> 
+                              <rs type="dignity" ref="#illoustrios">asdfghj</rs>
+                              <placeName ref="#geo0004">asdfg</placeName> 
+                              <rs type="title" ref="#dominus">asdfghj</rs>
+                              <rs type="title" ref="#basileus">asdfghj</rs> 
+                              <rs type="office" subtype="civil" ref="#krites_001">sdfg</rs>
+                              <rs type="office" subtype="military" ref="#topoter_001">sdfg</rs> 
+                              <rs type="office" subtype="ecclesiastical" ref="#vescovo">sdfg</rs>
+                              <persName ref="#apsimaros-1">adfghjk</persName>   
+                              <persName ref="#konstantinos-erotikos">asdfgh</persName>
+                              <persName ref="#nikephoros-komnenos">asdfghj</persName> 
+                              <persName ref="#alexios-komnenos">asdfg</persName>
+<persName ref="#chourselios-fraggos">asdf</persName>  
+                              <persName ref="#niketas-1">asdfg</persName>
+                              <persName ref="#leon-2">asdfg</persName>
+                              <persName ref="#niketas-1">asd</persName>     
+                              <persName ref="#niketas-2">asd</persName>
+                              <persName ref="#ioannes-radenos">asdfgh</persName>
                               <persName ref="#andreas-michael"> 
                                       <!--<name type="forename">
                                           <expan><abbr>Ῥομαν</abbr><ex>ῷ</ex></expan>
@@ -343,7 +378,7 @@
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
+            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc">
                   <div type="textpart" subtype="label" n="obv" rend="columns">
                       <ab>
                           <cb n="a"/>|ν.
@@ -362,17 +397,17 @@
                       </ab>
                   </div>
               </div>
-              <div type="apparatus">
+            <div type="apparatus">
                       <listApp>
                           <app loc="4" from="#choice1"><note>Sur le sceau τῷ est gravé avec omicron.</note></app>
                       </listApp>
               </div>
-              <div type="translation">
+            <div type="translation">
                   <p>Ὁ ἅγιος Νικόλαος. / + Κύριε βοήθει Ῥομανῷ πρωτοκεντάρχῳ τοῦ Ὀψικίου τῷ Ἰσμαίλ.</p>
                   <p xml:lang="en">St Nicholas. / Lord aid Romanos Ismail, protokentarchos of the Opsikion.</p>
                   <p xml:lang="fr">Saint Nicolas. / Seigneur aide Romain Ismaïl, protokentarque de l’Opsikion.</p>
               </div>
-              <div type="commentary" subtype="text">
+            <div type="commentary" subtype="text">
                   <p>Le système d’abréviation du titre est audacieux mais la lecture ne fait pas de doute
                       car plusieurs bulles attestent l’existence au XIe siècle de la fonction de protokentarque de
                       thème. On connaît ainsi des titulaires de la charge pour les thèmes de la mer Égée [1],
@@ -391,7 +426,7 @@
                       en Orient à la fin du Xe siècle, était sans doute d’origine arabe [8]. Elle n’était pas encore
                       attestée à notre connaissance.</p>
               </div>
-              <div type="commentary" subtype="footnotes">
+            <div type="commentary" subtype="footnotes">
                   <p xml:id="footnote-1">
                       [1]. <bibl><ptr target="DOseals2"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.2368/view">40.24</ref></citedRange></bibl>.
                   </p>
@@ -420,9 +455,9 @@
                       [8]. <bibl><ptr target="Cheynet1995"/></bibl>.
                   </p>
               </div>
-              <div type="bibliography" subtype="edition">
+            <div type="bibliography" subtype="edition">
                   <p><bibl><ptr target="Sopracasa2017"/>, <citedRange>22, p. 725-726</citedRange></bibl>.</p>
               </div>
-          </body>
-      </text>
-</TEI>             
+        </body>
+    </text>
+</TEI>
