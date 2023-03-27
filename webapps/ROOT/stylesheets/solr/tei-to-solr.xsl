@@ -56,7 +56,7 @@
       <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
       <xsl:variable name="forename"
         select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
-      <xsl:value-of select="$forename[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+      <xsl:value-of select="$forename"/>
     </field>
   </xsl:template>
   <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
