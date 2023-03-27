@@ -161,8 +161,8 @@
                 </person>
                 <person sex="m" xml:id="niketas-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Νικήτας</reg>
-                        <orig source="TM_07">Νηκίτα</orig>
+                        <forename><reg xml:lang="grc">Νικήτας</reg>
+                        <orig source="TM_07">Νηκίτα</orig></forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
                         century</floruit>
