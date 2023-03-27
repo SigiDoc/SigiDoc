@@ -32,7 +32,7 @@
             />
           </field>
           <field name="index_entry_type">
-            <xsl:choose>
+            <!--<xsl:choose>
               <xsl:when test="@subtype = 'civil'">
                 <xsl:text>civil</xsl:text>
               </xsl:when>
@@ -43,7 +43,8 @@
                 <xsl:text>ecclesiastical</xsl:text>
               </xsl:when>
               <xsl:otherwise/>
-            </xsl:choose>
+            </xsl:choose>-->
+            <xsl:value-of select="@subtype"/>
           </field>
           <xsl:apply-templates select="current-group()"/>
         </doc>
