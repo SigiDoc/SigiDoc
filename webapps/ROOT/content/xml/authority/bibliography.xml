@@ -376,6 +376,15 @@
                     <pubPlace>Sofia</pubPlace>
                     <date>2009</date>
                 </bibl>
+                
+                <bibl type="book" xml:id="JordanovNAIM">
+                    <bibl type="abbrev">Jordanov, Sofia</bibl>
+                    <author><forename>I.</forename>
+                        <surname>Jordanov</surname></author>
+                    <title level="m">The Collection of Medieval Seals from the National Archaological Museum Sofia</title>
+                    <pubPlace>Sofia</pubPlace>
+                    <date>2011</date>
+                </bibl>
 
                 <!-- Khoury -->
 
@@ -929,8 +938,7 @@
                     <date>2006</date>
                     <biblScope unit="page">p. 213-226</biblScope>
                 </bibl>                
-                <bibl type="journalArticle" xml:id="Cheynet1983"
-                    corresp="http://zotero.org/users/3169239/items/PQ4ALAQ6">
+                <bibl type="journalArticle" xml:id="Cheynet1983">
                     <bibl type="abbrev">Cheynet, 1983</bibl>
                     <author><forename>J.-Cl.</forename>
                         <surname>Cheynet</surname></author>
@@ -2081,6 +2089,17 @@
                     <date>2003</date>
                     <biblScope unit="page">p. 27-38</biblScope>
                 </bibl>
+                
+                <!--Martiniani-Reber--> 
+                <bibl type="book" xml:id="Martiniani-Reber">
+                    <bibl type="abbrev">Martiniani-Reber, 2015</bibl>
+                    <author><forename>M.</forename>
+                        <surname>Martiniani-Reber</surname></author>
+                    <title level="m">Byzance en Suisse</title>
+                    <pubPlace>Milan</pubPlace>
+                    <publisher>5 Continents Éditions</publisher>
+                    <date>2015</date>
+                </bibl>
 
                 <!-- Kouroupou -->
 
@@ -2499,6 +2518,17 @@
                 </bibl>
 
                 <!-- Nesbitt -->
+                <bibl type="book" xml:id="Nesbitt2009">
+                    <bibl type="abbrev">Nesbitt <hi rend="italic">et al.</hi> 2009</bibl>
+                    <title level="m">Highlights from the Robert Hecht, Jr., Collection of Byzantine Seals</title>
+                    <author><forename>J.</forename><surname>Nesbitt</surname></author>
+                    <author><forename>A.-K.</forename><surname>Wassiliou-Seibt</surname></author>
+                    <author><forename>W.</forename><surname>Seibt</surname></author>
+                    <pubPlace>Thessaloniki</pubPlace>
+                    <publisher>Aristotle University of Thessaloniki, Byzantine Research Center</publisher>
+                    <date>2009</date>
+                </bibl>
+
 
                 <bibl type="journalArticle" xml:id="Nesbitt1990"
                     corresp="http://zotero.org/users/3169239/items/YN2LBVX9">
