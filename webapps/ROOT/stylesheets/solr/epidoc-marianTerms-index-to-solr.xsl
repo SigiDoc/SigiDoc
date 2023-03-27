@@ -32,18 +32,7 @@
             />
           </field>
           <field name="index_entry_type">
-            <xsl:choose>
-              <xsl:when test="@subtype = 'appellative'">
-                <xsl:text>Appellative</xsl:text>
-              </xsl:when>
-              <xsl:when test="@subtype = 'label'">
-                <xsl:text>Label</xsl:text>
-              </xsl:when>
-              <xsl:when test="@subtype = 'sigla'">
-                <xsl:text>Sigla</xsl:text>
-              </xsl:when>
-              <xsl:otherwise/>
-            </xsl:choose>
+            <xsl:value-of select="@subtype"/>
           </field>
           <xsl:apply-templates select="current-group()"/>
         </doc>
