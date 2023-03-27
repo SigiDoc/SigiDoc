@@ -10984,7 +10984,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
         <!--<xs:element minOccurs="0" ref="tei:front"/>
         <xs:choice maxOccurs="unbounded">
           <xs:group ref="tei:tei_model.graphicLike"/>-->
-          <xs:element maxOccurs="2" ref="tei:surface"/>
+        <xs:element maxOccurs="unbounded" ref="tei:surface"/>
           <!--<xs:element ref="tei:surfaceGrp"/>-->
         <!--</xs:choice>-->
         <!--<xs:element minOccurs="0" ref="tei:back"/>-->
@@ -11043,6 +11043,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
           <xs:restriction base="xs:token">
             <xs:enumeration value="obverse"/>
             <xs:enumeration value="reverse"/>
+            <xs:enumeration value="further"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
