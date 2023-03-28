@@ -83,7 +83,7 @@
     </td>
   </xsl:template> 
   
-  <xsl:template match="str[@name='index_ext_reference']">
+  <xsl:template match="str[@name='index_ext_reference']"> <!--added by SigiDoc (Jan Bigalke) for external references in placeName and persName--> 
     <td>
       <xsl:variable name="bibls">
         <xsl:choose>
