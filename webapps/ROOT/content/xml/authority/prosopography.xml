@@ -122,8 +122,10 @@
                 </person>
                 <person sex="m" xml:id="michael-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Μιχαήλ</reg>
+                        <forename>
+                            <reg xml:lang="grc">Μιχαήλ</reg>
                         <orig source="TM_05">Μιχαήλ</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                 </person>
@@ -161,8 +163,10 @@
                 </person>
                 <person sex="m" xml:id="niketas-1" resp="#AS">
                     <persName>
-                        <forename><reg xml:lang="grc">Νικήτας</reg>
-                        <orig source="TM_07">Νηκίτα</orig></forename>
+                        <forename>
+                            <reg xml:lang="grc">Νικήτας</reg>
+                        <orig source="TM_07">Νηκίτα</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
                         century</floruit>
