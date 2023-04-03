@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+  xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -26,7 +31,7 @@
       <!--Prosopography and geography-->
 
       <div xml:id="prosopography">
-        <head n="1">Persons</head>
+        <head n="1"><i18n:text i18n:key="persons">Persons</i18n:text></head>
 
         <div type="headings">
           <list>
@@ -567,3 +572,4 @@
     </body>
   </text>
 </TEI>
+</kiln:root>
