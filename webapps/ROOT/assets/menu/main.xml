@@ -72,5 +72,6 @@
     <item label="Deutsch" i18n:key="de" language_switch="de"/>
     <item label="Ελληνικά" i18n:key="el" language_switch="el"/>
     <item label="Български" i18n:key="bg" language_switch="bg"/>
+    <item label="Italiano" i18n:key="it" language_switch="it"/>
   </menu>
 </root>
