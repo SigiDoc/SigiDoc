@@ -39,7 +39,7 @@
         <dt width="150" align="left"><i18n:text i18n:key="general-layout">General layout</i18n:text></dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:TEI//t:teiHeader//t:fileDesc//t:sourceDesc//t:msDesc//t:physDesc//t:objectDesc//t:layoutDesc//t:layout[@n='whole']//t:rs[@type='layout']//t:seg">
+            <xsl:when test="//t:TEI//t:teiHeader//t:fileDesc//t:sourceDesc//t:msDesc//t:physDesc//t:objectDesc//t:layoutDesc//t:layout[@n='whole']//t:rs[@type='layout']//t:seg//text()">
               <xsl:apply-templates select="//t:TEI//t:teiHeader//t:fileDesc//t:sourceDesc//t:msDesc//t:physDesc//t:objectDesc//t:layoutDesc//t:layout[@n='whole']//t:rs[@type='layout']//t:seg"/>
             </xsl:when>
             <xsl:otherwise>―</xsl:otherwise>
@@ -74,7 +74,7 @@
                 </xsl:when>
               </xsl:choose>
             </xsl:when>
-            <xsl:otherwise/>
+            <xsl:otherwise>―</xsl:otherwise>
           </xsl:choose>
         </dd>
       </dl>
