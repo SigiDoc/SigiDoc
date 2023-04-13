@@ -29,7 +29,7 @@
         <body>
             <listPlace>
                 <place xml:id="geo0001">
-                    <placeName xml:lang="grc">Köln</placeName>
+                    <placeName xml:lang="grc">Ἀντιόχεια</placeName>
                     <placeName xml:lang="en">Antioch</placeName>
                     <placeName xml:lang="fr">Antioche</placeName>
                     <placeName xml:lang="it">Antiochia</placeName>
