@@ -158,12 +158,12 @@
                             </origPlace>
                             <!-- for a precise year (WHEN):-->
                             <!--remember: you will most probably only need one of these. Whatever you DON'T need goes in a green comment-->
-                            <origDate type="analysis" when="0001" evidence="" cert="" resp="">
+                            <!--<origDate type="analysis" when="0001" evidence="" cert="" resp="">
                                 <seg xml:lang="en"/>
                                 <seg xml:lang="de"/>
                                 <interp type="datingCriteria" xml:lang="en"/>
                                 <interp type="datingCriteria" xml:lang="de"/>
-                            </origDate>
+                            </origDate>-->
                             <!-- for a date range or centuries (NOT BEFORE - NOT AFTER)-->
                             <origDate type="analysis" notBefore="0001" notAfter="2023" evidence="" cert=""
                                 resp="">
