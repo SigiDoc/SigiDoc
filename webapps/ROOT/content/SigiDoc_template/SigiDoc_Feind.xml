@@ -173,20 +173,20 @@
                                 <interp type="datingCriteria" xml:lang="de"/>
                             </origDate>
                             <!-- for an internal date -->
-                            <origDate type="internal" when="0001" when-custom="2023" datingMethod="">
+                            <!--<origDate type="internal" when="0001" when-custom="2023" datingMethod="">
                                 <seg xml:lang="en"/>
                                 <seg xml:lang="de"/>
                                 <interp type="datingCriteria" xml:lang="en"/>
                                 <interp type="datingCriteria" xml:lang="de"/>
-                            </origDate>
+                            </origDate>-->
                             <!-- for erroneous dating and corrections: -->
-                            <date>
+                            <!--<date>
                                 <choice>
                                     <sic resp=""/>
                                     <corr resp="" evidence="" cert=""/>
                                 </choice>
                                 <interp type="datingCriteria" xml:lang=""/>
-                            </date>
+                            </date>-->
                         </origin>
                         <provenance type="found" subtype="" when="2023" xml:lang="" source="" cert="">
                             <placeName type="ancientFindspot" ref="URI"/>
@@ -374,6 +374,14 @@
             </graphic>
         </surface>
         <surface type="reverse">
+            <desc>Reverse</desc>
+            <graphic url="" scale="">
+                <!--if you don't have the scale, delete the attribute-->
+                <desc xml:lang="en">[caption of the image]</desc>
+                <desc xml:lang="de">[Bildbeschriftung]</desc>
+            </graphic>
+        </surface>
+        <surface type="further">
             <desc>Reverse</desc>
             <graphic url="" scale="">
                 <!--if you don't have the scale, delete the attribute-->
