@@ -13,6 +13,8 @@
   <facet.field>origin_date_evidence</facet.field> 
   <facet.field>sigidoc_id_number</facet.field>-->
   <facet.field>persons</facet.field>
+  <facet.field>personal_names</facet.field>
+  <facet.field>family_names</facet.field>
   <facet.field>place_names</facet.field>
   <facet.field>dignities</facet.field>
   <facet.field>civil_offices</facet.field>

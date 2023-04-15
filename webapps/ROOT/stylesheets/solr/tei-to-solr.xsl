@@ -48,6 +48,28 @@
       </xsl:choose>
     </field>
   </xsl:template>
+  <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
+    mode="facet_personal_names">
+    <field name="personal_names">
+      <xsl:variable name="prosopography"
+        select="doc('../../content/xml/authority/prosopography.xml')"/>
+      <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
+      <xsl:variable name="forename"
+        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+      <xsl:value-of select="$forename"/>
+    </field>
+  </xsl:template>
+  <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
+    mode="facet_family_names">
+    <field name="family_names">
+      <xsl:variable name="prosopography"
+        select="doc('../../content/xml/authority/prosopography.xml')"/>
+      <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
+      <xsl:variable name="surname"
+        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:surname//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+      <xsl:value-of select="$surname"/>
+    </field>
+  </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_place_names">
     <field name="place_names">
@@ -188,7 +210,10 @@
     <xsl:call-template name="field_iconography"/>
     <xsl:call-template name="field_legend_case"/>
     <xsl:call-template name="field_collection"/>
-    <xsl:call-template name="field_institution"/>
+    <xsl:call-template name="field_repository"/>
+    <xsl:call-template name="field_personal_names"/>
+    <xsl:call-template name="field_family_names"/>
+
 
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
@@ -196,6 +221,14 @@
   </xsl:template>
   <xsl:template name="field_persons">
     <xsl:apply-templates mode="facet_persons"
+      select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
+  </xsl:template>
+  <xsl:template name="field_personal_names">
+    <xsl:apply-templates mode="facet_personal_names"
+      select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
+  </xsl:template>
+  <xsl:template name="field_family_names">
+    <xsl:apply-templates mode="facet_family_names"
       select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_place_names">

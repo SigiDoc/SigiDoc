@@ -317,7 +317,9 @@
                       <ab>
                           <rs type="legendsCases" ref="legendsCases.xml#Dat">
                                   <lb n="1"/>
-                                  +
+                                  + <!--<persName ref="#niketas-2">asdfghj</persName>--> <!--<persName ref="#niketas-saronites">asd</persName>--><!--<persName ref="#niketas-saronites">asdfg</persName>--> 
+                              <persName ref="#michael-1">asdfg</persName> 
+                              <persName ref="#ioannes-1">asdfgh</persName> <persName ref="#chourselios-fraggos">asdf</persName> <persName ref="#zacharias-fraggos">asdf</persName> <persName ref="#zacharias-fraggos">asdf</persName> <persName ref="#zacharias-fraggos">asdf</persName> s
                                   <rs type="invocation" ref="invocation.xml#Θεοτόκε1" rend="linear">
                                       <rs type="marianTerm" subtype="appellative" ref="marianTerms.xml#Θεοτόκος">
                                           <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan>
