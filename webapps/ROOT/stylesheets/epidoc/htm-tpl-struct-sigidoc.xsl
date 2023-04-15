@@ -215,7 +215,7 @@
             <dt width="150" align="left"><i18n:text i18n:key="condition">Condition</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
-            <xsl:when test="//t:supportDesc//t:condition">
+            <xsl:when test="//t:supportDesc//t:condition/t:p/text()">
               <xsl:apply-templates select="//t:supportDesc//t:condition//t:p//text()"/>
             </xsl:when>
             <xsl:otherwise>―</xsl:otherwise>
@@ -387,16 +387,16 @@
           </dd> -->
           <dd>
             <xsl:choose xml:space="preserve">
-              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution//text() and //t:sourceDesc//t:msDesc//t:msIdentifier//t:repository//text()">
-                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution"/>,
-                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:repository"/>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier/t:institution//text() and //t:sourceDesc//t:msDesc//t:msIdentifier/t:repository//text()">
+                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:institution"/>,
+                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:repository"/>
               </xsl:when>
-              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution//text()">
-              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:institution"/>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier/t:institution//text()">
+              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:institution"/>
               <xsl:text></xsl:text>
             </xsl:when>
-              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:repository//text()">
-              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:repository"/>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier/t:repository/text()">
+              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:repository"/>
               <xsl:text></xsl:text>
             </xsl:when>
               <xsl:otherwise>―</xsl:otherwise>
@@ -405,19 +405,31 @@
           <dt width="150" align="left"><i18n:text i18n:key="collection-inventory">Collection and inventory</i18n:text></dt>
           <dd>
             <xsl:choose xml:space="preserve">
-              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:collection//text() and //t:sourceDesc//t:msDesc//t:msIdentifier//t:idno//text()">
-                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:collection"/>
-                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:idno"/>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier/t:collection//text() and //t:sourceDesc//t:msDesc//t:msIdentifier/t:idno//text()">
+                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:collection"/>
+                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:idno"/>
               </xsl:when>
-              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:collection//text()">
-              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:collection"/>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier/t:collection//text()">
+              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:collection"/>
               <xsl:text>no inv. no.</xsl:text>
             </xsl:when>
-              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier//t:idno//text()">
-              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier//t:idno"/>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:msIdentifier/t:idno//text()">
+              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:msIdentifier/t:idno"/>
               <xsl:text></xsl:text>
             </xsl:when>
               <xsl:otherwise>―</xsl:otherwise>
+            </xsl:choose>
+            <xsl:choose xml:space="preserve">
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:altIdentifier/t:repository/text() and //t:sourceDesc//t:msDesc//t:altIdentifier//t:idno//text()">
+                 (<i>olim </i><xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:altIdentifier/t:repository"/>  
+                <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:altIdentifier/t:idno"/>)
+              </xsl:when>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:altIdentifier/t:repository/text()">
+               (<i>olim </i><xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:altIdentifier/t:repository"/>)
+            </xsl:when>
+              <xsl:when test="//t:sourceDesc//t:msDesc//t:altIdentifier/t:idno//text()">
+              <xsl:apply-templates select="//t:sourceDesc//t:msDesc//t:altIdentifier/t:idno"/>
+            </xsl:when>
             </xsl:choose>
           </dd>
           <dt width="150" align="left"><i18n:text i18n:key="acquisition">Acquisition</i18n:text></dt>
@@ -473,8 +485,8 @@
           <dt width="150" align="left"><i18n:text i18n:key="layout-field">Layout of field</i18n:text></dt>
           <dd>
             <xsl:choose xml:space="preserve">
-                        <xsl:when test="//t:layoutDesc//t:layout[@n='r']">
-                            <xsl:apply-templates select="//t:layoutDesc//t:layout[@n='r']//t:p"/>
+                        <xsl:when test="//t:layoutDesc//t:layout[@n='r']/t:p/text()">
+                            <xsl:apply-templates select="//t:layoutDesc//t:layout[@n='r']/t:p/text()"/>
                         </xsl:when>
                         <xsl:otherwise>―</xsl:otherwise>
                     </xsl:choose>
@@ -607,8 +619,8 @@
         <dt width="150" align="left"><i18n:text i18n:key="layout-field">Layout of field</i18n:text></dt>
         <dd>
           <xsl:choose xml:space="preserve">
-                        <xsl:when test="//t:layoutDesc//t:layout[@n='v']">
-                            <xsl:apply-templates select="//t:layoutDesc//t:layout[@n='v']//t:p"/>
+                        <xsl:when test="//t:layoutDesc//t:layout[@n='v']/t:p/text()">
+                            <xsl:apply-templates select="//t:layoutDesc//t:layout[@n='v']/t:p/text()"/>
                         </xsl:when>
                         <xsl:otherwise>―</xsl:otherwise>
                     </xsl:choose>
