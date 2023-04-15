@@ -28,9 +28,11 @@
             <listPerson>
                 <person sex="m" xml:id="justinian" resp="#AS">
                     <persName>
-                        <!--<reg xml:lang="grc">Ἰουστινιανός Α΄</reg>-->
+                        <forename>
+                            <!--<reg xml:lang="grc">Ἰουστινιανός Α΄</reg>-->
                         <reg xml:lang="la">Iustinianus I</reg>
                         <orig>Iustinianus</orig>
+                        </forename>
                     </persName>
                     <birth cert="low" when="0482">
                         <seg>482</seg>
@@ -46,10 +48,12 @@
                 </person>
                 <person sex="m" xml:id="constantine-IV" resp="#AS">
                     <persName>
-                        <!--<reg xml:lang="grc">Κωνσταντῖνος Δ΄</reg>-->
+                        <forename>
+                            <!--<reg xml:lang="grc">Κωνσταντῖνος Δ΄</reg>-->
                         <reg xml:lang="la">Constantinus IV</reg>
                         <reg xml:lang="en">Constantine IV</reg>
                         <orig>Constantinos</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="0668" notAfter="0685">Mid 7th/Late 7th century</floruit>
                     <bibl>
@@ -65,10 +69,12 @@
                 </person>
                 <person sex="m" xml:id="constans-II" source="TM_02" resp="#AS">
                     <persName>
-                        <!--<reg xml:lang="grc">Κώνστας Β΄</reg>-->
+                        <forename>
+                            <!--<reg xml:lang="grc">Κώνστας Β΄</reg>-->
                         <reg xml:lang="la">Constans II</reg>
                         <reg xml:lang="en">Constans II</reg>
                         <orig>Constantinos <surname type="patronymic">Constantinou</surname></orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="0641" notAfter="0668">Mid 7th century</floruit>
                     <bibl>
@@ -84,10 +90,12 @@
                 </person>
                 <person sex="f" xml:id="anastasia" resp="#AS">
                     <persName>
-                        <!--<reg xml:lang="grc">Ἀναστασία</reg>-->
+                        <forename>
+                            <!--<reg xml:lang="grc">Ἀναστασία</reg>-->
                         <reg xml:lang="la">Anastasia</reg>
                         <reg xml:lang="en">Anastasia</reg>
                         <orig>Anastasia</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="0680" notAfter="0720">Mid 7th/Early 8th century</floruit>
                     <bibl>
@@ -103,8 +111,10 @@
                 </person>
                 <person sex="m" xml:id="georgios-1" source="TM_03" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Γεώργιος</reg>
+                        <forename>
+                            <reg xml:lang="grc">Γεώργιος</reg>
                         <orig>Γεωργίῳ</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
@@ -115,16 +125,20 @@
                 </person>
                 <person sex="m" xml:id="gregoras-1" resp="#AS" cert="low">
                     <persName>
-                        <reg xml:lang="grc">Γρηγορᾶς</reg>
+                        <forename>
+                            <reg xml:lang="grc">Γρηγορᾶς</reg>
                         <orig cert="low" source="TM_04">Γρηγορᾷ</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1060" notAfter="1100">Late 11th century</floruit>
                 </person>
                 <person sex="m" xml:id="michael-1" resp="#AS">
                     <persName>
                         <forename>
-                            <reg xml:lang="grc">Μιχαήλ</reg>
+                            <forename>
+                                <reg xml:lang="grc">Μιχαήλ</reg>
                         <orig source="TM_05">Μιχαήλ</orig>
+                            </forename>
                         </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
@@ -173,15 +187,19 @@
                 </person>
                 <person sex="m" xml:id="theodoros-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Θεόδωρος</reg>
+                        <forename>
+                            <reg xml:lang="grc">Θεόδωρος</reg>
                         <orig source="TM_08">Θεοδώρῳ</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="0860" notAfter="0900">Late 9th century</floruit>
                 </person>
                 <person sex="m" xml:id="stephanos-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Στέφανος</reg>
+                        <forename>
+                            <reg xml:lang="grc">Στέφανος</reg>
                         <orig source="TM_10">Στεφάνου</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
@@ -206,8 +224,10 @@
                 </person>
                 <person sex="m" xml:id="ioannes-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Ἰωάννης</reg>
+                        <forename>
+                            <reg xml:lang="grc">Ἰωάννης</reg>
                         <orig source="TM_12">Ἰωάννης</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1080">Mid 11th century/Late 11th
                         century</floruit>
@@ -219,15 +239,19 @@
                 </person>
                 <person sex="m" xml:id="justinian-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Ἰουστινιανός</reg>
+                        <forename>
+                            <reg xml:lang="grc">Ἰουστινιανός</reg>
                         <orig source="TM_13">Ἰουστινιανός</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="0701" notAfter="0720">Early 8th century</floruit>
                 </person>
                 <person sex="m" xml:id="leon-1" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Λέων</reg>
+                        <forename>
+                            <reg xml:lang="grc">Λέων</reg>
                         <orig source="TM_14">Λέοντος</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="1040" notAfter="1060">Mid 11th century</floruit>
                     <bibl>
@@ -238,8 +262,10 @@
                 </person>
                 <person sex="m" xml:id="leon-2" resp="#AS">
                     <persName>
-                        <reg xml:lang="grc">Λέων</reg>
+                        <forename>
+                            <reg xml:lang="grc">Λέων</reg>
                         <orig source="TM_15">Λέοντι</orig>
+                        </forename>
                     </persName>
                     <floruit notBefore="0701" notAfter="0800">8th century</floruit>
                 </person>
