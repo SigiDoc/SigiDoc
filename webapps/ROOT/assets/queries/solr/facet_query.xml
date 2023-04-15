@@ -6,7 +6,7 @@
   <facet>true</facet>
    <!--<facet.field>found_provenance</facet.field>
   <facet.field>origin_place</facet.field>-->
-  <facet.field>repository</facet.field>
+  <facet.field>institution</facet.field>
   <facet.field>collection</facet.field>
 <!--  <facet.field>support_material</facet.field>
   <facet.field>support_object_type</facet.field>

@@ -9,7 +9,7 @@
     TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
    -->
   
-  <!-- LAST MODIFIED BY SIGIDOC: 2023-03-14 -->
+  <!-- LAST MODIFIED BY SIGIDOC: 2023-04-13 -->
   
   <xs:complexType name="tei_macro.paraContent" mixed="true">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -5665,6 +5665,15 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
                         </xs:simpleType>
                         <xs:simpleType>
                           <xs:restriction base="xs:token">
+                            <xs:enumeration value="monogram-type">
+                              <xs:annotation>
+                                <xs:documentation>Text dated by monogram type</xs:documentation>
+                              </xs:annotation>
+                            </xs:enumeration>
+                          </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                          <xs:restriction base="xs:token">
                             <xs:enumeration value="undetermined">
                               <xs:annotation>
                                 <xs:documentation>Text dated according to undetermined criteria</xs:documentation>
@@ -10984,7 +10993,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
         <!--<xs:element minOccurs="0" ref="tei:front"/>
         <xs:choice maxOccurs="unbounded">
           <xs:group ref="tei:tei_model.graphicLike"/>-->
-          <xs:element maxOccurs="2" ref="tei:surface"/>
+        <xs:element maxOccurs="unbounded" ref="tei:surface"/>
           <!--<xs:element ref="tei:surfaceGrp"/>-->
         <!--</xs:choice>-->
         <!--<xs:element minOccurs="0" ref="tei:back"/>-->
@@ -11043,6 +11052,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
           <xs:restriction base="xs:token">
             <xs:enumeration value="obverse"/>
             <xs:enumeration value="reverse"/>
+            <xs:enumeration value="further"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>

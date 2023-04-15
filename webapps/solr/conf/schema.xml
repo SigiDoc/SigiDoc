@@ -150,9 +150,11 @@
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="collection" type="string" required="false"
+
      multiValued="true" stored="true" indexed="true" /><!-- added for SigiDoc -->
    <field name="repository" type="string" required="false"
      multiValued="true" stored="true" indexed="true" /><!-- added for SigiDoc -->
+
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
