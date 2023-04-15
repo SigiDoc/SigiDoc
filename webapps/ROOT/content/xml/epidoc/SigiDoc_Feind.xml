@@ -59,9 +59,8 @@
                         <collection xml:lang="de">Sammlung Robert Feind</collection>
                         <idno>XXX</idno>
                         <!--to be completed with the actual idno-->
-                        <altIdentifier>
+                        <altIdentifier xml:lang="en">
                             <repository/>
-                            <!--to be used when we have an attested older repository -->
                             <idno/>
                         </altIdentifier>
                     </msIdentifier>
@@ -158,27 +157,27 @@
                             </origPlace>
                             <!-- for a precise year (WHEN):-->
                             <!--remember: you will most probably only need one of these. Whatever you DON'T need goes in a green comment-->
-                            <origDate type="analysis" when="" evidence="" cert="" resp="">
+                            <!--<origDate type="analysis" when="2023" evidence="" cert="" resp="">
                                 <seg xml:lang="en"/>
                                 <seg xml:lang="de"/>
                                 <interp type="datingCriteria" xml:lang="en"/>
                                 <interp type="datingCriteria" xml:lang="de"/>
-                            </origDate>
+                            </origDate>-->
                             <!-- for a date range or centuries (NOT BEFORE - NOT AFTER)-->
-                            <origDate type="analysis" notBefore="" notAfter="" evidence="" cert=""
+                            <!--<origDate type="analysis" notBefore="" notAfter="" evidence="" cert=""
                                 resp="">
                                 <seg xml:lang="en"/>
                                 <seg xml:lang="de"/>
                                 <interp type="datingCriteria" xml:lang="en"/>
                                 <interp type="datingCriteria" xml:lang="de"/>
-                            </origDate>
+                            </origDate>-->
                             <!-- for an internal date -->
-                            <origDate type="internal" when="" when-custom="" datingMethod="">
+                            <!--<origDate type="internal" when="" when-custom="" datingMethod="">
                                 <seg xml:lang="en"/>
                                 <seg xml:lang="de"/>
                                 <interp type="datingCriteria" xml:lang="en"/>
                                 <interp type="datingCriteria" xml:lang="de"/>
-                            </origDate>
+                            </origDate>-->
                             <!-- for erroneous dating and corrections: -->
                             <date>
                                 <choice>
@@ -220,7 +219,7 @@
                             </summary>
                             <textLang n="r" mainLang="grc">
                                 <!--if the language changes, also the value of mainLang should change accordingly-->
-                                <seg xml:lang="en">Byzantine Greek</seg>
+                                <seg xml:lang="en">Greek</seg>
                                 <seg xml:lang="fr">Griechisch</seg>
                             </textLang>
                         </msContents>
@@ -283,7 +282,7 @@
                             </summary>
                             <textLang n="v" mainLang="grc">
                                 <!--if the language changes, also the value of mainLang should change accordingly-->
-                                <seg xml:lang="en">Byzantine Greek</seg>
+                                <seg xml:lang="en">Greek</seg>
                                 <seg xml:lang="de">Griechisch</seg>
                             </textLang>
                         </msContents>
