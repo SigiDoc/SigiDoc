@@ -303,7 +303,7 @@
                   <div type="textpart" subtype="face" n="rev" rend="linear">
                       <ab>
                           <rs type="legendsCases" ref="legendsCases.xml#Dat">
-                                  <lb n="1"/> <persName ref="#leon-1">asdfg</persName> 
+                                  <lb n="1"/>
                                   +
                                   <rs type="invocation" ref="invocation.xml#Κύριε1">
                                           <rs type="christTerm" subtype="appellative" ref="christTerms.xml#Κύριος">

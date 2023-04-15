@@ -150,11 +150,9 @@
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="collection" type="string" required="false"
-
-     multiValued="true" stored="true" indexed="true" /><!-- added for SigiDoc -->
-   <field name="repository" type="string" required="false"
-     multiValued="true" stored="true" indexed="true" /><!-- added for SigiDoc -->
-
+          multiValued="true" stored="true" indexed="true" />
+   <field name="institution" type="string" required="false"
+     multiValued="true" stored="true" indexed="true" />
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
@@ -206,10 +204,6 @@
    <field name="iconography" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="legend_case" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
-   <field name="personal_names" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
-   <field name="family_names" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
 
    <!-- catchall field, containing all other searchable text fields
