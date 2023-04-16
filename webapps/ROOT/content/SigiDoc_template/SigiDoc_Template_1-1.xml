@@ -82,7 +82,7 @@
                                     <measure type="countermark" unit="clock"/>
                                 </support>
                                 <condition rend="">
-                                    <p/>
+                                    <p xml:lang=""/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -144,19 +144,19 @@
                                     <interp type="datingCriteria" xml:lang=""/>
                                 </date>
                         </origin>
-                        <provenance type="found" subtype="" when="" xml:lang="" source="" cert="">
-                            <placeName type="ancientFindspot" ref="URI"/>
-                            <placeName type="modernFindspot" ref="URI"/>
-                            <rs type="circumstances"/>
+                        <provenance type="found" subtype="" when="" source="" cert="">
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/>
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
                         </provenance>
-                        <provenance type="observed" subtype="" xml:lang="">
-                            <p/>
+                        <provenance type="observed" subtype="">
+                            <p xml:lang=""/>
                         </provenance>
-                        <provenance type="not-observed" subtype="" xml:lang="">
-                            <p/>
+                        <provenance type="not-observed" subtype="">
+                            <p xml:lang=""/>
                         </provenance>
-                        <provenance type="transferred" subtype="" xml:lang="">
-                            <p/>
+                        <provenance type="transferred" subtype="">
+                            <p xml:lang=""/>
                         </provenance>
                         <acquisition>
                             <p xml:lang=""/>
@@ -309,7 +309,7 @@
       </facsimile>
       <text>
           <body>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="">
+              <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" subtype="" n="obv" rend="" xml:lang="">
                       <ab>[text here]</ab>
                   </div>
@@ -317,8 +317,13 @@
                       <ab>[text here]</ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="">
-                  <!-- for nested elements, see the previous -->
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="" n="obv" rend="" xml:lang="">
+                      <ab>[text here]</ab>
+                  </div>
+                  <div type="textpart" subtype="" n="rev" rend="" xml:lang="">
+                      <ab>[text here]</ab>
+                  </div>
               </div>
               <div type="apparatus">
                   <listApp>
