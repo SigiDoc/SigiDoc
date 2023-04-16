@@ -144,19 +144,19 @@
                                     <interp type="datingCriteria" xml:lang=""/>
                                 </date>
                         </origin>
-                        <provenance type="found" subtype="" when="" xml:lang="" source="" cert="">
-                            <placeName type="ancientFindspot" ref="URI"/>
-                            <placeName type="modernFindspot" ref="URI"/>
-                            <rs type="circumstances"/>
+                        <provenance type="found" subtype="" when="" source="" cert="">
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/>
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
                         </provenance>
-                        <provenance type="observed" subtype="" xml:lang="">
-                            <p/>
+                        <provenance type="observed" subtype="">
+                            <p xml:lang=""/>
                         </provenance>
-                        <provenance type="not-observed" subtype="" xml:lang="">
-                            <p/>
+                        <provenance type="not-observed" subtype="">
+                            <p xml:lang=""/>
                         </provenance>
-                        <provenance type="transferred" subtype="" xml:lang="">
-                            <p/>
+                        <provenance type="transferred" subtype="">
+                            <p xml:lang=""/>
                         </provenance>
                         <acquisition>
                             <p xml:lang=""/>
