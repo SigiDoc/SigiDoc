@@ -55,7 +55,7 @@
         select="doc('../../content/xml/authority/prosopography.xml')"/>
       <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
       <xsl:variable name="forename"
-        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
       <xsl:value-of select="$forename[@xml:lang = 'grc' or @xml:lang = 'la']"/>
     </field>
   </xsl:template>
@@ -66,7 +66,7 @@
         select="doc('../../content/xml/authority/prosopography.xml')"/>
       <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
       <xsl:variable name="surname"
-        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:surname//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:surname/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
       <xsl:value-of select="$surname"/>
     </field>
   </xsl:template>
@@ -105,7 +105,6 @@
     match="tei:rs[@type = 'office'][@subtype = 'ecclesiastical'][@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_ecclesiastical_offices">
     <field name="ecclesiastical_offices">
-      <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
@@ -186,8 +185,8 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:msIdentifier/tei:repository[@xml:lang = 'en']" mode="facet_repository">
-    <field name="repository">
+  <xsl:template match="tei:msIdentifier/tei:institution[@xml:lang = 'en']" mode="facet_institution">
+    <field name="institution">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
@@ -210,7 +209,7 @@
     <xsl:call-template name="field_iconography"/>
     <xsl:call-template name="field_legend_case"/>
     <xsl:call-template name="field_collection"/>
-    <xsl:call-template name="field_repository"/>
+    <xsl:call-template name="field_institution"/>
     <xsl:call-template name="field_personal_names"/>
     <xsl:call-template name="field_family_names"/>
 
@@ -283,9 +282,9 @@
   <xsl:template name="field_collection">
     <xsl:apply-templates mode="facet_collection" select="//tei:collection[@xml:lang = 'en']"/>
   </xsl:template>
-  <xsl:template name="field_repository">
-    <xsl:apply-templates mode="facet_repository"
-      select="//tei:msIdentifier/tei:repository[@xml:lang = 'en']"/>
+  <xsl:template name="field_institution">
+    <xsl:apply-templates mode="facet_institution"
+      select="//tei:msIdentifier/tei:institution[@xml:lang = 'en']"/>
   </xsl:template>
 
 </xsl:stylesheet>
