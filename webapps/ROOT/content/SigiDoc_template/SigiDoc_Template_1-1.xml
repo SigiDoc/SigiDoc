@@ -41,8 +41,8 @@
                         <repository/>
                         <collection xml:lang="" ref="URI"/>
                         <idno/>
-                        <altIdentifier xml:lang="">
-                            <repository/>
+                        <altIdentifier>
+                            <repository xml:lang=""/>
                             <idno/>
                         </altIdentifier>
                     </msIdentifier>
