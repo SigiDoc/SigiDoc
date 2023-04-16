@@ -82,7 +82,7 @@
                                     <measure type="countermark" unit="clock"/>
                                 </support>
                                 <condition rend="">
-                                    <p/>
+                                    <p xml:lang=""/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -309,7 +309,7 @@
       </facsimile>
       <text>
           <body>
-              <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="">
+              <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" subtype="" n="obv" rend="" xml:lang="">
                       <ab>[text here]</ab>
                   </div>
@@ -317,8 +317,13 @@
                       <ab>[text here]</ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="">
-                  <!-- for nested elements, see the previous -->
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="" n="obv" rend="" xml:lang="">
+                      <ab>[text here]</ab>
+                  </div>
+                  <div type="textpart" subtype="" n="rev" rend="" xml:lang="">
+                      <ab>[text here]</ab>
+                  </div>
               </div>
               <div type="apparatus">
                   <listApp>
