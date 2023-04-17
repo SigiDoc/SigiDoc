@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- last changed before 1.0 version release 2021-08-02 -->
-<!-- last changed before 1.1 release: 2023-03-12 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
 
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
@@ -252,8 +252,8 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v"/>
-                                        <figDesc n="decoV"/>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang=""/>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
