@@ -37,6 +37,7 @@ table tbody {
 }
 
 p,
+#licenceSpan,
 table,
 table thead,
 table tbody {
@@ -159,9 +160,24 @@ footer {
     gap: 1em;
     padding-top: 0.5em;
     flex-direction: column;
-    padding: 0.8em 2em;
+    padding: 1.5em 5vw;
     margin: 1em;
     line-height: 1em;
+    margin-top: auto;
+    border-top: 1px solid #efefef;
+}
+
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#licence {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* Indices list */

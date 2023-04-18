@@ -177,6 +177,9 @@ body {
     color: #333;
     background-color: white;
     display: block;
-    border: 1px solid #efefef;
     padding: 3px 1px 3px 3px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }

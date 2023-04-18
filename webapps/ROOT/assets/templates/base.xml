@@ -93,8 +93,6 @@
           </kiln:block>
           <kiln:block name="footer">
             <footer>
-              <p id="efes">Built on <a href="https://epidoc.stoa.org/">EpiDoc</a> and delivered by
-                  <a href="https://github.com/EpiDoc/EFES">EFES</a>.</p>
               <p id="logos">
                 <a href="https://anr.fr/">
                   <img style="height:3.0em; padding-right:1em" alt="ANR"
@@ -118,15 +116,22 @@
                     src="https://www.orient-mediterranee.com/wp-content/uploads/2023/02/logo-om_2.svg"/>
                 </a>
               </p>
-              <p id="licence">
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-                  <img alt="CC BY NC SA"
-                    style="padding-left:0em; padding-right:1em; padding-bottom:0.2em"
-                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
-                </a>
-                <span>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New Methodologies
-                  for Historical Research in Byzantine Studies</span>
-              </p>
+              <div id="licence">
+                <span id="licenceSpan">
+                  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <img alt="CC BY NC SA"
+                     style="padding-left:0em; padding-right:1em; padding-bottom:0.2em"
+                     src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+                  </a>
+                  ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New Methodologies
+                  for Historical Research in Byzantine Studies
+                </span>
+                <p>Built on 
+                  <a href="https://epidoc.stoa.org/">EpiDoc</a> 
+                  and delivered by
+                  <a href="https://github.com/EpiDoc/EFES">EFES</a>.
+                </p>
+              </div>
             </footer>
           </kiln:block>
           <kiln:block name="end-js">
