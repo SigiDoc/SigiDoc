@@ -126,12 +126,12 @@
                   ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New Methodologies
                   for Historical Research in Byzantine Studies
                 </span>
-                <p>Built on 
+              </div>
+              <p id="efes">Built on 
                   <a href="https://epidoc.stoa.org/">EpiDoc</a> 
                   and delivered by
                   <a href="https://github.com/EpiDoc/EFES">EFES</a>.
-                </p>
-              </div>
+              </p>
             </footer>
           </kiln:block>
           <kiln:block name="end-js">

@@ -167,6 +167,9 @@ footer {
     border-top: 1px solid #efefef;
 }
 
+#efes {
+    font-size: var(--fs-small) !important;
+}
 
 #logos {
     display: flex;
