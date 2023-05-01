@@ -6,30 +6,37 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of devotional terms in SIGIDOC</title>
+                <title>Authority list of devotional terms in SigiDoc</title>
+                <editor>
+                    <persName xml:id="AS">Alessio Sopracasa</persName>
+                    <persName xml:id="MF">Martina Filosa</persName>
+                </editor>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
-            <sourceDesc><ab/></sourceDesc>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc/>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <list type="devotional">
-        <item xml:id="δοῦλος">
+        <item xml:id="doulos">
             <term xml:lang="grc">δοῦλος</term>
-            <term xml:lang="en">δοῦλος</term>
-            <!--<term xml:lang="en">servant</term>
+            <term xml:lang="en">servant</term>
             <term xml:lang="fr">serviteur</term>
-            <term xml:lang="it">servitore</term>-->
-            <gloss xml:lang="en"></gloss>
+            <term xml:lang="it">servitore</term>
         </item>
-        <item xml:id="ἐλάχιστος">
+        <item xml:id="elachistos">
             <term xml:lang="grc">ἐλάχιστος</term>
-            <term xml:lang="en">ἐλάχιστος</term>
-            <!--<term xml:lang="en">the least</term><!-\- ??????????????????????????? -\->
+            <term xml:lang="en">worthless</term>
             <term xml:lang="fr">le minime</term>
-            <term xml:lang="it">il minimo</term>-->
-            <gloss xml:lang="en"></gloss>
+            <term xml:lang="it">indegno</term>
         </item>
     </list>
         </body>
