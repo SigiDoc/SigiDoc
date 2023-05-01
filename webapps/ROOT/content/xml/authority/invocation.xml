@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- LAST MODIFIED: 2023-03-15 -->
-
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -27,21 +25,27 @@
             <list type="invocation">
                 <item xml:id="inv001">
                     <term xml:lang="grc">Θεοτόκε βοήθει</term>
+                    <term xml:lang="en">Mother of God help</term>
                 </item>
                 <item xml:id="inv002">
                     <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
+                    <term xml:lang="en">Mother of God help your servant</term>
                 </item>
                 <item xml:id="inv003">
                     <term xml:lang="grc">Κύριε βοήθει</term>
+                    <term xml:lang="en">Lord help</term>
                 </item>
                 <item xml:id="inv004">
                     <term xml:lang="grc">Κύριε βοήθει τῷ σῷ δούλῳ</term>
+                    <term xml:lang="en">Lord help your servant</term>
                 </item>
                 <item xml:id="inv005">
-                    <term xml:lang="grc">Σωτήρ φύλατε</term>
+                    <term xml:lang="grc">Σωτήρ φύλαττε</term>
+                    <term xml:lang="en">Savior protect</term>
                 </item>
                 <item xml:id="inv006">
                     <term xml:lang="grc">[...] τῷ σῷ δούλῳ</term>
+                    <term xml:lang="en">[...] your servant</term>
                 </item>
     </list>
         </body>
