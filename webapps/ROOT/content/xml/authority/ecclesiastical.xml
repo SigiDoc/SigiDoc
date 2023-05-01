@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- LAST MODIFIED: 2020-06-08 -->
 
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of ecclesiastical miscellaneous terms in SIGIDOC</title>
+                <title>Authority list of ecclesiastical miscellaneous terms in SigiDoc</title>
+                <editor xml:id="AS">Alessio Sopracasa</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
-            <sourceDesc><ab/></sourceDesc>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <list type="ecclesiastical">
-        <item xml:id="ποιμήν">
-            <term xml:lang="grc">ποιμήν</term>
-            <term xml:lang="en">ποιμήν</term>
-            <!--<term xml:lang="en">herdsman</term>-->
-            <term xml:lang="fr"></term>
-            <term xml:lang="it"></term>
-            <gloss xml:lang="en"></gloss>
-        </item>
-    </list>
+                <item xml:id="poimen">
+                    <term xml:lang="grc">ποιμήν</term>
+                    <term xml:lang="en">ποιμήν</term>
+                    <term xml:lang="en">herdsman</term>
+                    <term xml:lang="fr">berger</term>
+                    <term xml:lang="it">pastore</term>
+                </item>
+            </list>
         </body>
     </text>
 </TEI>
