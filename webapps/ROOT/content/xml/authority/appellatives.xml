@@ -35,11 +35,17 @@
             <!--*** christTerms ***-->
 
             <list type="christTerms">
-                <item xml:id="christ">
+                <item xml:id="jesus-christ">
                     <term xml:lang="grc">Ἰησοῦς Χριστός</term>
                     <term xml:lang="en">Jesus Christ</term>
                     <term xml:lang="fr">Jésus Christ</term>
                     <term xml:lang="it">Gesù Cristo</term>
+                </item>
+                <item xml:id="christ">
+                    <term xml:lang="grc">Χριστός</term>
+                    <term xml:lang="en">Christ</term>
+                    <term xml:lang="fr">Christ</term>
+                    <term xml:lang="it">Cristo</term>
                 </item>
                 <item xml:id="lord">
                     <term xml:lang="grc">Κύριος</term>
@@ -82,91 +88,87 @@
 
             <list type="saintsTerms">
                 <item xml:id="unidentified">
-                    <!-- word choice not consistent with, for ex., iconography!!!!!!! -->
-                    <term xml:lang="grc">Unidentified</term>
                     <term xml:lang="en">Unidentified</term>
-                    <!--<term xml:lang="fr">Non identifié</term>
-                    <term xml:lang="it">Non identificato</term>-->
+                    <term xml:lang="fr">Non identifié</term>
+                    <term xml:lang="it">Non identificato</term>
                 </item>
                 <item xml:id="st-george">
-                    <term xml:lang="grc">Ὁ ἅγιος Γεώργιος</term>
-                    <!--<term xml:lang="en">St George</term>-->
-                    <!--<term xml:lang="fr">Saint Georges</term>
-            <term xml:lang="it">San Giorgio</term>-->
+                    <term xml:lang="grc">Γεώργιος, Ὁ ἅγιος</term>
+                    <term xml:lang="en">Saint George</term>
+                    <term xml:lang="fr">Saint Georges</term>
+                    <term xml:lang="it">San Giorgio</term>
                 </item>
                 <item xml:id="michael">
                     <term xml:lang="grc">Μιχαήλ</term>
-                    <!--<term xml:lang="en">Michael</term>-->
-                    <!--<term xml:lang="fr">Michele</term>
-            <term xml:lang="it">Michele</term>-->
+                    <term xml:lang="en">Michael</term>
+                    <term xml:lang="fr">Michele</term>
+                    <term xml:lang="it">Michele</term>
                 </item>
                 <item xml:id="st-theodore">
-                    <term xml:lang="grc">Ὁ ἅγιος Θεόδωρος</term>
-                    <!--<term xml:lang="en">St Theodore</term>-->
-                    <!--<term xml:lang="fr">Saint Théodore</term>
-            <term xml:lang="it">San Teodoro</term>-->
+                    <term xml:lang="grc">Θεόδωρος, Ὁ ἅγιος</term>
+                    <term xml:lang="en">Saint Theodore</term>
+                    <term xml:lang="fr">Saint Théodore</term>
+                    <term xml:lang="it">San Teodoro</term>
                 </item>
                 <item xml:id="st-nicholas">
-                    <term xml:lang="grc">Ὁ ἅγιος Νικόλαος</term>
-                    <!--<term xml:lang="en">St Nicholas</term>-->
-                    <!--<term xml:lang="fr">Saint Nioolas</term>
-            <term xml:lang="it">San Nicola</term>-->
+                    <term xml:lang="grc">Νικόλαος, Ὁ ἅγιος</term>
+                    <term xml:lang="en">Saint Nicholas</term>
+                    <term xml:lang="fr">Saint Nioolas</term>
+                    <term xml:lang="it">San Nicola</term>
                 </item>
                 <item xml:id="st-demetrios">
-                    <term xml:lang="grc">Ὁ ἅγιος Δημήτριος</term>
-                    <!--<term xml:lang="en">St. Demetrios</term>-->
-                    <!--<term xml:lang="fr">Saint Dèmètrios</term>
-            <term xml:lang="it">San Demetrio</term>-->
+                    <term xml:lang="grc">Δημήτριος, Ὁ ἅγιος</term>
+                    <term xml:lang="en">Saint Demetrios</term>
+                    <term xml:lang="fr">Saint Dèmètrios</term>
+                    <term xml:lang="it">San Demetrio</term>
                 </item>
                 <item xml:id="st-john-chrysostomos-la">
-                    <term xml:lang="la">Sanctus Iohannes Chrussostomos</term>
-                    <!--<term xml:lang="en">St John Chrysostomos</term>-->
-                    <!--<term xml:lang="fr">Saint Jean Chrysostome</term>
-            <term xml:lang="it">San Giovanni Crisostomo</term>-->
+                    <term xml:lang="la">Iohannes Chrussostomos, Sanctus</term>
+                    <term xml:lang="en">Saint John Chrysostomos</term>
+                    <term xml:lang="fr">Saint Jean Chrysostome</term>
+                    <term xml:lang="it">San Giovanni Crisostomo</term>
                 </item>
                 <item xml:id="st-theodore-strat">
-                    <term xml:lang="grc">Ὁ ἅγιος Θεόδωρος ὁ Στρατιλάτης</term>
-                    <!--<term xml:lang="en">St Theodore Stratelates</term>-->
-                    <!--<term xml:lang="fr">Saint Théodore Stratélate</term>
-            <term xml:lang="it">San Teodoro Stratelate</term>-->
+                    <term xml:lang="grc">Θεόδωρος ὁ Στρατιλάτης, Ὁ ἅγιος</term>
+                    <term xml:lang="en">Saint Theodore Stratelates</term>
+                    <term xml:lang="fr">Saint Théodore Stratélate</term>
+                    <term xml:lang="it">San Teodoro Stratelate</term>
                 </item>
                 <item xml:id="st-theodosios">
-                    <term xml:lang="grc">Ὁ ἅγιος Θεοδόσιος</term>
-                    <term xml:lang="en">Ὁ ἅγιος Θεοδόσιος</term>
-                    <!--<term xml:lang="en">St Theodosios</term>-->
-                    <!--<term xml:lang="fr">Saint Théodose</term>
-            <term xml:lang="it">San Teodosio</term>-->
+                    <term xml:lang="grc">Θεοδόσιος, Ὁ ἅγιος </term>
+                    <term xml:lang="en">Saint Theodosios</term>
+                    <term xml:lang="fr">Saint Théodose</term>
+                    <term xml:lang="it">San Teodosio</term>
                 </item>
                 <item xml:id="st-john-prodromos">
-                    <term xml:lang="grc">Ὁ ἅγιος Ἰωάννης ὁ Πρόδρομος</term>
-                    <term xml:lang="en">Ὁ ἅγιος Ἰωάννης ὁ Πρόδρομος</term>
-                    <!--<term xml:lang="en">St John Prodromos</term>-->
-                    <!--<term xml:lang="fr">Saint Jean Prodrome</term>
-            <term xml:lang="it">San Giovanni Prodromo</term>-->
+                    <term xml:lang="grc">Ἰωάννης ὁ Πρόδρομος, Ὁ ἅγιος</term>
+                    <term xml:lang="en">Saint John Prodromos</term>
+                    <term xml:lang="fr">Saint Jean Prodrome</term>
+                    <term xml:lang="it">San Giovanni Prodromo</term>
                 </item>
                 <item xml:id="theodore">
                     <term xml:lang="grc">Θεόδωρος</term>
-                    <!--<term xml:lang="en">Theodore</term>-->
-                    <!--<term xml:lang="fr">Théodore</term>
-                    <term xml:lang="it">Teodoro</term>-->
+                    <term xml:lang="en">Theodore</term>
+                    <term xml:lang="fr">Théodore</term>
+                    <term xml:lang="it">Teodoro</term>
                 </item>
                 <item xml:id="stratelates">
                     <term xml:lang="grc">Στρατιλάτης</term>
-                    <!--<term xml:lang="en">Stratelates</term>-->
-                    <!--<term xml:lang="fr">Stratélate</term>
-                    <term xml:lang="it">Stratelate</term>-->
+                    <term xml:lang="en">Stratelates</term>
+                    <term xml:lang="fr">Stratélate</term>
+                    <term xml:lang="it">Stratelate</term>
                 </item>
                 <item xml:id="martyr">
-                    <term xml:lang="grc">μάρτυς</term>
-                    <!--<term xml:lang="en">martyr</term>-->
-                    <!--<term xml:lang="fr">martyre</term>
-                    <term xml:lang="it">martire</term>-->
+                    <term xml:lang="grc">Μάρτυς</term>
+                    <term xml:lang="en">Martyr</term>
+                    <term xml:lang="fr">Martyre</term>
+                    <term xml:lang="it">Martire</term>
                 </item>
                 <item xml:id="prodromos">
                     <term xml:lang="grc">Πρόδρομος</term>
-                    <!--<term xml:lang="en">Prodromos</term>-->
-                    <!--<term xml:lang="fr">Prodrome</term>
-                    <term xml:lang="it">Prodromo</term>-->
+                    <term xml:lang="en">Prodromos</term>
+                    <term xml:lang="fr">Prodrome</term>
+                    <term xml:lang="it">Prodromo</term>
                 </item>
             </list>
         </body>
