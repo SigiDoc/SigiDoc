@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:lg[@type='metrical'][@ana][ancestor::tei:div/@type='textpart']" group-by="@ana">
+      <xsl:for-each-group select="//tei:lg[@met][@subtype][ancestor::tei:div/@type='textpart']" group-by="@met">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />

@@ -24,8 +24,9 @@
   <facet.field>marian_terms</facet.field>
   <facet.field>christ-related_terms</facet.field>
   <facet.field>saints-related_terms</facet.field>
-  <facet.field>iconography</facet.field>
+  <facet.field>metrical</facet.field>
   <facet.field>legend_case</facet.field>
+  <facet.field>iconography</facet.field>
   <facet.limit>-1</facet.limit>
   <facet.mincount>1</facet.mincount>
   <!-- facet.sort's value may be either "index" (alphabetic order of
