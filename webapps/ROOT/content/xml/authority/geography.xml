@@ -128,46 +128,6 @@
                     <placeName xml:lang="fr">ta Pikridiou</placeName>
                     <placeName xml:lang="it">ta Pikridiou</placeName>
                 </place>
-                <!--<place xml:id="βῆλον">
-            <placeName xml:lang="grc">βῆλον</placeName>
-             <placeName xml:lang="en">βῆλον</placeName>
-            <!-\-<placeName xml:lang="en">velum</placeName>-\->
-            <!-\-<placeName xml:lang="fr">velum</placeName>
-            <placeName xml:lang="it">velo</placeName>-\->
-            <idno></idno>
-        </place>
-             <place xml:id="εὑαγει̑ς_οἰ̑κοι">
-            <placeName xml:lang="grc">εὑαγει̑ς οἰ̑κοι</placeName>
-             <placeName xml:lang="en">εὑαγει̑ς οἰ̑κοι</placeName>
-            <!-\-<placeName xml:lang="en">charitable foundations</placeName>-\->
-            <!-\-<placeName xml:lang="fr">fondations pieuses</placeName>
-            <placeName xml:lang="it"></placeName>-\->
-            <idno></idno>
-        </place>
-             <place xml:id="Νέα">
-            <placeName xml:lang="grc">Νέα (Ἐκκλησία)</placeName>
-             <placeName xml:lang="en">Νέα (Ἐκκλησία)</placeName>
-            <!-\-<placeName xml:lang="en">Nea</placeName>-\->
-            <!-\-<placeName xml:lang="fr">Néa</placeName>
-            <placeName xml:lang="it">Nea</placeName>-\->
-            <idno></idno>
-        </place>
-             <place xml:id="δρόμος">
-            <placeName xml:lang="grc">δρόμος</placeName>
-            <placeName xml:lang="en">δρόμος</placeName>
-            <!-\-<placeName xml:lang="en">dromos</placeName>-\->
-            <!-\-<placeName xml:lang="fr">drome</placeName>
-            <placeName xml:lang="it">dromo</placeName>-\->
-            <idno></idno>
-        </place>
-             <place xml:id="Χρυσοτρίκλινος">
-            <placeName xml:lang="grc">Χρυσοτρίκλινος</placeName>
-             <placeName xml:lang="en">Χρυσοτρίκλινος</placeName>
-            <!-\-<placeName xml:lang="en">Chrysotriklinos</placeName>-\->
-            <!-\-<placeName xml:lang="fr">Chrysotriklinos</placeName>
-            <placeName xml:lang="it">Crisotriclinio</placeName>-\->
-            <idno></idno>
-        </place>-->
             </listPlace>
         </body>
     </text>
