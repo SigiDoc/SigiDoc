@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- LAST MODIFIED: 2023-03-15 -->
-
+<?xml-model href="http://epidoc.stoa.org/schema/dev/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -26,13 +25,9 @@
             <list type="monogram">
                 <item xml:id="mg0001">
                     <term xml:lang="grc" ana="Zacos 46">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
-                   <graphic url="1.jpg"/>
                 </item>
                 <item xml:id="mg0002">
                     <term xml:lang="grc">Θεοτόκε βοήθει τῷ σῷ δούλῳ</term>
-                    <graphic url="3.jpg">
-                        <desc>Zacos 46</desc>
-                    </graphic>
                 </item>
                 <item xml:id="mg0003">
                     <term xml:lang="grc">Θεοτόκε βοήθει</term>
