@@ -6,35 +6,37 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of metrical legends in SIGIDOC</title>
+                <title>Authority list of offices in SigiDoc</title>
+                <editor xml:id="AS">Alessio Sopracasa</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
             </titleStmt>
-            <publicationStmt><ab/></publicationStmt>
-            <sourceDesc><ab/></sourceDesc>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <list type="metrical">
-                <item xml:id="dodecasyllabicTrue">
+                <item xml:id="dodecasyllabic-true">
                     <term xml:lang="grc">Dodecasyllable (real)</term>
                     <term xml:lang="en">Dodecasyllable (real)</term>
                     <term xml:lang="fr">Dodécasyllabe (réel)</term>
                     <term xml:lang="it">Dodecasillabo (vero)</term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
-                <item xml:id="dodecasyllabicFalse">
+                <item xml:id="dodecasyllabic-false">
                     <term xml:lang="grc">Dodecasyllable (false)</term>
                     <term xml:lang="en">Dodecasyllable (false)</term>
                     <term xml:lang="fr">Dodécasyllabe (faux)</term>
                     <term xml:lang="it">Dodecasillabo (falso)</term>
-                    <gloss xml:lang="en"></gloss>
-                </item>
-                <item xml:id="">
-                    <term xml:lang="grc"></term>
-                    <term xml:lang="en"></term>
-                    <term xml:lang="fr"></term>
-                    <term xml:lang="it"></term>
-                    <gloss xml:lang="en"></gloss>
                 </item>
             </list>
         </body>
