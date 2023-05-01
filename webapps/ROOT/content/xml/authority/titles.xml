@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- LAST MODIFIED: 2021-07-02 -->
+<!-- LAST MODIFIED: 2023-05-01 -->
 
+<?xml-model href="http://epidoc.stoa.org/schema/dev/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Authority list of titles (uncertainty between dignity and office) in SigiDoc</title>
+                <editor>
+                    <persName xml:id="AS">Alessio Sopracasa</persName>
+                    <persName xml:id="MF">Martina Filosa</persName>
+                </editor>
             </titleStmt>
-            <editor>
-                <persName xml:id="AS">Alessio Sopracasa</persName>
-                <persName xml:id="MF">Martina Filosa</persName>
-            </editor>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
@@ -42,4 +42,3 @@
         </body>
     </text>
 </TEI>
-
