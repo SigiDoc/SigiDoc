@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- LAST MODIFIED: 2023-03-15 -->
 
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -25,307 +25,127 @@
     </teiHeader>
     <text>
         <body>
+            <!-- ********** CIVIL ********** -->
             <list type="civil">
                 <item ana="κριτής" xml:lang="grc">
                     <term xml:id="krites_001">κριτής</term>
                     <term xml:id="krites_002">κριτὴς τοῦ βήλου</term>
                     <term xml:id="krites_003">κριτὴς τοῦ Ἱπποδρόμου</term>
+                    <term xml:id="krites_004">κριτὴς τῶν Βουκελλαρίων</term>
+                    <term xml:id="krites_005">κριτὴς τῶν Θρᾳκησίων</term>
                 </item>
                 <item ana="μέγας οἰκονόμος" xml:lang="grc">
                     <term xml:id="megasoik_001">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
                     <term xml:id="megasoik_002">μέγας οἰκονόμος τῆς Νέας</term>
                 </item>
-                <item xml:id="oikonomos" ana="οἰκονόμος" xml:lang="grc">
+                <item ana="οἰκονόμος" xml:lang="grc">
                     <term xml:id="oikonomos_001">οἰκονόμος</term>
                     <term xml:id="oikonomos_002">οἰκονόμος τῆς Νέας</term>
                 </item>
-                <item xml:id="epi-tou-koitonos" ana="ἐπὶ τοῦ κοιτῶνος" xml:lang="grc">
+                <item ana="ἐπὶ τοῦ κοιτῶνος" xml:lang="grc">
                     <term xml:id="epi-tou-koitonos_001">ἐπὶ τοῦ κοιτῶνος</term>
                 </item>
-                <item xml:id="δομέστικος_τών_Ἐξκουβίτων">
-                    <term xml:lang="grc">δομέστικος τών Ἐξκουβίτων</term>
-                    <term xml:lang="en">δομέστικος τών Ἐξκουβίτων</term>
-                    <!--<term xml:lang="en">domestikos of the Exkoubitoi</term>-->
-                    <!--<term xml:lang="fr">domestique des Excubites</term>
-            <term xml:lang="it">domestico degli Escubiti</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="ἐπιγκέρνης" xml:lang="grc">
+                    <term xml:id="epinkernes_001">ἐπιγκέρνης</term>
+                    <term xml:id="epinkernes_002">ἐπιγκέρνης τῆς αὐγούστης</term>
                 </item>
-                <item xml:id="ἐπὶ_τοῦ_κοιτῶνος">
-                    <term xml:lang="grc">ἐπὶ τοῦ κοιτῶνος</term>
-                    <term xml:lang="en">ἐπὶ τοῦ κοιτῶνος</term>
-                    <!--<term xml:lang="en">epi tou koitonos</term>-->
-                    <!--<term xml:lang="fr">épi tou koitonos</term>
-            <term xml:lang="it">epi tou koitonos</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="ξενοδóχος" xml:lang="grc">
+                    <term xml:id="xenodochos_001">ξενοδóχος</term>
+                    <term xml:id="xenodochos_002">ξενοδóχος τῆς Νέας</term>
                 </item>
-                <item xml:id="ἐπιγκέρνης_τῆς_αὐγούστης">
-                    <term xml:lang="grc">ἐπιγκέρνης τῆς αὐγούστης</term>
-                    <term xml:lang="en">ἐπιγκέρνης τῆς αὐγούστης</term>
-                    <!--<term xml:lang="en">pinkernes of the Augusta</term>-->
-                    <!--<term xml:lang="fr">pincerne de l’augousta</term>-->
-                    <term xml:lang="it"/>
-                    <gloss xml:lang="en"/>
+                <item ana="λογοθέτης" xml:lang="grc">
+                    <term xml:id="logothetes_001">λογοθέτης</term>
+                    <term xml:id="logothetes_002">λογοθέτης τοῦ δρόμου</term>
                 </item>
-                <item xml:id="ξενοδóχος_τῆς_Νέας">
-                    <term xml:lang="grc">ξενοδóχος τῆς Νέας</term>
-                    <term xml:lang="en">ξενοδóχος τῆς Νέας</term>
-                    <!--<term xml:lang="en">xenodochos of the Nea</term>-->
-                    <!--<term xml:lang="fr">xénodoque de la Néa</term>-->
-                    <term xml:lang="it"/>
-                    <gloss xml:lang="en"/>
+                <item ana="ἀσηκρῆτις" xml:lang="grc">
+                    <term xml:id="asekretis_001">ἀσηκρῆτις</term>
                 </item>
-                <item xml:id="λογοθέτης_τοῦ_δρόμου">
-                    <term xml:lang="grc">λογοθέτης τοῦ δρόμου</term>
-                    <term xml:lang="en">λογοθέτης τοῦ δρόμου</term>
-                    <!--<term xml:lang="en">logothetes of the dromos</term>-->
-                    <!-- <term xml:lang="fr">logothète du drome</term>
-            <term xml:lang="it">logoteta del dromo</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="χαρτουλάριος" xml:lang="grc">
+                    <term xml:id="chartoularios_001">χαρτουλάριος</term>
+                    <term xml:id="chartoularios_002">χαρτουλάριος Πελοποννήσου καὶ Ἑλλάδος</term>
                 </item>
-                <item xml:id="κριτὴς_τῶν_Βουκελλαρίων">
-                    <term xml:lang="grc">κριτὴς τῶν Βουκελλαρίων</term>
-                    <term xml:lang="en">κριτὴς τῶν Βουκελλαρίων</term>
-                    <!--<term xml:lang="en">krites of the Boukellarioi</term>-->
-                    <!--<term xml:lang="fr">juge des Bucellaires</term>
-            <term xml:lang="it">giudice dei Buccellari</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="χρυσοτελής" xml:lang="grc">
+                    <term xml:id="chrysoteles_001">χρυσοτελής</term>
+                    <term xml:id="chrysoteles_002">χρυσοτελὴς Πελοποννήσου καὶ Ἑλλάδος</term>
                 </item>
-                <item xml:id="ἀσηκρῆτις">
-                    <term xml:lang="grc">ἀσηκρῆτις</term>
-                    <term xml:lang="en">ἀσηκρῆτις</term>
-                    <!--<term xml:lang="en">asekretis</term>-->
-                    <!--<term xml:lang="fr">asèkrètis</term>
-            <term xml:lang="it">asekretis</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="δικασπόλος" xml:lang="grc">
+                    <term xml:id="dikaspolos_001">δικασπόλος</term>
+                    <term xml:id="dikaspolos_002">δικασπόλος τῶν Θρᾳκησίων</term>
                 </item>
-                <item xml:id="χαρτουλάριος_Πελοποννήσου_καὶ_Ἑλλάδος">
-                    <term xml:lang="grc">χαρτουλάριος Πελοποννήσου καὶ Ἑλλάδος</term>
-                    <term xml:lang="en">χαρτουλάριος Πελοποννήσου καὶ Ἑλλάδος</term>
-                    <!--<term xml:lang="en">chartoularios of the Peloponnesos and Hellas</term>-->
-                    <!--<term xml:lang="fr">chartulaire du Péloponnèse et de l’Hellade</term>
-            <term xml:lang="it">cartulario del Peloponneso e dell'Ellade</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="ἐπὶ τοῦ Χρυσοτρικλίνου" xml:lang="grc">
+                    <term xml:id="chrysotriklinou_001">ἐπὶ τοῦ Χρυσοτρικλίνου</term>
                 </item>
-                <item xml:id="χρυσοτελὴς_Πελοποννήσου_καὶ_Ἑλλάδος">
-                    <term xml:lang="grc">χρυσοτελὴς Πελοποννήσου καὶ Ἑλλάδος</term>
-                    <term xml:lang="en">χρυσοτελὴς Πελοποννήσου καὶ Ἑλλάδος</term>
-                    <!--<term xml:lang="en">chrysoteles of the Peloponnesos and Hellas</term>-->
-                    <!--<term xml:lang="fr">chrysotélès du Péloponnèse et de l’Hellade</term>-->
-                    <term xml:lang="it"/>
-                    <gloss xml:lang="en"/>
+                <item ana="præfectus insularum" xml:lang="la">
+                    <term xml:id="praefectus-insularum">præfectus insularum</term>
                 </item>
-                <item xml:id="δικασπόλος_τῶν_Θρᾳκησίων">
-                    <term xml:lang="grc">δικασπόλος τῶν Θρᾳκησίων</term>
-                    <term xml:lang="en">δικασπόλος τῶν Θρᾳκησίων</term>
-                    <!--<term xml:lang="en">dikaspolos of Thrakesion</term>--><!-- ???????????????????????????????? -->
-                    <!--<term xml:lang="fr">juge des Thracésiens</term>
-            <term xml:lang="it">giudice dei Tracesiani</term>-->
-                    <gloss xml:lang="en"/>
-                </item>
-                <item xml:id="ἐπὶ_τοῦ_Χρυσοτρικλίνου">
-                    <term xml:lang="grc">ἐπὶ τοῦ Χρυσοτρικλίνου</term>
-                    <term xml:lang="en">ἐπὶ τοῦ Χρυσοτρικλίνου</term>
-                    <!--<term xml:lang="en">epi tou Chrysotriklinou</term>-->
-                    <!--<term xml:lang="fr">épi tou Chrysotriklinou</term>
-            <term xml:lang="it">epi tou Chrysotriklinou</term>-->
-                    <gloss xml:lang="en"/>
-                </item>
-                <item xml:id="κριτὴς_τῶν_Θρᾳκησίων">
-                    <term xml:lang="grc">κριτὴς τῶν Θρᾳκησίων</term>
-                    <term xml:lang="en">κριτὴς τῶν Θρᾳκησίων</term>
-                    <!--<term xml:lang="en">krites of Thrakesion</term>-->
-                    <!-- <term xml:lang="fr">juge des Thracésiens</term>
-            <term xml:lang="it">giudice dei Tracesiani</term>-->
-                    <gloss xml:lang="en"/>
-                </item>
-                <item xml:id="præfectus_insularum">
-                    <term xml:lang="grc">præfectus insularum</term>
-                    <term xml:lang="la">præfectus insularum</term>
-                    <term xml:lang="en">præfectus insularum</term>
-                    <!--<term xml:lang="en">prefect of the islands</term>-->
-                    <!--<term xml:lang="fr">préfet des îles</term>
-            <term xml:lang="it">prefetto delle isole</term>-->
-                    <gloss xml:lang="en"/>
-                </item>
-                <item xml:id="χαρτουλάριος">
-                    <term xml:lang="grc">χαρτουλάριος</term>
-                    <term xml:lang="en">χαρτουλάριος</term>
-                    <!--<term xml:lang="en">chartoularios</term>-->
-                    <!--<term xml:lang="fr">chartulaire</term>
-            <term xml:lang="it">cartulario</term>-->
-                    <gloss xml:lang="en"/>
-                </item>
-                <item xml:id="δικαστὴς_τῶν_Βουκελλαρίων">
-                    <term xml:lang="grc">δικαστὴς τῶν Βουκελλαρίων</term>
-                    <term xml:lang="en">δικαστὴς τῶν Βουκελλαρίων</term>
-                    <!--<term xml:lang="en">judge of the Boukellarioi</term>-->
-                    <!--<term xml:lang="fr">juge des Bucellaires</term>
-            <term xml:lang="it">giudice dei Bucellari</term>-->
-                    <gloss xml:lang="en"/>
+                <item ana="δικαστής" xml:lang="grc">
+                    <term xml:id="dikastes_001">δικαστής</term>
+                    <term xml:id="dikastes_002">δικαστὴς τῶν Βουκελλαρίων</term>
                 </item>
             </list>
+            <!-- ********** ECCLESIASTICAL ********** -->
             <list type="ecclesiastical">
-                    <item xml:id="ἀρχιεπίσκοπος_Ἐφέσου">
-                        <term xml:lang="grc">ἀρχιεπίσκοπος Ἐφέσου</term>
-                        <term xml:lang="en">ἀρχιεπίσκοπος Ἐφέσου</term>
-                        <!--<term xml:lang="en">archbishop of Ephesos</term>-->
-                        <!--<term xml:lang="fr">archevêque d’Éphèse</term>
-            <term xml:lang="it">arcivescovo di Efeso</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="σύγκελλος">
-                        <term xml:lang="grc">σύγκελλος</term>
-                        <term xml:lang="en">σύγκελλος</term>
-                        <!--<term xml:lang="en">synkellos</term>-->
-                        <!--<term xml:lang="fr">syncelle</term>
-            <term xml:lang="it">sincello</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="ἐπίσκοπος_Σάμου">
-                        <term xml:lang="grc">ἐπίσκοπος Σάμου</term>
-                        <term xml:lang="en">ἐπίσκοπος Σάμου</term>
-                        <!--<term xml:lang="en">bishop of Samos</term>-->
-                        <!--<term xml:lang="fr">évêque de Samos</term>
-            <term xml:lang="it">vescovo di Samo</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="ἐπίσκοπος_Παρνασσοῦ">
-                        <term xml:lang="grc">ἐπίσκοπος Παρνασσοῦ</term>
-                        <term xml:lang="en">ἐπίσκοπος Παρνασσοῦ</term>
-                        <!--<term xml:lang="en">bishop of Samos</term>-->
-                        <!--<term xml:lang="fr">évêque de Parnassos</term>
-                    <term xml:lang="it">vescovo di Parnasso</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="μοναχός">
-                        <term xml:lang="grc">μοναχός</term>
-                        <term xml:lang="en">μοναχός</term>
-                        <!--<term xml:lang="en">monk</term>-->
-                        <!--<term xml:lang="fr">moine</term>
-            <term xml:lang="it">monaco</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="ποιμὴν_Σεβαστῆς">
-                        <term xml:lang="grc">ποιμὴν Σεβαστῆς</term>
-                        <term xml:lang="en">ποιμὴν Σεβαστῆς</term>
-                        <!--<term xml:lang="en">bishop of Sebaste</term>-->
-                        <!-- <term xml:lang="fr">évêque de Sébastè</term>
-            <term xml:lang="it">vescovo di Sebaste</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="καθηγητής">
-                        <term xml:lang="grc">καθηγητής</term>
-                        <term xml:lang="en">καθηγητής</term>
-                        <!--<term xml:lang="en">kathegetes</term>-->
-                        <!--<term xml:lang="fr">kathègètès</term>-->
-                        <term xml:lang="it"></term>
-                        <gloss xml:lang="en"></gloss>
-                    </item>
+                <item ana="ἀρχιεπίσκοπος" xml:lang="grc">
+                    <term xml:id="archbishop_001">ἀρχιεπίσκοπος</term>
+                    <term xml:id="archbishop_002">ἀρχιεπίσκοπος Ἐφέσου</term>
+                </item>
+                <item ana="ἐπίσκοπος" xml:lang="grc">
+                    <term xml:id="bishop_001">ἐπίσκοπος</term>
+                    <term xml:id="bishop_002">ἐπίσκοπος Σάμου</term>
+                    <term xml:id="bishop_003">ἐπίσκοπος Παρνασσοῦ</term>
+                </item>
+                <item ana="σύγκελλος" xml:lang="grc">
+                    <term xml:id="synkellos_001">σύγκελλος</term>
+                </item> 
+                <item ana="μοναχός" xml:lang="grc">
+                    <term xml:id="monk_001">μοναχός</term>
+                </item>
+                <item ana="ποιμήν" xml:lang="grc">
+                    <term xml:id="poimen_001">ποιμήν</term>
+                    <term xml:id="poimen_002">ποιμὴν Σεβαστῆς</term>
+                </item>
+                <item ana="καθηγητής" xml:lang="grc">
+                    <term xml:id="kathegetes_001">καθηγητής</term>
+                </item>
             </list>
+            <!-- ********** MILITARY ********** -->
             <list type="military">
                 <item ana="τοποτηρητής" xml:lang="grc">
                     <term xml:id="topoter_001">τοποτηρητής</term>
                     <term xml:id="topoter_002">τοποτηρητὴς τοῦ Ἀριθμοῦ</term>
+                    <term xml:id="topoter_003">τοποτηρητὴς τοῦ Ὀψικίου</term>
                 </item>
                 <item ana="στρατηγός" xml:lang="grc">
                     <term xml:id="strateg_001">στρατηγός</term>
+                    <term xml:id="strateg_002">στρατηγός τῆς Σελευκίας</term>
+                    <term xml:id="strateg_003">στρατηγός τοῦ Δυρραχίου</term>
+                    <term xml:id="strateg_004">στρατηγός Ἀτακᾶτζ</term>
                 </item>
-                    <item xml:id="δομέστικος_τῶν_Ἐξκουβίτων">
-                        <term xml:lang="grc">δομέστικος τῶν Ἐξκουβίτων</term>
-                        <term xml:lang="en">δομέστικος τῶν Ἐξκουβίτων</term>
-                        <!--<term xml:lang="en">domestikos of the Exkoubitoi</term>-->
-                        <!--<term xml:lang="fr">domestique des Excubites</term>
-            <term xml:lang="it">domestico degli Escubiti</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="στρατηγός">
-                        <term xml:lang="grc">στρατηγός</term>
-                        <term xml:lang="en">στρατηγός</term>
-                        <!--<term xml:lang="en">strategos</term>-->
-                        <!--<term xml:lang="fr">stratège</term>
-            <term xml:lang="it">stratego</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="στρατηγὸς_τῆς_Σελευκίας">
-                        <term xml:lang="grc">στρατηγός τῆς Σελευκίας</term>
-                        <term xml:lang="en">στρατηγός τῆς Σελευκίας</term>
-                        <!--<term xml:lang="en">strategos of Seleukeias</term>-->
-                        <!--<term xml:lang="fr">stratège de Séleucie</term>
-                    <term xml:lang="it">stratego di Seleucia</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="δοὺξ_Ἀντιοχείας">
-                        <term xml:lang="grc">δοὺξ Ἀντιοχείας</term>
-                        <term xml:lang="en">δοὺξ Ἀντιοχείας</term>
-                        <!--<term xml:lang="en">doux of Antioch</term>-->
-                        <!--<term xml:lang="fr">duc d'Antioche</term>
-            <term xml:lang="it">duca di Antiochia</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="τοποτηρητὴς_τοῦ_Ὀψικίου">
-                        <term xml:lang="grc">τοποτηρητὴς τοῦ Ὀψικίου</term>
-                        <term xml:lang="en">τοποτηρητὴς τοῦ Ὀψικίου</term>
-                        <!--<term xml:lang="en">topoteretes of the Opsikion</term>-->
-                        <!-- <term xml:lang="fr">topotérète de l’Opsikion</term>
-            <term xml:lang="it">topoterete dell'Opsikion</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="στρατηγὸς_τοῦ_Δυρραχίου">
-                        <term xml:lang="grc">στρατηγὸς τοῦ Δυρραχίου</term>
-                        <term xml:lang="en">στρατηγὸς τοῦ Δυρραχίου</term>
-                        <!--<term xml:lang="en">strategos of Dyrrachion</term>-->
-                        <!-- <term xml:lang="fr">stratège de Dyrrachion</term>
-            <term xml:lang="it">stratego di Durazzo</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="στρατηλάτης">
-                        <term xml:lang="grc">στρατηλάτης</term>
-                        <term xml:lang="en">στρατηλάτης</term>
-                        <!--<term xml:lang="en">stratelates</term>-->
-                        <!--<term xml:lang="fr">stratélate</term>
-            <term xml:lang="it">stratelate</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="στρατοπεδάρχης">
-                        <term xml:lang="grc">στρατοπεδάρχης</term>
-                        <term xml:lang="en">στρατοπεδάρχης</term>
-                        <!--<term xml:lang="en">stratopedarches</term>-->
-                        <!--<term xml:lang="fr">stratopédarque</term>
-            <term xml:lang="it">stratopedarca</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="στρατηγὸς_Ἀτακᾶτζ">
-                        <term xml:lang="grc">στρατηγὸς Ἀτακᾶτζ</term>
-                        <term xml:lang="en">στρατηγὸς Ἀτακᾶτζ</term>
-                        <!--<term xml:lang="en">strategos of At‘akh </term>-->
-                        <!--<term xml:lang="fr">stratège de At‘akh</term>
-            <term xml:lang="it">stratego di At‘akh</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="πρωτοκένταρχος_τοῦ_Ὀψικίου">
-                        <term xml:lang="grc">πρωτοκένταρχος τοῦ Ὀψικίου</term>
-                        <term xml:lang="en">πρωτοκένταρχος τοῦ Ὀψικίου</term>
-                        <!--<term xml:lang="en">protokentarchos of the Opskion</term>-->
-                        <!--<term xml:lang="fr">protokentarque de l'Opsikion</term>-->
-                        <term xml:lang="it"></term>
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="τοποτηρητής">
-                        <term xml:lang="grc">τοποτηρητής</term>
-                        <term xml:lang="en">τοποτηρητής</term>
-                        <!--<term xml:lang="en">topoteretes</term>-->
-                        <!--<term xml:lang="fr">topotérète</term>
-            <term xml:lang="it">topoterete</term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
-                    <item xml:id="μέγας_δρουγγάριος_τοῦ_στόλου">
-                        <term xml:lang="grc">μέγας δρουγγάριος τοῦ στόλου</term>
-                        <term xml:lang="en">μέγας δρουγγάριος τοῦ στόλου</term>
-                        <!--<term xml:lang="en">megas droungarios of the fleet</term>-->
-                        <!--<term xml:lang="fr">grand drongaire de la flotte</term>
-            <term xml:lang="it"></term>-->
-                        <gloss xml:lang="en"></gloss>
-                    </item>
+                <item ana="δομέστικος" xml:lang="grc">
+                    <term xml:id="domestikos_001">δομέστικος</term>
+                    <term xml:id="domestikos_002">δομέστικος τών Ἐξκουβίτων</term>
+                </item>
+                <item ana="δούξ" xml:lang="grc">
+                    <term xml:id="doux_001">δούξ</term>
+                    <term xml:id="doux_002">δοὺξ Ἀντιοχείας</term>
+                </item>   
+                <item ana="στρατηλάτης" xml:lang="grc">
+                    <term xml:id="stratel_001">στρατηλάτης</term>
+                </item>
+                <item ana="στρατηλάτης" xml:lang="grc">
+                    <term xml:id="stratop_001">στρατοπεδάρχης</term>
+                </item>
+                <item ana="πρωτοκένταρχος" xml:lang="grc">
+                    <term xml:id="protokent_001">πρωτοκένταρχος</term>
+                    <term xml:id="protokent_002">πρωτοκένταρχος τοῦ Ὀψικίου</term>
+                </item>
+                <item ana="μέγας δρουγγάριος" xml:lang="grc">
+                    <term xml:id="megasdroug_001">μέγας δρουγγάριος</term>
+                    <term xml:id="megasdroug_002">μέγας δρουγγάριος τοῦ στόλου</term>
+                </item>
+                <item ana="δρουγγάριος" xml:lang="grc">
+                    <term xml:id="droug_001">δρουγγάριος</term>
+                </item>
             </list>
         </body>
     </text>
