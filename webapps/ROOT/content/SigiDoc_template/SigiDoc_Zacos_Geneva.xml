@@ -265,8 +265,8 @@
                                 <seg>Reverse</seg>
                             </summary>
                             <textLang n="v" mainLang="grc"> <!--if the language changes, also the value of mainLang should change accordingly-->
-                                <seg xml:lang="en">Byzantine Greek</seg>
-                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Greek</seg>
+                                <seg xml:lang="fr">Grec</seg>
                             </textLang>
                         </msContents>
                         <physDesc>
