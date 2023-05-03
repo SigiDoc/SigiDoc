@@ -29,6 +29,9 @@
             <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
             <xsl:value-of select="$mg//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
           </field>
+          <field name="index_entry_type">
+            <xsl:value-of select="@subtype"/>
+          </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>

@@ -195,6 +195,13 @@
       <xsl:value-of select="concat(@met, ' (', @subtype, ')' )"/>
     </field>
   </xsl:template>
+  <xsl:template
+    match="tei:rs[@type = 'monogram'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"
+    mode="facet_monogram">
+    <field name="monogram">
+      <xsl:value-of select="@subtype"/>
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
@@ -218,7 +225,7 @@
     <xsl:call-template name="field_personal_names"/>
     <xsl:call-template name="field_family_names"/>
     <xsl:call-template name="field_metrical"/>
-
+    <xsl:call-template name="field_monogram"/>
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
@@ -296,5 +303,8 @@
     <xsl:apply-templates mode="facet_metrical" 
       select="//tei:lg[@met][@subtype][ancestor::tei:div/@type = 'textpart']"/> 
   </xsl:template>
-
+  <xsl:template name="field_monogram">
+    <xsl:apply-templates mode="facet_monogram"
+      select="//tei:rs[@type = 'monogram'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"/>
+  </xsl:template>
 </xsl:stylesheet>
