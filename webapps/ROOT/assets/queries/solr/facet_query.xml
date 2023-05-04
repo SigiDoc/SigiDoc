@@ -12,9 +12,11 @@
   <facet.field>support_object_type</facet.field>
   <facet.field>origin_date_evidence</facet.field> 
   <facet.field>sigidoc_id_number</facet.field>-->
+  <facet.field>dating_criteria</facet.field>
   <facet.field>persons</facet.field>
   <facet.field>personal_names</facet.field>
   <facet.field>family_names</facet.field>
+  <facet.field>milieu</facet.field>
   <facet.field>place_names</facet.field>
   <facet.field>dignities</facet.field>
   <facet.field>civil_offices</facet.field>
@@ -36,6 +38,6 @@
   <facet.sort>index</facet.sort>
   <!-- The number of rows returned by Solr at once (that is the number
        displayed per page of results). -->
-  <rows default="true">15</rows>
+  <rows default="true">20</rows>
   <start default="true">0</start>
 </query>
