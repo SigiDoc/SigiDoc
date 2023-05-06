@@ -6,7 +6,6 @@
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
     xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,14 +14,12 @@
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
                     <seg/>
                 </edition>
                 <editor xml:id="PE">Pia Evening</editor>
-                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -57,10 +54,8 @@
                         <collection xml:lang="en">Robert Feind Collection</collection>
                         <collection xml:lang="de">Sammlung Robert Feind</collection>
                         <idno>S-11</idno>
-                        <!--to be completed with the actual idno-->
                         <altIdentifier>
                             <repository/>
-                            <!--to be used when we have an attested older repository -->
                             <idno/>
                         </altIdentifier>
                     </msIdentifier>
@@ -72,10 +67,10 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="corporate">
-                                    <seg xml:lang="en">?</seg>
-                                    <seg xml:lang="de">?</seg>
-                                    <interp type="milieu" xml:lang="en">?</interp>
-                                    <interp type="milieu" xml:lang="de">?</interp>
+                                    <seg xml:lang="en">Anonymous</seg>
+                                    <seg xml:lang="de">Anonymous</seg>
+                                    <interp type="milieu" xml:lang="en">Corporate</interp>
+                                    <interp type="milieu" xml:lang="de">Korporativ</interp>
                                 </roleName>
                             </author>
                         </msItem>
@@ -102,7 +97,7 @@
                                         <dim type="diameter">22</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g">8.5</measure>
-                                    <measure type="axis" unit="clock"></measure>
+                                    <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock">5-12</measure>
                                     <measure type="countermark" unit="clock"/>
@@ -149,10 +144,10 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="en">
-                                    <placeName ref="URI"/>
+                                    <placeName ref="https://pleiades.stoa.org/places/707498">Cyprus</placeName>
                                 </seg>
                                 <seg xml:lang="de">
-                                    <placeName ref="URI"/>
+                                    <placeName ref="https://pleiades.stoa.org/places/707498">Zypern</placeName>
                                 </seg>
                             </origPlace>
                             <!-- for a precise year (WHEN):-->
@@ -165,8 +160,8 @@
                             </origDate>-->
                             <!-- for a date range or centuries (NOT BEFORE - NOT AFTER)-->
                             <origDate type="analysis" notBefore="0581" notAfter="0620" evidence="epigraphy" resp="#MC">
-                                <seg xml:lang="en">6th/7th c.</seg>
-                                <seg xml:lang="de">6./7. Jh.</seg>
+                                <seg xml:lang="en">Late 6th/Early 7th c.</seg>
+                                <seg xml:lang="de">Spätes 6./frühes 7. Jh.</seg>
                                 <interp type="datingCriteria" xml:lang="en">Epigraphy</interp>
                                 <interp type="datingCriteria" xml:lang="de">Epigraphik</interp>
                             </origDate>
@@ -382,7 +377,7 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
                           <lb n="1"/>Ἀνθ
@@ -392,12 +387,12 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <lb n="1"/>Κύπ
-                          <lb n="2" break="no"/>ρου
+                          <lb n="4"/>Κύπ
+                          <lb n="5" break="no"/>ρου
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+            <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="1"/>Α̣ΝΘ
@@ -407,15 +402,15 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                       <ab>
-                          <lb n="1"/>ΚΠ
-                          <lb n="2"/>ΡΟΥ
-                          <lb n="3"/>
+                          <lb n="4"/>ΚΠ
+                          <lb n="5"/>ΡΟΥ
+                          <lb n="0"/>
                       </ab>
                   </div>
               </div>
             <div type="apparatus"> 
                   <listApp>
-                      <app xml:lang=""/> <!--if you don't need the apparatus, just delete the xml:lang-->
+                      <app/> <!--if you don't need the apparatus, just delete the xml:lang-->
                   </listApp>
               </div>
             <div type="translation">
@@ -433,19 +428,13 @@
               </div>
             <div type="bibliography" subtype="edition">
                   <p/>
-                      
-                  
               </div>
             <div type="bibliography" subtype="parallels">
                   <p/>
               </div>
-            <!--<div type="bibliography" subtype="discussion"> if you don't have further bibliography, put this div in a comment
-                  <p>
-                      <bibl>
-                          <ptr target=""/>, <citedRange unit=""/>
-                      </bibl>
-                  </p>
-              </div>-->
+            <div type="bibliography" subtype="discussion">
+                <p/>
+            </div>
         </body>
     </text>
 </TEI>

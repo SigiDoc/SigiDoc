@@ -6,7 +6,6 @@
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
     xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,15 +15,12 @@
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
                     <seg/>
                 </edition>
-                
                 <editor xml:id="SE">Sofia Efthymoglou</editor>
-                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -78,9 +74,9 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type=" aristocracy">
-                                    <seg xml:lang="en"><forename>Theodoros</forename></seg>
-                                    <seg xml:lang="de"><forename>Theodoros</forename></seg>
-                                    <seg xml:lang="el"><forename>Θεόδωρος</forename></seg>
+                                    <seg xml:lang="en">Theodoros</seg>
+                                    <seg xml:lang="de">Theodoros</seg>
+                                    <seg xml:lang="el">Θεόδωρος</seg>
                                     <interp type="milieu" xml:lang="en">Αristocracy</interp>
                                     <interp type="milieu" xml:lang="de">Aristokratie</interp>
                                     <interp type="milieu" xml:lang="el">Αριστοκρατία</interp>
@@ -410,9 +406,8 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
-                      
                       <ab>
                           <lb n="1"/><rs type="invocation" ref="#inv001">Θε
                           <lb n="2" break="no"/>οτόκε
@@ -422,21 +417,20 @@
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab> 
                          <rs type="legendsCases" ref="#dat">
-                             <lb n="4"/><persName type="forename" ref="#Theodoros_2">Θεο
-                             <lb n="5" break="no"/>δώρῳ </persName>
+                             <lb n="4"/>Θεο
+                             <lb n="5" break="no"/>δώρῳ 
                              <lb n="6"/>ἀπὸ ἐπά
                              <lb n="7" break="no"/>ρχων
                          </rs>
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+            <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, diplomatic-->
                       <ab> 
                           <lb n="1"/>+θε  
                           <lb n="2"/>οτοκε
                           <lb n="3"/>βοηθη
-
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
@@ -445,13 +439,12 @@
                           <lb n="5"/>Δωρω
                           <lb n="6"/>ποεπ
                           <lb n="7"/>ρχων
-
                       </ab>
                   </div>
               </div>
             <div type="apparatus"> 
                   <listApp>
-                      <app xml:lang=""/> <!--if you don't need the apparatus, just delete the xml:lang-->
+                      <app/> <!--if you don't need the apparatus, just delete the xml:lang-->
                   </listApp>
               </div>
             <div type="translation">
@@ -461,39 +454,22 @@
                 <p xml:lang="el">Θεοτόκε βοήθησε, τον Θεόδωρο από επάρχων.</p>
               </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="en">A similar specimen (not a parallel) has been published by Cheynet [1].</p> <!--if you have the commentary only in German and would like to show it also in the English page, you should delete the xml:lang-->
-      <!--            <p xml:lang="de">[your commentary here]</p>-->
+                <p xml:lang="en">A similar specimen (not a parallel) has been published in <bibl> <ptr target="Istanbul"/>, p. <citedRange unit="page">399</citedRange>, nο. <citedRange unit="entry">5.21</citedRange>.</bibl>.</p> <!--if you have the commentary only in German and would like to show it also in the English page, you should delete the xml:lang-->
+                  <p xml:lang="de">[your commentary here]</p>
               </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:lang="en">   </p>
-                    <p xml:id="footnote-1">
-                        [1]. See <bibl> <ptr target="Istanbul"/>, p. <citedRange unit="page">399</citedRange>, nο. <citedRange unit="entry">5.21</citedRange>.</bibl>
-                 
-                    </p> 
+                <p xml:lang="en"/>   
                 <!--if you have the footnotes only in French and would like to show it also in the English page, you should delete the xml:lang-->
 <!--                  <p xml:lang="de">[your footnotes here]</p>
 -->              </div>
             <div type="bibliography" subtype="edition">
-                
               </div>
             <div type="bibliography" subtype="parallels">
-                <p>Tatis Collection, nο. 3021 -  <bibl> <ptr target="CheynetTatış"/>, p.<citedRange unit="page"> 196</citedRange>, nο.<citedRange unit="part"> 5.13</citedRange>,  museum invetory nο. <citedRange unit="entry">3021</citedRange>. </bibl>                
-                    <bibl> <!-- <ptr target=""/>, <citedRange unit=""/> <!-\-before citedRange add the right abbreviation, e.g. if it's a page, p. etc.-\->
--->                      </bibl>
+                <p>Tatış Collection, nο. 3021 -  <bibl> <ptr target="CheynetTatış"/>, p.<citedRange unit="page"> 196</citedRange>, nο.<citedRange unit="part"> 5.13</citedRange>,  museum invetory nο. <citedRange unit="entry">3021</citedRange>. </bibl>                
                 </p>
-                <!--if you don't have parallels, put this div in a comment-->
-                  <p>
-                      <bibl>
-<!--                          <ptr target=""/>, <citedRange unit=""/>
--->                      </bibl>
-                  </p>
               </div>
             <div type="bibliography" subtype="discussion"> <!--if you don't have further bibliography, put this div in a comment-->
-                  <p>
-                      <!--<bibl>
-                          <ptr target=""/>, <citedRange unit=""/>
-                      </bibl>-->
-                  </p>
+                  <p/>
               </div>
         </body>
     </text>

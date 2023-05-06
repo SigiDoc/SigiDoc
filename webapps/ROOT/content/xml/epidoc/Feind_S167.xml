@@ -6,7 +6,6 @@
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
     xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,14 +16,12 @@
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
                     <seg/>
                 </edition>
                 <editor xml:id="PE">Pia Evening</editor>
-                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -75,8 +72,8 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="civil">
-                                    <seg xml:lang="en">Konstantinos</seg>
-                                    <seg xml:lang="de">Konstantinos</seg>
+                                    <seg xml:lang="en"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/">Konstantinos</ref></seg>
+                                    <seg xml:lang="de"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/">Konstantinos</ref></seg>
                                     <interp type="milieu" xml:lang="en">Civil</interp>
                                     <interp type="milieu" xml:lang="de">Zivil</interp>
                                 </roleName>
@@ -136,7 +133,7 @@
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc"/>
                                         <!--not to be used yet-->
-                                        <idno type="PBW" corresp="URI"/>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/297/">297</idno>
                                         <!--to be used if the seal has a parallel in the PBW with a boulloterion registered there-->
                                     </rs>
                                 </layout>
@@ -396,7 +393,7 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
                           <lb n="1"/><supplied reason="lost">+<expan><abbr>K</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
@@ -408,14 +405,14 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <lb n="1"/><expan><abbr><supplied reason="lost">κρι</supplied>τ</abbr><ex>ῇ</ex></expan> <expan><abbr>ἐπ</abbr><ex>ὶ</ex></expan> 
-                          <lb n="2"/><supplied reason="lost">τοῦ</supplied> <expan><abbr>ἱππ</abbr><ex>ο</ex><abbr>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ό</ex>
-                          <lb n="3" break="no"/><abbr>μ</abbr><ex>ου</ex></supplied></expan> <expan><ex>καὶ</ex></expan> τῆς <expan><abbr>Μ</abbr><supplied reason="lost"><ex>α</ex>
-                          <lb n="4" break="no"/><abbr>κ</abbr></supplied><abbr>εδ<supplied reason="lost">ο</supplied>ν</abbr><ex>ίας</ex></expan>
+                          <lb n="6"/><expan><abbr><supplied reason="lost">κρι</supplied>τ</abbr><ex>ῇ</ex></expan> <expan><abbr>ἐπ</abbr><ex>ὶ</ex></expan> 
+                          <lb n="7"/><supplied reason="lost">τοῦ</supplied> <expan><abbr>ἱππ</abbr><ex>ο</ex><abbr>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ό</ex>
+                          <lb n="8" break="no"/><abbr>μ</abbr><ex>ου</ex></supplied></expan> <expan><ex>καὶ</ex></expan> τῆς <expan><abbr>Μ</abbr><supplied reason="lost"><ex>α</ex>
+                          <lb n="9" break="no"/><abbr>κ</abbr></supplied><abbr>εδ<supplied reason="lost">ο</supplied>ν</abbr><ex>ίας</ex></expan>
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+            <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="1"/>….
@@ -427,16 +424,16 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                       <ab>
-                          <lb n="1"/>...τ̣ε̣π̣
-                          <lb n="2"/>..Ι,δ.
-                          <lb n="3"/>.SτΗςμ
-                          <lb n="4"/>.εδ.ν̣
+                          <lb n="6"/>...τ̣ε̣π̣
+                          <lb n="7"/>..Ι,δ.
+                          <lb n="8"/>.SτΗςμ
+                          <lb n="9"/>.εδ.ν̣
                       </ab>
                   </div>
               </div>
             <div type="apparatus"> 
                   <listApp>
-                      <app xml:lang=""/> <!--if you don't need the apparatus, just delete the xml:lang-->
+                      <app/> <!--if you don't need the apparatus, just delete the xml:lang-->
                   </listApp>
               </div>
             <div type="translation">
@@ -458,13 +455,9 @@
                 <p> (1) DO BZS.1947.2.103 – <bibl><ptr target="DOseals1"/>, no. <citedRange unit="entry">43.5</citedRange></bibl>, also published in <bibl><ptr target="DOsealsOnline"/>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.103">BZS.1947.2.103</ref></bibl> ; (2) Athens, Numismatic Museum, no. 479 (Orphanides-Nikolaides Collection) – <bibl><ptr target="Athens1996"/>, no. <citedRange unit="entry">42</citedRange></bibl>.
                   </p>
               </div>
-            <!--<div type="bibliography" subtype="discussion"> if you don't have further bibliography, put this div in a comment
-                  <p>
-                      <bibl>
-                          <ptr target=""/>, <citedRange unit=""/>
-                      </bibl>
-                  </p>
-              </div>-->
+            <div type="bibliography" subtype="discussion">
+                  <p/>  
+              </div>
         </body>
     </text>
 </TEI>

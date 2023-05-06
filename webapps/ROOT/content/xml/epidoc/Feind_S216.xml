@@ -16,7 +16,6 @@
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -24,7 +23,6 @@
                 </edition>
                 <editor ref="#MF"/>
                 <editor xml:id="SE">Sofia Efthymoglou</editor>
-                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -78,9 +76,9 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type=" civil ">
-                                    <seg xml:lang="en"><forename>Anonymous</forename></seg>
-                                    <seg xml:lang="de"><forename>Anonym</forename></seg>
-                                    <seg xml:lang="el"><forename>Ανώνυμο</forename></seg>
+                                    <seg xml:lang="en">Anonymous</seg>
+                                    <seg xml:lang="de">Anonym</seg>
+                                    <seg xml:lang="el">Ανώνυμο</seg>
                                     <interp type="milieu" xml:lang="en">Civil</interp>
                                     <interp type="milieu" xml:lang="de">Zivil</interp>
                                     <interp type="milieu" xml:lang="el">Κρατικό (πεδίο δραστηριοποίησης)</interp>
@@ -112,7 +110,7 @@
                                     <dimensions type="support" unit="mm">
                                         <dim type="diameter">18</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="g">4,5</measure>
+                                    <measure type="weight" unit="g">4.5</measure>
                                     <measure type="axis" unit="clock">12h</measure>
                                     <measure type="overstrikeOrient" unit="clock"/>
                                     <measure type="channelOrient" unit="clock">6-12</measure>
@@ -257,9 +255,9 @@
                                             <seg xml:lang="de">Legende auf 3 Zeilen</seg>
                                             <seg xml:lang="el">Επιγραφή 4 στίχων</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend of 3 lines. Above, a cross between dashes; below, remnants of a decoration consisting of two dashes (?)</p>
-                                        <p xml:lang="de">Legende auf 4 Zeilen. Oben ein Kreuz zwischen Bindestrichen; unten Reste einer Verzierung bestehend aus zwei Strichen (?)</p>
-                                        <p xml:lang="el">Επιγραφή 4 στίχων. Σταυρός πάνω από την επιγραφή, ανάμεσα σε παύλες. Κάτω, υπολείμματα διακοσμητικού μοτίβου, το οποίο αποτελείται από δύο παύλες(;)</p>
+                                        <p xml:lang="en">Legend of 3 lines.</p>
+                                        <p xml:lang="de">Legende auf 4 Zeilen.</p>
+                                        <p xml:lang="el">Επιγραφή 4 στίχων.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -275,9 +273,9 @@
                                     <figure>
                                         <figDesc n="r" xml:lang="en"/>
                                         <figDesc n="r" xml:lang="de"/>
-                                        <figDesc n="decoR" xml:lang="en">Above the legend, a cross between dashes; below, remnants of a decoration consisting of two dashes (?) Border of dots.</figDesc>
-                                        <figDesc n="decoR" xml:lang="de"> Über der Legende ein Kreuz zwischen Bindestrichen; unten Reste einer Verzierung bestehend aus zwei Strichen (?) Perlrand.</figDesc>
-                                        <figDesc n="decoR" xml:lang="el"> Σταυρός πάνω από την επιγραφή, ανάμεσα σε παύλες. Κάτω, υπολείμματα διακοσμητικού μοτίβου, το οποίο αποτελείται από δύο παύλες (;) Στικτό πλαίσιο.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Above the legend, a cross between dashes; below, remnants of a decoration consisting of two dashes (?). Border of dots.</figDesc>
+                                        <figDesc n="decoR" xml:lang="de"> Über der Legende ein Kreuz zwischen Bindestrichen; unten Reste einer Verzierung bestehend aus zwei Strichen (?). Perlrand.</figDesc>
+                                        <figDesc n="decoR" xml:lang="el"> Σταυρός πάνω από την επιγραφή, ανάμεσα σε παύλες. Κάτω, υπολείμματα διακοσμητικού μοτίβου, το οποίο αποτελείται από δύο παύλες (;). Στικτό πλαίσιο.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -303,7 +301,7 @@
                             </summary>
                             <textLang n="v" mainLang="grc">
                                 <!--if the language changes, also the value of mainLang should change accordingly-->
-                                <seg xml:lang="en"> Greek</seg>
+                                <seg xml:lang="en">Greek</seg>
                                 <seg xml:lang="de">Griechisch</seg>
                                 <seg xml:lang="el">Μεσαιωνική ελληνική γλώσσα</seg>
                             </textLang>
@@ -324,9 +322,9 @@
                                             <seg xml:lang="de">Inschrift auf 4 Zeilen</seg>
                                             <seg xml:lang="el">Επιγραφή 4 στίχων</seg>
                                         </rs>
-                                        <p xml:lang="en">Legend of 4 lines. Above, a decoration with a dot between dashes. </p>
-                                        <p xml:lang="de">Inschrift auf 4 Zeilen. Oben eine Dekoration mit einem Punkt zwischen Strichen. </p>
-                                        <p xml:lang="el">Επιγραφή 4 στίχων. Πάνω,  διακοσμητικό μοτίβο με μια τελεία ανάμεσα σε δύο παύλες.</p>
+                                        <p xml:lang="en">Legend of 4 lines.</p>
+                                        <p xml:lang="de">Inschrift auf 4 Zeilen.</p>
+                                        <p xml:lang="el">Επιγραφή 4 στίχων.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -342,7 +340,7 @@
                                     <figure>
                                         <figDesc n="v" xml:lang="en"/>
                                         <figDesc n="v" xml:lang="de"/>
-                                        <figDesc n="decoV" xml:lang="en">Above the legend, a decoration with a dot between dashes. Border of dots. </figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Above the legend, a decoration with a dot between dashes. Border of dots.</figDesc>
                                         <figDesc n="decoV" xml:lang="de">Über der Legende eine Dekoration mit einem Punkt zwischen Strichen. Perlrand.</figDesc>
                                         <figDesc n="decoV" xml:lang="el">Πάνω απο την επιγραφή,  διακοσμητικό μοτίβο με μια τελεία ανάμεσα σε δύο παύλες. Στικτό πλαίσιο.</figDesc>
                                     </figure>
@@ -408,10 +406,10 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <lg met="dodecasyllabic" subtype="true">
-                          <l n="1">
+                          <l n="1a">
                               <lb n="1"/>Σφρα
                               <lb n="2" break="no"/>γὶς <expan>πέ
                               <lb n="3 " break="no"/>φυκ<supplied reason="lost">α</supplied></expan>
@@ -420,7 +418,7 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <lg met="dodecasyllabic" subtype="true">
-                          <l n="1">
+                          <l n="1b">
                               <lb n="4"/><expan>τοῦ κέν
                               <lb n="5" break="no"/><supplied reason="lost">σ</supplied>ορος </expan>
                               <lb n="6 "/><expan><supplied reason="lost">τ</supplied>ῶν</expan> λό
@@ -429,31 +427,26 @@
                           </lg>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang=""> 
+            <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, diplomatic-->
                       <lg met="dodecasyllabic" subtype="true">
-                          <l n="1">
+                          <l n="1a">
                               <lb n="0"/>+
                               <lb n="1"/>ΣΡΑ
                               <lb n="2"/>ΓΙΣΠΕ
                               <lb n="3"/>φΥΚ.
                               <lb n="0"/>
-                              
-                             
                           </l>
                           </lg>
                   </div>
-                
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                      <lg met="dodecasyllabic" subtype="true">
-                          <l n="1">
-                              <lb n="0"/>
+                          <l n="1b">
+                              <lb n="0"/>  
                               <lb n="4"/>ΤΚΕΝ
                               <lb n="5"/>.Ο̣ΡΟΣ
                               <lb n="6"/>.ΝΛΟ
                               <lb n="7"/>ΓΝ
-                              
-                             
                           </l>
                           </lg>
                   </div>
@@ -470,34 +463,22 @@
                 <p xml:lang="el">Είμαι η σφραγίδα των λόγων του κένσωρος.</p>
               </div>
             <div type="commentary" subtype="text">
-                  <p xml:lang="en">[your commentary here]</p> <!--if you have the commentary only in German and would like to show it also in the English page, you should delete the xml:lang-->
-                  <p xml:lang="de">[your commentary here]</p>
-              </div>
+                <p xml:lang="en">Metrical legend consisting of a single dodecasyllable with a caesura after the fifth syllable.</p> 
+                <p xml:lang="de">Metrische Legende bestehend aus einen Zwölfsilbler mit einer Zäsur nach der fünften Silbe.</p>
+            </div>
             <div type="commentary" subtype="footnotes">
-                  <p xml:lang="en">[your footnotes here]</p> <!--if you have the footnotes only in French and would like to show it also in the English page, you should delete the xml:lang-->
-                  <p xml:lang="de">[your footnotes here]</p>
-              </div>
-            <!--<div type="bibliography" subtype="edition">
-                  <p>
-                      <bibl>
-                          <ptr target=""/>, <citedRange unit=""/> <!-\-before citedRange add the right abbreviation, e.g. if it's a page, p. etc.-\->
-                      </bibl>
-                  </p>
-              </div>-->
-            <!--<div type="bibliography" subtype="parallels"> <!-\-if you don't have parallels, put this div in a comment-\->
-                  <p>
-                      <bibl>
-                          <ptr target=""/>, <citedRange unit=""/>
-                      </bibl>
-                  </p>
-              </div>-->
-            <!--<div type="bibliography" subtype="discussion"> <!-\-if you don't have further bibliography, put this div in a comment-\->
-                  <p>
-                      <bibl>
-                          <ptr target=""/>, <citedRange unit=""/>
-                      </bibl>
-                  </p>
-              </div>-->
+                <p xml:lang="en"></p> <!--if you have the footnotes only in French and would like to show it also in the English page, you should delete the xml:lang-->
+                <p xml:lang="de"></p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p/>
+            </div>
         </body>
     </text>
 </TEI>

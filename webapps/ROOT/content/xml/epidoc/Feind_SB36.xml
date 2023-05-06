@@ -6,7 +6,6 @@
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
     xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,14 +14,12 @@
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
                     <seg/>
                 </edition>
                 <editor xml:id="PE">Pia Evening</editor>
-                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -383,14 +380,12 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
                   <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
                           <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan> 
                           <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
                       </ab>
-                          
-                      
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
@@ -403,13 +398,12 @@
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+            <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
                           <cb n="a"/>̅
                           <cb n="b"/>ΘΥ
                       </ab>
-                          
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                       <ab>
@@ -425,7 +419,7 @@
               </div>
             <div type="apparatus"> 
                   <listApp>
-                      <app xml:lang=""/> <!--if you don't need the apparatus, just delete the xml:lang-->
+                      <app/> <!--if you don't need the apparatus, just delete the xml:lang-->
                   </listApp>
               </div>
             <div type="translation">
@@ -439,18 +433,16 @@
               </div>
             <div type="commentary" subtype="footnotes">
                 <p/>
-                
               </div>
             <div type="bibliography" subtype="edition">
                   <p/>
               </div>
             <div type="bibliography" subtype="parallels">
-                
                 <p/>
               </div>
-           <!-- <div type="bibliography" subtype="discussion"> Beide Bibliographie-Angaben noch nicht in Authoritylist
+            <div type="bibliography" subtype="discussion"> 
                   <p/>
-              </div>-->
+              </div>
         </body>
     </text>
 </TEI>

@@ -6,7 +6,6 @@
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
     xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,14 +16,12 @@
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
                     <seg/>
                 </edition>
                 <editor xml:id="PE">Pia Evening</editor>
-                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -74,8 +71,8 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="civil">
-                                    <seg xml:lang="en">Hypatios</seg>
-                                    <seg xml:lang="de">Hypatios</seg>
+                                    <seg xml:lang="en"><ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ22359/html">Hypatios</ref></seg>
+                                    <seg xml:lang="de"><ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ22359/html">Hypatios</ref></seg>
                                     <interp type="milieu" xml:lang="en">Civil</interp>
                                     <interp type="milieu" xml:lang="de">Zivil</interp>
                                 </roleName>
@@ -260,7 +257,7 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="en">Bust of St Demetrios holding a
+                                        <figDesc n="r" xml:lang="en">Bust of St. Demetrios holding a
                                             spear in his right hand and a shield in his left.
                                             Remnants of a legend at left. The circular inscription
                                             along the circumference is not preserved.</figDesc>
@@ -401,14 +398,16 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
-                  <div type="textpart" subtype="face" n="obv" rend="circLinear" xml:lang="grc"> <!--obverse, editorial-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
-                          <cb n="a"/>ὁ <expan><abbr>ἅ</abbr><ex>γιος</ex></expan> Δ<supplied reason="lost">ημήτριος</supplied>
-                          <lb n="1"/><supplied reason="lost">Θεοτόκε βοήθει τῷ σῷ δούλῳ</supplied>
+                          <cb n="a"/>Ὁ <expan><abbr>ἅ</abbr><ex>γιος</ex></expan> Δ<supplied reason="lost">ημήτριος</supplied>
                       </ab>
-                          
-                      
+                  </div>
+                <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc"> <!--obverse, editorial-->
+                      <ab>
+                        <lb n="1"/><supplied reason="lost">Θεοτόκε βοήθει τῷ σῷ δούλῳ</supplied>
+                      </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
@@ -420,12 +419,11 @@
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+            <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
                           <cb n="a"/>||…
                       </ab>
-                          
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                       <ab>
@@ -459,7 +457,6 @@
                 <p><bibl><ptr target="Münz"/>, Auction 100 (8–10 September 1999), lot 764</bibl> (= <bibl><ptr target="SBS_Auctions1997-2001"/>, p. <citedRange unit="page">243</citedRange>, no. <citedRange unit="entry">764</citedRange></bibl>); Müller Münzenhandlung, Auction 73 (26 February 1993), lot 490,4, only photographs (= <bibl><ptr target="SBS_Auctions1991-1996"/>, p. <citedRange unit="page">145</citedRange>, no. <citedRange unit="entry">490.4</citedRange></bibl>).</p>
               </div>
             <div type="bibliography" subtype="parallels">
-                
                 <p> (1) Istanbul, Archaeological Museum, no. 259 – <bibl><ptr target="Istanbul"/>, no. <citedRange unit="entry">3.34</citedRange></bibl> ; (2) Schlumberger Collection (current location unknown) – <bibl><ptr target="Schlumberger1884"/>, p. <citedRange unit="page">278</citedRange>, no.<citedRange unit="entry">4</citedRange></bibl>.                  
                   </p>
               </div>
