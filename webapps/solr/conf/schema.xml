@@ -215,8 +215,6 @@
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="milieu" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
-   <field name="dating_criteria" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->

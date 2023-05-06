@@ -212,13 +212,6 @@
       </xsl:for-each>
     </field>
   </xsl:template>
-  <xsl:template
-    match="tei:origDate[@evidence]"
-    mode="facet_dating_criteria">
-    <field name="dating_criteria">
-      <xsl:value-of select="@evidence"/>
-    </field>
-  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
@@ -244,7 +237,6 @@
     <xsl:call-template name="field_metrical"/>
     <xsl:call-template name="field_monogram"/>
     <xsl:call-template name="field_milieu"/>
-    <xsl:call-template name="field_dating_criteria"/>
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
@@ -329,9 +321,5 @@
   <xsl:template name="field_milieu">
     <xsl:apply-templates mode="facet_milieu"
       select="//tei:roleName[@role = 'issuer'][@type]"/>
-  </xsl:template>
-  <xsl:template name="field_dating_criteria">
-    <xsl:apply-templates mode="facet_dating_criteria"
-      select="//tei:origDate[@evidence]"/>
   </xsl:template>
 </xsl:stylesheet>
