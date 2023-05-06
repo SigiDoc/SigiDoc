@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-04-12 -->
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Seal of Ioannes protospatharios, hypatos, krites tou hippodromou and of the Armenika themata</title>
+                <title xml:lang="de">Siegel des Ioannes protospatharios, hypatos, krites tou hippodromou and von den Armenika themata</title>
+                <editor xml:id="MC">Maria Teresa Catalano</editor>
+                <editor xml:id="MF">Martina Filosa</editor>
+                <editor xml:id="CS">Claudia Sode</editor>
+                <!--here go the editors of the printed record, when available-->
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg/>
+                </edition>
+                <editor xml:id="PE">Pia Evening</editor>
+                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Feind_SB36</idno>
+                <!--here goes the name of the file-->
+                <idno type="SigiDocID"/>
+                <!--SigiDocID should be ignored for now-->
+                <idno type="sequence"/>
+                <!--you can add the sequence number of this specific seal in your digital corpus. It is not compulsory however-->
+                <date when="2023-05-04"/>
+                <!--change the date according to what you need-->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">Germany</seg>
+                            <seg xml:lang="de">Deutschland</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="en">Cologne</seg>
+                            <seg xml:lang="de">Köln</seg>
+                        </settlement>
+                        <institution/>
+                        <repository/>
+                        <collection xml:lang="en">Robert Feind Collection</collection>
+                        <collection xml:lang="de">Sammlung Robert Feind</collection>
+                        <idno>SB-36</idno>
+                        <!--to be completed with the actual idno-->
+                        <altIdentifier>
+                            <repository/>
+                            <!--to be used when we have an attested older repository -->
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="de">Provinzialverwaltung</seg>
+                        </summary>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="civil">
+                                    <seg xml:lang="en">Ioannes</seg>
+                                    <seg xml:lang="de">Ioannes</seg>
+                                    <interp type="milieu" xml:lang="en">Civil</interp>
+                                    <interp type="milieu" xml:lang="de">Zivil</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="de">Siegel</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                        <interp type="workType" xml:lang="de">Origineller
+                                            Siegelabdruck</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="de">Blei</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">30</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">14.5</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">5-11</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="not-centered obliterated torn-channel">
+                                    <p xml:lang="en">Slightly struck off-centre to the left on the obverse; on the reverse, struck off-centre to the right, effaced at left and open at the lower end of the channel.</p>
+                                    <p xml:lang="de">Prägung leicht nach links versetzt auf dem Avers, auf dem Revers Prägung nach rechts versetzt, links abgenutzt und am unteren Ende des Fadenkanals aufgebrochen.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Iconography, legend</seg>
+                                        <seg xml:lang="de">Ikonographie, Legende</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="de">???</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="en">Round</seg>
+                                        <seg xml:lang="de">Rund</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <!--not to be used yet-->
+                                        <idno type="PBW" corresp="URI"/>
+                                        <!--to be used if the seal has a parallel in the PBW with a boulloterion registered there-->
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" xml:lang="en">Mother of god standing</figDesc>
+                                    <!--only some keywords regarding the iconography, if applicable, e.g. Saint Theodore standing, Bust of the Mother of God -->
+                                    <figDesc n="whole" xml:lang="de">Stehende Muttergottes</figDesc>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="en">
+                                    <placeName ref="URI"/>
+                                </seg>
+                                <seg xml:lang="de">
+                                    <placeName ref="URI"/>
+                                </seg>
+                            </origPlace>
+                            <!-- for a precise year (WHEN):-->
+                            <!--remember: you will most probably only need one of these. Whatever you DON'T need goes in a green comment-->
+                            <!--<origDate type="analysis" when="0001" evidence="" cert="" resp="">
+                                <seg xml:lang="en"/>
+                                <seg xml:lang="de"/>
+                                <interp type="datingCriteria" xml:lang="en"/>
+                                <interp type="datingCriteria" xml:lang="de"/>
+                            </origDate>-->
+                            <!-- for a date range or centuries (NOT BEFORE - NOT AFTER)-->
+                            <origDate type="analysis" notBefore="1041" notAfter="1060"
+                                evidence="epigraphy iconography" resp="#MC">
+                                <seg xml:lang="en">mid-11th c.</seg>
+                                <seg xml:lang="de">Mitte 11. Jh.</seg>
+                                <interp type="datingCriteria" xml:lang="en">Epigraphy, iconography</interp>
+                                <interp type="datingCriteria" xml:lang="de">Epigraphik, Ikonographie</interp>
+                            </origDate>
+                            <!-- for an internal date >
+                            <origDate type="internal" when="0001" when-custom="2023" datingMethod="">
+                                <seg xml:lang="en"/>
+                                <seg xml:lang="de"/>
+                                <interp type="datingCriteria" xml:lang="en"/>
+                                <interp type="datingCriteria" xml:lang="de"/>
+                            </origDate>-->
+                            <!-- for erroneous dating and corrections: -->
+                            <!--<date>
+                                <choice>
+                                    <sic resp=""/>
+                                    <corr resp="" evidence="" cert=""/>
+                                </choice>
+                                <interp type="datingCriteria" xml:lang=""/>
+                            </date>-->
+                        </origin>
+                        <!--<provenance type="found" subtype="" when="2023" xml:lang="" source="" cert="">
+                            <placeName type="ancientFindspot" ref="URI"/>
+                            <placeName type="modernFindspot" ref="URI"/>
+                            <rs type="circumstances"/>
+                        </provenance>
+                        <provenance type="observed" subtype="">
+                            <p xml:lang="en"/>
+                            <p xml:lang="de"/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="">
+                            <p xml:lang="en"/>
+                            <p xml:lang="de"/>
+                        </provenance>
+                        <provenance type="transferred" subtype="">
+                            <p xml:lang="en"/>
+                            <p xml:lang="de"/>
+                        </provenance>-->
+                        <acquisition>
+                            <p xml:lang="en"/>
+                            <p xml:lang="de"/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg>Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <!--if the language changes, also the value of mainLang should change accordingly-->
+                                <seg xml:lang="en">Greek</seg>
+                                <seg xml:lang="fr">Griechisch</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="matrix" subtype="not-surviving">
+                                            <idno type="SigiDoc"/>
+                                            <!--not to be used yet-->
+                                        </rs>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography with legend in columns</seg>
+                                            <seg xml:lang="de">Ikonographie mit Legende in Kolumnen</seg>
+                                        </rs>
+                                        <p xml:lang="en">Iconography with legend in columns.</p>
+                                        <p xml:lang="de">Ikonographie mit Legende in Kolumnen.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <!--NB: in this field you can refer to epigraphic features on the seal using also AthenaRuby-->
+                                    <seg xml:lang="en"/>
+                                    <seg xml:lang="de"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="en">The Mother of God standing three quarters to the left, her hands raised toward a mandorla apparently containing the bust of Christ (Hagiosoritissa). Sigla on either side.</figDesc>
+                                        <figDesc n="r" xml:lang="de">Stehende Muttergottes mit erhobenen Händen zu einer Mandorla zu ihrer Linken, die die Büste von Christus enthält (Hagiosoritissa). Siglen auf beiden Seiten.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of tight dots.</figDesc>
+                                        <figDesc n="decoR" xml:lang="de">Perlrand.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate type="analysis">
+                                    <!--only for assembled boulloteria-->
+                                    <seg/>
+                                    <interp type="datingCriteria"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg>Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <!--if the language changes, also the value of mainLang should change accordingly-->
+                                <seg xml:lang="en">Greek</seg>
+                                <seg xml:lang="de">Griechisch</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="matrix" subtype="not-surviving">
+                                            <idno type="SigiDoc"/>
+                                            <!--not to be used yet-->
+                                        </rs>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Linear legend of 6 lines</seg>
+                                            <seg xml:lang="de">Lineare Legende auf 6 Zeilen</seg>
+                                        </rs>
+                                        <p xml:lang="en">Linear legend of 6 lines.</p>
+                                        <p xml:lang="de">Lineare Legende auf 6 Zeilen.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <!--NB: in this field you can refer to epigraphic features on the seal using also AthenaRuby-->
+                                    <seg xml:lang="en"/>
+                                    <seg xml:lang="de"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="en"/>
+                                        <figDesc n="v" xml:lang="de"/>
+                                        <figDesc n="decoV" xml:lang="en">Border of tight dots, preceding cross, below a decoration consisting of a dot between two dashes.</figDesc>
+                                        <figDesc n="decoV" xml:lang="de">Perlrand, vorangestelltes Kreuz, unterhalb der Legende ein Punkt zwischen zwei Strichen.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate type="analysis">
+                                    <!--only for assembled boulloteria-->
+                                    <seg/>
+                                    <interp type="datingCriteria"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+            <!--<listPrefixDef>
+                <prefixDef replacementPattern=""/>
+            </listPrefixDef>-->
+            <charDecl>
+                <glyph>
+                    <charProp>
+                        <localName>glyph-display</localName>
+                        <value/>
+                    </charProp>
+                    <charProp>
+                        <localName>text-display</localName>
+                        <value/>
+                    </charProp>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2023-05-04" who="#PE">Created xml file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- if you have more than 2 images, you can add them by copying all the surface element-->
+        <surface type="obverse">
+            <desc>Obverse</desc>
+            <graphic url="SB_36a.jpg">
+                <!--if you don't have the scale, delete the attribute-->
+                <desc xml:lang="en">[caption of the image]</desc>
+                <desc xml:lang="de">[Bildbeschriftung]</desc>
+            </graphic>
+        </surface>
+        <surface type="reverse">
+            <desc>Reverse</desc>
+            <graphic url="SB_36b.jpg">
+                <!--if you don't have the scale, delete the attribute-->
+                <desc xml:lang="en">[caption of the image]</desc>
+                <desc xml:lang="de">[Bildbeschriftung]</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc"> <!--obverse, editorial-->
+                      <ab>
+                          <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan> 
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+                      </ab>
+                          
+                      
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
+                      <ab>
+                          <lb n="1"/><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> <expan><ex>πρωτο</ex>
+                          <lb n="2" break="no"/><abbr>σπαθ</abbr><ex>άριος</ex></expan> <expan><abbr>ὕπατ</abbr><ex>ος</ex></expan> 
+                          <lb n="3"/><expan><abbr>κ<supplied reason="lost">ρι</supplied>τ</abbr><ex>ὴς</ex></expan> τοῦ <expan><abbr>ἱππ<supplied reason="lost">ο</supplied>
+                          <lb n="4" break="no"/>δ<supplied reason="lost">ρ</supplied>όμ</abbr><ex>ου</ex></expan> <expan><ex>καὶ</ex></expan> τῶν 
+                          <lb n="5"/><expan><abbr>Ἀ<supplied reason="lost">ρ</supplied>μενικ</abbr><ex>ῶν</ex></expan> 
+                          <lb n="6"/><expan><abbr>θ<supplied reason="lost">ε</supplied>μάτ</abbr><ex>ων</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                      <ab>
+                          <cb n="a"/>̅
+                          <cb n="b"/>ΘΥ
+                      </ab>
+                          
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
+                      <ab>
+                          <lb n="1"/>Ι̅̅Α
+                          <lb n="2"/>ΣΠ̣ΑΘ,ΥΠΑΤ,
+                          <lb n="3"/>Κ..Τ,ΤΙ.
+                          <lb n="4"/>Δ.ΟΜ̣,SΤΝ
+                          <lb n="5"/>Α.Μ̣ΕΝΙΚ
+                          <lb n="6"/>Θ̣.ΜΑΤ
+                          <lb n="7"/>  
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus"> 
+                  <listApp>
+                      <app xml:lang=""/> <!--if you don't need the apparatus, just delete the xml:lang-->
+                  </listApp>
+              </div>
+            <div type="translation">
+                <p>Ἰωάννης πρωτοσπαθάριος, ὕπατος κριτὴς τοῦ ἱπποδρόμου καὶ τῶν Ἀρμενικῶν θεμάτων.</p>
+                <p xml:lang="en">(Seal of Ioannes) protospatharios, hypatos, krites tou hippodromou and of the Armenika themata.</p>
+                <p xml:lang="de">(Siegel des) Ioannes protospatharios, hypatos, krites tou hippodromou und von den Armenika themata.</p>
+              </div>
+            <div type="commentary" subtype="text">
+                <p/>
+                  <p/>
+              </div>
+            <div type="commentary" subtype="footnotes">
+                <p/>
+                
+              </div>
+            <div type="bibliography" subtype="edition">
+                  <p/>
+              </div>
+            <div type="bibliography" subtype="parallels">
+                
+                <p/>
+              </div>
+           <!-- <div type="bibliography" subtype="discussion"> Beide Bibliographie-Angaben noch nicht in Authoritylist
+                  <p/>
+              </div>-->
+        </body>
+    </text>
+</TEI>
