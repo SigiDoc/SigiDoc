@@ -30,9 +30,10 @@
                 <item ana="κριτής" xml:lang="grc">
                     <term xml:id="krites_001">κριτής</term>
                     <term xml:id="krites_002">κριτὴς τοῦ βήλου</term>
-                    <term xml:id="krites_003">κριτὴς τοῦ Ἱπποδρόμου</term>
+                    <term xml:id="krites_003">κριτὴς ἐπὶ τοῦ Ἱπποδρόμου</term>
                     <term xml:id="krites_004">κριτὴς τῶν Βουκελλαρίων</term>
                     <term xml:id="krites_005">κριτὴς τῶν Θρᾳκησίων</term>
+                    <term xml:id="krites_006">κριτὴς τῆς Μακεδονίας</term>
                 </item>
                 <item ana="μέγας οἰκονόμος" xml:lang="grc">
                     <term xml:id="megasoik_001">μέγας οἰκονόμος τῶν εὐαγῶν οἶκων</term>
@@ -81,6 +82,19 @@
                 <item ana="δικαστής" xml:lang="grc">
                     <term xml:id="dikastes_001">δικαστής</term>
                     <term xml:id="dikastes_002">δικαστὴς τῶν Βουκελλαρίων</term>
+                </item>
+                <item ana="πρόεδρος" xml:lang="grc">
+                    <term xml:id="proedros_001">πρόεδρος</term>
+                </item>
+                <item ana="νοτάριος" xml:lang="grc">
+                    <term xml:id="notarios_001">νοτάριος</term>
+                </item>
+                <item ana="βασιλικὸς νοτάριος" xml:lang="grc">
+                    <term xml:id="imp-notarios_001">βασιλικὸς νοτάριος</term>
+                    <term xml:id="imp-notarios_002">βασιλικὸς νοτάριος τοῦ εἰδικοῦ</term>
+                </item>
+                <item ana="v" xml:lang="grc">
+                    <term xml:id="kensor_001">κενσώρ</term>
                 </item>
             </list>
             <!-- ********** ECCLESIASTICAL ********** -->

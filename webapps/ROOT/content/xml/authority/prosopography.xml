@@ -837,6 +837,51 @@
                         <link target="https://pbw2016.kdl.kcl.ac.uk/person/Michael/20489/"/>
                     </bibl>
                 </person>
+                <person sex="m" xml:id="ioannes-liparinos" resp="#MF">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Ἰωάννης</reg>
+                            <orig source="S_5">Ἰωάννου</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Λιπαρινός</reg>
+                            <orig source="S_5">Λιπαρινοῦ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1067" notAfter="1100">11th c., last third</floruit>
+                </person>
+                <person sex="m" xml:id="basileios-mauros" resp="#MF">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Βασίλειος</reg>
+                            <orig source="S_112">Βασιλείου</orig>
+                        </forename>
+                        <surname>
+                            <reg xml:lang="grc">Μαυρός</reg>
+                            <orig source="S_112">Μαυροῦ</orig>
+                        </surname>
+                    </persName>
+                    <floruit notBefore="1081" notAfter="1100">Late 11th century</floruit>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>PBW Basileios 20221</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20221/"/>
+                    </bibl>
+                </person>
+                <person sex="m" xml:id="konstantinos-1" resp="#MF">
+                    <persName>
+                        <forename>
+                            <reg xml:lang="grc">Κωνσταντῖνος</reg>
+                            <orig source="S_167">Κωνσταντίνῳ</orig>
+                        </forename>
+                    </persName>
+                    <floruit notBefore="1001" notAfter="1050">First half of the 11th century</floruit>
+                    <bibl>
+                        <ptr target="PBW"/>
+                        <citedRange>PBW Konstantinos 20116</citedRange>
+                        <link target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/"/>
+                    </bibl>
+                </person>
                 <!--<person sex="M" xml:id="Ἀρσένιος_1">
                     <!-\-Da completare!!!!!-\->
                     <persName xml:lang="grc">Ἀρσένιος</persName>

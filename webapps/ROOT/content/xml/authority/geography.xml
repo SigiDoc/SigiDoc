@@ -128,6 +128,14 @@
                     <placeName xml:lang="fr">ta Pikridiou</placeName>
                     <placeName xml:lang="it">ta Pikridiou</placeName>
                 </place>
+                <place xml:id="geo0015">
+                    <placeName xml:lang="grc">Κύπρος</placeName>
+                    <placeName xml:lang="en">Cyprus</placeName>
+                    <placeName xml:lang="fr">Zypern</placeName>
+                    <placeName xml:lang="it">Cipro</placeName>
+                    <idno type="pleiades">707498</idno>
+                    <link target="https://pleiades.stoa.org/places/707498"/>
+                </place>
             </listPlace>
         </body>
     </text>
