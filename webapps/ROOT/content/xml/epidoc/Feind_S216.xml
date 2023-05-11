@@ -410,18 +410,18 @@
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <lg met="dodecasyllabic" subtype="true">
                           <l n="1a">
-                              <lb n="1"/>Σφρα
+                              <rs type="legendsCases" ref="#gen"><lb n="1"/>Σφρα
                               <lb n="2" break="no"/>γὶς <expan>πέ
-                              <lb n="3 " break="no"/>φυκ<supplied reason="lost">α</supplied></expan>
+                              <lb n="3 " break="no"/>φυκ<supplied reason="lost">α</supplied></expan></rs>
                           </l>
                           </lg>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <lg met="dodecasyllabic" subtype="true">
                           <l n="1b">
-                              <lb n="4"/><expan>τοῦ κέν
-                              <lb n="5" break="no"/><supplied reason="lost">σ</supplied>ορος </expan>
-                              <lb n="6 "/><expan><supplied reason="lost">τ</supplied>ῶν</expan> λό
+                              <lb n="4"/>τοῦ <persName ref="#anonymous"><rs type="office" subtype="civil" ref="#kensor_001">κέν
+                              <lb n="5" break="no"/><supplied reason="lost">σ</supplied>ορος</rs></persName>
+                              <lb n="6 "/> <expan><supplied reason="lost">τ</supplied>ῶν</expan> λό
                               <lb n="7" break="no"/>γων
                           </l>
                           </lg>

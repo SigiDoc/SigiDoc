@@ -411,14 +411,14 @@
                       <ab><rs type="legendsCases" ref="#acc">
                           <lb n="1"/><expan><abbr>Γραφ</abbr><ex>ὰς</ex></expan>
                           <lb n="2" />σφραγί
-                          <lb n="3" break="no"/>ζω <name type="forename"><expan><abbr>Ἰω</abbr><ex>άννου</ex></expan></name>
+                          <lb n="3" break="no"/>ζω <persName ref="#ioannes-liparinos"><expan><abbr>Ἰω</abbr><ex>άννου</ex></expan></persName>
                       </rs></ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
                           <lb n="4"/><rs type="dignity" ref="#magistros"><expan>μαγί<ex>σ</ex>
-                          <lb n="5" break="no"/>τρου</expan> </rs>τοῦ <persName type="attested" ref="#Liparinos_Ioannes"><name type="surname"><expan>Λ<ex>ι</ex>
-                          <lb n="6" break="no"/>παριν<ex>οῦ</ex></expan></name></persName>
+                          <lb n="5" break="no"/>τρου</expan> </rs>τοῦ <expan>Λ<ex>ι</ex>
+                          <lb n="6" break="no"/>παριν<ex>οῦ</ex></expan>
                       </ab>
                   </div>
               </div>

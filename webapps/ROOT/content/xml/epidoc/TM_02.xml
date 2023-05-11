@@ -6,12 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <seg xml:lang="en">Seal of Constantine IV and Anastasia, basileis
-                        of the Romans</seg>
-                    <seg xml:lang="fr">Sceau de Constantin IV et Anastasie, basileis
-                        des Romains</seg>
-                </title>
+                <title xml:lang="en">Seal of Constantine IV and Anastasia, basileis
+                    of the Romans</title>
+                <title xml:lang="fr">Sceau de Constantin IV et Anastasie, basileis
+                    des Romains</title>
                 <editor>
                     <persName xml:lang="it"><forename>Alessio</forename>
                         <surname>Sopracasa</surname></persName>

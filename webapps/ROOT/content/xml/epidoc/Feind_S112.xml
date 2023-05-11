@@ -382,11 +382,11 @@
             <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
-                          <lb n="1"/><supplied reason="lost">Σφρα</supplied> 
-                          <lb n="2" break="no"/>γὶς Βα<supplied reason="lost">σιλεί</supplied>
-                          <lb n="3" break="no"/>ου <expan><abbr>προ<supplied reason="lost">έ</supplied>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ου</ex></supplied></expan> 
-                          <lb n="4"/>καὶ κρι
-                          <lb n="5" break="no"/>τοῦ
+                          <rs type="legendsCases" ref="#gen"><lb n="1"/><supplied reason="lost">Σφρα</supplied> 
+                          <lb n="2" break="no"/>γὶς <persName ref="#basileios-mauros">Βα<supplied reason="lost">σιλεί</supplied>
+                          <lb n="3" break="no"/>ου</persName> <rs type="office" subtype="civil" ref="#proedros_001"><expan><abbr>προ<supplied reason="lost">έ</supplied>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ου</ex></supplied></expan></rs> 
+                          <lb n="4"/>καὶ <rs type="office" subtype="civil" ref="#krites_003">κρι
+                          <lb n="5" break="no"/>τοῦ</rs></rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->

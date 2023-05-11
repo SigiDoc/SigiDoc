@@ -454,11 +454,11 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="sigla" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                      <ab> 
-                         <cb n="a"/><rs type="saintsTerm" subtype="appellative" ref="#st-george">Ὁ <expan><abbr>ἅ</abbr><ex>γιος</ex></expan> Γεόρ
-                         <cb n="b" break="no"/>γιο<ex>ς</ex></rs>
+                         <cb n="a"/>Ὁ <expan><abbr>ἅ</abbr><ex>γιος</ex></expan> Γεόρ
+                         <cb n="b" break="no"/>γιο<ex>ς</ex>
                      </ab> 
                       </div>
                 <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
@@ -468,13 +468,13 @@
                   </div>
                   <div type="textpart" subtype="sigla" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <cb n="a"/><rs type="saintsTerm" subtype="appellative" ref="#michael">Ὁ <expan><abbr>ἅ</abbr><ex>γιος</ex></expan> <expan><abbr>Μ</abbr><ex>ι</ex>
-                          <cb n="b" break="no"/><abbr>χ</abbr><ex>αή</ex><abbr>λ</abbr></expan></rs>
+                          <cb n="a"/>Ὁ <expan><abbr>ἅ</abbr><ex>γιος</ex></expan> <expan><abbr>Μ</abbr><ex>ι</ex>
+                          <cb n="b" break="no"/><abbr>χ</abbr><ex>αή</ex><abbr>λ</abbr></expan>
                            </ab>
                   </div>
                 <div type="textpart" subtype="face" n="rev" rend="circular" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <lb n="2"/>Φυλάττου με<supplied reason="lost">ᾦ</supplied> συνώ<ex>νυμε</ex> ἡ<ex>κε</ex>σίες
+                          <lb n="2"/>Φυλάττου με <supplied reason="lost">ὦ</supplied> συνώ<ex>νυμε</ex> ἡ<ex>κε</ex>σίες
                            </ab>
                   </div>
               </div>

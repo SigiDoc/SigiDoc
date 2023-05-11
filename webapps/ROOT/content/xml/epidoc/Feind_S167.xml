@@ -72,8 +72,12 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="civil">
-                                    <seg xml:lang="en"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/">Konstantinos</ref></seg>
-                                    <seg xml:lang="de"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/">Konstantinos</ref></seg>
+                                    <seg xml:lang="en"><ref
+                                            target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/"
+                                            >Konstantinos</ref></seg>
+                                    <seg xml:lang="de"><ref
+                                            target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/"
+                                            >Konstantinos</ref></seg>
                                     <interp type="milieu" xml:lang="en">Civil</interp>
                                     <interp type="milieu" xml:lang="de">Zivil</interp>
                                 </roleName>
@@ -133,7 +137,9 @@
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc"/>
                                         <!--not to be used yet-->
-                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/297/">297</idno>
+                                        <idno type="PBW"
+                                            corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/297/"
+                                            >297</idno>
                                         <!--to be used if the seal has a parallel in the PBW with a boulloterion registered there-->
                                     </rs>
                                 </layout>
@@ -396,19 +402,19 @@
             <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
-                          <lb n="1"/><supplied reason="lost">+<expan><abbr>K</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
-                              <lb n="2"/>τ</supplied>ῷ σῷ <expan><abbr>δ</abbr><supplied reason="lost"><abbr>ού</abbr><ex>λῳ</ex></supplied></expan>
-                              <lb n="3"/><expan><supplied reason="lost"><abbr>Κ</abbr></supplied><abbr>ων</abbr><ex>σταντίνῳ</ex></expan> <expan><ex>πρωτο</ex><abbr>σπ</abbr><supplied reason="lost"><abbr>α
-                          <lb n="4" break="no"/>θ</abbr><ex>αρίῳ</ex></supplied></expan> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>ν</abbr><ex>ο</ex><abbr>τ</abbr><ex>αρίῳ</ex></expan> <expan><abbr>τ</abbr><ex>οῦ</ex></expan> 
-                          <lb n="5"/><expan><supplied reason="lost"><abbr>ε</abbr></supplied><abbr>ἰδικ</abbr><ex>οῦ</ex></expan>
+                          <rs type="legendsCases" ref="#dat"><lb n="1"/><rs type="invocation" ref="#inv004"><supplied reason="lost">+<expan><abbr>K</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                              <lb n="2"/>τ</supplied>ῷ σῷ <expan><abbr>δ</abbr><supplied reason="lost"><abbr>ού</abbr><ex>λῳ</ex></supplied></expan></rs>
+                              <lb n="3"/><persName ref="#konstantinos-1"><expan><supplied reason="lost"><abbr>Κ</abbr></supplied><abbr>ων</abbr><ex>σταντίνῳ</ex></expan></persName> <rs type="dignities" ref="#prosospatharios"><expan><ex>πρωτο</ex><abbr>σπ</abbr><supplied reason="lost"><abbr>α
+                          <lb n="4" break="no"/>θ</abbr><ex>αρίῳ</ex></supplied></expan></rs> <rs type="office" subtype="civil" ref="#imp-notarios_002"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>ν</abbr><ex>ο</ex><abbr>τ</abbr><ex>αρίῳ</ex></expan> <expan><abbr>τ</abbr><ex>οῦ</ex></expan> 
+                          <lb n="5"/><expan><supplied reason="lost"><abbr>ε</abbr></supplied><abbr>ἰδικ</abbr><ex>οῦ</ex></expan></rs></rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <lb n="6"/><expan><abbr><supplied reason="lost">κρι</supplied>τ</abbr><ex>ῇ</ex></expan> <expan><abbr>ἐπ</abbr><ex>ὶ</ex></expan> 
+                          <lb n="6"/><rs type="offices" ref="#krites_003"><expan><abbr><supplied reason="lost">κρι</supplied>τ</abbr><ex>ῇ</ex></expan> <expan><abbr>ἐπ</abbr><ex>ὶ</ex></expan> 
                           <lb n="7"/><supplied reason="lost">τοῦ</supplied> <expan><abbr>ἱππ</abbr><ex>ο</ex><abbr>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ό</ex>
-                          <lb n="8" break="no"/><abbr>μ</abbr><ex>ου</ex></supplied></expan> <expan><ex>καὶ</ex></expan> τῆς <expan><abbr>Μ</abbr><supplied reason="lost"><ex>α</ex>
-                          <lb n="9" break="no"/><abbr>κ</abbr></supplied><abbr>εδ<supplied reason="lost">ο</supplied>ν</abbr><ex>ίας</ex></expan>
+                          <lb n="8" break="no"/><abbr>μ</abbr><ex>ου</ex></supplied></expan></rs> <rs type="offices" ref="#krites_006"><expan><ex>καὶ</ex></expan> τῆς <expan><abbr>Μ</abbr><supplied reason="lost"><ex>α</ex>
+                          <lb n="9" break="no"/><abbr>κ</abbr></supplied><abbr>εδ<supplied reason="lost">ο</supplied>ν</abbr><ex>ίας</ex></expan></rs>
                       </ab>
                   </div>
               </div>

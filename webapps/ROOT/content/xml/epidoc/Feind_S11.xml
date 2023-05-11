@@ -380,15 +380,15 @@
             <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
-                          <lb n="1"/>Ἀνθ
+                          <rs type="legendsCases" ref="#gen"><lb n="1"/><persName ref="#anonymous"><rs type="dignity" ref="#anthypatos">Ἀνθ
                               <lb n="2" break="no"/>υπά
-                              <lb n="3" break="no"/>του
+                              <lb n="3" break="no"/>του</rs></persName></rs>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <lb n="4"/>Κύπ
-                          <lb n="5" break="no"/>ρου
+                          <lb n="4"/><placeName ref="#geo0015">Κύπ
+                          <lb n="5" break="no"/>ρου</placeName>
                       </ab>
                   </div>
               </div>
