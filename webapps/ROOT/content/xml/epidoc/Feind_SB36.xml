@@ -9,12 +9,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">Seal of Basileios Mauros, proedros and krites epi tou hippodromou</title>
-                <title xml:lang="de">Siegel des Basileios Mauros, proedros und krites epi tou hippodromou</title>
+                <title xml:lang="en">Seal of Ioannes protospatharios, hypatos, krites tou hippodromou and of the Armenika themata</title>
+                <title xml:lang="de">Siegel des Ioannes protospatharios, hypatos, krites tou hippodromou and von den Armenika themata</title>
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
-                <!--here go the editors of the printed record, when available-->
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -25,13 +24,13 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename">Feind_S112</idno>
+                <idno type="filename">Feind_SB36</idno>
                 <!--here goes the name of the file-->
                 <idno type="SigiDocID"/>
                 <!--SigiDocID should be ignored for now-->
                 <idno type="sequence"/>
                 <!--you can add the sequence number of this specific seal in your digital corpus. It is not compulsory however-->
-                <date when="2023-04-27"/>
+                <date when="2023-05-04"/>
                 <!--change the date according to what you need-->
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -54,22 +53,24 @@
                         <repository/>
                         <collection xml:lang="en">Robert Feind Collection</collection>
                         <collection xml:lang="de">Sammlung Robert Feind</collection>
-                        <idno>S-112</idno>
+                        <idno>SB-36</idno>
+                        <!--to be completed with the actual idno-->
                         <altIdentifier>
                             <repository/>
+                            <!--to be used when we have an attested older repository -->
                             <idno/>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <summary n="whole">
-                            <seg xml:lang="en">Central administration</seg>
-                            <seg xml:lang="de">Zentralverwaltung</seg>
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="de">Provinzialverwaltung</seg>
                         </summary>
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="civil">
-                                    <seg xml:lang="en"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20221/">Basileios Mauros</ref></seg>
-                                    <seg xml:lang="de"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20221/">Basileios Mauros</ref></seg>
+                                    <seg xml:lang="en">Ioannes</seg>
+                                    <seg xml:lang="de">Ioannes</seg>
                                     <interp type="milieu" xml:lang="en">Civil</interp>
                                     <interp type="milieu" xml:lang="de">Zivil</interp>
                                 </roleName>
@@ -95,24 +96,24 @@
                                         <seg xml:lang="de">Blei</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">21</dim>
+                                        <dim type="diameter">30</dim>
                                     </dimensions>
-                                    <measure type="weight" unit="g">5.2</measure>
+                                    <measure type="weight" unit="g">14.5</measure>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">6-11</measure>
+                                    <measure type="channelOrient" unit="clock">5-11</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="obliterated not-centered">
-                                    <p xml:lang="en">Partially effaced on the obverse, struck off-centre to the upper right on the obverse and to the upper left on the reverse.</p>
-                                    <p xml:lang="de">Teilweise abgenutzt auf Avers, Prägung auf dem Avers nach oben rechts und auf dem Revers nach oben links versetzt.</p>
+                                <condition rend="not-centered obliterated torn-channel">
+                                    <p xml:lang="en">Slightly struck off-centre to the left on the obverse; on the reverse, struck off-centre to the right, effaced at left and open at the lower end of the channel.</p>
+                                    <p xml:lang="de">Prägung leicht nach links versetzt auf dem Avers, auf dem Revers Prägung nach rechts versetzt, links abgenutzt und am unteren Ende des Fadenkanals aufgebrochen.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout n="whole">
                                     <rs type="layout">
-                                        <seg xml:lang="en">Legend</seg>
-                                        <seg xml:lang="de">Legende</seg>
+                                        <seg xml:lang="en">Iconography, legend</seg>
+                                        <seg xml:lang="de">Ikonographie, Legende</seg>
                                     </rs>
                                     <rs type="execution">
                                         <seg xml:lang="en">Struck</seg>
@@ -125,7 +126,7 @@
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc"/>
                                         <!--not to be used yet-->
-                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2534/">2534</idno>
+                                        <idno type="PBW" corresp="URI"/>
                                         <!--to be used if the seal has a parallel in the PBW with a boulloterion registered there-->
                                     </rs>
                                 </layout>
@@ -134,9 +135,9 @@
                         <decoDesc>
                             <decoNote>
                                 <figure>
-                                    <figDesc n="whole" xml:lang="en"/>
+                                    <figDesc n="whole" xml:lang="en">Mother of god standing</figDesc>
                                     <!--only some keywords regarding the iconography, if applicable, e.g. Saint Theodore standing, Bust of the Mother of God -->
-                                    <figDesc n="whole" xml:lang="de"/>
+                                    <figDesc n="whole" xml:lang="de">Stehende Muttergottes</figDesc>
                                 </figure>
                             </decoNote>
                         </decoDesc>
@@ -160,12 +161,12 @@
                                 <interp type="datingCriteria" xml:lang="de"/>
                             </origDate>-->
                             <!-- for a date range or centuries (NOT BEFORE - NOT AFTER)-->
-                            <origDate type="analysis" notBefore="1081" notAfter="1100"
-                                evidence="prosopography" resp="#MC">
-                                <seg xml:lang="en">Late 11th c.</seg>
-                                <seg xml:lang="de">Spätes 11. Jh.</seg>
-                                <interp type="datingCriteria" xml:lang="en">Prosopography</interp>
-                                <interp type="datingCriteria" xml:lang="de">Prosopographie</interp>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060"
+                                evidence="epigraphy iconography" resp="#MC">
+                                <seg xml:lang="en">mid-11th c.</seg>
+                                <seg xml:lang="de">Mitte 11. Jh.</seg>
+                                <interp type="datingCriteria" xml:lang="en">Epigraphy, iconography</interp>
+                                <interp type="datingCriteria" xml:lang="de">Epigraphik, Ikonographie</interp>
                             </origDate>
                             <!-- for an internal date >
                             <origDate type="internal" when="0001" when-custom="2023" datingMethod="">
@@ -231,11 +232,11 @@
                                             <!--not to be used yet-->
                                         </rs>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Linear legend of 5 lines</seg>
-                                            <seg xml:lang="de">Lineare Legende auf 5 Zeilen</seg>
+                                            <seg xml:lang="en">Iconography with legend in columns</seg>
+                                            <seg xml:lang="de">Ikonographie mit Legende in Kolumnen</seg>
                                         </rs>
-                                        <p xml:lang="en">Linear legend of 5 lines.</p>
-                                        <p xml:lang="de">Lineare Legende auf 5 Zeilen.</p>
+                                        <p xml:lang="en">Iconography with legend in columns.</p>
+                                        <p xml:lang="de">Ikonographie mit Legende in Kolumnen.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -249,9 +250,9 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="en"/>
-                                        <figDesc n="r" xml:lang="de"/>
-                                        <figDesc n="decoR" xml:lang="en">Border of dots.</figDesc>
+                                        <figDesc n="r" xml:lang="en">The Mother of God standing three quarters to the left, her hands raised toward a mandorla apparently containing the bust of Christ (Hagiosoritissa). Sigla on either side.</figDesc>
+                                        <figDesc n="r" xml:lang="de">Stehende Muttergottes mit erhobenen Händen zu einer Mandorla zu ihrer Linken, die die Büste von Christus enthält (Hagiosoritissa). Siglen auf beiden Seiten.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of tight dots.</figDesc>
                                         <figDesc n="decoR" xml:lang="de">Perlrand.</figDesc>
                                     </figure>
                                 </decoNote>
@@ -294,11 +295,11 @@
                                             <!--not to be used yet-->
                                         </rs>
                                         <rs type="layout">
-                                            <seg xml:lang="en">Linear legend of 4 lines.</seg>
-                                            <seg xml:lang="de">Lineare Legende auf 4 Zeilen.</seg>
+                                            <seg xml:lang="en">Linear legend of 6 lines</seg>
+                                            <seg xml:lang="de">Lineare Legende auf 6 Zeilen</seg>
                                         </rs>
-                                        <p xml:lang="en">Linear legend of 4 lines.</p>
-                                        <p xml:lang="de">Lineare Legende auf 4 Zeilen.</p>
+                                        <p xml:lang="en">Linear legend of 6 lines.</p>
+                                        <p xml:lang="de">Lineare Legende auf 6 Zeilen.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -314,8 +315,8 @@
                                     <figure>
                                         <figDesc n="v" xml:lang="en"/>
                                         <figDesc n="v" xml:lang="de"/>
-                                        <figDesc n="decoV" xml:lang="en">Border of dots.</figDesc>
-                                        <figDesc n="decoV" xml:lang="de">Perlrand.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of tight dots, preceding cross, below a decoration consisting of a dot between two dashes.</figDesc>
+                                        <figDesc n="decoV" xml:lang="de">Perlrand, vorangestelltes Kreuz, unterhalb der Legende ein Punkt zwischen zwei Strichen.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -355,14 +356,14 @@
             </charDecl>
         </encodingDesc>
         <revisionDesc>
-            <change when="2023-04-27" who="#PE">Created xml file</change>
+            <change when="2023-05-04" who="#PE">Created xml file</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <!-- if you have more than 2 images, you can add them by copying all the surface element-->
         <surface type="obverse">
             <desc>Obverse</desc>
-            <graphic url="S_112a.jpg">
+            <graphic url="SB_36a.jpg">
                 <!--if you don't have the scale, delete the attribute-->
                 <desc xml:lang="en">[caption of the image]</desc>
                 <desc xml:lang="de">[Bildbeschriftung]</desc>
@@ -370,7 +371,7 @@
         </surface>
         <surface type="reverse">
             <desc>Reverse</desc>
-            <graphic url="S_112b.jpg">
+            <graphic url="SB_36b.jpg">
                 <!--if you don't have the scale, delete the attribute-->
                 <desc xml:lang="en">[caption of the image]</desc>
                 <desc xml:lang="de">[Bildbeschriftung]</desc>
@@ -379,41 +380,40 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve"> 
-                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
+            <div type="edition" subtype="editorial" xml:space="preserve"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
-                          <rs type="legendsCases" ref="#gen"><lb n="1"/><supplied reason="lost">Σφρα</supplied> 
-                          <lb n="2" break="no"/>γὶς <persName ref="#basileios-mauros">Βα<supplied reason="lost">σιλεί</supplied>
-                          <lb n="3" break="no"/>ου</persName> <rs type="office" subtype="civil" ref="#proedros_001"><expan><abbr>προ<supplied reason="lost">έ</supplied>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ου</ex></supplied></expan></rs> 
-                          <lb n="4"/>καὶ <rs type="office" subtype="civil" ref="#krites_003">κρι
-                          <lb n="5" break="no"/>τοῦ</rs></rs>
+                          <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan> 
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
-                          <lb n="6"/><supplied reason="lost">ἐπὶ</supplied> τοῦ 
-                          <lb n="7"/><supplied reason="lost">ἱ</supplied>πποδρό
-                          <lb n="8" break="no"/>μου τοῦ 
-                          <lb n="9"/>Μαυροῦ
+                          <lb n="1"/><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> <expan><ex>πρωτο</ex>
+                          <lb n="2" break="no"/><abbr>σπαθ</abbr><ex>άριος</ex></expan> <expan><abbr>ὕπατ</abbr><ex>ος</ex></expan> 
+                          <lb n="3"/><expan><abbr>κ<supplied reason="lost">ρι</supplied>τ</abbr><ex>ὴς</ex></expan> τοῦ <expan><abbr>ἱππ<supplied reason="lost">ο</supplied>
+                          <lb n="4" break="no"/>δ<supplied reason="lost">ρ</supplied>όμ</abbr><ex>ου</ex></expan> <expan><ex>καὶ</ex></expan> τῶν 
+                          <lb n="5"/><expan><abbr>Ἀ<supplied reason="lost">ρ</supplied>μενικ</abbr><ex>ῶν</ex></expan> 
+                          <lb n="6"/><expan><abbr>θ<supplied reason="lost">ε</supplied>μάτ</abbr><ex>ων</ex></expan>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
-                          <lb n="1"/>....
-                          <lb n="2"/>ΓιΣ̣ra.....
-                          <lb n="3"/>Οvπρο̣.δ̣.
-                          <lb n="4"/>Καικρι̣
-                          <lb n="5"/>ΤΟΥ
+                          <cb n="a"/>̅
+                          <cb n="b"/>ΘΥ
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                       <ab>
-                          <lb n="6"/>...του
-                          <lb n="7"/>.οδρο
-                          <lb n="8"/>Μουτου
-                          <lb n="9"/>μαυρ
+                          <lb n="1"/>Ι̅̅Α
+                          <lb n="2"/>ΣΠ̣ΑΘ,ΥΠΑΤ,
+                          <lb n="3"/>Κ..Τ,ΤΙ.
+                          <lb n="4"/>Δ.ΟΜ̣,SΤΝ
+                          <lb n="5"/>Α.Μ̣ΕΝΙΚ
+                          <lb n="6"/>Θ̣.ΜΑΤ
+                          <lb n="7"/>  
                       </ab>
                   </div>
               </div>
@@ -423,32 +423,26 @@
                   </listApp>
               </div>
             <div type="translation">
-                <p>Σφραγὶς Βασιλείου προέδρου καὶ κριτοῦ ἐπὶ τοῦ ἱπποδρόμου τοῦ Μαυροῦ.</p>
-                <p xml:lang="en">Seal of Basileios Mauros, proedros and krites epi tou hippodromou.</p>
-                <p xml:lang="de">Siegel des Basileios Mauros, proedros und krites epi tou hippodromou.</p>
+                <p>Ἰωάννης πρωτοσπαθάριος, ὕπατος κριτὴς τοῦ ἱπποδρόμου καὶ τῶν Ἀρμενικῶν θεμάτων.</p>
+                <p xml:lang="en">(Seal of Ioannes) protospatharios, hypatos, krites tou hippodromou and of the Armenika themata.</p>
+                <p xml:lang="de">(Siegel des) Ioannes protospatharios, hypatos, krites tou hippodromou und von den Armenika themata.</p>
               </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="en">To Basileios Mauros[1] is attributed another seal type, on which he appears only as <hi rend="italic">praipositos</hi>.[2] Since the title of <hi rend="italic">proedros</hi> is not mentioned in the legend, it can be assumed that this second specimen was struck earlier, probably in the last third of the 11th c.</p>
-                  <p xml:lang="de"/>
+                <p/>
+                  <p/>
               </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:id="footnote-1">[1]. <bibl><ptr target="PBW"/>, <ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20221/">Basileios 20221</ref></bibl>.</p>
-                <p xml:id="footnote-2">[2]. <bibl><ptr target="DOsealsOnline"/>, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2105">BZS.1958.106.2105</ref></bibl>; a second parallel specimen (BZS 1958.106.5515) has not yet been published and couldn’t be verified.</p>
+                <p/>
               </div>
             <div type="bibliography" subtype="edition">
                   <p/>
               </div>
             <div type="bibliography" subtype="parallels">
-                <p> (1) American Numismatic Society, Mabbott, no. 223 – <bibl><ptr target="LaurentCorpus2"/>, no. <citedRange unit="entry">886</citedRange></bibl> ; (2) American Numismatic Society, Mabbott, no. 333 – <bibl><ptr target="LaurentCorpus2"/>, no. <citedRange unit="entry">886</citedRange></bibl> ; (3) Yambol, Historical Museum, no. 5463 – <bibl><ptr target="JordanovCorpus2"/>, no. <citedRange unit="entry">427</citedRange></bibl>; <bibl><ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry">936</citedRange></bibl>; <bibl><ptr target="Jordanov2002"/>, p. <citedRange unit="page">28-29</citedRange>, no. <citedRange unit="entry">7</citedRange></bibl> ; (4) private collection (V. Vurbanov, Bulgaria) – <bibl><ptr target="JordanovCorpus2"/>, nos. <citedRange unit="entry">428</citedRange></bibl>; <bibl><ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry">937</citedRange></bibl>; <bibl><ptr target="Jordanov2002"/>, p. <citedRange unit="page">28-29</citedRange>, no. <citedRange unit="entry">8</citedRange></bibl> ; (5) private collection (Bulgaria) – <bibl><ptr target="JordanovCorpus2"/>, no. <citedRange unit="entry">429</citedRange></bibl>; <bibl><ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry">938</citedRange></bibl> (in both cases only a mention). (1) and (2) don’t seem to have been struck by the same boulloterion as ours.                   
-                  </p>
+                <p/>
               </div>
-            <!--<div type="bibliography" subtype="discussion"> if you don't have further bibliography, put this div in a comment
-                  <p>
-                      <bibl>
-                          <ptr target=""/>, <citedRange unit=""/>
-                      </bibl>
-                  </p>
-              </div>-->
+            <div type="bibliography" subtype="discussion"> 
+                  <p/>
+              </div>
         </body>
     </text>
 </TEI>
