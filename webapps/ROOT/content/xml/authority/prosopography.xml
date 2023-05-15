@@ -920,7 +920,7 @@
                     <floruit notBefore="1001" notAfter="1050">First half of the 11th century</floruit>
                     <bibl>
                         <ptr target="PBW"/>
-                        <citedRange>PBW Konstantinos 20116</citedRange>
+                        <citedRange>PBW Konstantinos 20116 asdfghjk</citedRange>
                         <link target="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20116/"/>
                     </bibl>
                 </person>
