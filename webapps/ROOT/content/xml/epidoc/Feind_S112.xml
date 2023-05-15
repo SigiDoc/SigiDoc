@@ -6,6 +6,10 @@
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
     xmlns="http://www.tei-c.org/ns/1.0">
+<<<<<<< HEAD
+    <!-- schema location for users of the SigiDoc's version of EFES available at https://github.com/SigiDoc/SigiDoc-->
+=======
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,6 +25,10 @@
                     <seg/>
                 </edition>
                 <editor xml:id="PE">Pia Evening</editor>
+<<<<<<< HEAD
+                <!-- here the editor of the digital edition should be defined. If he/she already appears above as editor of the seal, you can refer to them with a ref attribute and point to the xml:id with a #; if they appear for the first time, you should write a new xml:id as you did above on line 14 and 15. As an example I referred to MF as defined on l. 15 and added a new xml:id for, e.g., Pia-->
+=======
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
@@ -55,8 +63,15 @@
                         <collection xml:lang="en">Robert Feind Collection</collection>
                         <collection xml:lang="de">Sammlung Robert Feind</collection>
                         <idno>S-112</idno>
+<<<<<<< HEAD
+                        <!--to be completed with the actual idno-->
                         <altIdentifier>
                             <repository/>
+                            <!--to be used when we have an attested older repository -->
+=======
+                        <altIdentifier>
+                            <repository/>
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                             <idno/>
                         </altIdentifier>
                     </msIdentifier>
@@ -68,8 +83,13 @@
                         <msItem>
                             <author>
                                 <roleName role="issuer" type="civil">
+<<<<<<< HEAD
+                                    <seg xml:lang="en">Basileios Mauros</seg>
+                                    <seg xml:lang="de">Basileios Mauros</seg>
+=======
                                     <seg xml:lang="en"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20221/">Basileios Mauros</ref></seg>
                                     <seg xml:lang="de"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20221/">Basileios Mauros</ref></seg>
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                                     <interp type="milieu" xml:lang="en">Civil</interp>
                                     <interp type="milieu" xml:lang="de">Zivil</interp>
                                 </roleName>
@@ -125,7 +145,11 @@
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc"/>
                                         <!--not to be used yet-->
+<<<<<<< HEAD
+                                        <idno type="PBW" corresp="URI"/>
+=======
                                         <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2534/">2534</idno>
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                                         <!--to be used if the seal has a parallel in the PBW with a boulloterion registered there-->
                                     </rs>
                                 </layout>
@@ -294,8 +318,13 @@
                                             <!--not to be used yet-->
                                         </rs>
                                         <rs type="layout">
+<<<<<<< HEAD
+                                            <seg xml:lang="en">Linear legend of 4 lines</seg>
+                                            <seg xml:lang="de">Lineare Legende auf 4 Zeilen</seg>
+=======
                                             <seg xml:lang="en">Linear legend of 4 lines.</seg>
                                             <seg xml:lang="de">Lineare Legende auf 4 Zeilen.</seg>
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                                         </rs>
                                         <p xml:lang="en">Linear legend of 4 lines.</p>
                                         <p xml:lang="de">Lineare Legende auf 4 Zeilen.</p>
@@ -379,6 +408,16 @@
     </facsimile>
     <text>
         <body>
+<<<<<<< HEAD
+            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="grc"> <!--change the language code according to the language of your edition, the values (also when combined, e.g. Greek-Latin) are in the guidelines. Same goes for what comes next, textpart etc.-->
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
+                      <ab>
+                          <lb n="1"/><supplied reason="lost">Σφρα</supplied> 
+                          <lb n="2" break="no"/>γὶς Βα<supplied reason="lost">σιλεί</supplied>
+                          <lb n="3" break="no"/>ου <expan><abbr>προ<supplied reason="lost">έ</supplied>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ου</ex></supplied></expan> 
+                          <lb n="4"/>καὶ κρι
+                          <lb n="5" break="no"/>τοῦ
+=======
             <div type="edition" subtype="editorial" xml:space="preserve"> 
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc"> <!--obverse, editorial-->
                       <ab>
@@ -387,10 +426,21 @@
                           <lb n="3" break="no"/>ου</persName> <rs type="office" subtype="civil" ref="#proedros_001"><expan><abbr>προ<supplied reason="lost">έ</supplied>δ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ου</ex></supplied></expan></rs> 
                           <lb n="4"/>καὶ <rs type="office" subtype="civil" ref="#krites_003">κρι
                           <lb n="5" break="no"/>τοῦ</rs></rs>
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, editorial-->
                       <ab>
+<<<<<<< HEAD
+                          <lb n="1"/><supplied reason="lost">ἐπὶ</supplied> τοῦ 
+                          <lb n="2"/><supplied reason="lost">ἱ</supplied>πποδρό
+                          <lb n="3" break="no"/>μου τοῦ 
+                          <lb n="4"/>Μαυροῦ
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="grc"> 
+=======
                           <lb n="6"/><supplied reason="lost">ἐπὶ</supplied> τοῦ 
                           <lb n="7"/><supplied reason="lost">ἱ</supplied>πποδρό
                           <lb n="8" break="no"/>μου τοῦ 
@@ -399,6 +449,7 @@
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="1"/>....
@@ -410,16 +461,27 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc"> <!--reverse, diplomatic-->
                       <ab>
+<<<<<<< HEAD
+                          <lb n="1"/>...του
+                          <lb n="2"/>.οδρο
+                          <lb n="3"/>Μουτου
+                          <lb n="4"/>μαυρ
+=======
                           <lb n="6"/>...του
                           <lb n="7"/>.οδρο
                           <lb n="8"/>Μουτου
                           <lb n="9"/>μαυρ
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                       </ab>
                   </div>
               </div>
             <div type="apparatus"> 
                   <listApp>
+<<<<<<< HEAD
+                      <app xml:lang=""/> <!--if you don't need the apparatus, just delete the xml:lang-->
+=======
                       <app/> <!--if you don't need the apparatus, just delete the xml:lang-->
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                   </listApp>
               </div>
             <div type="translation">
@@ -439,6 +501,10 @@
                   <p/>
               </div>
             <div type="bibliography" subtype="parallels">
+<<<<<<< HEAD
+                
+=======
+>>>>>>> e18d859e7364a74055fc13ae581f6b996dc00d6c
                 <p> (1) American Numismatic Society, Mabbott, no. 223 – <bibl><ptr target="LaurentCorpus2"/>, no. <citedRange unit="entry">886</citedRange></bibl> ; (2) American Numismatic Society, Mabbott, no. 333 – <bibl><ptr target="LaurentCorpus2"/>, no. <citedRange unit="entry">886</citedRange></bibl> ; (3) Yambol, Historical Museum, no. 5463 – <bibl><ptr target="JordanovCorpus2"/>, no. <citedRange unit="entry">427</citedRange></bibl>; <bibl><ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry">936</citedRange></bibl>; <bibl><ptr target="Jordanov2002"/>, p. <citedRange unit="page">28-29</citedRange>, no. <citedRange unit="entry">7</citedRange></bibl> ; (4) private collection (V. Vurbanov, Bulgaria) – <bibl><ptr target="JordanovCorpus2"/>, nos. <citedRange unit="entry">428</citedRange></bibl>; <bibl><ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry">937</citedRange></bibl>; <bibl><ptr target="Jordanov2002"/>, p. <citedRange unit="page">28-29</citedRange>, no. <citedRange unit="entry">8</citedRange></bibl> ; (5) private collection (Bulgaria) – <bibl><ptr target="JordanovCorpus2"/>, no. <citedRange unit="entry">429</citedRange></bibl>; <bibl><ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry">938</citedRange></bibl> (in both cases only a mention). (1) and (2) don’t seem to have been struck by the same boulloterion as ours.                   
                   </p>
               </div>
